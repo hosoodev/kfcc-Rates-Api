@@ -29,8 +29,8 @@
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/your-username/kfcc-crawler.git
-cd kfcc-crawler/backend
+git clone https://github.com/hosoodev/kfcc-Rates-Api.git
+cd kfcc-Rates-Api/backend
 ```
 
 ### 2. 의존성 설치
@@ -212,7 +212,7 @@ CRAWLER_CONFIG = {
 ```python
 GRADE_CONFIG = {
     'enabled': True,            # 수집 활성화
-    'collection_month': 7,      # 수집 월 (7월)
+    'collection_month': [7, 9], # 수집 월 (7월, 9월 - 7월은 정상, 9월은 테스트용)
     'evaluation_year': 2025,    # 평가 연도
     'evaluation_month': 6,      # 평가 기준 월 (6월)
     'retry_count': 3,
@@ -246,7 +246,7 @@ python src/main.py --grades
 
 ### 자동 실행
 - **금리 크롤링**: 매일 오전 10시 (KST)
-- **경영실태평가**: 매년 7월 1일
+- **경영실태평가**: 매년 7월 1일, 9월 1일 (7월은 정상, 9월은 테스트용)
 - **데이터 정리**: 매일 (30일 이상 된 데이터)
 
 ### 수동 실행
@@ -320,9 +320,9 @@ MIT License
 
 ## 📞 지원
 
-- **이슈**: [GitHub Issues](https://github.com/your-username/kfcc-crawler/issues)
-- **문서**: [Wiki](https://github.com/your-username/kfcc-crawler/wiki)
-- **토론**: [Discussions](https://github.com/your-username/kfcc-crawler/discussions)
+- **이슈**: [GitHub Issues](https://github.com/hosoodev/kfcc-Rates-Api/issues)
+- **문서**: [Wiki](https://github.com/hosoodev/kfcc-Rates-Api/wiki)
+- **토론**: [Discussions](https://github.com/hosoodev/kfcc-Rates-Api/discussions)
 
 ## 📋 체크리스트
 

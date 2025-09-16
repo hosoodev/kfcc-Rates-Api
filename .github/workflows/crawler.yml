@@ -55,8 +55,8 @@ jobs:
         env:
           TZ: Asia/Seoul
       
-      - name: Collect grade evaluations (September for testing)
-        if: github.event.schedule == '0 2 1 9 *' || github.event_name == 'workflow_dispatch'
+      - name: Collect grade evaluations (July and September)
+        if: github.event.schedule == '0 2 1 7 *' || github.event.schedule == '0 2 1 9 *' || github.event_name == 'workflow_dispatch'
         run: |
           python src/main.py --grades
         env:

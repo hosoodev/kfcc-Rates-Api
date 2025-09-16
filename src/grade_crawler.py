@@ -38,7 +38,13 @@ class GradeCrawler:
             return True
         
         current_month = datetime.now().month
-        return current_month == GRADE_CONFIG['collection_month']
+        collection_months = GRADE_CONFIG['collection_month']
+        
+        # collection_month가 리스트인지 단일 값인지 확인
+        if isinstance(collection_months, list):
+            return current_month in collection_months
+        else:
+            return current_month == collection_months
     
     def fetch_grade_for_bank(self, gmgo_cd, bank_name, city='', district=''):
         """특정 금고의 경영실태평가 데이터 수집"""

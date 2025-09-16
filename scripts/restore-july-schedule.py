@@ -18,9 +18,9 @@ def restore_july_schedule():
         with open(config_file, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # collection_month를 7로 변경
+        # collection_month를 7로 변경 (배열에서 단일 값으로)
         content = re.sub(
-            r"'collection_month': \d+,.*# 수집 월.*",
+            r"'collection_month': \[.*?\],.*# 수집 월.*",
             "'collection_month': 7,  # 수집 월 (7월)",
             content
         )
@@ -36,14 +36,14 @@ def restore_july_schedule():
         with open(workflow_file, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # 9월을 7월로 변경
+        # 7월과 9월을 7월만으로 변경
         content = re.sub(
-            r"Collect grade evaluations \(September for testing\)",
+            r"Collect grade evaluations \(July and September\)",
             "Collect grade evaluations (July only)",
             content
         )
         content = re.sub(
-            r"if: github\.event\.schedule == '0 2 1 9 \*'",
+            r"if: github\.event\.schedule == '0 2 1 7 \*' \|\| github\.event\.schedule == '0 2 1 9 \*'",
             "if: github.event.schedule == '0 2 1 7 *'",
             content
         )
