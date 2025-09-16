@@ -1,0 +1,3649 @@
+{
+  "metadata": {
+    "date": "2025-09-15",
+    "total_banks": 74,
+    "successful_banks": 74,
+    "crawled_at": "2025-09-15T00:33:07.066174",
+    "version": "1.1"
+  },
+  "summary": {
+    "total_banks": 74,
+    "total_products": 292,
+    "average_rate": 1.33,
+    "rate_range": {
+      "min": 0.01,
+      "max": 3.5
+    },
+    "duration_stats": {
+      "0": {
+        "count": 135,
+        "average_rate": 0.11,
+        "min_rate": 0.01,
+        "max_rate": 1.0
+      },
+      "12": {
+        "count": 116,
+        "average_rate": 2.5,
+        "min_rate": 1.6,
+        "max_rate": 3.1
+      },
+      "6": {
+        "count": 41,
+        "average_rate": 2.01,
+        "min_rate": 1.0,
+        "max_rate": 3.5
+      }
+    },
+    "product_type_stats": {
+      "요구불예탁금": {
+        "count": 135,
+        "average_rate": 0.11
+      },
+      "거치식예탁금": {
+        "count": 64,
+        "average_rate": 2.64
+      },
+      "적립식예탁금": {
+        "count": 93,
+        "average_rate": 2.19
+      }
+    },
+    "crawled_at": "2025-09-15T00:33:07.066174"
+  },
+  "rates": [
+    {
+      "bank": {
+        "gmgoCd": "6707",
+        "name": "호근(본점)",
+        "type": "지역",
+        "phone": "064-739-7533",
+        "address": "제주 서귀포시 호근서호로 123",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.9,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.9%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:40.605019",
+      "total_products": 2
+    },
+    {
+      "bank": {
+        "gmgoCd": "6706",
+        "name": "서호(새서귀포)",
+        "type": "지역",
+        "phone": "064-739-7148",
+        "address": "제주 서귀포시 김정문화로 57",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:41.345484",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6706",
+        "name": "서호(본점)",
+        "type": "지역",
+        "phone": "064-739-7144",
+        "address": "제주 서귀포시 서호로 33",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:41.383303",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6708",
+        "name": "강정(본점)",
+        "type": "지역",
+        "phone": "064-739-1008",
+        "address": "제주 서귀포시 이어도로 567",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:41.426119",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6702",
+        "name": "서귀포(광장)",
+        "type": "지역",
+        "phone": "064-732-9181",
+        "address": "제주 서귀포시 일주동로 8667",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.119228"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:41.754962",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6702",
+        "name": "서귀포(본점)",
+        "type": "지역",
+        "phone": "064-733-2250",
+        "address": "제주 서귀포시 중앙로 42",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.119228"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:41.797375",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6702",
+        "name": "서귀포(동홍)",
+        "type": "지역",
+        "phone": "064-767-9495",
+        "address": "제주 서귀포시 일주동로 8620",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.119228"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:42.016216",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6704",
+        "name": "서홍(남부)",
+        "type": "지역",
+        "phone": "064-733-2493",
+        "address": "제주 서귀포시 일주동로 8700",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:42.448396",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6704",
+        "name": "서홍(본점)",
+        "type": "지역",
+        "phone": "064-763-2216",
+        "address": "제주 서귀포시 중산간동로 8037",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:42.501242",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6705",
+        "name": "법환(본점)",
+        "type": "지역",
+        "phone": "064-739-6801",
+        "address": "제주 서귀포시 이어도로 930-1",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:42.954827",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6713",
+        "name": "동홍(본점)",
+        "type": "지역",
+        "phone": "064-763-0033",
+        "address": "제주 서귀포시 동홍중앙로 3",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:44.484162",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6713",
+        "name": "동홍(제1)",
+        "type": "지역",
+        "phone": "064-763-2012",
+        "address": "제주 서귀포시 중산간동로 8002-2",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:44.522145",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6713",
+        "name": "동홍(제2)",
+        "type": "지역",
+        "phone": "064-763-2014",
+        "address": "제주 서귀포시 중정로91번길 1",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:44.559536",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6711",
+        "name": "하원(본점)",
+        "type": "지역",
+        "phone": "064-738-0184",
+        "address": "제주 서귀포시 하원로19번길 24",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:45.688222",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6733",
+        "name": "제주남원동부(고성)",
+        "type": "지역",
+        "phone": "064-782-3184",
+        "address": "제주 서귀포시 성산읍 고성오조로 72",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:45.765225",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6733",
+        "name": "제주남원동부(본점)",
+        "type": "지역",
+        "phone": "064-764-8001",
+        "address": "제주 서귀포시 남원읍 태위로 654",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:45.831172",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6710",
+        "name": "대포(본점)",
+        "type": "지역",
+        "phone": "064-738-5758",
+        "address": "제주 서귀포시 대포로 79",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.6,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:45.910299",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6710",
+        "name": "대포(중문)",
+        "type": "지역",
+        "phone": "064-738-1166",
+        "address": "제주 서귀포시 천제연로 237",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.120276"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.6,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:45.972548",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6716",
+        "name": "산남(본점)",
+        "type": "지역",
+        "phone": "064-763-8585",
+        "address": "제주 서귀포시 일주동로 8558",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:46.012574",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6716",
+        "name": "산남(도순)",
+        "type": "지역",
+        "phone": "064-739-1730",
+        "address": "제주 서귀포시 일주서로 329",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:46.051886",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6733",
+        "name": "제주남원동부(성산)",
+        "type": "지역",
+        "phone": "064-782-3368",
+        "address": "제주 서귀포시 성산읍 성산중앙로 23",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:47.064640",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6734",
+        "name": "신례(본점)",
+        "type": "지역",
+        "phone": "064-767-2727",
+        "address": "제주 서귀포시 남원읍 신례중앙로 26",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.121504"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.2,
+          "duration_text": "",
+          "rate_text": "연0.2%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:47.309469",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6739",
+        "name": "의귀(본점)",
+        "type": "지역",
+        "phone": "064-764-4454",
+        "address": "제주 서귀포시 남원읍 한신로 217",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:48.267461",
+      "total_products": 2
+    },
+    {
+      "bank": {
+        "gmgoCd": "6738",
+        "name": "남제주(본점)",
+        "type": "지역",
+        "phone": "064-794-2206",
+        "address": "제주 서귀포시 대정읍 영서중로 5-6",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.077089",
+      "total_products": 2
+    },
+    {
+      "bank": {
+        "gmgoCd": "6738",
+        "name": "남제주(덕수)",
+        "type": "지역",
+        "phone": "064-794-4131",
+        "address": "제주 서귀포시 안덕면 덕수서로 58",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.123072",
+      "total_products": 2
+    },
+    {
+      "bank": {
+        "gmgoCd": "6735",
+        "name": "태흥(본점)",
+        "type": "지역",
+        "phone": "064-764-0920",
+        "address": "제주 서귀포시 남원읍 태위로 928",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.3,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.214610",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6735",
+        "name": "태흥(제1분사무소)",
+        "type": "지역",
+        "phone": "064-764-9703",
+        "address": "제주 서귀포시 남원읍 태위로 810",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.3,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.426776",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6742",
+        "name": "서귀포동부(본점)",
+        "type": "지역",
+        "phone": "064-762-6807",
+        "address": "제주 서귀포시 솔동산로 12",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.75,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.75%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.656981",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6742",
+        "name": "서귀포동부(상효)",
+        "type": "지역",
+        "phone": "064-762-3894",
+        "address": "제주 서귀포시 상효로 152",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.75,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.75%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.667083",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6741",
+        "name": "예래동(본점)",
+        "type": "지역",
+        "phone": "064-738-3357",
+        "address": "제주 서귀포시 열리로 80",
+        "city": "제주",
+        "district": "서귀포시",
+        "crawled_at": "2025-09-15T00:32:37.122594"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.9,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.9%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:49.779327",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6601",
+        "name": "제주(일도)",
+        "type": "지역",
+        "phone": "064-757-7432",
+        "address": "제주 제주시 신산로 8",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:50.404579",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6601",
+        "name": "제주(본점)",
+        "type": "지역",
+        "phone": "064-757-3425",
+        "address": "제주 제주시 고마로 49",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:50.442572",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6601",
+        "name": "제주(이도)",
+        "type": "지역",
+        "phone": "064-757-8550",
+        "address": "제주 제주시 신설로 55",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:50.721320",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6602",
+        "name": "중앙(본점)",
+        "type": "지역",
+        "phone": "064-757-8001",
+        "address": "제주 제주시 동광로2길 2",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.2,
+          "duration_text": "",
+          "rate_text": "연0.2%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:52.063018",
+      "total_products": 2
+    },
+    {
+      "bank": {
+        "gmgoCd": "6604",
+        "name": "동제주(본점)",
+        "type": "지역",
+        "phone": "064-758-4880",
+        "address": "제주 제주시 일주동로 338",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 1.93,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.93%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.85,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.85%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:52.480817",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6604",
+        "name": "동제주(삼화)",
+        "type": "지역",
+        "phone": "064-725-4880",
+        "address": "제주 제주시 화삼로 55",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 1.93,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.93%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.85,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.85%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:52.514921",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6603",
+        "name": "용담(용담2동)",
+        "type": "지역",
+        "phone": "064-711-7411",
+        "address": "제주 제주시 용문로 155",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 3.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연3.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.9,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.9%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.180814",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6603",
+        "name": "용담(본점)",
+        "type": "지역",
+        "phone": "064-757-7411",
+        "address": "제주 제주시 용담로 128",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.243262"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 3.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연3.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.9,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.9%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.238361",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6605",
+        "name": "신제주(본점)",
+        "type": "지역",
+        "phone": "064-742-2458",
+        "address": "제주 제주시 연동11길 14",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.2,
+          "duration_text": "",
+          "rate_text": "연0.2%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.2,
+          "duration_text": "",
+          "rate_text": "연0.2%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.9,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.9%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 3.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연3.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.402645",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6606",
+        "name": "노형(정존)",
+        "type": "지역",
+        "phone": "064-749-5080",
+        "address": "제주 제주시 수덕로 29",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.55,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.55%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.725746",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6606",
+        "name": "노형(서부)",
+        "type": "지역",
+        "phone": "064-743-5080",
+        "address": "제주 제주시 노형로 337",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.55,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.55%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.736861",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6606",
+        "name": "노형(본점)",
+        "type": "지역",
+        "phone": "064-746-5080",
+        "address": "제주 제주시 다랑곶길 1",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.55,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.55%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.3,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:54.795048",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6608",
+        "name": "아라(본점)",
+        "type": "지역",
+        "phone": "064-702-7020",
+        "address": "제주 제주시 중앙로 587",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.3,
+          "duration_text": "",
+          "rate_text": "연0.3%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.4,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.4%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:55.671441",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6615",
+        "name": "동문(본점)",
+        "type": "지역",
+        "phone": "064-752-0137",
+        "address": "제주 제주시 중앙로13길 34",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:56.969641",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6609",
+        "name": "제주서부(본점)",
+        "type": "지역",
+        "phone": "064-742-2600",
+        "address": "제주 제주시 우정로 32",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:57.064079",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6609",
+        "name": "제주서부(한라대학로)",
+        "type": "지역",
+        "phone": "064-743-2500",
+        "address": "제주 제주시 한라대학로 89",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.244287"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:57.134787",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6616",
+        "name": "한빛(본점)",
+        "type": "지역",
+        "phone": "064-722-2154",
+        "address": "제주 제주시 도남로 41",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:57.249406",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6615",
+        "name": "동문(탐라)",
+        "type": "지역",
+        "phone": "064-751-0137",
+        "address": "제주 제주시 박성내동길 27",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:57.474630",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6621",
+        "name": "항운노조(본점)",
+        "type": "지역",
+        "phone": "064-758-7409",
+        "address": "제주 제주시 만덕로3길 2",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:57.910611",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6619",
+        "name": "개인택시(본점)",
+        "type": "지역",
+        "phone": "064-747-2483",
+        "address": "제주 제주시 남녕로4길 43",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.15,
+          "duration_text": "",
+          "rate_text": "연0.15%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.3,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.3%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:58.617704",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6617",
+        "name": "호남(신제주)",
+        "type": "지역",
+        "phone": "064-744-6300",
+        "address": "제주 제주시 신광로 96",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.01,
+          "duration_text": "",
+          "rate_text": "연0.01%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:59.241593",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6617",
+        "name": "호남(본점)",
+        "type": "지역",
+        "phone": "064-755-6400",
+        "address": "제주 제주시 오현길 69",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.01,
+          "duration_text": "",
+          "rate_text": "연0.01%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:59.301420",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6617",
+        "name": "호남(도남)",
+        "type": "지역",
+        "phone": "064-751-6800",
+        "address": "제주 제주시 청사로 85",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.245311"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.01,
+          "duration_text": "",
+          "rate_text": "연0.01%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:59.358760",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6623",
+        "name": "열린(본점)",
+        "type": "지역",
+        "phone": "064-758-1301",
+        "address": "제주 제주시 관덕로13길 9",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 3.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연3.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:32:59.977302",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6622",
+        "name": "한라(본점)",
+        "type": "지역",
+        "phone": "064-721-4212",
+        "address": "제주 제주시 서사로 150",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 1.0,
+          "duration_text": "",
+          "rate_text": "연1.0%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:01.281663",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6625",
+        "name": "하나(중앙)",
+        "type": "지역",
+        "phone": "064-745-3080",
+        "address": "제주 제주시 연북로 33",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.75,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.75%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:01.821661",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6625",
+        "name": "하나(만덕)",
+        "type": "지역",
+        "phone": "064-757-3080",
+        "address": "제주 제주시 동문로 131",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.75,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.75%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:01.879750",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6624",
+        "name": "한솔(본점)",
+        "type": "지역",
+        "phone": "064-757-8800",
+        "address": "제주 제주시 남광북5길 4",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.011934",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6625",
+        "name": "하나(본점)",
+        "type": "지역",
+        "phone": "064-753-8080",
+        "address": "제주 제주시 서사로 40",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.75,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.75%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.5,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.019163",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6719",
+        "name": "곽지(본점)",
+        "type": "지역",
+        "phone": "064-799-0476",
+        "address": "제주 제주시 애월읍 곽지남2길 2",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.7,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.7%",
+          "product_type": "거치식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.044494",
+      "total_products": 3
+    },
+    {
+      "bank": {
+        "gmgoCd": "6722",
+        "name": "서제주(본점)",
+        "type": "지역",
+        "phone": "064-799-7774",
+        "address": "제주 제주시 애월읍 일주서로 6693",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.440912",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6722",
+        "name": "서제주(연동)",
+        "type": "지역",
+        "phone": "064-711-7773",
+        "address": "제주 제주시 연오로 54",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.474030",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6723",
+        "name": "우리(본점)",
+        "type": "지역",
+        "phone": "064-799-2101",
+        "address": "제주 제주시 애월읍 장전로 113",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:02.502580",
+      "total_products": 1
+    },
+    {
+      "bank": {
+        "gmgoCd": "6718",
+        "name": "북제주(본점)",
+        "type": "지역",
+        "phone": "064-796-6661",
+        "address": "제주 제주시 한림읍 한림로 684",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.246414"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 2.0,
+          "duration_text": "6개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:03.709458",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6728",
+        "name": "납읍(본점)",
+        "type": "지역",
+        "phone": "064-799-4666",
+        "address": "제주 제주시 애월읍 중산간서로 5507",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.2,
+          "duration_text": "",
+          "rate_text": "연0.2%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.8,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.8%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.6,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.6%",
+          "product_type": "적립식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:04.763135",
+      "total_products": 5
+    },
+    {
+      "bank": {
+        "gmgoCd": "6727",
+        "name": "우정(본점)",
+        "type": "지역",
+        "phone": "064-783-6425",
+        "address": "제주 제주시 조천읍 신북로 216",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.3,
+          "duration_text": "",
+          "rate_text": "연0.3%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:05.241287",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6727",
+        "name": "우정(김녕)",
+        "type": "지역",
+        "phone": "064-783-5406",
+        "address": "제주 제주시 구좌읍 김녕로 83",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.3,
+          "duration_text": "",
+          "rate_text": "연0.3%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:05.273258",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6727",
+        "name": "우정(연북로)",
+        "type": "지역",
+        "phone": "064-753-6425",
+        "address": "제주 제주시 연북로 567",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.3,
+          "duration_text": "",
+          "rate_text": "연0.3%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.5,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.5%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기적금",
+          "duration_months": 6,
+          "interest_rate": 1.8,
+          "duration_text": "6개월 이상",
+          "rate_text": "연1.8%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:05.305766",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6724",
+        "name": "한마음(광령)",
+        "type": "지역",
+        "phone": "064-748-3267",
+        "address": "제주 제주시 애월읍 광성로 277",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.99,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.99%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:06.336645",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6724",
+        "name": "한마음(연동)",
+        "type": "지역",
+        "phone": "064-713-0676",
+        "address": "제주특별자치도 제주시 신대로 136",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.99,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.99%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:06.462455",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6724",
+        "name": "한마음(본점)",
+        "type": "지역",
+        "phone": "064-713-0713",
+        "address": "제주 제주시 애월읍 하귀로 75",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.99,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.99%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:06.500840",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6724",
+        "name": "한마음(신촌)",
+        "type": "지역",
+        "phone": "064-783-7111",
+        "address": "제주 제주시 조천읍 신촌4길 2",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.247438"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.05,
+          "duration_text": "",
+          "rate_text": "연0.05%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 2.6,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.6%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 1.99,
+          "duration_text": "12개월 이상",
+          "rate_text": "연1.99%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:06.525637",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6730",
+        "name": "참조은(본점)",
+        "type": "지역",
+        "phone": "064-796-4141",
+        "address": "제주 제주시 한림읍 일주서로 5761",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.248464"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 3.1,
+          "duration_text": "12개월 이상",
+          "rate_text": "연3.1%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:06.759127",
+      "total_products": 4
+    },
+    {
+      "bank": {
+        "gmgoCd": "6730",
+        "name": "참조은(연동)",
+        "type": "지역",
+        "phone": "064-746-4151",
+        "address": "제주 제주시 연북로 106",
+        "city": "제주",
+        "district": "제주시",
+        "crawled_at": "2025-09-15T00:32:37.248464"
+      },
+      "base_date": "",
+      "products": [
+        {
+          "product_name": "온라인자립예탁금",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "상상모바일통장",
+          "duration_months": 0,
+          "interest_rate": 0.1,
+          "duration_text": "",
+          "rate_text": "연0.1%",
+          "product_type": "요구불예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹정기예금",
+          "duration_months": 12,
+          "interest_rate": 3.1,
+          "duration_text": "12개월 이상",
+          "rate_text": "연3.1%",
+          "product_type": "거치식예탁금"
+        },
+        {
+          "product_name": "MG더뱅킹자유적금",
+          "duration_months": 12,
+          "interest_rate": 2.0,
+          "duration_text": "12개월 이상",
+          "rate_text": "연2.0%",
+          "product_type": "적립식예탁금"
+        }
+      ],
+      "crawled_at": "2025-09-15T00:33:07.045415",
+      "total_products": 4
+    }
+  ]
+}
