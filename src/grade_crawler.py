@@ -50,8 +50,16 @@ class GradeCrawler:
         """특정 금고의 경영실태평가 데이터 수집"""
         url = API_ENDPOINTS['grade_evaluation']
         
-        # 평가 기준일 생성 (YYYYMM 형식)
-        evaluation_date = f"{GRADE_CONFIG['evaluation_year']}{GRADE_CONFIG['evaluation_month']:02d}"
+        # 평가 기준일 생성 (YYYYMM 형식) - 현재 월에 맞는 평가 월 선택
+        current_month = datetime.now().month
+        if current_month in [1, 2, 3, 4, 5, 6, 7]:
+            # 1-7월: 6월 평가 기준
+            evaluation_month = 6
+        else:
+            # 8-12월: 12월 평가 기준
+            evaluation_month = 12
+        
+        evaluation_date = f"{GRADE_CONFIG['evaluation_year']}{evaluation_month:02d}"
         
         payload = {
             "procGbcd": "1",
@@ -135,7 +143,7 @@ class GradeCrawler:
                 'grade_description': grade_info['description'],
                 'collected_at': datetime.now().isoformat(),
                 'evaluation_year': GRADE_CONFIG['evaluation_year'],
-                'evaluation_month': GRADE_CONFIG['evaluation_month']
+                'evaluation_month': evaluation_month
             }
             
         except Exception as e:

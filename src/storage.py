@@ -321,9 +321,15 @@ class StorageManager:
             grades_dir = self.data_dir / "grades"
             grades_dir.mkdir(exist_ok=True)
             
-            # 파일명: grades_YYYY.json
-            current_year = datetime.now().year
-            filename = f"grades_{current_year}.json"
+            # 파일명: grades_YYYY_MM.json (월 정보 포함)
+            if grades_data:
+                evaluation_year = grades_data[0]['evaluation_year']
+                evaluation_month = grades_data[0]['evaluation_month']
+                filename = f"grades_{evaluation_year}_{evaluation_month:02d}.json"
+            else:
+                current_year = datetime.now().year
+                current_month = datetime.now().month
+                filename = f"grades_{current_year}_{current_month:02d}.json"
             filepath = grades_dir / filename
             
             # 데이터 구성
@@ -348,14 +354,16 @@ class StorageManager:
             print(f"❌ 경영실태평가 데이터 저장 실패: {e}")
             return False
     
-    def load_grades(self, year: int = None) -> Optional[Dict[str, Any]]:
+    def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
         """경영실태평가 데이터 로드"""
         try:
             if year is None:
                 year = datetime.now().year
+            if month is None:
+                month = datetime.now().month
             
             grades_dir = self.data_dir / "grades"
-            filepath = grades_dir / f"grades_{year}.json"
+            filepath = grades_dir / f"grades_{year}_{month:02d}.json"
             
             if not filepath.exists():
                 return None
@@ -367,9 +375,9 @@ class StorageManager:
             print(f"❌ 경영실태평가 데이터 로드 실패: {e}")
             return None
     
-    def get_grade_by_gmgo_cd(self, gmgo_cd: str, year: int = None) -> Optional[Dict[str, Any]]:
+    def get_grade_by_gmgo_cd(self, gmgo_cd: str, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
         """특정 금고 코드의 경영실태평가 데이터 가져오기"""
-        grades_data = self.load_grades(year)
+        grades_data = self.load_grades(year, month)
         if not grades_data:
             return None
         

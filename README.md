@@ -164,7 +164,7 @@ backend/
     "collected_at": "2025-09-15T21:44:14.134310",
     "total_banks": 41,
     "evaluation_year": 2025,
-    "evaluation_month": 6
+    "evaluation_month": [6, 12]
   },
   "grades": [
     {
@@ -179,7 +179,7 @@ backend/
       "grade_description": "경영상태가 양호한 상태",
       "collected_at": "2025-09-15T21:44:00.121619",
       "evaluation_year": 2025,
-      "evaluation_month": 6
+      "evaluation_month": [6, 12]
     }
   ]
 }
@@ -214,7 +214,7 @@ GRADE_CONFIG = {
     'enabled': True,            # 수집 활성화
     'collection_month': [7, 9], # 수집 월 (7월, 9월 - 7월은 정상, 9월은 테스트용)
     'evaluation_year': 2025,    # 평가 연도
-    'evaluation_month': 6,      # 평가 기준 월 (6월)
+    'evaluation_month': [6, 12], # 평가 기준 월 (6월, 12월)
     'retry_count': 3,
     'retry_delay': 1,
     'timeout': 10

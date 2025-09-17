@@ -2,14 +2,14 @@ name: Daily KFCC Crawler
 
 on:
   schedule:
-    # 매일 오전 1시 (UTC)에 실행 (한국시간 오전 10시)
-    - cron: '0 1 * * *'
+    # 매일 오전 5시 (UTC)에 실행 (한국시간 오전 2시)
+    - cron: '0 5 * * *'
   workflow_dispatch:
     inputs:
       cleanup_days:
         description: '정리할 오래된 데이터 일수'
         required: false
-        default: '30'
+        default: '365'
         type: string
 
 jobs:
@@ -55,8 +55,8 @@ jobs:
         env:
           TZ: Asia/Seoul
       
-      - name: Collect grade evaluations (July and September)
-        if: github.event.schedule == '0 2 1 7 *' || github.event.schedule == '0 2 1 9 *' || github.event_name == 'workflow_dispatch'
+      - name: Collect grade evaluations (January and July)
+        if: github.event.schedule == '0 5 15 1 *' || github.event.schedule == '0 5 15 7 *' || github.event_name == 'workflow_dispatch'
         run: |
           python src/main.py --grades
         env:
