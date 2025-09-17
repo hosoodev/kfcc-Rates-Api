@@ -77,6 +77,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
+          # CNAME 파일이 있다면 추가 (Custom Domain 보존)
+          if [ -f "CNAME" ]; then
+            git add CNAME
+          fi
           git commit -m "Daily crawl: $(date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
       
