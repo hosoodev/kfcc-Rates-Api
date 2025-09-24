@@ -1,11 +1,14 @@
 import requests
 import time
 import logging
+import json
+import os
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict, Optional, Tuple, Any
 from dataclasses import dataclass
 from urllib.parse import urlencode
+from pathlib import Path
 
 from config import REGIONS, CRAWLER_CONFIG, API_ENDPOINTS
 from parser import parse_bank_list, parse_interest_rates
@@ -231,17 +234,44 @@ class KFCCCrawler:
         return all_banks
     
     def collect_interest_rates_parallel(self, banks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """모든 금고의 금리 정보를 병렬로 수집"""
+        """모든 금고의 금리 정보를 병렬로 수집 (중간 저장 지원)"""
         logger.info("💰 금리 정보 수집 시작...")
+        
+        # 중간 저장 파일 경로
+        progress_file = Path("data/temp_rates_progress.json")
         all_rates = []
         
+        # 기존 진행 상황 로드
+        completed_banks = set()
+        if progress_file.exists():
+            try:
+                with open(progress_file, 'r', encoding='utf-8') as f:
+                    progress_data = json.load(f)
+                    all_rates = progress_data.get('rates', [])
+                    completed_banks = set(progress_data.get('completed_banks', []))
+                    logger.info(f"🔄 이전 진행 상황 복원: {len(completed_banks)}개 금고 완료")
+            except Exception as e:
+                logger.warning(f"진행 상황 로드 실패: {e}")
+        
+        # 아직 처리되지 않은 금고들만 필터링
+        remaining_banks = [bank for bank in banks if bank.get('gmgoCd') not in completed_banks]
+        
+        if not remaining_banks:
+            logger.info("✅ 모든 금고 처리 완료")
+            # 임시 파일 삭제
+            if progress_file.exists():
+                progress_file.unlink()
+            return all_rates
+        
+        logger.info(f"📋 남은 작업: {len(remaining_banks)}개 금고")
+        
         with ThreadPoolExecutor(max_workers=CRAWLER_CONFIG['max_workers_rate']) as executor:
-            completed = 0
+            completed = len(completed_banks)
             total = len(banks)
             
             future_to_bank = {
                 executor.submit(self.fetch_interest_rates, bank): bank
-                for bank in banks
+                for bank in remaining_banks
             }
             
             for future in as_completed(future_to_bank):
@@ -252,15 +282,42 @@ class KFCCCrawler:
                         all_rates.append(rates)
                     
                     completed += 1
+                    completed_banks.add(bank.get('gmgoCd'))
+                    
+                    # 중간 저장 (20개마다)
                     if completed % 20 == 0:
+                        self._save_progress(all_rates, completed_banks, progress_file)
                         logger.info(f"진행률: {completed}/{total} ({completed/total*100:.1f}%)")
                         
                 except Exception as e:
                     logger.error(f"처리 오류: {bank.get('name', 'Unknown')} - {e}")
                     self.stats['errors'].append(f"{bank.get('name', 'Unknown')}: {str(e)}")
+                    completed += 1
+        
+        # 최종 완료 시 임시 파일 삭제
+        if progress_file.exists():
+            progress_file.unlink()
         
         logger.info(f"💰 총 {len(all_rates)}개 금고의 금리 정보 수집 완료")
         return all_rates
+    
+    def _save_progress(self, all_rates: List[Dict[str, Any]], completed_banks: set, progress_file: Path) -> None:
+        """진행 상황을 중간 저장"""
+        try:
+            progress_data = {
+                'rates': all_rates,
+                'completed_banks': list(completed_banks),
+                'saved_at': datetime.now().isoformat()
+            }
+            
+            # data 디렉토리 생성
+            progress_file.parent.mkdir(parents=True, exist_ok=True)
+            
+            with open(progress_file, 'w', encoding='utf-8') as f:
+                json.dump(progress_data, f, ensure_ascii=False, indent=2)
+                
+        except Exception as e:
+            logger.warning(f"진행 상황 저장 실패: {e}")
     
     def run(self) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
         """전체 크롤링 프로세스 실행"""

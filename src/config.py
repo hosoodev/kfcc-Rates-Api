@@ -79,8 +79,8 @@ REGIONS = {
 # 크롤링 설정
 CRAWLER_CONFIG = {
     'timeout': 10,
-    'max_workers_list': 4,  # 은행 목록 수집 시 최대 워커 수
-    'max_workers_rate': 4,  # 금리 수집 시 최대 워커 수
+    'max_workers_list': 5,  # 은행 목록 수집 시 최대 워커 수
+    'max_workers_rate': 10,  # 금리 수집 시 최대 워커 수
     'retry_count': 3,  # 재시도 횟수
     'retry_delay': 1  # 재시도 간격 (초)
 }

@@ -3,7 +3,8 @@ name: Daily KFCC Crawler
 on:
   schedule:
     # 매일 오후 5시 (UTC)에 실행 (한국시간 오전 2시)
-    - cron: '0 17 * * *'
+    # - cron: '0 17 * * *'
+    - cron: '0 0 * * *' #오전 9시
   workflow_dispatch:
     inputs:
       cleanup_days:
@@ -53,7 +54,7 @@ jobs:
       - name: Run crawler (with retry)
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 50
+          timeout_minutes: 120
           max_attempts: 3
           command: |
             if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
