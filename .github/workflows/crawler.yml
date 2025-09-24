@@ -12,9 +12,14 @@ on:
         default: '365'
         type: string
 
+concurrency:
+  group: daily-kfcc-crawler
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     
     steps:
       - name: Checkout code
@@ -45,20 +50,28 @@ jobs:
           mkdir -p data/rates
           mkdir -p logs
       
-      - name: Run crawler
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python src/main.py --cleanup ${{ github.event.inputs.cleanup_days }}
-          else
-            python src/main.py --cleanup 30
-          fi
+      - name: Run crawler (with retry)
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 50
+          max_attempts: 3
+          command: |
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              python src/main.py --cleanup ${{ github.event.inputs.cleanup_days }}
+            else
+              python src/main.py --cleanup 30
+            fi
         env:
           TZ: Asia/Seoul
       
-      - name: Collect grade evaluations (January and July)
+      - name: Collect grade evaluations (January and July) (with retry)
         if: github.event.schedule == '0 5 15 1 *' || github.event.schedule == '0 5 15 7 *' || github.event_name == 'workflow_dispatch'
-        run: |
-          python src/main.py --grades
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 30
+          max_attempts: 3
+          command: |
+            python src/main.py --grades
         env:
           TZ: Asia/Seoul
       
@@ -81,7 +94,7 @@ jobs:
           if [ -f "CNAME" ]; then
             git add CNAME
           fi
-          git commit -m "Daily crawl: $(date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
+          git commit -m "Daily crawl: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
       
       - name: Upload data as artifact

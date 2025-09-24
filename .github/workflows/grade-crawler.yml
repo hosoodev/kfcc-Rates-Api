@@ -9,9 +9,14 @@ on:
         default: false
         type: boolean
 
+concurrency:
+  group: grade-eval-crawler
+  cancel-in-progress: false
+
 jobs:
   collect_grades:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     
     steps:
       - name: Checkout code
@@ -33,9 +38,13 @@ jobs:
         run: |
           mkdir -p data/grades
       
-      - name: Run grade crawler
-        run: |
-          python src/main.py --grades
+      - name: Run grade crawler (with retry)
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 20
+          max_attempts: 3
+          command: |
+            python src/main.py --grades
         env:
           TZ: Asia/Seoul
       
@@ -58,7 +67,7 @@ jobs:
           if [ -f "CNAME" ]; then
             git add CNAME
           fi
-          git commit -m "Grade evaluation crawl: $(date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
+          git commit -m "Grade evaluation crawl: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
       
       - name: Upload data as artifact

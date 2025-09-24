@@ -138,6 +138,9 @@ class StorageManager:
         
         success = self.save_json(bank_data, self.bank_list_file)
         if success:
+            # 레거시 호환: 압축본도 저장
+            self.save_json(bank_data, self.bank_list_file, compress=True)
+        if success:
             logger.info(f"🏦 은행 목록 저장 완료: {len(unique_banks)}개")
         
         return success
@@ -218,6 +221,9 @@ class StorageManager:
         
         success = self.save_json(existing_summary, summary_file)
         if success:
+            # 레거시 호환: 압축본도 저장
+            self.save_json(existing_summary, summary_file, compress=True)
+        if success:
             logger.info(f"📊 요약 데이터 저장 완료: {date_str}")
         
         return success
@@ -252,6 +258,15 @@ class StorageManager:
             
             shutil.copy2(filepath, backup_path)
             logger.debug(f"백업 생성: {backup_path}")
+            
+            # 레거시 호환: 백업 파일의 압축본도 생성 (.gz)
+            try:
+                gz_backup_path = backup_path.with_name(backup_path.name + '.gz')
+                with open(backup_path, 'rb') as f_in, gzip.open(gz_backup_path, 'wb') as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+                logger.debug(f"백업 압축본 생성: {gz_backup_path}")
+            except Exception as gz_err:
+                logger.warning(f"백업 압축본 생성 실패: {gz_err}")
             
             # 오래된 백업 정리 (7일 이상)
             self._cleanup_old_backups()
@@ -343,9 +358,9 @@ class StorageManager:
                 "grades": grades_data
             }
             
-            # JSON 파일로 저장
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+            # JSON 파일로 저장 (원본 및 압축본)
+            self.save_json(data, filepath)
+            self.save_json(data, filepath, compress=True)
             
             print(f"✓ 경영실태평가 데이터 저장 완료: {filepath}")
             return True
