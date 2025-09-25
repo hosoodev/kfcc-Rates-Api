@@ -37,6 +37,13 @@ class GradeCrawler:
         if os.getenv('FORCE_GRADE_COLLECTION', '').lower() == 'true':
             return True
         
+        # GitHub Actions workflow_dispatch에서 collect_grades가 true인 경우
+        if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('GITHUB_EVENT_NAME') == 'workflow_dispatch':
+            # GitHub Actions에서 전달된 입력값 확인
+            collect_grades = os.getenv('INPUT_COLLECT_GRADES', '').lower()
+            if collect_grades == 'true':
+                return True
+        
         current_month = datetime.now().month
         collection_months = GRADE_CONFIG['collection_month']
         
