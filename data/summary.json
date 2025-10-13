@@ -1398,5 +1398,55 @@
       }
     },
     "crawled_at": "2025-10-13T02:47:15.948405"
+  },
+  "2025-10-14": {
+    "total_banks": 3202,
+    "total_products": 13149,
+    "average_rate": 1.34,
+    "rate_range": {
+      "min": 0.0,
+      "max": 4.5
+    },
+    "duration_stats": {
+      "0": {
+        "count": 6167,
+        "average_rate": 0.12,
+        "min_rate": 0.0,
+        "max_rate": 2.6
+      },
+      "12": {
+        "count": 5046,
+        "average_rate": 2.5,
+        "min_rate": 0.7,
+        "max_rate": 4.5
+      },
+      "6": {
+        "count": 1936,
+        "average_rate": 2.17,
+        "min_rate": 0.01,
+        "max_rate": 3.5
+      }
+    },
+    "product_type_stats": {
+      "요구불예탁금": {
+        "count": 6167,
+        "average_rate": 0.12,
+        "min_rate": 0.0,
+        "max_rate": 2.6
+      },
+      "거치식예탁금": {
+        "count": 2686,
+        "average_rate": 2.55,
+        "min_rate": 1.0,
+        "max_rate": 3.31
+      },
+      "적립식예탁금": {
+        "count": 4296,
+        "average_rate": 2.32,
+        "min_rate": 0.01,
+        "max_rate": 4.5
+      }
+    },
+    "crawled_at": "2025-10-14T02:48:19.446799"
   }
 }
