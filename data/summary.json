@@ -1,54 +1,4 @@
 {
-  "2025-11-15": {
-    "total_banks": 3199,
-    "total_products": 13140,
-    "average_rate": 1.32,
-    "rate_range": {
-      "min": 0.0,
-      "max": 4.5
-    },
-    "duration_stats": {
-      "0": {
-        "count": 6161,
-        "average_rate": 0.12,
-        "min_rate": 0.0,
-        "max_rate": 2.3
-      },
-      "12": {
-        "count": 5047,
-        "average_rate": 2.48,
-        "min_rate": 0.7,
-        "max_rate": 4.5
-      },
-      "6": {
-        "count": 1932,
-        "average_rate": 2.15,
-        "min_rate": 0.01,
-        "max_rate": 3.5
-      }
-    },
-    "product_type_stats": {
-      "요구불예탁금": {
-        "count": 6161,
-        "average_rate": 0.12,
-        "min_rate": 0.0,
-        "max_rate": 2.3
-      },
-      "거치식예탁금": {
-        "count": 2684,
-        "average_rate": 2.53,
-        "min_rate": 1.0,
-        "max_rate": 3.31
-      },
-      "적립식예탁금": {
-        "count": 4295,
-        "average_rate": 2.3,
-        "min_rate": 0.01,
-        "max_rate": 4.5
-      }
-    },
-    "crawled_at": "2025-11-15T02:53:37.246958"
-  },
   "2025-11-16": {
     "total_banks": 3199,
     "total_products": 13140,
@@ -4498,5 +4448,55 @@
       }
     },
     "crawled_at": "2026-02-12T03:34:20.420530"
+  },
+  "2026-02-13": {
+    "total_banks": 3169,
+    "total_products": 13018,
+    "average_rate": 1.37,
+    "rate_range": {
+      "min": 0.0,
+      "max": 4.5
+    },
+    "duration_stats": {
+      "0": {
+        "count": 6088,
+        "average_rate": 0.13,
+        "min_rate": 0.0,
+        "max_rate": 2.7
+      },
+      "12": {
+        "count": 5021,
+        "average_rate": 2.58,
+        "min_rate": 0.7,
+        "max_rate": 4.5
+      },
+      "6": {
+        "count": 1909,
+        "average_rate": 2.17,
+        "min_rate": 0.01,
+        "max_rate": 3.5
+      }
+    },
+    "product_type_stats": {
+      "요구불예탁금": {
+        "count": 6088,
+        "average_rate": 0.13,
+        "min_rate": 0.0,
+        "max_rate": 2.7
+      },
+      "거치식예탁금": {
+        "count": 2678,
+        "average_rate": 2.68,
+        "min_rate": 1.0,
+        "max_rate": 3.1
+      },
+      "적립식예탁금": {
+        "count": 4252,
+        "average_rate": 2.33,
+        "min_rate": 0.01,
+        "max_rate": 4.5
+      }
+    },
+    "crawled_at": "2026-02-13T03:31:56.642903"
   }
 }
