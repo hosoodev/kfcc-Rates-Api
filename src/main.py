@@ -51,7 +51,7 @@ def print_summary(banks, rates, start_time):
     
     print("=" * 60)
 
-def run_crawler(cleanup_days=None, test_mode=False, test_branch=None):
+def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_banks=False):
     """
     크롤러 실행
     
@@ -59,13 +59,14 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None):
         cleanup_days (int): 오래된 데이터 정리 일수 (None이면 정리 안함)
         test_mode (bool): 테스트 모드 여부 (데이터 저장 안함)
         test_branch (str): 테스트할 특정 지점명 또는 코드
+        refresh_banks (bool): 은행 목록 캐시를 무시하고 새로 수집할지 여부
     """
     start_time = datetime.now()
     
     try:
         # 크롤러 초기화 및 실행
         crawler = KFCCCrawler()
-        banks, rates = crawler.run(test_branch=test_branch)
+        banks, rates = crawler.run(test_branch=test_branch, refresh_banks=refresh_banks)
         
         if not banks and not rates:
             if not test_mode:
@@ -193,11 +194,8 @@ def main():
         help='테스트 모드로 실행 (결과 출력만 하고 저장하지 않음)'
     )
 
-    parser.add_argument(
-        '--branch',
-        type=str,
-        help='테스트할 특정 지점명 또는 코드'
-    )
+    parser.add_argument('--branch', type=str, help='테스트 모드에서 특정 지점명 또는 금고코드 필터링')
+    parser.add_argument('--refresh', action='store_true', help='은행 목록 캐시를 무시하고 새로 수집')
     
     parser.add_argument(
         '--version', 
@@ -225,7 +223,8 @@ def main():
     success = run_crawler(
         cleanup_days=args.cleanup,
         test_mode=args.test,
-        test_branch=args.branch
+        test_branch=args.branch,
+        refresh_banks=args.refresh
     )
     
     if success:
