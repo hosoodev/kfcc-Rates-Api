@@ -138,6 +138,18 @@ class GradeCrawler:
             # 등급 정보 가져오기
             grade_info = GRADE_MAP.get(등급코드, {"name": "알수없음", "description": "등급 정보 없음"})
             
+            # BIS 비율 (자본적정성) 추출
+            # 패턴: 25000001 + (기관명) + | + 위험가중자산대비자기자본비율 + | + (당기) + | + (전기) + | + (증감)
+            bis_pattern = re.compile(r"25000001[^\|]+\|위험가중자산대비자기자본비율\|([^\|]+)")
+            bis_matches = bis_pattern.findall(data_str)
+            bis_ratio = bis_matches[0] if bis_matches else "0.00"
+            
+            # 출자배당율 추출
+            # 패턴: 14000003출자배당율 + | + (당기) + | + (전기) + | + (증감)
+            dividend_pattern = re.compile(r"14000003출자배당율\|([^\|]+)")
+            dividend_matches = dividend_pattern.findall(data_str)
+            dividend_rate = dividend_matches[0] if dividend_matches else "0.00"
+            
             return {
                 'gmgo_cd': gmgo_cd,
                 'bank_name': bank_name,
@@ -148,9 +160,9 @@ class GradeCrawler:
                 'grade_code': 등급코드,
                 'grade_name': grade_info['name'],
                 'grade_description': grade_info['description'],
-                'collected_at': datetime.now().isoformat(),
-                'evaluation_year': GRADE_CONFIG['evaluation_year'],
-                'evaluation_month': evaluation_month
+                'bis_ratio': bis_ratio,
+                'dividend_rate': dividend_rate,
+                'collected_at': datetime.now().isoformat()
             }
             
         except Exception as e:
