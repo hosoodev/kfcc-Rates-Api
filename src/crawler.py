@@ -334,27 +334,27 @@ class KFCCCrawler:
         
         try:
             # 1. 은행 목록 수집
-            banks_data = None
+            banks = None
             if test_branch and not refresh_banks:
-                # 테스트 모드이고 강체 요청이 아니면 캐시 로드 시도
-                cached_data = self.storage.load_banks() # Assuming self.storage exists and has load_banks
+                # 테스트 모드이고 강제 요청이 아니면 캐시 로드 시도
+                cached_data = self.storage.load_banks()
                 if cached_data and cached_data.get('banks'):
                     logger.info("📂 로컬 캐시에서 은행 목록을 로드했습니다.")
-                    banks_data = cached_data['banks']
+                    banks = cached_data['banks']
             
-            if not banks_data:
+            if not banks:
                 # If no cached data or refresh_banks is True, collect new bank lists
-                banks_data = self.collect_bank_lists_parallel() # Using existing collect_bank_lists_parallel
-                if not banks_data:
+                banks = self.collect_bank_lists_parallel()
+                if not banks:
                     logger.error("❌ 은행 목록 수집 실패")
-                    return # Changed return type to None, so return nothing
+                    return [], []
             
             # 2. 크롤링 대상 결정 (테스트 모드 여부)
             # 테스트 모드 (특정 지점만)
             if test_branch:
                 logger.info(f"🧪 테스트 모드: '{test_branch}' 지점 검색 중...")
                 filtered_banks = [
-                    b for b in banks_data 
+                    b for b in banks 
                     if test_branch in b['name'] or test_branch == b.get('gmgoCd')
                 ]
                 
