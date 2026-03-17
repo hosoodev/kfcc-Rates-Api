@@ -8,6 +8,11 @@ on:
         required: false
         default: false
         type: boolean
+      evaluation_date:
+        description: '평가 기준연월 (YYYYMM, 예: 202512)'
+        required: false
+        default: ''
+        type: string
 
 concurrency:
   group: grade-eval-crawler
@@ -44,7 +49,11 @@ jobs:
           timeout_minutes: 20
           max_attempts: 3
           command: |
-            python src/main.py --grades
+            if [ -n "${{ github.event.inputs.evaluation_date }}" ]; then
+              python src/main.py --grades --date "${{ github.event.inputs.evaluation_date }}"
+            else
+              python src/main.py --grades
+            fi
         env:
           TZ: Asia/Seoul
       

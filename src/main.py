@@ -122,9 +122,9 @@ def show_stats():
         if len(stats['available_dates']) > 10:
             print(f"  ... 외 {len(stats['available_dates']) - 10}개")
 
-def collect_grades():
+def collect_grades(evaluation_date=None):
     """경영실태평가 데이터 수집"""
-    print("📊 경영실태평가 데이터 수집 시작...")
+    print(f"📊 경영실태평가 데이터 수집 시작... {'(기준: ' + evaluation_date + ')' if evaluation_date else ''}")
     
     # 은행 목록 로드
     storage = StorageManager()
@@ -139,7 +139,7 @@ def collect_grades():
     
     # 경영실태평가 크롤러 실행
     grade_crawler = GradeCrawler()
-    grades_data = grade_crawler.collect_all_grades(banks)
+    grades_data = grade_crawler.collect_all_grades(banks, evaluation_date=evaluation_date)
     
     if grades_data:
         # 데이터 저장
@@ -187,6 +187,12 @@ def main():
         action='store_true',
         help='경영실태평가 데이터 수집 (7월에만 실행)'
     )
+    
+    parser.add_argument(
+        '--date',
+        type=str,
+        help='경영실태평가 기준연월 (YYYYMM)'
+    )
 
     parser.add_argument(
         '--test',
@@ -208,7 +214,7 @@ def main():
     # 경영실태평가 수집
     if args.grades:
         print_banner()
-        success = collect_grades()
+        success = collect_grades(evaluation_date=args.date)
         return 0 if success else 1
     
     # 통계만 출력하는 경우

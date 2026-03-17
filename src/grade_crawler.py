@@ -52,21 +52,30 @@ class GradeCrawler:
             return current_month in collection_months
         else:
             return current_month == collection_months
-    
-    def fetch_grade_for_bank(self, gmgo_cd, bank_name, city='', district=''):
+
+    def fetch_grade_for_bank(self, gmgo_cd, bank_name, city='', district='', evaluation_date=None):
         """특정 금고의 경영실태평가 데이터 수집"""
         url = API_ENDPOINTS['grade_evaluation']
         
-        # 평가 기준일 생성 (YYYYMM 형식) - 현재 월에 맞는 평가 월 선택
-        current_month = datetime.now().month
-        if current_month in [1, 2, 3, 4, 5, 6, 7]:
-            # 1-7월: 6월 평가 기준
-            evaluation_month = 6
+        # evaluation_date가 명시되지 않은 경우에만 자동 계산
+        if not evaluation_date:
+            # 평가 기준일 생성 (YYYYMM 형식) - 현재 월에 맞는 평가 월 선택
+            current_month = datetime.now().month
+            if current_month in [1, 2, 3, 4, 5, 6, 7]:
+                # 1-7월: 6월 평가 기준
+                evaluation_month = 6
+            else:
+                # 8-12월: 12월 평가 기준
+                evaluation_month = 12
+            
+            evaluation_date = f"{GRADE_CONFIG['evaluation_year']}{evaluation_month:02d}"
         else:
-            # 8-12월: 12월 평가 기준
-            evaluation_month = 12
-        
-        evaluation_date = f"{GRADE_CONFIG['evaluation_year']}{evaluation_month:02d}"
+            # 전달받은 날짜에서 월 정보 추출 (파싱 시 필드를 위해)
+            # YYYYMM 형식에서 뒤의 2자리
+            try:
+                evaluation_month = int(evaluation_date[4:6])
+            except:
+                evaluation_month = 12
         
         payload = {
             "procGbcd": "1",
@@ -110,7 +119,7 @@ class GradeCrawler:
         
         return None
     
-    def parse_grade_data(self, html, gmgo_cd, bank_name, city='', district=''):
+    def parse_grade_data(self, html, gmgo_cd, bank_name, city='', district='', evaluation_month=12):
         """경영실태평가 HTML 파싱"""
         try:
             soup = BeautifulSoup(html, 'html.parser')
@@ -169,9 +178,9 @@ class GradeCrawler:
             print(f"❌ 경영실태평가 파싱 중 오류 발생 (금고: {bank_name}): {e}")
             return None
     
-    def collect_all_grades(self, banks):
+    def collect_all_grades(self, banks, evaluation_date=None):
         """모든 금고의 경영실태평가 수집"""
-        if not self.should_collect_grades():
+        if not evaluation_date and not self.should_collect_grades():
             print("📅 경영실태평가 수집 시기가 아닙니다. (7월에만 수집)")
             return []
         
@@ -183,7 +192,7 @@ class GradeCrawler:
         # 병렬 처리로 수집
         with ThreadPoolExecutor(max_workers=5) as executor:
             future_to_bank = {
-                executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('city', ''), bank.get('district', '')): bank 
+                executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('city', ''), bank.get('district', ''), evaluation_date=evaluation_date): bank 
                 for bank in banks
             }
             
