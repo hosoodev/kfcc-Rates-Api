@@ -192,20 +192,37 @@ class InterestRateParser:
         # cells 수로 rowspan 여부 판단:
         #   상품명 셀 포함 행 → cells >= 3 (상품명 | 기간 | 금리)
         #   rowspan 연속 행   → cells == 2  (기간 | 금리)
+        #   요구불예탁금(특수) → cells == 2  (상품명 | 금리) - rowspan 없음
+        
         first_cell_text = cells[0].get_text(strip=True)
-        if len(cells) >= 3 or (len(cells) == 2 and not current_product_name):
-            # 첫 번째 셀이 상품명인 경우
-            product_name = first_cell_text
+        
+        if product_type == '요구불예탁금':
+            # 요구불예탁금은 기간이 없으므로 cells가 2개인 경우 [상품명, 금리]로 해석
+            if len(cells) == 2:
+                product_name = first_cell_text
+            else:
+                product_name = current_product_name or first_cell_text
         else:
-            # rowspan 연속 행: 상품명 셀이 없으므로 이전 상품명 사용
-            product_name = current_product_name
+            # 거치식/적립식 (rowspan 가능)
+            if len(cells) >= 3:
+                # 첫 번째 셀이 상품명인 경우
+                product_name = first_cell_text
+            elif len(cells) == 2 and current_product_name:
+                # rowspan 연속 행: 상품명 셀이 없으므로 이전 상품명 사용
+                product_name = current_product_name
+            else:
+                # 예외 상황: cells가 2개인데 이전 상품명이 없으면 첫 번째 셀을 상품명으로 시도
+                product_name = first_cell_text
 
         # 상품 유형별 필터링
         if not InterestRateParser._is_valid_product(product_name, product_type):
             return None
 
-        # 기간과 금리 추출 (rowspan 행은 cells 전체가 기간+금리)
-        if len(cells) == 2 and current_product_name:
+        # 기간과 금리 추출
+        if product_type == '요구불예탁금':
+            duration_text = ""
+            rate_text = cells[-1].get_text(strip=True)
+        elif len(cells) == 2 and current_product_name:
             # rowspan 연속 행: cells[0]=기간, cells[1]=금리
             duration_text = cells[0].get_text(strip=True)
             rate_text = cells[1].get_text(strip=True)
