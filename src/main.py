@@ -51,24 +51,32 @@ def print_summary(banks, rates, start_time):
     
     print("=" * 60)
 
-def run_crawler(cleanup_days=None):
+def run_crawler(cleanup_days=None, test_mode=False, test_branch=None):
     """
     크롤러 실행
     
     Args:
         cleanup_days (int): 오래된 데이터 정리 일수 (None이면 정리 안함)
+        test_mode (bool): 테스트 모드 여부 (데이터 저장 안함)
+        test_branch (str): 테스트할 특정 지점명 또는 코드
     """
     start_time = datetime.now()
     
     try:
         # 크롤러 초기화 및 실행
         crawler = KFCCCrawler()
-        banks, rates = crawler.run()
+        banks, rates = crawler.run(test_branch=test_branch)
         
         if not banks and not rates:
-            print("❌ 크롤링 실패: 데이터를 수집할 수 없습니다")
+            if not test_mode:
+                print("❌ 크롤링 실패: 데이터를 수집할 수 없습니다")
             return False
         
+        # 테스트 모드인 경우 여기서 종료 (저장 안함)
+        if test_mode:
+            print("\n🧪 테스트 모드: 데이터 저장을 스킵합니다.")
+            return True
+            
         # 데이터 저장
         print("\n💾 데이터 저장 중...")
         save_all(banks, rates)
@@ -155,6 +163,7 @@ def main():
   python main.py                    # 기본 크롤링 실행
   python main.py --cleanup 30       # 30일 이상 된 데이터 정리하며 크롤링
   python main.py --stats            # 저장소 통계만 출력
+  python main.py --test --branch 강동 # '강동' 지점 테스트 크롤링 (저장 안함)
   python main.py --help             # 도움말 출력
         """
     )
@@ -176,6 +185,18 @@ def main():
         '--grades', 
         action='store_true',
         help='경영실태평가 데이터 수집 (7월에만 실행)'
+    )
+
+    parser.add_argument(
+        '--test',
+        action='store_true',
+        help='테스트 모드로 실행 (결과 출력만 하고 저장하지 않음)'
+    )
+
+    parser.add_argument(
+        '--branch',
+        type=str,
+        help='테스트할 특정 지점명 또는 코드'
     )
     
     parser.add_argument(
@@ -201,10 +222,15 @@ def main():
     # 크롤링 실행
     print_banner()
     
-    success = run_crawler(cleanup_days=args.cleanup)
+    success = run_crawler(
+        cleanup_days=args.cleanup,
+        test_mode=args.test,
+        test_branch=args.branch
+    )
     
     if success:
-        print("\n🎉 크롤링이 성공적으로 완료되었습니다!")
+        if not args.test:
+            print("\n🎉 크롤링이 성공적으로 완료되었습니다!")
         return 0
     else:
         print("\n💥 크롤링이 실패했습니다.")

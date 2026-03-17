@@ -319,8 +319,13 @@ class KFCCCrawler:
         except Exception as e:
             logger.warning(f"진행 상황 저장 실패: {e}")
     
-    def run(self) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-        """전체 크롤링 프로세스 실행"""
+    def run(self, test_branch: Optional[str] = None) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+        """
+        전체 크롤링 프로세스 실행
+        
+        Args:
+            test_branch (str): 테스트할 특정 지점명 또는 코드
+        """
         logger.info("🚀 새마을금고 금리 크롤링 시작")
         start_time = time.time()
         
@@ -330,6 +335,35 @@ class KFCCCrawler:
             if not banks:
                 logger.error("❌ 은행 목록 수집 실패")
                 return [], []
+
+            # 테스트 모드 (특정 지점만)
+            if test_branch:
+                logger.info(f"🧪 테스트 모드: '{test_branch}' 지점 검색 중...")
+                filtered_banks = [
+                    b for b in banks 
+                    if test_branch in b['name'] or test_branch == b.get('gmgoCd')
+                ]
+                
+                if not filtered_banks:
+                    logger.error(f"❌ '{test_branch}'에 해당하는 지점을 찾을 수 없습니다.")
+                    return [], []
+                
+                logger.info(f"🔍 {len(filtered_banks)}개 지점 발견. 금리 수집 중...")
+                test_rates = []
+                for bank in filtered_banks:
+                    rate = self.fetch_interest_rates(bank)
+                    if rate:
+                        test_rates.append(rate)
+                        # 콘솔에 결과 출력
+                        print("\n" + "=" * 40)
+                        print(f"🏦 금고명: {bank['name']} ({bank.get('gmgoCd', 'N/A')})")
+                        print(f"📍 주소: {bank.get('address', 'N/A')}")
+                        print("-" * 40)
+                        for prod in rate.get('products', []):
+                            print(f"  [{prod['product_type']}] {prod['product_name']:20s} | {prod['duration_months']:2d}개월 | {prod['interest_rate']}%")
+                        print("=" * 40)
+
+                return filtered_banks, test_rates
             
             # 2단계: 금리 정보 수집
             rates = self.collect_interest_rates_parallel(banks)
@@ -346,6 +380,8 @@ class KFCCCrawler:
             
         except Exception as e:
             logger.error(f"❌ 크롤링 중 오류 발생: {e}")
+            import traceback
+            traceback.print_exc()
             return [], []
         finally:
             self.session.close()
