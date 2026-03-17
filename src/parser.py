@@ -179,21 +179,40 @@ class InterestRateParser:
         return date_match.strip() if date_match else ""
     
     @staticmethod
-    def parse_product_row(cells: List, product_type: str) -> Optional[Dict[str, Any]]:
-        """상품 행 파싱"""
+    def parse_product_row(cells: List, product_type: str,
+                          current_product_name: str = "") -> Optional[Dict[str, Any]]:
+        """상품 행 파싱
+        
+        rowspan 구조 처리: cells[0]에 상품명이 없는 행(기간+금리만 있는 행)은
+        current_product_name(이전 행에서 전달된 상품명)을 사용한다.
+        """
         if len(cells) < 2:
             return None
-        
-        product_name = cells[0].get_text(strip=True)
-        
+
+        # cells 수로 rowspan 여부 판단:
+        #   상품명 셀 포함 행 → cells >= 3 (상품명 | 기간 | 금리)
+        #   rowspan 연속 행   → cells == 2  (기간 | 금리)
+        first_cell_text = cells[0].get_text(strip=True)
+        if len(cells) >= 3 or (len(cells) == 2 and not current_product_name):
+            # 첫 번째 셀이 상품명인 경우
+            product_name = first_cell_text
+        else:
+            # rowspan 연속 행: 상품명 셀이 없으므로 이전 상품명 사용
+            product_name = current_product_name
+
         # 상품 유형별 필터링
         if not InterestRateParser._is_valid_product(product_name, product_type):
             return None
-        
-        # 기간과 금리 추출
-        duration_text, rate_text = InterestRateParser._extract_duration_and_rate(
-            cells, product_type
-        )
+
+        # 기간과 금리 추출 (rowspan 행은 cells 전체가 기간+금리)
+        if len(cells) == 2 and current_product_name:
+            # rowspan 연속 행: cells[0]=기간, cells[1]=금리
+            duration_text = cells[0].get_text(strip=True)
+            rate_text = cells[1].get_text(strip=True)
+        else:
+            duration_text, rate_text = InterestRateParser._extract_duration_and_rate(
+                cells, product_type
+            )
         
         # 숫자 변환
         duration = InterestRateParser._parse_duration(duration_text)
@@ -304,11 +323,20 @@ def parse_interest_rates(html: str, bank_info: Dict[str, Any],
             logger.debug(f"금리 테이블을 찾을 수 없음: {bank_info.get('name', 'Unknown')}")
             return []
         
-        # 상품 정보 추출
+        # 상품 정보 추출 (rowspan 구조: 상품명 셀이 여러 행에 걸침)
         products = []
+        current_product_name = ""  # rowspan 추적용
         for row in rows:
             cells = row.find_all('td')
-            product = parser.parse_product_row(cells, product_type)
+            if not cells:
+                continue
+
+            # 첫 번째 셀에 rowspan이 있으면 상품명 갱신
+            first_cell = cells[0]
+            if first_cell.get('rowspan'):
+                current_product_name = first_cell.get_text(strip=True)
+
+            product = parser.parse_product_row(cells, product_type, current_product_name)
             if product:
                 products.append(product)
         
