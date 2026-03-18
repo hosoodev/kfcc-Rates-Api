@@ -16,6 +16,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ref: main
           fetch-depth: 0
 
@@ -39,10 +40,9 @@ jobs:
             cp -r data/grades/* /tmp/api_root/grades/
           fi
           
-          # 4. ✨ 은행 목록 메타데이터 복사 (config.BANK_LIST_FILE 경로에 맞게 수정 필요)
-          # 예: 보통 data 폴더 바로 아래나 backups 폴더에 저장됨
-          if [ -f "data/bank_list.json" ]; then
-            cp data/bank_list.json /tmp/api_root/meta/banks.json
+          # 4. ✨ 은행 목록 메타데이터 복사 (V2 hierarchical banks.json)
+          if [ -f "data/meta/banks.json" ]; then
+            cp data/meta/banks.json /tmp/api_root/meta/banks.json
           fi
 
           # CNAME 파일 복사

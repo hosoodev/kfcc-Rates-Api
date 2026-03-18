@@ -194,7 +194,7 @@ class StorageManager:
                         "address": e.get('address'),
                         "phone": e.get('phone'),
                         "district": e.get('district')
-                    } for e in entries
+                    } for e in entries if e.get('name') != head.get('name')
                 ]
             })
             
