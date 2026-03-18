@@ -62,7 +62,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/v2/
-          git commit -m "Patch: Hourly mBank update $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git commit -m "시간별 패치: 모바일뱅킹 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
 
       # V2 API Sync 워크플로우가 자동으로 실행되도록 설정되어 있으나, 

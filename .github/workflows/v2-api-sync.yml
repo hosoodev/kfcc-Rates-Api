@@ -102,5 +102,5 @@ jobs:
           cp -r /tmp/api_root/* .
           
           git add .
-          git commit -m "Auto Sync: Update V1 & V2 API data $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git commit -m "자동 동기화: V1 & V2 API 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push origin api-data

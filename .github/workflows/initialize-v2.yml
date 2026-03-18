@@ -36,6 +36,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
-          git commit -m "Init: Initialize V2 data from scratch" || exit 0
+          git commit -m "초기화: V2 데이터 전체 생성 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git pull --rebase origin main
           git push

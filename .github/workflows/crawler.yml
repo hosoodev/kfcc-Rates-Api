@@ -97,7 +97,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/
           [ -f "CNAME" ] && git add CNAME
-          git commit -m "Daily crawl: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
+          git commit -m "일일 크롤링: 금리 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
 
       - name: Upload data as artifact
