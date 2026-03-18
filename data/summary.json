@@ -4582,59 +4582,59 @@
     "crawled_at": "2026-03-17T03:30:18.010209"
   },
   "2026-03-18": {
-    "total_banks": 3156,
-    "total_products": 17231,
-    "average_rate": 1.72,
+    "total_banks": 1237,
+    "total_products": 6384,
+    "average_rate": 1.69,
     "rate_range": {
       "min": 0.0,
       "max": 4.5
     },
     "duration_stats": {
       "0": {
-        "count": 6075,
-        "average_rate": 0.12,
+        "count": 2347,
+        "average_rate": 0.13,
         "min_rate": 0.0,
         "max_rate": 2.7
       },
       "12": {
-        "count": 7476,
-        "average_rate": 2.78,
+        "count": 2719,
+        "average_rate": 2.8,
         "min_rate": 0.7,
         "max_rate": 4.5
       },
       "3": {
-        "count": 867,
-        "average_rate": 1.94,
+        "count": 307,
+        "average_rate": 1.91,
         "min_rate": 0.1,
         "max_rate": 2.99
       },
       "6": {
-        "count": 2813,
-        "average_rate": 2.26,
+        "count": 1011,
+        "average_rate": 2.25,
         "min_rate": 0.01,
         "max_rate": 3.5
       }
     },
     "product_type_stats": {
       "요구불예탁금": {
-        "count": 6075,
-        "average_rate": 0.12,
+        "count": 2347,
+        "average_rate": 0.13,
         "min_rate": 0.0,
         "max_rate": 2.7
       },
       "거치식예탁금": {
-        "count": 4460,
-        "average_rate": 2.59,
+        "count": 1630,
+        "average_rate": 2.61,
         "min_rate": 0.1,
         "max_rate": 3.69
       },
       "적립식예탁금": {
-        "count": 6696,
+        "count": 2407,
         "average_rate": 2.58,
         "min_rate": 0.01,
         "max_rate": 4.5
       }
     },
-    "crawled_at": "2026-03-18T09:32:39.674067"
+    "crawled_at": "2026-03-18T18:10:39.909339"
   }
 }
