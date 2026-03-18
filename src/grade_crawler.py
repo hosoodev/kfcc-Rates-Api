@@ -99,22 +99,22 @@ class GradeCrawler:
                 )
                 response.raise_for_status()
                 
-                grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, city, district)
+                grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, city, district, evaluation_month=evaluation_month)
                 if grade_data:
-                    print(f"[OK] {bank_name}: Grade data collected")
+                    print(f"✓ {bank_name}: 경영실태평가 수집 완료")
                     return grade_data
                 else:
-                    print(f"[Skip] {bank_name}: No grade data found")
+                    print(f"✗ {bank_name}: 경영실태평가 데이터 없음")
                     return None
                     
             except requests.exceptions.RequestException as e:
-                print(f"[Error] {bank_name} collection failed (Attempt {attempt + 1}/{GRADE_CONFIG['retry_count']}): {e}")
+                print(f"✗ {bank_name} 경영실태평가 수집 실패 (시도 {attempt + 1}/{GRADE_CONFIG['retry_count']}): {e}")
                 if attempt < GRADE_CONFIG['retry_count'] - 1:
                     time.sleep(GRADE_CONFIG['retry_delay'])
                 else:
                     return None
             except Exception as e:
-                print(f"[Error] {bank_name} parsing error: {e}")
+                print(f"✗ {bank_name} 경영실태평가 파싱 오류: {e}")
                 return None
         
         return None
@@ -178,13 +178,13 @@ class GradeCrawler:
             }
             
         except Exception as e:
-            print(f"[Error] Parsing error for {bank_name}: {e}")
+            print(f"❌ 경영실태평가 파싱 중 오류 발생 (금고: {bank_name}): {e}")
             return None
     
     def collect_all_grades(self, banks, evaluation_date=None):
         """모든 금고의 경영실태평가 수집"""
         if not evaluation_date and not self.should_collect_grades():
-            print("Collection period not active (usually Jan or Jul).")
+            print("📅 경영실태평가 수집 시기가 아닙니다. (1월 또는 7월에 수집)")
             return []
         
         # evaluation_date에서 월 추출 (6월인 경우 전년도 배당율 참조 필요)
@@ -198,7 +198,7 @@ class GradeCrawler:
             eval_month = 6 if current_month in range(1, 8) else 12
             eval_year = eval_year # GRADE_CONFIG['evaluation_year'] (보통 current_year)
 
-        print(f"Grade evaluation collection started... (Base: {eval_year}/{eval_month}, Total {len(banks)} banks)")
+        print(f"📊 경영실태평가 데이터 수집 시작... (기준: {eval_year}년 {eval_month:02d}월, 총 {len(banks)}개 금고)")
         
         # 6월 공시인 경우 전년도 12월 배당율 데이터 로드
         prev_dividend_map = {}
@@ -211,7 +211,7 @@ class GradeCrawler:
                 prev_file = data_dir / f"grades_{eval_year - 1}_12.json"
                 
                 if prev_file.exists():
-                    print(f"Box Previous year dividend rate data loaded: {prev_file.name}")
+                    print(f"📦 전년도 배당율 참조 데이터 로드: {prev_file.name}")
                     with open(prev_file, "r", encoding="utf-8") as f:
                         prev_data = json.load(f)
                         for g in prev_data.get("grades", []):
@@ -221,9 +221,9 @@ class GradeCrawler:
                                     "year": g.get("evaluation_year", str(eval_year - 1))
                                 }
                 else:
-                    print(f"Warning Previous year dividend rate data ({prev_file.name}) not found.")
+                    print(f"⚠️ 전년도 배당율 데이터({prev_file.name})를 찾을 수 없습니다. 배당율이 0으로 표시될 수 있습니다.")
             except Exception as e:
-                print(f"Warning Error loading previous year data: {e}")
+                print(f"⚠️ 전년도 데이터 로드 중 오류: {e}")
 
         all_grades = []
         successful_count = 0
@@ -247,14 +247,14 @@ class GradeCrawler:
                             if gmgo_cd in prev_dividend_map:
                                 grade_data['dividend_rate'] = prev_dividend_map[gmgo_cd]['rate']
                                 grade_data['dividend_rate_year'] = prev_dividend_map[gmgo_cd]['year']
-                                print(f"  - {bank['name']}: Applied previous year dividend ({grade_data['dividend_rate']}% from {grade_data['dividend_rate_year']})")
+                                print(f"  - {bank['name']}: 전년도 배당율 적용 ({grade_data['dividend_rate']}% from {grade_data['dividend_rate_year']})")
                             else:
-                                print(f"  - {bank['name']}: GMGO code {gmgo_cd} not found in previous data")
+                                print(f"  - {bank['name']}: 전년도 데이터에서 금고코드 {gmgo_cd}를 찾을 수 없습니다.")
                         
                         all_grades.append(grade_data)
                         successful_count += 1
                 except Exception as e:
-                    print(f"[Error] {bank['name']} collection error: {e}")
+                    print(f"✗ {bank['name']}: 경영실태평가 수집 중 오류 - {e}")
         
-        print(f"Collection completed: {successful_count}/{len(banks)} banks successful")
+        print(f"📊 경영실태평가 수집 완료: {successful_count}/{len(banks)}개 금고")
         return all_grades
