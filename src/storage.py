@@ -338,8 +338,8 @@ class StorageManager:
             
             # 파일명: grades_YYYY_MM.json (월 정보 포함)
             if grades_data:
-                evaluation_year = grades_data[0]['evaluation_year']
-                evaluation_month = grades_data[0]['evaluation_month']
+                evaluation_year = grades_data[0].get('evaluation_year', datetime.now().year)
+                evaluation_month = grades_data[0].get('evaluation_month', 12)
                 filename = f"grades_{evaluation_year}_{evaluation_month:02d}.json"
             else:
                 current_year = datetime.now().year
@@ -352,8 +352,8 @@ class StorageManager:
                 "collection_info": {
                     "collected_at": datetime.now().isoformat(),
                     "total_banks": len(grades_data),
-                    "evaluation_year": grades_data[0]['evaluation_year'] if grades_data else None,
-                    "evaluation_month": grades_data[0]['evaluation_month'] if grades_data else None
+                    "evaluation_year": grades_data[0].get('evaluation_year') if grades_data else None,
+                    "evaluation_month": grades_data[0].get('evaluation_month') if grades_data else None
                 },
                 "grades": grades_data
             }

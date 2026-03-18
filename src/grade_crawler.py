@@ -171,7 +171,9 @@ class GradeCrawler:
                 'grade_description': grade_info['description'],
                 'bis_ratio': bis_ratio,
                 'dividend_rate': dividend_rate,
-                'collected_at': datetime.now().isoformat()
+                'collected_at': datetime.now().isoformat(),
+                'evaluation_year': 기준일[:4],
+                'evaluation_month': evaluation_month
             }
             
         except Exception as e:
