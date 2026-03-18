@@ -33,8 +33,8 @@ jobs:
           mkdir -p /tmp/api_root
           
           # [V1 레거시 경로 세팅]
-          mkdir -p /tmp/api_root/rates
-          mkdir -p /tmp/api_root/grades
+          mkdir -p /tmp/api_root/data/rates
+          mkdir -p /tmp/api_root/data/grades
           
           # [V2 전용 경로 세팅]
           mkdir -p /tmp/api_root/v2/rates
@@ -46,21 +46,24 @@ jobs:
           # ---------------------------------------------------------
           # V1 금리 데이터 (json, gz 모두 포함)
           if [ -d "data/rates" ]; then
-            cp -r data/rates/* /tmp/api_root/rates/
+            cp -r data/rates/* /tmp/api_root/data/rates/
           fi
           # V1 경영 데이터
           if [ -d "data/grades" ]; then
-            cp -r data/grades/* /tmp/api_root/grades/
+            cp -r data/grades/* /tmp/api_root/data/grades/
           fi
-          # V1 메타 데이터 (루트에 있는 banks.json, banks.json.gz, summary.json)
+          # V1 메타 데이터 (루트에 있는 banks.json, banks.json.gz, summary.json 등)
           if [ -f "data/banks.json" ]; then
-            cp data/banks.json /tmp/api_root/
+            cp data/banks.json /tmp/api_root/data/
           fi
           if [ -f "data/banks.json.gz" ]; then
-            cp data/banks.json.gz /tmp/api_root/
+            cp data/banks.json.gz /tmp/api_root/data/
           fi
           if [ -f "data/summary.json" ]; then
-            cp data/summary.json /tmp/api_root/
+            cp data/summary.json /tmp/api_root/data/
+          fi
+          if [ -f "data/summary.json.gz" ]; then
+            cp data/summary.json.gz /tmp/api_root/data/
           fi
 
           # ---------------------------------------------------------
