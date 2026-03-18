@@ -402,6 +402,135 @@ class StorageManager:
         
         return None
     
+    def build_v2_api(self, rates: List[Dict[str, Any]], grades: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+        """
+        V2 API용 초경량 해시맵 데이터 생성
+        - deposit.json (거치식)
+        - saving.json (적립식)
+        - demand.json (요구불/파킹)
+        """
+        now_iso = datetime.now().isoformat()
+        
+        # 금고 코드별 경영지표 매핑
+        grade_map = {g['gmgo_cd']: g for g in grades}
+        
+        # V2 데이터 구조 초기화
+        v2_data = {
+            "deposit": {"updated_at": now_iso, "data": []},
+            "saving": {"updated_at": now_iso, "data": []},
+            "demand": {"updated_at": now_iso, "data": []}
+        }
+
+        # 각 타입별로 데이터를 분류하여 저장하기 위한 임시 맵 {type: {gmgoCd: bank_data}}
+        temp_maps = {
+            "deposit": {},
+            "saving": {},
+            "demand": {}
+        }
+
+        for bank in rates:
+            gmgo_cd = bank.get('gmgoCd')
+            grade_info = grade_map.get(gmgo_cd, {})
+            
+            # 기본 정보 템플릿
+            def get_base_info():
+                return {
+                    "gmgoCd": gmgo_cd,
+                    "name": bank.get('name'),
+                    "region": bank.get('city'),
+                    "grade": grade_info.get('grade_code'),
+                    "bis_ratio": float(grade_info.get('bis_ratio', 0)) if grade_info.get('bis_ratio') else None,
+                    "products": {}
+                }
+
+            # 상품 분류 및 데이터 구조화
+            for product in bank.get('products', []):
+                p_name = product.get('name', 'Unknown')
+                p_type = product.get('type', '거치식예탁금')
+                
+                # V2 스키마 분류
+                schema_key = "deposit"
+                if "적립식" in p_type:
+                    schema_key = "saving"
+                elif "요구불" in p_type:
+                    schema_key = "demand"
+
+                # 해당 스키마 맵에 금고가 없으면 추가
+                if gmgo_cd not in temp_maps[schema_key]:
+                    temp_maps[schema_key][gmgo_cd] = get_base_info()
+                
+                bank_entry = temp_maps[schema_key][gmgo_cd]
+                
+                if p_name not in bank_entry["products"]:
+                    bank_entry["products"][p_name] = {}
+                
+                # 금리 정보 (개월수 기준 해시맵)
+                month = str(product.get('month', 0))
+                bank_entry["products"][p_name][month] = {
+                    "r": product.get('rate', 0),
+                    "s": "w" # Web source
+                }
+
+        # 맵을 리스트로 변환
+        for key in v2_data:
+            v2_data[key]["data"] = list(temp_maps[key].values())
+
+        return v2_data
+
+    def upsert_mbank_patch(self, v2_data: Dict[str, Any], mbank_rates: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        모바일 크롤링 데이터를 V2 API 데이터에 덮어쓰기 (Upsert)
+        - mbank_rates 구조: [{"gmgoCd": "...", "prdtNm": "...", "rate": 5.5, "month": 12}, ...]
+        """
+        # updated_at 갱신
+        v2_data["updated_at"] = datetime.now().isoformat()
+        
+        # 금고 코드별로 빠르게 찾기 위해 매핑
+        bank_map = {bank["gmgoCd"]: bank for bank in v2_data["data"]}
+        
+        updated_count = 0
+        for patch in mbank_rates:
+            gmgo_cd = patch.get("gmgoCd")
+            prdt_nm = patch.get("prdtNm")
+            rate = patch.get("rate")
+            month = str(patch.get("month", "12"))
+            
+            if gmgo_cd in bank_map:
+                bank = bank_map[gmgo_cd]
+                if prdt_nm not in bank["products"]:
+                    bank["products"][prdt_nm] = {}
+                
+                # 기존 데이터 덮어쓰기 및 출처 변경
+                bank["products"][prdt_nm][month] = {
+                    "r": rate,
+                    "s": "m" # mBank source
+                }
+                updated_count += 1
+        
+        logger.info(f"📱 모바일 데이터 패치 완료: {updated_count}건 업데이트")
+        return v2_data
+
+    def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
+        """
+        V2 API 데이터를 파일로 저장
+        - v2/deposit.json, v2/saving.json, v2/demand.json
+        """
+        try:
+            v2_dir = self.data_dir / "v2"
+            v2_dir.mkdir(exist_ok=True)
+            
+            success = True
+            for key, data in v2_data_all.items():
+                filepath = v2_dir / f"{key}.json"
+                success &= self.save_json(data, filepath, pretty=False) # 용량 최적화를 위해 pretty=False
+            
+            if success:
+                logger.info(f"🚀 V2 API 데이터 저장 완료: {v2_dir}")
+            return success
+        except Exception as e:
+            logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
+            return False
+    
     def cleanup_old_data(self, days_to_keep: int = 30) -> int:
         """
         오래된 데이터 파일 정리

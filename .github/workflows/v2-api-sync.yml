@@ -1,0 +1,56 @@
+name: Sync V2 API Data
+
+on:
+  workflow_run:
+    workflows: ["Daily KFCC Crawler", "Grade Crawler"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  sync-v2:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Deploy to api-data branch
+        run: |
+          # data/v2 디렉토리가 있는지 확인
+          if [ ! -d "data/v2" ]; then
+            echo "⚠️ data/v2 디렉토리가 없습니다. 동기화를 중단합니다."
+            exit 0
+          fi
+
+          # 임시 디렉토리에 V2 데이터 복사
+          mkdir -p /tmp/v2_api_data
+          cp -r data/v2/* /tmp/v2_api_data/
+          
+          # CNAME 파일이 있다면 복사 (GitHub Pages용)
+          if [ -f "CNAME" ]; then
+            cp CNAME /tmp/v2_api_data/
+          fi
+
+          # api-data 브랜치로 전환 (없으면 생성)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # api-data 브랜치 체크아웃 (오픈된 상태로 시작)
+          if git rev-parse --verify origin/api-data >/dev/null 2>&1; then
+            git checkout api-data
+          else
+            git checkout --orphan api-data
+            git rm -rf .
+          fi
+
+          # 데이터 복구 및 커밋
+          rm -rf *
+          cp -r /tmp/v2_api_data/* .
+          
+          git add .
+          git commit -m "Update V2 API data: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git push origin api-data

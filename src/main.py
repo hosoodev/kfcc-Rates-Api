@@ -13,8 +13,10 @@ from datetime import datetime
 from crawler import KFCCCrawler
 try:
     from .grade_crawler import GradeCrawler
+    from .mbank_crawler import MBankCrawler
 except ImportError:
     from grade_crawler import GradeCrawler
+    from mbank_crawler import MBankCrawler
 try:
     from .storage import save_all, get_storage_stats, cleanup_old_data, StorageManager
 except ImportError:
@@ -82,6 +84,16 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         print("\n💾 데이터 저장 중...")
         save_all(banks, rates)
         
+        # V2 API 데이터 생성 및 저장 (Side-by-Side)
+        print("🚀 V2 Static API를 생성 중...")
+        storage = StorageManager()
+        # 최근 수집된 등급 데이터 로드
+        grades_data = storage.load_grades()
+        grades = grades_data.get('grades', []) if grades_data else []
+        
+        v2_api_all = storage.build_v2_api(rates, grades)
+        storage.save_v2_api(v2_api_all)
+
         # 오래된 데이터 정리
         if cleanup_days:
             print(f"\n🧹 {cleanup_days}일 이상 된 데이터 정리 중...")
@@ -91,7 +103,6 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         print_summary(banks, rates, start_time)
         
         return True
-        
     except KeyboardInterrupt:
         print("\n⚠️ 사용자에 의해 중단되었습니다")
         return False
@@ -99,6 +110,41 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         print(f"\n❌ 실행 중 오류 발생: {e}")
         import traceback
         traceback.print_exc()
+        return False
+
+def run_patch(regions=None):
+    """모바일 크롤러를 통한 실시간 금리 패치 모드"""
+    print("📱 모바일 실시간 금리 패치를 시작합니다...")
+    start_time = datetime.now()
+    
+    try:
+        storage = StorageManager()
+        # 1. 기존 V2 데이터 로드 (deposit.json을 기준으로 업데이트)
+        v2_deposit = storage.load_json(storage.data_dir / "v2" / "deposit.json")
+        if not v2_deposit:
+            print("❌ 기존 V2 데이터가 없습니다. --mode base를 먼저 실행해주세요.")
+            return False
+        
+        # 2. 모바일 데이터 수집
+        mbank = MBankCrawler()
+        patch_data = mbank.collect_patch_data(regions=regions)
+        
+        if not patch_data:
+            print("⚠️ 수집된 모바일 데이터가 없습니다.")
+            return True
+            
+        # 3. 데이터 패치 (Upsert)
+        updated_v2 = storage.upsert_mbank_patch(v2_deposit, patch_data)
+        
+        # 4. 저장 (현재는 deposit 위주로 업데이트하는 예시)
+        storage.save_json(updated_v2, storage.data_dir / "v2" / "deposit.json", pretty=False)
+        
+        elapsed = (datetime.now() - start_time).total_seconds()
+        print(f"✅ 패치 완료: {len(patch_data)}건 수집됨 (소요시간: {elapsed:.2f}초)")
+        return True
+        
+    except Exception as e:
+        print(f"❌ 패치 중 오류 발생: {e}")
         return False
 
 def show_stats():
@@ -204,9 +250,16 @@ def main():
     parser.add_argument('--refresh', action='store_true', help='은행 목록 캐시를 무시하고 새로 수집')
     
     parser.add_argument(
+        '--mode',
+        choices=['base', 'patch'],
+        default='base',
+        help='실행 모드: base(전수조합+V2빌드), patch(모바일 실시간 업데이트)'
+    )
+
+    parser.add_argument(
         '--version', 
         action='version', 
-        version='새마을금고 금리 크롤러 v1.0'
+        version='새마을금고 금리 크롤러 v2.0'
     )
     
     args = parser.parse_args()
@@ -226,12 +279,17 @@ def main():
     # 크롤링 실행
     print_banner()
     
-    success = run_crawler(
-        cleanup_days=args.cleanup,
-        test_mode=args.test,
-        test_branch=args.branch,
-        refresh_banks=args.refresh
-    )
+    if args.mode == 'patch':
+        # 패치 모드 실행 (기본 서울/경기 등 지정 가능)
+        success = run_patch(regions=['서울', '경기'])
+    else:
+        # 베이스 모드 실행
+        success = run_crawler(
+            cleanup_days=args.cleanup,
+            test_mode=args.test,
+            test_branch=args.branch,
+            refresh_banks=args.refresh
+        )
     
     if success:
         if not args.test:
