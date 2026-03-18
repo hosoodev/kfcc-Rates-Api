@@ -130,8 +130,7 @@ def run_patch(regions=None):
         
         # 'all'인 경우 전체 지역 목록 가져오기
         if regions == ['all']:
-            from sigungu import REGIONS
-            regions = list(REGIONS.keys())
+            regions = list(mbank.sigungu_codes.keys())
             print(f"🌍 전체 지역 패치 모드: {len(regions)}개 지역 수집")
             
         patch_data = mbank.collect_patch_data(regions=regions)
