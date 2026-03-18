@@ -25,7 +25,7 @@ except ImportError:
 def print_banner():
     """프로그램 시작 배너 출력"""
     print("=" * 60)
-    print("🏦 새마을금고 금리 크롤러 v1.0")
+    print("🏦 새마을금고 금리 크롤러 v2.0")
     print("=" * 60)
     print(f"⏰ 실행 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
