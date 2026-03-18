@@ -1,0 +1,70 @@
+name: Hourly mBank Patch Crawler
+
+on:
+  schedule:
+    # 06:00 ~ 18:00 KST (21:00 ~ 09:00 UTC) 매시간 정각 실행
+    - cron: '0 21,22,23,0,1,2,3,4,5,6,7,8,9 * * *'
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: '패치할 지역 (콤마로 구분)'
+        required: false
+        default: '서울,경기'
+        type: string
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.12-slim
+    env:
+      TZ: Asia/Seoul
+
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update
+          apt-get install -y git
+          git config --global --add safe.directory /__w/kfcc-Rates-Api/kfcc-Rates-Api
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run patch crawler
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # 콤마 구분자 처리 필요 (main.py가 리스트를 받으므로)
+            python src/main.py --mode patch
+          else
+            # 기본 지역 패치
+            python src/main.py --mode patch
+          fi
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain data/v2/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push V2 changes to main
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/v2/
+          git commit -m "Patch: Hourly mBank update $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git push
+
+      # V2 API Sync 워크플로우가 자동으로 실행되도록 설정되어 있으나, 
+      # 명시적으로 api-data 브랜치에 푸시하는 로직을 추가하거나 
+      # v2-api-sync가 workflow_run으로 트리거되도록 합니다.

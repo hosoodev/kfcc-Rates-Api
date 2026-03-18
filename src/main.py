@@ -257,6 +257,12 @@ def main():
     )
 
     parser.add_argument(
+        '--regions',
+        type=str,
+        help='패치할 지역 (콤마로 구분, 예: 서울,경기)'
+    )
+
+    parser.add_argument(
         '--version', 
         action='version', 
         version='새마을금고 금리 크롤러 v2.0'
@@ -280,8 +286,9 @@ def main():
     print_banner()
     
     if args.mode == 'patch':
-        # 패치 모드 실행 (기본 서울/경기 등 지정 가능)
-        success = run_patch(regions=['서울', '경기'])
+        # 패치 모드 실행
+        regions = args.regions.split(',') if args.regions else ['서울', '경기']
+        success = run_patch(regions=regions)
     else:
         # 베이스 모드 실행
         success = run_crawler(
