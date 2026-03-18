@@ -501,25 +501,26 @@ class StorageManager:
             "demand": {}
         }
 
-        for bank in rates:
-            gmgo_cd = bank.get('gmgoCd')
+        for entry in rates:
+            bank_info = entry.get('bank', {})
+            gmgo_cd = bank_info.get('gmgoCd')
             grade_info = grade_map.get(gmgo_cd, {})
             
             # 기본 정보 템플릿
             def get_base_info():
                 return {
                     "gmgoCd": gmgo_cd,
-                    "name": bank.get('name'),
-                    "region": bank.get('city'),
+                    "name": bank_info.get('name'),
+                    "region": bank_info.get('city'),
                     "grade": grade_info.get('grade_code'),
                     "bis_ratio": float(grade_info.get('bis_ratio', 0)) if grade_info.get('bis_ratio') else None,
                     "products": {}
                 }
 
             # 상품 분류 및 데이터 구조화
-            for product in bank.get('products', []):
-                p_name = product.get('name', 'Unknown')
-                p_type = product.get('type', '거치식예탁금')
+            for product in entry.get('products', []):
+                p_name = product.get('product_name', 'Unknown')
+                p_type = product.get('product_type', '거치식예탁금')
                 
                 # V2 스키마 분류
                 schema_key = "deposit"
@@ -538,9 +539,9 @@ class StorageManager:
                     bank_entry["products"][p_name] = {}
                 
                 # 금리 정보 (개월수 기준 해시맵)
-                month = str(product.get('month', 0))
+                month = str(product.get('duration_months', 0))
                 bank_entry["products"][p_name][month] = {
-                    "r": product.get('rate', 0),
+                    "r": product.get('interest_rate', 0),
                     "s": "w" # Web source
                 }
 

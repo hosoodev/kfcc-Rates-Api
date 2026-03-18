@@ -3,7 +3,7 @@ name: Sync V2 API Data
 on:
   workflow_run:
     # 🚨 여기에 'Hourly mBank Patch Crawler'를 반드시 추가해야 매시간 실시간 데이터가 넘어갑니다!
-    workflows: ["Daily KFCC Crawler", "Grade Crawler", "Hourly mBank Patch Crawler"]
+    workflows: ["Daily KFCC Crawler", "Grade Crawler", "Hourly mBank Patch Crawler", "Initialize V2 Data"]
     types:
       - completed
   workflow_dispatch:
