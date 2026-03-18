@@ -2,7 +2,8 @@ name: Sync V2 API Data
 
 on:
   workflow_run:
-    workflows: ["Daily KFCC Crawler", "Grade Crawler"]
+    # 🚨 여기에 'Hourly mBank Patch Crawler'를 반드시 추가해야 매시간 실시간 데이터가 넘어갑니다!
+    workflows: ["Daily KFCC Crawler", "Grade Crawler", "Hourly mBank Patch Crawler"]
     types:
       - completed
   workflow_dispatch:
@@ -20,26 +21,39 @@ jobs:
 
       - name: Deploy to api-data branch
         run: |
-          # data/v2 디렉토리가 있는지 확인
           if [ ! -d "data/v2" ]; then
             echo "⚠️ data/v2 디렉토리가 없습니다. 동기화를 중단합니다."
             exit 0
           fi
 
-          # 임시 디렉토리에 V2 데이터 복사
-          mkdir -p /tmp/v2_api_data
-          cp -r data/v2/* /tmp/v2_api_data/
+          # 1. 임시 디렉토리 생성 및 구조 잡기
+          mkdir -p /tmp/api_root/v2/rates
+          mkdir -p /tmp/api_root/meta
+          mkdir -p /tmp/api_root/grades
+
+          # 2. 🚀 V2 금리 데이터 복사
+          cp -r data/v2/* /tmp/api_root/v2/rates/
           
-          # CNAME 파일이 있다면 복사 (GitHub Pages용)
-          if [ -f "CNAME" ]; then
-            cp CNAME /tmp/v2_api_data/
+          # 3. ✨ 경영실태평가 데이터 복사
+          if [ -d "data/grades" ]; then
+            cp -r data/grades/* /tmp/api_root/grades/
+          fi
+          
+          # 4. ✨ 은행 목록 메타데이터 복사 (config.BANK_LIST_FILE 경로에 맞게 수정 필요)
+          # 예: 보통 data 폴더 바로 아래나 backups 폴더에 저장됨
+          if [ -f "data/bank_list.json" ]; then
+            cp data/bank_list.json /tmp/api_root/meta/banks.json
           fi
 
-          # api-data 브랜치로 전환 (없으면 생성)
+          # CNAME 파일 복사
+          if [ -f "CNAME" ]; then
+            cp CNAME /tmp/api_root/
+          fi
+
+          # api-data 브랜치로 전환 및 데이터 교체
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # api-data 브랜치 체크아웃 (오픈된 상태로 시작)
           if git rev-parse --verify origin/api-data >/dev/null 2>&1; then
             git checkout api-data
           else
@@ -47,10 +61,10 @@ jobs:
             git rm -rf .
           fi
 
-          # 데이터 복구 및 커밋
+          # 기존 파일 삭제 후 새 파일 덮어쓰기
           rm -rf *
-          cp -r /tmp/v2_api_data/* .
+          cp -r /tmp/api_root/* .
           
           git add .
-          git commit -m "Update V2 API data: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git commit -m "Update V2 API & Meta data: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
           git push origin api-data
