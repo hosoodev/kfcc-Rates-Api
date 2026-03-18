@@ -445,13 +445,22 @@ class StorageManager:
     def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
         """경영실태평가 데이터 로드"""
         try:
-            if year is None:
-                year = datetime.now().year
-            if month is None:
-                month = datetime.now().month
-            
             grades_dir = self.data_dir / "grades"
-            filepath = grades_dir / f"grades_{year}_{month:02d}.json"
+            
+            if not grades_dir.exists():
+                return None
+                
+            if year is None or month is None:
+                # 저장된 파일 중 가장 최신의 파일을 찾아 로드
+                grade_files = list(grades_dir.glob("grades_*_*.json"))
+                if not grade_files:
+                    return None
+                grade_files.sort(reverse=True)
+                filepath = grade_files[0]
+            else:
+                filepath = grades_dir / f"grades_{year}_{month:02d}.json"
+                if not filepath.exists():
+                    return None
             
             if not filepath.exists():
                 return None
@@ -508,12 +517,18 @@ class StorageManager:
             
             # 기본 정보 템플릿
             def get_base_info():
+                bis_val = grade_info.get('bis_ratio')
+                if bis_val:
+                    try:
+                        bis_val = float(str(bis_val).replace(',', ''))
+                    except ValueError:
+                        bis_val = None
                 return {
                     "gmgoCd": gmgo_cd,
                     "name": bank_info.get('name'),
                     "region": bank_info.get('city'),
                     "grade": grade_info.get('grade_code'),
-                    "bis_ratio": float(grade_info.get('bis_ratio', 0)) if grade_info.get('bis_ratio') else None,
+                    "bis_ratio": bis_val,
                     "products": {}
                 }
 
