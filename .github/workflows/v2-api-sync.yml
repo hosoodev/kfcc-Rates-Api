@@ -2,7 +2,7 @@ name: Sync V2 API Data
 
 on:
   workflow_run:
-    # 🚨 여기에 'Hourly mBank Patch Crawler'를 반드시 추가해야 매시간 실시간 데이터가 넘어갑니다!
+    # 🚨 Base, Grade, Patch, Init 워크플로우 완료 시 자동 실행
     workflows: ["Daily KFCC Crawler", "Grade Crawler", "Hourly mBank Patch Crawler", "Initialize V2 Data"]
     types:
       - completed
@@ -22,35 +22,71 @@ jobs:
 
       - name: Deploy to api-data branch
         run: |
+          echo "🚀 V1 & V2 API 데이터 동기화 및 패키징 시작..."
+          
           if [ ! -d "data/v2" ]; then
             echo "⚠️ data/v2 디렉토리가 없습니다. 동기화를 중단합니다."
             exit 0
           fi
 
-          # 1. 임시 디렉토리 생성 및 구조 잡기
-          mkdir -p /tmp/api_root/v2/rates
-          mkdir -p /tmp/api_root/meta
-          mkdir -p /tmp/api_root/grades
-
-          # 2. 🚀 V2 금리 데이터 복사
-          cp -r data/v2/* /tmp/api_root/v2/rates/
+          # 1. 배포용 임시 루트 디렉토리 생성
+          mkdir -p /tmp/api_root
           
-          # 3. ✨ 경영실태평가 데이터 복사
+          # [V1 레거시 경로 세팅]
+          mkdir -p /tmp/api_root/rates
+          mkdir -p /tmp/api_root/grades
+          
+          # [V2 전용 경로 세팅]
+          mkdir -p /tmp/api_root/v2/rates
+          mkdir -p /tmp/api_root/v2/grades
+          mkdir -p /tmp/api_root/v2/meta
+
+          # ---------------------------------------------------------
+          # 2. V1 레거시 데이터 복사 (현재 라이브 서비스 무중단 유지용)
+          # ---------------------------------------------------------
+          # V1 금리 데이터 (json, gz 모두 포함)
+          if [ -d "data/rates" ]; then
+            cp -r data/rates/* /tmp/api_root/rates/
+          fi
+          # V1 경영 데이터
           if [ -d "data/grades" ]; then
             cp -r data/grades/* /tmp/api_root/grades/
           fi
-          
-          # 4. ✨ 은행 목록 메타데이터 복사 (V2 hierarchical banks.json)
-          if [ -f "data/meta/banks.json" ]; then
-            cp data/meta/banks.json /tmp/api_root/meta/banks.json
+          # V1 메타 데이터 (루트에 있는 banks.json, banks.json.gz, summary.json)
+          if [ -f "data/banks.json" ]; then
+            cp data/banks.json /tmp/api_root/
+          fi
+          if [ -f "data/banks.json.gz" ]; then
+            cp data/banks.json.gz /tmp/api_root/
+          fi
+          if [ -f "data/summary.json" ]; then
+            cp data/summary.json /tmp/api_root/
           fi
 
-          # CNAME 파일 복사
+          # ---------------------------------------------------------
+          # 3. V2 전용 데이터 복사 (V2 프론트엔드용, 모두 v2/ 하위로 묶음)
+          # ---------------------------------------------------------
+          # V2 금리 데이터
+          cp -r data/v2/* /tmp/api_root/v2/rates/
+          
+          # V2 경영 데이터 (V2에서도 동일한 원본 파일 참조)
+          if [ -d "data/grades" ]; then
+            cp -r data/grades/* /tmp/api_root/v2/grades/
+          fi
+          
+          # V2 전용 메타 데이터 (본점 포함 계층형 구조)
+          if [ -d "data/meta" ]; then
+            cp -r data/meta/* /tmp/api_root/v2/meta/
+          fi
+
+          # 4. CNAME 파일 복사
           if [ -f "CNAME" ]; then
             cp CNAME /tmp/api_root/
           fi
 
-          # api-data 브랜치로 전환 및 데이터 교체
+          # ---------------------------------------------------------
+          # 5. api-data 브랜치로 전환 및 데이터 교체
+          # ---------------------------------------------------------
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
@@ -66,5 +102,5 @@ jobs:
           cp -r /tmp/api_root/* .
           
           git add .
-          git commit -m "Update V2 API & Meta data: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git commit -m "Auto Sync: Update V1 & V2 API data $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
           git push origin api-data
