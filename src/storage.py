@@ -122,11 +122,9 @@ class StorageManager:
         # 백업 생성
         self._create_backup(self.bank_list_file)
         
-        # 중복 제거
+        # 1. [Legacy] data/banks.json 저장 (평면 구조 유지)
         unique_banks = self._remove_duplicate_banks(banks)
-        
-        # 메타데이터 추가
-        bank_data = {
+        bank_data_legacy = {
             'metadata': {
                 'total_count': len(unique_banks),
                 'unique_count': len(set(b['gmgoCd'] for b in unique_banks)),
@@ -136,40 +134,102 @@ class StorageManager:
             'banks': unique_banks
         }
         
-        # 1. [Legacy] data/banks.json 저장
-        success = self.save_json(bank_data, self.bank_list_file)
+        success = self.save_json(bank_data_legacy, self.bank_list_file)
         if success:
-            self.save_json(bank_data, self.bank_list_file, compress=True)
+            self.save_json(bank_data_legacy, self.bank_list_file, compress=True)
             
-        # 2. [V2 Meta] data/meta/banks.json 저장
+        # 2. [V2 Meta] data/meta/banks.json 저장 (계층 구조)
+        hierarchical_banks = self._group_banks_hierarchically(banks)
+        bank_data_v2 = {
+            'metadata': {
+                'total_groups': len(hierarchical_banks),
+                'total_branches': len(banks),
+                'crawled_at': datetime.now().isoformat(),
+                'version': '2.0'
+            },
+            'banks': hierarchical_banks
+        }
+        
         meta_dir = self.data_dir / "meta"
         meta_dir.mkdir(exist_ok=True)
         meta_filepath = meta_dir / "banks.json"
         
-        meta_success = self.save_json(bank_data, meta_filepath)
+        meta_success = self.save_json(bank_data_v2, meta_filepath)
         if meta_success:
-            self.save_json(bank_data, meta_filepath, compress=True)
+            self.save_json(bank_data_v2, meta_filepath, compress=True)
             
         if success:
-            logger.info(f"🏦 은행 목록 저장 완료: {len(unique_banks)}개 (Legacy & Meta)")
+            logger.info(f"🏦 은행 목록 저장 완료: Legacy({len(unique_banks)}) & V2 Meta({len(hierarchical_banks)} groups)")
         
         return success
-    
+
+    def _group_banks_hierarchically(self, banks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """은행 목록을 gmgoCd 기준으로 그룹화하여 계층 구조 생성"""
+        from collections import defaultdict
+        groups = defaultdict(list)
+        for b in banks:
+            groups[b.get('gmgoCd')].append(b)
+            
+        hierarchical = []
+        for gmgo_cd, entries in groups.items():
+            # 1. 본점(Head Office) 찾기: 이름에 '본점'이 포함된 것 우선, 없으면 첫 번째
+            head = next((e for e in entries if '본점' in e.get('name', '')), entries[0])
+            
+            # 2. 공통 그룹 정보 추출 (본점 이름에서 괄호 부분 제거 등)
+            group_name = head.get('name', '').split('(')[0].strip()
+            
+            hierarchical.append({
+                "gmgoCd": gmgo_cd,
+                "group_name": group_name,
+                "head_office": {
+                    "name": head.get('name'),
+                    "address": head.get('address'),
+                    "phone": head.get('phone'),
+                    "city": head.get('city'),
+                    "district": head.get('district')
+                },
+                "branches": [
+                    {
+                        "name": e.get('name'),
+                        "address": e.get('address'),
+                        "phone": e.get('phone'),
+                        "district": e.get('district')
+                    } for e in entries
+                ]
+            })
+            
+        return sorted(hierarchical, key=lambda x: x['gmgoCd'])
+
     def load_banks(self) -> Optional[Dict[str, Any]]:
-        """은행 목록 로드 (Meta 우선, 없으면 Legacy)"""
+        """은행 목록 로드 (Meta 계층구조 로드 시 평면화하여 반환)"""
         try:
             meta_file = self.data_dir / "meta" / "banks.json"
-            filepath = meta_file if meta_file.exists() else self.bank_list_file
+            if meta_file.exists():
+                data = self.load_json(meta_file)
+                if data and data.get('metadata', {}).get('version') == '2.0':
+                    # V2 계층 구조를 평면화하여 크롤러 호환성 유지
+                    flattened_banks = []
+                    for group in data.get('banks', []):
+                        head = group.get('head_office', {})
+                        # 최소한의 데이터 재구성
+                        flattened_banks.append({
+                            "gmgoCd": group['gmgoCd'],
+                            "name": head.get('name'),
+                            "city": head.get('city'),
+                            "district": head.get('district'),
+                            "address": head.get('address'),
+                            "phone": head.get('phone')
+                        })
+                    return {"banks": flattened_banks}
+                return data
             
-            if not filepath.exists():
-                return None
-            
-            with open(filepath, 'r', encoding='utf-8') as f:
-                return json.load(f)
+            if self.bank_list_file.exists():
+                return self.load_json(self.bank_list_file)
                 
         except Exception as e:
             logger.error(f"은행 목록 로드 실패: {e}")
-            return None
+            
+        return None
     
     def save_daily_rates(self, rates: List[Dict[str, Any]], 
                         date_str: Optional[str] = None) -> bool:
