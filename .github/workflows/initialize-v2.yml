@@ -37,4 +37,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/
           git commit -m "Init: Initialize V2 data from scratch" || exit 0
+          git pull --rebase origin main
           git push
