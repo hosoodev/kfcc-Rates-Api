@@ -380,7 +380,20 @@ class KFCCCrawler:
                 return filtered_banks, test_rates
             
             # 2단계: 금리 정보 수집
-            rates = self.collect_interest_rates_parallel(banks)
+            # 중복 gmgoCd 제거 (본점/지점 상품이 동일하므로 리소스 절약)
+            unique_banks = []
+            seen_gmgo = set()
+            for b in banks:
+                cd = b.get('gmgoCd')
+                if cd and cd not in seen_gmgo:
+                    seen_gmgo.add(cd)
+                    unique_banks.append(b)
+            
+            skipped_count = len(banks) - len(unique_banks)
+            if skipped_count > 0:
+                logger.info(f"💡 중복 금고 {skipped_count}개를 건너뜁니다. (본점/지점 상품 동일)")
+            
+            rates = self.collect_interest_rates_parallel(unique_banks)
             
             # 결과 요약
             elapsed_time = time.time() - start_time
