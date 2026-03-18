@@ -114,7 +114,7 @@ class StorageManager:
             return None
     
     def save_bank_list(self, banks: List[Dict[str, Any]]) -> bool:
-        """은행 목록 저장"""
+        """은행 목록 저장 (Legacy 및 V2 Meta 병행 저장)"""
         if not banks:
             logger.warning("저장할 은행 목록이 없습니다")
             return False
@@ -136,22 +136,35 @@ class StorageManager:
             'banks': unique_banks
         }
         
+        # 1. [Legacy] data/banks.json 저장
         success = self.save_json(bank_data, self.bank_list_file)
         if success:
-            # 레거시 호환: 압축본도 저장
             self.save_json(bank_data, self.bank_list_file, compress=True)
+            
+        # 2. [V2 Meta] data/meta/banks.json 저장
+        meta_dir = self.data_dir / "meta"
+        meta_dir.mkdir(exist_ok=True)
+        meta_filepath = meta_dir / "banks.json"
+        
+        meta_success = self.save_json(bank_data, meta_filepath)
+        if meta_success:
+            self.save_json(bank_data, meta_filepath, compress=True)
+            
         if success:
-            logger.info(f"🏦 은행 목록 저장 완료: {len(unique_banks)}개")
+            logger.info(f"🏦 은행 목록 저장 완료: {len(unique_banks)}개 (Legacy & Meta)")
         
         return success
     
     def load_banks(self) -> Optional[Dict[str, Any]]:
-        """은행 목록 로드"""
+        """은행 목록 로드 (Meta 우선, 없으면 Legacy)"""
         try:
-            if not self.bank_list_file.exists():
+            meta_file = self.data_dir / "meta" / "banks.json"
+            filepath = meta_file if meta_file.exists() else self.bank_list_file
+            
+            if not filepath.exists():
                 return None
             
-            with open(self.bank_list_file, 'r', encoding='utf-8') as f:
+            with open(filepath, 'r', encoding='utf-8') as f:
                 return json.load(f)
                 
         except Exception as e:
