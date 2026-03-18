@@ -127,6 +127,13 @@ def run_patch(regions=None):
         
         # 2. 모바일 데이터 수집
         mbank = MBankCrawler()
+        
+        # 'all'인 경우 전체 지역 목록 가져오기
+        if regions == ['all']:
+            from sigungu import REGIONS
+            regions = list(REGIONS.keys())
+            print(f"🌍 전체 지역 패치 모드: {len(regions)}개 지역 수집")
+            
         patch_data = mbank.collect_patch_data(regions=regions)
         
         if not patch_data:
@@ -287,7 +294,7 @@ def main():
     
     if args.mode == 'patch':
         # 패치 모드 실행
-        regions = args.regions.split(',') if args.regions else ['서울', '경기']
+        regions = args.regions.split(',') if args.regions else ['all']
         success = run_patch(regions=regions)
     else:
         # 베이스 모드 실행

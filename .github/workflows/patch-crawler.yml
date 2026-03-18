@@ -9,7 +9,7 @@ on:
       regions:
         description: '패치할 지역 (콤마로 구분)'
         required: false
-        default: '서울,경기'
+        default: 'all'
         type: string
 
 jobs:
