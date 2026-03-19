@@ -119,9 +119,14 @@ def run_patch(regions=None):
     
     try:
         storage = StorageManager()
-        # 1. 기존 V2 데이터 로드 (deposit.json을 기준으로 업데이트)
-        v2_deposit = storage.load_json(storage.data_dir / "v2" / "deposit.json")
-        if not v2_deposit:
+        # 1. 기존 V2 데이터 로드
+        v2_data_all = {}
+        for key in ["deposit", "saving", "demand"]:
+            data = storage.load_json(storage.data_dir / "v2" / f"{key}.json")
+            if data:
+                v2_data_all[key] = data
+                
+        if not v2_data_all:
             print("❌ 기존 V2 데이터가 없습니다. --mode base를 먼저 실행해주세요.")
             return False
         
@@ -133,17 +138,26 @@ def run_patch(regions=None):
             regions = list(mbank.sigungu_codes.keys())
             print(f"🌍 전체 지역 패치 모드: {len(regions)}개 지역 수집")
             
-        patch_data = mbank.collect_patch_data(regions=regions)
+        all_products = list(mbank.PRODUCTS.keys())
+        patch_data = mbank.collect_patch_data(product_names=all_products, regions=regions)
         
         if not patch_data:
             print("⚠️ 수집된 모바일 데이터가 없습니다.")
             return True
             
         # 3. 데이터 패치 (Upsert)
-        updated_v2 = storage.upsert_mbank_patch(v2_deposit, patch_data)
+        product_mappings = {
+            "deposit": ["MG더뱅킹정기예금"],
+            "saving": ["MG더뱅킹정기적금", "MG더뱅킹자유적금"],
+            "demand": ["상상모바일통장"]
+        }
+        for key, p_names in product_mappings.items():
+            if key in v2_data_all:
+                filtered_patches = [p for p in patch_data if p["prdtNm"] in p_names]
+                v2_data_all[key] = storage.upsert_mbank_patch(v2_data_all[key], filtered_patches)
         
-        # 4. 저장 (현재는 deposit 위주로 업데이트하는 예시)
-        storage.save_json(updated_v2, storage.data_dir / "v2" / "deposit.json", pretty=False)
+        # 4. 저장 (save_v2_api를 통해 top 모바일 api도 자동 갱신됨)
+        storage.save_v2_api(v2_data_all)
         
         elapsed = (datetime.now() - start_time).total_seconds()
         print(f"✅ 패치 완료: {len(patch_data)}건 수집됨 (소요시간: {elapsed:.2f}초)")
