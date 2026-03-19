@@ -711,11 +711,58 @@ class StorageManager:
         
         return filtered_data
 
+    def build_main_page_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        프론트엔드 메인 페이지 전용 BFF API 생성 (Top 15 정렬)
+        - 원본 데이터 스키마를 유지하면서 카테고리별 금리 상위 15개만 추출
+        """
+        now_iso = datetime.now().isoformat()
+        main_api = {
+            "updated_at": now_iso,
+            "deposit": [],
+            "saving": [],
+            "demand": []
+        }
+        
+        for key in ["deposit", "saving", "demand"]:
+            if key not in v2_data_all:
+                continue
+                
+            src_data = v2_data_all[key].get("data", [])
+            
+            # 정렬 키 생성 함수
+            def get_sort_key(bank_data):
+                products = bank_data.get("products", {})
+                max_rate = 0.0
+                
+                if key in ["deposit", "saving"]:
+                    # 12개월("12") 금리 우선, 없으면 해당 금고의 상품 중 최대 금리 사용
+                    for p_name, months in products.items():
+                        if "12" in months:
+                            max_rate = max(max_rate, float(months["12"].get("r", 0)))
+                        else:
+                            # 12개월이 없을 경우 모든 개월 수 중 최댓값
+                            for m_data in months.values():
+                                max_rate = max(max_rate, float(m_data.get("r", 0)))
+                else:
+                    # demand(자유입출금)는 개월 수가 무의미하므로 전체 상품 중 최대 금리 사용
+                    for p_name, months in products.items():
+                        for m_data in months.values():
+                            max_rate = max(max_rate, float(m_data.get("r", 0)))
+                return max_rate
+
+            # 금리 내림차순 정렬 후 상위 15개 추출
+            sorted_data = sorted(src_data, key=get_sort_key, reverse=True)
+            main_api[key] = sorted_data[:15]
+            
+        return main_api
+
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
         - v2/rates/deposit/all.json, v2/rates/saving/all.json, v2/rates/demand/all.json
         - v2/rates/deposit/mbank.json 등 모바일 전용 데이터 포함
+        - v2/main.json (BFF API)
         """
         try:
             v2_rates_dir = self.v2_dir / "rates"
@@ -739,6 +786,14 @@ class StorageManager:
                 else:
                     success = False
             
+            # 3. main.json 저장 (BFF API)
+            main_api_data = self.build_main_page_api(v2_data_all)
+            main_filepath = self.v2_dir / "main.json"
+            if self.save_json(main_api_data, main_filepath, pretty=False):
+                logger.info(f"🏠 V2 Main Page BFF API 저장 완료: {main_filepath}")
+            else:
+                success = False
+
             if success:
                 logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_rates_dir}")
             
