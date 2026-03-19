@@ -629,19 +629,21 @@ class StorageManager:
         return v2_data
 
     def _build_top_mobile_rates(self, data_list: List[Dict[str, Any]], month_keys: List[str], target_products: List[str] = None) -> Dict[str, Any]:
-        """모바일 상품 거치식/적립식/요구불 전국 및 지역별 Top 금리 추출"""
+        """
+        모바일 금리 중 상위 N개를 선별 (all.json 수준의 전체 뱅크 객체 구조 유지)
+        """
+        now_iso = datetime.now().isoformat()
         result = {
-            "updated_at": datetime.now().isoformat()
+            "updated_at": now_iso
         }
         for m in month_keys:
-            result[m] = {"all": [], "regions": {}}
+            # 'all' -> 'data'로 필드명 통일 (all.json 호환성)
+            result[m] = {"data": [], "regions": {}}
             
         temp_data = {m: {} for m in month_keys}
         
         for bank in data_list:
             gmgo_cd = bank.get("gmgoCd")
-            name = bank.get("name")
-            region = bank.get("region")
             products = bank.get("products", {})
             
             for prdt_name, months_data in products.items():
@@ -651,42 +653,38 @@ class StorageManager:
                 for month in month_keys:
                     if month in months_data:
                         rate_info = months_data[month]
-                        if rate_info.get("s") == "m" and rate_info.get("r", 0) > 0:
-                            entry = {
-                                "gmgoCd": gmgo_cd,
-                                "name": name,
-                                "r": rate_info.get("r"),
-                                "prdtNm": prdt_name
-                            }
-                            if "all" not in temp_data[month]:
-                                temp_data[month]["all"] = []
-                            temp_data[month]["all"].append(entry)
+                        # 모바일 소스(s=="m")인 경우만 포함 (또는 demand의 경우 최고 금리)
+                        if rate_info.get("r", 0) > 0:
+                            # 랭킹 정렬을 위해 임시 필드 포함한 뱅크 객체 복사
+                            entry = bank.copy()
+                            entry["_r"] = rate_info.get("r")      # 정렬용 임시 필드
+                            entry["_prdt"] = prdt_name           # 정보용 임시 필드
+                            
+                            if "data" not in temp_data[month]:
+                                temp_data[month]["data"] = []
+                            temp_data[month]["data"].append(entry)
+                            
+                            region = bank.get("region")
                             if region:
                                 if region not in temp_data[month]:
                                     temp_data[month][region] = []
                                 temp_data[month][region].append(entry)
                                 
         for month in month_keys:
-            all_list = temp_data[month].get("all", [])
-            unique_all = {}
-            for item in all_list:
-                key = f"{item['gmgoCd']}_{item['prdtNm']}"
-                if key not in unique_all or unique_all[key]["r"] < item["r"]:
-                    unique_all[key] = item
-            all_list = list(unique_all.values())
-            all_list.sort(key=lambda x: (-x["r"], x["name"]))
-            result[month]["all"] = all_list[:20]
+            # 1. 전체(data) 랭킹 처리
+            all_list = temp_data[month].get("data", [])
+            unique_all = {item['gmgoCd']: item for item in all_list}.values() # 금고당 최고 금리 상품 하나만
             
+            final_all = sorted(list(unique_all), key=lambda x: (-x["_r"], x["name"]))
+            result[month]["data"] = final_all[:20]
+            
+            # 2. 지역별 랭킹 처리
             for rgn, rgn_list in temp_data[month].items():
-                if rgn == "all": continue
-                unique_rgn = {}
-                for item in rgn_list:
-                    key = f"{item['gmgoCd']}_{item['prdtNm']}"
-                    if key not in unique_rgn or unique_rgn[key]["r"] < item["r"]:
-                        unique_rgn[key] = item
-                rgn_list = list(unique_rgn.values())
-                rgn_list.sort(key=lambda x: (-x["r"], x["name"]))
-                result[month]["regions"][rgn] = rgn_list[:10]
+                if rgn == "data": continue
+                
+                unique_rgn = {item['gmgoCd']: item for item in rgn_list}.values()
+                final_rgn = sorted(list(unique_rgn), key=lambda x: (-x["_r"], x["_r"]))
+                result[month]["regions"][rgn] = final_rgn[:10]
                 
         return result
 
