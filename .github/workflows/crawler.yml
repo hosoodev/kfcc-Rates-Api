@@ -42,6 +42,13 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
+      - name: Checkout api-data branch
+        uses: actions/checkout@v4.2.2
+        with:
+          ref: api-data
+          path: api-data
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
       - name: Cache pip dependencies
         uses: actions/cache@v4.2.3
         with:
@@ -65,9 +72,9 @@ jobs:
           max_attempts: 3
           command: |
             if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-              python src/main.py --cleanup ${{ github.event.inputs.cleanup_days }}
+              python src/main.py --cleanup ${{ github.event.inputs.cleanup_days }} --base-dir api-data
             else
-              python src/main.py --cleanup 30
+              python src/main.py --cleanup 30 --base-dir api-data
             fi
 
       - name: Collect grade evaluations (with retry)
@@ -79,11 +86,12 @@ jobs:
         with:
           timeout_minutes: 30
           max_attempts: 3
-          command: python src/main.py --grades
+          command: python src/main.py --grades --base-dir api-data
 
       - name: Check for changes
         id: verify-changed-files
         run: |
+          cd api-data
           if [ -n "$(git status --porcelain)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
@@ -93,19 +101,21 @@ jobs:
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
+          cd api-data
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
+          git add v2/
           [ -f "CNAME" ] && git add CNAME
           git commit -m "일일 크롤링: 금리 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
-          git push
+          git push origin api-data
 
       - name: Upload data as artifact
         if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
           name: kfcc-data-${{ github.run_number }}
-          path: data/
+          path: api-data/data/
           retention-days: 7
 
       - name: Notify on failure

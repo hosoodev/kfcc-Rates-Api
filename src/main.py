@@ -53,7 +53,7 @@ def print_summary(banks, rates, start_time):
     
     print("=" * 60)
 
-def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_banks=False):
+def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_banks=False, base_dir=None):
     """
     크롤러 실행
     
@@ -62,6 +62,7 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         test_mode (bool): 테스트 모드 여부 (데이터 저장 안함)
         test_branch (str): 테스트할 특정 지점명 또는 코드
         refresh_banks (bool): 은행 목록 캐시를 무시하고 새로 수집할지 여부
+        base_dir (str): 데이터 저장 최상위 디렉토리
     """
     start_time = datetime.now()
     
@@ -82,11 +83,11 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
             
         # 데이터 저장
         print("\n💾 데이터 저장 중...")
-        save_all(banks, rates)
+        save_all(banks, rates, base_dir=base_dir)
         
         # V2 API 데이터 생성 및 저장 (Side-by-Side)
         print("🚀 V2 Static API를 생성 중...")
-        storage = StorageManager()
+        storage = StorageManager(base_dir=base_dir)
         # 최근 수집된 등급 데이터 로드
         grades_data = storage.load_grades()
         grades = grades_data.get('grades', []) if grades_data else []
@@ -97,7 +98,7 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         # 오래된 데이터 정리
         if cleanup_days:
             print(f"\n🧹 {cleanup_days}일 이상 된 데이터 정리 중...")
-            cleanup_old_data(cleanup_days)
+            cleanup_old_data(cleanup_days, base_dir=base_dir)
         
         # 결과 요약 출력
         print_summary(banks, rates, start_time)
@@ -112,17 +113,17 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         traceback.print_exc()
         return False
 
-def run_patch(regions=None):
+def run_patch(regions=None, base_dir=None):
     """모바일 크롤러를 통한 실시간 금리 패치 모드"""
     print("📱 모바일 실시간 금리 패치를 시작합니다...")
     start_time = datetime.now()
     
     try:
-        storage = StorageManager()
+        storage = StorageManager(base_dir=base_dir)
         # 1. 기존 V2 데이터 로드
         v2_data_all = {}
         for key in ["deposit", "saving", "demand"]:
-            data = storage.load_json(storage.data_dir / "v2" / f"{key}.json")
+            data = storage.load_json(storage.v2_dir / "rates" / f"{key}.json") # Changed from storage.data_dir / "v2" to match new v2 API location
             if data:
                 v2_data_all[key] = data
                 
@@ -131,7 +132,7 @@ def run_patch(regions=None):
             return False
         
         # 2. 모바일 데이터 수집
-        mbank = MBankCrawler()
+        mbank = MBankCrawler(base_dir=base_dir)
         
         # 'all'인 경우 전체 지역 목록 가져오기
         if regions == ['all']:
@@ -167,12 +168,12 @@ def run_patch(regions=None):
         print(f"❌ 패치 중 오류 발생: {e}")
         return False
 
-def show_stats():
+def show_stats(base_dir=None):
     """저장소 통계 정보 출력"""
     print("📊 저장소 통계 정보")
     print("-" * 40)
     
-    stats = get_storage_stats()
+    stats = get_storage_stats(base_dir=base_dir)
     
     print(f"📁 데이터 디렉토리: {stats['data_directory']}")
     print(f"🏦 은행 목록 파일: {'✅ 존재' if stats['bank_list_exists'] else '❌ 없음'}")
@@ -188,12 +189,12 @@ def show_stats():
         if len(stats['available_dates']) > 10:
             print(f"  ... 외 {len(stats['available_dates']) - 10}개")
 
-def collect_grades(evaluation_date=None):
+def collect_grades(evaluation_date=None, base_dir=None):
     """경영실태평가 데이터 수집"""
     print(f"📊 경영실태평가 데이터 수집 시작... {'(기준: ' + evaluation_date + ')' if evaluation_date else ''}")
     
     # 은행 목록 로드
-    storage = StorageManager()
+    storage = StorageManager(base_dir=base_dir)
     banks_data = storage.load_banks()
     
     if not banks_data or 'banks' not in banks_data:
@@ -204,7 +205,7 @@ def collect_grades(evaluation_date=None):
     print(f"📋 {len(banks)}개 금고의 경영실태평가 수집 시작")
     
     # 경영실태평가 크롤러 실행
-    grade_crawler = GradeCrawler()
+    grade_crawler = GradeCrawler(base_dir=base_dir)
     grades_data = grade_crawler.collect_all_grades(banks, evaluation_date=evaluation_date)
     
     if grades_data:
@@ -283,6 +284,12 @@ def main():
     )
 
     parser.add_argument(
+        '--base-dir',
+        type=str,
+        help='저장 공간 베이스 디렉토리 강제 변경 (api-data 등)'
+    )
+
+    parser.add_argument(
         '--version', 
         action='version', 
         version='새마을금고 금리 크롤러 v2.0'
@@ -293,13 +300,13 @@ def main():
     # 경영실태평가 수집
     if args.grades:
         print_banner()
-        success = collect_grades(evaluation_date=args.date)
+        success = collect_grades(evaluation_date=args.date, base_dir=args.base_dir)
         return 0 if success else 1
     
     # 통계만 출력하는 경우
     if args.stats:
         print_banner()
-        show_stats()
+        show_stats(base_dir=args.base_dir)
         return 0
     
     # 크롤링 실행
@@ -308,14 +315,15 @@ def main():
     if args.mode == 'patch':
         # 패치 모드 실행
         regions = args.regions.split(',') if args.regions else ['all']
-        success = run_patch(regions=regions)
+        success = run_patch(regions=regions, base_dir=args.base_dir)
     else:
         # 베이스 모드 실행
         success = run_crawler(
             cleanup_days=args.cleanup,
             test_mode=args.test,
             test_branch=args.branch,
-            refresh_banks=args.refresh
+            refresh_banks=args.refresh,
+            base_dir=args.base_dir
         )
     
     if success:

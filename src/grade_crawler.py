@@ -18,7 +18,7 @@ except ImportError:
 class GradeCrawler:
     """경영실태평가 크롤러 클래스"""
     
-    def __init__(self):
+    def __init__(self, base_dir: str = None):
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -26,6 +26,8 @@ class GradeCrawler:
             'Origin': 'https://www.kfcc.co.kr',
             'Content-Type': 'application/x-www-form-urlencoded'
         })
+        from storage import StorageManager
+        self.storage = StorageManager(base_dir=base_dir)
     
     def should_collect_grades(self):
         """경영실태평가 수집이 필요한지 확인"""

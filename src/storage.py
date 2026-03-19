@@ -21,19 +21,24 @@ logger = logging.getLogger(__name__)
 class StorageManager:
     """데이터 저장소 관리 클래스"""
     
-    def __init__(self, data_dir: str = DATA_DIR):
+    def __init__(self, base_dir: str = None):
         """저장소 초기화"""
-        self.data_dir = Path(data_dir)
+        # base_dir이 주어지면 (예: 'api-data') 루트로 사용. 없으면 기본 설정된 DATA_DIR의 상위 (프로젝트 루트)
+        self.base_dir = Path(base_dir) if base_dir else Path(DATA_DIR).parent
+        self.data_dir = self.base_dir / "data"
+        self.v2_dir = self.base_dir / "v2"
+        
         self.rates_dir = self.data_dir / 'rates'
+        self.grades_dir = self.data_dir / 'grades'
         self.backup_dir = self.data_dir / 'backups'
-        self.bank_list_file = Path(BANK_LIST_FILE)
+        self.bank_list_file = self.data_dir / "banks.json"
         
         # 디렉토리 생성
         self._ensure_directories()
     
     def _ensure_directories(self) -> None:
         """필요한 디렉토리 생성"""
-        for directory in [self.data_dir, self.rates_dir, self.backup_dir]:
+        for directory in [self.data_dir, self.v2_dir, self.rates_dir, self.backup_dir]:
             directory.mkdir(parents=True, exist_ok=True)
     
     def save_json(self, data: Any, filepath: Union[str, Path], 
@@ -599,71 +604,62 @@ class StorageManager:
         logger.info(f"📱 모바일 데이터 패치 완료: {updated_count}건 업데이트")
         return v2_data
 
-    def build_top_mobile_api(self, v2_deposit_data: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """모바일 가입 거치식예탁금 전국/지역별 Top 금리 추출"""
+    def _build_top_mobile_rates(self, data_list: List[Dict[str, Any]], month_keys: List[str], target_products: List[str] = None) -> Dict[str, Any]:
+        """모바일 상품 거치식/적립식/요구불 전국 및 지역별 Top 금리 추출"""
         result = {
-            "updated_at": datetime.now().isoformat(),
-            "12": {"all": [], "regions": {}},
-            "6": {"all": [], "regions": {}},
-            "3": {"all": [], "regions": {}}
+            "updated_at": datetime.now().isoformat()
         }
+        for m in month_keys:
+            result[m] = {"all": [], "regions": {}}
+            
+        temp_data = {m: {} for m in month_keys}
         
-        # 임시 저장소: { "12": { "all": [], "서울": [], ... }, ... }
-        temp_data = {
-            "12": {}, "6": {}, "3": {}
-        }
-        
-        for bank in v2_deposit_data:
+        for bank in data_list:
             gmgo_cd = bank.get("gmgoCd")
             name = bank.get("name")
             region = bank.get("region")
             products = bank.get("products", {})
             
             for prdt_name, months_data in products.items():
-                for month in ["3", "6", "12"]:
+                if target_products and prdt_name not in target_products:
+                    continue
+                    
+                for month in month_keys:
                     if month in months_data:
                         rate_info = months_data[month]
-                        # 모바일 전용 상품만 수집 ("s" == "m")
                         if rate_info.get("s") == "m" and rate_info.get("r", 0) > 0:
                             entry = {
                                 "gmgoCd": gmgo_cd,
                                 "name": name,
-                                "r": rate_info.get("r")
+                                "r": rate_info.get("r"),
+                                "prdtNm": prdt_name
                             }
-                            
                             if "all" not in temp_data[month]:
                                 temp_data[month]["all"] = []
-                            # 이름/코드가 동일한 상품 중복 방지 (가장 높은 금리만 남기거나 그냥 다 넣고 정렬 후 20개 자르기)
-                            # 중복이 있을 수 있으나 일단 모두 수집
                             temp_data[month]["all"].append(entry)
-                            
                             if region:
                                 if region not in temp_data[month]:
                                     temp_data[month][region] = []
                                 temp_data[month][region].append(entry)
                                 
-        # 정렬 및 자르기
-        for month in ["3", "6", "12"]:
-            # all 정렬 (금리 내림차순, 이름 오름차순) 및 Top 20
+        for month in month_keys:
             all_list = temp_data[month].get("all", [])
-            # 금고당 1개의 최고 금리만 남기기 (중복 제거)
             unique_all = {}
             for item in all_list:
-                cd = item["gmgoCd"]
-                if cd not in unique_all or unique_all[cd]["r"] < item["r"]:
-                    unique_all[cd] = item
+                key = f"{item['gmgoCd']}_{item['prdtNm']}"
+                if key not in unique_all or unique_all[key]["r"] < item["r"]:
+                    unique_all[key] = item
             all_list = list(unique_all.values())
             all_list.sort(key=lambda x: (-x["r"], x["name"]))
             result[month]["all"] = all_list[:20]
             
-            # regions 정렬 및 Top 10
             for rgn, rgn_list in temp_data[month].items():
                 if rgn == "all": continue
                 unique_rgn = {}
                 for item in rgn_list:
-                    cd = item["gmgoCd"]
-                    if cd not in unique_rgn or unique_rgn[cd]["r"] < item["r"]:
-                        unique_rgn[cd] = item
+                    key = f"{item['gmgoCd']}_{item['prdtNm']}"
+                    if key not in unique_rgn or unique_rgn[key]["r"] < item["r"]:
+                        unique_rgn[key] = item
                 rgn_list = list(unique_rgn.values())
                 rgn_list.sort(key=lambda x: (-x["r"], x["name"]))
                 result[month]["regions"][rgn] = rgn_list[:10]
@@ -673,34 +669,39 @@ class StorageManager:
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
-        - v2/deposit.json, v2/saving.json, v2/demand.json
+        - v2/rates/deposit.json, v2/rates/saving.json, v2/rates/demand.json
         """
         try:
-            v2_dir = self.data_dir / "v2"
-            v2_dir.mkdir(exist_ok=True)
+            v2_rates_dir = self.v2_dir / "rates"
+            v2_rates_dir.mkdir(parents=True, exist_ok=True)
             
             success = True
             for key, data in v2_data_all.items():
-                filepath = v2_dir / f"{key}.json"
-                success &= self.save_json(data, filepath, pretty=False) # 용량 최적화를 위해 pretty=False
+                filepath = v2_rates_dir / f"{key}.json"
+                success &= self.save_json(data, filepath, pretty=False)
             
             if success:
-                logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_dir}")
+                logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_rates_dir}")
                 
-            # --- 모바일 Top 금리 API 추가 ---
-            if "deposit" in v2_data_all:
-                deposit_data = v2_data_all["deposit"].get("data", [])
-                top_mobile_data = self.build_top_mobile_api(deposit_data)
-                
-                # 저장 경로: v2/top/m/deposit.json
-                top_m_dir = v2_dir / "top" / "m"
-                top_m_dir.mkdir(parents=True, exist_ok=True)
-                top_filepath = top_m_dir / "deposit.json"
-                
-                success &= self.save_json(top_mobile_data, top_filepath, pretty=False)
-                if success:
-                    logger.info(f"✨ V2 모바일 Top 금리 API 저장 완료: {top_filepath}")
+            top_m_dir = v2_rates_dir / "top" / "m"
+            top_m_dir.mkdir(parents=True, exist_ok=True)
+            
+            top_configs = [
+                ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"]),
+                ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"]),
+                ("demand", ["0", "12"], ["상상모바일통장"])
+            ]
+            
+            for key, m_keys, products in top_configs:
+                if key in v2_data_all:
+                    src_data = v2_data_all[key].get("data", [])
+                    top_mobile_data = self._build_top_mobile_rates(src_data, m_keys, products)
+                    top_filepath = top_m_dir / f"{key}.json"
                     
+                    if self.save_json(top_mobile_data, top_filepath, pretty=False):
+                        logger.info(f"✨ V2 모바일 Top 금리 API 저장 완료: {top_filepath}")
+                    else:
+                        success = False
             return success
         except Exception as e:
             logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
@@ -778,11 +779,10 @@ class StorageManager:
 
 
 # 모듈 레벨 함수들 (기존 인터페이스 유지)
-_storage_manager = StorageManager()
-
 def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]], 
-            date_str: Optional[str] = None) -> bool:
+            date_str: Optional[str] = None, base_dir: str = None) -> bool:
     """모든 데이터를 저장"""
+    manager = StorageManager(base_dir=base_dir)
     if date_str is None:
         date_str = datetime.now().strftime('%Y-%m-%d')
     
@@ -793,15 +793,15 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
         
         # 1. 은행 목록 저장
         if banks:
-            success &= _storage_manager.save_bank_list(banks)
+            success &= manager.save_bank_list(banks)
         
         # 2. 금리 데이터 저장
         if rates:
-            success &= _storage_manager.save_daily_rates(rates, date_str)
+            success &= manager.save_daily_rates(rates, date_str)
             
             # 3. 요약 데이터 저장
             summary = parse_summary_data(rates)
-            success &= _storage_manager.save_summary(summary, date_str)
+            success &= manager.save_summary(summary, date_str)
         
         if success:
             logger.info("✅ 모든 데이터 저장 완료")
@@ -814,22 +814,22 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
         logger.error(f"❌ 데이터 저장 중 오류 발생: {e}")
         return False
 
-def get_latest_rates() -> Optional[Dict[str, Any]]:
+def get_latest_rates(base_dir: str = None) -> Optional[Dict[str, Any]]:
     """최신 금리 데이터를 가져옴"""
-    return _storage_manager.get_latest_rates()
+    return StorageManager(base_dir=base_dir).get_latest_rates()
 
-def get_rates_by_date(date_str: str) -> Optional[Dict[str, Any]]:
+def get_rates_by_date(date_str: str, base_dir: str = None) -> Optional[Dict[str, Any]]:
     """특정 날짜의 금리 데이터를 가져옴"""
-    return _storage_manager.get_rates_by_date(date_str)
+    return StorageManager(base_dir=base_dir).get_rates_by_date(date_str)
 
-def list_available_dates() -> List[str]:
+def list_available_dates(base_dir: str = None) -> List[str]:
     """사용 가능한 날짜 목록을 반환"""
-    return _storage_manager.list_available_dates()
+    return StorageManager(base_dir=base_dir).list_available_dates()
 
-def cleanup_old_data(days_to_keep: int = 30) -> int:
+def cleanup_old_data(days_to_keep: int = 30, base_dir: str = None) -> int:
     """오래된 데이터 파일 정리"""
-    return _storage_manager.cleanup_old_data(days_to_keep)
+    return StorageManager(base_dir=base_dir).cleanup_old_data(days_to_keep)
 
-def get_storage_stats() -> Dict[str, Any]:
+def get_storage_stats(base_dir: str = None) -> Dict[str, Any]:
     """저장소 통계 정보 반환"""
-    return _storage_manager.get_storage_stats()
+    return StorageManager(base_dir=base_dir).get_storage_stats()
