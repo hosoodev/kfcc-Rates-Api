@@ -32,13 +32,14 @@ class StorageManager:
         self.grades_dir = self.data_dir / 'grades'
         self.backup_dir = self.data_dir / 'backups'
         self.bank_list_file = self.data_dir / "banks.json"
+        self.archive_rates_dir = self.base_dir / "_archive" / "rates"
         
         # 디렉토리 생성
         self._ensure_directories()
     
     def _ensure_directories(self) -> None:
         """필요한 디렉토리 생성"""
-        for directory in [self.data_dir, self.v2_dir, self.rates_dir, self.backup_dir]:
+        for directory in [self.data_dir, self.v2_dir, self.rates_dir, self.backup_dir, self.archive_rates_dir]:
             directory.mkdir(parents=True, exist_ok=True)
     
     def save_json(self, data: Any, filepath: Union[str, Path], 
@@ -274,9 +275,15 @@ class StorageManager:
         # 압축 옵션 (큰 파일의 경우)
         compress = len(rates) > 100
         
+        # 1. data/rates/ 저장
         success = self.save_json(rates_data, filepath, compress=compress)
+        
+        # 2. _archive/rates/ (레거시 아카이브) 저장
+        archive_filepath = self.archive_rates_dir / f"{date_str}.json"
+        success &= self.save_json(rates_data, archive_filepath, compress=compress)
+        
         if success:
-            logger.info(f"💰 금리 데이터 저장 완료: {date_str} ({len(rates)}개 금고)")
+            logger.info(f"💰 금리 데이터 저장 및 아카이브 완료: {date_str} ({len(rates)}개 금고)")
         
         return success
     
