@@ -2,8 +2,8 @@ name: Hourly mBank Patch Crawler
 
 on:
   schedule:
-    # 06:00 ~ 18:00 KST (21:00 ~ 09:00 UTC) 매시간 정각 실행
-    - cron: '0 21,22,23,0,1,2,3,4,5,6,7,8,9 * * *'
+    # 한국 시간(KST) 08:00, 12:00, 16:00 (UTC 기준 23:00, 03:00, 07:00) 정각 실행
+    - cron: '0 23,3,7 * * *'
   workflow_dispatch:
     inputs:
       regions:
@@ -62,7 +62,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/v2/
-          git commit -m "시간별 패치: 모바일뱅킹 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
+          git commit -m "정기 패치: 모바일뱅킹 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push
 
       # V2 API Sync 워크플로우가 자동으로 실행되도록 설정되어 있으나, 
