@@ -1,4 +1,4 @@
-name: Hourly mBank Patch Crawler
+name: Scheduled mBank Patch Crawler
 
 on:
   schedule:
