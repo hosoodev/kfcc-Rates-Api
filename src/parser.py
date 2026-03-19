@@ -492,3 +492,111 @@ def calculate_statistics(products: List[Dict[str, Any]]) -> Dict[str, Any]:
             }
     
     return stats
+
+
+def parse_summary_data_v2(rates_data: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    V2 전용 대시보드 요약 데이터 생성
+    - 12개월 상품 기준 평균 금리 및 최고 금리 상세 정보 추출
+    - 카테고리별(예금, 적금, 파킹) 통계 분리
+    """
+    now_iso = datetime.now().isoformat()
+    
+    # 초기 구조
+    summary = {
+        "updated_at": now_iso,
+        "scale": { "total_banks": len(rates_data) },
+        "overall": { "average_rate": 0.0, "top": None },
+        "by_type": {
+            "deposit": { "average_rate": 0.0, "top": None },
+            "saving": { "average_rate": 0.0, "top": None },
+            "demand": { "average_rate": 0.0, "top": None }
+        },
+        "exclusive": {
+            "mobile_top": None,
+            "safe_top": None
+        }
+    }
+    
+    if not rates_data:
+        return summary
+
+    all_12m_rates = []
+    type_12m_rates = {"deposit": [], "saving": [], "demand": []}
+    
+    # 최고 금리 추적용 임시 변수
+    top_overall = {"rate": -1.0}
+    top_by_type = {
+        "deposit": {"rate": -1.0},
+        "saving": {"rate": -1.0},
+        "demand": {"rate": -1.0}
+    }
+    top_mobile = {"rate": -1.0}
+    top_safe = {"rate": -1.0}
+
+    for bank in rates_data:
+        gmgo_cd = bank.get("gmgoCd")
+        bank_name = bank.get("name")
+        grade = bank.get("grade") # storage.py에서 미리 병합되었다고 가정
+        
+        for product in bank.get("products", []):
+            p_name = product.get("product_name", "")
+            p_type_raw = product.get("product_type", "거치식예탁금")
+            rate = product.get("interest_rate", 0.0)
+            duration = product.get("duration_months", 0)
+            
+            # 타입 분류
+            p_type = "deposit"
+            if "적립식" in p_type_raw: p_type = "saving"
+            elif "요구불" in p_type_raw: p_type = "demand"
+            
+            # 공통 상세 객체 생성 함수
+            def make_detail(r, n, c, pn, m, g=None):
+                d = {"rate": r, "name": n, "gmgoCd": c, "product_name": pn, "month": m}
+                if g: d["grade"] = g
+                return d
+
+            # 1. 12개월 평균 금리용 데이터 수집 (demand는 모든 기간 포함)
+            if (p_type in ["deposit", "saving"] and duration == 12) or p_type == "demand":
+                if rate > 0:
+                    all_12m_rates.append(rate)
+                    type_12m_rates[p_type].append(rate)
+
+            # 2. 최고 금리 업데이트 (12개월 기준, demand는 전체)
+            if (p_type in ["deposit", "saving"] and duration == 12) or p_type == "demand":
+                detail = make_detail(rate, bank_name, gmgo_cd, p_name, duration)
+                
+                # Overall top
+                if rate > top_overall["rate"]:
+                    top_overall = detail
+                
+                # Type top
+                if rate > top_by_type[p_type]["rate"]:
+                    top_by_type[p_type] = detail
+                
+                # Mobile top (상품명에 키워드가 있거나 마커가 있을 경우)
+                is_mobile = any(m_word in p_name for m_word in ["상상모바일", "더뱅킹", "M-Bank"]) or product.get("s") == "m"
+                if is_mobile:
+                    if rate > top_mobile["rate"]:
+                        top_mobile = detail
+                
+                # Safe top (Grade 1)
+                if str(grade) == "1":
+                    if rate > top_safe["rate"]:
+                        top_safe = make_detail(rate, bank_name, gmgo_cd, p_name, duration, "1")
+
+    # 평균 계산 함수
+    def get_avg(lst):
+        return round(sum(lst) / len(lst), 2) if lst else 0.0
+    
+    summary["overall"]["average_rate"] = get_avg(all_12m_rates)
+    summary["overall"]["top"] = top_overall if top_overall["rate"] >= 0 else None
+    
+    for t in ["deposit", "saving", "demand"]:
+        summary["by_type"][t]["average_rate"] = get_avg(type_12m_rates[t])
+        summary["by_type"][t]["top"] = top_by_type[t] if top_by_type[t]["rate"] >= 0 else None
+        
+    summary["exclusive"]["mobile_top"] = top_mobile if top_mobile["rate"] >= 0 else None
+    summary["exclusive"]["safe_top"] = top_safe if top_safe["rate"] >= 0 else None
+    
+    return summary

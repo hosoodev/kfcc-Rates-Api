@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any, Union
 
 from config import DATA_DIR, BANK_LIST_FILE
-from parser import parse_summary_data
+from parser import parse_summary_data, parse_summary_data_v2
 
 logger = logging.getLogger(__name__)
 
@@ -915,6 +915,29 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
             # 3. 요약 데이터 저장
             summary = parse_summary_data(rates)
             success &= manager.save_summary(summary, date_str)
+
+            # 4. V2 대시보드 요약 데이터 저장 (BFF 전용)
+            try:
+                # safe_top 계산을 위한 등급 데이터 로드
+                grades_data = manager.load_grades()
+                grades_map = {g['gmgoCd']: g.get('grade_code') for g in grades_data.get('grades', [])} if grades_data else {}
+                
+                # 등급 정보가 포함된 rates 리스트 생성
+                rates_v2 = []
+                for r in rates:
+                    r_copy = r.copy()
+                    r_copy['grade'] = grades_map.get(r.get('gmgoCd'))
+                    rates_v2.append(r_copy)
+                
+                summary_v2 = parse_summary_data_v2(rates_v2)
+                v2_summary_path = manager.v2_dir / "rates" / "summary.json"
+                v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
+                
+                with open(v2_summary_path, 'w', encoding='utf-8') as f:
+                    json.dump(summary_v2, f, ensure_ascii=False, indent=2)
+                logger.info(f"📊 V2 Dashboard Summary 저장 완료: {v2_summary_path}")
+            except Exception as e:
+                logger.error(f"⚠️ V2 요약 데이터 생성 중 오류 발생: {e}")
         
         if success:
             logger.info("✅ 모든 데이터 저장 완료")
