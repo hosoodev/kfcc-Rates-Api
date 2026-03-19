@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Union
 
-from config import DATA_DIR, BANK_LIST_FILE
+from config import DATA_DIR, BANK_LIST_FILE, PROVINCE_SLUGS, DISTRICT_SLUGS
 from parser import parse_summary_data, parse_summary_data_v2
 
 logger = logging.getLogger(__name__)
@@ -716,6 +716,104 @@ class StorageManager:
         
         return filtered_data
 
+    def _get_district_slug(self, district_name: str) -> str:
+        """한글 구명을 영문 슬러그로 변환 (SEO용)"""
+        if not district_name:
+            return "etc"
+        
+        name = district_name.strip()
+        # 시/군/구 접미사 제거
+        if len(name) > 1 and name[-1] in ["시", "군", "구"]:
+            name = name[:-1]
+            
+        # 매핑에 없으면 한글 그대로 반환 (URL 인코딩됨)
+        return DISTRICT_SLUGS.get(name, name)
+
+    def build_seo_regions_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> None:
+        """
+        지역별(시도/시군구) SEO용 정적 JSON 파일 생성
+        - v2/rates/{type}/regions/{province_slug}/all.json
+        - v2/rates/{type}/regions/{province_slug}/{district_slug}.json
+        """
+        v2_rates_dir = self.v2_dir / "rates"
+        
+        for p_type, wrapper in v2_data_all.items():
+            src_data = wrapper.get("data", [])
+            if not src_data:
+                continue
+                
+            # 1. 지역별 그룹화
+            # grouped[province][district] = [bank1, bank2, ...]
+            grouped = {}
+            for bank in src_data:
+                province = bank.get("province", "기타")
+                district = bank.get("district", "기타")
+                
+                if province not in grouped:
+                    grouped[province] = {}
+                if district not in grouped[province]:
+                    grouped[province][district] = []
+                    
+                grouped[province][district].append(bank)
+            
+            # 2. 그룹별 정렬 및 파일 저장
+            regions_base_dir = v2_rates_dir / p_type / "regions"
+            
+            # 정렬 키 함수 (main.json 로직 재사용)
+            def get_rate_sort_key(bank_data):
+                products = bank_data.get("products", {})
+                max_rate = 0.0
+                if p_type in ["deposit", "saving"]:
+                    for p_name, months in products.items():
+                        if "12" in months:
+                            max_rate = max(max_rate, float(months["12"].get("r", 0)))
+                        else:
+                            for m_data in months.values():
+                                max_rate = max(max_rate, float(m_data.get("r", 0)))
+                else: # demand
+                    for p_name, months in products.items():
+                        for m_data in months.values():
+                            max_rate = max(max_rate, float(m_data.get("r", 0)))
+                return max_rate
+
+            updated_at = datetime.now().isoformat()
+
+            for province, districts in grouped.items():
+                province_slug = PROVINCE_SLUGS.get(province, "etc")
+                province_dir = regions_base_dir / province_slug
+                province_dir.mkdir(parents=True, exist_ok=True)
+                
+                all_province_banks = []
+                
+                for district, banks in districts.items():
+                    district_slug = self._get_district_slug(district)
+                    
+                    # 시군구별 정렬
+                    sorted_district_banks = sorted(banks, key=get_rate_sort_key, reverse=True)
+                    all_province_banks.extend(sorted_district_banks)
+                    
+                    # district_slug.json 저장
+                    district_filepath = province_dir / f"{district_slug}.json"
+                    district_data = {
+                        "updated_at": updated_at,
+                        "province": province,
+                        "district": district,
+                        "data": sorted_district_banks
+                    }
+                    self.save_json(district_data, district_filepath, pretty=False)
+                
+                # 시도 전체(all.json) 정렬 및 저장
+                sorted_province_banks = sorted(all_province_banks, key=get_rate_sort_key, reverse=True)
+                province_all_filepath = province_dir / "all.json"
+                province_data = {
+                    "updated_at": updated_at,
+                    "province": province,
+                    "data": sorted_province_banks
+                }
+                self.save_json(province_data, province_all_filepath, pretty=False)
+
+            logger.info(f"📍 V2 SEO Regional API [{p_type}] 생성 완료")
+
     def build_main_page_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
         """
         프론트엔드 메인 페이지 전용 BFF API 생성 (Top 15 정렬)
@@ -797,6 +895,13 @@ class StorageManager:
             if self.save_json(main_api_data, main_filepath, pretty=False):
                 logger.info(f"🏠 V2 Main Page BFF API 저장 완료: {main_filepath}")
             else:
+                success = False
+
+            # 4. 지역별 SEO API 생성
+            try:
+                self.build_seo_regions_api(v2_data_all)
+            except Exception as e:
+                logger.error(f"⚠️ SEO 지역별 API 생성 중 오류 발생: {e}")
                 success = False
 
             if success:

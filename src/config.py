@@ -76,6 +76,65 @@ REGIONS = {
     "세종": ["세종"]
 }
 
+# SEO를 위한 지역 영문 슬러그 매핑
+PROVINCE_SLUGS = {
+    "서울": "seoul", "부산": "busan", "대구": "daegu", "인천": "incheon",
+    "광주": "gwangju", "대전": "daejeon", "울산": "ulsan", "세종": "sejong",
+    "경기": "gyeonggi", "강원": "gangwon", "충북": "chungbuk", "충남": "chungnam",
+    "전북": "jeonbuk", "전남": "jeonnam", "경북": "gyeongbuk", "경남": "gyeongnam", "제주": "jeju"
+}
+
+# 주요 시군구 영문 슬러그 매핑 (SEO용 경로 표준화)
+DISTRICT_SLUGS = {
+    # 서울특별시
+    "강남": "gangnam", "서초": "seocho", "송파": "songpa", "강동": "gangdong",
+    "동작": "dongjak", "관악": "gwanak", "영등포": "yeongdeungpo", "금천": "geumcheon",
+    "구로": "guro", "양천": "yangcheon", "강서": "gangseo", "마포": "mapo",
+    "서대문": "seodaemun", "은평": "eunpyeong", "노원": "nowon", "도봉": "dobong",
+    "강북": "gangbuk", "성북": "seongbuk", "중랑": "jungnang", "동대문": "dongdaemun",
+    "광진": "gwangjin", "성동": "seongdong", "용산": "yongsan", "종로": "jongno", "중": "jung",
+    
+    # 부산광역시
+    "해운대": "haeundae", "수영": "suyeong", "연제": "yeonje", "기장": "gijang",
+    "남": "nam", "강서": "gangseo", "사상": "sasang", "사하": "saha",
+    "북": "buk", "금정": "geumjeong", "동래": "dongnae", "부산진": "busanjin",
+    "영도": "yeongdo", "서": "seo", "동": "dong",
+    
+    # 인천광역시
+    "부평": "bupyeong", "계양": "gyeyang", "남동": "namdong", "연수": "yeonsu",
+    "미추홀": "michuhol", "동": "dong", "서": "seo", "중": "jung", "강화": "ganghwa", "옹진": "ongjin",
+    
+    # 대구광역시
+    "달서": "dalseo", "수성": "suseong", "북": "buk", "서": "seo", "동": "dong", "남": "nam", "중": "jung", "달성": "dalseong",
+    
+    # 광주광역시
+    "광산": "gwangsan", "남": "nam", "북": "buk", "서": "seo", "동": "dong",
+    
+    # 대전광역시
+    "유성": "yuseong", "대덕": "daedeok", "서": "seo", "중": "jung", "동": "dong",
+    
+    # 울산광역시
+    "울주": "ulju", "북": "buk", "동": "dong", "남": "nam", "중": "jung",
+    
+    # 경기도 주요 도시/구
+    "분당": "bundang", "수정": "sujeong", "중원": "jungwon", # 성남
+    "장안": "jangan", "권선": "gwonseon", "팔달": "paldal", "영통": "yeongtong", # 수원
+    "처인": "cheoin", "기흥": "giheung", "수지": "suji", # 용인
+    "상록": "sangnok", "단원": "danwon", # 안산
+    "만안": "manan", "동안": "dongan", # 안양
+    "원미": "wonmi", "소사": "sosa", "오정": "ojeong", # 부천
+    "덕양": "deogyang", "일산동": "ilsandong", "일산서": "ilsanseo", # 고양
+    "화성": "hwaseong", "평택": "pyeongtaek", "파주": "paju", "김포": "gimpo",
+    "광명": "gwangmyeong", "군포": "gunpo", "이천": "icheon", "오산": "osan",
+    "하남": "hanam", "남양주": "namyangju", "구리": "guri", "의정부": "uijeongbu",
+    "시흥": "siheung", "의왕": "uiwang", "안성": "anseong", "양주": "yangju",
+    "포천": "pocheon", "동두천": "dongducheon", "과천": "gwacheon", "여주": "yeoju",
+    "양평": "yangpyeong", "가평": "gapyeong", "연천": "yeoncheon",
+    
+    # 기타 주요 지역
+    "세종": "sejong", "제주": "jeju", "서귀포": "seogwipo"
+}
+
 # 크롤링 설정
 CRAWLER_CONFIG = {
     'timeout': 10,
