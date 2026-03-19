@@ -562,7 +562,8 @@ class StorageManager:
                 return {
                     "gmgoCd": gmgo_cd,
                     "name": bank_info.get('name'),
-                    "region": bank_info.get('city'),
+                    "province": bank_info.get('city'),
+                    "district": bank_info.get('district'),
                     "grade": grade_info.get('grade_code'),
                     "bis_ratio": bis_val,
                     "products": {}
