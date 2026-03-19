@@ -138,8 +138,8 @@ def run_patch(regions=None):
             regions = list(mbank.sigungu_codes.keys())
             print(f"🌍 전체 지역 패치 모드: {len(regions)}개 지역 수집")
             
-        all_products = list(mbank.PRODUCTS.keys())
-        patch_data = mbank.collect_patch_data(product_names=all_products, regions=regions)
+        # 시간 문제로 당분간 예금(MG더뱅킹정기예금)만 수집
+        patch_data = mbank.collect_patch_data(product_names=["MG더뱅킹정기예금"], regions=regions)
         
         if not patch_data:
             print("⚠️ 수집된 모바일 데이터가 없습니다.")
@@ -147,9 +147,9 @@ def run_patch(regions=None):
             
         # 3. 데이터 패치 (Upsert)
         product_mappings = {
-            "deposit": ["MG더뱅킹정기예금"],
-            "saving": ["MG더뱅킹정기적금", "MG더뱅킹자유적금"],
-            "demand": ["상상모바일통장"]
+            "deposit": ["MG더뱅킹정기예금"]
+            # "saving": ["MG더뱅킹정기적금", "MG더뱅킹자유적금"], # 크롤링 시간 단축을 위해 임시 제외
+            # "demand": ["상상모바일통장"]                       # 크롤링 시간 단축을 위해 임시 제외
         }
         for key, p_names in product_mappings.items():
             if key in v2_data_all:
