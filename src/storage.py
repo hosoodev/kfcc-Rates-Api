@@ -599,6 +599,77 @@ class StorageManager:
         logger.info(f"📱 모바일 데이터 패치 완료: {updated_count}건 업데이트")
         return v2_data
 
+    def build_top_mobile_api(self, v2_deposit_data: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """모바일 가입 거치식예탁금 전국/지역별 Top 금리 추출"""
+        result = {
+            "updated_at": datetime.now().isoformat(),
+            "12": {"all": [], "regions": {}},
+            "6": {"all": [], "regions": {}},
+            "3": {"all": [], "regions": {}}
+        }
+        
+        # 임시 저장소: { "12": { "all": [], "서울": [], ... }, ... }
+        temp_data = {
+            "12": {}, "6": {}, "3": {}
+        }
+        
+        for bank in v2_deposit_data:
+            gmgo_cd = bank.get("gmgoCd")
+            name = bank.get("name")
+            region = bank.get("region")
+            products = bank.get("products", {})
+            
+            for prdt_name, months_data in products.items():
+                for month in ["3", "6", "12"]:
+                    if month in months_data:
+                        rate_info = months_data[month]
+                        # 모바일 전용 상품만 수집 ("s" == "m")
+                        if rate_info.get("s") == "m" and rate_info.get("r", 0) > 0:
+                            entry = {
+                                "gmgoCd": gmgo_cd,
+                                "name": name,
+                                "r": rate_info.get("r")
+                            }
+                            
+                            if "all" not in temp_data[month]:
+                                temp_data[month]["all"] = []
+                            # 이름/코드가 동일한 상품 중복 방지 (가장 높은 금리만 남기거나 그냥 다 넣고 정렬 후 20개 자르기)
+                            # 중복이 있을 수 있으나 일단 모두 수집
+                            temp_data[month]["all"].append(entry)
+                            
+                            if region:
+                                if region not in temp_data[month]:
+                                    temp_data[month][region] = []
+                                temp_data[month][region].append(entry)
+                                
+        # 정렬 및 자르기
+        for month in ["3", "6", "12"]:
+            # all 정렬 (금리 내림차순, 이름 오름차순) 및 Top 20
+            all_list = temp_data[month].get("all", [])
+            # 금고당 1개의 최고 금리만 남기기 (중복 제거)
+            unique_all = {}
+            for item in all_list:
+                cd = item["gmgoCd"]
+                if cd not in unique_all or unique_all[cd]["r"] < item["r"]:
+                    unique_all[cd] = item
+            all_list = list(unique_all.values())
+            all_list.sort(key=lambda x: (-x["r"], x["name"]))
+            result[month]["all"] = all_list[:20]
+            
+            # regions 정렬 및 Top 10
+            for rgn, rgn_list in temp_data[month].items():
+                if rgn == "all": continue
+                unique_rgn = {}
+                for item in rgn_list:
+                    cd = item["gmgoCd"]
+                    if cd not in unique_rgn or unique_rgn[cd]["r"] < item["r"]:
+                        unique_rgn[cd] = item
+                rgn_list = list(unique_rgn.values())
+                rgn_list.sort(key=lambda x: (-x["r"], x["name"]))
+                result[month]["regions"][rgn] = rgn_list[:10]
+                
+        return result
+
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
@@ -614,7 +685,22 @@ class StorageManager:
                 success &= self.save_json(data, filepath, pretty=False) # 용량 최적화를 위해 pretty=False
             
             if success:
-                logger.info(f"🚀 V2 API 데이터 저장 완료: {v2_dir}")
+                logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_dir}")
+                
+            # --- 모바일 Top 금리 API 추가 ---
+            if "deposit" in v2_data_all:
+                deposit_data = v2_data_all["deposit"].get("data", [])
+                top_mobile_data = self.build_top_mobile_api(deposit_data)
+                
+                # 저장 경로: v2/top/m/deposit.json
+                top_m_dir = v2_dir / "top" / "m"
+                top_m_dir.mkdir(parents=True, exist_ok=True)
+                top_filepath = top_m_dir / "deposit.json"
+                
+                success &= self.save_json(top_mobile_data, top_filepath, pretty=False)
+                if success:
+                    logger.info(f"✨ V2 모바일 Top 금리 API 저장 완료: {top_filepath}")
+                    
             return success
         except Exception as e:
             logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
