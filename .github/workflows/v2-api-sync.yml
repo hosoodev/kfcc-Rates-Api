@@ -40,6 +40,7 @@ jobs:
           mkdir -p /tmp/api_root/v2/rates
           mkdir -p /tmp/api_root/v2/grades
           mkdir -p /tmp/api_root/v2/meta
+          mkdir -p /tmp/api_root/v2/top/m
 
           # ---------------------------------------------------------
           # 2. V1 레거시 데이터 복사 (현재 라이브 서비스 무중단 유지용)
