@@ -143,7 +143,7 @@ class StorageManager:
         if success:
             self.save_json(bank_data_legacy, self.bank_list_file, compress=True)
             
-        # 2. [V2 Meta] data/meta/banks.json 저장 (계층 구조)
+        # 2. [V2 Meta] v2/meta/banks.json 저장 (계층 구조)
         hierarchical_banks = self._group_banks_hierarchically(banks)
         bank_data_v2 = {
             'metadata': {
@@ -155,9 +155,9 @@ class StorageManager:
             'banks': hierarchical_banks
         }
         
-        meta_dir = self.data_dir / "meta"
-        meta_dir.mkdir(exist_ok=True)
-        meta_filepath = meta_dir / "banks.json"
+        meta_v2_dir = self.v2_dir / "meta"
+        meta_v2_dir.mkdir(parents=True, exist_ok=True)
+        meta_filepath = meta_v2_dir / "banks.json"
         
         meta_success = self.save_json(bank_data_v2, meta_filepath)
         if meta_success:
@@ -208,7 +208,11 @@ class StorageManager:
     def load_banks(self) -> Optional[Dict[str, Any]]:
         """은행 목록 로드 (Meta 계층구조 로드 시 평면화하여 반환)"""
         try:
-            meta_file = self.data_dir / "meta" / "banks.json"
+            # 1. v2 디렉토리 우선 확인
+            meta_file = self.v2_dir / "meta" / "banks.json"
+            if not meta_file.exists():
+                meta_file = self.data_dir / "meta" / "banks.json"
+            
             if meta_file.exists():
                 data = self.load_json(meta_file)
                 if data and data.get('metadata', {}).get('version') == '2.0':
@@ -407,14 +411,18 @@ class StorageManager:
         
         return sorted(dates, reverse=True)
     
-    def save_grades(self, grades_data: List[Dict[str, Any]]) -> bool:
-        """경영실태평가 데이터 저장"""
+    def save_grades(self, grades_data: List[Dict[Dict[str, Any]]]) -> bool:
+        """경영실태평가 데이터 저장 (v2/grades/ 및 data/grades/ 병행 저장)"""
         try:
-            # grades 디렉토리 생성
-            grades_dir = self.data_dir / "grades"
-            grades_dir.mkdir(exist_ok=True)
+            # 1. 원본 data/grades 디렉토리 생성 및 저장 (Legacy 호환성)
+            legacy_grades_dir = self.data_dir / "grades"
+            legacy_grades_dir.mkdir(parents=True, exist_ok=True)
             
-            # 파일명: grades_YYYY_MM.json (월 정보 포함)
+            # 2. V2 v2/grades 디렉토리 생성 및 저장
+            v2_grades_dir = self.v2_dir / "grades"
+            v2_grades_dir.mkdir(parents=True, exist_ok=True)
+            
+            # 파일명 결정
             if grades_data:
                 evaluation_year = grades_data[0].get('evaluation_year', datetime.now().year)
                 evaluation_month = grades_data[0].get('evaluation_month', 12)
@@ -423,7 +431,6 @@ class StorageManager:
                 current_year = datetime.now().year
                 current_month = datetime.now().month
                 filename = f"grades_{current_year}_{current_month:02d}.json"
-            filepath = grades_dir / filename
             
             # 데이터 구성
             data = {
@@ -436,21 +443,28 @@ class StorageManager:
                 "grades": grades_data
             }
             
-            # JSON 파일로 저장 (원본 및 압축본)
-            self.save_json(data, filepath)
-            self.save_json(data, filepath, compress=True)
+            # 두 경로 모두 저장
+            success = True
+            for base_path in [legacy_grades_dir, v2_grades_dir]:
+                filepath = base_path / filename
+                success &= self.save_json(data, filepath)
+                success &= self.save_json(data, filepath, compress=True)
             
-            print(f"✓ 경영실태평가 데이터 저장 완료: {filepath}")
-            return True
+            if success:
+                print(f"✓ 경영실태평가 데이터 저장 완료 (V1 & V2)")
+            return success
             
         except Exception as e:
             print(f"❌ 경영실태평가 데이터 저장 실패: {e}")
             return False
     
     def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
-        """경영실태평가 데이터 로드"""
+        """경영실태평가 데이터 로드 (v2/grades/ 우선 확인)"""
         try:
-            grades_dir = self.data_dir / "grades"
+            # 1. v2 디렉토리 우선 확인
+            grades_dir = self.v2_dir / "grades"
+            if not grades_dir.exists():
+                grades_dir = self.data_dir / "grades"
             
             if not grades_dir.exists():
                 return None
@@ -459,11 +473,21 @@ class StorageManager:
                 # 저장된 파일 중 가장 최신의 파일을 찾아 로드
                 grade_files = list(grades_dir.glob("grades_*_*.json"))
                 if not grade_files:
-                    return None
+                    # v2에 없으면 legacy도 한 번 더 시도
+                    if grades_dir != (self.data_dir / "grades"):
+                        grades_dir = self.data_dir / "grades"
+                        grade_files = list(grades_dir.glob("grades_*_*.json"))
+                    
+                    if not grade_files:
+                        return None
+                        
                 grade_files.sort(reverse=True)
                 filepath = grade_files[0]
             else:
                 filepath = grades_dir / f"grades_{year}_{month:02d}.json"
+                if not filepath.exists() and grades_dir != (self.data_dir / "grades"):
+                    filepath = self.data_dir / "grades" / f"grades_{year}_{month:02d}.json"
+                
                 if not filepath.exists():
                     return None
             
@@ -669,7 +693,7 @@ class StorageManager:
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
-        - v2/rates/deposit.json, v2/rates/saving.json, v2/rates/demand.json
+        - v2/rates/deposit/all.json, v2/rates/saving/all.json, v2/rates/demand/all.json
         """
         try:
             v2_rates_dir = self.v2_dir / "rates"
@@ -677,29 +701,34 @@ class StorageManager:
             
             success = True
             for key, data in v2_data_all.items():
-                filepath = v2_rates_dir / f"{key}.json"
+                # 각각의 라우트별 폴더 생성 (deposit, saving, demand)
+                product_dir = v2_rates_dir / key
+                product_dir.mkdir(parents=True, exist_ok=True)
+                
+                filepath = product_dir / "all.json"
                 success &= self.save_json(data, filepath, pretty=False)
             
             if success:
                 logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_rates_dir}")
                 
-            top_m_dir = v2_rates_dir / "top" / "m"
-            top_m_dir.mkdir(parents=True, exist_ok=True)
-            
             top_configs = [
-                ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"]),
-                ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"]),
-                ("demand", ["0", "12"], ["상상모바일통장"])
+                ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"], "m.json"),
+                ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"], "m.json"),
+                ("demand", ["0", "12"], ["상상모바일통장"], "all.json")
             ]
             
-            for key, m_keys, products in top_configs:
+            for key, m_keys, products, filename in top_configs:
                 if key in v2_data_all:
                     src_data = v2_data_all[key].get("data", [])
                     top_mobile_data = self._build_top_mobile_rates(src_data, m_keys, products)
-                    top_filepath = top_m_dir / f"{key}.json"
+                    
+                    top_dir = v2_rates_dir / key / "top"
+                    top_dir.mkdir(parents=True, exist_ok=True)
+                    
+                    top_filepath = top_dir / filename
                     
                     if self.save_json(top_mobile_data, top_filepath, pretty=False):
-                        logger.info(f"✨ V2 모바일 Top 금리 API 저장 완료: {top_filepath}")
+                        logger.info(f"✨ V2 {key} Top 금리 API 저장 완료: {top_filepath}")
                     else:
                         success = False
             return success
