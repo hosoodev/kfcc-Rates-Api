@@ -123,7 +123,7 @@ def run_patch(regions=None, base_dir=None):
         # 1. 기존 V2 데이터 로드
         v2_data_all = {}
         for key in ["deposit", "saving", "demand"]:
-            data = storage.load_json(storage.v2_dir / "rates" / f"{key}.json") # Changed from storage.data_dir / "v2" to match new v2 API location
+            data = storage.load_json(storage.v2_dir / "rates" / key / "all.json") # Changed from rates/{key}.json to match new nested folder structure (v2/rates/<product>/all.json)
             if data:
                 v2_data_all[key] = data
                 
