@@ -37,8 +37,9 @@ class MBankCrawler:
         "Mozilla/5.0 (Linux; Android 13; SM-A546B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.216 Mobile Safari/537.36",
     ]
 
-    def __init__(self, sigungu_codes_path: str = "src/data/sigungu_codes.json"):
+    def __init__(self, sigungu_codes_path: str = "src/data/sigungu_codes.json", base_dir: str = None):
         self.session = requests.Session()
+        self.base_dir = base_dir
         
         # 랜덤 User-Agent 선택
         ua = random.choice(self.USER_AGENTS)
