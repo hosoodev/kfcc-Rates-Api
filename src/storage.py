@@ -411,7 +411,7 @@ class StorageManager:
         
         return sorted(dates, reverse=True)
     
-    def save_grades(self, grades_data: List[Dict[Dict[str, Any]]]) -> bool:
+    def save_grades(self, grades_data: List[Dict[str, Any]]) -> bool:
         """경영실태평가 데이터 저장 (v2/grades/ 및 data/grades/ 병행 저장)"""
         try:
             # 1. 원본 data/grades 디렉토리 생성 및 저장 (Legacy 호환성)
