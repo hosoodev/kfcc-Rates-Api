@@ -690,10 +690,32 @@ class StorageManager:
                 
         return result
 
+    def _filter_mbank_only(self, v2_data: Dict[str, Any]) -> Dict[str, Any]:
+        """v2 데이터에서 모바일 소스(s: "m")인 데이터만 추출하여 동일한 형식으로 반환"""
+        filtered_data = {
+            "updated_at": v2_data.get("updated_at", datetime.now().isoformat()),
+            "data": []
+        }
+        
+        for bank in v2_data.get("data", []):
+            new_bank = bank.copy()
+            new_products = {}
+            for prdt_name, months_data in bank.get("products", {}).items():
+                mbank_months = {m: d for m, d in months_data.items() if d.get("s") == "m"}
+                if mbank_months:
+                    new_products[prdt_name] = mbank_months
+            
+            if new_products:
+                new_bank["products"] = new_products
+                filtered_data["data"].append(new_bank)
+        
+        return filtered_data
+
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
         - v2/rates/deposit/all.json, v2/rates/saving/all.json, v2/rates/demand/all.json
+        - v2/rates/deposit/mbank.json 등 모바일 전용 데이터 포함
         """
         try:
             v2_rates_dir = self.v2_dir / "rates"
@@ -705,12 +727,21 @@ class StorageManager:
                 product_dir = v2_rates_dir / key
                 product_dir.mkdir(parents=True, exist_ok=True)
                 
+                # 1. all.json 저장
                 filepath = product_dir / "all.json"
                 success &= self.save_json(data, filepath, pretty=False)
+
+                # 2. mbank.json 저장 (모바일 전용)
+                mbank_data = self._filter_mbank_only(data)
+                mbank_filepath = product_dir / "mbank.json"
+                if self.save_json(mbank_data, mbank_filepath, pretty=False):
+                    logger.info(f"📱 V2 {key} 모바일 전용 데이터 저장 완료: {mbank_filepath}")
+                else:
+                    success = False
             
             if success:
                 logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_rates_dir}")
-                
+            
             top_configs = [
                 ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"], "m.json"),
                 ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"], "m.json"),
