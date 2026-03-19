@@ -3,7 +3,7 @@ name: Sync V2 API Data
 on:
   workflow_run:
     # 🚨 Base, Grade, Patch, Init 워크플로우 완료 시 자동 실행
-    workflows: ["Daily KFCC Crawler", "Grade Crawler", "Hourly mBank Patch Crawler", "Initialize V2 Data"]
+    workflows: ["Daily KFCC Crawler", "Grade Evaluation Crawler", "Scheduled mBank Patch Crawler", "Initialize V2 Data"]
     types:
       - completed
   workflow_dispatch:
