@@ -451,11 +451,11 @@ class StorageManager:
                 success &= self.save_json(data, filepath, compress=True)
             
             if success:
-                print(f"✓ 경영실태평가 데이터 저장 완료 (V1 & V2)")
+                logger.info("경영실태평가 데이터 저장 완료 (V1 & V2)")
             return success
             
         except Exception as e:
-            print(f"❌ 경영실태평가 데이터 저장 실패: {e}")
+            logger.error(f"경영실태평가 데이터 저장 실패: {e}")
             return False
     
     def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
