@@ -87,11 +87,13 @@ class MBankCrawler:
                 rows = data["DATAPART"][0]["DATA"]["DATABODY"].get("GRID00") or []
                 results = []
                 for r_data in rows:
+                    # 상상모바일통장(입출금)인 경우 수집된 데이터의 month를 0으로 고정
+                    m_val = 0 if prdt_nm == "상상모바일통장" else int(term)
                     results.append({
                         "gmgoCd": r_data.get("GMGOCD"),
                         "prdtNm": prdt_nm,
                         "rate": float(r_data.get("IYUL", 0)),
-                        "month": int(term)
+                        "month": m_val
                     })
                 return results
             except Exception as e:
@@ -122,10 +124,15 @@ class MBankCrawler:
         for prdt_nm in product_names:
             prdt_cd = self.PRODUCTS.get(prdt_nm)
             if not prdt_cd: continue
+            
+            # 상상모바일통장은 입출금 통장이므로 패치 시 기간(Month)이 무의미함
+            # 수집 부하를 줄이기 위해 단일 기간('0')으로 한 번만 수집
+            p_terms = ["0"] if prdt_nm == "상상모바일통장" else terms
+
             for sido in regions:
                 districts = self.sigungu_codes.get(sido, {})
                 for dist_nm, dist_cd in districts.items():
-                    for term in terms:
+                    for term in p_terms:
                         tasks.append((dist_cd, prdt_cd, prdt_nm, term))
 
         logger.info(f"⚡ 병렬 수집 시작: 총 {len(tasks)}개 태스크 (Workers: {max_workers}, Utility UA 활성)")
