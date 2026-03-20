@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Union
 
-from config import DATA_DIR, BANK_LIST_FILE, PROVINCE_SLUGS, DISTRICT_SLUGS
+from config import DATA_DIR, BANK_LIST_FILE, REGIONS
 from parser import parse_summary_data, parse_summary_data_v2
 
 logger = logging.getLogger(__name__)
@@ -717,18 +717,31 @@ class StorageManager:
         
         return filtered_data
 
-    def _get_district_slug(self, district_name: str) -> str:
-        """한글 구명을 영문 슬러그로 변환 (SEO용)"""
+    def _get_district_slug(self, province_name: str, district_name: str) -> str:
+        """한글 구명을 영문 슬러그로 변환 (SEO용, 시도 컨텍스트 포함)"""
         if not district_name:
             return "etc"
         
+        # 1. 시도 정보 탐색
+        province_info = REGIONS.get(province_name)
+        if not province_info:
+            return "etc"
+            
+        # 2. 시도 내 구 매핑 확인
+        districts = province_info.get("districts", {})
+        if district_name in districts:
+            return districts[district_name]
+            
+        # 3. 매핑되지 않은 경우 접미사 제거 시도
         name = district_name.strip()
-        # 시/군/구 접미사 제거
         if len(name) > 1 and name[-1] in ["시", "군", "구"]:
             name = name[:-1]
-            
-        # 매핑에 없으면 한글 그대로 반환 (URL 인코딩됨)
-        return DISTRICT_SLUGS.get(name, name)
+            # 접미사 제거 버전으로 재탐색
+            for k, v in districts.items():
+                if k.startswith(name):
+                    return v
+
+        return "etc"
 
     def build_seo_regions_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> None:
         """
@@ -780,14 +793,15 @@ class StorageManager:
             updated_at = datetime.now().isoformat()
 
             for province, districts in grouped.items():
-                province_slug = PROVINCE_SLUGS.get(province, "etc")
+                province_info = REGIONS.get(province, {"slug": "etc"})
+                province_slug = province_info.get("slug", "etc")
                 province_dir = regions_base_dir / province_slug
                 province_dir.mkdir(parents=True, exist_ok=True)
                 
                 all_province_banks = []
                 
                 for district, banks in districts.items():
-                    district_slug = self._get_district_slug(district)
+                    district_slug = self._get_district_slug(province, district)
                     
                     # 시군구별 정렬
                     sorted_district_banks = sorted(banks, key=get_rate_sort_key, reverse=True)

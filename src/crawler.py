@@ -203,8 +203,8 @@ class KFCCCrawler:
         # 모든 지역 정보를 튜플 리스트로 준비
         regions_to_fetch = [
             (city, district) 
-            for city, districts in REGIONS.items() 
-            for district in districts
+            for city, info in REGIONS.items() 
+            for district in info["districts"]
         ]
         
         with ThreadPoolExecutor(max_workers=CRAWLER_CONFIG['max_workers_list']) as executor:
