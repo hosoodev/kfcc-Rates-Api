@@ -109,7 +109,8 @@ class MBankCrawler:
         병렬 방식으로 패치 데이터 수집 (GitHub Actions 최적화)
         """
         if not product_names:
-            product_names = [k for k in self.PRODUCTS.keys() if k != "상상모바일통장"]
+            # 병렬 처리가 가능하므로 모든 모바일 상품 수집
+            product_names = list(self.PRODUCTS.keys())
         
         if not regions or regions == ['all']:
             regions = list(self.sigungu_codes.keys())
