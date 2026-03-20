@@ -861,6 +861,44 @@ class StorageManager:
             
         return main_api
 
+    def save_v2_summary(self, v2_data_all: Dict[str, Dict[str, Any]]):
+        """v2_data_all을 기반으로 summary.json 생성 및 저장"""
+        rates_v2 = []
+        
+        for p_type_key, wrapper in v2_data_all.items():
+            for bank_data in wrapper.get("data", []):
+                products_v1 = []
+                for p_name, months_data in bank_data.get("products", {}).items():
+                    for month, m_data in months_data.items():
+                        # p_type_key를 기반으로 product_type 한글 명칭 복원 (parse_summary_data_v2 분류용)
+                        p_type_name = "거치식예탁금"
+                        if p_type_key == "saving": p_type_name = "적립식예탁금"
+                        elif p_type_key == "demand": p_type_name = "요구불예탁금"
+                        
+                        products_v1.append({
+                            "product_name": p_name,
+                            "product_type": p_type_name,
+                            "interest_rate": m_data.get("r", 0),
+                            "duration_months": int(month),
+                            "s": m_data.get("s", "w")
+                        })
+                
+                rates_v2.append({
+                    "gmgoCd": bank_data.get("gmgoCd"),
+                    "name": bank_data.get("name"),
+                    "grade": bank_data.get("grade"),
+                    "products": products_v1
+                })
+        
+        summary_v2 = parse_summary_data_v2(rates_v2)
+        v2_summary_path = self.v2_dir / "rates" / "summary.json"
+        v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        if self.save_json(summary_v2, v2_summary_path, pretty=False):
+            logger.info(f"📊 V2 Dashboard Summary 저장 완료: {v2_summary_path}")
+        else:
+            logger.error(f"❌ V2 Dashboard Summary 저장 실패: {v2_summary_path}")
+
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
         """
         V2 API 데이터를 파일로 저장
@@ -898,7 +936,14 @@ class StorageManager:
             else:
                 success = False
 
-            # 4. 지역별 SEO API 생성
+            # 4. summary.json 저장 (Dashboard 요약)
+            try:
+                self.save_v2_summary(v2_data_all)
+            except Exception as e:
+                logger.error(f"⚠️ V2 요약 데이터 생성 중 오류 발생: {e}")
+                success = False
+
+            # 5. 지역별 SEO API 생성
             try:
                 self.build_seo_regions_api(v2_data_all)
             except Exception as e:
@@ -1031,24 +1076,11 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
 
             # 4. V2 대시보드 요약 데이터 저장 (BFF 전용)
             try:
-                # safe_top 계산을 위한 등급 데이터 로드
-                grades_data = manager.load_grades()
-                grades_map = {g['gmgoCd']: g.get('grade_code') for g in grades_data.get('grades', [])} if grades_data else {}
-                
-                # 등급 정보가 포함된 rates 리스트 생성
-                rates_v2 = []
-                for r in rates:
-                    r_copy = r.copy()
-                    r_copy['grade'] = grades_map.get(r.get('gmgoCd'))
-                    rates_v2.append(r_copy)
-                
-                summary_v2 = parse_summary_data_v2(rates_v2)
-                v2_summary_path = manager.v2_dir / "rates" / "summary.json"
-                v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
-                
-                with open(v2_summary_path, 'w', encoding='utf-8') as f:
-                    json.dump(summary_v2, f, ensure_ascii=False, indent=2)
-                logger.info(f"📊 V2 Dashboard Summary 저장 완료: {v2_summary_path}")
+                # v2_data_all을 가져오기 위해 build_v2_api 다시 호출 (또는 이미 생성된 파일 로드)
+                # save_all 내부에서는 build_v2_api 결과인 v2_data_all이 없으므로 새로 생성하거나 save_v2_api 호출
+                # 여기서는 명시적으로 save_v2_summary를 위한 형식 변환 수행
+                v2_data_all = manager.build_v2_api(rates, grades_data.get('grades', []) if grades_data else [])
+                manager.save_v2_summary(v2_data_all)
             except Exception as e:
                 logger.error(f"⚠️ V2 요약 데이터 생성 중 오류 발생: {e}")
         
