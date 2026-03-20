@@ -14,7 +14,7 @@ from typing import List, Dict, Any, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 공통 유틸리티 임포트
-from src.utils import generate_random_ua
+from utils import generate_random_ua
 
 logger = logging.getLogger(__name__)
 

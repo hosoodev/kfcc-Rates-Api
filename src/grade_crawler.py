@@ -9,10 +9,7 @@ import re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
-try:
-    from .config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
-except ImportError:
-    from config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
+from config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
 
 
 class GradeCrawler:

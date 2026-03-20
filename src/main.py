@@ -11,16 +11,9 @@ import os
 import argparse
 from datetime import datetime
 from crawler import KFCCCrawler
-try:
-    from .grade_crawler import GradeCrawler
-    from .mbank_crawler import MBankCrawler
-except ImportError:
-    from grade_crawler import GradeCrawler
-    from mbank_crawler import MBankCrawler
-try:
-    from .storage import save_all, get_storage_stats, cleanup_old_data, StorageManager
-except ImportError:
-    from storage import save_all, get_storage_stats, cleanup_old_data, StorageManager
+from grade_crawler import GradeCrawler
+from mbank_crawler import MBankCrawler
+from storage import save_all, get_storage_stats, cleanup_old_data, StorageManager
 
 def print_banner():
     """프로그램 시작 배너 출력"""
