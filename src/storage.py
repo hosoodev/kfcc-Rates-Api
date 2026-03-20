@@ -970,7 +970,7 @@ class StorageManager:
             top_configs = [
                 ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"], "m.json"),
                 ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"], "m.json"),
-                ("demand", ["0", "12"], ["상상모바일통장"], "all.json")
+                ("demand", ["0"], ["상상모바일통장"], "m.json")
             ]
             
             for key, m_keys, products, filename in top_configs:
