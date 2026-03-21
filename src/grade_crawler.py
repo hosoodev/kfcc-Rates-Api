@@ -205,13 +205,12 @@ class GradeCrawler:
         if eval_month == 6:
             try:
                 import json
-                from pathlib import Path
-                # storage.py의 logic을 참고하거나 직접 경로 구성
-                data_dir = Path(__file__).parent.parent / "data" / "grades"
+                # storage.py를 참조하여 v2/grades 폴더에서 이전 데이터 로드
+                data_dir = self.storage.v2_dir / "grades"
                 prev_file = data_dir / f"grades_{eval_year - 1}_12.json"
                 
                 if prev_file.exists():
-                    print(f"📦 전년도 배당율 참조 데이터 로드: {prev_file.name}")
+                    print(f"📦 전년도 배당율 참조 데이터 로드: {prev_file}")
                     with open(prev_file, "r", encoding="utf-8") as f:
                         prev_data = json.load(f)
                         for g in prev_data.get("grades", []):
@@ -229,7 +228,7 @@ class GradeCrawler:
         successful_count = 0
         
         # 병렬 처리로 수집
-        with ThreadPoolExecutor(max_workers=5) as executor:
+        with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_bank = {
                 executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('city', ''), bank.get('district', ''), evaluation_date=evaluation_date): bank 
                 for bank in banks
