@@ -1021,12 +1021,12 @@ class StorageManager:
                 gmgo_cd = bank.get("gmgoCd")
                 if not gmgo_cd: continue
                 bank_map[gmgo_cd] = bank
-                # 지역 그룹핑 (district 기준)
-                dist = bank.get("district")
+                # 지역 그룹핑 (head_office.district 기준)
+                dist = bank.get("head_office", {}).get("district")
                 if dist:
                     if dist not in district_groups:
                         district_groups[dist] = []
-                    district_groups[dist].append({"gmgoCd": gmgo_cd, "name": bank.get("name")})
+                    district_groups[dist].append({"gmgoCd": gmgo_cd, "name": bank.get("group_name")})
 
             # 2. 금리 데이터 인덱싱
             rates_index = {"deposit": {}, "saving": {}, "demand": {}}
@@ -1078,18 +1078,13 @@ class StorageManager:
             
             for gmgo_cd, meta in bank_map.items():
                 try:
+                    head_office = meta.get("head_office", {})
                     branch_detail = {
                         "updated_at": updated_at,
                         "gmgoCd": gmgo_cd,
-                        "name": meta.get("name"),
+                        "name": meta.get("group_name"),
                         "meta": {
-                            "head_office": {
-                                "name": f"{meta.get('name')}(본점)",
-                                "address": meta.get("address"),
-                                "phone": meta.get("phone"),
-                                "city": meta.get("city"),
-                                "district": meta.get("district")
-                            },
+                            "head_office": head_office,
                             "branches": meta.get("branches", [])
                         },
                         "rates": {
@@ -1106,7 +1101,7 @@ class StorageManager:
                     }
                     
                     # 주변 지점 추천 (같은 district, 최대 5개, 자기 자신 제외)
-                    dist = meta.get("district")
+                    dist = head_office.get("district")
                     if dist and dist in district_groups:
                         nearby = [b for b in district_groups[dist] if b["gmgoCd"] != gmgo_cd]
                         branch_detail["nearby_branches"] = nearby[:5]
