@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3637",
-  "name": null,
+  "name": "남부천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "남부천(본점)",
+      "address": "경기 부천시 소사구 경인로536번길 20",
+      "phone": "032-342-0922",
+      "city": "경기",
+      "district": "부천시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "10.51"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3636",
+      "name": "부천제일"
+    },
+    {
+      "gmgoCd": "3639",
+      "name": "성지"
+    },
+    {
+      "gmgoCd": "3641",
+      "name": "북부천"
+    },
+    {
+      "gmgoCd": "3643",
+      "name": "송내"
+    },
+    {
+      "gmgoCd": "3644",
+      "name": "부천우리"
+    }
+  ]
 }

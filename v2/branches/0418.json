@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0418",
-  "name": null,
+  "name": "명지",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "명지(본점)",
+      "address": "서울 서대문구 거북골로 34",
+      "phone": "02-376-8011",
+      "city": "서울",
+      "district": "서대문구"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "37.78"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0402",
+      "name": "독립문"
+    },
+    {
+      "gmgoCd": "0408",
+      "name": "연희"
+    },
+    {
+      "gmgoCd": "0411",
+      "name": "홍제"
+    },
+    {
+      "gmgoCd": "0413",
+      "name": "홍은"
+    },
+    {
+      "gmgoCd": "0416",
+      "name": "가재울"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3422",
-  "name": null,
+  "name": "예산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "예산(본점)",
+      "address": "충남 예산군 예산읍 사직로 2",
+      "phone": "041-332-5487",
+      "city": "충남",
+      "district": "예산군"
     },
     "branches": [
       {
@@ -97,5 +97,18 @@
       "bis_ratio": "7.38"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3423",
+      "name": "금오"
+    },
+    {
+      "gmgoCd": "3424",
+      "name": "신례원"
+    },
+    {
+      "gmgoCd": "3425",
+      "name": "삽교"
+    }
+  ]
 }

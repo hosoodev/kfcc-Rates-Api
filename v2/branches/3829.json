@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3829",
-  "name": null,
+  "name": "삼성에스디아이",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼성에스디아이(본점)",
+      "address": "경기 용인시 기흥구 공세로 150-20",
+      "phone": "031-288-4181",
+      "city": "경기",
+      "district": "용인시"
     },
     "branches": [
       {
@@ -63,5 +63,22 @@
       "bis_ratio": "14.53"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3848",
+      "name": "서용인"
+    },
+    {
+      "gmgoCd": "3849",
+      "name": "우리용인"
+    },
+    {
+      "gmgoCd": "3850",
+      "name": "용인제일"
+    },
+    {
+      "gmgoCd": "3951",
+      "name": "용인중앙"
+    }
+  ]
 }

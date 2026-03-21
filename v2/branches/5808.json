@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5808",
-  "name": null,
+  "name": "안동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "안동(본점)",
+      "address": "경북 안동시 광명로 159",
+      "phone": "054-859-3111",
+      "city": "경북",
+      "district": "안동시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "6.8"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1959",
+      "name": "경상북도청"
+    },
+    {
+      "gmgoCd": "5801",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "5803",
+      "name": "용상"
+    },
+    {
+      "gmgoCd": "5804",
+      "name": "동남"
+    },
+    {
+      "gmgoCd": "5812",
+      "name": "명신"
+    }
+  ]
 }

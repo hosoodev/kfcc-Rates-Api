@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6702",
-  "name": null,
+  "name": "서귀포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서귀포(본점)",
+      "address": "제주 서귀포시 중앙로 42",
+      "phone": "064-733-2250",
+      "city": "제주",
+      "district": "서귀포시"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "8.28"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6704",
+      "name": "서홍"
+    },
+    {
+      "gmgoCd": "6705",
+      "name": "법환"
+    },
+    {
+      "gmgoCd": "6706",
+      "name": "서호"
+    },
+    {
+      "gmgoCd": "6707",
+      "name": "호근"
+    },
+    {
+      "gmgoCd": "6708",
+      "name": "강정"
+    }
+  ]
 }

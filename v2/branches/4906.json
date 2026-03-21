@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4906",
-  "name": null,
+  "name": "지리산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "지리산(본점)",
+      "address": "전북 남원시 인월면 인월로 64",
+      "phone": "063-636-2300",
+      "city": "전북",
+      "district": "남원시"
     },
     "branches": [
       {
@@ -69,5 +69,22 @@
       "bis_ratio": "6.98"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4901",
+      "name": "남원"
+    },
+    {
+      "gmgoCd": "4903",
+      "name": "남원중앙"
+    },
+    {
+      "gmgoCd": "4905",
+      "name": "운봉"
+    },
+    {
+      "gmgoCd": "4907",
+      "name": "동남원"
+    }
+  ]
 }

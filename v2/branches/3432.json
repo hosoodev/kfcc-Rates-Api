@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3432",
-  "name": null,
+  "name": "안면도",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "안면도(본점)",
+      "address": "충남 태안군 안면읍 장터로 130",
+      "phone": "041-673-4146",
+      "city": "충남",
+      "district": "태안군"
     },
     "branches": []
   },
@@ -56,5 +56,26 @@
       "bis_ratio": "16.02"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3431",
+      "name": "태안"
+    },
+    {
+      "gmgoCd": "3433",
+      "name": "남면"
+    },
+    {
+      "gmgoCd": "3434",
+      "name": "안흥"
+    },
+    {
+      "gmgoCd": "3435",
+      "name": "소원"
+    },
+    {
+      "gmgoCd": "3436",
+      "name": "원북"
+    }
+  ]
 }

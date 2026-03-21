@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1903",
-  "name": null,
+  "name": "동구",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동구(본점)",
+      "address": "대구 동구 아양로8길 20",
+      "phone": "053-955-2700",
+      "city": "대구",
+      "district": "동구"
     },
     "branches": []
   },
@@ -89,5 +89,26 @@
       "bis_ratio": "7.08"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4023",
-  "name": null,
+  "name": "보산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "보산(본점)",
+      "address": "경기 동두천시 평화로 2546",
+      "phone": "031-861-3335",
+      "city": "경기",
+      "district": "동두천시"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "9.66"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4039",
+      "name": "동두천중앙"
+    }
+  ]
 }

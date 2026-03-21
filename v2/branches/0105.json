@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0105",
-  "name": null,
+  "name": "세검정",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "세검정(본점)",
+      "address": "서울 종로구 평창11길 6",
+      "phone": "02-379-0977",
+      "city": "서울",
+      "district": "종로구"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "10.98"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동"
+    },
+    {
+      "gmgoCd": "0102",
+      "name": "광화문"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청"
+    },
+    {
+      "gmgoCd": "0106",
+      "name": "종로서부"
+    }
+  ]
 }

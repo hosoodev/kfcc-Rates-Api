@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5332",
-  "name": null,
+  "name": "죽변",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "죽변(본점)",
+      "address": "경북 울진군 죽변면 죽변중앙로 153",
+      "phone": "054-781-5500",
+      "city": "경북",
+      "district": "울진군"
     },
     "branches": []
   },
@@ -90,5 +90,14 @@
       "bis_ratio": "18.52"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5330",
+      "name": "울진"
+    },
+    {
+      "gmgoCd": "5333",
+      "name": "후포"
+    }
+  ]
 }

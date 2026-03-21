@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2736",
-  "name": null,
+  "name": "벌교",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "벌교(본점)",
+      "address": "전남 보성군 벌교읍 채동선로 240",
+      "phone": "061-857-1646",
+      "city": "전남",
+      "district": "보성군"
     },
     "branches": []
   },
@@ -98,5 +98,10 @@
       "bis_ratio": "11.95"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2737",
+      "name": "보성"
+    }
+  ]
 }

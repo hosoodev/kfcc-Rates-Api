@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0936",
-  "name": null,
+  "name": "다원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "다원(본점)",
+      "address": "서울 금천구 독산로 192",
+      "phone": "02-804-4622",
+      "city": "서울",
+      "district": "금천구"
     },
     "branches": [
       {
@@ -83,5 +83,22 @@
       "bis_ratio": "11.75"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0935",
+      "name": "금천중앙"
+    },
+    {
+      "gmgoCd": "0937",
+      "name": "독산동"
+    },
+    {
+      "gmgoCd": "0939",
+      "name": "금천남부"
+    },
+    {
+      "gmgoCd": "0940",
+      "name": "시흥"
+    }
+  ]
 }

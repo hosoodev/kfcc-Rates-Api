@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5711",
-  "name": null,
+  "name": "청도",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "청도(본점)",
+      "address": "경북 청도군 청도읍 청화로 201",
+      "phone": "054-372-8836",
+      "city": "경북",
+      "district": "청도군"
     },
     "branches": []
   },
@@ -98,5 +98,14 @@
       "bis_ratio": "13.55"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5717",
+      "name": "금천"
+    },
+    {
+      "gmgoCd": "5743",
+      "name": "청화"
+    }
+  ]
 }

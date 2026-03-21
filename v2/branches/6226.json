@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6226",
-  "name": null,
+  "name": "한마음",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한마음(본점)",
+      "address": "울산 동구 대학길 43",
+      "phone": "-1577-2590",
+      "city": "울산",
+      "district": "동구"
     },
     "branches": [
       {
@@ -109,5 +109,26 @@
       "bis_ratio": "22.95"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동"
+    }
+  ]
 }

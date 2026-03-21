@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0931",
-  "name": null,
+  "name": "원신",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "원신(본점)",
+      "address": "서울 관악구 호암로 588",
+      "phone": "02-872-0076",
+      "city": "서울",
+      "district": "관악구"
     },
     "branches": []
   },
@@ -92,5 +92,26 @@
       "bis_ratio": "10.06"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대"
+    }
+  ]
 }

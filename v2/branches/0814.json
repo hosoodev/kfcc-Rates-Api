@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0814",
-  "name": null,
+  "name": "한결",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한결(본점)",
+      "address": "서울 영등포구 가마산로65길 3",
+      "phone": "02-832-0479",
+      "city": "서울",
+      "district": "영등포구"
     },
     "branches": [
       {
@@ -97,5 +97,26 @@
       "bis_ratio": "19.85"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙"
+    },
+    {
+      "gmgoCd": "0803",
+      "name": "영등포제일"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1207",
-  "name": null,
+  "name": "자갈치",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "자갈치(본점)",
+      "address": "부산 중구 자갈치로47번길 6-1",
+      "phone": "051-245-9058",
+      "city": "부산",
+      "district": "중구"
     },
     "branches": [
       {
@@ -91,5 +91,26 @@
       "bis_ratio": "6.51"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    }
+  ]
 }

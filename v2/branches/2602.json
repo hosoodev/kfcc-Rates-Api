@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2602",
-  "name": null,
+  "name": "여수엑스포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "여수엑스포(본점)",
+      "address": "전남 여수시 동문로 116",
+      "phone": "061-662-1326",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "12.11"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    },
+    {
+      "gmgoCd": "2607",
+      "name": "진남"
+    }
+  ]
 }

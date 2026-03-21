@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5138",
-  "name": null,
+  "name": "김제하나",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "김제하나(본점)",
+      "address": "전북 김제시 서낭당길 36",
+      "phone": "063-545-2960",
+      "city": "전북",
+      "district": "김제시"
     },
     "branches": [
       {
@@ -97,5 +97,18 @@
       "bis_ratio": "9.04"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5140",
+      "name": "만경"
+    },
+    {
+      "gmgoCd": "5141",
+      "name": "지평선"
+    },
+    {
+      "gmgoCd": "5144",
+      "name": "새만금"
+    }
+  ]
 }

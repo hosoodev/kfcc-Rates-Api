@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1101",
-  "name": null,
+  "name": "서초중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서초중앙(본점)",
+      "address": "서울 서초구 강남대로109길 102",
+      "phone": "02-541-1404",
+      "city": "서울",
+      "district": "서초구"
     },
     "branches": [
       {
@@ -81,5 +81,18 @@
       "bis_ratio": "10.04"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1102",
+      "name": "서초"
+    },
+    {
+      "gmgoCd": "1104",
+      "name": "서초제일"
+    },
+    {
+      "gmgoCd": "1152",
+      "name": "하이트진로"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1431",
-  "name": null,
+  "name": "장림동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "장림동(본점)",
+      "address": "부산 사하구 장림로184번길 34",
+      "phone": "051-263-5681",
+      "city": "부산",
+      "district": "사하구"
     },
     "branches": [
       {
@@ -85,5 +85,26 @@
       "bis_ratio": "11.68"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1424",
+      "name": "신괴정"
+    },
+    {
+      "gmgoCd": "1425",
+      "name": "괴정2동"
+    },
+    {
+      "gmgoCd": "1426",
+      "name": "괴정3동"
+    },
+    {
+      "gmgoCd": "1427",
+      "name": "부산서부"
+    },
+    {
+      "gmgoCd": "1428",
+      "name": "서부산"
+    }
+  ]
 }

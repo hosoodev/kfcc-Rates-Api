@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1608",
-  "name": null,
+  "name": "사직2동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "사직2동(본점)",
+      "address": "부산 동래구 사직북로47번길 47",
+      "phone": "051-501-9633",
+      "city": "부산",
+      "district": "동래구"
     },
     "branches": []
   },
@@ -93,5 +93,26 @@
       "bis_ratio": "15.7"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1601",
+      "name": "수민동"
+    },
+    {
+      "gmgoCd": "1602",
+      "name": "복산동"
+    },
+    {
+      "gmgoCd": "1603",
+      "name": "명륜동"
+    },
+    {
+      "gmgoCd": "1605",
+      "name": "온천"
+    },
+    {
+      "gmgoCd": "1606",
+      "name": "온천3동"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3116",
-  "name": null,
+  "name": "태평",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "태평(본점)",
+      "address": "대전 중구 동서대로 1228",
+      "phone": "042-534-1544",
+      "city": "대전",
+      "district": "중구"
     },
     "branches": [
       {
@@ -95,5 +95,26 @@
       "bis_ratio": "10.77"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    }
+  ]
 }

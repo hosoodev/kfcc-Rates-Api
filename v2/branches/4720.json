@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4720",
-  "name": null,
+  "name": "동현",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동현(본점)",
+      "address": "충북 제천시 의병대로 156",
+      "phone": "043-648-3414",
+      "city": "충북",
+      "district": "제천시"
     },
     "branches": [
       {
@@ -97,5 +97,14 @@
       "bis_ratio": "10.64"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4717",
+      "name": "동제천"
+    },
+    {
+      "gmgoCd": "4719",
+      "name": "신제천"
+    }
+  ]
 }

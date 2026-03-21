@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0650",
-  "name": null,
+  "name": "노원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "노원(본점)",
+      "address": "서울 노원구 노해로 455",
+      "phone": "02-936-6293",
+      "city": "서울",
+      "district": "노원구"
     },
     "branches": [
       {

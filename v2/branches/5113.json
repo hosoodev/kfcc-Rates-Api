@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5113",
-  "name": null,
+  "name": "금강",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금강(본점)",
+      "address": "전북 군산시 구시장로 31",
+      "phone": "063-442-6565",
+      "city": "전북",
+      "district": "군산시"
     },
     "branches": [
       {
@@ -95,5 +95,22 @@
       "bis_ratio": "9.57"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5105",
+      "name": "군산중부"
+    },
+    {
+      "gmgoCd": "5111",
+      "name": "동군산"
+    },
+    {
+      "gmgoCd": "5112",
+      "name": "군산제일"
+    },
+    {
+      "gmgoCd": "5116",
+      "name": "남군산"
+    }
+  ]
 }

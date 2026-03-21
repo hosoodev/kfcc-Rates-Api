@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4109",
-  "name": null,
+  "name": "진접",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "진접(본점)",
+      "address": "경기 남양주시 진접읍 해밀예당1로 50-80",
+      "phone": "031-572-8885",
+      "city": "경기",
+      "district": "남양주시"
     },
     "branches": [
       {
@@ -97,5 +97,26 @@
       "bis_ratio": "13.76"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4104",
+      "name": "다산"
+    },
+    {
+      "gmgoCd": "4106",
+      "name": "별내"
+    },
+    {
+      "gmgoCd": "4107",
+      "name": "화도"
+    },
+    {
+      "gmgoCd": "4108",
+      "name": "중부"
+    },
+    {
+      "gmgoCd": "4110",
+      "name": "남양주중앙"
+    }
+  ]
 }

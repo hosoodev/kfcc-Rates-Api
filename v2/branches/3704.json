@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3704",
-  "name": null,
+  "name": "제일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "제일(본점)",
+      "address": "경기 광명시 광명로 773",
+      "phone": "02-2612-8313",
+      "city": "경기",
+      "district": "광명시"
     },
     "branches": [
       {
@@ -123,5 +123,22 @@
       "bis_ratio": "12.14"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3703",
+      "name": "광남"
+    },
+    {
+      "gmgoCd": "3708",
+      "name": "기아"
+    },
+    {
+      "gmgoCd": "3735",
+      "name": "광명동부"
+    },
+    {
+      "gmgoCd": "3737",
+      "name": "광명"
+    }
+  ]
 }

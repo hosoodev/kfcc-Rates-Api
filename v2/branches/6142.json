@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6142",
-  "name": null,
+  "name": "북김해",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "북김해(본점)",
+      "address": "경남 김해시 해반천로 154",
+      "phone": "055-333-5248",
+      "city": "경남",
+      "district": "김해시"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "10.9"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6135",
+      "name": "김해중앙"
+    },
+    {
+      "gmgoCd": "6136",
+      "name": "남김해"
+    },
+    {
+      "gmgoCd": "6137",
+      "name": "부원"
+    },
+    {
+      "gmgoCd": "6138",
+      "name": "서김해"
+    },
+    {
+      "gmgoCd": "6139",
+      "name": "김해서부"
+    }
+  ]
 }

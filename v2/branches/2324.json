@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2324",
-  "name": null,
+  "name": "신성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신성(본점)",
+      "address": "인천 부평구 배곶남로6번길 41",
+      "phone": "032-423-6015",
+      "city": "인천",
+      "district": "부평구"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "13.75"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2315",
+      "name": "부일"
+    },
+    {
+      "gmgoCd": "2316",
+      "name": "부평남부"
+    },
+    {
+      "gmgoCd": "2317",
+      "name": "부평제일"
+    },
+    {
+      "gmgoCd": "2318",
+      "name": "부평중앙"
+    },
+    {
+      "gmgoCd": "2319",
+      "name": "부평동부"
+    }
+  ]
 }

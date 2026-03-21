@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3921",
-  "name": null,
+  "name": "경기화성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "경기화성(본점)",
+      "address": "경기 화성시 만세구 우정읍 3.1만세로 41",
+      "phone": "031-351-4075",
+      "city": "경기",
+      "district": "화성시"
     },
     "branches": [
       {
@@ -123,5 +123,22 @@
       "bis_ratio": "9.69"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3917",
+      "name": "화성"
+    },
+    {
+      "gmgoCd": "3920",
+      "name": "경기서부"
+    },
+    {
+      "gmgoCd": "3922",
+      "name": "화산"
+    },
+    {
+      "gmgoCd": "3952",
+      "name": "화성제일"
+    }
+  ]
 }

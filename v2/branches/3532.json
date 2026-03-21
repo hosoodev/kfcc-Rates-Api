@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3532",
-  "name": null,
+  "name": "하남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "하남(본점)",
+      "address": "경기 하남시 조정대로 42-2",
+      "phone": "031-792-2715",
+      "city": "경기",
+      "district": "하남시"
     },
     "branches": [
       {

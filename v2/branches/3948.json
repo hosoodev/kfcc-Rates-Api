@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3948",
-  "name": null,
+  "name": "안성장학",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "안성장학(본점)",
+      "address": "경기 안성시 죽산면 죽주로 259",
+      "phone": "031-676-6735",
+      "city": "경기",
+      "district": "안성시"
     },
     "branches": [
       {
@@ -117,5 +117,10 @@
       "bis_ratio": "9.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3942",
+      "name": "안성"
+    }
+  ]
 }

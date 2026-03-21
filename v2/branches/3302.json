@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3302",
-  "name": null,
+  "name": "온양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "온양(본점)",
+      "address": "충남 아산시 시민로393번길 6",
+      "phone": "041-545-9337",
+      "city": "충남",
+      "district": "아산시"
     },
     "branches": [
       {
@@ -75,5 +75,26 @@
       "bis_ratio": "8"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3303",
+      "name": "정우"
+    },
+    {
+      "gmgoCd": "3307",
+      "name": "아산"
+    },
+    {
+      "gmgoCd": "3308",
+      "name": "탕정"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우"
+    },
+    {
+      "gmgoCd": "3345",
+      "name": "코닝정밀소재"
+    }
+  ]
 }

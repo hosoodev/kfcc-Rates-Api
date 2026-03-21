@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2610",
-  "name": null,
+  "name": "좌수영",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "좌수영(본점)",
+      "address": "전남 여수시 버드나무길 5-1",
+      "phone": "061-642-1609",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": [
       {
@@ -84,5 +84,26 @@
       "bis_ratio": "14.55"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    }
+  ]
 }

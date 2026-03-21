@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6455",
-  "name": null,
+  "name": "산청",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "산청(본점)",
+      "address": "경남 산청군 산청읍 웅석봉로 19",
+      "phone": "055-972-4433",
+      "city": "경남",
+      "district": "산청군"
     },
     "branches": []
   },

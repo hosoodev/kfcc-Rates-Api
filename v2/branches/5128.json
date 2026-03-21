@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5128",
-  "name": null,
+  "name": "신익산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신익산(본점)",
+      "address": "전북 익산시 황등면 황등로 162-1",
+      "phone": "063-856-4531",
+      "city": "전북",
+      "district": "익산시"
     },
     "branches": [
       {
@@ -97,5 +97,26 @@
       "bis_ratio": "10.89"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5122",
+      "name": "이리평화"
+    },
+    {
+      "gmgoCd": "5123",
+      "name": "인화"
+    },
+    {
+      "gmgoCd": "5125",
+      "name": "익산서부"
+    },
+    {
+      "gmgoCd": "5132",
+      "name": "원광대학교"
+    },
+    {
+      "gmgoCd": "5134",
+      "name": "익산중앙"
+    }
+  ]
 }

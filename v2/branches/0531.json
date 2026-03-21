@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0531",
-  "name": null,
+  "name": "서울상봉",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서울상봉(본점)",
+      "address": "서울 중랑구 상봉중앙로1길 78",
+      "phone": "02-2208-6677",
+      "city": "서울",
+      "district": "중랑구"
     },
     "branches": []
   },
@@ -76,5 +76,26 @@
       "bis_ratio": "14.88"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0527",
+      "name": "중랑서부"
+    },
+    {
+      "gmgoCd": "0528",
+      "name": "사가정"
+    },
+    {
+      "gmgoCd": "0529",
+      "name": "서울동부"
+    },
+    {
+      "gmgoCd": "0530",
+      "name": "용마"
+    },
+    {
+      "gmgoCd": "0533",
+      "name": "중랑우리"
+    }
+  ]
 }

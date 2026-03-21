@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2720",
-  "name": null,
+  "name": "여수한려",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "여수한려(본점)",
+      "address": "전남 여수시 소라면 죽림중앙로 30-55",
+      "phone": "061-684-2511",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "13.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    }
+  ]
 }

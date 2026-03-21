@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5718",
-  "name": null,
+  "name": "고령",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "고령(본점)",
+      "address": "경북 고령군 대가야읍 시장길 14",
+      "phone": "054-954-1650",
+      "city": "경북",
+      "district": "고령군"
     },
     "branches": [
       {

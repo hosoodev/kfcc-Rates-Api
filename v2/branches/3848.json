@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3848",
-  "name": null,
+  "name": "서용인",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서용인(본점)",
+      "address": "경기 용인시 수지구 현암로 104",
+      "phone": "031-898-2114",
+      "city": "경기",
+      "district": "용인시"
     },
     "branches": [
       {
@@ -121,5 +121,22 @@
       "bis_ratio": "15.28"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3829",
+      "name": "삼성에스디아이"
+    },
+    {
+      "gmgoCd": "3849",
+      "name": "우리용인"
+    },
+    {
+      "gmgoCd": "3850",
+      "name": "용인제일"
+    },
+    {
+      "gmgoCd": "3951",
+      "name": "용인중앙"
+    }
+  ]
 }

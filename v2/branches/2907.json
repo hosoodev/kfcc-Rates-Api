@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2907",
-  "name": null,
+  "name": "담양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "담양(본점)",
+      "address": "전남 담양군 담양읍 지침3길 13",
+      "phone": "061-383-3888",
+      "city": "전남",
+      "district": "담양군"
     },
     "branches": [
       {

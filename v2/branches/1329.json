@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1329",
-  "name": null,
+  "name": "영도중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영도중앙(본점)",
+      "address": "부산 영도구 영선대로 99",
+      "phone": "051-418-8544",
+      "city": "부산",
+      "district": "영도구"
     },
     "branches": [
       {
@@ -105,5 +105,22 @@
       "bis_ratio": "6.68"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1332",
+      "name": "한아름"
+    },
+    {
+      "gmgoCd": "1338",
+      "name": "태종대"
+    },
+    {
+      "gmgoCd": "1339",
+      "name": "영도"
+    },
+    {
+      "gmgoCd": "1340",
+      "name": "동삼동"
+    }
+  ]
 }

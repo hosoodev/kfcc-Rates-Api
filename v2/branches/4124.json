@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4124",
-  "name": null,
+  "name": "우리",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "우리(본점)",
+      "address": "경기 파주시 문산읍 문향로49번길 11",
+      "phone": "031-952-2387",
+      "city": "경기",
+      "district": "파주시"
     },
     "branches": [
       {
@@ -97,5 +97,14 @@
       "bis_ratio": "9.82"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4141",
+      "name": "파주중앙"
+    },
+    {
+      "gmgoCd": "4145",
+      "name": "파주"
+    }
+  ]
 }

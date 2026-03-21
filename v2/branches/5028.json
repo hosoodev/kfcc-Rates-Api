@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5028",
-  "name": null,
+  "name": "남부안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "남부안(본점)",
+      "address": "전북 부안군 진서면 청자로 953",
+      "phone": "063-582-7240",
+      "city": "전북",
+      "district": "부안군"
     },
     "branches": [
       {
@@ -103,5 +103,10 @@
       "bis_ratio": "8.48"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5021",
+      "name": "부령"
+    }
+  ]
 }

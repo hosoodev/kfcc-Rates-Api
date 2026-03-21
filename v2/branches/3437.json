@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3437",
-  "name": null,
+  "name": "당진",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "당진(본점)",
+      "address": "충남 당진시 당진중앙2로 108",
+      "phone": "041-355-0771",
+      "city": "충남",
+      "district": "당진시"
     },
     "branches": [
       {
@@ -103,5 +103,14 @@
       "bis_ratio": "7.29"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3440",
+      "name": "당진서부"
+    },
+    {
+      "gmgoCd": "3441",
+      "name": "당진동부"
+    }
+  ]
 }

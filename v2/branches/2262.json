@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2262",
-  "name": null,
+  "name": "송북",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "송북(본점)",
+      "address": "인천 중구 차이나타운로44번길 31-5",
+      "phone": "032-761-6054",
+      "city": "인천",
+      "district": "중구"
     },
     "branches": []
   },
@@ -98,5 +98,26 @@
       "bis_ratio": "13.88"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    }
+  ]
 }

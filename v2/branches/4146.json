@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4146",
-  "name": null,
+  "name": "양주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "양주(본점)",
+      "address": "경기 양주시 회정로 120",
+      "phone": "031-859-1945",
+      "city": "경기",
+      "district": "양주시"
     },
     "branches": [
       {
@@ -103,5 +103,10 @@
       "bis_ratio": "8.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4116",
+      "name": "양주중앙"
+    }
+  ]
 }

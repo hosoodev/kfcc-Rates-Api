@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4007",
-  "name": null,
+  "name": "호원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "호원(본점)",
+      "address": "경기 의정부시 평화로243번길 19",
+      "phone": "031-875-6945",
+      "city": "경기",
+      "district": "의정부시"
     },
     "branches": [
       {
@@ -103,5 +103,22 @@
       "bis_ratio": "8.47"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4009",
+      "name": "의정부신곡"
+    },
+    {
+      "gmgoCd": "4014",
+      "name": "의정부동부"
+    },
+    {
+      "gmgoCd": "4040",
+      "name": "의정부중앙"
+    },
+    {
+      "gmgoCd": "4042",
+      "name": "의정부서부"
+    }
+  ]
 }

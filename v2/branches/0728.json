@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0728",
-  "name": null,
+  "name": "구로5동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "구로5동(본점)",
+      "address": "서울 구로구 구로중앙로32가길 22",
+      "phone": "02-863-7381",
+      "city": "서울",
+      "district": "구로구"
     },
     "branches": []
   },
@@ -98,5 +98,26 @@
       "bis_ratio": "49.82"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0724",
+      "name": "신도림"
+    },
+    {
+      "gmgoCd": "0725",
+      "name": "구로"
+    },
+    {
+      "gmgoCd": "0731",
+      "name": "디지털"
+    },
+    {
+      "gmgoCd": "0732",
+      "name": "구로중앙"
+    },
+    {
+      "gmgoCd": "0733",
+      "name": "고척"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3953",
-  "name": null,
+  "name": "오산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "오산(본점)",
+      "address": "경기 오산시 성호대로 94",
+      "phone": "031-375-3810",
+      "city": "경기",
+      "district": "오산시"
     },
     "branches": [
       {

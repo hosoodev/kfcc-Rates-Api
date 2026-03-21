@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0706",
-  "name": null,
+  "name": "금빛",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금빛(본점)",
+      "address": "서울 양천구 신월로 188",
+      "phone": "02-2603-4000",
+      "city": "서울",
+      "district": "양천구"
     },
     "branches": [
       {
@@ -111,5 +111,18 @@
       "bis_ratio": "14.61"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0702",
+      "name": "목동"
+    },
+    {
+      "gmgoCd": "0707",
+      "name": "신목동"
+    },
+    {
+      "gmgoCd": "0709",
+      "name": "신오"
+    }
+  ]
 }

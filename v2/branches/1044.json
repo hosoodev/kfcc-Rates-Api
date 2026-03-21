@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1044",
-  "name": null,
+  "name": "천호",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "천호(본점)",
+      "address": "서울 강동구 구천면로 290",
+      "phone": "02-482-3730",
+      "city": "서울",
+      "district": "강동구"
     },
     "branches": [
       {
@@ -105,5 +105,14 @@
       "bis_ratio": "6.66"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1040",
+      "name": "서울강동"
+    },
+    {
+      "gmgoCd": "1052",
+      "name": "신강동"
+    }
+  ]
 }

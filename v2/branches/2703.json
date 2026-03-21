@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2703",
-  "name": null,
+  "name": "광양시",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "광양시(본점)",
+      "address": "전남 광양시 광장로 127",
+      "phone": "061-797-1400",
+      "city": "전남",
+      "district": "광양시"
     },
     "branches": [
       {
@@ -129,5 +129,10 @@
       "bis_ratio": "11.89"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2706",
+      "name": "광양"
+    }
+  ]
 }

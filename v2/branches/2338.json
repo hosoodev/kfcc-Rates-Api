@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2338",
-  "name": null,
+  "name": "계산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "계산(본점)",
+      "address": "인천 계양구 계양대로 201",
+      "phone": "032-541-3001",
+      "city": "인천",
+      "district": "계양구"
     },
     "branches": [
       {
@@ -129,5 +129,14 @@
       "bis_ratio": "9.42"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2337",
+      "name": "효성"
+    },
+    {
+      "gmgoCd": "2339",
+      "name": "계양"
+    }
+  ]
 }

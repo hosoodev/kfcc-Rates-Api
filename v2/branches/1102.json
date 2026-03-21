@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1102",
-  "name": null,
+  "name": "서초",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서초(본점)",
+      "address": "서울 서초구 방배중앙로21길 65",
+      "phone": "02-594-2600",
+      "city": "서울",
+      "district": "서초구"
     },
     "branches": [
       {
@@ -105,5 +105,18 @@
       "bis_ratio": "9.86"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1101",
+      "name": "서초중앙"
+    },
+    {
+      "gmgoCd": "1104",
+      "name": "서초제일"
+    },
+    {
+      "gmgoCd": "1152",
+      "name": "하이트진로"
+    }
+  ]
 }

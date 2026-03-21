@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6537",
-  "name": null,
+  "name": "새고성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "새고성(본점)",
+      "address": "경남 고성군 거류면 거류로 673",
+      "phone": "055-672-2113",
+      "city": "경남",
+      "district": "고성군"
     },
     "branches": [
       {
@@ -117,5 +117,10 @@
       "bis_ratio": "6.32"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6528",
+      "name": "고성"
+    }
+  ]
 }

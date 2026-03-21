@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4745",
-  "name": null,
+  "name": "단양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "단양(본점)",
+      "address": "충북 단양군 매포읍 평동로 134",
+      "phone": "043-422-7684",
+      "city": "충북",
+      "district": "단양군"
     },
     "branches": [
       {

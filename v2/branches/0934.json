@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0934",
-  "name": null,
+  "name": "신신",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신신(본점)",
+      "address": "서울 관악구 신원로 20",
+      "phone": "02-869-2173",
+      "city": "서울",
+      "district": "관악구"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "12.42"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대"
+    }
+  ]
 }

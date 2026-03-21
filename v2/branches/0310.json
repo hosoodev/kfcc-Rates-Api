@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0310",
-  "name": null,
+  "name": "한강2동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한강2동(본점)",
+      "address": "서울 용산구 한강대로44길 5",
+      "phone": "02-795-1883",
+      "city": "서울",
+      "district": "용산구"
     },
     "branches": []
   },
@@ -94,5 +94,26 @@
       "bis_ratio": "6.55"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암"
+    },
+    {
+      "gmgoCd": "0311",
+      "name": "한강로3가"
+    }
+  ]
 }

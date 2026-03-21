@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6247",
-  "name": null,
+  "name": "현대모비스",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "현대모비스(본점)",
+      "address": "울산 북구 염포로 706",
+      "phone": "052-285-9407",
+      "city": "울산",
+      "district": "북구"
     },
     "branches": [
       {
@@ -63,5 +63,26 @@
       "bis_ratio": "14.62"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구"
+    }
+  ]
 }

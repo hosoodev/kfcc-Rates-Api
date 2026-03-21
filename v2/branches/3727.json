@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3727",
-  "name": null,
+  "name": "의왕",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "의왕(본점)",
+      "address": "경기 의왕시 원골로 4",
+      "phone": "031-452-2984",
+      "city": "경기",
+      "district": "의왕시"
     },
     "branches": [
       {

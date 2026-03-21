@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1643",
-  "name": null,
+  "name": "신앙촌",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신앙촌(본점)",
+      "address": "부산 기장군 기장읍 죽성로 197",
+      "phone": "051-722-8448",
+      "city": "부산",
+      "district": "기장군"
     },
     "branches": []
   },
@@ -50,5 +50,14 @@
       "bis_ratio": "370.95"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1641",
+      "name": "정관"
+    },
+    {
+      "gmgoCd": "1642",
+      "name": "기장"
+    }
+  ]
 }

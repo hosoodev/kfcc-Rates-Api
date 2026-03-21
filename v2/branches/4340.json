@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4340",
-  "name": null,
+  "name": "평창",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "평창(본점)",
+      "address": "강원 평창군 대관령면 대관령로 115",
+      "phone": "033-335-5274",
+      "city": "강원",
+      "district": "평창군"
     },
     "branches": [
       {

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3346",
-  "name": null,
+  "name": "삼성디스플레이",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼성디스플레이(본점)",
+      "address": "충남 아산시 탕정면 탕정로 380-2",
+      "phone": "041-623-9128",
+      "city": "충남",
+      "district": "아산시"
     },
     "branches": [
       {
@@ -69,5 +69,26 @@
       "bis_ratio": "14.47"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3302",
+      "name": "온양"
+    },
+    {
+      "gmgoCd": "3303",
+      "name": "정우"
+    },
+    {
+      "gmgoCd": "3307",
+      "name": "아산"
+    },
+    {
+      "gmgoCd": "3308",
+      "name": "탕정"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우"
+    }
+  ]
 }

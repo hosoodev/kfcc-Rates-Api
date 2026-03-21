@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3016",
-  "name": null,
+  "name": "성남동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "성남동(본점)",
+      "address": "대전 동구 우암로 171",
+      "phone": "042-633-6100",
+      "city": "대전",
+      "district": "동구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "9.64"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동"
+    }
+  ]
 }

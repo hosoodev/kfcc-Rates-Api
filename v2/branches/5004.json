@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5004",
-  "name": null,
+  "name": "상명",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "상명(본점)",
+      "address": "전북 정읍시 충정로 175-1",
+      "phone": "063-533-9985",
+      "city": "전북",
+      "district": "정읍시"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "10.54"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5001",
+      "name": "정읍"
+    },
+    {
+      "gmgoCd": "5003",
+      "name": "연지"
+    },
+    {
+      "gmgoCd": "5006",
+      "name": "태인"
+    },
+    {
+      "gmgoCd": "5007",
+      "name": "산외"
+    },
+    {
+      "gmgoCd": "5008",
+      "name": "신태인"
+    }
+  ]
 }

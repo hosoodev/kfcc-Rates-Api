@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5943",
-  "name": null,
+  "name": "예천군",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "예천군(본점)",
+      "address": "경북 예천군 예천읍 시장로 121",
+      "phone": "054-654-7441",
+      "city": "경북",
+      "district": "예천군"
     },
     "branches": [
       {
@@ -95,5 +95,10 @@
       "bis_ratio": "-0.01"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5924",
+      "name": "용궁"
+    }
+  ]
 }

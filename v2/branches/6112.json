@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6112",
-  "name": null,
+  "name": "동창원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동창원(본점)",
+      "address": "경남 창원시 의창구 동읍 용잠로 14-1",
+      "phone": "055-291-2970",
+      "city": "경남",
+      "district": "창원시"
     },
     "branches": [
       {
@@ -69,5 +69,26 @@
       "bis_ratio": "7.36"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부"
+    }
+  ]
 }

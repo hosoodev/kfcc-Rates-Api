@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6414",
-  "name": null,
+  "name": "동진주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동진주(본점)",
+      "address": "경남 진주시 솔밭로 91",
+      "phone": "055-755-1926",
+      "city": "경남",
+      "district": "진주시"
     },
     "branches": [
       {
@@ -109,5 +109,26 @@
       "bis_ratio": "8.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH"
+    },
+    {
+      "gmgoCd": "6401",
+      "name": "망경"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉"
+    }
+  ]
 }

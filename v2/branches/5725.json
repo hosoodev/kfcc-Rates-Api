@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5725",
-  "name": null,
+  "name": "성주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "성주(본점)",
+      "address": "경북 성주군 성주읍 성주로 3236",
+      "phone": "054-933-0090",
+      "city": "경북",
+      "district": "성주군"
     },
     "branches": [
       {

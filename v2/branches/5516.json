@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5516",
-  "name": null,
+  "name": "새비산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "새비산(본점)",
+      "address": "경북 구미시 비산로1길 36",
+      "phone": "054-463-3559",
+      "city": "경북",
+      "district": "구미시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "10.16"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5501",
+      "name": "송정"
+    },
+    {
+      "gmgoCd": "5502",
+      "name": "금오"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량"
+    },
+    {
+      "gmgoCd": "5505",
+      "name": "지산"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남"
+    }
+  ]
 }

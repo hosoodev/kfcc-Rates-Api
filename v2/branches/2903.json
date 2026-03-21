@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2903",
-  "name": null,
+  "name": "영산포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영산포(본점)",
+      "address": "전남 나주시 이창1길 43",
+      "phone": "061-334-0276",
+      "city": "전남",
+      "district": "나주시"
     },
     "branches": []
   },
@@ -56,5 +56,18 @@
       "bis_ratio": "10.03"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1119",
+      "name": "한전"
+    },
+    {
+      "gmgoCd": "2902",
+      "name": "나주"
+    },
+    {
+      "gmgoCd": "2905",
+      "name": "나주동부"
+    }
+  ]
 }

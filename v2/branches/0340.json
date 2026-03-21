@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0340",
-  "name": null,
+  "name": "연신내",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "연신내(본점)",
+      "address": "서울 은평구 연서로26길 10",
+      "phone": "02-387-1962",
+      "city": "서울",
+      "district": "은평구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "8.59"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0329",
+      "name": "녹번동"
+    },
+    {
+      "gmgoCd": "0330",
+      "name": "서울은평"
+    },
+    {
+      "gmgoCd": "0331",
+      "name": "갈현동"
+    },
+    {
+      "gmgoCd": "0332",
+      "name": "구산동"
+    },
+    {
+      "gmgoCd": "0334",
+      "name": "e-푸른"
+    }
+  ]
 }

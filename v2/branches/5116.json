@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5116",
-  "name": null,
+  "name": "남군산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "남군산(본점)",
+      "address": "전북 군산시 미룡로 30",
+      "phone": "063-471-9888",
+      "city": "전북",
+      "district": "군산시"
     },
     "branches": [
       {
@@ -109,5 +109,22 @@
       "bis_ratio": "10.19"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5105",
+      "name": "군산중부"
+    },
+    {
+      "gmgoCd": "5111",
+      "name": "동군산"
+    },
+    {
+      "gmgoCd": "5112",
+      "name": "군산제일"
+    },
+    {
+      "gmgoCd": "5113",
+      "name": "금강"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0753",
-  "name": null,
+  "name": "동구로",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동구로(본점)",
+      "address": "서울 구로구 구로중앙로 26",
+      "phone": "02-864-5871",
+      "city": "서울",
+      "district": "구로구"
     },
     "branches": [
       {
@@ -79,5 +79,26 @@
       "bis_ratio": "12.47"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0724",
+      "name": "신도림"
+    },
+    {
+      "gmgoCd": "0725",
+      "name": "구로"
+    },
+    {
+      "gmgoCd": "0728",
+      "name": "구로5동"
+    },
+    {
+      "gmgoCd": "0731",
+      "name": "디지털"
+    },
+    {
+      "gmgoCd": "0732",
+      "name": "구로중앙"
+    }
+  ]
 }

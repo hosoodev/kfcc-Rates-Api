@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5851",
-  "name": null,
+  "name": "신문경",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신문경(본점)",
+      "address": "경북 문경시 당교로 259",
+      "phone": "054-555-7711",
+      "city": "경북",
+      "district": "문경시"
     },
     "branches": [
       {
@@ -141,5 +141,10 @@
       "bis_ratio": "9.16"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5839",
+      "name": "문경제일"
+    }
+  ]
 }

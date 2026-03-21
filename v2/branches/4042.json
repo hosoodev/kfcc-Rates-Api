@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4042",
-  "name": null,
+  "name": "의정부서부",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "의정부서부(본점)",
+      "address": "경기 의정부시 의정로 131",
+      "phone": "031-877-6819",
+      "city": "경기",
+      "district": "의정부시"
     },
     "branches": [
       {
@@ -110,5 +110,22 @@
       "bis_ratio": "12.28"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4007",
+      "name": "호원"
+    },
+    {
+      "gmgoCd": "4009",
+      "name": "의정부신곡"
+    },
+    {
+      "gmgoCd": "4014",
+      "name": "의정부동부"
+    },
+    {
+      "gmgoCd": "4040",
+      "name": "의정부중앙"
+    }
+  ]
 }

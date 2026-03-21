@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6022",
-  "name": null,
+  "name": "삼성창원병원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼성창원병원(본점)",
+      "address": "경남 창원시 마산회원구 팔용로 158",
+      "phone": "055-233-8650",
+      "city": "경남",
+      "district": "창원시"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "91.6"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부"
+    }
+  ]
 }

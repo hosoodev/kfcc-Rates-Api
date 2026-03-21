@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2646",
-  "name": null,
+  "name": "여수서부",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "여수서부(본점)",
+      "address": "전남 여수시 문수로 157-1",
+      "phone": "061-652-4351",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": [
       {
@@ -69,5 +69,26 @@
       "bis_ratio": "9.02"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    }
+  ]
 }

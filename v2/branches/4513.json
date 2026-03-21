@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4513",
-  "name": null,
+  "name": "조은",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "조은(본점)",
+      "address": "충북 청주시 서원구 모충로 28",
+      "phone": "043-271-8300",
+      "city": "충북",
+      "district": "청주시"
     },
     "branches": [
       {
@@ -75,5 +75,26 @@
       "bis_ratio": "8.28"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리"
+    },
+    {
+      "gmgoCd": "4509",
+      "name": "청주중앙"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암"
+    }
+  ]
 }

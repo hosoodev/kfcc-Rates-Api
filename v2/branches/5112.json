@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5112",
-  "name": null,
+  "name": "군산제일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "군산제일(본점)",
+      "address": "전북 군산시 개정면 바르메길 39",
+      "phone": "063-451-4334",
+      "city": "전북",
+      "district": "군산시"
     },
     "branches": [
       {
@@ -87,5 +87,22 @@
       "bis_ratio": "11.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5105",
+      "name": "군산중부"
+    },
+    {
+      "gmgoCd": "5111",
+      "name": "동군산"
+    },
+    {
+      "gmgoCd": "5113",
+      "name": "금강"
+    },
+    {
+      "gmgoCd": "5116",
+      "name": "남군산"
+    }
+  ]
 }

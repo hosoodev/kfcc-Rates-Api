@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2737",
-  "name": null,
+  "name": "보성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "보성(본점)",
+      "address": "전남 보성군 보성읍 신흥길 8",
+      "phone": "061-853-1133",
+      "city": "전남",
+      "district": "보성군"
     },
     "branches": [
       {
@@ -98,5 +98,10 @@
       "bis_ratio": "7.6"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2736",
+      "name": "벌교"
+    }
+  ]
 }

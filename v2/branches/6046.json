@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6046",
-  "name": null,
+  "name": "함안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "함안(본점)",
+      "address": "경남 함안군 가야읍 가야로 39-5",
+      "phone": "055-583-8005",
+      "city": "경남",
+      "district": "함안군"
     },
     "branches": []
   },

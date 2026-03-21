@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6734",
-  "name": null,
+  "name": "신례",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신례(본점)",
+      "address": "제주 서귀포시 남원읍 신례중앙로 26",
+      "phone": "064-767-2727",
+      "city": "제주",
+      "district": "서귀포시"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "22.26"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6702",
+      "name": "서귀포"
+    },
+    {
+      "gmgoCd": "6704",
+      "name": "서홍"
+    },
+    {
+      "gmgoCd": "6705",
+      "name": "법환"
+    },
+    {
+      "gmgoCd": "6706",
+      "name": "서호"
+    },
+    {
+      "gmgoCd": "6707",
+      "name": "호근"
+    }
+  ]
 }

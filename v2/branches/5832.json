@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5832",
-  "name": null,
+  "name": "흥주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "흥주(본점)",
+      "address": "경북 영주시 순흥면 순흥로55번길 1-1",
+      "phone": "054-633-2220",
+      "city": "경북",
+      "district": "영주시"
     },
     "branches": []
   },
@@ -50,5 +50,18 @@
       "bis_ratio": "10.31"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5828",
+      "name": "풍기"
+    },
+    {
+      "gmgoCd": "5849",
+      "name": "영주"
+    },
+    {
+      "gmgoCd": "5850",
+      "name": "북영주"
+    }
+  ]
 }

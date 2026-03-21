@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2724",
-  "name": null,
+  "name": "우주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "우주(본점)",
+      "address": "전남 고흥군 과역면 고흥로 2985",
+      "phone": "061-832-9534",
+      "city": "전남",
+      "district": "고흥군"
     },
     "branches": [
       {
@@ -105,5 +105,14 @@
       "bis_ratio": "7.18"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2722",
+      "name": "고흥"
+    },
+    {
+      "gmgoCd": "2723",
+      "name": "녹동"
+    }
+  ]
 }

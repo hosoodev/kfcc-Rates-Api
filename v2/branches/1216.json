@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1216",
-  "name": null,
+  "name": "서구중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서구중앙(본점)",
+      "address": "부산 서구 까치고개로 244",
+      "phone": "051-242-1201",
+      "city": "부산",
+      "district": "서구"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "10.76"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부"
+    },
+    {
+      "gmgoCd": "1229",
+      "name": "송남"
+    }
+  ]
 }

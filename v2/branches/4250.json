@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4250",
-  "name": null,
+  "name": "삼척중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼척중앙(본점)",
+      "address": "강원 삼척시 진주로 28-41",
+      "phone": "033-572-5804",
+      "city": "강원",
+      "district": "삼척시"
     },
     "branches": []
   },
@@ -56,5 +56,14 @@
       "bis_ratio": "9.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4251",
+      "name": "늘푸른"
+    },
+    {
+      "gmgoCd": "4253",
+      "name": "삼척도원"
+    }
+  ]
 }

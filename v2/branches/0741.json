@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0741",
-  "name": null,
+  "name": "한국앤컴퍼니",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한국앤컴퍼니(본점)",
+      "address": "대전 대덕구 대덕대로1447번길 40",
+      "phone": "042-930-1651",
+      "city": "대전",
+      "district": "대덕구"
     },
     "branches": []
   },
@@ -43,5 +43,26 @@
       "bis_ratio": "253.79"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3027",
+      "name": "오정동"
+    },
+    {
+      "gmgoCd": "3029",
+      "name": "대청"
+    },
+    {
+      "gmgoCd": "3030",
+      "name": "대전북부"
+    },
+    {
+      "gmgoCd": "3040",
+      "name": "대전대덕"
+    },
+    {
+      "gmgoCd": "3042",
+      "name": "으뜸"
+    }
+  ]
 }

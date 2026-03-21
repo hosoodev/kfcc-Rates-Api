@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0522",
-  "name": null,
+  "name": "경희의료원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "경희의료원(본점)",
+      "address": "서울 동대문구 경희대로 23",
+      "phone": "02-958-9853",
+      "city": "서울",
+      "district": "동대문구"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "41.13"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0504",
+      "name": "동대문중앙"
+    },
+    {
+      "gmgoCd": "0507",
+      "name": "전농동"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경"
+    }
+  ]
 }

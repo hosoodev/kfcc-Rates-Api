@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3718",
-  "name": null,
+  "name": "군포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "군포(본점)",
+      "address": "경기 군포시 군포로 522",
+      "phone": "031-454-7577",
+      "city": "경기",
+      "district": "군포시"
     },
     "branches": [
       {
@@ -115,5 +115,14 @@
       "bis_ratio": "11.98"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3717",
+      "name": "금정"
+    },
+    {
+      "gmgoCd": "3719",
+      "name": "산본"
+    }
+  ]
 }

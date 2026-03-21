@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5144",
-  "name": null,
+  "name": "새만금",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "새만금(본점)",
+      "address": "전북 김제시 검산택지4길 45",
+      "phone": "063-547-3939",
+      "city": "전북",
+      "district": "김제시"
     },
     "branches": [
       {
@@ -101,5 +101,18 @@
       "bis_ratio": "12.62"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5138",
+      "name": "김제하나"
+    },
+    {
+      "gmgoCd": "5140",
+      "name": "만경"
+    },
+    {
+      "gmgoCd": "5141",
+      "name": "지평선"
+    }
+  ]
 }

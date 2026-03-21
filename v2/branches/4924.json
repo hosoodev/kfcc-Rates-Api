@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4924",
-  "name": null,
+  "name": "장계",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "장계(본점)",
+      "address": "전북 장수군 장계면 한들로 95",
+      "phone": "063-351-0455",
+      "city": "전북",
+      "district": "장수군"
     },
     "branches": []
   },
@@ -56,5 +56,14 @@
       "bis_ratio": "10.56"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4923",
+      "name": "장수"
+    },
+    {
+      "gmgoCd": "4925",
+      "name": "산서"
+    }
+  ]
 }

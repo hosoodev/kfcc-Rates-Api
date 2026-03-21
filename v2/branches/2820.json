@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2820",
-  "name": null,
+  "name": "영신학원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영신학원(본점)",
+      "address": "전남 목포시 영산로 415",
+      "phone": "061-278-7665",
+      "city": "전남",
+      "district": "목포시"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "100.88"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2803",
+      "name": "목포동부"
+    },
+    {
+      "gmgoCd": "2804",
+      "name": "산정"
+    },
+    {
+      "gmgoCd": "2807",
+      "name": "국민"
+    },
+    {
+      "gmgoCd": "2808",
+      "name": "목포중앙"
+    },
+    {
+      "gmgoCd": "2810",
+      "name": "삼학"
+    }
+  ]
 }

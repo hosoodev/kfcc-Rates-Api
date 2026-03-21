@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4912",
-  "name": null,
+  "name": "진안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "진안(본점)",
+      "address": "전북 진안군 진안읍 중앙로 37",
+      "phone": "063-433-1366",
+      "city": "전북",
+      "district": "진안군"
     },
     "branches": [
       {
@@ -63,5 +63,10 @@
       "bis_ratio": "8.31"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4913",
+      "name": "진안동부"
+    }
+  ]
 }

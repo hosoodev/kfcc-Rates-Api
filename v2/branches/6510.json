@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6510",
-  "name": null,
+  "name": "새통영",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "새통영(본점)",
+      "address": "경남 통영시 북신로 29",
+      "phone": "055-644-7751",
+      "city": "경남",
+      "district": "통영시"
     },
     "branches": [
       {
@@ -81,5 +81,26 @@
       "bis_ratio": "12.74"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6501",
+      "name": "도천"
+    },
+    {
+      "gmgoCd": "6509",
+      "name": "동통영"
+    },
+    {
+      "gmgoCd": "6515",
+      "name": "도봉"
+    },
+    {
+      "gmgoCd": "6520",
+      "name": "성심"
+    },
+    {
+      "gmgoCd": "6543",
+      "name": "통제영"
+    }
+  ]
 }

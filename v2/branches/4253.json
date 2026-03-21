@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4253",
-  "name": null,
+  "name": "삼척도원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼척도원(본점)",
+      "address": "강원 삼척시 도계읍 도계로 224",
+      "phone": "033-541-2108",
+      "city": "강원",
+      "district": "삼척시"
     },
     "branches": [
       {
@@ -63,5 +63,14 @@
       "bis_ratio": "10.04"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4250",
+      "name": "삼척중앙"
+    },
+    {
+      "gmgoCd": "4251",
+      "name": "늘푸른"
+    }
+  ]
 }

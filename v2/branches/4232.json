@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4232",
-  "name": null,
+  "name": "동해중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동해중앙(본점)",
+      "address": "강원 동해시 삼화로 5",
+      "phone": "033-534-8125",
+      "city": "강원",
+      "district": "동해시"
     },
     "branches": [
       {
@@ -103,5 +103,22 @@
       "bis_ratio": "11.64"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4230",
+      "name": "동해남부"
+    },
+    {
+      "gmgoCd": "4237",
+      "name": "동해항운노동조합직장"
+    },
+    {
+      "gmgoCd": "4239",
+      "name": "동해해오름"
+    },
+    {
+      "gmgoCd": "4268",
+      "name": "동해우리"
+    }
+  ]
 }

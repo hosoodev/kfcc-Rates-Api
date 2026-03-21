@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4805",
-  "name": null,
+  "name": "열린",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "열린(본점)",
+      "address": "전북 전주시 완산구 전주객사3길 53",
+      "phone": "063-231-0667",
+      "city": "전북",
+      "district": "전주시"
     },
     "branches": [
       {
@@ -123,5 +123,26 @@
       "bis_ratio": "9.63"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부"
+    },
+    {
+      "gmgoCd": "4813",
+      "name": "금암"
+    }
+  ]
 }

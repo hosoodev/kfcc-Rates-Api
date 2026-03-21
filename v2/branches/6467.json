@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6467",
-  "name": null,
+  "name": "창선",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "창선(본점)",
+      "address": "경남 남해군 창선면 창선로 81",
+      "phone": "055-867-3588",
+      "city": "경남",
+      "district": "남해군"
     },
     "branches": []
   },
@@ -56,5 +56,14 @@
       "bis_ratio": "13.65"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6442",
+      "name": "새남해"
+    },
+    {
+      "gmgoCd": "6444",
+      "name": "미송"
+    }
+  ]
 }

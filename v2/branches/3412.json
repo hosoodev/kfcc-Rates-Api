@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3412",
-  "name": null,
+  "name": "서천군",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서천군(본점)",
+      "address": "충남 서천군 장항읍 장서로 51",
+      "phone": "041-957-3636",
+      "city": "충남",
+      "district": "서천군"
     },
     "branches": [
       {

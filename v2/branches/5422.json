@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5422",
-  "name": null,
+  "name": "상산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "상산(본점)",
+      "address": "경북 상주시 삼백로 100",
+      "phone": "054-536-2671",
+      "city": "경북",
+      "district": "상주시"
     },
     "branches": [
       {
@@ -105,5 +105,22 @@
       "bis_ratio": "13.04"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5424",
+      "name": "함창"
+    },
+    {
+      "gmgoCd": "5426",
+      "name": "화령"
+    },
+    {
+      "gmgoCd": "5427",
+      "name": "새상주"
+    },
+    {
+      "gmgoCd": "5428",
+      "name": "백화"
+    }
+  ]
 }

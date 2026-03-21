@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2306",
-  "name": null,
+  "name": "만수",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "만수(본점)",
+      "address": "인천 남동구 만수서로 66",
+      "phone": "032-463-1436",
+      "city": "인천",
+      "district": "남동구"
     },
     "branches": [
       {
@@ -115,5 +115,22 @@
       "bis_ratio": "11.17"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2303",
+      "name": "인주"
+    },
+    {
+      "gmgoCd": "2304",
+      "name": "상인천"
+    },
+    {
+      "gmgoCd": "2307",
+      "name": "남동"
+    },
+    {
+      "gmgoCd": "2309",
+      "name": "구월남촌"
+    }
+  ]
 }

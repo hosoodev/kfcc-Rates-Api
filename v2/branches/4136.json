@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4136",
-  "name": null,
+  "name": "가평군",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "가평군(본점)",
+      "address": "경기 가평군 청평면 청평중앙로 48",
+      "phone": "031-584-0380",
+      "city": "경기",
+      "district": "가평군"
     },
     "branches": [
       {

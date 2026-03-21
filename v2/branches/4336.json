@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4336",
-  "name": null,
+  "name": "횡성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "횡성(본점)",
+      "address": "강원 횡성군 횡성읍 문정로 30",
+      "phone": "033-343-3525",
+      "city": "강원",
+      "district": "횡성군"
     },
     "branches": []
   },
@@ -90,5 +90,10 @@
       "bis_ratio": "18.81"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4337",
+      "name": "횡성중앙"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2829",
-  "name": null,
+  "name": "해남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "해남(본점)",
+      "address": "전남 해남군 해남읍 읍내길 21-4",
+      "phone": "061-534-4868",
+      "city": "전남",
+      "district": "해남군"
     },
     "branches": []
   },
@@ -90,5 +90,10 @@
       "bis_ratio": "15.41"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2827",
+      "name": "문내"
+    }
+  ]
 }

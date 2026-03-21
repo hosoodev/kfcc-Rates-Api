@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3562",
-  "name": null,
+  "name": "양평",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "양평(본점)",
+      "address": "경기 양평군 양평읍 양근로 188",
+      "phone": "031-771-2640",
+      "city": "경기",
+      "district": "양평군"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "14.84"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3548",
+      "name": "용문"
+    }
+  ]
 }

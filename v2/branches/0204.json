@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0204",
-  "name": null,
+  "name": "명동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "명동(본점)",
+      "address": "서울 중구 퇴계로20길 2",
+      "phone": "02-776-3066",
+      "city": "서울",
+      "district": "중구"
     },
     "branches": [
       {
@@ -101,5 +101,26 @@
       "bis_ratio": "8.41"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    },
+    {
+      "gmgoCd": "0213",
+      "name": "신중앙"
+    }
+  ]
 }

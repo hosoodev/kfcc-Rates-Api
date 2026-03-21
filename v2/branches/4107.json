@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4107",
-  "name": null,
+  "name": "화도",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "화도(본점)",
+      "address": "경기 남양주시 화도읍 마석중앙로 68",
+      "phone": "031-594-0071",
+      "city": "경기",
+      "district": "남양주시"
     },
     "branches": [
       {
@@ -129,5 +129,26 @@
       "bis_ratio": "12.33"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4104",
+      "name": "다산"
+    },
+    {
+      "gmgoCd": "4106",
+      "name": "별내"
+    },
+    {
+      "gmgoCd": "4108",
+      "name": "중부"
+    },
+    {
+      "gmgoCd": "4109",
+      "name": "진접"
+    },
+    {
+      "gmgoCd": "4110",
+      "name": "남양주중앙"
+    }
+  ]
 }

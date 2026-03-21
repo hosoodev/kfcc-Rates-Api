@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0649",
-  "name": null,
+  "name": "강북",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "강북(본점)",
+      "address": "서울 강북구 한천로 1045",
+      "phone": "02-902-1182",
+      "city": "서울",
+      "district": "강북구"
     },
     "branches": [
       {

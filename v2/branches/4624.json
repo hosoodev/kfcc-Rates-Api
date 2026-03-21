@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4624",
-  "name": null,
+  "name": "영동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영동(본점)",
+      "address": "충북 영동군 영동읍 중앙로 20-1",
+      "phone": "043-744-2053",
+      "city": "충북",
+      "district": "영동군"
     },
     "branches": [
       {
@@ -75,5 +75,10 @@
       "bis_ratio": "9.62"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4622",
+      "name": "묵정"
+    }
+  ]
 }

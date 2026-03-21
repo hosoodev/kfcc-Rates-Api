@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2211",
-  "name": null,
+  "name": "영종",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영종(본점)",
+      "address": "인천 중구 하늘별빛로65번길 11",
+      "phone": "032-751-3181",
+      "city": "인천",
+      "district": "중구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "7.52"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3833",
-  "name": null,
+  "name": "평택",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "평택(본점)",
+      "address": "경기 평택시 중앙2로 7",
+      "phone": "031-652-4951",
+      "city": "경기",
+      "district": "평택시"
     },
     "branches": [
       {
@@ -129,5 +129,22 @@
       "bis_ratio": "9.61"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3834",
+      "name": "서평택"
+    },
+    {
+      "gmgoCd": "3838",
+      "name": "엘지전자평택"
+    },
+    {
+      "gmgoCd": "3841",
+      "name": "케이지모빌리티"
+    },
+    {
+      "gmgoCd": "3843",
+      "name": "송탄"
+    }
+  ]
 }

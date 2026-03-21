@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3650",
-  "name": null,
+  "name": "온세미컨덕터코리아주식회사",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "온세미컨덕터코리아주식회사(본점)",
+      "address": "경기 부천시 원미구 부천로 324",
+      "phone": "032-680-1871",
+      "city": "경기",
+      "district": "부천시"
     },
     "branches": []
   },
@@ -56,5 +56,26 @@
       "bis_ratio": "58.94"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3636",
+      "name": "부천제일"
+    },
+    {
+      "gmgoCd": "3637",
+      "name": "남부천"
+    },
+    {
+      "gmgoCd": "3639",
+      "name": "성지"
+    },
+    {
+      "gmgoCd": "3641",
+      "name": "북부천"
+    },
+    {
+      "gmgoCd": "3643",
+      "name": "송내"
+    }
+  ]
 }

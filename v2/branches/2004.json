@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2004",
-  "name": null,
+  "name": "봉덕3동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "봉덕3동(본점)",
+      "address": "대구 남구 삼정2길 28",
+      "phone": "053-471-5527",
+      "city": "대구",
+      "district": "남구"
     },
     "branches": [
       {
@@ -99,5 +99,26 @@
       "bis_ratio": "13.13"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부"
+    }
+  ]
 }

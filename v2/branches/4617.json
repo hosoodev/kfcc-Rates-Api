@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4617",
-  "name": null,
+  "name": "이원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "이원(본점)",
+      "address": "충북 옥천군 이원면 묘목로 122",
+      "phone": "043-732-2757",
+      "city": "충북",
+      "district": "옥천군"
     },
     "branches": [
       {
@@ -63,5 +63,10 @@
       "bis_ratio": "13.02"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4614",
+      "name": "옥천"
+    }
+  ]
 }

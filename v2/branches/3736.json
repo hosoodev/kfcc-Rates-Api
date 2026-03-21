@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3736",
-  "name": null,
+  "name": "시흥제일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "시흥제일(본점)",
+      "address": "경기 안산시 단원구 도일로 105",
+      "phone": "031-491-1662",
+      "city": "경기",
+      "district": "안산시"
     },
     "branches": [
       {
@@ -87,5 +87,26 @@
       "bis_ratio": "16.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3902",
+      "name": "안산동부"
+    },
+    {
+      "gmgoCd": "3903",
+      "name": "군자"
+    },
+    {
+      "gmgoCd": "3904",
+      "name": "신반월"
+    },
+    {
+      "gmgoCd": "3949",
+      "name": "안산중앙"
+    },
+    {
+      "gmgoCd": "3950",
+      "name": "안산서부"
+    }
+  ]
 }

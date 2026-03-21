@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5330",
-  "name": null,
+  "name": "울진",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "울진(본점)",
+      "address": "경북 울진군 울진읍 울진중앙로 69",
+      "phone": "054-783-3377",
+      "city": "경북",
+      "district": "울진군"
     },
     "branches": [
       {
@@ -97,5 +97,14 @@
       "bis_ratio": "14.59"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5332",
+      "name": "죽변"
+    },
+    {
+      "gmgoCd": "5333",
+      "name": "후포"
+    }
+  ]
 }

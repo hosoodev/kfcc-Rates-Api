@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3734",
-  "name": null,
+  "name": "김포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "김포(본점)",
+      "address": "경기 김포시 김포한강1로 81",
+      "phone": "031-984-5170",
+      "city": "경기",
+      "district": "김포시"
     },
     "branches": [
       {

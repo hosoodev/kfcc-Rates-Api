@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5141",
-  "name": null,
+  "name": "지평선",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "지평선(본점)",
+      "address": "전북 김제시 금산면 모악로 11",
+      "phone": "063-543-0808",
+      "city": "전북",
+      "district": "김제시"
     },
     "branches": [
       {
@@ -101,5 +101,18 @@
       "bis_ratio": "10.14"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5138",
+      "name": "김제하나"
+    },
+    {
+      "gmgoCd": "5140",
+      "name": "만경"
+    },
+    {
+      "gmgoCd": "5144",
+      "name": "새만금"
+    }
+  ]
 }

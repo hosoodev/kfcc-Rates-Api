@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0427",
-  "name": null,
+  "name": "신공덕동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신공덕동(본점)",
+      "address": "서울 마포구 마포대로8길 37",
+      "phone": "02-715-5959",
+      "city": "서울",
+      "district": "마포구"
     },
     "branches": []
   },
@@ -84,5 +84,26 @@
       "bis_ratio": "10.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0423",
+      "name": "아현"
+    },
+    {
+      "gmgoCd": "0424",
+      "name": "마포중앙"
+    },
+    {
+      "gmgoCd": "0428",
+      "name": "신마포"
+    },
+    {
+      "gmgoCd": "0429",
+      "name": "마포역"
+    },
+    {
+      "gmgoCd": "0434",
+      "name": "망원"
+    }
+  ]
 }

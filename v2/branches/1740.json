@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1740",
-  "name": null,
+  "name": "승학",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "승학(본점)",
+      "address": "부산 사상구 낙동대로 790",
+      "phone": "051-325-3351",
+      "city": "부산",
+      "district": "사상구"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "10.41"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1733",
+      "name": "늘푸른사상"
+    },
+    {
+      "gmgoCd": "1734",
+      "name": "사상중앙"
+    },
+    {
+      "gmgoCd": "1736",
+      "name": "부산제일"
+    },
+    {
+      "gmgoCd": "1737",
+      "name": "백양"
+    },
+    {
+      "gmgoCd": "1738",
+      "name": "부산주례"
+    }
+  ]
 }

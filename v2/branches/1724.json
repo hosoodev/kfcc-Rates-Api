@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1724",
-  "name": null,
+  "name": "연산제일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "연산제일(본점)",
+      "address": "부산 연제구 과정로 304",
+      "phone": "051-864-1961",
+      "city": "부산",
+      "district": "연제구"
     },
     "branches": [
       {
@@ -64,5 +64,26 @@
       "bis_ratio": "12.9"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1721",
+      "name": "아시아드"
+    },
+    {
+      "gmgoCd": "1722",
+      "name": "거제3동"
+    },
+    {
+      "gmgoCd": "1725",
+      "name": "연제"
+    },
+    {
+      "gmgoCd": "1726",
+      "name": "연산3동"
+    },
+    {
+      "gmgoCd": "1727",
+      "name": "연산로터리"
+    }
+  ]
 }

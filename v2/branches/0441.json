@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0441",
-  "name": null,
+  "name": "이랜드",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "이랜드(본점)",
+      "address": "서울 강서구 마곡동로 146",
+      "phone": "02-2029-9990",
+      "city": "서울",
+      "district": "강서구"
     },
     "branches": []
   },
@@ -98,5 +98,22 @@
       "bis_ratio": "203.76"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0714",
+      "name": "염창동"
+    },
+    {
+      "gmgoCd": "0717",
+      "name": "화곡"
+    },
+    {
+      "gmgoCd": "0718",
+      "name": "가양동"
+    },
+    {
+      "gmgoCd": "0719",
+      "name": "우장산"
+    }
+  ]
 }

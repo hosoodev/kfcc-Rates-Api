@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2932",
-  "name": null,
+  "name": "삼호",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼호(본점)",
+      "address": "전남 영암군 삼호읍 삼호중앙로 161",
+      "phone": "061-462-5200",
+      "city": "전남",
+      "district": "영암군"
     },
     "branches": [
       {
@@ -95,5 +95,18 @@
       "bis_ratio": "12.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2926",
+      "name": "영암성실"
+    },
+    {
+      "gmgoCd": "2927",
+      "name": "영암우리"
+    },
+    {
+      "gmgoCd": "2933",
+      "name": "HD현대삼호"
+    }
+  ]
 }

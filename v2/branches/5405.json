@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5405",
-  "name": null,
+  "name": "김천평화",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "김천평화(본점)",
+      "address": "경북 김천시 김천로 106",
+      "phone": "054-434-1114",
+      "city": "경북",
+      "district": "김천시"
     },
     "branches": []
   },
@@ -98,5 +98,18 @@
       "bis_ratio": "5.57"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3527",
+      "name": "한국도로공사직장"
+    },
+    {
+      "gmgoCd": "5400",
+      "name": "새김천"
+    },
+    {
+      "gmgoCd": "5408",
+      "name": "대신동"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3849",
-  "name": null,
+  "name": "우리용인",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "우리용인(본점)",
+      "address": "경기 용인시 기흥구 죽전로 7",
+      "phone": "031-8009-0055",
+      "city": "경기",
+      "district": "용인시"
     },
     "branches": [
       {
@@ -91,5 +91,22 @@
       "bis_ratio": "9.85"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3829",
+      "name": "삼성에스디아이"
+    },
+    {
+      "gmgoCd": "3848",
+      "name": "서용인"
+    },
+    {
+      "gmgoCd": "3850",
+      "name": "용인제일"
+    },
+    {
+      "gmgoCd": "3951",
+      "name": "용인중앙"
+    }
+  ]
 }

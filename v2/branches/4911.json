@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4911",
-  "name": null,
+  "name": "한누리",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한누리(본점)",
+      "address": "전북 완주군 고산면 고산로 114",
+      "phone": "063-263-7721",
+      "city": "전북",
+      "district": "완주군"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "11.48"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4909",
+      "name": "완주"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0402",
-  "name": null,
+  "name": "독립문",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "독립문(본점)",
+      "address": "서울 서대문구 독립문로 63",
+      "phone": "02-363-3622",
+      "city": "서울",
+      "district": "서대문구"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "12.69"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0408",
+      "name": "연희"
+    },
+    {
+      "gmgoCd": "0411",
+      "name": "홍제"
+    },
+    {
+      "gmgoCd": "0413",
+      "name": "홍은"
+    },
+    {
+      "gmgoCd": "0416",
+      "name": "가재울"
+    },
+    {
+      "gmgoCd": "0417",
+      "name": "서서울"
+    }
+  ]
 }

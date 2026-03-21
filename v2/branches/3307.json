@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3307",
-  "name": null,
+  "name": "아산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "아산(본점)",
+      "address": "충남 아산시 선장면 서부남로 11",
+      "phone": "041-542-3211",
+      "city": "충남",
+      "district": "아산시"
     },
     "branches": [
       {
@@ -91,5 +91,26 @@
       "bis_ratio": "7.17"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3302",
+      "name": "온양"
+    },
+    {
+      "gmgoCd": "3303",
+      "name": "정우"
+    },
+    {
+      "gmgoCd": "3308",
+      "name": "탕정"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우"
+    },
+    {
+      "gmgoCd": "3345",
+      "name": "코닝정밀소재"
+    }
+  ]
 }

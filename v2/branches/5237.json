@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5237",
-  "name": null,
+  "name": "오천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "오천(본점)",
+      "address": "경북 포항시 남구 오천읍 중원로 36",
+      "phone": "054-293-5501",
+      "city": "경북",
+      "district": "포항시"
     },
     "branches": [
       {
@@ -63,5 +63,26 @@
       "bis_ratio": "10.24"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포"
+    }
+  ]
 }

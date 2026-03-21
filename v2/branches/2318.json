@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2318",
-  "name": null,
+  "name": "부평중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "부평중앙(본점)",
+      "address": "인천 부평구 부흥로 298",
+      "phone": "032-526-7771",
+      "city": "인천",
+      "district": "부평구"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "13.24"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2315",
+      "name": "부일"
+    },
+    {
+      "gmgoCd": "2316",
+      "name": "부평남부"
+    },
+    {
+      "gmgoCd": "2317",
+      "name": "부평제일"
+    },
+    {
+      "gmgoCd": "2319",
+      "name": "부평동부"
+    },
+    {
+      "gmgoCd": "2321",
+      "name": "산곡십정"
+    }
+  ]
 }

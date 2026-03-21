@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2009",
-  "name": null,
+  "name": "대명",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "대명(본점)",
+      "address": "대구 남구 대명로57길 10-2",
+      "phone": "053-627-8795",
+      "city": "대구",
+      "district": "남구"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "12.2"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부"
+    }
+  ]
 }

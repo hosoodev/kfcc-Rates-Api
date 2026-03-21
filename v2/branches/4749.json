@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4749",
-  "name": null,
+  "name": "애플",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "애플(본점)",
+      "address": "충북 충주시 연수서편3길 28",
+      "phone": "043-845-4500",
+      "city": "충북",
+      "district": "충주시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "8.7"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4701",
+      "name": "충주SM"
+    },
+    {
+      "gmgoCd": "4702",
+      "name": "예성"
+    },
+    {
+      "gmgoCd": "4703",
+      "name": "교현"
+    },
+    {
+      "gmgoCd": "4704",
+      "name": "문화"
+    },
+    {
+      "gmgoCd": "4705",
+      "name": "남충주"
+    }
+  ]
 }

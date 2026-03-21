@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2446",
-  "name": null,
+  "name": "유은학원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "유은학원(본점)",
+      "address": "광주 남구 서문대로627번길 20",
+      "phone": "062-675-2254",
+      "city": "광주",
+      "district": "남구"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "28.58"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부"
+    }
+  ]
 }

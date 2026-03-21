@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1340",
-  "name": null,
+  "name": "동삼동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동삼동(본점)",
+      "address": "부산 영도구 동삼로 65-1",
+      "phone": "051-404-3001",
+      "city": "부산",
+      "district": "영도구"
     },
     "branches": [
       {
@@ -105,5 +105,22 @@
       "bis_ratio": "18.42"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1329",
+      "name": "영도중앙"
+    },
+    {
+      "gmgoCd": "1332",
+      "name": "한아름"
+    },
+    {
+      "gmgoCd": "1338",
+      "name": "태종대"
+    },
+    {
+      "gmgoCd": "1339",
+      "name": "영도"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3563",
-  "name": null,
+  "name": "이천우리",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "이천우리(본점)",
+      "address": "경기 이천시 장호원읍 장감로 81",
+      "phone": "031-641-3140",
+      "city": "경기",
+      "district": "이천시"
     },
     "branches": [
       {
@@ -109,5 +109,14 @@
       "bis_ratio": "7.07"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3556",
+      "name": "SK hynix"
+    },
+    {
+      "gmgoCd": "3567",
+      "name": "이천"
+    }
+  ]
 }

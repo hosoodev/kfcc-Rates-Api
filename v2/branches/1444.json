@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1444",
-  "name": null,
+  "name": "수영중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "수영중앙(본점)",
+      "address": "부산 수영구 연수로 274",
+      "phone": "051-754-0668",
+      "city": "부산",
+      "district": "수영구"
     },
     "branches": [
       {
@@ -69,5 +69,22 @@
       "bis_ratio": "13.48"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1442",
+      "name": "남천"
+    },
+    {
+      "gmgoCd": "1443",
+      "name": "수영"
+    },
+    {
+      "gmgoCd": "1446",
+      "name": "광안"
+    },
+    {
+      "gmgoCd": "1447",
+      "name": "민락동"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4030",
-  "name": null,
+  "name": "고양동부",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "고양동부(본점)",
+      "address": "경기 고양시 덕양구 원흥4로 7",
+      "phone": "031-963-9632",
+      "city": "경기",
+      "district": "고양시"
     },
     "branches": [
       {
@@ -147,5 +147,14 @@
       "bis_ratio": "9.45"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4029",
+      "name": "고양누리"
+    },
+    {
+      "gmgoCd": "4032",
+      "name": "일산"
+    }
+  ]
 }

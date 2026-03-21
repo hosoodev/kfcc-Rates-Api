@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4453",
-  "name": null,
+  "name": "인제",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "인제(본점)",
+      "address": "강원 인제군 인제읍 인제로 193",
+      "phone": "033-461-4858",
+      "city": "강원",
+      "district": "인제군"
     },
     "branches": [
       {
@@ -103,5 +103,10 @@
       "bis_ratio": "14.58"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4454",
+      "name": "하늘내린"
+    }
+  ]
 }

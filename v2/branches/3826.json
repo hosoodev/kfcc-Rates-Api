@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3826",
-  "name": null,
+  "name": "삼성전기",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼성전기(본점)",
+      "address": "경기 수원시 영통구 매영로 150",
+      "phone": "031-300-7942",
+      "city": "경기",
+      "district": "수원시"
     },
     "branches": [
       {
@@ -63,5 +63,26 @@
       "bis_ratio": "23.68"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3807",
+      "name": "세화"
+    },
+    {
+      "gmgoCd": "3808",
+      "name": "수원서부"
+    },
+    {
+      "gmgoCd": "3809",
+      "name": "서호"
+    },
+    {
+      "gmgoCd": "3815",
+      "name": "팔달"
+    },
+    {
+      "gmgoCd": "3818",
+      "name": "남수원"
+    }
+  ]
 }

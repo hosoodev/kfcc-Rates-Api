@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4909",
-  "name": null,
+  "name": "완주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "완주(본점)",
+      "address": "전북 완주군 봉동읍 봉동동서로 123",
+      "phone": "063-261-3890",
+      "city": "전북",
+      "district": "완주군"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "11.13"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4911",
+      "name": "한누리"
+    }
+  ]
 }

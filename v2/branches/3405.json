@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3405",
-  "name": null,
+  "name": "서산중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서산중앙(본점)",
+      "address": "충남 서산시 호수공원6로 69",
+      "phone": "041-664-4001",
+      "city": "충남",
+      "district": "서산시"
     },
     "branches": [
       {
@@ -103,5 +103,18 @@
       "bis_ratio": "8.89"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3404",
+      "name": "서산"
+    },
+    {
+      "gmgoCd": "3407",
+      "name": "대산"
+    },
+    {
+      "gmgoCd": "3411",
+      "name": "한화토탈에너지스"
+    }
+  ]
 }

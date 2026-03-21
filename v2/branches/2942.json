@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2942",
-  "name": null,
+  "name": "백수",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "백수(본점)",
+      "address": "전남 영광군 백수읍 백수로 798",
+      "phone": "061-351-2550",
+      "city": "전남",
+      "district": "영광군"
     },
     "branches": []
   },
@@ -84,5 +84,18 @@
       "bis_ratio": "13.42"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2937",
+      "name": "영광"
+    },
+    {
+      "gmgoCd": "2939",
+      "name": "법성"
+    },
+    {
+      "gmgoCd": "2941",
+      "name": "염산"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6028",
-  "name": null,
+  "name": "진해",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "진해(본점)",
+      "address": "경남 창원시 진해구 충장로 130",
+      "phone": "055-544-7123",
+      "city": "경남",
+      "district": "창원시"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "12.11"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부"
+    }
+  ]
 }

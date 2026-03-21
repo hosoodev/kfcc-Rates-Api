@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5717",
-  "name": null,
+  "name": "금천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금천(본점)",
+      "address": "경북 청도군 금천면 선암로 620",
+      "phone": "054-372-3547",
+      "city": "경북",
+      "district": "청도군"
     },
     "branches": []
   },
@@ -76,5 +76,14 @@
       "bis_ratio": "12.03"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5711",
+      "name": "청도"
+    },
+    {
+      "gmgoCd": "5743",
+      "name": "청화"
+    }
+  ]
 }

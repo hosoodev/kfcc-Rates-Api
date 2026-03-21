@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3223",
-  "name": null,
+  "name": "합동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "합동(본점)",
+      "address": "충남 공주시 전막2길 32-3",
+      "phone": "041-855-3062",
+      "city": "충남",
+      "district": "공주시"
     },
     "branches": [
       {
@@ -104,5 +104,26 @@
       "bis_ratio": "5.45"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3225",
+      "name": "이인"
+    },
+    {
+      "gmgoCd": "3228",
+      "name": "대성"
+    },
+    {
+      "gmgoCd": "3231",
+      "name": "유구"
+    },
+    {
+      "gmgoCd": "3234",
+      "name": "백제"
+    },
+    {
+      "gmgoCd": "3235",
+      "name": "삼성"
+    }
+  ]
 }

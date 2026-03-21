@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4454",
-  "name": null,
+  "name": "하늘내린",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "하늘내린(본점)",
+      "address": "강원 인제군 북면 원통로174번길 6",
+      "phone": "033-461-3251",
+      "city": "강원",
+      "district": "인제군"
     },
     "branches": []
   },
@@ -98,5 +98,10 @@
       "bis_ratio": "21.87"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4453",
+      "name": "인제"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4247",
-  "name": null,
+  "name": "설악",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "설악(본점)",
+      "address": "강원 속초시 청호로 51-1",
+      "phone": "033-637-0951",
+      "city": "강원",
+      "district": "속초시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "14.7"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4242",
+      "name": "속초북부"
+    },
+    {
+      "gmgoCd": "4248",
+      "name": "금강"
+    },
+    {
+      "gmgoCd": "4249",
+      "name": "동명"
+    },
+    {
+      "gmgoCd": "4267",
+      "name": "속초남부"
+    },
+    {
+      "gmgoCd": "4269",
+      "name": "중앙"
+    }
+  ]
 }

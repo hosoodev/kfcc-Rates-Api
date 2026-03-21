@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2601",
-  "name": null,
+  "name": "동여수",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동여수(본점)",
+      "address": "전남 여수시 이순신광장로 215",
+      "phone": "061-662-2753",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": [
       {
@@ -63,5 +63,26 @@
       "bis_ratio": "11.78"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    },
+    {
+      "gmgoCd": "2607",
+      "name": "진남"
+    }
+  ]
 }

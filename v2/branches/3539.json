@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3539",
-  "name": null,
+  "name": "광주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "광주(본점)",
+      "address": "경기 광주시 중앙로 130",
+      "phone": "031-762-2954",
+      "city": "경기",
+      "district": "광주시"
     },
     "branches": [
       {
@@ -87,5 +87,10 @@
       "bis_ratio": "11.3"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3541",
+      "name": "남한산성"
+    }
+  ]
 }

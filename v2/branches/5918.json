@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5918",
-  "name": null,
+  "name": "영양청송",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영양청송(본점)",
+      "address": "경북 영양군 영양읍 중앙로 132-26",
+      "phone": "054-683-3337",
+      "city": "경북",
+      "district": "영양군"
     },
     "branches": [
       {

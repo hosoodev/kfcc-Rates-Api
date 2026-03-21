@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4449",
-  "name": null,
+  "name": "다창",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "다창(본점)",
+      "address": "강원 화천군 사내면 사내로4길 29-8",
+      "phone": "033-441-4160",
+      "city": "강원",
+      "district": "화천군"
     },
     "branches": []
   },
@@ -98,5 +98,10 @@
       "bis_ratio": "17.14"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4463",
+      "name": "화천"
+    }
+  ]
 }

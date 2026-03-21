@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1715",
-  "name": null,
+  "name": "금정",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금정(본점)",
+      "address": "부산 금정구 서동중심로 59-1",
+      "phone": "051-522-0333",
+      "city": "부산",
+      "district": "금정구"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "11.58"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1701",
+      "name": "새우리"
+    },
+    {
+      "gmgoCd": "1702",
+      "name": "서동"
+    },
+    {
+      "gmgoCd": "1703",
+      "name": "금사동"
+    },
+    {
+      "gmgoCd": "1704",
+      "name": "금정중앙"
+    },
+    {
+      "gmgoCd": "1707",
+      "name": "장전동"
+    }
+  ]
 }

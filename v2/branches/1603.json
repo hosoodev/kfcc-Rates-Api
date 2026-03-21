@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1603",
-  "name": null,
+  "name": "명륜동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "명륜동(본점)",
+      "address": "부산 동래구 명륜로 165",
+      "phone": "051-558-3175",
+      "city": "부산",
+      "district": "동래구"
     },
     "branches": [
       {
@@ -63,5 +63,26 @@
       "bis_ratio": "13.97"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1601",
+      "name": "수민동"
+    },
+    {
+      "gmgoCd": "1602",
+      "name": "복산동"
+    },
+    {
+      "gmgoCd": "1605",
+      "name": "온천"
+    },
+    {
+      "gmgoCd": "1606",
+      "name": "온천3동"
+    },
+    {
+      "gmgoCd": "1607",
+      "name": "사직3동"
+    }
+  ]
 }

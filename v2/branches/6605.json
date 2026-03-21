@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6605",
-  "name": null,
+  "name": "신제주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신제주(본점)",
+      "address": "제주 제주시 연동11길 14",
+      "phone": "064-742-2458",
+      "city": "제주",
+      "district": "제주시"
     },
     "branches": []
   },
@@ -94,5 +94,26 @@
       "bis_ratio": "10.74"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6601",
+      "name": "제주"
+    },
+    {
+      "gmgoCd": "6602",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "6603",
+      "name": "용담"
+    },
+    {
+      "gmgoCd": "6604",
+      "name": "동제주"
+    },
+    {
+      "gmgoCd": "6606",
+      "name": "노형"
+    }
+  ]
 }

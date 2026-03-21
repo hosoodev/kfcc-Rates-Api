@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0203",
-  "name": null,
+  "name": "회현동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "회현동(본점)",
+      "address": "서울 중구 남대문시장길 45-10",
+      "phone": "02-755-1400",
+      "city": "서울",
+      "district": "중구"
     },
     "branches": [
       {
@@ -97,5 +97,26 @@
       "bis_ratio": "4.1"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0204",
+      "name": "명동"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동"
+    },
+    {
+      "gmgoCd": "0213",
+      "name": "신중앙"
+    }
+  ]
 }

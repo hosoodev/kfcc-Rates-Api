@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1501",
-  "name": null,
+  "name": "부전1동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "부전1동(본점)",
+      "address": "부산 부산진구 중앙대로755번길 21",
+      "phone": "051-809-7980",
+      "city": "부산",
+      "district": "부산진구"
     },
     "branches": []
   },
@@ -68,5 +68,26 @@
       "bis_ratio": "15.48"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1502",
+      "name": "서면"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원"
+    },
+    {
+      "gmgoCd": "1509",
+      "name": "전포2동"
+    }
+  ]
 }

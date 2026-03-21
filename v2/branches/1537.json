@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1537",
-  "name": null,
+  "name": "전포1동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "전포1동(본점)",
+      "address": "부산 부산진구 서전로58번길 70",
+      "phone": "051-802-1046",
+      "city": "부산",
+      "district": "부산진구"
     },
     "branches": [
       {
@@ -106,5 +106,26 @@
       "bis_ratio": "19.79"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1501",
+      "name": "부전1동"
+    },
+    {
+      "gmgoCd": "1502",
+      "name": "서면"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원"
+    }
+  ]
 }

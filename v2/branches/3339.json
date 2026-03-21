@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3339",
-  "name": null,
+  "name": "부여",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "부여(본점)",
+      "address": "충남 부여군 부여읍 사비로 109",
+      "phone": "041-837-0203",
+      "city": "충남",
+      "district": "부여군"
     },
     "branches": [
       {
@@ -103,5 +103,10 @@
       "bis_ratio": "12.15"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3341",
+      "name": "금강"
+    }
+  ]
 }

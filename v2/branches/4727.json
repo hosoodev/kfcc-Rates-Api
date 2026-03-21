@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4727",
-  "name": null,
+  "name": "증평",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "증평(본점)",
+      "address": "충북 증평군 증평읍 중앙로 207-3",
+      "phone": "043-836-2442",
+      "city": "충북",
+      "district": "증평군"
     },
     "branches": [
       {

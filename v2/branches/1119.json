@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1119",
-  "name": null,
+  "name": "한전",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한전(본점)",
+      "address": "전남 나주시 전력로 55",
+      "phone": "061-345-8749",
+      "city": "전남",
+      "district": "나주시"
     },
     "branches": []
   },
@@ -50,5 +50,18 @@
       "bis_ratio": "47.29"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2902",
+      "name": "나주"
+    },
+    {
+      "gmgoCd": "2903",
+      "name": "영산포"
+    },
+    {
+      "gmgoCd": "2905",
+      "name": "나주동부"
+    }
+  ]
 }

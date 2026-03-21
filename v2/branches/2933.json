@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2933",
-  "name": null,
+  "name": "HD현대삼호",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "HD현대삼호(주)(본점)",
+      "address": "전남 영암군 삼호읍 대불로 93",
+      "phone": "061-460-4620",
+      "city": "전남",
+      "district": "영암군"
     },
     "branches": []
   },
@@ -45,5 +45,18 @@
       "bis_ratio": "104.41"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2926",
+      "name": "영암성실"
+    },
+    {
+      "gmgoCd": "2927",
+      "name": "영암우리"
+    },
+    {
+      "gmgoCd": "2932",
+      "name": "삼호"
+    }
+  ]
 }

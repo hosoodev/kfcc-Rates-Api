@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1702",
-  "name": null,
+  "name": "서동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서동(본점)",
+      "address": "부산 금정구 서동로 145-1",
+      "phone": "051-522-9300",
+      "city": "부산",
+      "district": "금정구"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "9.7"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1701",
+      "name": "새우리"
+    },
+    {
+      "gmgoCd": "1703",
+      "name": "금사동"
+    },
+    {
+      "gmgoCd": "1704",
+      "name": "금정중앙"
+    },
+    {
+      "gmgoCd": "1707",
+      "name": "장전동"
+    },
+    {
+      "gmgoCd": "1709",
+      "name": "청룡동"
+    }
+  ]
 }

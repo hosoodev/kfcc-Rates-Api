@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2709",
-  "name": null,
+  "name": "봉성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "봉성(본점)",
+      "address": "전남 구례군 구례읍 상설시장길 20",
+      "phone": "061-782-3180",
+      "city": "전남",
+      "district": "구례군"
     },
     "branches": [
       {
@@ -75,5 +75,10 @@
       "bis_ratio": "5.08"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2716",
+      "name": "구례"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2939",
-  "name": null,
+  "name": "법성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "법성(본점)",
+      "address": "전남 영광군 법성면 진굴비길 76",
+      "phone": "061-356-3117",
+      "city": "전남",
+      "district": "영광군"
     },
     "branches": [
       {
@@ -97,5 +97,18 @@
       "bis_ratio": "5.86"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2937",
+      "name": "영광"
+    },
+    {
+      "gmgoCd": "2941",
+      "name": "염산"
+    },
+    {
+      "gmgoCd": "2942",
+      "name": "백수"
+    }
+  ]
 }

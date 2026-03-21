@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4740",
-  "name": null,
+  "name": "삼왕",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "삼왕(본점)",
+      "address": "충북 음성군 삼성면 덕정로 58",
+      "phone": "043-878-9811",
+      "city": "충북",
+      "district": "음성군"
     },
     "branches": [
       {
@@ -97,5 +97,22 @@
       "bis_ratio": "10.47"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4733",
+      "name": "음성"
+    },
+    {
+      "gmgoCd": "4734",
+      "name": "비석"
+    },
+    {
+      "gmgoCd": "4737",
+      "name": "한마음"
+    },
+    {
+      "gmgoCd": "4738",
+      "name": "대동"
+    }
+  ]
 }

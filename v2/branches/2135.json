@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2135",
-  "name": null,
+  "name": "평화그룹",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "평화그룹(본점)",
+      "address": "대구 달성군 논공읍 논공로 597",
+      "phone": "053-610-7281",
+      "city": "대구",
+      "district": "달성군"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "308.3"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2122",
+      "name": "가창"
+    },
+    {
+      "gmgoCd": "2124",
+      "name": "화원"
+    },
+    {
+      "gmgoCd": "2125",
+      "name": "옥포"
+    },
+    {
+      "gmgoCd": "2126",
+      "name": "달성"
+    },
+    {
+      "gmgoCd": "2127",
+      "name": "현풍"
+    }
+  ]
 }

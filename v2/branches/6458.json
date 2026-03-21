@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6458",
-  "name": null,
+  "name": "거창",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "거창(본점)",
+      "address": "경남 거창군 거창읍 아림로 23",
+      "phone": "055-942-5657",
+      "city": "경남",
+      "district": "거창군"
     },
     "branches": []
   },

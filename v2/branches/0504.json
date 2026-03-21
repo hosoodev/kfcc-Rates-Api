@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0504",
-  "name": null,
+  "name": "동대문중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동대문중앙(본점)",
+      "address": "서울 동대문구 약령시로 108",
+      "phone": "02-967-1206",
+      "city": "서울",
+      "district": "동대문구"
     },
     "branches": [
       {
@@ -89,5 +89,26 @@
       "bis_ratio": "14.42"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0507",
+      "name": "전농동"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경"
+    },
+    {
+      "gmgoCd": "0518",
+      "name": "더좋은"
+    }
+  ]
 }

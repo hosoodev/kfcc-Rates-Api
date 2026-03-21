@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4931",
-  "name": null,
+  "name": "순창",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "순창(본점)",
+      "address": "전북 순창군 순창읍 장류로 347",
+      "phone": "063-653-2602",
+      "city": "전북",
+      "district": "순창군"
     },
     "branches": []
   },
@@ -98,5 +98,10 @@
       "bis_ratio": "4.52"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4936",
+      "name": "쌍치"
+    }
+  ]
 }

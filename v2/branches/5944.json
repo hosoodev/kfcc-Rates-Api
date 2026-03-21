@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5944",
-  "name": null,
+  "name": "의성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "의성(본점)",
+      "address": "경북 의성군 의성읍 문소1길 39",
+      "phone": "054-833-9946",
+      "city": "경북",
+      "district": "의성군"
     },
     "branches": [
       {
@@ -75,5 +75,10 @@
       "bis_ratio": "11.22"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5909",
+      "name": "화전"
+    }
+  ]
 }

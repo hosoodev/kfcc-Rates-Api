@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1338",
-  "name": null,
+  "name": "태종대",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "태종대(본점)",
+      "address": "부산 영도구 남항로 7",
+      "phone": "051-412-0056",
+      "city": "부산",
+      "district": "영도구"
     },
     "branches": [
       {
@@ -75,5 +75,22 @@
       "bis_ratio": "12.94"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1329",
+      "name": "영도중앙"
+    },
+    {
+      "gmgoCd": "1332",
+      "name": "한아름"
+    },
+    {
+      "gmgoCd": "1339",
+      "name": "영도"
+    },
+    {
+      "gmgoCd": "1340",
+      "name": "동삼동"
+    }
+  ]
 }

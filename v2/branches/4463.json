@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4463",
-  "name": null,
+  "name": "화천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "화천(본점)",
+      "address": "강원 화천군 화천읍 중앙로 1",
+      "phone": "033-442-2771",
+      "city": "강원",
+      "district": "화천군"
     },
     "branches": []
   },
@@ -56,5 +56,10 @@
       "bis_ratio": "10.82"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4449",
+      "name": "다창"
+    }
+  ]
 }

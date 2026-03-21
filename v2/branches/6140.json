@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6140",
-  "name": null,
+  "name": "동김해",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동김해(본점)",
+      "address": "경남 김해시 분성로627번길 10",
+      "phone": "055-334-3632",
+      "city": "경남",
+      "district": "김해시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "16.06"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6135",
+      "name": "김해중앙"
+    },
+    {
+      "gmgoCd": "6136",
+      "name": "남김해"
+    },
+    {
+      "gmgoCd": "6137",
+      "name": "부원"
+    },
+    {
+      "gmgoCd": "6138",
+      "name": "서김해"
+    },
+    {
+      "gmgoCd": "6139",
+      "name": "김해서부"
+    }
+  ]
 }

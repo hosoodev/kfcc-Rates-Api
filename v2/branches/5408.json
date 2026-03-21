@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5408",
-  "name": null,
+  "name": "대신동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "대신동(본점)",
+      "address": "경북 김천시 부거리길 9",
+      "phone": "054-433-5462",
+      "city": "경북",
+      "district": "김천시"
     },
     "branches": []
   },
@@ -68,5 +68,18 @@
       "bis_ratio": "6.66"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3527",
+      "name": "한국도로공사직장"
+    },
+    {
+      "gmgoCd": "5400",
+      "name": "새김천"
+    },
+    {
+      "gmgoCd": "5405",
+      "name": "김천평화"
+    }
+  ]
 }

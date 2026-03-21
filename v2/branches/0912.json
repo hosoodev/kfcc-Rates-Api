@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0912",
-  "name": null,
+  "name": "남서울",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "남서울(본점)",
+      "address": "서울 동작구 동작대로 37",
+      "phone": "02-582-2006",
+      "city": "서울",
+      "district": "동작구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "8.75"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0901",
+      "name": "노들"
+    },
+    {
+      "gmgoCd": "0902",
+      "name": "노량진"
+    },
+    {
+      "gmgoCd": "0903",
+      "name": "상도"
+    },
+    {
+      "gmgoCd": "0905",
+      "name": "한강"
+    },
+    {
+      "gmgoCd": "0906",
+      "name": "상도중앙"
+    }
+  ]
 }

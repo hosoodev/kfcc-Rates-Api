@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4302",
-  "name": null,
+  "name": "신원주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신원주(본점)",
+      "address": "강원 원주시 원일로 59-6",
+      "phone": "033-765-0411",
+      "city": "강원",
+      "district": "원주시"
     },
     "branches": [
       {
@@ -97,5 +97,26 @@
       "bis_ratio": "5.3"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4301",
+      "name": "원주중앙"
+    },
+    {
+      "gmgoCd": "4303",
+      "name": "동원주"
+    },
+    {
+      "gmgoCd": "4306",
+      "name": "단구"
+    },
+    {
+      "gmgoCd": "4309",
+      "name": "꿈드림"
+    },
+    {
+      "gmgoCd": "4313",
+      "name": "원주우리"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2127",
-  "name": null,
+  "name": "현풍",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "현풍(본점)",
+      "address": "대구 달성군 현풍면 현풍중앙로 81",
+      "phone": "053-614-3217",
+      "city": "대구",
+      "district": "달성군"
     },
     "branches": []
   },
@@ -68,5 +68,26 @@
       "bis_ratio": "10.68"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2122",
+      "name": "가창"
+    },
+    {
+      "gmgoCd": "2124",
+      "name": "화원"
+    },
+    {
+      "gmgoCd": "2125",
+      "name": "옥포"
+    },
+    {
+      "gmgoCd": "2126",
+      "name": "달성"
+    },
+    {
+      "gmgoCd": "2128",
+      "name": "구지"
+    }
+  ]
 }

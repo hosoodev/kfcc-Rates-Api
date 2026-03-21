@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0803",
-  "name": null,
+  "name": "영등포제일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영등포제일(본점)",
+      "address": "서울 영등포구 영중로 71",
+      "phone": "02-2679-7811",
+      "city": "서울",
+      "district": "영등포구"
     },
     "branches": [
       {
@@ -95,5 +95,26 @@
       "bis_ratio": "11.54"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림"
+    },
+    {
+      "gmgoCd": "0808",
+      "name": "문래동"
+    }
+  ]
 }

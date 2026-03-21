@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3415",
-  "name": null,
+  "name": "청양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "청양(본점)",
+      "address": "충남 청양군 청양읍 중앙로 121-1",
+      "phone": "041-943-2222",
+      "city": "충남",
+      "district": "청양군"
     },
     "branches": [
       {

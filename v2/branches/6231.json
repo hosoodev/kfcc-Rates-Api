@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6231",
-  "name": null,
+  "name": "울주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "울주(본점)",
+      "address": "울산 울주군 언양읍 헌양길 64",
+      "phone": "052-262-3825",
+      "city": "울산",
+      "district": "울주군"
     },
     "branches": [
       {

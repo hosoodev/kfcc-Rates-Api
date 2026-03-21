@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5012",
-  "name": null,
+  "name": "고창",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "고창(본점)",
+      "address": "전북 고창군 고창읍 중앙로 226",
+      "phone": "063-564-1655",
+      "city": "전북",
+      "district": "고창군"
     },
     "branches": [
       {

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2507",
-  "name": null,
+  "name": "화정",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "화정(본점)",
+      "address": "광주 서구 상무대로 1089",
+      "phone": "062-363-3352",
+      "city": "광주",
+      "district": "서구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "8.81"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕"
+    },
+    {
+      "gmgoCd": "1216",
+      "name": "서구중앙"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부"
+    }
+  ]
 }

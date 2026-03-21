@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3423",
-  "name": null,
+  "name": "금오",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금오(본점)",
+      "address": "충남 예산군 예산읍 아리랑로 9",
+      "phone": "041-333-6627",
+      "city": "충남",
+      "district": "예산군"
     },
     "branches": [
       {
@@ -63,5 +63,18 @@
       "bis_ratio": "7.99"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3422",
+      "name": "예산"
+    },
+    {
+      "gmgoCd": "3424",
+      "name": "신례원"
+    },
+    {
+      "gmgoCd": "3425",
+      "name": "삽교"
+    }
+  ]
 }

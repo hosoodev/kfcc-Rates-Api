@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1022",
-  "name": null,
+  "name": "앰코테크놀로지코리아",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "앰코테크놀로지코리아(본점)",
+      "address": "인천 연수구 송도미래로 150",
+      "phone": "032-728-4455",
+      "city": "인천",
+      "district": "연수구"
     },
     "branches": [
       {
@@ -99,5 +99,14 @@
       "bis_ratio": "29.24"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2301",
+      "name": "연수"
+    },
+    {
+      "gmgoCd": "2359",
+      "name": "송도"
+    }
+  ]
 }

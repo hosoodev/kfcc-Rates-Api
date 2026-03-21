@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2315",
-  "name": null,
+  "name": "부일",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "부일(본점)",
+      "address": "인천 부평구 부평대로 109",
+      "phone": "032-511-7101",
+      "city": "인천",
+      "district": "부평구"
     },
     "branches": [
       {
@@ -103,5 +103,26 @@
       "bis_ratio": "10.56"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2316",
+      "name": "부평남부"
+    },
+    {
+      "gmgoCd": "2317",
+      "name": "부평제일"
+    },
+    {
+      "gmgoCd": "2318",
+      "name": "부평중앙"
+    },
+    {
+      "gmgoCd": "2319",
+      "name": "부평동부"
+    },
+    {
+      "gmgoCd": "2321",
+      "name": "산곡십정"
+    }
+  ]
 }

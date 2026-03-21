@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6221",
-  "name": null,
+  "name": "서울산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서울산(본점)",
+      "address": "울산 남구 신복로 45",
+      "phone": "052-220-0000",
+      "city": "울산",
+      "district": "남구"
     },
     "branches": [
       {
@@ -87,5 +87,26 @@
       "bis_ratio": "13.69"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부"
+    }
+  ]
 }

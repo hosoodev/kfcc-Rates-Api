@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6468",
-  "name": null,
+  "name": "강양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "강양(본점)",
+      "address": "경남 합천군 합천읍 동서로 61",
+      "phone": "055-934-2020",
+      "city": "경남",
+      "district": "합천군"
     },
     "branches": []
   },

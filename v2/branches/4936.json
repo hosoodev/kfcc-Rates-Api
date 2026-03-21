@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4936",
-  "name": null,
+  "name": "쌍치",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "쌍치(본점)",
+      "address": "전북 순창군 쌍치면 쌍계로 29",
+      "phone": "063-652-2188",
+      "city": "전북",
+      "district": "순창군"
     },
     "branches": []
   },
@@ -51,5 +51,10 @@
       "bis_ratio": "13.87"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4931",
+      "name": "순창"
+    }
+  ]
 }

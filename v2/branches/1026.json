@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1026",
-  "name": null,
+  "name": "서울중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서울중앙(본점)",
+      "address": "서울 송파구 풍성로 40",
+      "phone": "02-478-7015",
+      "city": "서울",
+      "district": "송파구"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "11.65"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0419",
+      "name": "삼성에스디에스"
+    },
+    {
+      "gmgoCd": "1027",
+      "name": "마천"
+    },
+    {
+      "gmgoCd": "1029",
+      "name": "송파중앙"
+    },
+    {
+      "gmgoCd": "1030",
+      "name": "서울송파"
+    },
+    {
+      "gmgoCd": "1031",
+      "name": "가락"
+    }
+  ]
 }

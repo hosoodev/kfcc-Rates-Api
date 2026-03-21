@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3314",
-  "name": null,
+  "name": "금산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금산(본점)",
+      "address": "충남 금산군 금산읍 인삼로 96",
+      "phone": "041-753-3505",
+      "city": "충남",
+      "district": "금산군"
     },
     "branches": []
   },
@@ -76,5 +76,14 @@
       "bis_ratio": "9.3"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3317",
+      "name": "추부"
+    },
+    {
+      "gmgoCd": "3318",
+      "name": "인삼시장"
+    }
+  ]
 }

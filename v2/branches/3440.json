@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3440",
-  "name": null,
+  "name": "당진서부",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "당진서부(본점)",
+      "address": "충남 당진시 석문면 대호만로 1736-13",
+      "phone": "041-354-5002",
+      "city": "충남",
+      "district": "당진시"
     },
     "branches": [
       {
@@ -111,5 +111,14 @@
       "bis_ratio": "10.83"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3437",
+      "name": "당진"
+    },
+    {
+      "gmgoCd": "3441",
+      "name": "당진동부"
+    }
+  ]
 }

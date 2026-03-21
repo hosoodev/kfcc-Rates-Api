@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4601",
-  "name": null,
+  "name": "청남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "청남(본점)",
+      "address": "충북 청주시 상당구 미원면 미원시내2길 15",
+      "phone": "043-297-0202",
+      "city": "충북",
+      "district": "청주시"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "16.85"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리"
+    },
+    {
+      "gmgoCd": "4509",
+      "name": "청주중앙"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암"
+    }
+  ]
 }

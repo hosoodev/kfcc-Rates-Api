@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4106",
-  "name": null,
+  "name": "별내",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "별내(본점)",
+      "address": "경기 남양주시 별내면 청학로중앙길 29",
+      "phone": "031-841-9630",
+      "city": "경기",
+      "district": "남양주시"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "10.03"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4104",
+      "name": "다산"
+    },
+    {
+      "gmgoCd": "4107",
+      "name": "화도"
+    },
+    {
+      "gmgoCd": "4108",
+      "name": "중부"
+    },
+    {
+      "gmgoCd": "4109",
+      "name": "진접"
+    },
+    {
+      "gmgoCd": "4110",
+      "name": "남양주중앙"
+    }
+  ]
 }

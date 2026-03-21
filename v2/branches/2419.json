@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2419",
-  "name": null,
+  "name": "금남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "금남(본점)",
+      "address": "광주 동구 중앙로 207-7",
+      "phone": "062-232-7251",
+      "city": "광주",
+      "district": "동구"
     },
     "branches": []
   },
@@ -93,5 +93,26 @@
       "bis_ratio": "9.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동"
+    }
+  ]
 }

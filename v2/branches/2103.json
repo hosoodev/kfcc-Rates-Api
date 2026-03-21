@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2103",
-  "name": null,
+  "name": "두류1.2동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "두류1.2동(본점)",
+      "address": "대구 달서구 파도고개로 194",
+      "phone": "053-628-9791",
+      "city": "대구",
+      "district": "달서구"
     },
     "branches": []
   },
@@ -68,5 +68,26 @@
       "bis_ratio": "13.19"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2102",
+      "name": "대성"
+    },
+    {
+      "gmgoCd": "2105",
+      "name": "두류"
+    },
+    {
+      "gmgoCd": "2106",
+      "name": "성일"
+    },
+    {
+      "gmgoCd": "2107",
+      "name": "우리"
+    },
+    {
+      "gmgoCd": "2108",
+      "name": "서부"
+    }
+  ]
 }

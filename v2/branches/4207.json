@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4207",
-  "name": null,
+  "name": "포남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "포남(본점)",
+      "address": "강원 강릉시 하평길 21",
+      "phone": "033-653-5470",
+      "city": "강원",
+      "district": "강릉시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "17.32"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4202",
+      "name": "새강릉"
+    },
+    {
+      "gmgoCd": "4206",
+      "name": "강릉솔향"
+    },
+    {
+      "gmgoCd": "4208",
+      "name": "초당경포"
+    },
+    {
+      "gmgoCd": "4222",
+      "name": "송정"
+    },
+    {
+      "gmgoCd": "4262",
+      "name": "강릉아산병원"
+    }
+  ]
 }

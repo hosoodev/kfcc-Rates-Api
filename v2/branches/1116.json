@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1116",
-  "name": null,
+  "name": "강남영동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "강남영동(본점)",
+      "address": "서울 강남구 언주로134길 21",
+      "phone": "02-516-8900",
+      "city": "서울",
+      "district": "강남구"
     },
     "branches": []
   },
@@ -98,5 +98,26 @@
       "bis_ratio": "9.14"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종"
+    },
+    {
+      "gmgoCd": "1111",
+      "name": "청담동"
+    },
+    {
+      "gmgoCd": "1112",
+      "name": "대왕"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙"
+    },
+    {
+      "gmgoCd": "1128",
+      "name": "한국무역협회"
+    }
+  ]
 }

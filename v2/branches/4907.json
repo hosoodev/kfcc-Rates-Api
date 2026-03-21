@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4907",
-  "name": null,
+  "name": "동남원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동남원(본점)",
+      "address": "전북 남원시 산동면 요천로 2914",
+      "phone": "063-625-6522",
+      "city": "전북",
+      "district": "남원시"
     },
     "branches": [
       {
@@ -111,5 +111,22 @@
       "bis_ratio": "8.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4901",
+      "name": "남원"
+    },
+    {
+      "gmgoCd": "4903",
+      "name": "남원중앙"
+    },
+    {
+      "gmgoCd": "4905",
+      "name": "운봉"
+    },
+    {
+      "gmgoCd": "4906",
+      "name": "지리산"
+    }
+  ]
 }

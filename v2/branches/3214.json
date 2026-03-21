@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3214",
-  "name": null,
+  "name": "천안미래",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "천안미래(본점)",
+      "address": "충남 천안시 서북구 입장면 입장로 120",
+      "phone": "041-584-8576",
+      "city": "충남",
+      "district": "천안시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "9.72"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3203",
+      "name": "천안"
+    },
+    {
+      "gmgoCd": "3204",
+      "name": "선영"
+    },
+    {
+      "gmgoCd": "3205",
+      "name": "천안동부"
+    },
+    {
+      "gmgoCd": "3206",
+      "name": "천안서부"
+    },
+    {
+      "gmgoCd": "3208",
+      "name": "중부"
+    }
+  ]
 }

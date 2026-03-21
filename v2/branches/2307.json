@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2307",
-  "name": null,
+  "name": "남동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "남동(본점)",
+      "address": "인천 남동구 경인로 549",
+      "phone": "032-431-6801",
+      "city": "인천",
+      "district": "남동구"
     },
     "branches": [
       {
@@ -123,5 +123,22 @@
       "bis_ratio": "9.26"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2303",
+      "name": "인주"
+    },
+    {
+      "gmgoCd": "2304",
+      "name": "상인천"
+    },
+    {
+      "gmgoCd": "2306",
+      "name": "만수"
+    },
+    {
+      "gmgoCd": "2309",
+      "name": "구월남촌"
+    }
+  ]
 }

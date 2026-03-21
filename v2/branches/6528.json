@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6528",
-  "name": null,
+  "name": "고성",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "고성(본점)",
+      "address": "경남 고성군 고성읍 중앙로43번길 8-1",
+      "phone": "055-674-6801",
+      "city": "경남",
+      "district": "고성군"
     },
     "branches": []
   },
@@ -56,5 +56,10 @@
       "bis_ratio": "19.94"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6537",
+      "name": "새고성"
+    }
+  ]
 }

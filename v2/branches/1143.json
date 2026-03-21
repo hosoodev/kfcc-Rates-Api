@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1143",
-  "name": null,
+  "name": "광진중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "광진중앙(본점)",
+      "address": "서울 광진구 뚝섬로 632",
+      "phone": "02-458-1510",
+      "city": "서울",
+      "district": "광진구"
     },
     "branches": [
       {
@@ -101,5 +101,26 @@
       "bis_ratio": "12.51"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1133",
+      "name": "광진자양"
+    },
+    {
+      "gmgoCd": "1134",
+      "name": "화양동"
+    },
+    {
+      "gmgoCd": "1135",
+      "name": "송정.군자"
+    },
+    {
+      "gmgoCd": "1136",
+      "name": "중곡1동"
+    },
+    {
+      "gmgoCd": "1137",
+      "name": "광진중곡"
+    }
+  ]
 }

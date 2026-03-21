@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3147",
-  "name": null,
+  "name": "유성온천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "유성온천(본점)",
+      "address": "대전 유성구 계룡로 29",
+      "phone": "042-822-6776",
+      "city": "대전",
+      "district": "유성구"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "12.33"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3143",
+      "name": "유성"
+    },
+    {
+      "gmgoCd": "3145",
+      "name": "탄동"
+    },
+    {
+      "gmgoCd": "3146",
+      "name": "진잠"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원"
+    },
+    {
+      "gmgoCd": "3154",
+      "name": "대전온천"
+    }
+  ]
 }

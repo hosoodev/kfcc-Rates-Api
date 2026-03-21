@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6268",
-  "name": null,
+  "name": "상북",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "상북(본점)",
+      "address": "경남 양산시 상북면 상북중앙로 402",
+      "phone": "055-374-5691",
+      "city": "경남",
+      "district": "양산시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "8.2"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6264",
+      "name": "양산"
+    },
+    {
+      "gmgoCd": "6266",
+      "name": "물금"
+    },
+    {
+      "gmgoCd": "6267",
+      "name": "남양산"
+    },
+    {
+      "gmgoCd": "6269",
+      "name": "양산중앙"
+    },
+    {
+      "gmgoCd": "6270",
+      "name": "웅상"
+    }
+  ]
 }

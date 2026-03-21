@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2522",
-  "name": null,
+  "name": "동운",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "동운(본점)",
+      "address": "광주 북구 서암대로 5",
+      "phone": "062-523-3244",
+      "city": "광주",
+      "district": "북구"
     },
     "branches": [
       {
@@ -81,5 +81,26 @@
       "bis_ratio": "9.16"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구"
+    }
+  ]
 }

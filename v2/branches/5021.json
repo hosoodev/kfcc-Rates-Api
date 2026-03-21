@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5021",
-  "name": null,
+  "name": "부령",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "부령(본점)",
+      "address": "전북 부안군 부안읍 부풍로 35",
+      "phone": "063-582-0388",
+      "city": "전북",
+      "district": "부안군"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "24.69"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5028",
+      "name": "남부안"
+    }
+  ]
 }

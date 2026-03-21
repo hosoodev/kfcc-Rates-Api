@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3616",
-  "name": null,
+  "name": "안양만안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "안양만안(본점)",
+      "address": "경기 안양시 만안구 양화로 118",
+      "phone": "031-444-0057",
+      "city": "경기",
+      "district": "안양시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "11.31"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3603",
+      "name": "안양협심"
+    },
+    {
+      "gmgoCd": "3606",
+      "name": "안양"
+    },
+    {
+      "gmgoCd": "3607",
+      "name": "안양제일"
+    },
+    {
+      "gmgoCd": "3609",
+      "name": "안양동부"
+    },
+    {
+      "gmgoCd": "3611",
+      "name": "동안"
+    }
+  ]
 }

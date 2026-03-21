@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3838",
-  "name": null,
+  "name": "엘지전자평택",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "엘지전자평택(본점)",
+      "address": "경기 평택시 진위면 엘지로 222",
+      "phone": "031-610-5105",
+      "city": "경기",
+      "district": "평택시"
     },
     "branches": []
   },
@@ -50,5 +50,22 @@
       "bis_ratio": "220.51"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3833",
+      "name": "평택"
+    },
+    {
+      "gmgoCd": "3834",
+      "name": "서평택"
+    },
+    {
+      "gmgoCd": "3841",
+      "name": "케이지모빌리티"
+    },
+    {
+      "gmgoCd": "3843",
+      "name": "송탄"
+    }
+  ]
 }

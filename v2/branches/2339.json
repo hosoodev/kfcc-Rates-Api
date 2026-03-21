@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2339",
-  "name": null,
+  "name": "계양",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "계양(본점)",
+      "address": "인천 계양구 주부토로 400",
+      "phone": "032-542-8111",
+      "city": "인천",
+      "district": "계양구"
     },
     "branches": [
       {
@@ -123,5 +123,14 @@
       "bis_ratio": "15.81"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2337",
+      "name": "효성"
+    },
+    {
+      "gmgoCd": "2338",
+      "name": "계산"
+    }
+  ]
 }

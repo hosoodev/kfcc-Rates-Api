@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6442",
-  "name": null,
+  "name": "새남해",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "새남해(본점)",
+      "address": "경남 남해군 남해읍 망운로 59",
+      "phone": "055-863-3721",
+      "city": "경남",
+      "district": "남해군"
     },
     "branches": [
       {
@@ -109,5 +109,14 @@
       "bis_ratio": "11.26"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6444",
+      "name": "미송"
+    },
+    {
+      "gmgoCd": "6467",
+      "name": "창선"
+    }
+  ]
 }

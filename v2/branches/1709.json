@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1709",
-  "name": null,
+  "name": "청룡동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "청룡동(본점)",
+      "address": "부산 금정구 청룡로 23-1",
+      "phone": "051-508-2241",
+      "city": "부산",
+      "district": "금정구"
     },
     "branches": []
   },
@@ -76,5 +76,26 @@
       "bis_ratio": "10.73"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1701",
+      "name": "새우리"
+    },
+    {
+      "gmgoCd": "1702",
+      "name": "서동"
+    },
+    {
+      "gmgoCd": "1703",
+      "name": "금사동"
+    },
+    {
+      "gmgoCd": "1704",
+      "name": "금정중앙"
+    },
+    {
+      "gmgoCd": "1707",
+      "name": "장전동"
+    }
+  ]
 }

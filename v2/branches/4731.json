@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4731",
-  "name": null,
+  "name": "괴산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "괴산(본점)",
+      "address": "충북 괴산군 괴산읍 읍내로10길 2",
+      "phone": "043-832-2985",
+      "city": "충북",
+      "district": "괴산군"
     },
     "branches": []
   },
@@ -90,5 +90,10 @@
       "bis_ratio": "9.89"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4726",
+      "name": "불정"
+    }
+  ]
 }

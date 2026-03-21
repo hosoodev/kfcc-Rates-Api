@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4318",
-  "name": null,
+  "name": "치악",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "치악(본점)",
+      "address": "강원 원주시 황금로 23",
+      "phone": "033-761-8177",
+      "city": "강원",
+      "district": "원주시"
     },
     "branches": [
       {
@@ -117,5 +117,26 @@
       "bis_ratio": "9.86"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4301",
+      "name": "원주중앙"
+    },
+    {
+      "gmgoCd": "4302",
+      "name": "신원주"
+    },
+    {
+      "gmgoCd": "4303",
+      "name": "동원주"
+    },
+    {
+      "gmgoCd": "4306",
+      "name": "단구"
+    },
+    {
+      "gmgoCd": "4309",
+      "name": "꿈드림"
+    }
+  ]
 }

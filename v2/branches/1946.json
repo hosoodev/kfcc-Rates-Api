@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1946",
-  "name": null,
+  "name": "미래",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "미래(본점)",
+      "address": "대구 북구 대현남로6길 5",
+      "phone": "053-941-0129",
+      "city": "대구",
+      "district": "북구"
     },
     "branches": []
   },
@@ -92,5 +92,26 @@
       "bis_ratio": "7"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구"
+    }
+  ]
 }

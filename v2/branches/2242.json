@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2242",
-  "name": null,
+  "name": "도화2동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "도화2동(본점)",
+      "address": "인천 미추홀구 석정로 298",
+      "phone": "032-875-0701",
+      "city": "인천",
+      "district": "미추홀구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "11.11"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2234",
+      "name": "제물포"
+    },
+    {
+      "gmgoCd": "2235",
+      "name": "용일"
+    },
+    {
+      "gmgoCd": "2237",
+      "name": "새인천"
+    },
+    {
+      "gmgoCd": "2238",
+      "name": "한마음"
+    },
+    {
+      "gmgoCd": "2239",
+      "name": "학익"
+    }
+  ]
 }

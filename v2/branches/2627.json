@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2627",
-  "name": null,
+  "name": "순천만",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "순천만(본점)",
+      "address": "전남 순천시 중앙2길 22",
+      "phone": "061-741-0001",
+      "city": "전남",
+      "district": "순천시"
     },
     "branches": [
       {
@@ -117,5 +117,14 @@
       "bis_ratio": "9.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2647",
+      "name": "순천북부"
+    },
+    {
+      "gmgoCd": "2648",
+      "name": "순천중부"
+    }
+  ]
 }

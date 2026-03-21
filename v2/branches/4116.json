@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4116",
-  "name": null,
+  "name": "양주중앙",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "양주중앙(본점)",
+      "address": "경기 양주시 광적면 가래비9길 12-27",
+      "phone": "031-845-1100",
+      "city": "경기",
+      "district": "양주시"
     },
     "branches": [
       {
@@ -97,5 +97,10 @@
       "bis_ratio": "5.31"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4146",
+      "name": "양주"
+    }
+  ]
 }

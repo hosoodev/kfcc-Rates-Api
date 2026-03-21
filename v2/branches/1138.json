@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1138",
-  "name": null,
+  "name": "서울광진",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서울광진(본점)",
+      "address": "서울 광진구 면목로 159",
+      "phone": "02-467-5574",
+      "city": "서울",
+      "district": "광진구"
     },
     "branches": [
       {
@@ -75,5 +75,26 @@
       "bis_ratio": "8.53"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1133",
+      "name": "광진자양"
+    },
+    {
+      "gmgoCd": "1134",
+      "name": "화양동"
+    },
+    {
+      "gmgoCd": "1135",
+      "name": "송정.군자"
+    },
+    {
+      "gmgoCd": "1136",
+      "name": "중곡1동"
+    },
+    {
+      "gmgoCd": "1137",
+      "name": "광진중곡"
+    }
+  ]
 }

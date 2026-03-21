@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0337",
-  "name": null,
+  "name": "은평",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "은평(본점)",
+      "address": "서울 은평구 은평로 26",
+      "phone": "02-303-1161",
+      "city": "서울",
+      "district": "은평구"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "13.75"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0329",
+      "name": "녹번동"
+    },
+    {
+      "gmgoCd": "0330",
+      "name": "서울은평"
+    },
+    {
+      "gmgoCd": "0331",
+      "name": "갈현동"
+    },
+    {
+      "gmgoCd": "0332",
+      "name": "구산동"
+    },
+    {
+      "gmgoCd": "0334",
+      "name": "e-푸른"
+    }
+  ]
 }

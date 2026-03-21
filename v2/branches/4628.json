@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4628",
-  "name": null,
+  "name": "상진",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "상진(본점)",
+      "address": "충북 진천군 진천읍 상산로 73",
+      "phone": "043-533-2250",
+      "city": "충북",
+      "district": "진천군"
     },
     "branches": [
       {
@@ -105,5 +105,10 @@
       "bis_ratio": "8.9"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4625",
+      "name": "진천"
+    }
+  ]
 }

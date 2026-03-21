@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2721",
-  "name": null,
+  "name": "돌산",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "돌산(본점)",
+      "address": "전남 여수시 돌산읍 강남9길 10",
+      "phone": "061-644-7111",
+      "city": "전남",
+      "district": "여수시"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "8.21"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무"
+    }
+  ]
 }

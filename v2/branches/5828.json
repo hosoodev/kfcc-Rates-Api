@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5828",
-  "name": null,
+  "name": "풍기",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "풍기(본점)",
+      "address": "경북 영주시 풍기읍 동성로 87",
+      "phone": "054-636-3586",
+      "city": "경북",
+      "district": "영주시"
     },
     "branches": [
       {
@@ -63,5 +63,18 @@
       "bis_ratio": "9.75"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5832",
+      "name": "흥주"
+    },
+    {
+      "gmgoCd": "5849",
+      "name": "영주"
+    },
+    {
+      "gmgoCd": "5850",
+      "name": "북영주"
+    }
+  ]
 }

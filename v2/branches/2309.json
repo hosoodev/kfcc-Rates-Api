@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2309",
-  "name": null,
+  "name": "구월남촌",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "구월남촌(본점)",
+      "address": "인천 남동구 호구포로 802",
+      "phone": "032-465-5189",
+      "city": "인천",
+      "district": "남동구"
     },
     "branches": [
       {
@@ -103,5 +103,22 @@
       "bis_ratio": "10.05"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2303",
+      "name": "인주"
+    },
+    {
+      "gmgoCd": "2304",
+      "name": "상인천"
+    },
+    {
+      "gmgoCd": "2306",
+      "name": "만수"
+    },
+    {
+      "gmgoCd": "2307",
+      "name": "남동"
+    }
+  ]
 }

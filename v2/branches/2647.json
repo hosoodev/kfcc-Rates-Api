@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2647",
-  "name": null,
+  "name": "순천북부",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "순천북부(본점)",
+      "address": "전남 순천시 삼산로 107",
+      "phone": "061-752-4987",
+      "city": "전남",
+      "district": "순천시"
     },
     "branches": [
       {
@@ -111,5 +111,14 @@
       "bis_ratio": "17.62"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2627",
+      "name": "순천만"
+    },
+    {
+      "gmgoCd": "2648",
+      "name": "순천중부"
+    }
+  ]
 }

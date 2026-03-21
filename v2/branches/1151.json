@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1151",
-  "name": null,
+  "name": "포스코",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "포스코(본점)",
+      "address": "서울 강남구 테헤란로 440",
+      "phone": "02-3457-3863",
+      "city": "서울",
+      "district": "강남구"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "8.27"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종"
+    },
+    {
+      "gmgoCd": "1111",
+      "name": "청담동"
+    },
+    {
+      "gmgoCd": "1112",
+      "name": "대왕"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙"
+    },
+    {
+      "gmgoCd": "1116",
+      "name": "강남영동"
+    }
+  ]
 }

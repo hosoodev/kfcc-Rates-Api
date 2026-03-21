@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1054",
-  "name": null,
+  "name": "성동행당",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "성동행당(본점)",
+      "address": "서울 성동구 행당로11길 3",
+      "phone": "02-2293-6584",
+      "city": "서울",
+      "district": "성동구"
     },
     "branches": [
       {
@@ -107,5 +107,26 @@
       "bis_ratio": "9.25"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1003",
+      "name": "왕십리중앙"
+    },
+    {
+      "gmgoCd": "1007",
+      "name": "무지개"
+    },
+    {
+      "gmgoCd": "1011",
+      "name": "금호"
+    },
+    {
+      "gmgoCd": "1013",
+      "name": "서울금남"
+    },
+    {
+      "gmgoCd": "1015",
+      "name": "성수1가"
+    }
+  ]
 }

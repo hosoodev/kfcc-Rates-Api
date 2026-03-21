@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0528",
-  "name": null,
+  "name": "사가정",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "사가정(본점)",
+      "address": "서울 중랑구 면목로 332",
+      "phone": "02-434-6764",
+      "city": "서울",
+      "district": "중랑구"
     },
     "branches": []
   },
@@ -90,5 +90,26 @@
       "bis_ratio": "9.11"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0527",
+      "name": "중랑서부"
+    },
+    {
+      "gmgoCd": "0529",
+      "name": "서울동부"
+    },
+    {
+      "gmgoCd": "0530",
+      "name": "용마"
+    },
+    {
+      "gmgoCd": "0531",
+      "name": "서울상봉"
+    },
+    {
+      "gmgoCd": "0533",
+      "name": "중랑우리"
+    }
+  ]
 }

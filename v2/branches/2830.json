@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2830",
-  "name": null,
+  "name": "무안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "무안(본점)",
+      "address": "전남 무안군 무안읍 무안중앙로 37",
+      "phone": "061-453-3148",
+      "city": "전남",
+      "district": "무안군"
     },
     "branches": [
       {
@@ -103,5 +103,14 @@
       "bis_ratio": "13.23"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2831",
+      "name": "해제"
+    },
+    {
+      "gmgoCd": "2833",
+      "name": "남악"
+    }
+  ]
 }

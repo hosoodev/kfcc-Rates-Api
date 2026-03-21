@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3431",
-  "name": null,
+  "name": "태안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "태안(본점)",
+      "address": "충남 태안군 태안읍 동백로 318",
+      "phone": "041-674-5431",
+      "city": "충남",
+      "district": "태안군"
     },
     "branches": [
       {
@@ -105,5 +105,26 @@
       "bis_ratio": "10.61"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3432",
+      "name": "안면도"
+    },
+    {
+      "gmgoCd": "3433",
+      "name": "남면"
+    },
+    {
+      "gmgoCd": "3434",
+      "name": "안흥"
+    },
+    {
+      "gmgoCd": "3435",
+      "name": "소원"
+    },
+    {
+      "gmgoCd": "3436",
+      "name": "원북"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5313",
-  "name": null,
+  "name": "강동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "강동(본점)",
+      "address": "경북 경주시 강동면 강동로 10",
+      "phone": "054-762-8188",
+      "city": "경북",
+      "district": "경주시"
     },
     "branches": []
   },
@@ -50,5 +50,26 @@
       "bis_ratio": "12.76"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5301",
+      "name": "우성"
+    },
+    {
+      "gmgoCd": "5302",
+      "name": "성동"
+    },
+    {
+      "gmgoCd": "5303",
+      "name": "신경주"
+    },
+    {
+      "gmgoCd": "5305",
+      "name": "경주"
+    },
+    {
+      "gmgoCd": "5306",
+      "name": "남경주"
+    }
+  ]
 }

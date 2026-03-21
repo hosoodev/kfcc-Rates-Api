@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2357",
-  "name": null,
+  "name": "강화",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "강화(본점)",
+      "address": "인천 강화군 강화읍 강화대로 396-2",
+      "phone": "032-934-0071",
+      "city": "인천",
+      "district": "강화군"
     },
     "branches": []
   },

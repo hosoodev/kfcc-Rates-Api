@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2843",
-  "name": null,
+  "name": "신안",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "신안(본점)",
+      "address": "전남 신안군 압해읍 압해로 866",
+      "phone": "061-271-1521",
+      "city": "전남",
+      "district": "신안군"
     },
     "branches": []
   },

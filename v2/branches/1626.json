@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1626",
-  "name": null,
+  "name": "해운대",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "해운대(본점)",
+      "address": "부산 해운대구 좌동로 103",
+      "phone": "051-703-4111",
+      "city": "부산",
+      "district": "해운대구"
     },
     "branches": [
       {
@@ -69,5 +69,26 @@
       "bis_ratio": "13.6"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1622",
+      "name": "해운대중앙"
+    },
+    {
+      "gmgoCd": "1624",
+      "name": "우리"
+    },
+    {
+      "gmgoCd": "1625",
+      "name": "장산"
+    },
+    {
+      "gmgoCd": "1627",
+      "name": "부산동부"
+    },
+    {
+      "gmgoCd": "1628",
+      "name": "반여1.4동"
+    }
+  ]
 }

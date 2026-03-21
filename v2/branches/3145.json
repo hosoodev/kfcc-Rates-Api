@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3145",
-  "name": null,
+  "name": "탄동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "탄동(본점)",
+      "address": "대전 유성구 유성대로1184번길 8",
+      "phone": "042-861-2924",
+      "city": "대전",
+      "district": "유성구"
     },
     "branches": [
       {
@@ -135,5 +135,26 @@
       "bis_ratio": "12.06"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3143",
+      "name": "유성"
+    },
+    {
+      "gmgoCd": "3146",
+      "name": "진잠"
+    },
+    {
+      "gmgoCd": "3147",
+      "name": "유성온천"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원"
+    },
+    {
+      "gmgoCd": "3154",
+      "name": "대전온천"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4459",
-  "name": null,
+  "name": "춘천동남",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "춘천동남(본점)",
+      "address": "강원 춘천시 동내면 영서로 1832",
+      "phone": "033-261-6636",
+      "city": "강원",
+      "district": "춘천시"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "15.15"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4420",
+      "name": "북춘천"
+    },
+    {
+      "gmgoCd": "4457",
+      "name": "춘천남부"
+    },
+    {
+      "gmgoCd": "4458",
+      "name": "춘천중부"
+    },
+    {
+      "gmgoCd": "4460",
+      "name": "춘천동부"
+    },
+    {
+      "gmgoCd": "4464",
+      "name": "소양강"
+    }
+  ]
 }

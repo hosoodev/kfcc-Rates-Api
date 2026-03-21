@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3807",
-  "name": null,
+  "name": "세화",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "세화(본점)",
+      "address": "경기 수원시 권선구 정조로 537",
+      "phone": "031-236-9970",
+      "city": "경기",
+      "district": "수원시"
     },
     "branches": [
       {
@@ -76,5 +76,26 @@
     }
   },
   "grades_history": [],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "3808",
+      "name": "수원서부"
+    },
+    {
+      "gmgoCd": "3809",
+      "name": "서호"
+    },
+    {
+      "gmgoCd": "3815",
+      "name": "팔달"
+    },
+    {
+      "gmgoCd": "3818",
+      "name": "남수원"
+    },
+    {
+      "gmgoCd": "3823",
+      "name": "마이크로웍스"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "1404",
-  "name": null,
+  "name": "대연6동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "대연6동(본점)",
+      "address": "부산 남구 못골로 22-1",
+      "phone": "051-636-5200",
+      "city": "부산",
+      "district": "남구"
     },
     "branches": []
   },
@@ -85,5 +85,26 @@
       "bis_ratio": "8.45"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부"
+    },
+    {
+      "gmgoCd": "1407",
+      "name": "용당동"
+    }
+  ]
 }

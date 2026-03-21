@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "5737",
-  "name": null,
+  "name": "칠곡",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "칠곡(본점)",
+      "address": "경북 칠곡군 지천면 신동로 156",
+      "phone": "054-972-2134",
+      "city": "경북",
+      "district": "칠곡군"
     },
     "branches": [
       {
@@ -81,5 +81,14 @@
       "bis_ratio": "7.63"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "5734",
+      "name": "왜관"
+    },
+    {
+      "gmgoCd": "5738",
+      "name": "북삼"
+    }
+  ]
 }

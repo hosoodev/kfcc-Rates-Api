@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2448",
-  "name": null,
+  "name": "서광주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서광주(본점)",
+      "address": "광주 광산구 송정로29번길 37",
+      "phone": "062-944-4502",
+      "city": "광주",
+      "district": "광산구"
     },
     "branches": [
       {
@@ -69,5 +69,14 @@
       "bis_ratio": "11.98"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2424",
+      "name": "한마음"
+    },
+    {
+      "gmgoCd": "2434",
+      "name": "금호타이어"
+    }
+  ]
 }

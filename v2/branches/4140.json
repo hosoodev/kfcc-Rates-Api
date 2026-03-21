@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4140",
-  "name": null,
+  "name": "포천",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "포천(본점)",
+      "address": "경기 포천시 중앙로110번길 6",
+      "phone": "031-534-4466",
+      "city": "경기",
+      "district": "포천시"
     },
     "branches": [
       {

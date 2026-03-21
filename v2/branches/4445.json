@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4445",
-  "name": null,
+  "name": "철원",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "철원(본점)",
+      "address": "강원 철원군 동송읍 금학로 244",
+      "phone": "033-455-4549",
+      "city": "강원",
+      "district": "철원군"
     },
     "branches": [
       {

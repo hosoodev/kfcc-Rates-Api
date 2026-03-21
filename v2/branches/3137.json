@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "3137",
-  "name": null,
+  "name": "한밭",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "한밭(본점)",
+      "address": "대전 서구 신갈마로 213",
+      "phone": "042-522-8003",
+      "city": "대전",
+      "district": "서구"
     },
     "branches": [
       {
@@ -129,5 +129,26 @@
       "bis_ratio": "7.47"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕"
+    },
+    {
+      "gmgoCd": "1216",
+      "name": "서구중앙"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부"
+    }
+  ]
 }

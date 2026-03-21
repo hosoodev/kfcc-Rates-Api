@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "2020",
-  "name": null,
+  "name": "청구로",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "청구로(본점)",
+      "address": "대구 수성구 들안로 386-9",
+      "phone": "053-755-9110",
+      "city": "대구",
+      "district": "수성구"
     },
     "branches": [
       {
@@ -87,5 +87,26 @@
       "bis_ratio": "11.57"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "2018",
+      "name": "수성중앙"
+    },
+    {
+      "gmgoCd": "2021",
+      "name": "대원"
+    },
+    {
+      "gmgoCd": "2022",
+      "name": "남부"
+    },
+    {
+      "gmgoCd": "2023",
+      "name": "수성1가"
+    },
+    {
+      "gmgoCd": "2024",
+      "name": "수성"
+    }
+  ]
 }

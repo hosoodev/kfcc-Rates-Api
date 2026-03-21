@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4339",
-  "name": null,
+  "name": "영월",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "영월(본점)",
+      "address": "강원 영월군 영월읍 중앙로 32",
+      "phone": "033-373-1455",
+      "city": "강원",
+      "district": "영월군"
     },
     "branches": []
   },

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "0808",
-  "name": null,
+  "name": "문래동",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "문래동(본점)",
+      "address": "서울 영등포구 경인로77길 2-1",
+      "phone": "02-2633-4482",
+      "city": "서울",
+      "district": "영등포구"
     },
     "branches": [
       {
@@ -111,5 +111,26 @@
       "bis_ratio": "17.71"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙"
+    },
+    {
+      "gmgoCd": "0803",
+      "name": "영등포제일"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림"
+    }
+  ]
 }

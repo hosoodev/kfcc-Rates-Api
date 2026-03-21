@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "6522",
-  "name": null,
+  "name": "옥포",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "옥포(본점)",
+      "address": "경남 거제시 옥포대첩로4길 32",
+      "phone": "055-687-2814",
+      "city": "경남",
+      "district": "거제시"
     },
     "branches": []
   },
@@ -90,5 +90,22 @@
       "bis_ratio": "17.49"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "6521",
+      "name": "능포"
+    },
+    {
+      "gmgoCd": "6524",
+      "name": "거제"
+    },
+    {
+      "gmgoCd": "6526",
+      "name": "한화오션"
+    },
+    {
+      "gmgoCd": "6527",
+      "name": "삼성중공업㈜"
+    }
+  ]
 }

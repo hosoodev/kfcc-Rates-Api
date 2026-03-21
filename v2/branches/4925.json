@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4925",
-  "name": null,
+  "name": "산서",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "산서(본점)",
+      "address": "전북 장수군 산서면 보산로 1872",
+      "phone": "063-351-3525",
+      "city": "전북",
+      "district": "장수군"
     },
     "branches": []
   },
@@ -78,5 +78,14 @@
       "bis_ratio": "14.1"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4923",
+      "name": "장수"
+    },
+    {
+      "gmgoCd": "4924",
+      "name": "장계"
+    }
+  ]
 }

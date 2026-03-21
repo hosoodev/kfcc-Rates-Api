@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4818",
-  "name": null,
+  "name": "서전주",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "서전주(본점)",
+      "address": "전북 전주시 완산구 백제대로 391",
+      "phone": "063-277-4100",
+      "city": "전북",
+      "district": "전주시"
     },
     "branches": [
       {
@@ -123,5 +123,26 @@
       "bis_ratio": "12.34"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부"
+    }
+  ]
 }

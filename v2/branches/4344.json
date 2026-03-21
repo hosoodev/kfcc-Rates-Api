@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-21T12:27:01+09:00",
+  "updated_at": "2026-03-21T12:37:20+09:00",
   "gmgoCd": "4344",
-  "name": null,
+  "name": "태백",
   "meta": {
     "head_office": {
-      "name": "None(본점)",
-      "address": null,
-      "phone": null,
-      "city": null,
-      "district": null
+      "name": "태백(본점)",
+      "address": "강원 태백시 시장북길 26",
+      "phone": "033-553-0300",
+      "city": "강원",
+      "district": "태백시"
     },
     "branches": [
       {
@@ -69,5 +69,10 @@
       "bis_ratio": "18.69"
     }
   ],
-  "nearby_branches": []
+  "nearby_branches": [
+    {
+      "gmgoCd": "4331",
+      "name": "화광"
+    }
+  ]
 }
