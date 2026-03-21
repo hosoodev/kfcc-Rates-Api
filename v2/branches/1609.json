@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1609",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "안락(안락시장)",
+        "address": "부산 동래구 충렬대로428번길 28",
+        "phone": "051-525-8686",
+        "district": "동래구"
+      },
+      {
+        "name": "안락(서원시장)",
+        "address": "부산 동래구 충렬대로359번길 41",
+        "phone": "051-529-8008",
+        "district": "동래구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 0.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 1.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 1.5,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "11.08"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "12.33"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "14.09"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.95"
+    }
+  ],
+  "nearby_branches": []
+}

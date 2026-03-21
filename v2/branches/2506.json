@@ -1,0 +1,102 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2506",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "상무(치평)",
+        "address": "광주 서구 상무중앙로 95",
+        "phone": "062-371-9377",
+        "district": "서구"
+      },
+      {
+        "name": "상무(빛고을)",
+        "address": "광주 서구 화정로 112",
+        "phone": "062-374-0858",
+        "district": "서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.55"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.67"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.77"
+    }
+  ],
+  "nearby_branches": []
+}

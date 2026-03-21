@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2709",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "봉성(마산・냉천)",
+        "address": "전남 구례군 마산면 화엄사로 151",
+        "phone": "061-782-4087",
+        "district": "구례군"
+      },
+      {
+        "name": "봉성(토지)",
+        "address": "전남 구례군 토지면 섬진강대로 5049",
+        "phone": "061-781-6774",
+        "district": "구례군"
+      },
+      {
+        "name": "봉성(광의)",
+        "address": "전남 구례군 광의면 구만제로 328",
+        "phone": "061-781-3811",
+        "district": "구례군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "6.59"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "5.13"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "5.22"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "5.08"
+    }
+  ],
+  "nearby_branches": []
+}

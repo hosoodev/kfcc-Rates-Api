@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1739",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "사상냉정(제1)",
+        "address": "부산 사상구 백양대로 370",
+        "phone": "051-324-1174",
+        "district": "사상구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "0.83"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "5.86"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.16"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "6.44"
+    }
+  ],
+  "nearby_branches": []
+}

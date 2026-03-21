@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4609",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "오창(한라)",
+        "address": "충북 청주시 청원구 오창읍 오창중앙로 119",
+        "phone": "043-217-9801",
+        "district": "청주시"
+      },
+      {
+        "name": "오창(중앙)",
+        "address": "충북 청주시 청원구 오창읍 중심상업로 17",
+        "phone": "043-216-9801",
+        "district": "청주시"
+      },
+      {
+        "name": "오창(주성)",
+        "address": "충북 청주시 청원구 오창읍 2산단로 140",
+        "phone": "043-215-9801",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "7.83"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "7.13"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "6.26"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "6.67"
+    }
+  ],
+  "nearby_branches": []
+}

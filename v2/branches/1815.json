@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1815",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "남산대신(남산2동)",
+        "address": "대구 중구 명륜로 44",
+        "phone": "053-254-7348",
+        "district": "중구"
+      },
+      {
+        "name": "남산대신(서문시장)",
+        "address": "대구 중구 큰장로26안길 5",
+        "phone": "053-252-3525",
+        "district": "중구"
+      },
+      {
+        "name": "남산대신(대신)",
+        "address": "대구 중구 달구벌대로 1955",
+        "phone": "053-252-6833",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "29.27"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "26.78"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "23.89"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "20.63"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0307",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "효창(원효1)",
+        "address": "서울 용산구 원효로 195",
+        "phone": "02-712-0883",
+        "district": "용산구"
+      },
+      {
+        "name": "효창(원효2)",
+        "address": "서울 용산구 원효로 77",
+        "phone": "02-704-1523",
+        "district": "용산구"
+      },
+      {
+        "name": "효창(원효3)",
+        "address": "서울 용산구 원효로 251",
+        "phone": "02-704-1524",
+        "district": "용산구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "6",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.47"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.14"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "12.9"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.85"
+    }
+  ],
+  "nearby_branches": []
+}

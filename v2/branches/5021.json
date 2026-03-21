@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5021",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "부령(봉덕)",
+        "address": "전북 부안군 부안읍 석정로 223",
+        "phone": "063-584-2420",
+        "district": "부안군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "24.77"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "24.07"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "24.29"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "24.69"
+    }
+  ],
+  "nearby_branches": []
+}

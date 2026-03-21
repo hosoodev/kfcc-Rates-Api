@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5305",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "경주(화천)",
+        "address": "경북 경주시 건천읍 경주역세권3로 5",
+        "phone": "054-742-5521",
+        "district": "경주시"
+      },
+      {
+        "name": "경주(용강)",
+        "address": "경북 경주시 다불로 23",
+        "phone": "054-776-5521",
+        "district": "경주시"
+      },
+      {
+        "name": "경주(용황)",
+        "address": "경북 경주시 용황구획4길 39",
+        "phone": "054-749-5521",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 0.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 1.6,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.1,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 1.6,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.94"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "15.51"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.66"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "14"
+    }
+  ],
+  "nearby_branches": []
+}

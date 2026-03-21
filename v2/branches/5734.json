@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5734",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "왜관(왜관동)",
+        "address": "경북 칠곡군 왜관읍 중앙로 228",
+        "phone": "054-974-0987",
+        "district": "칠곡군"
+      },
+      {
+        "name": "왜관(중리)",
+        "address": "경북 칠곡군 석적읍 유학로 32",
+        "phone": "054-976-2718",
+        "district": "칠곡군"
+      },
+      {
+        "name": "왜관(신천지)",
+        "address": "경북 칠곡군 석적읍 석적로 955-4",
+        "phone": "054-972-3350",
+        "district": "칠곡군"
+      },
+      {
+        "name": "왜관(남율)",
+        "address": "경북 칠곡군 석적읍 남율로15길 17",
+        "phone": "054-977-5734",
+        "district": "칠곡군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.95"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.57"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "11.23"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.45"
+    }
+  ],
+  "nearby_branches": []
+}

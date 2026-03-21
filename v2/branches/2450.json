@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2450",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "남광주(학운학동)",
+        "address": "광주 동구 의재로 13",
+        "phone": "062-227-9341",
+        "district": "동구"
+      },
+      {
+        "name": "남광주(지원)",
+        "address": "광주 동구 남문로 589",
+        "phone": "062-228-4569",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.85,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.07,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.15,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.85,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.26"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.55"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.72"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.93"
+    }
+  ],
+  "nearby_branches": []
+}

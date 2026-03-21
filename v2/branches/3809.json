@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3809",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "서호(서둔)",
+        "address": "경기 수원시 권선구 서호동로 20",
+        "phone": "031-294-1424",
+        "district": "수원시"
+      },
+      {
+        "name": "서호(구운)",
+        "address": "경기 수원시 권선구 수인로 277",
+        "phone": "031-294-1425",
+        "district": "수원시"
+      },
+      {
+        "name": "서호(칠보)",
+        "address": "경기 수원시 권선구 매실로 28",
+        "phone": "031-294-1426",
+        "district": "수원시"
+      },
+      {
+        "name": "서호(금곡)",
+        "address": "경기 수원시 권선구 금곡로 204",
+        "phone": "031-294-1428",
+        "district": "수원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "6.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.75"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.11"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.64"
+    }
+  ],
+  "nearby_branches": []
+}

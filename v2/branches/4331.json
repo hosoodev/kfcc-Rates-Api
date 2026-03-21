@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4331",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "화광(중앙로)",
+        "address": "강원 태백시 번영로 354",
+        "phone": "033-552-4362",
+        "district": "태백시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.08,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.72"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.66"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.7"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5211",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "송도(남)",
+        "address": "경북 포항시 남구 운하로48번길 6-8",
+        "phone": "054-281-1304",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.7"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.87"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.89"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.35"
+    }
+  ],
+  "nearby_branches": []
+}

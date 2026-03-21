@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4515",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "금천(금천1)",
+        "address": "충북 청주시 상당구 중고개로337번길 135",
+        "phone": "043-222-2330",
+        "district": "청주시"
+      },
+      {
+        "name": "금천(금천2)",
+        "address": "충북 청주시 상당구 중고개로 320",
+        "phone": "043-286-2440",
+        "district": "청주시"
+      },
+      {
+        "name": "금천(용정)",
+        "address": "충북 청주시 상당구 용정로 35",
+        "phone": "043-288-2550",
+        "district": "청주시"
+      },
+      {
+        "name": "금천(동남)",
+        "address": "충북 청주시 상당구 중고개로 143",
+        "phone": "043-222-2660",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.96"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.34"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "10.52"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.44"
+    }
+  ],
+  "nearby_branches": []
+}

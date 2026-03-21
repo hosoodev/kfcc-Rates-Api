@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5301",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "우성(황리단길)",
+        "address": "경북 경주시 포석로 1056",
+        "phone": "054-743-5561",
+        "district": "경주시"
+      },
+      {
+        "name": "우성(중앙)",
+        "address": "경북 경주시 양정로 327",
+        "phone": "054-743-5551",
+        "district": "경주시"
+      },
+      {
+        "name": "우성(황오동)",
+        "address": "경북 경주시 원효로 146",
+        "phone": "054-744-5551",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.71"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "9.43"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.3"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.66"
+    }
+  ],
+  "nearby_branches": []
+}

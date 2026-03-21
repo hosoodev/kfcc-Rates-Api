@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4253",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "삼척도원(이사부)",
+        "address": "강원 삼척시 남양안길 6",
+        "phone": "033-575-7811",
+        "district": "삼척시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 1.0,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.5,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.26"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.72"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.81"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.04"
+    }
+  ],
+  "nearby_branches": []
+}

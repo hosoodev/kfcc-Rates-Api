@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6264",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "양산(교동)",
+        "address": "경남 양산시 회현1길 5",
+        "phone": "055-384-2904",
+        "district": "양산시"
+      },
+      {
+        "name": "양산(삼성동)",
+        "address": "경남 양산시 신기서길 18",
+        "phone": "055-389-0220",
+        "district": "양산시"
+      },
+      {
+        "name": "양산(청운)",
+        "address": "경남 양산시 물금읍 청운로 350",
+        "phone": "055-384-2905",
+        "district": "양산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.9,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "14.29"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.97"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.91"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.87"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,121 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4318",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "치악(단관)",
+        "address": "강원 원주시 치악로 1505",
+        "phone": "033-763-8177",
+        "district": "원주시"
+      },
+      {
+        "name": "치악(봉산)",
+        "address": "강원 원주시 치악로 1878-6",
+        "phone": "033-742-8177",
+        "district": "원주시"
+      },
+      {
+        "name": "치악(삼광)",
+        "address": "강원 원주시 행구로 85",
+        "phone": "033-745-8177",
+        "district": "원주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.88"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "9.37"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.84"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "9.86"
+    }
+  ],
+  "nearby_branches": []
+}

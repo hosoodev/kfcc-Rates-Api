@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0250",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "평화(평화1)",
+        "address": "서울 중구 청계천로 246",
+        "phone": "02-2277-1511",
+        "district": "중구"
+      },
+      {
+        "name": "평화(을지)",
+        "address": "서울 중구 을지로35길 32-26",
+        "phone": "02-2273-1335",
+        "district": "중구"
+      },
+      {
+        "name": "평화(중부)",
+        "address": "서울 중구 을지로30길 8",
+        "phone": "02-2038-4448",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.41"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.53"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "10.42"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.12"
+    }
+  ],
+  "nearby_branches": []
+}

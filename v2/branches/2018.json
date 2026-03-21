@@ -1,0 +1,93 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2018",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "수성중앙(고산)",
+        "address": "대구 수성구 달구벌대로 3248",
+        "phone": "053-793-5101",
+        "district": "수성구"
+      },
+      {
+        "name": "수성중앙(시지)",
+        "address": "대구 수성구 노변공원로 27",
+        "phone": "053-793-5104",
+        "district": "수성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.01"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.16"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "6.81"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.09"
+    }
+  ],
+  "nearby_branches": []
+}

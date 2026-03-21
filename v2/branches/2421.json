@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2421",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "푸른(진월지구)",
+        "address": "광주 남구 노대실로 46",
+        "phone": "062-676-9676",
+        "district": "남구"
+      },
+      {
+        "name": "푸른(금호)",
+        "address": "광주 서구 금화로 54",
+        "phone": "062-222-0253",
+        "district": "서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.74"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.22"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.3"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.88"
+    }
+  ],
+  "nearby_branches": []
+}

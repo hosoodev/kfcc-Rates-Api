@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6227",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "울산미래(중앙)",
+        "address": "울산 중구 반구로 40",
+        "phone": "052-296-2345",
+        "district": "중구"
+      },
+      {
+        "name": "울산미래(남외)",
+        "address": "울산 중구 구교로 208",
+        "phone": "052-281-5777",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.12"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.04"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.75"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.5"
+    }
+  ],
+  "nearby_branches": []
+}

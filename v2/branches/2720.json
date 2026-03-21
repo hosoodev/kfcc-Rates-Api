@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2720",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "여수한려(율촌)",
+        "address": "전남 여수시 율촌면 동산개길 15",
+        "phone": "061-683-6717",
+        "district": "여수시"
+      },
+      {
+        "name": "여수한려(덕양)",
+        "address": "전남 여수시 소라면 덕양로 440",
+        "phone": "061-683-9005",
+        "district": "여수시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.9,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.38"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.04"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.73"
+    }
+  ],
+  "nearby_branches": []
+}

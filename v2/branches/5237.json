@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5237",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "오천(원동)",
+        "address": "경북 포항시 남구 오천읍 원동로 47",
+        "phone": "054-293-6500",
+        "district": "포항시"
+      },
+      {
+        "name": "오천(용덕)",
+        "address": "경북 포항시 남구 오천읍 정몽주로 612",
+        "phone": "054-292-1500",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.28"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.32"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.09"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.24"
+    }
+  ],
+  "nearby_branches": []
+}

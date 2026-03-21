@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6601",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "제주(일도)",
+        "address": "제주 제주시 신산로 8",
+        "phone": "064-757-7432",
+        "district": "제주시"
+      },
+      {
+        "name": "제주(이도)",
+        "address": "제주 제주시 신설로 55",
+        "phone": "064-757-8550",
+        "district": "제주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.3"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.88"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.86"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2225",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "송림(로타리)",
+        "address": "인천 동구 솔빛로91번길 7",
+        "phone": "032-765-6688",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "5.6"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.11"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.39"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.8"
+    }
+  ],
+  "nearby_branches": []
+}

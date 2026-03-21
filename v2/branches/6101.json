@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6101",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "북창원(명곡)",
+        "address": "경남 창원시 의창구 원이대로189번길 34",
+        "phone": "055-238-2086",
+        "district": "창원시"
+      },
+      {
+        "name": "북창원(봉곡)",
+        "address": "경남 창원시 의창구 봉곡로111번길 5",
+        "phone": "055-237-7131",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.24"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.62"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.62"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.52"
+    }
+  ],
+  "nearby_branches": []
+}

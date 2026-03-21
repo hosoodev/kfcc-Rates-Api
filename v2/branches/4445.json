@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4445",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "철원(김화)",
+        "address": "강원 철원군 서면 와수로184번길 6-27",
+        "phone": "033-458-4488",
+        "district": "철원군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.15,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.79"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.94"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.03"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.82"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4624",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "영동(상촌)",
+        "address": "충북 영동군 상촌면 임산5길 3",
+        "phone": "043-743-3753",
+        "district": "영동군"
+      },
+      {
+        "name": "영동(양산)",
+        "address": "충북 영동군 양산면 송호로 6",
+        "phone": "043-744-1911",
+        "district": "영동군"
+      },
+      {
+        "name": "영동(학산)",
+        "address": "충북 영동군 학산면 서산로 46",
+        "phone": "043-745-1911",
+        "district": "영동군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "7.62"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.67"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.14"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.62"
+    }
+  ],
+  "nearby_branches": []
+}

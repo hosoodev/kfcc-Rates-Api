@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3563",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "이천우리(설성)",
+        "address": "경기 이천시 설성면 진상미로 173",
+        "phone": "031-641-8612",
+        "district": "이천시"
+      },
+      {
+        "name": "이천우리(신하)",
+        "address": "경기 이천시 부발읍 경충대로 2236",
+        "phone": "031-634-3774",
+        "district": "이천시"
+      },
+      {
+        "name": "이천우리(마장)",
+        "address": "경기 이천시 마장면 오천로 51",
+        "phone": "031-633-3140",
+        "district": "이천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "2.47"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "4.71"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "5.36"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "7.07"
+    }
+  ],
+  "nearby_branches": []
+}

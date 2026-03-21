@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5725",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "성주(벽진)",
+        "address": "경북 성주군 벽진면 수촌길 5-1",
+        "phone": "054-932-7652",
+        "district": "성주군"
+      },
+      {
+        "name": "성주(초전)",
+        "address": "경북 성주군 초전면 대장길 119-6",
+        "phone": "054-932-9969",
+        "district": "성주군"
+      },
+      {
+        "name": "성주(가천)",
+        "address": "경북 성주군 가천면 가천로 62",
+        "phone": "054-932-4424",
+        "district": "성주군"
+      },
+      {
+        "name": "성주(선남)",
+        "address": "경북 성주군 선남면 관화길 112",
+        "phone": "054-933-0646",
+        "district": "성주군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.63"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.81"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.19"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.66"
+    }
+  ],
+  "nearby_branches": []
+}

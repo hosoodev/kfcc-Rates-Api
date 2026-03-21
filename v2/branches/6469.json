@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6469",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "참좋은(봉수)",
+        "address": "경남 진주시 향교로 15",
+        "phone": "055-742-9961",
+        "district": "진주시"
+      },
+      {
+        "name": "참좋은(옥봉지점)",
+        "address": "경남 진주시 옥봉길9번길 2",
+        "phone": "055-745-0325",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "14.52"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.63"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.92"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.51"
+    }
+  ],
+  "nearby_branches": []
+}

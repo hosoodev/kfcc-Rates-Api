@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6444",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "미송(상주)",
+        "address": "경남 남해군 상주면 남해대로 693",
+        "phone": "055-863-3339",
+        "district": "남해군"
+      },
+      {
+        "name": "미송(삼동)",
+        "address": "경남 남해군 삼동면 동부대로 1289",
+        "phone": "055-867-1801",
+        "district": "남해군"
+      },
+      {
+        "name": "미송(남해읍)",
+        "address": "경남 남해군 남해읍 화전로 65-10",
+        "phone": "055-863-2332",
+        "district": "남해군"
+      },
+      {
+        "name": "미송(시장)",
+        "address": "경남 남해군 남해읍 화전로96번가길 6-1",
+        "phone": "055-863-1565",
+        "district": "남해군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "8.9"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "9.64"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.43"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.73"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2827",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.06,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "22.41"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "20.79"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "20.73"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "21.53"
+    }
+  ],
+  "nearby_branches": []
+}

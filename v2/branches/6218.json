@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6218",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "동울산(만세대)",
+        "address": "울산 동구 진성5길 59",
+        "phone": "052-233-2039",
+        "district": "동구"
+      },
+      {
+        "name": "동울산(녹수)",
+        "address": "울산 동구 방어진순환도로 863",
+        "phone": "052-236-9039",
+        "district": "동구"
+      },
+      {
+        "name": "동울산(남목)",
+        "address": "울산 동구 옥류로 42",
+        "phone": "052-234-9039",
+        "district": "동구"
+      },
+      {
+        "name": "동울산(오좌불)",
+        "address": "울산 동구 봉수로 290",
+        "phone": "052-235-9039",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.43"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "21.5"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.32"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "18.27"
+    }
+  ],
+  "nearby_branches": []
+}

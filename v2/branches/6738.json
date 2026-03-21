@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6738",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "남제주(덕수)",
+        "address": "제주 서귀포시 안덕면 덕수서로 58",
+        "phone": "064-794-4131",
+        "district": "서귀포시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.03"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.64"
+    }
+  ],
+  "nearby_branches": []
+}

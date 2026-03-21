@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1402",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "대연(남광)",
+        "address": "부산 남구 홍곡로 360",
+        "phone": "051-624-4234",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 0.6,
+          "s": "m"
+        },
+        "6": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "3.8"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "2.86"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "3.13"
+    }
+  ],
+  "nearby_branches": []
+}

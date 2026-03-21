@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0225",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "279.45"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "285.68"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "277.93"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "298.2"
+    }
+  ],
+  "nearby_branches": []
+}

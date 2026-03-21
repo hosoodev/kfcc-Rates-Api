@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4919",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "설천(무주덕유산리조트)",
+        "address": "전북 무주군 설천면 만선로 185",
+        "phone": "063-320-7651",
+        "district": "무주군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "10.18"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.08"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.27"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.08"
+    }
+  ],
+  "nearby_branches": []
+}

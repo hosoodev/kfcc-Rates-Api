@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6217",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "일산(화정)",
+        "address": "울산 동구 화정5길 4",
+        "phone": "052-232-2228",
+        "district": "동구"
+      },
+      {
+        "name": "일산(번덕)",
+        "address": "울산 동구 학문로 11",
+        "phone": "052-236-8898",
+        "district": "동구"
+      },
+      {
+        "name": "일산(방어)",
+        "address": "울산 동구 문현로 46",
+        "phone": "052-201-8836",
+        "district": "동구"
+      },
+      {
+        "name": "일산(남목)",
+        "address": "울산 동구 남목18길 2",
+        "phone": "052-232-8836",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "22.17"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "23.15"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "21.33"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "21.93"
+    }
+  ],
+  "nearby_branches": []
+}

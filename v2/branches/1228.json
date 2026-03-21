@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1228",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "서부(남부민동)",
+        "address": "부산 서구 남부민로 20",
+        "phone": "051-256-7655",
+        "district": "서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "4.04"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.28"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.23"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "7"
+    }
+  ],
+  "nearby_branches": []
+}

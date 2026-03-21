@@ -1,0 +1,121 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6138",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "서김해(외동)",
+        "address": "경남 김해시 평전로 27",
+        "phone": "055-336-0792",
+        "district": "김해시"
+      },
+      {
+        "name": "서김해(중앙)",
+        "address": "경남 김해시 내외로 79",
+        "phone": "055-329-4535",
+        "district": "김해시"
+      },
+      {
+        "name": "서김해(율하)",
+        "address": "경남 김해시 율하3로 81",
+        "phone": "055-325-0792",
+        "district": "김해시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.2"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.88"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.39"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.46"
+    }
+  ],
+  "nearby_branches": []
+}

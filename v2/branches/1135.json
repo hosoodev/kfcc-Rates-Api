@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1135",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "송정.군자(화양사거리)",
+        "address": "서울 광진구 광나루로 347",
+        "phone": "02-466-6396",
+        "district": "광진구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.08,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.75,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.99,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.08,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.75,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "37.32"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "35.55"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "30.76"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "33.65"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5507",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "중앙(신평)",
+        "address": "경북 구미시 신비로 13",
+        "phone": "054-462-2621",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(비산)",
+        "address": "경북 구미시 비산로5안길 3",
+        "phone": "054-463-5881",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(광평)",
+        "address": "경북 구미시 구미대로 216",
+        "phone": "054-463-3217",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(비산2)",
+        "address": "경북 구미시 신비로 112",
+        "phone": "054-463-3881",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.9,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.31"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.82"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.85"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "17.12"
+    }
+  ],
+  "nearby_branches": []
+}

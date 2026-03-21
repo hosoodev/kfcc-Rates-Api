@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2544",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "광주중앙(첨단)",
+        "address": "광주 북구 첨단연신로107번길 5",
+        "phone": "062-527-5353",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "11.94"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "12.78"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "10.93"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.84"
+    }
+  ],
+  "nearby_branches": []
+}

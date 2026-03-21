@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5738",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "북삼(약목)",
+        "address": "경북 칠곡군 약목면 약목로 101",
+        "phone": "054-974-9678",
+        "district": "칠곡군"
+      },
+      {
+        "name": "북삼(인평)",
+        "address": "경북 칠곡군 북삼읍 인강1길 28-4",
+        "phone": "054-973-8400",
+        "district": "칠곡군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.27"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.82"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.38"
+    }
+  ],
+  "nearby_branches": []
+}

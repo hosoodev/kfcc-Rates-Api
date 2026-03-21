@@ -1,0 +1,80 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6204",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "울산제일(대공원)",
+        "address": "울산 남구 문수로392번길 27",
+        "phone": "052-273-9933",
+        "district": "남구"
+      },
+      {
+        "name": "울산제일(옥서)",
+        "address": "울산 남구 법대로 85",
+        "phone": "052-276-8833",
+        "district": "남구"
+      },
+      {
+        "name": "울산제일(남산)",
+        "address": "울산 남구 문수로 385",
+        "phone": "052-274-3648",
+        "district": "남구"
+      },
+      {
+        "name": "울산제일(테크노)",
+        "address": "울산 남구 테크노산업로44번길 39",
+        "phone": "052-265-2200",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.47"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "15.97"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.65"
+    }
+  ],
+  "nearby_branches": []
+}

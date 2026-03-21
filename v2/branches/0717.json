@@ -1,0 +1,121 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0717",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "화곡(화곡1동)",
+        "address": "서울 강서구 강서로17길 118",
+        "phone": "02-2693-7920",
+        "district": "강서구"
+      },
+      {
+        "name": "화곡(화곡2.4동)",
+        "address": "서울 강서구 곰달래로53길 26",
+        "phone": "02-2698-4900",
+        "district": "강서구"
+      },
+      {
+        "name": "화곡(등촌)",
+        "address": "서울 강서구 등촌로53길 10",
+        "phone": "02-2651-0999",
+        "district": "강서구"
+      },
+      {
+        "name": "화곡(마곡)",
+        "address": "서울 강서구 강서로 385",
+        "phone": "02-2654-2662",
+        "district": "강서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.95,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.35,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.74"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "11.28"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "12.1"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.01"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5828",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "풍기(안정)",
+        "address": "경북 영주시 안정면 신재로 534",
+        "phone": "054-634-0064",
+        "district": "영주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "7.23"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "8.18"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.75"
+    }
+  ],
+  "nearby_branches": []
+}

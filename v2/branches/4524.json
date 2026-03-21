@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4524",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "모충(1)",
+        "address": "충북 청주시 서원구 청남로 2119-2",
+        "phone": "043-262-1666",
+        "district": "청주시"
+      },
+      {
+        "name": "모충(2)",
+        "address": "충북 청주시 서원구 모충로96번길 1",
+        "phone": "043-263-6878",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.65"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.35"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.46"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "7.55"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2102",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "대성(상인)",
+        "address": "대구 달서구 월곡로 175",
+        "phone": "053-721-6380",
+        "district": "달서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.9,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "5",
+      "bis_ratio": "-0.47"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "2.69"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "5.71"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.58"
+    }
+  ],
+  "nearby_branches": []
+}

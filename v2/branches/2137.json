@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2137",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "행복(성당)",
+        "address": "대구 달서구 대명천로 100",
+        "phone": "053-655-1201",
+        "district": "달서구"
+      },
+      {
+        "name": "행복(도원)",
+        "address": "대구 달서구 도원로 11",
+        "phone": "053-655-1700",
+        "district": "달서구"
+      },
+      {
+        "name": "행복(송현역)",
+        "address": "대구 달서구 월배로80길 11",
+        "phone": "053-651-1677",
+        "district": "달서구"
+      },
+      {
+        "name": "행복(상인)",
+        "address": "대구 달서구 상원로 100",
+        "phone": "053-710-1677",
+        "district": "달서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.98,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.98,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "1.04"
+    }
+  ],
+  "nearby_branches": []
+}

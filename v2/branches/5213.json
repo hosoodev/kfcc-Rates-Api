@@ -1,0 +1,93 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5213",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "포항(제1)",
+        "address": "경북 포항시 북구 죽도시장4길 21-18",
+        "phone": "054-246-1308",
+        "district": "포항시"
+      },
+      {
+        "name": "포항(제2)",
+        "address": "경북 포항시 북구 죽도시장길 29",
+        "phone": "054-246-5353",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "17.03"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.74"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "18.13"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "17.31"
+    }
+  ],
+  "nearby_branches": []
+}

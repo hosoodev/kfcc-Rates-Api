@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3043",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "꿈드림(대동)",
+        "address": "대전 동구 계족로 168",
+        "phone": "042-282-2508",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "3.49"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "4.85"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "5.23"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "6.2"
+    }
+  ],
+  "nearby_branches": []
+}

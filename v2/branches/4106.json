@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4106",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "별내(별내역)",
+        "address": "경기 남양주시 별내3로 64-7",
+        "phone": "031-573-9634",
+        "district": "남양주시"
+      },
+      {
+        "name": "별내(별가람)",
+        "address": "경기 남양주시 별내3로 328",
+        "phone": "031-528-8988",
+        "district": "남양주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.9,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.08"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.97"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.18"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.03"
+    }
+  ],
+  "nearby_branches": []
+}

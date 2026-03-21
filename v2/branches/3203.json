@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3203",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "천안(쌍용)",
+        "address": "충남 천안시 서북구 쌍용15길 51",
+        "phone": "041-577-5671",
+        "district": "천안시"
+      },
+      {
+        "name": "천안(청용)",
+        "address": "충남 천안시 동남구 충절로 291",
+        "phone": "041-566-5400",
+        "district": "천안시"
+      },
+      {
+        "name": "천안(남산)",
+        "address": "충남 천안시 동남구 큰시장길 25",
+        "phone": "041-554-6053",
+        "district": "천안시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.1,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.1,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.55"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.28"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.74"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.21"
+    }
+  ],
+  "nearby_branches": []
+}

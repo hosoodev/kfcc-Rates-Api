@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4926",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "임실(강덕)",
+        "address": "전북 임실군 강진면 호국로 28",
+        "phone": "063-643-1128",
+        "district": "임실군"
+      },
+      {
+        "name": "임실(오수)",
+        "address": "전북 임실군 오수면 오수로 152",
+        "phone": "063-642-5484",
+        "district": "임실군"
+      },
+      {
+        "name": "임실(관촌)",
+        "address": "전북 임실군 관촌면 사선로 45",
+        "phone": "063-642-0077",
+        "district": "임실군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.82"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.94"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.44"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "9.69"
+    }
+  ],
+  "nearby_branches": []
+}

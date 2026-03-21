@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5918",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "영양청송(청송)",
+        "address": "경북 청송군 청송읍 중앙로 250",
+        "phone": "054-873-2264",
+        "district": "청송군"
+      },
+      {
+        "name": "영양청송(진보)",
+        "address": "경북 청송군 진보면 진보로 128",
+        "phone": "054-874-3410",
+        "district": "청송군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.99"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.97"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.32"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.62"
+    }
+  ],
+  "nearby_branches": []
+}

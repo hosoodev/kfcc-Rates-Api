@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6727",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "우정(김녕)",
+        "address": "제주 제주시 구좌읍 김녕로 83",
+        "phone": "064-783-5406",
+        "district": "제주시"
+      },
+      {
+        "name": "우정(연북로)",
+        "address": "제주 제주시 연북로 567",
+        "phone": "064-753-6425",
+        "district": "제주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.52,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.52,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "4.54"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "5.61"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "5.4"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "6.35"
+    }
+  ],
+  "nearby_branches": []
+}

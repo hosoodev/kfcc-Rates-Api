@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6501",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "도천(서호)",
+        "address": "경남 통영시 새터길 72",
+        "phone": "055-645-2000",
+        "district": "통영시"
+      },
+      {
+        "name": "도천(죽림)",
+        "address": "경남 통영시 광도면 죽림4로 41-39",
+        "phone": "055-648-1151",
+        "district": "통영시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.95"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "13.1"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "13.21"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.4"
+    }
+  ],
+  "nearby_branches": []
+}

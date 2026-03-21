@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6009",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "동부(회원)",
+        "address": "경남 창원시 마산회원구 북성로 127",
+        "phone": "055-243-3058",
+        "district": "창원시"
+      },
+      {
+        "name": "동부(합성)",
+        "address": "경남 창원시 마산회원구 합성남2길 53",
+        "phone": "055-299-1125",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "12.43"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "12.83"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "11.61"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.29"
+    }
+  ],
+  "nearby_branches": []
+}

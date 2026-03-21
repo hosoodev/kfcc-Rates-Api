@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5427",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "새상주(동부)",
+        "address": "경북 상주시 낙동면 영남제일로 85-1",
+        "phone": "054-534-9123",
+        "district": "상주시"
+      },
+      {
+        "name": "새상주(북천)",
+        "address": "경북 상주시 동수4길 127",
+        "phone": "054-500-7011",
+        "district": "상주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.69"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "15.33"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.86"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.39"
+    }
+  ],
+  "nearby_branches": []
+}

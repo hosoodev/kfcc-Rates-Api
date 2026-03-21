@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "4461",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "홍천(태학)",
+        "address": "강원 홍천군 홍천읍 갈마로 58",
+        "phone": "033-439-5340",
+        "district": "홍천군"
+      },
+      {
+        "name": "홍천(남부)",
+        "address": "강원 홍천군 홍천읍 연봉로 31",
+        "phone": "033-439-5350",
+        "district": "홍천군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.77"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.35"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.55"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "14.96"
+    }
+  ],
+  "nearby_branches": []
+}

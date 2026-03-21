@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0803",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "영등포제일(당산)",
+        "address": "서울 영등포구 당산로 214",
+        "phone": "02-2634-2038",
+        "district": "영등포구"
+      },
+      {
+        "name": "영등포제일(양평)",
+        "address": "서울 영등포구 선유서로26길 29",
+        "phone": "02-2631-1611",
+        "district": "영등포구"
+      },
+      {
+        "name": "영등포제일(양화)",
+        "address": "서울 영등포구 양평로18길 4",
+        "phone": "02-2677-3736",
+        "district": "영등포구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.19"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "14.08"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.57"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.54"
+    }
+  ],
+  "nearby_branches": []
+}

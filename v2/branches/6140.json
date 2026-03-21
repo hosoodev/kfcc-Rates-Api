@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6140",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "동김해(삼방)",
+        "address": "경남 김해시 삼안로 232",
+        "phone": "055-335-5287",
+        "district": "김해시"
+      },
+      {
+        "name": "동김해(장유율하)",
+        "address": "경남 김해시 율하로 476",
+        "phone": "055-723-4511",
+        "district": "김해시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.8,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.25"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "15.34"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.43"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.06"
+    }
+  ],
+  "nearby_branches": []
+}

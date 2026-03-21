@@ -1,0 +1,87 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1413",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "금융단지(제1)",
+        "address": "부산 남구 전포대로67번길 23",
+        "phone": "051-635-8702",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "21.92"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "21.95"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "21.05"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "21.33"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2833",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "남악(남악)",
+        "address": "전남 무안군 삼향읍 남악2로74번길 31",
+        "phone": "061-284-2771",
+        "district": "무안군"
+      },
+      {
+        "name": "남악(남악골든)",
+        "address": "전남 무안군 삼향읍 남악4로 50",
+        "phone": "061-287-2771",
+        "district": "무안군"
+      },
+      {
+        "name": "남악(오룡)",
+        "address": "전남 무안군 일로읍 오룡교육로5길 17",
+        "phone": "061-285-2771",
+        "district": "무안군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": []
+}

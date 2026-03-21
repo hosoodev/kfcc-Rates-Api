@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3736",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "시흥제일(정왕)",
+        "address": "경기 시흥시 군서로 29",
+        "phone": "031-498-1662",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥제일(하중)",
+        "address": "경기 시흥시 하중로 203",
+        "phone": "031-404-8100",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥제일(시화)",
+        "address": "경기 시흥시 정왕대로 64",
+        "phone": "031-497-8400",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥제일(배곧)",
+        "address": "경기 시흥시 배곧3로 96",
+        "phone": "031-432-1662",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥제일(은계)",
+        "address": "경기 시흥시 은계번영길 13",
+        "phone": "031-365-4557",
+        "district": "시흥시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "21.04"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "20.02"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.89"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.73"
+    }
+  ],
+  "nearby_branches": []
+}

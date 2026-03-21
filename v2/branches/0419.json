@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0419",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "47.31"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "40.57"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "35.75"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "28.45"
+    }
+  ],
+  "nearby_branches": []
+}

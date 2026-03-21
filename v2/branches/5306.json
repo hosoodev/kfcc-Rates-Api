@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "5306",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "남경주(외동)",
+        "address": "경북 경주시 외동읍 입실로 49",
+        "phone": "054-746-8738",
+        "district": "경주시"
+      },
+      {
+        "name": "남경주(모화)",
+        "address": "경북 경주시 외동읍 모화북1길 9-13",
+        "phone": "054-775-6677",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.1,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "5.89"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.71"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.92"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.06"
+    }
+  ],
+  "nearby_branches": []
+}

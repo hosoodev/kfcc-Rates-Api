@@ -1,0 +1,93 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3146",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "진잠(교촌)",
+        "address": "대전 유성구 진잠로149번길 1",
+        "phone": "042-543-3566",
+        "district": "유성구"
+      },
+      {
+        "name": "진잠(학하)",
+        "address": "대전 유성구 학하남로 1",
+        "phone": "042-824-2123",
+        "district": "유성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.29"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.09"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "7.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.46"
+    }
+  ],
+  "nearby_branches": []
+}

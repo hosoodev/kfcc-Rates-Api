@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6109",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "창원(제일)",
+        "address": "경남 창원시 성산구 원이대로 663",
+        "phone": "055-263-6802",
+        "district": "창원시"
+      },
+      {
+        "name": "창원(신월)",
+        "address": "경남 창원시 성산구 신월로 42",
+        "phone": "055-263-6801",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.34"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.14"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.58"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.15"
+    }
+  ],
+  "nearby_branches": []
+}

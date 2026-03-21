@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3539",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "광주(역동)",
+        "address": "경기 광주시 중앙로 95-6",
+        "phone": "031-762-0203",
+        "district": "광주시"
+      },
+      {
+        "name": "광주(회덕)",
+        "address": "경기 광주시 이배재로 116",
+        "phone": "031-766-2954",
+        "district": "광주시"
+      },
+      {
+        "name": "광주(능평)",
+        "address": "경기 광주시 오포읍 능평로 189",
+        "phone": "031-767-2951",
+        "district": "광주시"
+      },
+      {
+        "name": "광주(태전)",
+        "address": "경기 광주시 고불로 70",
+        "phone": "031-8027-8015",
+        "district": "광주시"
+      },
+      {
+        "name": "광주(곤지암)",
+        "address": "경기 광주시 곤지암읍 곤지암로 77",
+        "phone": "031-8027-0954",
+        "district": "광주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "6.31"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.29"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.22"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.3"
+    }
+  ],
+  "nearby_branches": []
+}

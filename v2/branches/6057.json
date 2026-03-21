@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6057",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "동마산(구암)",
+        "address": "경남 창원시 마산회원구 구암서3길 62",
+        "phone": "055-295-4670",
+        "district": "창원시"
+      },
+      {
+        "name": "동마산(3.15)",
+        "address": "경남 창원시 마산회원구 구암북9길 22",
+        "phone": "055-294-8667",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.02,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "9.87"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.15"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "8.65"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.82"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,62 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6524",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "거제(상동)",
+        "address": "경남 거제시 계룡로 6",
+        "phone": "055-633-4581",
+        "district": "거제시"
+      },
+      {
+        "name": "거제(산달)",
+        "address": "경남 거제시 거제면 산달길 13-6",
+        "phone": "055-633-1619",
+        "district": "거제시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.87"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "10.71"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.72"
+    }
+  ],
+  "nearby_branches": []
+}

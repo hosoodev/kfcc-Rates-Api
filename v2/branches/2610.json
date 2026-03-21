@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "2610",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "좌수영(봉산)",
+        "address": "전남 여수시 대교로 16-2",
+        "phone": "061-642-7700",
+        "district": "여수시"
+      },
+      {
+        "name": "좌수영(서교)",
+        "address": "전남 여수시 좌수영로 20-1",
+        "phone": "061-641-8036",
+        "district": "여수시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.98"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "15.74"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.55"
+    }
+  ],
+  "nearby_branches": []
+}

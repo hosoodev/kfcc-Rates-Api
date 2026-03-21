@@ -1,0 +1,97 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "1736",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "부산제일(명지국제신도시)",
+        "address": "부산 강서구 명지국제8로 269",
+        "phone": "051-710-6277",
+        "district": "강서구"
+      },
+      {
+        "name": "부산제일(강서신호)",
+        "address": "부산 강서구 신호산단2로49번길 23",
+        "phone": "051-715-6277",
+        "district": "강서구"
+      },
+      {
+        "name": "부산제일(강서서부지원)",
+        "address": "부산 강서구 명지국제7로 37",
+        "phone": "051-715-6278",
+        "district": "강서구"
+      },
+      {
+        "name": "부산제일(강서대저)",
+        "address": "부산 강서구 대저로 262",
+        "phone": "051-714-6432",
+        "district": "강서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "5",
+      "bis_ratio": "-1.87"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "0"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "3.88"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "4.94"
+    }
+  ],
+  "nearby_branches": []
+}

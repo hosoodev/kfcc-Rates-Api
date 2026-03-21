@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0804",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "영등포당산(3가)",
+        "address": "서울 영등포구 당산로31길 15",
+        "phone": "02-2677-2579",
+        "district": "영등포구"
+      },
+      {
+        "name": "영등포당산(생각공장당산)",
+        "address": "서울 영등포구 영등포로 150",
+        "phone": "02-2671-6556",
+        "district": "영등포구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.92,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.92,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "4.76"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.85"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.23"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.62"
+    }
+  ],
+  "nearby_branches": []
+}

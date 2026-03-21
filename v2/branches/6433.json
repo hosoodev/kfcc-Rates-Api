@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "6433",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "삼천포(선구)",
+        "address": "경남 사천시 건어시장길 27",
+        "phone": "055-835-1602",
+        "district": "사천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.76"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "15.98"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.73"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "14.71"
+    }
+  ],
+  "nearby_branches": []
+}

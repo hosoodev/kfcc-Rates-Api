@@ -1,0 +1,93 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "0504",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "동대문중앙(청량리1)",
+        "address": "서울 동대문구 홍릉로 69",
+        "phone": "02-962-9513",
+        "district": "동대문구"
+      },
+      {
+        "name": "동대문중앙(청량리2)",
+        "address": "서울 동대문구 왕산로 239",
+        "phone": "02-962-2227",
+        "district": "동대문구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.41,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.41,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.64"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "16.73"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.41"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "14.42"
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-03-21T12:27:01+09:00",
+  "gmgoCd": "3714",
+  "name": null,
+  "meta": {
+    "head_office": {
+      "name": "None(본점)",
+      "address": null,
+      "phone": null,
+      "city": null,
+      "district": null
+    },
+    "branches": [
+      {
+        "name": "시흥중앙(매화)",
+        "address": "경기 시흥시 매화1로 5",
+        "phone": "031-315-5200",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥중앙(신천)",
+        "address": "경기 시흥시 삼미시장1길 37",
+        "phone": "031-312-5200",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥중앙(대야)",
+        "address": "경기 시흥시 복지로43번길 2",
+        "phone": "031-314-5200",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥중앙(은행)",
+        "address": "경기 시흥시 은행로65번길 4",
+        "phone": "031-312-5201",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥중앙(시화중앙)",
+        "address": "경기 시흥시 정왕대로 184",
+        "phone": "031-498-4201",
+        "district": "시흥시"
+      },
+      {
+        "name": "시흥중앙(오이도역)",
+        "address": "경기 시흥시 함송로 23",
+        "phone": "031-499-8003",
+        "district": "시흥시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.75,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.75,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "6",
+      "r": 2.75,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "4.44"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "7.36"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.35"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "12.22"
+    }
+  ],
+  "nearby_branches": []
+}
