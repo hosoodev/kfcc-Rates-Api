@@ -9,6 +9,7 @@ import re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
+from utils import generate_desktop_ua
 from config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
 
 
@@ -18,7 +19,7 @@ class GradeCrawler:
     def __init__(self, base_dir: str = None):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'User-Agent': generate_desktop_ua(),
             'Referer': 'https://www.kfcc.co.kr/gumgo/regulardisclosure.do',
             'Origin': 'https://www.kfcc.co.kr',
             'Content-Type': 'application/x-www-form-urlencoded'

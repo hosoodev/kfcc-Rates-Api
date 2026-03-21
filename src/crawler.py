@@ -14,6 +14,8 @@ from config import REGIONS, CRAWLER_CONFIG, API_ENDPOINTS
 from parser import parse_bank_list, parse_interest_rates
 from storage import StorageManager
 
+from utils import generate_desktop_ua
+
 # 로깅 설정
 logging.basicConfig(
     level=logging.INFO,
@@ -62,7 +64,7 @@ class KFCCCrawler:
         """세션 생성 및 헤더 설정"""
         session = requests.Session()
         session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'User-Agent': generate_desktop_ua(),
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8',
             'Accept-Encoding': 'gzip, deflate, br',
