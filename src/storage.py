@@ -5,6 +5,7 @@
 
 import os
 import json
+import re
 import gzip
 import shutil
 import logging
@@ -987,11 +988,157 @@ class StorageManager:
                         logger.info(f"✨ V2 {key} Top 금리 API 저장 완료: {top_filepath}")
                     else:
                         success = False
+            # 6. 개별 지점 상세 API 생성
+            try:
+                self.build_branch_detail_api(v2_data_all)
+            except Exception as e:
+                logger.error(f"⚠️ 지점 상세 API 생성 중 오류 발생: {e}")
+
             return success
         except Exception as e:
             logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
             return False
     
+    def build_branch_detail_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
+        """
+        개별 지점 상세 페이지용 정적 API 파일 생성
+        v2/branches/{gmgoCd}.json
+        """
+        try:
+            # 1. 메타데이터 로드 및 지역별 그룹화
+            # V2 메타데이터 폴더 (api-data/v2/meta/banks.json 예상)
+            banks_file = self.v2_dir / "meta" / "banks.json"
+            if not banks_file.exists():
+                logger.error(f"❌ 메타데이터 파일을 찾을 수 없습니다: {banks_file}")
+                return False
+            
+            with open(banks_file, "r", encoding="utf-8") as f:
+                banks_data = json.load(f)
+            
+            bank_map = {}
+            district_groups = {}
+            for bank in banks_data.get("banks", []):
+                gmgo_cd = bank.get("gmgoCd")
+                if not gmgo_cd: continue
+                bank_map[gmgo_cd] = bank
+                # 지역 그룹핑 (district 기준)
+                dist = bank.get("district")
+                if dist:
+                    if dist not in district_groups:
+                        district_groups[dist] = []
+                    district_groups[dist].append({"gmgoCd": gmgo_cd, "name": bank.get("name")})
+
+            # 2. 금리 데이터 인덱싱
+            rates_index = {"deposit": {}, "saving": {}, "demand": {}}
+            for key in ["deposit", "saving", "demand"]:
+                if key in v2_data_all:
+                    for bank_rate in v2_data_all[key].get("data", []):
+                        g_cd = bank_rate.get("gmgoCd")
+                        if g_cd:
+                            rates_index[key][g_cd] = bank_rate.get("products", {})
+
+            # 3. 경영평가 히스토리 로드 (v2/grades/*.json)
+            grades_history_index = {}
+            grades_dir = self.v2_dir / "grades"
+            if grades_dir.exists():
+                grade_files = list(grades_dir.glob("grades_*.json"))
+                periods = []
+                for gf in grade_files:
+                    match = re.search(r"grades_(\d{4})_(\d{2})", gf.name)
+                    if match:
+                        period = f"{match.group(1)}_{match.group(2)}"
+                        periods.append((period, gf))
+                
+                # 최신순 정렬
+                periods.sort(key=lambda x: x[0], reverse=True)
+                
+                for period, gf in periods:
+                    try:
+                        with open(gf, "r", encoding="utf-8") as f:
+                            g_data = json.load(f)
+                            for grade in g_data.get("grades", []):
+                                g_cd = grade.get("gmgo_cd")
+                                if g_cd:
+                                    if g_cd not in grades_history_index:
+                                        grades_history_index[g_cd] = []
+                                    grades_history_index[g_cd].append({
+                                        "period": period,
+                                        "grade": grade.get("grade_code"),
+                                        "bis_ratio": grade.get("bis_ratio")
+                                    })
+                    except Exception as e:
+                        logger.error(f"⚠️ {gf.name} 로드 실패: {e}")
+
+            # 4. 개별 지점 JSON 조립
+            branches_dir = self.v2_dir / "branches"
+            branches_dir.mkdir(parents=True, exist_ok=True)
+            
+            updated_at = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00")
+            success_count = 0
+            
+            for gmgo_cd, meta in bank_map.items():
+                try:
+                    branch_detail = {
+                        "updated_at": updated_at,
+                        "gmgoCd": gmgo_cd,
+                        "name": meta.get("name"),
+                        "meta": {
+                            "head_office": {
+                                "name": f"{meta.get('name')}(본점)",
+                                "address": meta.get("address"),
+                                "phone": meta.get("phone"),
+                                "city": meta.get("city"),
+                                "district": meta.get("district")
+                            },
+                            "branches": meta.get("branches", [])
+                        },
+                        "rates": {
+                            "deposit": rates_index["deposit"].get(gmgo_cd, {}),
+                            "saving": rates_index["saving"].get(gmgo_cd, {}),
+                            "demand": rates_index["demand"].get(gmgo_cd, {})
+                        },
+                        "top_picks": {
+                            "deposit": self._get_best_rate(rates_index["deposit"].get(gmgo_cd, {})),
+                            "saving": self._get_best_rate(rates_index["saving"].get(gmgo_cd, {}))
+                        },
+                        "grades_history": grades_history_index.get(gmgo_cd, []),
+                        "nearby_branches": []
+                    }
+                    
+                    # 주변 지점 추천 (같은 district, 최대 5개, 자기 자신 제외)
+                    dist = meta.get("district")
+                    if dist and dist in district_groups:
+                        nearby = [b for b in district_groups[dist] if b["gmgoCd"] != gmgo_cd]
+                        branch_detail["nearby_branches"] = nearby[:5]
+                    
+                    # 파일 저장
+                    filepath = branches_dir / f"{gmgo_cd}.json"
+                    self.save_json(branch_detail, filepath, pretty=True)
+                    success_count += 1
+                except Exception as e:
+                    logger.error(f"⚠️ 지점 {gmgo_cd} 데이터 조립 및 저장 실패: {e}")
+            
+            logger.info(f"📁 V2 Branch 상세 API {success_count}개 생성 완료: {branches_dir}")
+            return True
+        except Exception as e:
+            logger.error(f"❌ Branch Detail API 생성 중 오류: {e}")
+            return False
+
+    def _get_best_rate(self, product_map: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+        """해당 지점에서 가장 높은 금리의 상품 추천용 데이터 추출"""
+        best = None
+        for p_name, terms in product_map.items():
+            for term, info in terms.items():
+                rate = info.get("r", 0)
+                if best is None or rate > best["r"]:
+                    best = {
+                        "name": p_name,
+                        "month": term,
+                        "r": rate,
+                        "s": info.get("s", "w")
+                    }
+        return best
+
     def cleanup_old_data(self, days_to_keep: int = 30) -> int:
         """
         오래된 데이터 파일 정리

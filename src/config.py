@@ -179,7 +179,7 @@ current_year = datetime.now().year
 
 GRADE_CONFIG = {
     'enabled': True,  # 경영실태평가 수집 활성화 여부
-    'collection_month': [1, 7],  # 수집 월 (1월 15일, 7월 15일 - 12월 31일, 6월 30일 공시 후)
+    'collection_month': [4, 10],  # 수집 월 (4월 15일, 10월 15일 - 12월 31일, 6월 30일 공시 후)
     'evaluation_year': current_year,  # 평가 연도 (당해년도 자동)
     'evaluation_month': [6, 12],  # 평가 기준 월 (6월, 12월)
     'retry_count': 3,
