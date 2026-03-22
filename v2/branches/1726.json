@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T13:18:31+09:00",
+  "updated_at": "2026-03-23T02:34:07+09:00",
   "gmgoCd": "1726",
   "name": "연산3동",
   "meta": {
@@ -13,7 +13,22 @@
     "branches": []
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -31,7 +46,12 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    },
     "saving": null
   },
   "grades_history": [
