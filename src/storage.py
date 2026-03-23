@@ -192,7 +192,7 @@ class StorageManager:
                     "name": head.get('name'),
                     "address": head.get('address'),
                     "phone": head.get('phone'),
-                    "city": head.get('city'),
+                    "province": head.get('city'),
                     "district": head.get('district')
                 },
                 "branches": [
@@ -226,7 +226,7 @@ class StorageManager:
                         flattened_banks.append({
                             "gmgoCd": group['gmgoCd'],
                             "name": head.get('name'),
-                            "city": head.get('city'),
+                            "province": head.get('province') or head.get('city'),
                             "district": head.get('district'),
                             "address": head.get('address'),
                             "phone": head.get('phone')
@@ -563,7 +563,7 @@ class StorageManager:
                 return {
                     "gmgoCd": gmgo_cd,
                     "name": bank_info.get('name'),
-                    "province": bank_info.get('city'),
+                    "province": bank_info.get('province') or bank_info.get('city'),
                     "district": bank_info.get('district'),
                     "grade": grade_info.get('grade_code'),
                     "bis_ratio": bis_val,
@@ -1022,11 +1022,17 @@ class StorageManager:
                 if not gmgo_cd: continue
                 bank_map[gmgo_cd] = bank
                 # 지역 그룹핑 (head_office.district 기준)
-                dist = bank.get("head_office", {}).get("district")
+                head = bank.get("head_office", {})
+                dist = head.get("district")
                 if dist:
                     if dist not in district_groups:
                         district_groups[dist] = []
-                    district_groups[dist].append({"gmgoCd": gmgo_cd, "name": bank.get("group_name")})
+                    district_groups[dist].append({
+                        "gmgoCd": gmgo_cd, 
+                        "name": bank.get("group_name"),
+                        "province": head.get("province") or head.get("city"),
+                        "district": dist
+                    })
 
             # 2. 금리 데이터 인덱싱
             rates_index = {"deposit": {}, "saving": {}, "demand": {}}
