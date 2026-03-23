@@ -129,8 +129,8 @@ class MBankCrawler:
             # 수집 부하를 줄이기 위해 단일 기간('0')으로 한 번만 수집
             p_terms = ["0"] if prdt_nm == "상상모바일통장" else terms
 
-            for sido in regions:
-                districts = self.sigungu_codes.get(sido, {})
+            for province in regions:
+                districts = self.sigungu_codes.get(province, {})
                 for dist_nm, dist_cd in districts.items():
                     for term in p_terms:
                         tasks.append((dist_cd, prdt_cd, prdt_nm, term))

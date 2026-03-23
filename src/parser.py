@@ -108,13 +108,13 @@ class BankParser:
         return text
 
 
-def parse_bank_list(html: str, city: str, district: str) -> List[Dict[str, Any]]:
+def parse_bank_list(html: str, province: str, district: str) -> List[Dict[str, Any]]:
     """
     새마을금고 은행 목록 HTML을 파싱하여 구조화된 데이터로 변환
     
     Args:
         html: HTML 내용
-        city: 시/도명
+        province: 시/도명
         district: 구/군명
         
     Returns:
@@ -142,16 +142,16 @@ def parse_bank_list(html: str, city: str, district: str) -> List[Dict[str, Any]]
             if bank_data:
                 # 공통 정보 추가
                 bank_data.update({
-                    'city': city,
+                    'province': province,
                     'district': district,
                     'crawled_at': datetime.now().isoformat()
                 })
                 banks.append(bank_data)
         
-        logger.debug(f"파싱 완료: {city} {district} - {len(banks)}개 은행")
+        logger.debug(f"파싱 완료: {province} {district} - {len(banks)}개 은행")
         
     except Exception as e:
-        logger.error(f"은행 목록 파싱 오류: {city} {district} - {e}")
+        logger.error(f"은행 목록 파싱 오류: {province} {district} - {e}")
     
     return banks
 

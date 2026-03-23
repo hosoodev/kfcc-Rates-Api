@@ -29,7 +29,7 @@ class Bank:
     """은행 정보 데이터 클래스"""
     gmgoCd: str
     name: str
-    city: str
+    province: str
     district: str
     address: str = ""
     phone: str = ""
@@ -95,13 +95,13 @@ class KFCCCrawler:
                     return None
         return None
     
-    def fetch_bank_list(self, city: str, district: str) -> List[Dict[str, Any]]:
+    def fetch_bank_list(self, province: str, district: str) -> List[Dict[str, Any]]:
         """특정 지역의 새마을금고 목록을 가져옴"""
-        # 하위 메뉴가 1개이고 city와 같은 경우 처리
-        if city in REGIONS and len(REGIONS[city]) == 1 and REGIONS[city][0] == city:
-            params = {'r1': city, 'r2': ''}
+        # 하위 메뉴가 1개이고 province와 같은 경우 처리
+        if province in REGIONS and len(REGIONS[province]) == 1 and REGIONS[province][0] == province:
+            params = {'r1': province, 'r2': ''}
         else:
-            params = {'r1': city, 'r2': district}
+            params = {'r1': province, 'r2': district}
         
         response = self._make_request(
             API_ENDPOINTS['bank_list'], 
@@ -114,13 +114,13 @@ class KFCCCrawler:
             return []
         
         try:
-            banks = parse_bank_list(response.text, city, district)
-            logger.info(f"✓ {city} {district}: {len(banks)}개 금고 수집 완료")
+            banks = parse_bank_list(response.text, province, district)
+            logger.info(f"✓ {province} {district}: {len(banks)}개 금고 수집 완료")
             self.stats['banks_fetched'] += len(banks)
             return banks
         except Exception as e:
-            logger.error(f"파싱 오류: {city} {district} - {e}")
-            self.stats['errors'].append(f"{city} {district}: {str(e)}")
+            logger.error(f"파싱 오류: {province} {district} - {e}")
+            self.stats['errors'].append(f"{province} {district}: {str(e)}")
             return []
     
     def fetch_interest_rates(self, bank: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -204,8 +204,8 @@ class KFCCCrawler:
         
         # 모든 지역 정보를 튜플 리스트로 준비
         regions_to_fetch = [
-            (city, district) 
-            for city, info in REGIONS.items() 
+            (province, district) 
+            for province, info in REGIONS.items() 
             for district in info["districts"]
         ]
         
@@ -215,12 +215,12 @@ class KFCCCrawler:
             total = len(regions_to_fetch)
             
             future_to_region = {
-                executor.submit(self.fetch_bank_list, city, district): (city, district)
-                for city, district in regions_to_fetch
+                executor.submit(self.fetch_bank_list, province, district): (province, district)
+                for province, district in regions_to_fetch
             }
             
             for future in as_completed(future_to_region):
-                city, district = future_to_region[future]
+                province, district = future_to_region[future]
                 try:
                     banks = future.result()
                     if banks:
@@ -231,8 +231,8 @@ class KFCCCrawler:
                         logger.info(f"진행률: {completed}/{total} ({completed/total*100:.1f}%)")
                         
                 except Exception as e:
-                    logger.error(f"처리 오류: {city} {district} - {e}")
-                    self.stats['errors'].append(f"{city} {district}: {str(e)}")
+                    logger.error(f"처리 오류: {province} {district} - {e}")
+                    self.stats['errors'].append(f"{province} {district}: {str(e)}")
         
         logger.info(f"🏦 총 {len(all_banks)}개 금고 목록 수집 완료")
         return all_banks
@@ -434,13 +434,13 @@ class KFCCCrawler:
         """지역별 통계 정보 생성"""
         stats = {}
         for bank in banks:
-            city = bank.get('city', 'Unknown')
+            province = bank.get('province', 'Unknown')
             district = bank.get('district', 'Unknown')
             
-            if city not in stats:
-                stats[city] = {}
-            if district not in stats[city]:
-                stats[city][district] = 0
-            stats[city][district] += 1
+            if province not in stats:
+                stats[province] = {}
+            if district not in stats[province]:
+                stats[province][district] = 0
+            stats[province][district] += 1
         
         return stats
