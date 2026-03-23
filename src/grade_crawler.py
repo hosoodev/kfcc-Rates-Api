@@ -53,7 +53,7 @@ class GradeCrawler:
         else:
             return current_month == collection_months
 
-    def fetch_grade_for_bank(self, gmgo_cd, bank_name, city='', district='', evaluation_date=None):
+    def fetch_grade_for_bank(self, gmgo_cd, bank_name, province='', district='', evaluation_date=None):
         """특정 금고의 경영실태평가 데이터 수집"""
         url = API_ENDPOINTS['grade_evaluation']
         
@@ -99,7 +99,7 @@ class GradeCrawler:
                 )
                 response.raise_for_status()
                 
-                grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, city, district, evaluation_month=evaluation_month)
+                grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, province, district, evaluation_month=evaluation_month)
                 if grade_data:
                     print(f"✓ {bank_name}: 경영실태평가 수집 완료")
                     return grade_data
@@ -119,7 +119,7 @@ class GradeCrawler:
         
         return None
     
-    def parse_grade_data(self, html, gmgo_cd, bank_name, city='', district='', evaluation_month=12):
+    def parse_grade_data(self, html, gmgo_cd, bank_name, province='', district='', evaluation_month=12):
         """경영실태평가 HTML 파싱"""
         try:
             soup = BeautifulSoup(html, 'html.parser')
@@ -162,7 +162,7 @@ class GradeCrawler:
             return {
                 'gmgo_cd': gmgo_cd,
                 'bank_name': bank_name,
-                'city': city,
+                'province': province,
                 'district': district,
                 'evaluation_agency': 기관명.strip(),
                 'evaluation_date': 기준일,
@@ -230,7 +230,7 @@ class GradeCrawler:
         # 병렬 처리로 수집
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_bank = {
-                executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('city', ''), bank.get('district', ''), evaluation_date=evaluation_date): bank 
+                executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('province', ''), bank.get('district', ''), evaluation_date=evaluation_date): bank 
                 for bank in banks
             }
             
