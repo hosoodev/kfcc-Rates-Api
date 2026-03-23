@@ -226,7 +226,7 @@ class StorageManager:
                         flattened_banks.append({
                             "gmgoCd": group['gmgoCd'],
                             "name": head.get('name'),
-                            "province": head.get('province') or head.get('city'),
+                            "province": head.get('province'),
                             "district": head.get('district'),
                             "address": head.get('address'),
                             "phone": head.get('phone')
@@ -563,7 +563,7 @@ class StorageManager:
                 return {
                     "gmgoCd": gmgo_cd,
                     "name": bank_info.get('name'),
-                    "province": bank_info.get('province') or bank_info.get('city'),
+                    "province": bank_info.get('province'),
                     "district": bank_info.get('district'),
                     "grade": grade_info.get('grade_code'),
                     "bis_ratio": bis_val,
@@ -1030,7 +1030,7 @@ class StorageManager:
                     district_groups[dist].append({
                         "gmgoCd": gmgo_cd, 
                         "name": bank.get("group_name"),
-                        "province": head.get("province") or head.get("city"),
+                        "province": head.get("province"),
                         "district": dist
                     })
 
