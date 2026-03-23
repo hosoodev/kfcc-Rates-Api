@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1509",
   "name": "전포2동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "전포2동(본점)",
       "address": "부산 부산진구 전포대로298번길 31",
       "phone": "051-805-5172",
-      "city": "부산",
+      "province": "부산",
       "district": "부산진구"
     },
     "branches": [
@@ -66,23 +66,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1501",
-      "name": "부전1동"
+      "name": "부전1동",
+      "province": "부산",
+      "district": "부산진구"
     },
     {
       "gmgoCd": "1502",
-      "name": "서면"
+      "name": "서면",
+      "province": "부산",
+      "district": "부산진구"
     },
     {
       "gmgoCd": "1504",
-      "name": "연지동"
+      "name": "연지동",
+      "province": "부산",
+      "district": "부산진구"
     },
     {
       "gmgoCd": "1505",
-      "name": "초읍동"
+      "name": "초읍동",
+      "province": "부산",
+      "district": "부산진구"
     },
     {
       "gmgoCd": "1506",
-      "name": "시민공원"
+      "name": "시민공원",
+      "province": "부산",
+      "district": "부산진구"
     }
   ]
 }

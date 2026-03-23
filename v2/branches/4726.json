@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4726",
   "name": "불정",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "불정(본점)",
       "address": "충북 괴산군 불정면 목도로 54",
       "phone": "043-833-7788",
-      "city": "충북",
+      "province": "충북",
       "district": "괴산군"
     },
     "branches": []
@@ -82,7 +82,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4731",
-      "name": "괴산"
+      "name": "괴산",
+      "province": "충북",
+      "district": "괴산군"
     }
   ]
 }

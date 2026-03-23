@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3117",
   "name": "대전중부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "대전중부(본점)",
       "address": "대전 중구 계백로 1546",
       "phone": "042-583-0408",
-      "city": "대전",
+      "province": "대전",
       "district": "중구"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0203",
-      "name": "회현동"
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0204",
-      "name": "명동"
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0206",
-      "name": "필동"
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0208",
-      "name": "신당1.2.3동"
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0212",
-      "name": "동화동"
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
     }
   ]
 }

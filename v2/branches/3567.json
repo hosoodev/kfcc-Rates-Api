@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3567",
   "name": "이천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "이천(본점)",
       "address": "경기 이천시 영창로 147",
       "phone": "031-635-1301",
-      "city": "경기",
+      "province": "경기",
       "district": "이천시"
     },
     "branches": [
@@ -121,11 +121,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3556",
-      "name": "SK hynix"
+      "name": "SK hynix",
+      "province": "경기",
+      "district": "이천시"
     },
     {
       "gmgoCd": "3563",
-      "name": "이천우리"
+      "name": "이천우리",
+      "province": "경기",
+      "district": "이천시"
     }
   ]
 }

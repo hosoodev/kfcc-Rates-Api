@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5624",
   "name": "화성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "화성(본점)",
       "address": "경북 경산시 하양읍 화성로 35",
       "phone": "053-851-1700",
-      "city": "경북",
+      "province": "경북",
       "district": "경산시"
     },
     "branches": []
@@ -101,23 +101,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5622",
-      "name": "경산"
+      "name": "경산",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5623",
-      "name": "새경산"
+      "name": "새경산",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5625",
-      "name": "다문"
+      "name": "다문",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5626",
-      "name": "부림"
+      "name": "부림",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5627",
-      "name": "진량"
+      "name": "진량",
+      "province": "경북",
+      "district": "경산시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2902",
   "name": "나주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "나주(본점)",
       "address": "전남 나주시 나주로 140",
       "phone": "061-334-7771",
-      "city": "전남",
+      "province": "전남",
       "district": "나주시"
     },
     "branches": [
@@ -106,15 +106,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "1119",
-      "name": "한전"
+      "name": "한전",
+      "province": "전남",
+      "district": "나주시"
     },
     {
       "gmgoCd": "2903",
-      "name": "영산포"
+      "name": "영산포",
+      "province": "전남",
+      "district": "나주시"
     },
     {
       "gmgoCd": "2905",
-      "name": "나주동부"
+      "name": "나주동부",
+      "province": "전남",
+      "district": "나주시"
     }
   ]
 }

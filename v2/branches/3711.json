@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3711",
   "name": "한국마사회",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "한국마사회(본점)",
       "address": "경기 과천시 경마공원대로 107",
       "phone": "02-509-1428",
-      "city": "경기",
+      "province": "경기",
       "district": "과천시"
     },
     "branches": []
@@ -69,7 +69,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3733",
-      "name": "과천"
+      "name": "과천",
+      "province": "경기",
+      "district": "과천시"
     }
   ]
 }

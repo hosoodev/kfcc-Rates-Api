@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3548",
   "name": "용문",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "용문(본점)",
       "address": "경기 양평군 용문면 용문로 349-1",
       "phone": "031-773-3401",
-      "city": "경기",
+      "province": "경기",
       "district": "양평군"
     },
     "branches": [
@@ -100,7 +100,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3562",
-      "name": "양평"
+      "name": "양평",
+      "province": "경기",
+      "district": "양평군"
     }
   ]
 }

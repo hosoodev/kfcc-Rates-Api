@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2647",
   "name": "순천북부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "순천북부(본점)",
       "address": "전남 순천시 삼산로 107",
       "phone": "061-752-4987",
-      "city": "전남",
+      "province": "전남",
       "district": "순천시"
     },
     "branches": [
@@ -114,11 +114,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2627",
-      "name": "순천만"
+      "name": "순천만",
+      "province": "전남",
+      "district": "순천시"
     },
     {
       "gmgoCd": "2648",
-      "name": "순천중부"
+      "name": "순천중부",
+      "province": "전남",
+      "district": "순천시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1826",
   "name": "대구원광",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "대구원광(본점)",
       "address": "대구 중구 중앙대로66길 42",
       "phone": "053-426-7034",
-      "city": "대구",
+      "province": "대구",
       "district": "중구"
     },
     "branches": []
@@ -19,11 +19,11 @@
           "r": 3.3,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -97,23 +97,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0203",
-      "name": "회현동"
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0204",
-      "name": "명동"
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0206",
-      "name": "필동"
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0208",
-      "name": "신당1.2.3동"
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0212",
-      "name": "동화동"
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
     }
   ]
 }

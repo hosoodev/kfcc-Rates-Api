@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1329",
   "name": "영도중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "영도중앙(본점)",
       "address": "부산 영도구 영선대로 99",
       "phone": "051-418-8544",
-      "city": "부산",
+      "province": "부산",
       "district": "영도구"
     },
     "branches": [
@@ -108,19 +108,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "1332",
-      "name": "한아름"
+      "name": "한아름",
+      "province": "부산",
+      "district": "영도구"
     },
     {
       "gmgoCd": "1338",
-      "name": "태종대"
+      "name": "태종대",
+      "province": "부산",
+      "district": "영도구"
     },
     {
       "gmgoCd": "1339",
-      "name": "영도"
+      "name": "영도",
+      "province": "부산",
+      "district": "영도구"
     },
     {
       "gmgoCd": "1340",
-      "name": "동삼동"
+      "name": "동삼동",
+      "province": "부산",
+      "district": "영도구"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2716",
   "name": "구례",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "구례(본점)",
       "address": "전남 구례군 구례읍 구례1길 36",
       "phone": "061-782-4700",
-      "city": "전남",
+      "province": "전남",
       "district": "구례군"
     },
     "branches": [
@@ -86,7 +86,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "2709",
-      "name": "봉성"
+      "name": "봉성",
+      "province": "전남",
+      "district": "구례군"
     }
   ]
 }

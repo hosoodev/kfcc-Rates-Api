@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0718",
   "name": "가양동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "가양동(본점)",
       "address": "서울 강서구 강서로 511",
       "phone": "02-3661-8555",
-      "city": "서울",
+      "province": "서울",
       "district": "강서구"
     },
     "branches": [
@@ -108,19 +108,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "0441",
-      "name": "이랜드"
+      "name": "이랜드",
+      "province": "서울",
+      "district": "강서구"
     },
     {
       "gmgoCd": "0714",
-      "name": "염창동"
+      "name": "염창동",
+      "province": "서울",
+      "district": "강서구"
     },
     {
       "gmgoCd": "0717",
-      "name": "화곡"
+      "name": "화곡",
+      "province": "서울",
+      "district": "강서구"
     },
     {
       "gmgoCd": "0719",
-      "name": "우장산"
+      "name": "우장산",
+      "province": "서울",
+      "district": "강서구"
     }
   ]
 }

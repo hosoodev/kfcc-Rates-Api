@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1031",
   "name": "가락",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "가락(본점)",
       "address": "서울 송파구 양재대로62길 23",
       "phone": "02-408-9831",
-      "city": "서울",
+      "province": "서울",
       "district": "송파구"
     },
     "branches": []
@@ -89,23 +89,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0419",
-      "name": "삼성에스디에스"
+      "name": "삼성에스디에스",
+      "province": "서울",
+      "district": "송파구"
     },
     {
       "gmgoCd": "1026",
-      "name": "서울중앙"
+      "name": "서울중앙",
+      "province": "서울",
+      "district": "송파구"
     },
     {
       "gmgoCd": "1027",
-      "name": "마천"
+      "name": "마천",
+      "province": "서울",
+      "district": "송파구"
     },
     {
       "gmgoCd": "1029",
-      "name": "송파중앙"
+      "name": "송파중앙",
+      "province": "서울",
+      "district": "송파구"
     },
     {
       "gmgoCd": "1030",
-      "name": "서울송파"
+      "name": "서울송파",
+      "province": "서울",
+      "district": "송파구"
     }
   ]
 }

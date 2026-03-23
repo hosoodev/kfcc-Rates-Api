@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1224",
   "name": "천마",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "천마(본점)",
       "address": "부산 서구 초장로27번길 26",
       "phone": "051-254-1365",
-      "city": "부산",
+      "province": "부산",
       "district": "서구"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1213",
-      "name": "부산구덕"
+      "name": "부산구덕",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1216",
-      "name": "서구중앙"
+      "name": "서구중앙",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1217",
-      "name": "대신동"
+      "name": "대신동",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1228",
-      "name": "서부"
+      "name": "서부",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1229",
-      "name": "송남"
+      "name": "송남",
+      "province": "부산",
+      "district": "서구"
     }
   ]
 }

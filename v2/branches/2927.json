@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2927",
   "name": "영암우리",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "영암우리(본점)",
       "address": "전남 영암군 금정면 용두로 9",
       "phone": "061-472-2200",
-      "city": "전남",
+      "province": "전남",
       "district": "영암군"
     },
     "branches": [
@@ -78,15 +78,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "2926",
-      "name": "영암성실"
+      "name": "영암성실",
+      "province": "전남",
+      "district": "영암군"
     },
     {
       "gmgoCd": "2932",
-      "name": "삼호"
+      "name": "삼호",
+      "province": "전남",
+      "district": "영암군"
     },
     {
       "gmgoCd": "2933",
-      "name": "HD현대삼호"
+      "name": "HD현대삼호",
+      "province": "전남",
+      "district": "영암군"
     }
   ]
 }

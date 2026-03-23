@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2022",
   "name": "남부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "남부(본점)",
       "address": "대구 수성구 교학로 27",
       "phone": "053-741-9006",
-      "city": "대구",
+      "province": "대구",
       "district": "수성구"
     },
     "branches": [
@@ -78,23 +78,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2018",
-      "name": "수성중앙"
+      "name": "수성중앙",
+      "province": "대구",
+      "district": "수성구"
     },
     {
       "gmgoCd": "2020",
-      "name": "청구로"
+      "name": "청구로",
+      "province": "대구",
+      "district": "수성구"
     },
     {
       "gmgoCd": "2021",
-      "name": "대원"
+      "name": "대원",
+      "province": "대구",
+      "district": "수성구"
     },
     {
       "gmgoCd": "2023",
-      "name": "수성1가"
+      "name": "수성1가",
+      "province": "대구",
+      "district": "수성구"
     },
     {
       "gmgoCd": "2024",
-      "name": "수성"
+      "name": "수성",
+      "province": "대구",
+      "district": "수성구"
     }
   ]
 }

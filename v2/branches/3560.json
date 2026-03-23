@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3560",
   "name": "성남북부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "성남북부(본점)",
       "address": "경기 성남시 수정구 복정로 159",
       "phone": "031-759-4139",
-      "city": "경기",
+      "province": "경기",
       "district": "성남시"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3502",
-      "name": "성남수정"
+      "name": "성남수정",
+      "province": "경기",
+      "district": "성남시"
     },
     {
       "gmgoCd": "3504",
-      "name": "낙원"
+      "name": "낙원",
+      "province": "경기",
+      "district": "성남시"
     },
     {
       "gmgoCd": "3509",
-      "name": "성남제일"
+      "name": "성남제일",
+      "province": "경기",
+      "district": "성남시"
     },
     {
       "gmgoCd": "3564",
-      "name": "성남동부"
+      "name": "성남동부",
+      "province": "경기",
+      "district": "성남시"
     },
     {
       "gmgoCd": "3565",
-      "name": "중원"
+      "name": "중원",
+      "province": "경기",
+      "district": "성남시"
     }
   ]
 }

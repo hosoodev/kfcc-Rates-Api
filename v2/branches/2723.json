@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2723",
   "name": "녹동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "녹동(본점)",
       "address": "전남 고흥군 도양읍 비봉로 142",
       "phone": "061-842-3395",
-      "city": "전남",
+      "province": "전남",
       "district": "고흥군"
     },
     "branches": []
@@ -93,11 +93,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2722",
-      "name": "고흥"
+      "name": "고흥",
+      "province": "전남",
+      "district": "고흥군"
     },
     {
       "gmgoCd": "2724",
-      "name": "우주"
+      "name": "우주",
+      "province": "전남",
+      "district": "고흥군"
     }
   ]
 }

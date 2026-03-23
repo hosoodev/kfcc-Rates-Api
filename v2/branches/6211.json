@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6211",
   "name": "남울산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "남울산(본점)",
       "address": "울산 남구 수암로 292",
       "phone": "052-269-4456",
-      "city": "울산",
+      "province": "울산",
       "district": "남구"
     },
     "branches": [
@@ -44,11 +44,11 @@
           "r": 2.6,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         }
@@ -126,23 +126,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1402",
-      "name": "대연"
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1403",
-      "name": "대연중앙"
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1404",
-      "name": "대연6동"
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1405",
-      "name": "용호"
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1406",
-      "name": "남부"
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
     }
   ]
 }

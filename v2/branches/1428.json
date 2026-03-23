@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1428",
   "name": "서부산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "서부산(본점)",
       "address": "부산 사하구 승학로 51",
       "phone": "051-208-7872",
-      "city": "부산",
+      "province": "부산",
       "district": "사하구"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1424",
-      "name": "신괴정"
+      "name": "신괴정",
+      "province": "부산",
+      "district": "사하구"
     },
     {
       "gmgoCd": "1425",
-      "name": "괴정2동"
+      "name": "괴정2동",
+      "province": "부산",
+      "district": "사하구"
     },
     {
       "gmgoCd": "1426",
-      "name": "괴정3동"
+      "name": "괴정3동",
+      "province": "부산",
+      "district": "사하구"
     },
     {
       "gmgoCd": "1427",
-      "name": "부산서부"
+      "name": "부산서부",
+      "province": "부산",
+      "district": "사하구"
     },
     {
       "gmgoCd": "1431",
-      "name": "장림동"
+      "name": "장림동",
+      "province": "부산",
+      "district": "사하구"
     }
   ]
 }

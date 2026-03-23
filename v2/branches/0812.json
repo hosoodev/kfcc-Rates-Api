@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0812",
   "name": "신길1동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "신길1동(본점)",
       "address": "서울 영등포구 영등포로 380",
       "phone": "02-841-3700",
-      "city": "서울",
+      "province": "서울",
       "district": "영등포구"
     },
     "branches": [
@@ -86,23 +86,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0801",
-      "name": "영등포본동"
+      "name": "영등포본동",
+      "province": "서울",
+      "district": "영등포구"
     },
     {
       "gmgoCd": "0802",
-      "name": "영등포중앙"
+      "name": "영등포중앙",
+      "province": "서울",
+      "district": "영등포구"
     },
     {
       "gmgoCd": "0803",
-      "name": "영등포제일"
+      "name": "영등포제일",
+      "province": "서울",
+      "district": "영등포구"
     },
     {
       "gmgoCd": "0804",
-      "name": "영등포당산"
+      "name": "영등포당산",
+      "province": "서울",
+      "district": "영등포구"
     },
     {
       "gmgoCd": "0807",
-      "name": "도림"
+      "name": "도림",
+      "province": "서울",
+      "district": "영등포구"
     }
   ]
 }

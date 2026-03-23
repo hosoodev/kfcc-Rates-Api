@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3404",
   "name": "서산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "서산(본점)",
       "address": "충남 서산시 율지6로 10",
       "phone": "041-665-4801",
-      "city": "충남",
+      "province": "충남",
       "district": "서산시"
     },
     "branches": [
@@ -112,15 +112,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "3405",
-      "name": "서산중앙"
+      "name": "서산중앙",
+      "province": "충남",
+      "district": "서산시"
     },
     {
       "gmgoCd": "3407",
-      "name": "대산"
+      "name": "대산",
+      "province": "충남",
+      "district": "서산시"
     },
     {
       "gmgoCd": "3411",
-      "name": "한화토탈에너지스"
+      "name": "한화토탈에너지스",
+      "province": "충남",
+      "district": "서산시"
     }
   ]
 }

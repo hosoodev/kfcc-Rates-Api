@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5909",
   "name": "화전",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "화전(본점)",
       "address": "경북 의성군 봉양면 도리원1길 61-1",
       "phone": "054-832-2811",
-      "city": "경북",
+      "province": "경북",
       "district": "의성군"
     },
     "branches": [
@@ -66,7 +66,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "5944",
-      "name": "의성"
+      "name": "의성",
+      "province": "경북",
+      "district": "의성군"
     }
   ]
 }

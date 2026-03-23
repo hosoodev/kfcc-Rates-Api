@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4543",
   "name": "새빛",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "새빛(본점)",
       "address": "충북 청주시 서원구 사직대로 102",
       "phone": "043-266-6973",
-      "city": "충북",
+      "province": "충북",
       "district": "청주시"
     },
     "branches": [
@@ -26,11 +26,11 @@
           "r": 3.3,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -102,23 +102,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4504",
-      "name": "서원"
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
     },
     {
       "gmgoCd": "4507",
-      "name": "내율사"
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
     },
     {
       "gmgoCd": "4508",
-      "name": "우리"
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
     },
     {
       "gmgoCd": "4509",
-      "name": "청주중앙"
+      "name": "청주중앙",
+      "province": "충북",
+      "district": "청주시"
     },
     {
       "gmgoCd": "4510",
-      "name": "우암"
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
     }
   ]
 }

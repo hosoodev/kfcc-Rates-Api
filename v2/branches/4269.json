@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4269",
   "name": "중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "중앙(본점)",
       "address": "강원 속초시 중앙시장로 75",
       "phone": "033-635-8240",
-      "city": "강원",
+      "province": "강원",
       "district": "속초시"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4242",
-      "name": "속초북부"
+      "name": "속초북부",
+      "province": "강원",
+      "district": "속초시"
     },
     {
       "gmgoCd": "4247",
-      "name": "설악"
+      "name": "설악",
+      "province": "강원",
+      "district": "속초시"
     },
     {
       "gmgoCd": "4248",
-      "name": "금강"
+      "name": "금강",
+      "province": "강원",
+      "district": "속초시"
     },
     {
       "gmgoCd": "4249",
-      "name": "동명"
+      "name": "동명",
+      "province": "강원",
+      "district": "속초시"
     },
     {
       "gmgoCd": "4267",
-      "name": "속초남부"
+      "name": "속초남부",
+      "province": "강원",
+      "district": "속초시"
     }
   ]
 }

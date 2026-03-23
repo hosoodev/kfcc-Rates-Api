@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4827",
   "name": "휴비스",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "휴비스(본점)",
       "address": "전북 전주시 덕진구 기린대로 787",
       "phone": "063-210-2252",
-      "city": "전북",
+      "province": "전북",
       "district": "전주시"
     },
     "branches": []
@@ -46,23 +46,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4803",
-      "name": "남전주"
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
     },
     {
       "gmgoCd": "4805",
-      "name": "열린"
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
     },
     {
       "gmgoCd": "4808",
-      "name": "늘푸른"
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
     },
     {
       "gmgoCd": "4809",
-      "name": "중부"
+      "name": "중부",
+      "province": "전북",
+      "district": "전주시"
     },
     {
       "gmgoCd": "4810",
-      "name": "동부"
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
     }
   ]
 }

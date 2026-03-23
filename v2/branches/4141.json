@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4141",
   "name": "파주중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "파주중앙(본점)",
       "address": "경기 파주시 경의로 1218",
       "phone": "031-945-7233",
-      "city": "경기",
+      "province": "경기",
       "district": "파주시"
     },
     "branches": [
@@ -120,11 +120,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "4124",
-      "name": "우리"
+      "name": "우리",
+      "province": "경기",
+      "district": "파주시"
     },
     {
       "gmgoCd": "4145",
-      "name": "파주"
+      "name": "파주",
+      "province": "경기",
+      "district": "파주시"
     }
   ]
 }

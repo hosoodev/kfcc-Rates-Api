@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5839",
   "name": "문경제일",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "문경제일(본점)",
       "address": "경북 문경시 중앙로 206",
       "phone": "054-555-4408",
-      "city": "경북",
+      "province": "경북",
       "district": "문경시"
     },
     "branches": [
@@ -106,7 +106,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "5851",
-      "name": "신문경"
+      "name": "신문경",
+      "province": "경북",
+      "district": "문경시"
     }
   ]
 }

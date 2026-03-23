@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4913",
   "name": "진안동부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "진안동부(본점)",
       "address": "전북 진안군 진안읍 진무로 1106",
       "phone": "063-433-0820",
-      "city": "전북",
+      "province": "전북",
       "district": "진안군"
     },
     "branches": []
@@ -93,7 +93,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4912",
-      "name": "진안"
+      "name": "진안",
+      "province": "전북",
+      "district": "진안군"
     }
   ]
 }

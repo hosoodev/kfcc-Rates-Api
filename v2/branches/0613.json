@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0613",
   "name": "성북제일",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "성북제일(본점)",
       "address": "서울 성북구 길음로 20",
       "phone": "02-913-1282",
-      "city": "서울",
+      "province": "서울",
       "district": "성북구"
     },
     "branches": [
@@ -104,23 +104,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0604",
-      "name": "서울미래"
+      "name": "서울미래",
+      "province": "서울",
+      "district": "성북구"
     },
     {
       "gmgoCd": "0608",
-      "name": "안암동"
+      "name": "안암동",
+      "province": "서울",
+      "district": "성북구"
     },
     {
       "gmgoCd": "0610",
-      "name": "정릉"
+      "name": "정릉",
+      "province": "서울",
+      "district": "성북구"
     },
     {
       "gmgoCd": "0611",
-      "name": "한양"
+      "name": "한양",
+      "province": "서울",
+      "district": "성북구"
     },
     {
       "gmgoCd": "0614",
-      "name": "길음중앙"
+      "name": "길음중앙",
+      "province": "서울",
+      "district": "성북구"
     }
   ]
 }

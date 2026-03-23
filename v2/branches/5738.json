@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5738",
   "name": "북삼",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "북삼(본점)",
       "address": "경북 칠곡군 북삼읍 금오대로 260",
       "phone": "054-972-1460",
-      "city": "경북",
+      "province": "경북",
       "district": "칠곡군"
     },
     "branches": [
@@ -106,11 +106,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "5734",
-      "name": "왜관"
+      "name": "왜관",
+      "province": "경북",
+      "district": "칠곡군"
     },
     {
       "gmgoCd": "5737",
-      "name": "칠곡"
+      "name": "칠곡",
+      "province": "경북",
+      "district": "칠곡군"
     }
   ]
 }

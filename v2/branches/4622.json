@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4622",
   "name": "묵정",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "묵정(본점)",
       "address": "충북 영동군 양강면 학산영동로 338",
       "phone": "043-743-7822",
-      "city": "충북",
+      "province": "충북",
       "district": "영동군"
     },
     "branches": []
@@ -59,7 +59,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4624",
-      "name": "영동"
+      "name": "영동",
+      "province": "충북",
+      "district": "영동군"
     }
   ]
 }

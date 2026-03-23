@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6139",
   "name": "김해서부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "김해서부(본점)",
       "address": "경남 김해시 전하로208번길 58",
       "phone": "055-333-8100",
-      "city": "경남",
+      "province": "경남",
       "district": "김해시"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6135",
-      "name": "김해중앙"
+      "name": "김해중앙",
+      "province": "경남",
+      "district": "김해시"
     },
     {
       "gmgoCd": "6136",
-      "name": "남김해"
+      "name": "남김해",
+      "province": "경남",
+      "district": "김해시"
     },
     {
       "gmgoCd": "6137",
-      "name": "부원"
+      "name": "부원",
+      "province": "경남",
+      "district": "김해시"
     },
     {
       "gmgoCd": "6138",
-      "name": "서김해"
+      "name": "서김해",
+      "province": "경남",
+      "district": "김해시"
     },
     {
       "gmgoCd": "6140",
-      "name": "동김해"
+      "name": "동김해",
+      "province": "경남",
+      "district": "김해시"
     }
   ]
 }

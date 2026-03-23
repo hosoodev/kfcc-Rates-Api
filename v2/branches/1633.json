@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1633",
   "name": "동부산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "동부산(본점)",
       "address": "부산 해운대구 반송로924번길 17-2",
       "phone": "051-543-5580",
-      "city": "부산",
+      "province": "부산",
       "district": "해운대구"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1622",
-      "name": "해운대중앙"
+      "name": "해운대중앙",
+      "province": "부산",
+      "district": "해운대구"
     },
     {
       "gmgoCd": "1624",
-      "name": "우리"
+      "name": "우리",
+      "province": "부산",
+      "district": "해운대구"
     },
     {
       "gmgoCd": "1625",
-      "name": "장산"
+      "name": "장산",
+      "province": "부산",
+      "district": "해운대구"
     },
     {
       "gmgoCd": "1626",
-      "name": "해운대"
+      "name": "해운대",
+      "province": "부산",
+      "district": "해운대구"
     },
     {
       "gmgoCd": "1627",
-      "name": "부산동부"
+      "name": "부산동부",
+      "province": "부산",
+      "district": "해운대구"
     }
   ]
 }

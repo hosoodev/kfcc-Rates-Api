@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4463",
   "name": "화천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "화천(본점)",
       "address": "강원 화천군 화천읍 중앙로 1",
       "phone": "033-442-2771",
-      "city": "강원",
+      "province": "강원",
       "district": "화천군"
     },
     "branches": []
@@ -59,7 +59,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4449",
-      "name": "다창"
+      "name": "다창",
+      "province": "강원",
+      "district": "화천군"
     }
   ]
 }

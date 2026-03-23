@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5601",
   "name": "영동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "영동(본점)",
       "address": "경북 영천시 호국로 36",
       "phone": "054-334-5233",
-      "city": "경북",
+      "province": "경북",
       "district": "영천시"
     },
     "branches": [
@@ -124,19 +124,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "5602",
-      "name": "교동"
+      "name": "교동",
+      "province": "경북",
+      "district": "영천시"
     },
     {
       "gmgoCd": "5603",
-      "name": "영천"
+      "name": "영천",
+      "province": "경북",
+      "district": "영천시"
     },
     {
       "gmgoCd": "5605",
-      "name": "금호"
+      "name": "금호",
+      "province": "경북",
+      "district": "영천시"
     },
     {
       "gmgoCd": "5606",
-      "name": "별빛"
+      "name": "별빛",
+      "province": "경북",
+      "district": "영천시"
     }
   ]
 }

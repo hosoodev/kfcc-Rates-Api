@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1152",
   "name": "하이트진로",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "하이트진로(본점)",
       "address": "서울 서초구 서초중앙로 14",
       "phone": "02-520-3406",
-      "city": "서울",
+      "province": "서울",
       "district": "서초구"
     },
     "branches": []
@@ -43,15 +43,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "1101",
-      "name": "서초중앙"
+      "name": "서초중앙",
+      "province": "서울",
+      "district": "서초구"
     },
     {
       "gmgoCd": "1102",
-      "name": "서초"
+      "name": "서초",
+      "province": "서울",
+      "district": "서초구"
     },
     {
       "gmgoCd": "1104",
-      "name": "서초제일"
+      "name": "서초제일",
+      "province": "서울",
+      "district": "서초구"
     }
   ]
 }

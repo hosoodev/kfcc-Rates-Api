@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2010",
   "name": "남구희망",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "남구희망(본점)",
       "address": "대구 남구 안지랑로17길 85",
       "phone": "053-628-2008",
-      "city": "대구",
+      "province": "대구",
       "district": "남구"
     },
     "branches": [
@@ -120,23 +120,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1402",
-      "name": "대연"
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1403",
-      "name": "대연중앙"
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1404",
-      "name": "대연6동"
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1405",
-      "name": "용호"
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
     },
     {
       "gmgoCd": "1406",
-      "name": "남부"
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
     }
   ]
 }

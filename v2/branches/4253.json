@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4253",
   "name": "삼척도원",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "삼척도원(본점)",
       "address": "강원 삼척시 도계읍 도계로 224",
       "phone": "033-541-2108",
-      "city": "강원",
+      "province": "강원",
       "district": "삼척시"
     },
     "branches": [
@@ -66,11 +66,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "4250",
-      "name": "삼척중앙"
+      "name": "삼척중앙",
+      "province": "강원",
+      "district": "삼척시"
     },
     {
       "gmgoCd": "4251",
-      "name": "늘푸른"
+      "name": "늘푸른",
+      "province": "강원",
+      "district": "삼척시"
     }
   ]
 }

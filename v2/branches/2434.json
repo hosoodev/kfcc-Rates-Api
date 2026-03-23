@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2434",
   "name": "금호타이어",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "금호타이어(본점)",
       "address": "광주 광산구 어등대로 658",
       "phone": "062-940-2065",
-      "city": "광주",
+      "province": "광주",
       "district": "광산구"
     },
     "branches": [
@@ -66,11 +66,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2424",
-      "name": "한마음"
+      "name": "한마음",
+      "province": "광주",
+      "district": "광산구"
     },
     {
       "gmgoCd": "2448",
-      "name": "서광주"
+      "name": "서광주",
+      "province": "광주",
+      "district": "광산구"
     }
   ]
 }

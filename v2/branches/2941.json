@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2941",
   "name": "염산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "염산(본점)",
       "address": "전남 영광군 염산면 칠산로 63",
       "phone": "061-352-8700",
-      "city": "전남",
+      "province": "전남",
       "district": "영광군"
     },
     "branches": []
@@ -59,15 +59,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "2937",
-      "name": "영광"
+      "name": "영광",
+      "province": "전남",
+      "district": "영광군"
     },
     {
       "gmgoCd": "2939",
-      "name": "법성"
+      "name": "법성",
+      "province": "전남",
+      "district": "영광군"
     },
     {
       "gmgoCd": "2942",
-      "name": "백수"
+      "name": "백수",
+      "province": "전남",
+      "district": "영광군"
     }
   ]
 }

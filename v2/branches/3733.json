@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3733",
   "name": "과천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "과천(본점)",
       "address": "경기 과천시 별양로 142",
       "phone": "02-502-3155",
-      "city": "경기",
+      "province": "경기",
       "district": "과천시"
     },
     "branches": [
@@ -108,7 +108,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3711",
-      "name": "한국마사회"
+      "name": "한국마사회",
+      "province": "경기",
+      "district": "과천시"
     }
   ]
 }

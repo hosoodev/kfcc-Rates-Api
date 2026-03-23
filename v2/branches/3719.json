@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3719",
   "name": "산본",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "산본(본점)",
       "address": "경기 군포시 산본천로211번길 13",
       "phone": "031-393-4766",
-      "city": "경기",
+      "province": "경기",
       "district": "군포시"
     },
     "branches": [
@@ -91,11 +91,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3717",
-      "name": "금정"
+      "name": "금정",
+      "province": "경기",
+      "district": "군포시"
     },
     {
       "gmgoCd": "3718",
-      "name": "군포"
+      "name": "군포",
+      "province": "경기",
+      "district": "군포시"
     }
   ]
 }

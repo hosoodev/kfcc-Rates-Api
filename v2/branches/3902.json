@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3902",
   "name": "안산동부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "안산동부(본점)",
       "address": "경기 안산시 단원구 와동로 123",
       "phone": "031-480-5656",
-      "city": "경기",
+      "province": "경기",
       "district": "안산시"
     },
     "branches": [
@@ -112,23 +112,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3736",
-      "name": "시흥제일"
+      "name": "시흥제일",
+      "province": "경기",
+      "district": "안산시"
     },
     {
       "gmgoCd": "3903",
-      "name": "군자"
+      "name": "군자",
+      "province": "경기",
+      "district": "안산시"
     },
     {
       "gmgoCd": "3904",
-      "name": "신반월"
+      "name": "신반월",
+      "province": "경기",
+      "district": "안산시"
     },
     {
       "gmgoCd": "3949",
-      "name": "안산중앙"
+      "name": "안산중앙",
+      "province": "경기",
+      "district": "안산시"
     },
     {
       "gmgoCd": "3950",
-      "name": "안산서부"
+      "name": "안산서부",
+      "province": "경기",
+      "district": "안산시"
     }
   ]
 }

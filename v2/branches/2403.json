@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2403",
   "name": "동명",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "동명(본점)",
       "address": "광주 동구 필문대로 277",
       "phone": "062-227-7796",
-      "city": "광주",
+      "province": "광주",
       "district": "동구"
     },
     "branches": []
@@ -93,23 +93,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1303",
-      "name": "초량3동"
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1305",
-      "name": "동구중앙"
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1306",
-      "name": "수정"
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1307",
-      "name": "수정2동"
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1315",
-      "name": "범일동"
+      "name": "범일동",
+      "province": "부산",
+      "district": "동구"
     }
   ]
 }

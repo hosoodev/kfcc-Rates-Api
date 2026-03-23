@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4039",
   "name": "동두천중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "동두천중앙(본점)",
       "address": "경기 동두천시 중앙로 276",
       "phone": "031-862-3150",
-      "city": "경기",
+      "province": "경기",
       "district": "동두천시"
     },
     "branches": [
@@ -114,7 +114,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4023",
-      "name": "보산"
+      "name": "보산",
+      "province": "경기",
+      "district": "동두천시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6515",
   "name": "도봉",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "도봉(본점)",
       "address": "경남 통영시 도남로 181",
       "phone": "055-641-3214",
-      "city": "경남",
+      "province": "경남",
       "district": "통영시"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6501",
-      "name": "도천"
+      "name": "도천",
+      "province": "경남",
+      "district": "통영시"
     },
     {
       "gmgoCd": "6509",
-      "name": "동통영"
+      "name": "동통영",
+      "province": "경남",
+      "district": "통영시"
     },
     {
       "gmgoCd": "6510",
-      "name": "새통영"
+      "name": "새통영",
+      "province": "경남",
+      "district": "통영시"
     },
     {
       "gmgoCd": "6520",
-      "name": "성심"
+      "name": "성심",
+      "province": "경남",
+      "district": "통영시"
     },
     {
       "gmgoCd": "6543",
-      "name": "통제영"
+      "name": "통제영",
+      "province": "경남",
+      "district": "통영시"
     }
   ]
 }

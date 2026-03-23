@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4701",
   "name": "충주SM",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "충주SM(본점)",
       "address": "충북 충주시 관아4길 8",
       "phone": "043-852-9100",
-      "city": "충북",
+      "province": "충북",
       "district": "충주시"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4702",
-      "name": "예성"
+      "name": "예성",
+      "province": "충북",
+      "district": "충주시"
     },
     {
       "gmgoCd": "4703",
-      "name": "교현"
+      "name": "교현",
+      "province": "충북",
+      "district": "충주시"
     },
     {
       "gmgoCd": "4704",
-      "name": "문화"
+      "name": "문화",
+      "province": "충북",
+      "district": "충주시"
     },
     {
       "gmgoCd": "4705",
-      "name": "남충주"
+      "name": "남충주",
+      "province": "충북",
+      "district": "충주시"
     },
     {
       "gmgoCd": "4707",
-      "name": "새충주"
+      "name": "새충주",
+      "province": "충북",
+      "district": "충주시"
     }
   ]
 }

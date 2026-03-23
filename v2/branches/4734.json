@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4734",
   "name": "비석",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "비석(본점)",
       "address": "충북 음성군 음성읍 설성로 83",
       "phone": "043-872-1414",
-      "city": "충북",
+      "province": "충북",
       "district": "음성군"
     },
     "branches": [
@@ -100,19 +100,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "4733",
-      "name": "음성"
+      "name": "음성",
+      "province": "충북",
+      "district": "음성군"
     },
     {
       "gmgoCd": "4737",
-      "name": "한마음"
+      "name": "한마음",
+      "province": "충북",
+      "district": "음성군"
     },
     {
       "gmgoCd": "4738",
-      "name": "대동"
+      "name": "대동",
+      "province": "충북",
+      "district": "음성군"
     },
     {
       "gmgoCd": "4740",
-      "name": "삼왕"
+      "name": "삼왕",
+      "province": "충북",
+      "district": "음성군"
     }
   ]
 }

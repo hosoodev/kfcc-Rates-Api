@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4441",
   "name": "서석",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "서석(본점)",
       "address": "강원 홍천군 서석면 구룡령로 2534",
       "phone": "033-433-4071",
-      "city": "강원",
+      "province": "강원",
       "district": "홍천군"
     },
     "branches": []
@@ -101,7 +101,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4461",
-      "name": "홍천"
+      "name": "홍천",
+      "province": "강원",
+      "district": "홍천군"
     }
   ]
 }

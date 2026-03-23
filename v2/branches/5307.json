@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5307",
   "name": "북경주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "북경주(본점)",
       "address": "경북 경주시 안강읍 비화원로 64",
       "phone": "054-761-7077",
-      "city": "경북",
+      "province": "경북",
       "district": "경주시"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5301",
-      "name": "우성"
+      "name": "우성",
+      "province": "경북",
+      "district": "경주시"
     },
     {
       "gmgoCd": "5302",
-      "name": "성동"
+      "name": "성동",
+      "province": "경북",
+      "district": "경주시"
     },
     {
       "gmgoCd": "5303",
-      "name": "신경주"
+      "name": "신경주",
+      "province": "경북",
+      "district": "경주시"
     },
     {
       "gmgoCd": "5305",
-      "name": "경주"
+      "name": "경주",
+      "province": "경북",
+      "district": "경주시"
     },
     {
       "gmgoCd": "5306",
-      "name": "남경주"
+      "name": "남경주",
+      "province": "경북",
+      "district": "경주시"
     }
   ]
 }

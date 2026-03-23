@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3843",
   "name": "송탄",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "송탄(본점)",
       "address": "경기 평택시 송탄로 382",
       "phone": "031-664-9746",
-      "city": "경기",
+      "province": "경기",
       "district": "평택시"
     },
     "branches": [
@@ -112,19 +112,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "3833",
-      "name": "평택"
+      "name": "평택",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3834",
-      "name": "서평택"
+      "name": "서평택",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3838",
-      "name": "엘지전자평택"
+      "name": "엘지전자평택",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3841",
-      "name": "케이지모빌리티"
+      "name": "케이지모빌리티",
+      "province": "경기",
+      "district": "평택시"
     }
   ]
 }

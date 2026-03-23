@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3718",
   "name": "군포",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "군포(본점)",
       "address": "경기 군포시 군포로 522",
       "phone": "031-454-7577",
-      "city": "경기",
+      "province": "경기",
       "district": "군포시"
     },
     "branches": [
@@ -118,11 +118,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3717",
-      "name": "금정"
+      "name": "금정",
+      "province": "경기",
+      "district": "군포시"
     },
     {
       "gmgoCd": "3719",
-      "name": "산본"
+      "name": "산본",
+      "province": "경기",
+      "district": "군포시"
     }
   ]
 }

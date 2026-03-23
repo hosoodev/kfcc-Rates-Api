@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5820",
   "name": "백암",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "백암(본점)",
       "address": "경북 안동시 광명로 185",
       "phone": "054-853-3557",
-      "city": "경북",
+      "province": "경북",
       "district": "안동시"
     },
     "branches": [
@@ -126,23 +126,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1959",
-      "name": "경상북도청"
+      "name": "경상북도청",
+      "province": "경북",
+      "district": "안동시"
     },
     {
       "gmgoCd": "5801",
-      "name": "중앙"
+      "name": "중앙",
+      "province": "경북",
+      "district": "안동시"
     },
     {
       "gmgoCd": "5803",
-      "name": "용상"
+      "name": "용상",
+      "province": "경북",
+      "district": "안동시"
     },
     {
       "gmgoCd": "5804",
-      "name": "동남"
+      "name": "동남",
+      "province": "경북",
+      "district": "안동시"
     },
     {
       "gmgoCd": "5808",
-      "name": "안동"
+      "name": "안동",
+      "province": "경북",
+      "district": "안동시"
     }
   ]
 }

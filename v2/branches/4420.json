@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4420",
   "name": "북춘천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "북춘천(본점)",
       "address": "강원 춘천시 충열로 153",
       "phone": "033-257-7858",
-      "city": "강원",
+      "province": "강원",
       "district": "춘천시"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4457",
-      "name": "춘천남부"
+      "name": "춘천남부",
+      "province": "강원",
+      "district": "춘천시"
     },
     {
       "gmgoCd": "4458",
-      "name": "춘천중부"
+      "name": "춘천중부",
+      "province": "강원",
+      "district": "춘천시"
     },
     {
       "gmgoCd": "4459",
-      "name": "춘천동남"
+      "name": "춘천동남",
+      "province": "강원",
+      "district": "춘천시"
     },
     {
       "gmgoCd": "4460",
-      "name": "춘천동부"
+      "name": "춘천동부",
+      "province": "강원",
+      "district": "춘천시"
     },
     {
       "gmgoCd": "4464",
-      "name": "소양강"
+      "name": "소양강",
+      "province": "강원",
+      "district": "춘천시"
     }
   ]
 }

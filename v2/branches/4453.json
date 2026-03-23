@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4453",
   "name": "인제",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "인제(본점)",
       "address": "강원 인제군 인제읍 인제로 193",
       "phone": "033-461-4858",
-      "city": "강원",
+      "province": "강원",
       "district": "인제군"
     },
     "branches": [
@@ -106,7 +106,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4454",
-      "name": "하늘내린"
+      "name": "하늘내린",
+      "province": "강원",
+      "district": "인제군"
     }
   ]
 }

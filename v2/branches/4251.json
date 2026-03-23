@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4251",
   "name": "늘푸른",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "늘푸른(본점)",
       "address": "강원 삼척시 새천년도로 34",
       "phone": "033-574-1130",
-      "city": "강원",
+      "province": "강원",
       "district": "삼척시"
     },
     "branches": [
@@ -78,11 +78,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "4250",
-      "name": "삼척중앙"
+      "name": "삼척중앙",
+      "province": "강원",
+      "district": "삼척시"
     },
     {
       "gmgoCd": "4253",
-      "name": "삼척도원"
+      "name": "삼척도원",
+      "province": "강원",
+      "district": "삼척시"
     }
   ]
 }

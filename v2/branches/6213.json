@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6213",
   "name": "병영",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "병영(본점)",
       "address": "울산 중구 병영로 6",
       "phone": "052-298-1372",
-      "city": "울산",
+      "province": "울산",
       "district": "중구"
     },
     "branches": [
@@ -66,23 +66,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0203",
-      "name": "회현동"
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0204",
-      "name": "명동"
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0206",
-      "name": "필동"
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0208",
-      "name": "신당1.2.3동"
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0212",
-      "name": "동화동"
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
     }
   ]
 }

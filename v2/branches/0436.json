@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0436",
   "name": "성암",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "성암(본점)",
       "address": "서울 마포구 월드컵북로44길 29",
       "phone": "02-374-7447",
-      "city": "서울",
+      "province": "서울",
       "district": "마포구"
     },
     "branches": [
@@ -32,11 +32,11 @@
           "r": 2.7,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         }
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0423",
-      "name": "아현"
+      "name": "아현",
+      "province": "서울",
+      "district": "마포구"
     },
     {
       "gmgoCd": "0424",
-      "name": "마포중앙"
+      "name": "마포중앙",
+      "province": "서울",
+      "district": "마포구"
     },
     {
       "gmgoCd": "0427",
-      "name": "신공덕동"
+      "name": "신공덕동",
+      "province": "서울",
+      "district": "마포구"
     },
     {
       "gmgoCd": "0428",
-      "name": "신마포"
+      "name": "신마포",
+      "province": "서울",
+      "district": "마포구"
     },
     {
       "gmgoCd": "0429",
-      "name": "마포역"
+      "name": "마포역",
+      "province": "서울",
+      "district": "마포구"
     }
   ]
 }

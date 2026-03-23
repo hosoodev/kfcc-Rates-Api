@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3317",
   "name": "추부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "추부(본점)",
       "address": "충남 금산군 추부면 마전로 48",
       "phone": "041-752-8979",
-      "city": "충남",
+      "province": "충남",
       "district": "금산군"
     },
     "branches": [
@@ -108,11 +108,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3314",
-      "name": "금산"
+      "name": "금산",
+      "province": "충남",
+      "district": "금산군"
     },
     {
       "gmgoCd": "3318",
-      "name": "인삼시장"
+      "name": "인삼시장",
+      "province": "충남",
+      "district": "금산군"
     }
   ]
 }

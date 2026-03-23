@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3951",
   "name": "용인중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "용인중앙(본점)",
       "address": "경기 용인시 처인구 금령로85번길 14-3",
       "phone": "031-336-4441",
-      "city": "경기",
+      "province": "경기",
       "district": "용인시"
     },
     "branches": [
@@ -124,19 +124,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "3829",
-      "name": "삼성에스디아이"
+      "name": "삼성에스디아이",
+      "province": "경기",
+      "district": "용인시"
     },
     {
       "gmgoCd": "3848",
-      "name": "서용인"
+      "name": "서용인",
+      "province": "경기",
+      "district": "용인시"
     },
     {
       "gmgoCd": "3849",
-      "name": "우리용인"
+      "name": "우리용인",
+      "province": "경기",
+      "district": "용인시"
     },
     {
       "gmgoCd": "3850",
-      "name": "용인제일"
+      "name": "용인제일",
+      "province": "경기",
+      "district": "용인시"
     }
   ]
 }

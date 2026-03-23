@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0329",
   "name": "녹번동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "녹번동(본점)",
       "address": "서울 은평구 은평로 201",
       "phone": "02-383-5965",
-      "city": "서울",
+      "province": "서울",
       "district": "은평구"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0330",
-      "name": "서울은평"
+      "name": "서울은평",
+      "province": "서울",
+      "district": "은평구"
     },
     {
       "gmgoCd": "0331",
-      "name": "갈현동"
+      "name": "갈현동",
+      "province": "서울",
+      "district": "은평구"
     },
     {
       "gmgoCd": "0332",
-      "name": "구산동"
+      "name": "구산동",
+      "province": "서울",
+      "district": "은평구"
     },
     {
       "gmgoCd": "0334",
-      "name": "e-푸른"
+      "name": "e-푸른",
+      "province": "서울",
+      "district": "은평구"
     },
     {
       "gmgoCd": "0337",
-      "name": "은평"
+      "name": "은평",
+      "province": "서울",
+      "district": "은평구"
     }
   ]
 }

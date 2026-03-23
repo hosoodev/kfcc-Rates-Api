@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6053",
   "name": "밀양",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "밀양(본점)",
       "address": "경남 밀양시 중앙로 401",
       "phone": "055-354-3020",
-      "city": "경남",
+      "province": "경남",
       "district": "밀양시"
     },
     "branches": [
@@ -72,7 +72,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "6056",
-      "name": "밀양중앙"
+      "name": "밀양중앙",
+      "province": "경남",
+      "district": "밀양시"
     }
   ]
 }

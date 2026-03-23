@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4145",
   "name": "파주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "파주(본점)",
       "address": "경기 파주시 경의로 1090",
       "phone": "031-947-0626",
-      "city": "경기",
+      "province": "경기",
       "district": "파주시"
     },
     "branches": [
@@ -108,11 +108,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "4124",
-      "name": "우리"
+      "name": "우리",
+      "province": "경기",
+      "district": "파주시"
     },
     {
       "gmgoCd": "4141",
-      "name": "파주중앙"
+      "name": "파주중앙",
+      "province": "경기",
+      "district": "파주시"
     }
   ]
 }

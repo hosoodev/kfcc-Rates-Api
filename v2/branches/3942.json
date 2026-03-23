@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3942",
   "name": "안성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "안성(본점)",
       "address": "경기 안성시 아양2로 81",
       "phone": "031-675-3986",
-      "city": "경기",
+      "province": "경기",
       "district": "안성시"
     },
     "branches": [
@@ -106,7 +106,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3948",
-      "name": "안성장학"
+      "name": "안성장학",
+      "province": "경기",
+      "district": "안성시"
     }
   ]
 }

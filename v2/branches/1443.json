@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1443",
   "name": "수영",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "수영(본점)",
       "address": "부산 수영구 수영로705번길 48",
       "phone": "051-753-0381",
-      "city": "부산",
+      "province": "부산",
       "district": "수영구"
     },
     "branches": [
@@ -26,11 +26,11 @@
           "r": 3.1,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -108,19 +108,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "1442",
-      "name": "남천"
+      "name": "남천",
+      "province": "부산",
+      "district": "수영구"
     },
     {
       "gmgoCd": "1444",
-      "name": "수영중앙"
+      "name": "수영중앙",
+      "province": "부산",
+      "district": "수영구"
     },
     {
       "gmgoCd": "1446",
-      "name": "광안"
+      "name": "광안",
+      "province": "부산",
+      "district": "수영구"
     },
     {
       "gmgoCd": "1447",
-      "name": "민락동"
+      "name": "민락동",
+      "province": "부산",
+      "district": "수영구"
     }
   ]
 }

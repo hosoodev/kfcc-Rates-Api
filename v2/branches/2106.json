@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2106",
   "name": "성일",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "성일(본점)",
       "address": "대구 달서구 장기로 258",
       "phone": "053-523-6336",
-      "city": "대구",
+      "province": "대구",
       "district": "달서구"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2102",
-      "name": "대성"
+      "name": "대성",
+      "province": "대구",
+      "district": "달서구"
     },
     {
       "gmgoCd": "2103",
-      "name": "두류1.2동"
+      "name": "두류1.2동",
+      "province": "대구",
+      "district": "달서구"
     },
     {
       "gmgoCd": "2105",
-      "name": "두류"
+      "name": "두류",
+      "province": "대구",
+      "district": "달서구"
     },
     {
       "gmgoCd": "2107",
-      "name": "우리"
+      "name": "우리",
+      "province": "대구",
+      "district": "달서구"
     },
     {
       "gmgoCd": "2108",
-      "name": "서부"
+      "name": "서부",
+      "province": "대구",
+      "district": "달서구"
     }
   ]
 }

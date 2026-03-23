@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3433",
   "name": "남면",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "남면(본점)",
       "address": "충남 태안군 남면 남면로 102",
       "phone": "041-672-2745",
-      "city": "충남",
+      "province": "충남",
       "district": "태안군"
     },
     "branches": []
@@ -59,23 +59,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3431",
-      "name": "태안"
+      "name": "태안",
+      "province": "충남",
+      "district": "태안군"
     },
     {
       "gmgoCd": "3432",
-      "name": "안면도"
+      "name": "안면도",
+      "province": "충남",
+      "district": "태안군"
     },
     {
       "gmgoCd": "3434",
-      "name": "안흥"
+      "name": "안흥",
+      "province": "충남",
+      "district": "태안군"
     },
     {
       "gmgoCd": "3435",
-      "name": "소원"
+      "name": "소원",
+      "province": "충남",
+      "district": "태안군"
     },
     {
       "gmgoCd": "3436",
-      "name": "원북"
+      "name": "원북",
+      "province": "충남",
+      "district": "태안군"
     }
   ]
 }

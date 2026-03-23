@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6469",
   "name": "참좋은",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "참좋은(본점)",
       "address": "경남 진주시 진산로 5",
       "phone": "055-748-0180",
-      "city": "경남",
+      "province": "경남",
       "district": "진주시"
     },
     "branches": [
@@ -72,23 +72,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3568",
-      "name": "LH"
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
     },
     {
       "gmgoCd": "6401",
-      "name": "망경"
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
     },
     {
       "gmgoCd": "6402",
-      "name": "진주남부"
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
     },
     {
       "gmgoCd": "6404",
-      "name": "제일"
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
     },
     {
       "gmgoCd": "6407",
-      "name": "상봉"
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
     }
   ]
 }

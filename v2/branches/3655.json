@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3655",
   "name": "부천중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "부천중앙(본점)",
       "address": "경기 부천시 원미구 부일로 485",
       "phone": "-1899-7998",
-      "city": "경기",
+      "province": "경기",
       "district": "부천시"
     },
     "branches": [
@@ -120,23 +120,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3636",
-      "name": "부천제일"
+      "name": "부천제일",
+      "province": "경기",
+      "district": "부천시"
     },
     {
       "gmgoCd": "3637",
-      "name": "남부천"
+      "name": "남부천",
+      "province": "경기",
+      "district": "부천시"
     },
     {
       "gmgoCd": "3639",
-      "name": "성지"
+      "name": "성지",
+      "province": "경기",
+      "district": "부천시"
     },
     {
       "gmgoCd": "3641",
-      "name": "북부천"
+      "name": "북부천",
+      "province": "경기",
+      "district": "부천시"
     },
     {
       "gmgoCd": "3643",
-      "name": "송내"
+      "name": "송내",
+      "province": "경기",
+      "district": "부천시"
     }
   ]
 }

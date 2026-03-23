@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6521",
   "name": "능포",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "능포(본점)",
       "address": "경남 거제시 옥수로1길 3",
       "phone": "055-681-5775",
-      "city": "경남",
+      "province": "경남",
       "district": "거제시"
     },
     "branches": [
@@ -60,19 +60,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "6522",
-      "name": "옥포"
+      "name": "옥포",
+      "province": "경남",
+      "district": "거제시"
     },
     {
       "gmgoCd": "6524",
-      "name": "거제"
+      "name": "거제",
+      "province": "경남",
+      "district": "거제시"
     },
     {
       "gmgoCd": "6526",
-      "name": "한화오션"
+      "name": "한화오션",
+      "province": "경남",
+      "district": "거제시"
     },
     {
       "gmgoCd": "6527",
-      "name": "삼성중공업㈜"
+      "name": "삼성중공업㈜",
+      "province": "경남",
+      "district": "거제시"
     }
   ]
 }

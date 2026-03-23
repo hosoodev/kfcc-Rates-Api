@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4301",
   "name": "원주중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "원주중앙(본점)",
       "address": "강원 원주시 평원로 65",
       "phone": "033-742-4477",
-      "city": "강원",
+      "province": "강원",
       "district": "원주시"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4302",
-      "name": "신원주"
+      "name": "신원주",
+      "province": "강원",
+      "district": "원주시"
     },
     {
       "gmgoCd": "4303",
-      "name": "동원주"
+      "name": "동원주",
+      "province": "강원",
+      "district": "원주시"
     },
     {
       "gmgoCd": "4306",
-      "name": "단구"
+      "name": "단구",
+      "province": "강원",
+      "district": "원주시"
     },
     {
       "gmgoCd": "4309",
-      "name": "꿈드림"
+      "name": "꿈드림",
+      "province": "강원",
+      "district": "원주시"
     },
     {
       "gmgoCd": "4313",
-      "name": "원주우리"
+      "name": "원주우리",
+      "province": "강원",
+      "district": "원주시"
     }
   ]
 }

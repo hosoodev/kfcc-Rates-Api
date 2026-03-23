@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2709",
   "name": "봉성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "봉성(본점)",
       "address": "전남 구례군 구례읍 상설시장길 20",
       "phone": "061-782-3180",
-      "city": "전남",
+      "province": "전남",
       "district": "구례군"
     },
     "branches": [
@@ -32,7 +32,22 @@
     ]
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -50,7 +65,12 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
     "saving": null
   },
   "grades_history": [
@@ -78,7 +98,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "2716",
-      "name": "구례"
+      "name": "구례",
+      "province": "전남",
+      "district": "구례군"
     }
   ]
 }

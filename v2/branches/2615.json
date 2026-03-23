@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2615",
   "name": "새여수",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "새여수(본점)",
       "address": "전남 여수시 웅천로 347",
       "phone": "061-691-6201",
-      "city": "전남",
+      "province": "전남",
       "district": "여수시"
     },
     "branches": [
@@ -66,23 +66,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2601",
-      "name": "동여수"
+      "name": "동여수",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2602",
-      "name": "여수엑스포"
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2604",
-      "name": "중앙"
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2605",
-      "name": "여수중부"
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2606",
-      "name": "충무"
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
     }
   ]
 }

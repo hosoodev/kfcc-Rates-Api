@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2831",
   "name": "해제",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "해제(본점)",
       "address": "전남 무안군 해제면 봉대로 32",
       "phone": "061-452-6249",
-      "city": "전남",
+      "province": "전남",
       "district": "무안군"
     },
     "branches": [
@@ -108,11 +108,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2830",
-      "name": "무안"
+      "name": "무안",
+      "province": "전남",
+      "district": "무안군"
     },
     {
       "gmgoCd": "2833",
-      "name": "남악"
+      "name": "남악",
+      "province": "전남",
+      "district": "무안군"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2521",
   "name": "태봉",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "태봉(본점)",
       "address": "광주 북구 무등로 104",
       "phone": "062-528-8344",
-      "city": "광주",
+      "province": "광주",
       "district": "북구"
     },
     "branches": [
@@ -100,23 +100,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1614",
-      "name": "부산화명"
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
     },
     {
       "gmgoCd": "1615",
-      "name": "북부산"
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
     },
     {
       "gmgoCd": "1617",
-      "name": "구포"
+      "name": "구포",
+      "province": "부산",
+      "district": "북구"
     },
     {
       "gmgoCd": "1618",
-      "name": "신만덕"
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
     },
     {
       "gmgoCd": "1934",
-      "name": "북구"
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
     }
   ]
 }

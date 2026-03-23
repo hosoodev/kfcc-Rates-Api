@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5123",
   "name": "인화",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "인화(본점)",
       "address": "전북 익산시 평동로11길 9",
       "phone": "063-841-9867",
-      "city": "전북",
+      "province": "전북",
       "district": "익산시"
     },
     "branches": [
@@ -100,23 +100,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5122",
-      "name": "이리평화"
+      "name": "이리평화",
+      "province": "전북",
+      "district": "익산시"
     },
     {
       "gmgoCd": "5125",
-      "name": "익산서부"
+      "name": "익산서부",
+      "province": "전북",
+      "district": "익산시"
     },
     {
       "gmgoCd": "5128",
-      "name": "신익산"
+      "name": "신익산",
+      "province": "전북",
+      "district": "익산시"
     },
     {
       "gmgoCd": "5132",
-      "name": "원광대학교"
+      "name": "원광대학교",
+      "province": "전북",
+      "district": "익산시"
     },
     {
       "gmgoCd": "5134",
-      "name": "익산중앙"
+      "name": "익산중앙",
+      "province": "전북",
+      "district": "익산시"
     }
   ]
 }

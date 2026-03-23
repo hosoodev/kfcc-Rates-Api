@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2309",
   "name": "구월남촌",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "구월남촌(본점)",
       "address": "인천 남동구 호구포로 802",
       "phone": "032-465-5189",
-      "city": "인천",
+      "province": "인천",
       "district": "남동구"
     },
     "branches": [
@@ -106,19 +106,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "2303",
-      "name": "인주"
+      "name": "인주",
+      "province": "인천",
+      "district": "남동구"
     },
     {
       "gmgoCd": "2304",
-      "name": "상인천"
+      "name": "상인천",
+      "province": "인천",
+      "district": "남동구"
     },
     {
       "gmgoCd": "2306",
-      "name": "만수"
+      "name": "만수",
+      "province": "인천",
+      "district": "남동구"
     },
     {
       "gmgoCd": "2307",
-      "name": "남동"
+      "name": "남동",
+      "province": "인천",
+      "district": "남동구"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2359",
   "name": "송도",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "송도(본점)",
       "address": "인천 연수구 컨벤시아대로 81",
       "phone": "032-859-5300",
-      "city": "인천",
+      "province": "인천",
       "district": "연수구"
     },
     "branches": [
@@ -114,11 +114,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "1022",
-      "name": "앰코테크놀로지코리아"
+      "name": "앰코테크놀로지코리아",
+      "province": "인천",
+      "district": "연수구"
     },
     {
       "gmgoCd": "2301",
-      "name": "연수"
+      "name": "연수",
+      "province": "인천",
+      "district": "연수구"
     }
   ]
 }

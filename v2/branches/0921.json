@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0921",
   "name": "은천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "은천(본점)",
       "address": "서울 관악구 은천로 95",
       "phone": "02-878-0689",
-      "city": "서울",
+      "province": "서울",
       "district": "관악구"
     },
     "branches": []
@@ -59,23 +59,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0922",
-      "name": "보라매"
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0923",
-      "name": "관악"
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0925",
-      "name": "봉천"
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0926",
-      "name": "낙성대"
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0927",
-      "name": "관악중앙"
+      "name": "관악중앙",
+      "province": "서울",
+      "district": "관악구"
     }
   ]
 }

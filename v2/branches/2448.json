@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2448",
   "name": "서광주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "서광주(본점)",
       "address": "광주 광산구 송정로29번길 37",
       "phone": "062-944-4502",
-      "city": "광주",
+      "province": "광주",
       "district": "광산구"
     },
     "branches": [
@@ -72,11 +72,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2424",
-      "name": "한마음"
+      "name": "한마음",
+      "province": "광주",
+      "district": "광산구"
     },
     {
       "gmgoCd": "2434",
-      "name": "금호타이어"
+      "name": "금호타이어",
+      "province": "광주",
+      "district": "광산구"
     }
   ]
 }

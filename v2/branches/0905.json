@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0905",
   "name": "한강",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "한강(본점)",
       "address": "서울 동작구 성대로2길 14",
       "phone": "02-821-1421",
-      "city": "서울",
+      "province": "서울",
       "district": "동작구"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0901",
-      "name": "노들"
+      "name": "노들",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0902",
-      "name": "노량진"
+      "name": "노량진",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0903",
-      "name": "상도"
+      "name": "상도",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0906",
-      "name": "상도중앙"
+      "name": "상도중앙",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0909",
-      "name": "흑석"
+      "name": "흑석",
+      "province": "서울",
+      "district": "동작구"
     }
   ]
 }

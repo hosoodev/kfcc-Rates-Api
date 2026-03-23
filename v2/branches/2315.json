@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2315",
   "name": "부일",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "부일(본점)",
       "address": "인천 부평구 부평대로 109",
       "phone": "032-511-7101",
-      "city": "인천",
+      "province": "인천",
       "district": "부평구"
     },
     "branches": [
@@ -30,7 +30,15 @@
       "MG더뱅킹정기예금": {
         "12": {
           "r": 3.0,
-          "s": "w"
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
         }
       }
     },
@@ -72,7 +80,7 @@
       "name": "MG더뱅킹정기예금",
       "month": "12",
       "r": 3.0,
-      "s": "w"
+      "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
@@ -106,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2316",
-      "name": "부평남부"
+      "name": "부평남부",
+      "province": "인천",
+      "district": "부평구"
     },
     {
       "gmgoCd": "2317",
-      "name": "부평제일"
+      "name": "부평제일",
+      "province": "인천",
+      "district": "부평구"
     },
     {
       "gmgoCd": "2318",
-      "name": "부평중앙"
+      "name": "부평중앙",
+      "province": "인천",
+      "district": "부평구"
     },
     {
       "gmgoCd": "2319",
-      "name": "부평동부"
+      "name": "부평동부",
+      "province": "인천",
+      "district": "부평구"
     },
     {
       "gmgoCd": "2321",
-      "name": "산곡십정"
+      "name": "산곡십정",
+      "province": "인천",
+      "district": "부평구"
     }
   ]
 }

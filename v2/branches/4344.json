@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4344",
   "name": "태백",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "태백(본점)",
       "address": "강원 태백시 시장북길 26",
       "phone": "033-553-0300",
-      "city": "강원",
+      "province": "강원",
       "district": "태백시"
     },
     "branches": [
@@ -72,7 +72,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4331",
-      "name": "화광"
+      "name": "화광",
+      "province": "강원",
+      "district": "태백시"
     }
   ]
 }

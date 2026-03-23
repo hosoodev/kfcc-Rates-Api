@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0533",
   "name": "중랑우리",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "중랑우리(본점)",
       "address": "서울 중랑구 동일로130길 9",
       "phone": "02-435-0130",
-      "city": "서울",
+      "province": "서울",
       "district": "중랑구"
     },
     "branches": []
@@ -90,23 +90,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0527",
-      "name": "중랑서부"
+      "name": "중랑서부",
+      "province": "서울",
+      "district": "중랑구"
     },
     {
       "gmgoCd": "0528",
-      "name": "사가정"
+      "name": "사가정",
+      "province": "서울",
+      "district": "중랑구"
     },
     {
       "gmgoCd": "0529",
-      "name": "서울동부"
+      "name": "서울동부",
+      "province": "서울",
+      "district": "중랑구"
     },
     {
       "gmgoCd": "0530",
-      "name": "용마"
+      "name": "용마",
+      "province": "서울",
+      "district": "중랑구"
     },
     {
       "gmgoCd": "0531",
-      "name": "서울상봉"
+      "name": "서울상봉",
+      "province": "서울",
+      "district": "중랑구"
     }
   ]
 }

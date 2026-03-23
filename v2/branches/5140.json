@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5140",
   "name": "만경",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "만경(본점)",
       "address": "전북 김제시 만경읍 만경4길 48",
       "phone": "063-542-6082",
-      "city": "전북",
+      "province": "전북",
       "district": "김제시"
     },
     "branches": []
@@ -96,15 +96,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "5138",
-      "name": "김제하나"
+      "name": "김제하나",
+      "province": "전북",
+      "district": "김제시"
     },
     {
       "gmgoCd": "5141",
-      "name": "지평선"
+      "name": "지평선",
+      "province": "전북",
+      "district": "김제시"
     },
     {
       "gmgoCd": "5144",
-      "name": "새만금"
+      "name": "새만금",
+      "province": "전북",
+      "district": "김제시"
     }
   ]
 }

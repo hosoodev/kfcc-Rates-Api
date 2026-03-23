@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1015",
   "name": "성수1가",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "성수1가(본점)",
       "address": "서울 성동구 성덕정길 57-1",
       "phone": "02-463-4839",
-      "city": "서울",
+      "province": "서울",
       "district": "성동구"
     },
     "branches": []
@@ -101,23 +101,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1003",
-      "name": "왕십리중앙"
+      "name": "왕십리중앙",
+      "province": "서울",
+      "district": "성동구"
     },
     {
       "gmgoCd": "1007",
-      "name": "무지개"
+      "name": "무지개",
+      "province": "서울",
+      "district": "성동구"
     },
     {
       "gmgoCd": "1011",
-      "name": "금호"
+      "name": "금호",
+      "province": "서울",
+      "district": "성동구"
     },
     {
       "gmgoCd": "1013",
-      "name": "서울금남"
+      "name": "서울금남",
+      "province": "서울",
+      "district": "성동구"
     },
     {
       "gmgoCd": "1016",
-      "name": "성수2가1동"
+      "name": "성수2가1동",
+      "province": "서울",
+      "district": "성동구"
     }
   ]
 }

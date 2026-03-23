@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4230",
   "name": "동해남부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "동해남부(본점)",
       "address": "강원 동해시 효자로 684",
       "phone": "033-521-0235",
-      "city": "강원",
+      "province": "강원",
       "district": "동해시"
     },
     "branches": [
@@ -108,19 +108,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "4232",
-      "name": "동해중앙"
+      "name": "동해중앙",
+      "province": "강원",
+      "district": "동해시"
     },
     {
       "gmgoCd": "4237",
-      "name": "동해항운노동조합직장"
+      "name": "동해항운노동조합직장",
+      "province": "강원",
+      "district": "동해시"
     },
     {
       "gmgoCd": "4239",
-      "name": "동해해오름"
+      "name": "동해해오름",
+      "province": "강원",
+      "district": "동해시"
     },
     {
       "gmgoCd": "4268",
-      "name": "동해우리"
+      "name": "동해우리",
+      "province": "강원",
+      "district": "동해시"
     }
   ]
 }

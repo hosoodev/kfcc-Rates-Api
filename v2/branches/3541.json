@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3541",
   "name": "남한산성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "남한산성(본점)",
       "address": "경기 광주시 남한산성면 남한산성로 767",
       "phone": "031-749-9668",
-      "city": "경기",
+      "province": "경기",
       "district": "광주시"
     },
     "branches": [
@@ -114,7 +114,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3539",
-      "name": "광주"
+      "name": "광주",
+      "province": "경기",
+      "district": "광주시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2125",
   "name": "옥포",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "옥포(본점)",
       "address": "대구 달성군 옥포읍 비슬로 2192",
       "phone": "053-614-5512",
-      "city": "대구",
+      "province": "대구",
       "district": "달성군"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2122",
-      "name": "가창"
+      "name": "가창",
+      "province": "대구",
+      "district": "달성군"
     },
     {
       "gmgoCd": "2124",
-      "name": "화원"
+      "name": "화원",
+      "province": "대구",
+      "district": "달성군"
     },
     {
       "gmgoCd": "2126",
-      "name": "달성"
+      "name": "달성",
+      "province": "대구",
+      "district": "달성군"
     },
     {
       "gmgoCd": "2127",
-      "name": "현풍"
+      "name": "현풍",
+      "province": "대구",
+      "district": "달성군"
     },
     {
       "gmgoCd": "2128",
-      "name": "구지"
+      "name": "구지",
+      "province": "대구",
+      "district": "달성군"
     }
   ]
 }

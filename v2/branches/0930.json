@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0930",
   "name": "신림",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "신림(본점)",
       "address": "서울 관악구 신림동길 21-1",
       "phone": "02-873-8608",
-      "city": "서울",
+      "province": "서울",
       "district": "관악구"
     },
     "branches": []
@@ -19,11 +19,11 @@
           "r": 3.09,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -73,23 +73,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0921",
-      "name": "은천"
+      "name": "은천",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0922",
-      "name": "보라매"
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0923",
-      "name": "관악"
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0925",
-      "name": "봉천"
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
     },
     {
       "gmgoCd": "0926",
-      "name": "낙성대"
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
     }
   ]
 }

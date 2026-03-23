@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3708",
   "name": "기아",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "기아(본점)",
       "address": "경기 광명시 기아로 34",
       "phone": "02-801-2420",
-      "city": "경기",
+      "province": "경기",
       "district": "광명시"
     },
     "branches": [
@@ -102,19 +102,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "3703",
-      "name": "광남"
+      "name": "광남",
+      "province": "경기",
+      "district": "광명시"
     },
     {
       "gmgoCd": "3704",
-      "name": "제일"
+      "name": "제일",
+      "province": "경기",
+      "district": "광명시"
     },
     {
       "gmgoCd": "3735",
-      "name": "광명동부"
+      "name": "광명동부",
+      "province": "경기",
+      "district": "광명시"
     },
     {
       "gmgoCd": "3737",
-      "name": "광명"
+      "name": "광명",
+      "province": "경기",
+      "district": "광명시"
     }
   ]
 }

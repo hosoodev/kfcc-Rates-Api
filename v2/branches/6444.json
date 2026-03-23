@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6444",
   "name": "미송",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "미송(본점)",
       "address": "경남 남해군 미조면 미조로236번길 21-5",
       "phone": "055-867-6969",
-      "city": "경남",
+      "province": "경남",
       "district": "남해군"
     },
     "branches": [
@@ -84,11 +84,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "6442",
-      "name": "새남해"
+      "name": "새남해",
+      "province": "경남",
+      "district": "남해군"
     },
     {
       "gmgoCd": "6467",
-      "name": "창선"
+      "name": "창선",
+      "province": "경남",
+      "district": "남해군"
     }
   ]
 }

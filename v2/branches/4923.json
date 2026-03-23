@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4923",
   "name": "장수",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "장수(본점)",
       "address": "전북 장수군 장수읍 장천로 174-1",
       "phone": "063-351-2688",
-      "city": "전북",
+      "province": "전북",
       "district": "장수군"
     },
     "branches": []
@@ -93,11 +93,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "4924",
-      "name": "장계"
+      "name": "장계",
+      "province": "전북",
+      "district": "장수군"
     },
     {
       "gmgoCd": "4925",
-      "name": "산서"
+      "name": "산서",
+      "province": "전북",
+      "district": "장수군"
     }
   ]
 }

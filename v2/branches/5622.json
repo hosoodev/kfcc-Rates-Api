@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5622",
   "name": "경산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "경산(본점)",
       "address": "경북 경산시 중앙로17길 9",
       "phone": "053-811-7510",
-      "city": "경북",
+      "province": "경북",
       "district": "경산시"
     },
     "branches": [
@@ -32,11 +32,11 @@
           "r": 3.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5623",
-      "name": "새경산"
+      "name": "새경산",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5624",
-      "name": "화성"
+      "name": "화성",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5625",
-      "name": "다문"
+      "name": "다문",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5626",
-      "name": "부림"
+      "name": "부림",
+      "province": "경북",
+      "district": "경산시"
     },
     {
       "gmgoCd": "5627",
-      "name": "진량"
+      "name": "진량",
+      "province": "경북",
+      "district": "경산시"
     }
   ]
 }

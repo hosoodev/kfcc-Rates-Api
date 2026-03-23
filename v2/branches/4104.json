@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4104",
   "name": "다산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "다산(본점)",
       "address": "경기 남양주시 경춘로 381",
       "phone": "031-566-6373",
-      "city": "경기",
+      "province": "경기",
       "district": "남양주시"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4106",
-      "name": "별내"
+      "name": "별내",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4107",
-      "name": "화도"
+      "name": "화도",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4108",
-      "name": "중부"
+      "name": "중부",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4109",
-      "name": "진접"
+      "name": "진접",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4110",
-      "name": "남양주중앙"
+      "name": "남양주중앙",
+      "province": "경기",
+      "district": "남양주시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3132",
   "name": "대전서부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "대전서부(본점)",
       "address": "대전 서구 도솔로 72",
       "phone": "042-533-5890",
-      "city": "대전",
+      "province": "대전",
       "district": "서구"
     },
     "branches": [
@@ -136,23 +136,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1213",
-      "name": "부산구덕"
+      "name": "부산구덕",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1216",
-      "name": "서구중앙"
+      "name": "서구중앙",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1217",
-      "name": "대신동"
+      "name": "대신동",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1224",
-      "name": "천마"
+      "name": "천마",
+      "province": "부산",
+      "district": "서구"
     },
     {
       "gmgoCd": "1228",
-      "name": "서부"
+      "name": "서부",
+      "province": "부산",
+      "district": "서구"
     }
   ]
 }

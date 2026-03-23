@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3239",
   "name": "웅진",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "웅진(옥룡)",
       "address": "충남 공주시 무령로 285",
       "phone": "041-852-5890",
-      "city": "충남",
+      "province": "충남",
       "district": "공주시"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3223",
-      "name": "합동"
+      "name": "합동",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3225",
-      "name": "이인"
+      "name": "이인",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3228",
-      "name": "대성"
+      "name": "대성",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3231",
-      "name": "유구"
+      "name": "유구",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3234",
-      "name": "백제"
+      "name": "백제",
+      "province": "충남",
+      "district": "공주시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3425",
   "name": "삽교",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "삽교(본점)",
       "address": "충남 예산군 삽교읍 삽교로 81",
       "phone": "041-338-2887",
-      "city": "충남",
+      "province": "충남",
       "district": "예산군"
     },
     "branches": [
@@ -108,15 +108,21 @@
   "nearby_branches": [
     {
       "gmgoCd": "3422",
-      "name": "예산"
+      "name": "예산",
+      "province": "충남",
+      "district": "예산군"
     },
     {
       "gmgoCd": "3423",
-      "name": "금오"
+      "name": "금오",
+      "province": "충남",
+      "district": "예산군"
     },
     {
       "gmgoCd": "3424",
-      "name": "신례원"
+      "name": "신례원",
+      "province": "충남",
+      "district": "예산군"
     }
   ]
 }

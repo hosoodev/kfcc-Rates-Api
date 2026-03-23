@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3833",
   "name": "평택",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "평택(본점)",
       "address": "경기 평택시 중앙2로 7",
       "phone": "031-652-4951",
-      "city": "경기",
+      "province": "경기",
       "district": "평택시"
     },
     "branches": [
@@ -50,11 +50,11 @@
           "r": 2.9,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -132,19 +132,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "3834",
-      "name": "서평택"
+      "name": "서평택",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3838",
-      "name": "엘지전자평택"
+      "name": "엘지전자평택",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3841",
-      "name": "케이지모빌리티"
+      "name": "케이지모빌리티",
+      "province": "경기",
+      "district": "평택시"
     },
     {
       "gmgoCd": "3843",
-      "name": "송탄"
+      "name": "송탄",
+      "province": "경기",
+      "district": "평택시"
     }
   ]
 }

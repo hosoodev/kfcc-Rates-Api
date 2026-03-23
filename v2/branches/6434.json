@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6434",
   "name": "노산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "노산(본점)",
       "address": "경남 사천시 주공로 27",
       "phone": "055-833-3600",
-      "city": "경남",
+      "province": "경남",
       "district": "사천시"
     },
     "branches": [
@@ -66,19 +66,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "6427",
-      "name": "사천"
+      "name": "사천",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6432",
-      "name": "사남"
+      "name": "사남",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6433",
-      "name": "삼천포"
+      "name": "삼천포",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6438",
-      "name": "한국항공우주산업㈜"
+      "name": "한국항공우주산업㈜",
+      "province": "경남",
+      "district": "사천시"
     }
   ]
 }

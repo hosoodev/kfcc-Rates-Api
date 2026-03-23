@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0310",
   "name": "한강2동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "한강2동(본점)",
       "address": "서울 용산구 한강대로44길 5",
       "phone": "02-795-1883",
-      "city": "서울",
+      "province": "서울",
       "district": "용산구"
     },
     "branches": []
@@ -97,23 +97,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0303",
-      "name": "용산"
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
     },
     {
       "gmgoCd": "0304",
-      "name": "청파"
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
     },
     {
       "gmgoCd": "0307",
-      "name": "효창"
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
     },
     {
       "gmgoCd": "0308",
-      "name": "용문후암"
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
     },
     {
       "gmgoCd": "0311",
-      "name": "한강로3가"
+      "name": "한강로3가",
+      "province": "서울",
+      "district": "용산구"
     }
   ]
 }

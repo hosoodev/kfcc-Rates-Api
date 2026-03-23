@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1128",
   "name": "한국무역협회",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "한국무역협회(본점)",
       "address": "서울 강남구 영동대로 511",
       "phone": "02-6000-5088",
-      "city": "서울",
+      "province": "서울",
       "district": "강남구"
     },
     "branches": []
@@ -46,23 +46,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0722",
-      "name": "세종"
+      "name": "세종",
+      "province": "서울",
+      "district": "강남구"
     },
     {
       "gmgoCd": "1111",
-      "name": "청담동"
+      "name": "청담동",
+      "province": "서울",
+      "district": "강남구"
     },
     {
       "gmgoCd": "1112",
-      "name": "대왕"
+      "name": "대왕",
+      "province": "서울",
+      "district": "강남구"
     },
     {
       "gmgoCd": "1114",
-      "name": "강남중앙"
+      "name": "강남중앙",
+      "province": "서울",
+      "district": "강남구"
     },
     {
       "gmgoCd": "1116",
-      "name": "강남영동"
+      "name": "강남영동",
+      "province": "서울",
+      "district": "강남구"
     }
   ]
 }

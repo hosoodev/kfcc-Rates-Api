@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3441",
   "name": "당진동부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "당진동부(본점)",
       "address": "충남 당진시 신평면 거산3거리길 18",
       "phone": "041-363-1555",
-      "city": "충남",
+      "province": "충남",
       "district": "당진시"
     },
     "branches": [
@@ -66,11 +66,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3437",
-      "name": "당진"
+      "name": "당진",
+      "province": "충남",
+      "district": "당진시"
     },
     {
       "gmgoCd": "3440",
-      "name": "당진서부"
+      "name": "당진서부",
+      "province": "충남",
+      "district": "당진시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1909",
   "name": "효목",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "효목(본점)",
       "address": "대구 동구 아양로50길 116",
       "phone": "053-952-2255",
-      "city": "대구",
+      "province": "대구",
       "district": "동구"
     },
     "branches": []
@@ -71,23 +71,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "1303",
-      "name": "초량3동"
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1305",
-      "name": "동구중앙"
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1306",
-      "name": "수정"
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1307",
-      "name": "수정2동"
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
     },
     {
       "gmgoCd": "1315",
-      "name": "범일동"
+      "name": "범일동",
+      "province": "부산",
+      "district": "동구"
     }
   ]
 }

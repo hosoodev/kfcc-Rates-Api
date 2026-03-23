@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3657",
   "name": "안양북부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "안양북부(본점)",
       "address": "경기 안양시 만안구 안양로 487",
       "phone": "031-472-0466",
-      "city": "경기",
+      "province": "경기",
       "district": "안양시"
     },
     "branches": [
@@ -118,23 +118,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3603",
-      "name": "안양협심"
+      "name": "안양협심",
+      "province": "경기",
+      "district": "안양시"
     },
     {
       "gmgoCd": "3606",
-      "name": "안양"
+      "name": "안양",
+      "province": "경기",
+      "district": "안양시"
     },
     {
       "gmgoCd": "3607",
-      "name": "안양제일"
+      "name": "안양제일",
+      "province": "경기",
+      "district": "안양시"
     },
     {
       "gmgoCd": "3609",
-      "name": "안양동부"
+      "name": "안양동부",
+      "province": "경기",
+      "district": "안양시"
     },
     {
       "gmgoCd": "3611",
-      "name": "동안"
+      "name": "동안",
+      "province": "경기",
+      "district": "안양시"
     }
   ]
 }

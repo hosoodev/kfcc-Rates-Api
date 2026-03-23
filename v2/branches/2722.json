@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2722",
   "name": "고흥",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "고흥(본점)",
       "address": "전남 고흥군 고흥읍 시장길 41",
       "phone": "061-832-2072",
-      "city": "전남",
+      "province": "전남",
       "district": "고흥군"
     },
     "branches": [
@@ -60,11 +60,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2723",
-      "name": "녹동"
+      "name": "녹동",
+      "province": "전남",
+      "district": "고흥군"
     },
     {
       "gmgoCd": "2724",
-      "name": "우주"
+      "name": "우주",
+      "province": "전남",
+      "district": "고흥군"
     }
   ]
 }

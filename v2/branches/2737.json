@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2737",
   "name": "보성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "보성(본점)",
       "address": "전남 보성군 보성읍 신흥길 8",
       "phone": "061-853-1133",
-      "city": "전남",
+      "province": "전남",
       "district": "보성군"
     },
     "branches": [
@@ -101,7 +101,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "2736",
-      "name": "벌교"
+      "name": "벌교",
+      "province": "전남",
+      "district": "보성군"
     }
   ]
 }

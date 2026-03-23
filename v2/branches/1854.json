@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1854",
   "name": "중대구",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "중대구(본점)",
       "address": "대구 중구 달구벌대로 2210-19",
       "phone": "053-431-1155",
-      "city": "대구",
+      "province": "대구",
       "district": "중구"
     },
     "branches": [
@@ -42,15 +42,15 @@
       "MG더뱅킹정기예금": {
         "3": {
           "r": 2.1,
-          "s": "w"
+          "s": "m"
         },
         "6": {
           "r": 2.3,
-          "s": "w"
+          "s": "m"
         },
         "12": {
           "r": 3.42,
-          "s": "w"
+          "s": "m"
         }
       }
     },
@@ -92,7 +92,7 @@
       "name": "MG더뱅킹정기예금",
       "month": "12",
       "r": 3.42,
-      "s": "w"
+      "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
@@ -126,23 +126,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0203",
-      "name": "회현동"
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0204",
-      "name": "명동"
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0206",
-      "name": "필동"
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0208",
-      "name": "신당1.2.3동"
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
     },
     {
       "gmgoCd": "0212",
-      "name": "동화동"
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
     }
   ]
 }

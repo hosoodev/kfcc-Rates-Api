@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2241",
   "name": "도화1동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "도화1동(본점)",
       "address": "인천 미추홀구 경인로 248",
       "phone": "032-863-6661",
-      "city": "인천",
+      "province": "인천",
       "district": "미추홀구"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2234",
-      "name": "제물포"
+      "name": "제물포",
+      "province": "인천",
+      "district": "미추홀구"
     },
     {
       "gmgoCd": "2235",
-      "name": "용일"
+      "name": "용일",
+      "province": "인천",
+      "district": "미추홀구"
     },
     {
       "gmgoCd": "2237",
-      "name": "새인천"
+      "name": "새인천",
+      "province": "인천",
+      "district": "미추홀구"
     },
     {
       "gmgoCd": "2238",
-      "name": "한마음"
+      "name": "한마음",
+      "province": "인천",
+      "district": "미추홀구"
     },
     {
       "gmgoCd": "2239",
-      "name": "학익"
+      "name": "학익",
+      "province": "인천",
+      "district": "미추홀구"
     }
   ]
 }

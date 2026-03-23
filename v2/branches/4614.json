@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4614",
   "name": "옥천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "옥천(본점)",
       "address": "충북 옥천군 옥천읍 금장로 27",
       "phone": "043-732-1486",
-      "city": "충북",
+      "province": "충북",
       "district": "옥천군"
     },
     "branches": []
@@ -59,7 +59,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4617",
-      "name": "이원"
+      "name": "이원",
+      "province": "충북",
+      "district": "옥천군"
     }
   ]
 }

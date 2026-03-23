@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3419",
   "name": "홍성중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "홍성중앙(본점)",
       "address": "충남 홍성군 홍성읍 의사로36번길 38-10",
       "phone": "041-634-3020",
-      "city": "충남",
+      "province": "충남",
       "district": "홍성군"
     },
     "branches": [
@@ -100,7 +100,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3421",
-      "name": "홍주"
+      "name": "홍주",
+      "province": "충남",
+      "district": "홍성군"
     }
   ]
 }

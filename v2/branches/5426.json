@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5426",
   "name": "화령",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "화령(본점)",
       "address": "경북 상주시 화서면 화령로 25",
       "phone": "054-533-0228",
-      "city": "경북",
+      "province": "경북",
       "district": "상주시"
     },
     "branches": []
@@ -84,19 +84,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "5422",
-      "name": "상산"
+      "name": "상산",
+      "province": "경북",
+      "district": "상주시"
     },
     {
       "gmgoCd": "5424",
-      "name": "함창"
+      "name": "함창",
+      "province": "경북",
+      "district": "상주시"
     },
     {
       "gmgoCd": "5427",
-      "name": "새상주"
+      "name": "새상주",
+      "province": "경북",
+      "district": "상주시"
     },
     {
       "gmgoCd": "5428",
-      "name": "백화"
+      "name": "백화",
+      "province": "경북",
+      "district": "상주시"
     }
   ]
 }

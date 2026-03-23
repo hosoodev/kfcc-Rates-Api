@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0752",
   "name": "오류1동",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "오류1동(본점)",
       "address": "서울 구로구 경인로 205",
       "phone": "02-2614-2685",
-      "city": "서울",
+      "province": "서울",
       "district": "구로구"
     },
     "branches": [
@@ -106,23 +106,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0724",
-      "name": "신도림"
+      "name": "신도림",
+      "province": "서울",
+      "district": "구로구"
     },
     {
       "gmgoCd": "0725",
-      "name": "구로"
+      "name": "구로",
+      "province": "서울",
+      "district": "구로구"
     },
     {
       "gmgoCd": "0728",
-      "name": "구로5동"
+      "name": "구로5동",
+      "province": "서울",
+      "district": "구로구"
     },
     {
       "gmgoCd": "0731",
-      "name": "디지털"
+      "name": "디지털",
+      "province": "서울",
+      "district": "구로구"
     },
     {
       "gmgoCd": "0732",
-      "name": "구로중앙"
+      "name": "구로중앙",
+      "province": "서울",
+      "district": "구로구"
     }
   ]
 }

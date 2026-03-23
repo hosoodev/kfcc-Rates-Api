@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6733",
   "name": "제주남원동부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "제주남원동부(본점)",
       "address": "제주 서귀포시 남원읍 태위로 654",
       "phone": "064-764-8001",
-      "city": "제주",
+      "province": "제주",
       "district": "서귀포시"
     },
     "branches": [
@@ -26,11 +26,11 @@
           "r": 3.09,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -86,23 +86,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6702",
-      "name": "서귀포"
+      "name": "서귀포",
+      "province": "제주",
+      "district": "서귀포시"
     },
     {
       "gmgoCd": "6704",
-      "name": "서홍"
+      "name": "서홍",
+      "province": "제주",
+      "district": "서귀포시"
     },
     {
       "gmgoCd": "6705",
-      "name": "법환"
+      "name": "법환",
+      "province": "제주",
+      "district": "서귀포시"
     },
     {
       "gmgoCd": "6706",
-      "name": "서호"
+      "name": "서호",
+      "province": "제주",
+      "district": "서귀포시"
     },
     {
       "gmgoCd": "6707",
-      "name": "호근"
+      "name": "호근",
+      "province": "제주",
+      "district": "서귀포시"
     }
   ]
 }

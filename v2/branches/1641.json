@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "1641",
   "name": "정관",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "정관(본점)",
       "address": "부산 기장군 정관읍 정관6로 46",
       "phone": "051-727-2636",
-      "city": "부산",
+      "province": "부산",
       "district": "기장군"
     },
     "branches": []
@@ -93,11 +93,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "1642",
-      "name": "기장"
+      "name": "기장",
+      "province": "부산",
+      "district": "기장군"
     },
     {
       "gmgoCd": "1643",
-      "name": "신앙촌"
+      "name": "신앙촌",
+      "province": "부산",
+      "district": "기장군"
     }
   ]
 }

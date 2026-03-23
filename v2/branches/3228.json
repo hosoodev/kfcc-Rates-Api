@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3228",
   "name": "대성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "대성(본점)",
       "address": "충남 공주시 정안면 정안중앙길 187",
       "phone": "041-858-6315",
-      "city": "충남",
+      "province": "충남",
       "district": "공주시"
     },
     "branches": []
@@ -59,23 +59,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3223",
-      "name": "합동"
+      "name": "합동",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3225",
-      "name": "이인"
+      "name": "이인",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3231",
-      "name": "유구"
+      "name": "유구",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3234",
-      "name": "백제"
+      "name": "백제",
+      "province": "충남",
+      "district": "공주시"
     },
     {
       "gmgoCd": "3235",
-      "name": "삼성"
+      "name": "삼성",
+      "province": "충남",
+      "district": "공주시"
     }
   ]
 }

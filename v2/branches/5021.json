@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5021",
   "name": "부령",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "부령(본점)",
       "address": "전북 부안군 부안읍 부풍로 35",
       "phone": "063-582-0388",
-      "city": "전북",
+      "province": "전북",
       "district": "부안군"
     },
     "branches": [
@@ -108,7 +108,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "5028",
-      "name": "남부안"
+      "name": "남부안",
+      "province": "전북",
+      "district": "부안군"
     }
   ]
 }

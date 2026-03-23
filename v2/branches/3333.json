@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3333",
   "name": "황산",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "황산(본점)",
       "address": "충남 논산시 강경읍 대흥로 20",
       "phone": "041-745-5955",
-      "city": "충남",
+      "province": "충남",
       "district": "논산시"
     },
     "branches": [
@@ -60,11 +60,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3334",
-      "name": "충청"
+      "name": "충청",
+      "province": "충남",
+      "district": "논산시"
     },
     {
       "gmgoCd": "3337",
-      "name": "놀뫼"
+      "name": "놀뫼",
+      "province": "충남",
+      "district": "논산시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5512",
   "name": "상모",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "상모(본점)",
       "address": "경북 구미시 상모로 54",
       "phone": "054-465-2593",
-      "city": "경북",
+      "province": "경북",
       "district": "구미시"
     },
     "branches": [
@@ -120,23 +120,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5501",
-      "name": "송정"
+      "name": "송정",
+      "province": "경북",
+      "district": "구미시"
     },
     {
       "gmgoCd": "5502",
-      "name": "금오"
+      "name": "금오",
+      "province": "경북",
+      "district": "구미시"
     },
     {
       "gmgoCd": "5504",
-      "name": "도량"
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
     },
     {
       "gmgoCd": "5505",
-      "name": "지산"
+      "name": "지산",
+      "province": "경북",
+      "district": "구미시"
     },
     {
       "gmgoCd": "5506",
-      "name": "원남"
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
     }
   ]
 }

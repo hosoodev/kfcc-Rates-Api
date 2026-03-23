@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6266",
   "name": "물금",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "물금(본점)",
       "address": "경남 양산시 물금읍 물금로 96-35",
       "phone": "055-384-8811",
-      "city": "경남",
+      "province": "경남",
       "district": "양산시"
     },
     "branches": [
@@ -126,23 +126,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6264",
-      "name": "양산"
+      "name": "양산",
+      "province": "경남",
+      "district": "양산시"
     },
     {
       "gmgoCd": "6267",
-      "name": "남양산"
+      "name": "남양산",
+      "province": "경남",
+      "district": "양산시"
     },
     {
       "gmgoCd": "6268",
-      "name": "상북"
+      "name": "상북",
+      "province": "경남",
+      "district": "양산시"
     },
     {
       "gmgoCd": "6269",
-      "name": "양산중앙"
+      "name": "양산중앙",
+      "province": "경남",
+      "district": "양산시"
     },
     {
       "gmgoCd": "6270",
-      "name": "웅상"
+      "name": "웅상",
+      "province": "경남",
+      "district": "양산시"
     }
   ]
 }

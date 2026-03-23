@@ -4557,7 +4557,7 @@
   },
   "2026-03-23": {
     "total_banks": 1234,
-    "total_products": 6392,
+    "total_products": 6393,
     "average_rate": 1.7,
     "rate_range": {
       "min": 0.0,
@@ -4570,11 +4570,11 @@
         "min_rate": 0.0,
         "max_rate": 2.9
       },
-      "12": {
-        "count": 2715,
-        "average_rate": 2.81,
-        "min_rate": 0.7,
-        "max_rate": 4.5
+      "3": {
+        "count": 317,
+        "average_rate": 1.91,
+        "min_rate": 0.1,
+        "max_rate": 2.99
       },
       "6": {
         "count": 1018,
@@ -4582,11 +4582,11 @@
         "min_rate": 0.01,
         "max_rate": 3.5
       },
-      "3": {
-        "count": 317,
-        "average_rate": 1.91,
-        "min_rate": 0.1,
-        "max_rate": 2.99
+      "12": {
+        "count": 2716,
+        "average_rate": 2.81,
+        "min_rate": 0.7,
+        "max_rate": 4.5
       }
     },
     "product_type_stats": {
@@ -4597,7 +4597,7 @@
         "max_rate": 2.9
       },
       "거치식예탁금": {
-        "count": 1651,
+        "count": 1652,
         "average_rate": 2.63,
         "min_rate": 0.1,
         "max_rate": 3.69
@@ -4609,6 +4609,6 @@
         "max_rate": 4.5
       }
     },
-    "crawled_at": "2026-03-23T02:32:34.828316"
+    "crawled_at": "2026-03-23T12:06:55.583902"
   }
 }

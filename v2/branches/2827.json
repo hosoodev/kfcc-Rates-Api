@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2827",
   "name": "문내",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "문내(본점)",
       "address": "전남 해남군 문내면 우수영로 8",
       "phone": "061-532-2179",
-      "city": "전남",
+      "province": "전남",
       "district": "해남군"
     },
     "branches": []
@@ -59,7 +59,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "2829",
-      "name": "해남"
+      "name": "해남",
+      "province": "전남",
+      "district": "해남군"
     }
   ]
 }

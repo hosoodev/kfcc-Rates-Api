@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2638",
   "name": "여천",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "여천(본점)",
       "address": "전남 여수시 쌍봉로 23-2",
       "phone": "061-685-0901",
-      "city": "전남",
+      "province": "전남",
       "district": "여수시"
     },
     "branches": [
@@ -120,23 +120,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "2601",
-      "name": "동여수"
+      "name": "동여수",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2602",
-      "name": "여수엑스포"
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2604",
-      "name": "중앙"
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2605",
-      "name": "여수중부"
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
     },
     {
       "gmgoCd": "2606",
-      "name": "충무"
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
     }
   ]
 }

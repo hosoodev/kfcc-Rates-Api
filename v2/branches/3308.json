@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3308",
   "name": "탕정",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "탕정(본점)",
       "address": "충남 아산시 탕정면 탕정면로22번길 11",
       "phone": "041-543-9520",
-      "city": "충남",
+      "province": "충남",
       "district": "아산시"
     },
     "branches": [
@@ -66,23 +66,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "3302",
-      "name": "온양"
+      "name": "온양",
+      "province": "충남",
+      "district": "아산시"
     },
     {
       "gmgoCd": "3303",
-      "name": "정우"
+      "name": "정우",
+      "province": "충남",
+      "district": "아산시"
     },
     {
       "gmgoCd": "3307",
-      "name": "아산"
+      "name": "아산",
+      "province": "충남",
+      "district": "아산시"
     },
     {
       "gmgoCd": "3313",
-      "name": "신우"
+      "name": "신우",
+      "province": "충남",
+      "district": "아산시"
     },
     {
       "gmgoCd": "3345",
-      "name": "코닝정밀소재"
+      "name": "코닝정밀소재",
+      "province": "충남",
+      "district": "아산시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3337",
   "name": "놀뫼",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "놀뫼(본점)",
       "address": "충남 논산시 계백로 979",
       "phone": "041-733-7001",
-      "city": "충남",
+      "province": "충남",
       "district": "논산시"
     },
     "branches": [
@@ -142,11 +142,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3333",
-      "name": "황산"
+      "name": "황산",
+      "province": "충남",
+      "district": "논산시"
     },
     {
       "gmgoCd": "3334",
-      "name": "충청"
+      "name": "충청",
+      "province": "충남",
+      "district": "논산시"
     }
   ]
 }

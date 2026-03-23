@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3717",
   "name": "금정",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "금정(본점)",
       "address": "경기 군포시 당산로 134",
       "phone": "031-452-9472",
-      "city": "경기",
+      "province": "경기",
       "district": "군포시"
     },
     "branches": [
@@ -108,11 +108,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "3718",
-      "name": "군포"
+      "name": "군포",
+      "province": "경기",
+      "district": "군포시"
     },
     {
       "gmgoCd": "3719",
-      "name": "산본"
+      "name": "산본",
+      "province": "경기",
+      "district": "군포시"
     }
   ]
 }

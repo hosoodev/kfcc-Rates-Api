@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6432",
   "name": "사남",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "사남(본점)",
       "address": "경남 사천시 사남면 사남로 1056",
       "phone": "055-854-5713",
-      "city": "경남",
+      "province": "경남",
       "district": "사천시"
     },
     "branches": []
@@ -59,19 +59,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "6427",
-      "name": "사천"
+      "name": "사천",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6433",
-      "name": "삼천포"
+      "name": "삼천포",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6434",
-      "name": "노산"
+      "name": "노산",
+      "province": "경남",
+      "district": "사천시"
     },
     {
       "gmgoCd": "6438",
-      "name": "한국항공우주산업㈜"
+      "name": "한국항공우주산업㈜",
+      "province": "경남",
+      "district": "사천시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4909",
   "name": "완주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "완주(본점)",
       "address": "전북 완주군 봉동읍 봉동동서로 123",
       "phone": "063-261-3890",
-      "city": "전북",
+      "province": "전북",
       "district": "완주군"
     },
     "branches": [
@@ -108,7 +108,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4911",
-      "name": "한누리"
+      "name": "한누리",
+      "province": "전북",
+      "district": "완주군"
     }
   ]
 }

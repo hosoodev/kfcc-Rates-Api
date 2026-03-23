@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4042",
   "name": "의정부서부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "의정부서부(본점)",
       "address": "경기 의정부시 의정로 131",
       "phone": "031-877-6819",
-      "city": "경기",
+      "province": "경기",
       "district": "의정부시"
     },
     "branches": [
@@ -113,19 +113,27 @@
   "nearby_branches": [
     {
       "gmgoCd": "4007",
-      "name": "호원"
+      "name": "호원",
+      "province": "경기",
+      "district": "의정부시"
     },
     {
       "gmgoCd": "4009",
-      "name": "의정부신곡"
+      "name": "의정부신곡",
+      "province": "경기",
+      "district": "의정부시"
     },
     {
       "gmgoCd": "4014",
-      "name": "의정부동부"
+      "name": "의정부동부",
+      "province": "경기",
+      "district": "의정부시"
     },
     {
       "gmgoCd": "4040",
-      "name": "의정부중앙"
+      "name": "의정부중앙",
+      "province": "경기",
+      "district": "의정부시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "0906",
   "name": "상도중앙",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "상도중앙(본점)",
       "address": "서울 동작구 상도로 381",
       "phone": "02-822-3888",
-      "city": "서울",
+      "province": "서울",
       "district": "동작구"
     },
     "branches": [
@@ -100,23 +100,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "0901",
-      "name": "노들"
+      "name": "노들",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0902",
-      "name": "노량진"
+      "name": "노량진",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0903",
-      "name": "상도"
+      "name": "상도",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0905",
-      "name": "한강"
+      "name": "한강",
+      "province": "서울",
+      "district": "동작구"
     },
     {
       "gmgoCd": "0909",
-      "name": "흑석"
+      "name": "흑석",
+      "province": "서울",
+      "district": "동작구"
     }
   ]
 }

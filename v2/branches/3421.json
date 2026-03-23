@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "3421",
   "name": "홍주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "홍주(본점)",
       "address": "충남 홍성군 홍성읍 홍성천길 210",
       "phone": "041-634-4560",
-      "city": "충남",
+      "province": "충남",
       "district": "홍성군"
     },
     "branches": [
@@ -106,7 +106,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "3419",
-      "name": "홍성중앙"
+      "name": "홍성중앙",
+      "province": "충남",
+      "district": "홍성군"
     }
   ]
 }

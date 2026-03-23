@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4108",
   "name": "중부",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "중부(본점)",
       "address": "경기 남양주시 와부읍 덕소로116번길 12",
       "phone": "031-577-8888",
-      "city": "경기",
+      "province": "경기",
       "district": "남양주시"
     },
     "branches": [
@@ -120,23 +120,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4104",
-      "name": "다산"
+      "name": "다산",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4106",
-      "name": "별내"
+      "name": "별내",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4107",
-      "name": "화도"
+      "name": "화도",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4109",
-      "name": "진접"
+      "name": "진접",
+      "province": "경기",
+      "district": "남양주시"
     },
     {
       "gmgoCd": "4110",
-      "name": "남양주중앙"
+      "name": "남양주중앙",
+      "province": "경기",
+      "district": "남양주시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "5231",
   "name": "서포항",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "서포항(본점)",
       "address": "경북 포항시 북구 기계면 기계로 95",
       "phone": "054-243-1342",
-      "city": "경북",
+      "province": "경북",
       "district": "포항시"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "5201",
-      "name": "늘푸른"
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
     },
     {
       "gmgoCd": "5205",
-      "name": "대신"
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
     },
     {
       "gmgoCd": "5207",
-      "name": "학산"
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
     },
     {
       "gmgoCd": "5209",
-      "name": "대양"
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
     },
     {
       "gmgoCd": "5210",
-      "name": "영포"
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
     }
   ]
 }

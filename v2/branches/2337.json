@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2337",
   "name": "효성",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "효성(본점)",
       "address": "인천 계양구 안남로 495",
       "phone": "032-547-7001",
-      "city": "인천",
+      "province": "인천",
       "district": "계양구"
     },
     "branches": [
@@ -114,11 +114,15 @@
   "nearby_branches": [
     {
       "gmgoCd": "2338",
-      "name": "계산"
+      "name": "계산",
+      "province": "인천",
+      "district": "계양구"
     },
     {
       "gmgoCd": "2339",
-      "name": "계양"
+      "name": "계양",
+      "province": "인천",
+      "district": "계양구"
     }
   ]
 }

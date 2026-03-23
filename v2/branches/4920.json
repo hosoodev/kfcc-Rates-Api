@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4920",
   "name": "무주",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "무주(본점)",
       "address": "전북 무주군 무주읍 주계로 77",
       "phone": "063-322-4773",
-      "city": "전북",
+      "province": "전북",
       "district": "무주군"
     },
     "branches": []
@@ -59,7 +59,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "4919",
-      "name": "설천"
+      "name": "설천",
+      "province": "전북",
+      "district": "무주군"
     }
   ]
 }

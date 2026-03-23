@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "2829",
   "name": "해남",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "해남(본점)",
       "address": "전남 해남군 해남읍 읍내길 21-4",
       "phone": "061-534-4868",
-      "city": "전남",
+      "province": "전남",
       "district": "해남군"
     },
     "branches": []
@@ -93,7 +93,9 @@
   "nearby_branches": [
     {
       "gmgoCd": "2827",
-      "name": "문내"
+      "name": "문내",
+      "province": "전남",
+      "district": "해남군"
     }
   ]
 }

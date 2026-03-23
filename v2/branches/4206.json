@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "4206",
   "name": "강릉솔향",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "강릉솔향(본점)",
       "address": "강원 강릉시 교동광장로 117",
       "phone": "033-647-4206",
-      "city": "강원",
+      "province": "강원",
       "district": "강릉시"
     },
     "branches": [
@@ -114,23 +114,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "4202",
-      "name": "새강릉"
+      "name": "새강릉",
+      "province": "강원",
+      "district": "강릉시"
     },
     {
       "gmgoCd": "4207",
-      "name": "포남"
+      "name": "포남",
+      "province": "강원",
+      "district": "강릉시"
     },
     {
       "gmgoCd": "4208",
-      "name": "초당경포"
+      "name": "초당경포",
+      "province": "강원",
+      "district": "강릉시"
     },
     {
       "gmgoCd": "4222",
-      "name": "송정"
+      "name": "송정",
+      "province": "강원",
+      "district": "강릉시"
     },
     {
       "gmgoCd": "4262",
-      "name": "강릉아산병원"
+      "name": "강릉아산병원",
+      "province": "강원",
+      "district": "강릉시"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6116",
   "name": "SNT다이내믹스",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "SNT다이내믹스(주)(본점)",
       "address": "경남 창원시 성산구 남면로 599",
       "phone": "055-280-5131",
-      "city": "경남",
+      "province": "경남",
       "district": "창원시"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6002",
-      "name": "반월중앙"
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
     },
     {
       "gmgoCd": "6009",
-      "name": "동부"
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
     },
     {
       "gmgoCd": "6010",
-      "name": "마산"
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
     },
     {
       "gmgoCd": "6015",
-      "name": "석전"
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
     },
     {
       "gmgoCd": "6017",
-      "name": "마산남부"
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
     }
   ]
 }

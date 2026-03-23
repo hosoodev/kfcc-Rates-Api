@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T02:34:07+09:00",
+  "updated_at": "2026-03-23T12:08:22+09:00",
   "gmgoCd": "6727",
   "name": "우정",
   "meta": {
@@ -7,7 +7,7 @@
       "name": "우정(본점)",
       "address": "제주 제주시 조천읍 신북로 216",
       "phone": "064-783-6425",
-      "city": "제주",
+      "province": "제주",
       "district": "제주시"
     },
     "branches": [
@@ -108,23 +108,33 @@
   "nearby_branches": [
     {
       "gmgoCd": "6601",
-      "name": "제주"
+      "name": "제주",
+      "province": "제주",
+      "district": "제주시"
     },
     {
       "gmgoCd": "6602",
-      "name": "중앙"
+      "name": "중앙",
+      "province": "제주",
+      "district": "제주시"
     },
     {
       "gmgoCd": "6603",
-      "name": "용담"
+      "name": "용담",
+      "province": "제주",
+      "district": "제주시"
     },
     {
       "gmgoCd": "6604",
-      "name": "동제주"
+      "name": "동제주",
+      "province": "제주",
+      "district": "제주시"
     },
     {
       "gmgoCd": "6605",
-      "name": "신제주"
+      "name": "신제주",
+      "province": "제주",
+      "district": "제주시"
     }
   ]
 }
