@@ -122,6 +122,8 @@ jobs:
       - name: Trigger Frontend Revalidation
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
+          echo "⏳ GitHub Pages 배포 완료 대기 중 (60초)..."
+          sleep 60
           python src/notify.py '["main", "summary", "rates", "branch"]'
 
       - name: Upload data as artifact
