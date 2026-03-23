@@ -192,7 +192,7 @@ class StorageManager:
                     "name": head.get('name'),
                     "address": head.get('address'),
                     "phone": head.get('phone'),
-                    "province": head.get('city'),
+                    "province": head.get('province') or head.get('city'),
                     "district": head.get('district')
                 },
                 "branches": [
