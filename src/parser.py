@@ -128,7 +128,7 @@ def parse_bank_list(html: str, province: str, district: str) -> List[Dict[str, A
         # 테이블 행 찾기
         rows = soup.find_all('tr')
         if not rows:
-            logger.warning(f"테이블 행을 찾을 수 없음: {city} {district}")
+            logger.warning(f"테이블 행을 찾을 수 없음: {province} {district}")
             return []
         
         for row in rows:

@@ -110,7 +110,7 @@ class KFCCCrawler:
         )
         
         if not response:
-            logger.error(f"은행 목록 수집 실패: {city} {district}")
+            logger.error(f"은행 목록 수집 실패: {province} {district}")
             return []
         
         try:
