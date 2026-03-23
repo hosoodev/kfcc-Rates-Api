@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 
 # 전역 캐시 (메모리에 한 번 로드 후 재사용)
 _LATEST_CHROME_MAJOR = None
+_LOGGED_UA = {"mobile": False, "desktop": False}
 
 def get_latest_chrome_major() -> int:
     """공식 Chrome 버전 히스토리 API를 통해 최신 안정 버전의 메이저 번호 획득"""
@@ -74,10 +75,16 @@ def generate_mobile_ua() -> str:
         whale_ver = f"{random.randint(3, 4)}.{random.randint(20, 25)}.{random.randint(200, 250)}.{random.randint(1, 10)}"
         return f"Mozilla/5.0 (Linux; Android {os_ver}; {model}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_ver} Mobile Safari/537.36 Whale/{whale_ver}"
         
-    else: # safari (iOS)
-        os_ver = random.choice(ios_versions)
-        device = random.choice(iphone_models)
-        return f"Mozilla/5.0 ({device}; CPU {device} OS {os_ver} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Mobile/15E148 Safari/604.1"
+    ua = f"Mozilla/5.0 ({device}; CPU {device} OS {os_ver} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Mobile/15E148 Safari/604.1"
+    
+    global _LOGGED_UA
+    if not _LOGGED_UA["mobile"]:
+        logger.info(f"📱 모바일 UA 생성 (샘플): {ua}")
+        _LOGGED_UA["mobile"] = True
+    else:
+        logger.debug(f"📱 모바일 UA 생성: {ua}")
+        
+    return ua
 
 def generate_desktop_ua() -> str:
     """Windows, Mac 환경의 최신 데스크탑 UA 생성"""
@@ -92,7 +99,16 @@ def generate_desktop_ua() -> str:
     ]
     os_type = random.choice(os_configs)
     
-    return f"Mozilla/5.0 ({os_type}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_ver} Safari/537.36"
+    ua = f"Mozilla/5.0 ({os_type}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_ver} Safari/537.36"
+    
+    global _LOGGED_UA
+    if not _LOGGED_UA["desktop"]:
+        logger.info(f"💻 데스크탑 UA 생성 (샘플): {ua}")
+        _LOGGED_UA["desktop"] = True
+    else:
+        logger.debug(f"💻 데스크탑 UA 생성: {ua}")
+        
+    return ua
 
 # 레거시 호환성을 위해 기존 이름 유지
 def generate_random_ua() -> str:
