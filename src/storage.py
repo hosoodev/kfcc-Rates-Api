@@ -182,8 +182,14 @@ class StorageManager:
             # 1. 본점(Head Office) 찾기: 이름에 '본점'이 포함된 것 우선, 없으면 첫 번째
             head = next((e for e in entries if '본점' in e.get('name', '')), entries[0])
             
-            # 2. 공통 그룹 정보 추출 (본점 이름에서 괄호 부분 제거 등)
-            group_name = head.get('name', '').split('(')[0].strip()
+            # 2. 공통 그룹 정보 추출 (본점 이름에서 (본점) 등 수식어 제거)
+            # (주)풍산안강공장(본점) 처럼 (주)로 시작하는 경우 대응
+            full_name = head.get('name', '')
+            if full_name.startswith('('):
+                second_paren = full_name.find('(', 1)
+                group_name = full_name[:second_paren].strip() if second_paren != -1 else full_name
+            else:
+                group_name = full_name.split('(')[0].strip()
             
             hierarchical.append({
                 "gmgoCd": gmgo_cd,
