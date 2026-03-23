@@ -4570,11 +4570,11 @@
         "min_rate": 0.0,
         "max_rate": 2.9
       },
-      "3": {
-        "count": 317,
-        "average_rate": 1.91,
-        "min_rate": 0.1,
-        "max_rate": 2.99
+      "12": {
+        "count": 2716,
+        "average_rate": 2.81,
+        "min_rate": 0.7,
+        "max_rate": 4.5
       },
       "6": {
         "count": 1018,
@@ -4582,11 +4582,11 @@
         "min_rate": 0.01,
         "max_rate": 3.5
       },
-      "12": {
-        "count": 2716,
-        "average_rate": 2.81,
-        "min_rate": 0.7,
-        "max_rate": 4.5
+      "3": {
+        "count": 317,
+        "average_rate": 1.91,
+        "min_rate": 0.1,
+        "max_rate": 2.99
       }
     },
     "product_type_stats": {
@@ -4609,6 +4609,6 @@
         "max_rate": 4.5
       }
     },
-    "crawled_at": "2026-03-23T12:06:55.583902"
+    "crawled_at": "2026-03-23T13:48:14.025584"
   }
 }
