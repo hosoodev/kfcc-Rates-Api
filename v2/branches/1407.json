@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1407",
+  "name": "용당동",
+  "meta": {
+    "head_office": {
+      "name": "용당동(본점)",
+      "address": "부산 남구 신선로 329",
+      "phone": "051-624-6878",
+      "province": "부산",
+      "district": "남구"
+    },
+    "branches": [
+      {
+        "name": "용당동(제1)",
+        "address": "부산 남구 유엔평화로 152-2",
+        "phone": "051-624-7038",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.53"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.28"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.71"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.32"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

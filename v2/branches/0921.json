@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0921",
+  "name": "은천",
+  "meta": {
+    "head_office": {
+      "name": "은천(본점)",
+      "address": "서울 관악구 은천로 95",
+      "phone": "02-878-0689",
+      "province": "서울",
+      "district": "관악구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "8.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.5"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "7.53"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "7.83"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0922",
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0927",
+      "name": "관악중앙",
+      "province": "서울",
+      "district": "관악구"
+    }
+  ]
+}

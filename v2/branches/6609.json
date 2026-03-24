@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6609",
+  "name": "제주서부",
+  "meta": {
+    "head_office": {
+      "name": "제주서부(본점)",
+      "address": "제주 제주시 우정로 32",
+      "phone": "064-742-2600",
+      "province": "제주",
+      "district": "제주시"
+    },
+    "branches": [
+      {
+        "name": "제주서부(한라대학로)",
+        "address": "제주 제주시 한라대학로 89",
+        "phone": "064-743-2500",
+        "district": "제주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 2.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "10.13"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.8"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.14"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.21"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6601",
+      "name": "제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6602",
+      "name": "중앙",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6603",
+      "name": "용담",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6604",
+      "name": "동제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6605",
+      "name": "신제주",
+      "province": "제주",
+      "district": "제주시"
+    }
+  ]
+}

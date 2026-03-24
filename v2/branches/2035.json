@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2035",
+  "name": "대구개인택시조합",
+  "meta": {
+    "head_office": {
+      "name": "대구개인택시조합(본점)",
+      "address": "대구 수성구 무학로 203",
+      "phone": "053-764-0100",
+      "province": "대구",
+      "district": "수성구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "22.76"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "19.79"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "19.3"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "25.65"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2018",
+      "name": "수성중앙",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2020",
+      "name": "청구로",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2021",
+      "name": "대원",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2022",
+      "name": "남부",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2023",
+      "name": "수성1가",
+      "province": "대구",
+      "district": "수성구"
+    }
+  ]
+}

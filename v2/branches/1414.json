@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1414",
+  "name": "문현3동",
+  "meta": {
+    "head_office": {
+      "name": "문현3동(본점)",
+      "address": "부산 남구 수영로39번길 6",
+      "phone": "051-635-4670",
+      "province": "부산",
+      "district": "남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.02,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.02,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "19.65"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "18.4"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.39"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.23"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

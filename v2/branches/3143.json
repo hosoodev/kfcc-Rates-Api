@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3143",
+  "name": "유성",
+  "meta": {
+    "head_office": {
+      "name": "유성(본점)",
+      "address": "대전 유성구 유성대로 771",
+      "phone": "042-823-9966",
+      "province": "대전",
+      "district": "유성구"
+    },
+    "branches": [
+      {
+        "name": "유성(한빛)",
+        "address": "대전 유성구 어은로 54",
+        "phone": "042-825-2611",
+        "district": "유성구"
+      },
+      {
+        "name": "유성(죽동)",
+        "address": "대전 유성구 죽동로298번길 18",
+        "phone": "042-824-2922",
+        "district": "유성구"
+      },
+      {
+        "name": "유성(봉명)",
+        "address": "대전 유성구 도안대로 512-11",
+        "phone": "042-345-9966",
+        "district": "유성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "8.18"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.85"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.08"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3145",
+      "name": "탄동",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3146",
+      "name": "진잠",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3147",
+      "name": "유성온천",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3154",
+      "name": "대전온천",
+      "province": "대전",
+      "district": "유성구"
+    }
+  ]
+}

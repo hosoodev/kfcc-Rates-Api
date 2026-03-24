@@ -1,0 +1,130 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2240",
+  "name": "온누리",
+  "meta": {
+    "head_office": {
+      "name": "온누리(본점)",
+      "address": "인천 미추홀구 한나루로 436",
+      "phone": "032-868-8860",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    "branches": [
+      {
+        "name": "온누리(신동아)",
+        "address": "인천 미추홀구 학익소로 69",
+        "phone": "032-868-8862",
+        "district": "미추홀구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.1,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "3.16"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "4.71"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.74"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.04"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2234",
+      "name": "제물포",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2235",
+      "name": "용일",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2237",
+      "name": "새인천",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2238",
+      "name": "한마음",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2239",
+      "name": "학익",
+      "province": "인천",
+      "district": "미추홀구"
+    }
+  ]
+}

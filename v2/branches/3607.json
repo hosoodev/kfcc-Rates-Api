@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3607",
+  "name": "안양제일",
+  "meta": {
+    "head_office": {
+      "name": "안양제일(본점)",
+      "address": "경기 안양시 만안구 덕천로 128",
+      "phone": "031-444-7771",
+      "province": "경기",
+      "district": "안양시"
+    },
+    "branches": [
+      {
+        "name": "안양제일(덕천래미안)",
+        "address": "경기 안양시 만안구 안양천서로 229",
+        "phone": "031-443-3008",
+        "district": "안양시"
+      },
+      {
+        "name": "안양제일(목련)",
+        "address": "경기 안양시 동안구 평촌대로211번길 16",
+        "phone": "031-476-7711",
+        "district": "안양시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "5.49"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.93"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.17"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.97"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3603",
+      "name": "안양협심",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3606",
+      "name": "안양",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3609",
+      "name": "안양동부",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3611",
+      "name": "동안",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3616",
+      "name": "안양만안",
+      "province": "경기",
+      "district": "안양시"
+    }
+  ]
+}

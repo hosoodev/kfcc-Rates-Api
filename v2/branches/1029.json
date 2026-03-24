@@ -1,0 +1,129 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1029",
+  "name": "송파중앙",
+  "meta": {
+    "head_office": {
+      "name": "송파중앙(본점)",
+      "address": "서울 송파구 마천로 83",
+      "phone": "02-402-3432",
+      "province": "서울",
+      "district": "송파구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "3.56"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "9.67"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "10.28"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.6"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0419",
+      "name": "삼성에스디에스",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1026",
+      "name": "서울중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1027",
+      "name": "마천",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1030",
+      "name": "서울송파",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1031",
+      "name": "가락",
+      "province": "서울",
+      "district": "송파구"
+    }
+  ]
+}

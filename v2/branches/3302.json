@@ -1,0 +1,110 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3302",
+  "name": "온양",
+  "meta": {
+    "head_office": {
+      "name": "온양(본점)",
+      "address": "충남 아산시 시민로393번길 6",
+      "phone": "041-545-9337",
+      "province": "충남",
+      "district": "아산시"
+    },
+    "branches": [
+      {
+        "name": "온양(배방)",
+        "address": "충남 아산시 배방읍 북수로 134",
+        "phone": "041-544-2001",
+        "district": "아산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "7.89"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.49"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "7.8"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3303",
+      "name": "정우",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3307",
+      "name": "아산",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3308",
+      "name": "탕정",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3345",
+      "name": "코닝정밀소재",
+      "province": "충남",
+      "district": "아산시"
+    }
+  ]
+}

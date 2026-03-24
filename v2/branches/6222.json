@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6222",
+  "name": "중앙",
+  "meta": {
+    "head_office": {
+      "name": "중앙(본점)",
+      "address": "울산 남구 월평로 252",
+      "phone": "052-266-1600",
+      "province": "울산",
+      "district": "남구"
+    },
+    "branches": [
+      {
+        "name": "중앙(삼산)",
+        "address": "울산 남구 화합로 196",
+        "phone": "052-266-6958",
+        "district": "남구"
+      },
+      {
+        "name": "중앙(중앙)",
+        "address": "울산 남구 삼산중로 67",
+        "phone": "052-266-9276",
+        "district": "남구"
+      },
+      {
+        "name": "중앙(본동)",
+        "address": "울산 남구 남중로 128",
+        "phone": "052-266-2720",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.25,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "13.37"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.31"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.69"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.12"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

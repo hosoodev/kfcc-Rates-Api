@@ -1,0 +1,118 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3101",
+  "name": "대전",
+  "meta": {
+    "head_office": {
+      "name": "대전(본점)",
+      "address": "대전 중구 보문로162번길 8",
+      "phone": "042-253-0091",
+      "province": "대전",
+      "district": "중구"
+    },
+    "branches": [
+      {
+        "name": "대전(문화)",
+        "address": "대전 중구 대흥로 16",
+        "phone": "042-256-8053",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.13"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.21"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "12.21"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.01"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
+    }
+  ]
+}

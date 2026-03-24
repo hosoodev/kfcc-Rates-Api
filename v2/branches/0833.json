@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0833",
+  "name": "문화방송",
+  "meta": {
+    "head_office": {
+      "name": "문화방송(본점)",
+      "address": "서울 마포구 성암로 267",
+      "phone": "02-789-4752",
+      "province": "서울",
+      "district": "마포구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 1.0,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "262.1"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "244.63"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "233"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "214.36"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0423",
+      "name": "아현",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0424",
+      "name": "마포중앙",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0427",
+      "name": "신공덕동",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0428",
+      "name": "신마포",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0429",
+      "name": "마포역",
+      "province": "서울",
+      "district": "마포구"
+    }
+  ]
+}

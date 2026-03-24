@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2524",
+  "name": "제일",
+  "meta": {
+    "head_office": {
+      "name": "제일(본점)",
+      "address": "광주 동구 참판로 30",
+      "phone": "062-526-4773",
+      "province": "광주",
+      "district": "동구"
+    },
+    "branches": [
+      {
+        "name": "제일(양산)",
+        "address": "광주 북구 양산로 60",
+        "phone": "062-573-4773",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.36"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.13"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "12.75"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.6"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동",
+      "province": "부산",
+      "district": "동구"
+    }
+  ]
+}

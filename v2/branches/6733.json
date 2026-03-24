@@ -1,0 +1,118 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6733",
+  "name": "제주남원동부",
+  "meta": {
+    "head_office": {
+      "name": "제주남원동부(본점)",
+      "address": "제주 서귀포시 남원읍 태위로 654",
+      "phone": "064-764-8001",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    "branches": [
+      {
+        "name": "제주남원동부(고성)",
+        "address": "제주 서귀포시 성산읍 고성오조로 72",
+        "phone": "064-782-3184",
+        "district": "서귀포시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.77"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.82"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.93"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6702",
+      "name": "서귀포",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6704",
+      "name": "서홍",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6705",
+      "name": "법환",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6706",
+      "name": "서호",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6707",
+      "name": "호근",
+      "province": "제주",
+      "district": "서귀포시"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1111",
+  "name": "청담동",
+  "meta": {
+    "head_office": {
+      "name": "청담동(본점)",
+      "address": "서울 강남구 삼성로 753",
+      "phone": "02-542-3127",
+      "province": "서울",
+      "district": "강남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.78,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.05"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "6.56"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.34"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "5.65"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1112",
+      "name": "대왕",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1116",
+      "name": "강남영동",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1128",
+      "name": "한국무역협회",
+      "province": "서울",
+      "district": "강남구"
+    }
+  ]
+}

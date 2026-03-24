@@ -1,0 +1,116 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1231",
+  "name": "부산대학교병원",
+  "meta": {
+    "head_office": {
+      "name": "부산대학교병원(본점)",
+      "address": "부산 서구 구덕로 179",
+      "phone": "051-240-7861",
+      "province": "부산",
+      "district": "서구"
+    },
+    "branches": [
+      {
+        "name": "부산대학교병원(양산)",
+        "address": "경남 양산시 물금읍 금오로 20",
+        "phone": "055-365-7861",
+        "district": "양산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.1,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.92,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "29.21"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "31.09"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "29.6"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "31.33"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1216",
+      "name": "서구중앙",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부",
+      "province": "부산",
+      "district": "서구"
+    }
+  ]
+}

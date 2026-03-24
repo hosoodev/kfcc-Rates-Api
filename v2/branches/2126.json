@@ -1,0 +1,126 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2126",
+  "name": "달성",
+  "meta": {
+    "head_office": {
+      "name": "달성(본점)",
+      "address": "대구 달성군 논공읍 비슬로 1777",
+      "phone": "053-611-2857",
+      "province": "대구",
+      "district": "달성군"
+    },
+    "branches": [
+      {
+        "name": "달성(공단)",
+        "address": "대구 달성군 논공읍 논공중앙로 136",
+        "phone": "053-615-5229",
+        "district": "달성군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.69,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.69,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "9.36"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.37"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "8.73"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.26"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2122",
+      "name": "가창",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2124",
+      "name": "화원",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2125",
+      "name": "옥포",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2127",
+      "name": "현풍",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2128",
+      "name": "구지",
+      "province": "대구",
+      "district": "달성군"
+    }
+  ]
+}

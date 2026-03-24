@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2001",
+  "name": "이천",
+  "meta": {
+    "head_office": {
+      "name": "이천(본점)",
+      "address": "대구 남구 대봉로38길 42",
+      "phone": "053-476-2001",
+      "province": "대구",
+      "district": "남구"
+    },
+    "branches": [
+      {
+        "name": "이천(제1)",
+        "address": "대구 남구 대봉로 95",
+        "phone": "053-476-2003",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.61"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.48"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "7.18"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "7.37"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

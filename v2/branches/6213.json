@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6213",
+  "name": "병영",
+  "meta": {
+    "head_office": {
+      "name": "병영(본점)",
+      "address": "울산 중구 병영로 6",
+      "phone": "052-298-1372",
+      "province": "울산",
+      "district": "중구"
+    },
+    "branches": [
+      {
+        "name": "병영(곽남)",
+        "address": "울산 중구 곽남길 10",
+        "phone": "052-298-1788",
+        "district": "중구"
+      },
+      {
+        "name": "병영(서동)",
+        "address": "울산 중구 북부순환도로 871",
+        "phone": "052-296-6900",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.45"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.76"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "18.89"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "18.98"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
+    }
+  ]
+}

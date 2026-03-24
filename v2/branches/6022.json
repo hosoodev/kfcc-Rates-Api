@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6022",
+  "name": "삼성창원병원",
+  "meta": {
+    "head_office": {
+      "name": "삼성창원병원(본점)",
+      "address": "경남 창원시 마산회원구 팔용로 158",
+      "phone": "055-233-8650",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "82.45"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "82.47"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "93.58"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "91.6"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

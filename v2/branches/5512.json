@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5512",
+  "name": "상모",
+  "meta": {
+    "head_office": {
+      "name": "상모(본점)",
+      "address": "경북 구미시 상모로 54",
+      "phone": "054-465-2593",
+      "province": "경북",
+      "district": "구미시"
+    },
+    "branches": [
+      {
+        "name": "상모(우방)",
+        "address": "경북 구미시 상사서로 36",
+        "phone": "054-465-2544",
+        "district": "구미시"
+      },
+      {
+        "name": "상모(본동)",
+        "address": "경북 구미시 박정희로 80",
+        "phone": "054-716-2594",
+        "district": "구미시"
+      },
+      {
+        "name": "상모(도레이)",
+        "address": "경북 구미시 구미대로 102",
+        "phone": "054-469-4211",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "6",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.99"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.45"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.19"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5501",
+      "name": "송정",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5502",
+      "name": "금오",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5505",
+      "name": "지산",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
+    }
+  ]
+}

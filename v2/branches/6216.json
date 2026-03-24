@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6216",
+  "name": "새중앙",
+  "meta": {
+    "head_office": {
+      "name": "새중앙(본점)",
+      "address": "울산 북구 염포로 623",
+      "phone": "052-287-0083",
+      "province": "울산",
+      "district": "북구"
+    },
+    "branches": [
+      {
+        "name": "새중앙(중리)",
+        "address": "울산 북구 염포로 747",
+        "phone": "052-287-3399",
+        "district": "북구"
+      },
+      {
+        "name": "새중앙(화봉)",
+        "address": "울산 북구 화봉로 59",
+        "phone": "052-289-7733",
+        "district": "북구"
+      },
+      {
+        "name": "새중앙(매곡)",
+        "address": "울산 북구 매곡1로 46",
+        "phone": "052-296-5300",
+        "district": "북구"
+      },
+      {
+        "name": "새중앙(송정)",
+        "address": "울산 북구 화산중앙로 84",
+        "phone": "052-222-7800",
+        "district": "북구"
+      },
+      {
+        "name": "새중앙(강동)",
+        "address": "울산 북구 산하중앙2로 281",
+        "phone": "052-294-9200",
+        "district": "북구"
+      },
+      {
+        "name": "새중앙(화산)",
+        "address": "울산 북구 화산로 123",
+        "phone": "052-281-3311",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 1.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 1.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 1.9,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 1.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.5"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.23"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.97"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.13"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
+    }
+  ]
+}

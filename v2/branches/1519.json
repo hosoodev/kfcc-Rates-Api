@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1519",
+  "name": "범천중앙",
+  "meta": {
+    "head_office": {
+      "name": "범천중앙(본점)",
+      "address": "부산 부산진구 골드테마길 52",
+      "phone": "051-637-5816",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.95,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.95,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.99"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "16.09"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "15.58"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "19.36"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1501",
+      "name": "부전1동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1502",
+      "name": "서면",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원",
+      "province": "부산",
+      "district": "부산진구"
+    }
+  ]
+}

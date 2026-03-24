@@ -1,0 +1,130 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2024",
+  "name": "수성",
+  "meta": {
+    "head_office": {
+      "name": "수성(본점)",
+      "address": "대구 수성구 들안로 300",
+      "phone": "053-751-7117",
+      "province": "대구",
+      "district": "수성구"
+    },
+    "branches": [
+      {
+        "name": "수성(수성로)",
+        "address": "대구 수성구 수성로 300-1",
+        "phone": "053-766-7117",
+        "district": "수성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 1.7,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 1.7,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.68"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.93"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.58"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.34"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2018",
+      "name": "수성중앙",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2020",
+      "name": "청구로",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2021",
+      "name": "대원",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2022",
+      "name": "남부",
+      "province": "대구",
+      "district": "수성구"
+    },
+    {
+      "gmgoCd": "2023",
+      "name": "수성1가",
+      "province": "대구",
+      "district": "수성구"
+    }
+  ]
+}

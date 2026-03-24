@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2841",
+  "name": "진도군",
+  "meta": {
+    "head_office": {
+      "name": "진도군(본점)",
+      "address": "전남 진도군 진도읍 남문길 42-10",
+      "phone": "061-542-9200",
+      "province": "전남",
+      "district": "진도군"
+    },
+    "branches": [
+      {
+        "name": "진도군(임회)",
+        "address": "전남 진도군 임회면 석교길 6-1",
+        "phone": "061-543-3098",
+        "district": "진도군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.0,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.67"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "12.41"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "11.65"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.96"
+    }
+  ],
+  "nearby_branches": []
+}

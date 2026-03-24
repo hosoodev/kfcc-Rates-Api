@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3436",
+  "name": "원북",
+  "meta": {
+    "head_office": {
+      "name": "원북(본점)",
+      "address": "충남 태안군 원북면 원이로 832",
+      "phone": "041-672-7281",
+      "province": "충남",
+      "district": "태안군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.93"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.17"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "12.01"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.1"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3431",
+      "name": "태안",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3432",
+      "name": "안면도",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3433",
+      "name": "남면",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3434",
+      "name": "안흥",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3435",
+      "name": "소원",
+      "province": "충남",
+      "district": "태안군"
+    }
+  ]
+}

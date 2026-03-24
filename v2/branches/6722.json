@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6722",
+  "name": "서제주",
+  "meta": {
+    "head_office": {
+      "name": "서제주(본점)",
+      "address": "제주 제주시 애월읍 일주서로 6693",
+      "phone": "064-799-7774",
+      "province": "제주",
+      "district": "제주시"
+    },
+    "branches": [
+      {
+        "name": "서제주(연동)",
+        "address": "제주 제주시 연오로 54",
+        "phone": "064-711-7773",
+        "district": "제주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.19"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.8"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.61"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.73"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6601",
+      "name": "제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6602",
+      "name": "중앙",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6603",
+      "name": "용담",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6604",
+      "name": "동제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6605",
+      "name": "신제주",
+      "province": "제주",
+      "district": "제주시"
+    }
+  ]
+}

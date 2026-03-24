@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4705",
+  "name": "남충주",
+  "meta": {
+    "head_office": {
+      "name": "남충주(본점)",
+      "address": "충북 충주시 호암중앙1로 25",
+      "phone": "043-844-6411",
+      "province": "충북",
+      "district": "충주시"
+    },
+    "branches": [
+      {
+        "name": "남충주(호암)",
+        "address": "충북 충주시 호암수청2로 29",
+        "phone": "043-844-6414",
+        "district": "충주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.98,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.98,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "10.8"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.72"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.89"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.28"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4701",
+      "name": "충주SM",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4702",
+      "name": "예성",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4703",
+      "name": "교현",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4704",
+      "name": "문화",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4707",
+      "name": "새충주",
+      "province": "충북",
+      "district": "충주시"
+    }
+  ]
+}

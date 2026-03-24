@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1643",
+  "name": "신앙촌",
+  "meta": {
+    "head_office": {
+      "name": "신앙촌(본점)",
+      "address": "부산 기장군 기장읍 죽성로 197",
+      "phone": "051-722-8448",
+      "province": "부산",
+      "district": "기장군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "366.41"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "339.99"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "346.4"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "370.95"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1641",
+      "name": "정관",
+      "province": "부산",
+      "district": "기장군"
+    },
+    {
+      "gmgoCd": "1642",
+      "name": "기장",
+      "province": "부산",
+      "district": "기장군"
+    }
+  ]
+}

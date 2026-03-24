@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5428",
+  "name": "백화",
+  "meta": {
+    "head_office": {
+      "name": "백화(본점)",
+      "address": "경북 상주시 모서면 백화로 1430",
+      "phone": "054-531-2110",
+      "province": "경북",
+      "district": "상주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 1.0,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "16.85"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.55"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.67"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "17.15"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5422",
+      "name": "상산",
+      "province": "경북",
+      "district": "상주시"
+    },
+    {
+      "gmgoCd": "5424",
+      "name": "함창",
+      "province": "경북",
+      "district": "상주시"
+    },
+    {
+      "gmgoCd": "5426",
+      "name": "화령",
+      "province": "경북",
+      "district": "상주시"
+    },
+    {
+      "gmgoCd": "5427",
+      "name": "새상주",
+      "province": "경북",
+      "district": "상주시"
+    }
+  ]
+}

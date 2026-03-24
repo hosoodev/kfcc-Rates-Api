@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6466",
+  "name": "시민",
+  "meta": {
+    "head_office": {
+      "name": "시민(본점)",
+      "address": "경남 진주시 촉석로 181",
+      "phone": "055-745-2250",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": [
+      {
+        "name": "시민(촉석)",
+        "address": "경남 진주시 진양호로532번길 15",
+        "phone": "055-741-1658",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "14.41"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "14.58"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.15"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.62"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

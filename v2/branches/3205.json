@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3205",
+  "name": "천안동부",
+  "meta": {
+    "head_office": {
+      "name": "천안동부(본점)",
+      "address": "충남 천안시 동남구 충절로 196",
+      "phone": "041-551-1512",
+      "province": "충남",
+      "district": "천안시"
+    },
+    "branches": [
+      {
+        "name": "천안동부(제1)",
+        "address": "충남 천안시 동남구 원성4길 32",
+        "phone": "041-552-5427",
+        "district": "천안시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.71,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.91,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.41,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.71,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.91,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.28"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.98"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.14"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "7.51"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3203",
+      "name": "천안",
+      "province": "충남",
+      "district": "천안시"
+    },
+    {
+      "gmgoCd": "3204",
+      "name": "선영",
+      "province": "충남",
+      "district": "천안시"
+    },
+    {
+      "gmgoCd": "3206",
+      "name": "천안서부",
+      "province": "충남",
+      "district": "천안시"
+    },
+    {
+      "gmgoCd": "3208",
+      "name": "중부",
+      "province": "충남",
+      "district": "천안시"
+    },
+    {
+      "gmgoCd": "3211",
+      "name": "북천안",
+      "province": "충남",
+      "district": "천안시"
+    }
+  ]
+}

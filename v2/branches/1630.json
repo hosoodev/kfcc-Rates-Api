@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1630",
+  "name": "반여2.3동",
+  "meta": {
+    "head_office": {
+      "name": "반여2.3동(본점)",
+      "address": "부산 해운대구 재반로 247",
+      "phone": "051-781-9966",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    "branches": [
+      {
+        "name": "반여2.3동(반여2동)",
+        "address": "부산 해운대구 재반로 214",
+        "phone": "051-782-6640",
+        "district": "해운대구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.1,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.03,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.03,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "-1.24"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "-0.13"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "0.07"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "4.91"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1622",
+      "name": "해운대중앙",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1624",
+      "name": "우리",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1625",
+      "name": "장산",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1626",
+      "name": "해운대",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1627",
+      "name": "부산동부",
+      "province": "부산",
+      "district": "해운대구"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3644",
+  "name": "부천우리",
+  "meta": {
+    "head_office": {
+      "name": "부천우리(본점)",
+      "address": "경기 부천시 원미구 상일로94번길 38",
+      "phone": "032-657-1027",
+      "province": "경기",
+      "district": "부천시"
+    },
+    "branches": [
+      {
+        "name": "부천우리(중동)",
+        "address": "경기 부천시 원미구 장말로 207",
+        "phone": "032-665-9651",
+        "district": "부천시"
+      },
+      {
+        "name": "부천우리(상동)",
+        "address": "경기 부천시 원미구 상동로 105",
+        "phone": "032-326-1027",
+        "district": "부천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.82"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.54"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.99"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.63"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3636",
+      "name": "부천제일",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3637",
+      "name": "남부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3639",
+      "name": "성지",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3641",
+      "name": "북부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3643",
+      "name": "송내",
+      "province": "경기",
+      "district": "부천시"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0225",
+  "name": "호텔롯데",
+  "meta": {
+    "head_office": {
+      "name": "호텔롯데(본점)",
+      "address": "서울 중구 남대문로 81",
+      "phone": "02-759-7161",
+      "province": "서울",
+      "district": "중구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "279.45"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "285.68"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "277.93"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "298.2"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
+    }
+  ]
+}

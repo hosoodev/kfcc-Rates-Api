@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3737",
+  "name": "광명",
+  "meta": {
+    "head_office": {
+      "name": "광명(본점)",
+      "address": "경기 광명시 광명로 922",
+      "phone": "02-2688-0147",
+      "province": "경기",
+      "district": "광명시"
+    },
+    "branches": [
+      {
+        "name": "광명(철산)",
+        "address": "경기 광명시 시청로 106-1",
+        "phone": "02-2682-0117",
+        "district": "광명시"
+      },
+      {
+        "name": "광명(광일)",
+        "address": "경기 광명시 광명로 951",
+        "phone": "02-2616-0020",
+        "district": "광명시"
+      },
+      {
+        "name": "광명(KTX광명역)",
+        "address": "경기 광명시 광명역로 26",
+        "phone": "02-899-9504",
+        "district": "광명시"
+      },
+      {
+        "name": "광명(일직동)",
+        "address": "경기 광명시 신기로17번길 6",
+        "phone": "02-899-9511",
+        "district": "광명시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.84,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.84,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "-0.01"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "1.56"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "4.56"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "6.21"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3703",
+      "name": "광남",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3704",
+      "name": "제일",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3708",
+      "name": "기아",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3735",
+      "name": "광명동부",
+      "province": "경기",
+      "district": "광명시"
+    }
+  ]
+}

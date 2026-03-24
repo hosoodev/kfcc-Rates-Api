@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0102",
+  "name": "광화문",
+  "meta": {
+    "head_office": {
+      "name": "광화문(본점)",
+      "address": "서울 종로구 자하문로 37",
+      "phone": "02-735-2188",
+      "province": "서울",
+      "district": "종로구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.85"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.39"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.06"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.53"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0105",
+      "name": "세검정",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0106",
+      "name": "종로서부",
+      "province": "서울",
+      "district": "종로구"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1522",
+  "name": "가야2동",
+  "meta": {
+    "head_office": {
+      "name": "가야2동(본점)",
+      "address": "부산 부산진구 냉정로 271",
+      "phone": "051-893-3365",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.8"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.31"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.33"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.52"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1501",
+      "name": "부전1동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1502",
+      "name": "서면",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원",
+      "province": "부산",
+      "district": "부산진구"
+    }
+  ]
+}

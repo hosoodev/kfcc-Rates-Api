@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0507",
+  "name": "전농동",
+  "meta": {
+    "head_office": {
+      "name": "전농동(본점)",
+      "address": "서울 동대문구 서울시립대로 94",
+      "phone": "02-2212-0551",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.92,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.92,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "8.85"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.21"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.66"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.38"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0504",
+      "name": "동대문중앙",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0518",
+      "name": "더좋은",
+      "province": "서울",
+      "district": "동대문구"
+    }
+  ]
+}

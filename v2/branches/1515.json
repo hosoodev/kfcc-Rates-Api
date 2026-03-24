@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1515",
+  "name": "당감4동",
+  "meta": {
+    "head_office": {
+      "name": "당감4동(본점)",
+      "address": "부산 부산진구 당감서로80번길 12",
+      "phone": "051-898-1761",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.03,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.03,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "13.84"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "13.25"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.64"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.7"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1501",
+      "name": "부전1동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1502",
+      "name": "서면",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원",
+      "province": "부산",
+      "district": "부산진구"
+    }
+  ]
+}

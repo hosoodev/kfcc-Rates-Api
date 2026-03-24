@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5128",
+  "name": "신익산",
+  "meta": {
+    "head_office": {
+      "name": "신익산(본점)",
+      "address": "전북 익산시 황등면 황등로 162-1",
+      "phone": "063-856-4531",
+      "province": "전북",
+      "district": "익산시"
+    },
+    "branches": [
+      {
+        "name": "신익산(삼성)",
+        "address": "전북 익산시 무왕로23길 13",
+        "phone": "063-856-4619",
+        "district": "익산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "5.18"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.08"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.79"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.89"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5122",
+      "name": "이리평화",
+      "province": "전북",
+      "district": "익산시"
+    },
+    {
+      "gmgoCd": "5123",
+      "name": "인화",
+      "province": "전북",
+      "district": "익산시"
+    },
+    {
+      "gmgoCd": "5125",
+      "name": "익산서부",
+      "province": "전북",
+      "district": "익산시"
+    },
+    {
+      "gmgoCd": "5132",
+      "name": "원광대학교",
+      "province": "전북",
+      "district": "익산시"
+    },
+    {
+      "gmgoCd": "5134",
+      "name": "익산중앙",
+      "province": "전북",
+      "district": "익산시"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5247",
+  "name": "포항중앙",
+  "meta": {
+    "head_office": {
+      "name": "포항중앙(본점)",
+      "address": "경북 포항시 북구 삼호로 4",
+      "phone": "054-241-2339",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "4.85"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "6.74"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.62"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.25"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

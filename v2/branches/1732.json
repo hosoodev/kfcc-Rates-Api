@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1732",
+  "name": "부산개인택시조합",
+  "meta": {
+    "head_office": {
+      "name": "부산개인택시조합(본점)",
+      "address": "부산 연제구 월드컵대로 399",
+      "phone": "051-500-8650",
+      "province": "부산",
+      "district": "연제구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "30.1"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "33.99"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "31.47"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "35.69"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1721",
+      "name": "아시아드",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1722",
+      "name": "거제3동",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1724",
+      "name": "연산제일",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1725",
+      "name": "연제",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1726",
+      "name": "연산3동",
+      "province": "부산",
+      "district": "연제구"
+    }
+  ]
+}

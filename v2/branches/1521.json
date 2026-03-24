@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1521",
+  "name": "범천동",
+  "meta": {
+    "head_office": {
+      "name": "범천동(본점)",
+      "address": "부산 부산진구 신암로 97",
+      "phone": "051-636-2403",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "22.71"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "26.12"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "22.76"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "25.06"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1501",
+      "name": "부전1동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1502",
+      "name": "서면",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1504",
+      "name": "연지동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1505",
+      "name": "초읍동",
+      "province": "부산",
+      "district": "부산진구"
+    },
+    {
+      "gmgoCd": "1506",
+      "name": "시민공원",
+      "province": "부산",
+      "district": "부산진구"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5502",
+  "name": "금오",
+  "meta": {
+    "head_office": {
+      "name": "금오(본점)",
+      "address": "경북 구미시 금오시장로1길 2",
+      "phone": "054-452-5121",
+      "province": "경북",
+      "district": "구미시"
+    },
+    "branches": [
+      {
+        "name": "금오(아이파크더샵)",
+        "address": "경북 구미시 금오산로6길 12",
+        "phone": "054-451-4957",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "15.87"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.74"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "16.7"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "17.98"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5501",
+      "name": "송정",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5505",
+      "name": "지산",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5507",
+      "name": "중앙",
+      "province": "경북",
+      "district": "구미시"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5218",
+  "name": "미래",
+  "meta": {
+    "head_office": {
+      "name": "미래(본점)",
+      "address": "경북 포항시 남구 청림서길 17-6",
+      "phone": "054-292-5570",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": [
+      {
+        "name": "미래(남)",
+        "address": "경북 포항시 남구 정몽주로879번길 9-1",
+        "phone": "054-292-5566",
+        "district": "포항시"
+      },
+      {
+        "name": "미래(유강)",
+        "address": "경북 포항시 남구 연일읍 유강길10번길 18-8",
+        "phone": "054-251-9200",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.18"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "6.64"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.78"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.05"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

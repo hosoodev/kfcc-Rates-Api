@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6434",
+  "name": "노산",
+  "meta": {
+    "head_office": {
+      "name": "노산(본점)",
+      "address": "경남 사천시 주공로 27",
+      "phone": "055-833-3600",
+      "province": "경남",
+      "district": "사천시"
+    },
+    "branches": [
+      {
+        "name": "노산(대방)",
+        "address": "경남 사천시 각산로 169",
+        "phone": "055-832-5262",
+        "district": "사천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "12.13"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "13.05"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.01"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.39"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6427",
+      "name": "사천",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6432",
+      "name": "사남",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6433",
+      "name": "삼천포",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6438",
+      "name": "한국항공우주산업㈜",
+      "province": "경남",
+      "district": "사천시"
+    }
+  ]
+}

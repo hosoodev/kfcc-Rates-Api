@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4222",
+  "name": "송정",
+  "meta": {
+    "head_office": {
+      "name": "송정(본점)",
+      "address": "강원 강릉시 경강로2477번길 4",
+      "phone": "033-652-9966",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 0.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹자유적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "16.62"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.87"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.73"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.79"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4202",
+      "name": "새강릉",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4206",
+      "name": "강릉솔향",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4207",
+      "name": "포남",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4208",
+      "name": "초당경포",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4262",
+      "name": "강릉아산병원",
+      "province": "강원",
+      "district": "강릉시"
+    }
+  ]
+}

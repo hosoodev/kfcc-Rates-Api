@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6028",
+  "name": "진해",
+  "meta": {
+    "head_office": {
+      "name": "진해(본점)",
+      "address": "경남 창원시 진해구 충장로 130",
+      "phone": "055-544-7123",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": [
+      {
+        "name": "진해(중앙)",
+        "address": "경남 창원시 진해구 백구로 4-1",
+        "phone": "055-544-3517",
+        "district": "창원시"
+      },
+      {
+        "name": "진해(용원)",
+        "address": "경남 창원시 진해구 안청남로 34",
+        "phone": "055-542-7121",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.8"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.7"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "12.39"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.11"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

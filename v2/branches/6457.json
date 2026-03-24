@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6457",
+  "name": "함양군",
+  "meta": {
+    "head_office": {
+      "name": "함양군(본점)",
+      "address": "경남 함양군 안의면 종로길 13-2",
+      "phone": "055-962-0011",
+      "province": "경남",
+      "district": "함양군"
+    },
+    "branches": [
+      {
+        "name": "함양군(용평)",
+        "address": "경남 함양군 함양읍 용평중앙길 15",
+        "phone": "055-963-3698",
+        "district": "함양군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.02"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.11"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.8"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.54"
+    }
+  ],
+  "nearby_branches": []
+}

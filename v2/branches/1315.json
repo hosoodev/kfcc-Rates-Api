@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1315",
+  "name": "범일동",
+  "meta": {
+    "head_office": {
+      "name": "범일동(본점)",
+      "address": "부산 동구 중앙대로 503",
+      "phone": "051-642-7606",
+      "province": "부산",
+      "district": "동구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.82"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.54"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.99"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.5"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1316",
+      "name": "부산동구",
+      "province": "부산",
+      "district": "동구"
+    }
+  ]
+}

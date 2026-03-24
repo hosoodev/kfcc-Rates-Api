@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6230",
+  "name": "농소",
+  "meta": {
+    "head_office": {
+      "name": "농소(본점)",
+      "address": "울산 북구 호계로 221",
+      "phone": "052-295-0400",
+      "province": "울산",
+      "district": "북구"
+    },
+    "branches": [
+      {
+        "name": "농소(아진)",
+        "address": "울산 북구 아진로 106-2",
+        "phone": "052-286-0004",
+        "district": "북구"
+      },
+      {
+        "name": "농소(천곡)",
+        "address": "울산 북구 가재길 86",
+        "phone": "052-293-0111",
+        "district": "북구"
+      },
+      {
+        "name": "농소(호계매곡)",
+        "address": "울산 북구 호계매곡1로 58",
+        "phone": "052-295-8007",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.25"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.25"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.12"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.24"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
+    }
+  ]
+}

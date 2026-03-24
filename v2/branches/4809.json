@@ -1,0 +1,146 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4809",
+  "name": "중부",
+  "meta": {
+    "head_office": {
+      "name": "중부(본점)",
+      "address": "전북 전주시 완산구 용머리로 151",
+      "phone": "063-236-2996",
+      "province": "전북",
+      "district": "전주시"
+    },
+    "branches": [
+      {
+        "name": "중부(서원로)",
+        "address": "전북 전주시 완산구 서원로 325",
+        "phone": "063-285-2996",
+        "district": "전주시"
+      },
+      {
+        "name": "중부(벚꽃)",
+        "address": "전북 전주시 덕진구 벚꽃3길 1",
+        "phone": "063-254-2993",
+        "district": "전주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.83"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.29"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "8.99"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.44"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4813",
+      "name": "금암",
+      "province": "전북",
+      "district": "전주시"
+    }
+  ]
+}

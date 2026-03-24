@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5322",
+  "name": "(주)풍산안강공장",
+  "meta": {
+    "head_office": {
+      "name": "(주)풍산안강공장(본점)",
+      "address": "경북 경주시 안강읍 호국로 2606-10",
+      "phone": "054-762-5878",
+      "province": "경북",
+      "district": "경주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "622.29"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "435.66"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "370.35"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "296.57"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5301",
+      "name": "우성",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5302",
+      "name": "성동",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5303",
+      "name": "신경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5305",
+      "name": "경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5306",
+      "name": "남경주",
+      "province": "경북",
+      "district": "경주시"
+    }
+  ]
+}

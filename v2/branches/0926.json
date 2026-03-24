@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0926",
+  "name": "낙성대",
+  "meta": {
+    "head_office": {
+      "name": "낙성대(본점)",
+      "address": "서울 관악구 남부순환로248길 23",
+      "phone": "02-877-5080",
+      "province": "서울",
+      "district": "관악구"
+    },
+    "branches": [
+      {
+        "name": "낙성대(봉천7동)",
+        "address": "서울 관악구 남부순환로230길 28",
+        "phone": "02-889-4133",
+        "district": "관악구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "16.33"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "15.26"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.96"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "15.41"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0927",
+      "name": "관악중앙",
+      "province": "서울",
+      "district": "관악구"
+    }
+  ]
+}

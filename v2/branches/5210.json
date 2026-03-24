@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5210",
+  "name": "영포",
+  "meta": {
+    "head_office": {
+      "name": "영포(본점)",
+      "address": "경북 포항시 남구 해동로 103-1",
+      "phone": "054-272-7731",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": [
+      {
+        "name": "영포(동해시장)",
+        "address": "경북 포항시 남구 중앙로122번길 30-1",
+        "phone": "054-282-7731",
+        "district": "포항시"
+      },
+      {
+        "name": "영포(대이)",
+        "address": "경북 포항시 남구 대이로 57",
+        "phone": "054-232-7731",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.52"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "13.05"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "13.68"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "14.75"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5211",
+      "name": "송도",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

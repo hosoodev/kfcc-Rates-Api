@@ -1,0 +1,80 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4253",
+  "name": "삼척도원",
+  "meta": {
+    "head_office": {
+      "name": "삼척도원(본점)",
+      "address": "강원 삼척시 도계읍 도계로 224",
+      "phone": "033-541-2108",
+      "province": "강원",
+      "district": "삼척시"
+    },
+    "branches": [
+      {
+        "name": "삼척도원(이사부)",
+        "address": "강원 삼척시 남양안길 6",
+        "phone": "033-575-7811",
+        "district": "삼척시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 1.0,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.5,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.26"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "10.72"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.81"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.04"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4250",
+      "name": "삼척중앙",
+      "province": "강원",
+      "district": "삼척시"
+    },
+    {
+      "gmgoCd": "4251",
+      "name": "늘푸른",
+      "province": "강원",
+      "district": "삼척시"
+    }
+  ]
+}

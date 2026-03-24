@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5315",
+  "name": "더존",
+  "meta": {
+    "head_office": {
+      "name": "더존(본점)",
+      "address": "경북 경주시 현곡면 용담로 184",
+      "phone": "054-775-4779",
+      "province": "경북",
+      "district": "경주시"
+    },
+    "branches": [
+      {
+        "name": "더존(푸르지오)",
+        "address": "경북 경주시 현곡면 용담로 538-17",
+        "phone": "054-705-4778",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "1.82"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "3.61"
+    },
+    {
+      "period": "2024_06",
+      "grade": "4",
+      "bis_ratio": "2.71"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "4.88"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5301",
+      "name": "우성",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5302",
+      "name": "성동",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5303",
+      "name": "신경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5305",
+      "name": "경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5306",
+      "name": "남경주",
+      "province": "경북",
+      "district": "경주시"
+    }
+  ]
+}

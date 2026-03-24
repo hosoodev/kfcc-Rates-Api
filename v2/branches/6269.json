@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6269",
+  "name": "양산중앙",
+  "meta": {
+    "head_office": {
+      "name": "양산중앙(본점)",
+      "address": "경남 양산시 하북면 신평중앙길 14",
+      "phone": "055-382-6674",
+      "province": "경남",
+      "district": "양산시"
+    },
+    "branches": [
+      {
+        "name": "양산중앙(용연)",
+        "address": "경남 양산시 하북면 내원로 20",
+        "phone": "055-374-6697",
+        "district": "양산시"
+      },
+      {
+        "name": "양산중앙(사송)",
+        "address": "경남 양산시 동면 내송큰들로 16",
+        "phone": "055-785-5550",
+        "district": "양산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "11.52"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.18"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.72"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.48"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6264",
+      "name": "양산",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6266",
+      "name": "물금",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6267",
+      "name": "남양산",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6268",
+      "name": "상북",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6270",
+      "name": "웅상",
+      "province": "경남",
+      "district": "양산시"
+    }
+  ]
+}

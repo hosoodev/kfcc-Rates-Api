@@ -1,0 +1,80 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3441",
+  "name": "당진동부",
+  "meta": {
+    "head_office": {
+      "name": "당진동부(본점)",
+      "address": "충남 당진시 신평면 거산3거리길 18",
+      "phone": "041-363-1555",
+      "province": "충남",
+      "district": "당진시"
+    },
+    "branches": [
+      {
+        "name": "당진동부(합덕)",
+        "address": "충남 당진시 합덕읍 중동1길 42",
+        "phone": "041-363-0015",
+        "district": "당진시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.69"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "11.2"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.19"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.87"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3437",
+      "name": "당진",
+      "province": "충남",
+      "district": "당진시"
+    },
+    {
+      "gmgoCd": "3440",
+      "name": "당진서부",
+      "province": "충남",
+      "district": "당진시"
+    }
+  ]
+}

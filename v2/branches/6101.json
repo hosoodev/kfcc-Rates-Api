@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6101",
+  "name": "북창원",
+  "meta": {
+    "head_office": {
+      "name": "북창원(본점)",
+      "address": "경남 창원시 의창구 창이대로197번길 10-7",
+      "phone": "055-238-4492",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": [
+      {
+        "name": "북창원(명곡)",
+        "address": "경남 창원시 의창구 원이대로189번길 34",
+        "phone": "055-238-2086",
+        "district": "창원시"
+      },
+      {
+        "name": "북창원(봉곡)",
+        "address": "경남 창원시 의창구 봉곡로111번길 5",
+        "phone": "055-237-7131",
+        "district": "창원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "11.24"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "10.62"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "9.62"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.52"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2507",
+  "name": "화정",
+  "meta": {
+    "head_office": {
+      "name": "화정(본점)",
+      "address": "광주 서구 상무대로 1089",
+      "phone": "062-363-3352",
+      "province": "광주",
+      "district": "서구"
+    },
+    "branches": [
+      {
+        "name": "화정(선수촌)",
+        "address": "광주 서구 화정로 222",
+        "phone": "062-363-3354",
+        "district": "서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.78"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.25"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.31"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.81"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1216",
+      "name": "서구중앙",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부",
+      "province": "부산",
+      "district": "서구"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5501",
+  "name": "송정",
+  "meta": {
+    "head_office": {
+      "name": "송정(본점)",
+      "address": "경북 구미시 백산로 70",
+      "phone": "054-452-5343",
+      "province": "경북",
+      "district": "구미시"
+    },
+    "branches": [
+      {
+        "name": "송정(한신)",
+        "address": "경북 구미시 백산로 151",
+        "phone": "054-454-5343",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "10.65"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "11.21"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "10.88"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "10.71"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5502",
+      "name": "금오",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5505",
+      "name": "지산",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5507",
+      "name": "중앙",
+      "province": "경북",
+      "district": "구미시"
+    }
+  ]
+}

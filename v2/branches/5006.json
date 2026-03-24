@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "5006",
+  "name": "태인",
+  "meta": {
+    "head_office": {
+      "name": "태인(본점)",
+      "address": "전북 정읍시 태인면 태인로 10-1",
+      "phone": "063-534-4337",
+      "province": "전북",
+      "district": "정읍시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.52,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.52,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.5"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.53"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "15.59"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.7"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5001",
+      "name": "정읍",
+      "province": "전북",
+      "district": "정읍시"
+    },
+    {
+      "gmgoCd": "5003",
+      "name": "연지",
+      "province": "전북",
+      "district": "정읍시"
+    },
+    {
+      "gmgoCd": "5004",
+      "name": "상명",
+      "province": "전북",
+      "district": "정읍시"
+    },
+    {
+      "gmgoCd": "5007",
+      "name": "산외",
+      "province": "전북",
+      "district": "정읍시"
+    },
+    {
+      "gmgoCd": "5008",
+      "name": "신태인",
+      "province": "전북",
+      "district": "정읍시"
+    }
+  ]
+}

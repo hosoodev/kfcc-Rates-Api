@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0317",
+  "name": "보광동",
+  "meta": {
+    "head_office": {
+      "name": "보광동(본점)",
+      "address": "서울 용산구 장문로 91-1",
+      "phone": "02-794-1860",
+      "province": "서울",
+      "district": "용산구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.3,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "11.82"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "15.38"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "18.48"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "18.44"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0310",
+      "name": "한강2동",
+      "province": "서울",
+      "district": "용산구"
+    }
+  ]
+}

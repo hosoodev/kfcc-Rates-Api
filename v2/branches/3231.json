@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3231",
+  "name": "유구",
+  "meta": {
+    "head_office": {
+      "name": "유구(본점)",
+      "address": "충남 공주시 유구읍 중앙1길 105",
+      "phone": "041-841-3066",
+      "province": "충남",
+      "district": "공주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "9.34"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.22"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.64"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.85"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3223",
+      "name": "합동",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3225",
+      "name": "이인",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3228",
+      "name": "대성",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3234",
+      "name": "백제",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3235",
+      "name": "삼성",
+      "province": "충남",
+      "district": "공주시"
+    }
+  ]
+}

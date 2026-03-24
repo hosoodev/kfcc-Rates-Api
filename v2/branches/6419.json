@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6419",
+  "name": "봉곡",
+  "meta": {
+    "head_office": {
+      "name": "봉곡(본점)",
+      "address": "경남 진주시 진주성로 47",
+      "phone": "055-741-5348",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": [
+      {
+        "name": "봉곡(봉곡)",
+        "address": "경남 진주시 진주대로 1193",
+        "phone": "055-745-7555",
+        "district": "진주시"
+      },
+      {
+        "name": "봉곡(이현)",
+        "address": "경남 진주시 서장대로 271",
+        "phone": "055-746-5303",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "17.91"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.2"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "15.57"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "16.15"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

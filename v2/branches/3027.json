@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3027",
+  "name": "오정동",
+  "meta": {
+    "head_office": {
+      "name": "오정동(본점)",
+      "address": "대전 대덕구 대전로 1046",
+      "phone": "042-632-1358",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    "branches": [
+      {
+        "name": "오정동(대화)",
+        "address": "대전 대덕구 대화로 21",
+        "phone": "042-623-9051",
+        "district": "대덕구"
+      },
+      {
+        "name": "오정동(오정)",
+        "address": "대전 대덕구 오정로 76",
+        "phone": "042-672-4221",
+        "district": "대덕구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "-0.01"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "2.28"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.17"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "7.23"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0741",
+      "name": "한국앤컴퍼니",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3029",
+      "name": "대청",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3030",
+      "name": "대전북부",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3040",
+      "name": "대전대덕",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3042",
+      "name": "으뜸",
+      "province": "대전",
+      "district": "대덕구"
+    }
+  ]
+}

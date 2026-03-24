@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6426",
+  "name": "진주중앙",
+  "meta": {
+    "head_office": {
+      "name": "진주중앙(본점)",
+      "address": "경남 진주시 진양호로 545-1",
+      "phone": "055-743-1277",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": [
+      {
+        "name": "진주중앙(중앙)",
+        "address": "경남 진주시 진주대로 1070",
+        "phone": "055-745-3877",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "23.41"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "29.95"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "21.32"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "0.00"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

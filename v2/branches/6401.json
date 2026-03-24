@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6401",
+  "name": "망경",
+  "meta": {
+    "head_office": {
+      "name": "망경(본점)",
+      "address": "경남 진주시 진주대로943번길 11",
+      "phone": "055-759-4060",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": [
+      {
+        "name": "망경(망경)",
+        "address": "경남 진주시 망경남길 41-1",
+        "phone": "055-759-0029",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "28.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "26.76"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "25.02"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "21.56"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6408",
+      "name": "서부",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4607",
+  "name": "청주서부",
+  "meta": {
+    "head_office": {
+      "name": "청주서부(본점)",
+      "address": "충북 청주시 흥덕구 옥산면 청주역로 643",
+      "phone": "043-260-0444",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "청주서부(자이)",
+        "address": "충북 청주시 흥덕구 옥산면 오송가락로 1071",
+        "phone": "043-260-3339",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "7.87"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "8.1"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "8.56"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "7.93"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4509",
+      "name": "청주중앙",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

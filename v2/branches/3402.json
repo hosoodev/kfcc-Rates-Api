@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3402",
+  "name": "웅천",
+  "meta": {
+    "head_office": {
+      "name": "웅천(본점)",
+      "address": "충남 보령시 웅천읍 장터중앙길 130",
+      "phone": "041-933-2560",
+      "province": "충남",
+      "district": "보령시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "5.46"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.39"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "7.88"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "7.98"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3401",
+      "name": "보령시",
+      "province": "충남",
+      "district": "보령시"
+    }
+  ]
+}

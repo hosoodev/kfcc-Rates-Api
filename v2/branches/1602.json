@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1602",
+  "name": "복산동",
+  "meta": {
+    "head_office": {
+      "name": "복산동(본점)",
+      "address": "부산 동래구 동래로 153",
+      "phone": "051-552-4629",
+      "province": "부산",
+      "district": "동래구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "29.26"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "27.84"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "25.18"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "27.26"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1601",
+      "name": "수민동",
+      "province": "부산",
+      "district": "동래구"
+    },
+    {
+      "gmgoCd": "1603",
+      "name": "명륜동",
+      "province": "부산",
+      "district": "동래구"
+    },
+    {
+      "gmgoCd": "1605",
+      "name": "온천",
+      "province": "부산",
+      "district": "동래구"
+    },
+    {
+      "gmgoCd": "1606",
+      "name": "온천3동",
+      "province": "부산",
+      "district": "동래구"
+    },
+    {
+      "gmgoCd": "1607",
+      "name": "사직3동",
+      "province": "부산",
+      "district": "동래구"
+    }
+  ]
+}

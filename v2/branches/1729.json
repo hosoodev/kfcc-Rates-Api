@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1729",
+  "name": "연산6동",
+  "meta": {
+    "head_office": {
+      "name": "연산6동(본점)",
+      "address": "부산 연제구 배산로 4",
+      "phone": "051-853-2400",
+      "province": "부산",
+      "district": "연제구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.75"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "13.56"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.8"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.38"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1721",
+      "name": "아시아드",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1722",
+      "name": "거제3동",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1724",
+      "name": "연산제일",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1725",
+      "name": "연제",
+      "province": "부산",
+      "district": "연제구"
+    },
+    {
+      "gmgoCd": "1726",
+      "name": "연산3동",
+      "province": "부산",
+      "district": "연제구"
+    }
+  ]
+}

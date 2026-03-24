@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1136",
+  "name": "중곡1동",
+  "meta": {
+    "head_office": {
+      "name": "중곡1동(본점)",
+      "address": "서울 광진구 면목로 110",
+      "phone": "02-466-2611",
+      "province": "서울",
+      "district": "광진구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.4,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "13.65"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.66"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "12.54"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "11.74"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1133",
+      "name": "광진자양",
+      "province": "서울",
+      "district": "광진구"
+    },
+    {
+      "gmgoCd": "1134",
+      "name": "화양동",
+      "province": "서울",
+      "district": "광진구"
+    },
+    {
+      "gmgoCd": "1135",
+      "name": "송정.군자",
+      "province": "서울",
+      "district": "광진구"
+    },
+    {
+      "gmgoCd": "1137",
+      "name": "광진중곡",
+      "province": "서울",
+      "district": "광진구"
+    },
+    {
+      "gmgoCd": "1138",
+      "name": "서울광진",
+      "province": "서울",
+      "district": "광진구"
+    }
+  ]
+}

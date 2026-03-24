@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1936",
+  "name": "칠성",
+  "meta": {
+    "head_office": {
+      "name": "칠성(본점)",
+      "address": "대구 북구 중앙대로 546",
+      "phone": "053-423-2156",
+      "province": "대구",
+      "district": "북구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.1"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "8"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "6.7"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "9.8"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
+    }
+  ]
+}

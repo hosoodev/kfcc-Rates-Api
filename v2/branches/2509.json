@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2509",
+  "name": "송원",
+  "meta": {
+    "head_office": {
+      "name": "송원(본점)",
+      "address": "광주 남구 송암로 73",
+      "phone": "062-360-5748",
+      "province": "광주",
+      "district": "남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "618.56"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "570.17"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "515.33"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "461.5"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

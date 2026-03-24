@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "1038",
+  "name": "서울아산병원",
+  "meta": {
+    "head_office": {
+      "name": "서울아산병원(본점)",
+      "address": "서울 송파구 올림픽로43길 88",
+      "phone": "02-3010-7847",
+      "province": "서울",
+      "district": "송파구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "37.6"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "41.24"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "44.3"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "53"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0419",
+      "name": "삼성에스디에스",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1026",
+      "name": "서울중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1027",
+      "name": "마천",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1029",
+      "name": "송파중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1030",
+      "name": "서울송파",
+      "province": "서울",
+      "district": "송파구"
+    }
+  ]
+}

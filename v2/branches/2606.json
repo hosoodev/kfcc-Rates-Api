@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2606",
+  "name": "충무",
+  "meta": {
+    "head_office": {
+      "name": "충무(본점)",
+      "address": "전남 여수시 충무로 63",
+      "phone": "061-663-1348",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "26.21"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "24.35"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "24.58"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "22.24"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2607",
+      "name": "진남",
+      "province": "전남",
+      "district": "여수시"
+    }
+  ]
+}

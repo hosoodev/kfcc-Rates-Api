@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3827",
+  "name": "삼성전자",
+  "meta": {
+    "head_office": {
+      "name": "삼성전자(본점)",
+      "address": "경기 수원시 영통구 삼성로 129",
+      "phone": "-1588-7256",
+      "province": "경기",
+      "district": "수원시"
+    },
+    "branches": [
+      {
+        "name": "삼성전자(서울)",
+        "address": "서울 서초구 성촌길 34",
+        "phone": "-1588-7256",
+        "district": "서초구"
+      },
+      {
+        "name": "삼성전자(광주)",
+        "address": "광주 광산구 하남산단6번로 107",
+        "phone": "-1588-7256",
+        "district": "광산구"
+      },
+      {
+        "name": "삼성전자(수원)",
+        "address": "경기 수원시 영통구 삼성로 129",
+        "phone": "-1588-7256",
+        "district": "수원시"
+      },
+      {
+        "name": "삼성전자(기흥)",
+        "address": "경기 용인시 기흥구 삼성로 1",
+        "phone": "-1588-7256",
+        "district": "용인시"
+      },
+      {
+        "name": "삼성전자(평택)",
+        "address": "경기 평택시 고덕면 삼성로 144",
+        "phone": "-1588-7256",
+        "district": "평택시"
+      },
+      {
+        "name": "삼성전자(평택P2)",
+        "address": "경기 평택시 고덕면 삼성로 114",
+        "phone": "-1588-7256",
+        "district": "평택시"
+      },
+      {
+        "name": "삼성전자(화성)",
+        "address": "경기 화성시 삼성전자로 1",
+        "phone": "-1588-7256",
+        "district": "화성시"
+      },
+      {
+        "name": "삼성전자(온양)",
+        "address": "충남 아산시 배방읍 배방로 158",
+        "phone": "-1588-7256",
+        "district": "아산시"
+      },
+      {
+        "name": "삼성전자(천안)",
+        "address": "충남 천안시 서북구 번영로 465",
+        "phone": "-1588-7256",
+        "district": "천안시"
+      },
+      {
+        "name": "삼성전자(구미)",
+        "address": "경북 구미시 3공단3로 302",
+        "phone": "-1588-7256",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "17.99"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "16.79"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "17.94"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "15.86"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3807",
+      "name": "세화",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3808",
+      "name": "수원서부",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3809",
+      "name": "서호",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3815",
+      "name": "팔달",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3818",
+      "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    }
+  ]
+}

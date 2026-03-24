@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0931",
+  "name": "원신",
+  "meta": {
+    "head_office": {
+      "name": "원신(본점)",
+      "address": "서울 관악구 호암로 588",
+      "phone": "02-872-0076",
+      "province": "서울",
+      "district": "관악구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "12.67"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "12.11"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.64"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.06"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
+    }
+  ]
+}

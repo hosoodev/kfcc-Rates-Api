@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0342",
+  "name": "은평뉴타운",
+  "meta": {
+    "head_office": {
+      "name": "은평뉴타운(본점)",
+      "address": "서울 은평구 진관2로 60",
+      "phone": "02-386-6250",
+      "province": "서울",
+      "district": "은평구"
+    },
+    "branches": [
+      {
+        "name": "은평뉴타운(상림마을)",
+        "address": "서울 은평구 진관4로 17",
+        "phone": "02-386-6201",
+        "district": "은평구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "9.76"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "11.87"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "11.36"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "13.26"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0329",
+      "name": "녹번동",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0330",
+      "name": "서울은평",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0331",
+      "name": "갈현동",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0332",
+      "name": "구산동",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0334",
+      "name": "e-푸른",
+      "province": "서울",
+      "district": "은평구"
+    }
+  ]
+}

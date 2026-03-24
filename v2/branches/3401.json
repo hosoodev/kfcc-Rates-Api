@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3401",
+  "name": "보령시",
+  "meta": {
+    "head_office": {
+      "name": "보령시(본점)",
+      "address": "충남 보령시 한내시장길 27",
+      "phone": "041-934-3200",
+      "province": "충남",
+      "district": "보령시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.95"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "9.04"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.36"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.32"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3402",
+      "name": "웅천",
+      "province": "충남",
+      "district": "보령시"
+    }
+  ]
+}

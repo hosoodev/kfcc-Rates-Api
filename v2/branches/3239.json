@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3239",
+  "name": "웅진",
+  "meta": {
+    "head_office": {
+      "name": "웅진(옥룡)",
+      "address": "충남 공주시 무령로 285",
+      "phone": "041-852-5890",
+      "province": "충남",
+      "district": "공주시"
+    },
+    "branches": [
+      {
+        "name": "웅진(신관)",
+        "address": "충남 공주시 번영1로 73",
+        "phone": "041-855-8551",
+        "district": "공주시"
+      },
+      {
+        "name": "웅진(산성)",
+        "address": "충남 공주시 웅진로 219",
+        "phone": "041-855-2308",
+        "district": "공주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.25,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "4",
+      "bis_ratio": "2.67"
+    },
+    {
+      "period": "2024_12",
+      "grade": "4",
+      "bis_ratio": "6.08"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.21"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "7.7"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3223",
+      "name": "합동",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3225",
+      "name": "이인",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3228",
+      "name": "대성",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3231",
+      "name": "유구",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3234",
+      "name": "백제",
+      "province": "충남",
+      "district": "공주시"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2304",
+  "name": "상인천",
+  "meta": {
+    "head_office": {
+      "name": "상인천(본점)",
+      "address": "인천 남동구 석산로 159",
+      "phone": "032-432-8500",
+      "province": "인천",
+      "district": "남동구"
+    },
+    "branches": [
+      {
+        "name": "상인천(구월)",
+        "address": "인천 남동구 용천로 87",
+        "phone": "032-468-0995",
+        "district": "남동구"
+      },
+      {
+        "name": "상인천(논현고잔)",
+        "address": "인천 남동구 논고개로 61",
+        "phone": "032-432-8560",
+        "district": "남동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.02"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "8.87"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "8.01"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.6"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2303",
+      "name": "인주",
+      "province": "인천",
+      "district": "남동구"
+    },
+    {
+      "gmgoCd": "2306",
+      "name": "만수",
+      "province": "인천",
+      "district": "남동구"
+    },
+    {
+      "gmgoCd": "2307",
+      "name": "남동",
+      "province": "인천",
+      "district": "남동구"
+    },
+    {
+      "gmgoCd": "2309",
+      "name": "구월남촌",
+      "province": "인천",
+      "district": "남동구"
+    }
+  ]
+}

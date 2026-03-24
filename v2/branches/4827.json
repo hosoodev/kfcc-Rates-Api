@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4827",
+  "name": "휴비스",
+  "meta": {
+    "head_office": {
+      "name": "휴비스(본점)",
+      "address": "전북 전주시 덕진구 기린대로 787",
+      "phone": "063-210-2252",
+      "province": "전북",
+      "district": "전주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "140.73"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "161.46"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "153.04"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "161.16"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
+    }
+  ]
+}

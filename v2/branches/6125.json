@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6125",
+  "name": "볼보건설기계코리아㈜",
+  "meta": {
+    "head_office": {
+      "name": "볼보건설기계코리아㈜(본점)",
+      "address": "경남 창원시 성산구 두산볼보로 160",
+      "phone": "055-260-7157",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "49.61"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "46.99"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "43.24"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "40.26"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

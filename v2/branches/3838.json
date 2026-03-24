@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3838",
+  "name": "엘지전자평택",
+  "meta": {
+    "head_office": {
+      "name": "엘지전자평택(본점)",
+      "address": "경기 평택시 진위면 엘지로 222",
+      "phone": "031-610-5105",
+      "province": "경기",
+      "district": "평택시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "1",
+      "bis_ratio": "220.46"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "224.58"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "218.02"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "220.51"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3833",
+      "name": "평택",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3834",
+      "name": "서평택",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3841",
+      "name": "케이지모빌리티",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3843",
+      "name": "송탄",
+      "province": "경기",
+      "district": "평택시"
+    }
+  ]
+}

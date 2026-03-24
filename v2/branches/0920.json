@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0920",
+  "name": "노량진수산",
+  "meta": {
+    "head_office": {
+      "name": "노량진수산(본점)",
+      "address": "서울 동작구 노들로 674",
+      "phone": "02-2254-8500",
+      "province": "서울",
+      "district": "동작구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "9.75"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "14.68"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "13.78"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "12.92"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0901",
+      "name": "노들",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0902",
+      "name": "노량진",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0903",
+      "name": "상도",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0905",
+      "name": "한강",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0906",
+      "name": "상도중앙",
+      "province": "서울",
+      "district": "동작구"
+    }
+  ]
+}

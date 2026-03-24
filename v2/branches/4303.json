@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "4303",
+  "name": "동원주",
+  "meta": {
+    "head_office": {
+      "name": "동원주(본점)",
+      "address": "강원 원주시 치악로 1788",
+      "phone": "033-762-7894",
+      "province": "강원",
+      "district": "원주시"
+    },
+    "branches": [
+      {
+        "name": "동원주(서원)",
+        "address": "강원 원주시 예술관길 6",
+        "phone": "033-762-3174",
+        "district": "원주시"
+      },
+      {
+        "name": "동원주(혁신)",
+        "address": "강원 원주시 혁신로 55",
+        "phone": "033-765-0201",
+        "district": "원주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "7.97"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.19"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.01"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.44"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4301",
+      "name": "원주중앙",
+      "province": "강원",
+      "district": "원주시"
+    },
+    {
+      "gmgoCd": "4302",
+      "name": "신원주",
+      "province": "강원",
+      "district": "원주시"
+    },
+    {
+      "gmgoCd": "4306",
+      "name": "단구",
+      "province": "강원",
+      "district": "원주시"
+    },
+    {
+      "gmgoCd": "4309",
+      "name": "꿈드림",
+      "province": "강원",
+      "district": "원주시"
+    },
+    {
+      "gmgoCd": "4313",
+      "name": "원주우리",
+      "province": "강원",
+      "district": "원주시"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0822",
+  "name": "국회",
+  "meta": {
+    "head_office": {
+      "name": "국회(본점)",
+      "address": "서울 영등포구 의사당대로 1",
+      "phone": "02-6788-2526",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "49.62"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "48.42"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "44.57"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "38.69"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0803",
+      "name": "영등포제일",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림",
+      "province": "서울",
+      "district": "영등포구"
+    }
+  ]
+}

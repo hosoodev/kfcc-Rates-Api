@@ -1,0 +1,122 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "6212",
+  "name": "새울산",
+  "meta": {
+    "head_office": {
+      "name": "새울산(본점)",
+      "address": "울산 남구 두왕로190번길 18",
+      "phone": "052-273-2805",
+      "province": "울산",
+      "district": "남구"
+    },
+    "branches": [
+      {
+        "name": "새울산(온양)",
+        "address": "울산 울주군 온양읍 대안3길 58",
+        "phone": "052-239-8000",
+        "district": "울주군"
+      },
+      {
+        "name": "새울산(온산)",
+        "address": "울산 울주군 온산읍 온덕2길 33",
+        "phone": "052-716-1003",
+        "district": "울주군"
+      },
+      {
+        "name": "새울산(청량)",
+        "address": "울산 울주군 청량읍 삼정로 824",
+        "phone": "052-272-9700",
+        "district": "울주군"
+      },
+      {
+        "name": "새울산(선암)",
+        "address": "울산 남구 산업로339번길 24-4",
+        "phone": "052-271-2206",
+        "district": "남구"
+      },
+      {
+        "name": "새울산(수암)",
+        "address": "울산 남구 중앙로 46-1",
+        "phone": "052-273-2204",
+        "district": "남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "14.12"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "14.99"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "14.06"
+    },
+    {
+      "period": "2023_12",
+      "grade": "1",
+      "bis_ratio": "14.08"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

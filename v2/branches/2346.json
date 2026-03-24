@@ -1,0 +1,156 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2346",
+  "name": "정서진",
+  "meta": {
+    "head_office": {
+      "name": "정서진(본점)",
+      "address": "인천 서구 율도로 84",
+      "phone": "032-572-5505",
+      "province": "인천",
+      "district": "서구"
+    },
+    "branches": [
+      {
+        "name": "정서진(신현)",
+        "address": "인천 서구 신현로 45",
+        "phone": "032-572-0023",
+        "district": "서구"
+      },
+      {
+        "name": "정서진(석남)",
+        "address": "인천 서구 옻우물로 3",
+        "phone": "032-577-5503",
+        "district": "서구"
+      },
+      {
+        "name": "정서진(청라)",
+        "address": "인천 서구 보석로 42",
+        "phone": "032-715-7456",
+        "district": "서구"
+      },
+      {
+        "name": "정서진(가정)",
+        "address": "인천 서구 청중로 486",
+        "phone": "032-715-7452",
+        "district": "서구"
+      },
+      {
+        "name": "정서진(루원시티제1)",
+        "address": "인천 서구 가정로 406",
+        "phone": "032-715-9452",
+        "district": "서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.5,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.3,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.46"
+    },
+    {
+      "period": "2024_12",
+      "grade": "3",
+      "bis_ratio": "7.5"
+    },
+    {
+      "period": "2024_06",
+      "grade": "3",
+      "bis_ratio": "7.69"
+    },
+    {
+      "period": "2023_12",
+      "grade": "3",
+      "bis_ratio": "8.42"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1213",
+      "name": "부산구덕",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1216",
+      "name": "서구중앙",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1217",
+      "name": "대신동",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1224",
+      "name": "천마",
+      "province": "부산",
+      "district": "서구"
+    },
+    {
+      "gmgoCd": "1228",
+      "name": "서부",
+      "province": "부산",
+      "district": "서구"
+    }
+  ]
+}

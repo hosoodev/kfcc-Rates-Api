@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2721",
+  "name": "돌산",
+  "meta": {
+    "head_office": {
+      "name": "돌산(본점)",
+      "address": "전남 여수시 돌산읍 강남9길 10",
+      "phone": "061-644-7111",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.69,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.69,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "6.83"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "9.21"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "8.45"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "8.21"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
+    }
+  ]
+}

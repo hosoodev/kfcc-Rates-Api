@@ -1,0 +1,98 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "3826",
+  "name": "삼성전기",
+  "meta": {
+    "head_office": {
+      "name": "삼성전기(본점)",
+      "address": "경기 수원시 영통구 매영로 150",
+      "phone": "031-300-7942",
+      "province": "경기",
+      "district": "수원시"
+    },
+    "branches": [
+      {
+        "name": "삼성전기(부산)",
+        "address": "부산 강서구 녹산산업중로 333",
+        "phone": "051-970-7942",
+        "district": "강서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "24.17"
+    },
+    {
+      "period": "2024_12",
+      "grade": "1",
+      "bis_ratio": "25.3"
+    },
+    {
+      "period": "2024_06",
+      "grade": "1",
+      "bis_ratio": "24.34"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "23.68"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3807",
+      "name": "세화",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3808",
+      "name": "수원서부",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3809",
+      "name": "서호",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3815",
+      "name": "팔달",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3818",
+      "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    }
+  ]
+}

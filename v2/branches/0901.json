@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "0901",
+  "name": "노들",
+  "meta": {
+    "head_office": {
+      "name": "노들(본점)",
+      "address": "서울 동작구 만양로 91",
+      "phone": "02-825-2130",
+      "province": "서울",
+      "district": "동작구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.09,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "w"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "2",
+      "bis_ratio": "16.99"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "17.35"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "17.42"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "17.77"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0902",
+      "name": "노량진",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0903",
+      "name": "상도",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0905",
+      "name": "한강",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0906",
+      "name": "상도중앙",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0909",
+      "name": "흑석",
+      "province": "서울",
+      "district": "동작구"
+    }
+  ]
+}

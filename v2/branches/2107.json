@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-03-24T16:59:02+09:00",
+  "gmgoCd": "2107",
+  "name": "우리",
+  "meta": {
+    "head_office": {
+      "name": "우리(본점)",
+      "address": "대구 달서구 달구벌대로305길 10",
+      "phone": "053-556-9121",
+      "province": "대구",
+      "district": "달서구"
+    },
+    "branches": [
+      {
+        "name": "우리(용산)",
+        "address": "대구 달서구 용산로 206-1",
+        "phone": "053-526-9121",
+        "district": "달서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "grades_history": [
+    {
+      "period": "2025_06",
+      "grade": "3",
+      "bis_ratio": "8.4"
+    },
+    {
+      "period": "2024_12",
+      "grade": "2",
+      "bis_ratio": "8.99"
+    },
+    {
+      "period": "2024_06",
+      "grade": "2",
+      "bis_ratio": "9.32"
+    },
+    {
+      "period": "2023_12",
+      "grade": "2",
+      "bis_ratio": "10.25"
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2102",
+      "name": "대성",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2103",
+      "name": "두류1.2동",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2105",
+      "name": "두류",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2106",
+      "name": "성일",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2108",
+      "name": "서부",
+      "province": "대구",
+      "district": "달서구"
+    }
+  ]
+}
