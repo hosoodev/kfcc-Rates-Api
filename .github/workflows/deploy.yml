@@ -1,0 +1,48 @@
+name: Deploy Data to GitHub Pages
+
+on:
+  push:
+    branches:
+      - api-data
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 환경 변수 동시성 설정 (배포 중복 방지)
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # api-data 브랜치의 루트 디렉토리 전체를 업로드
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Trigger Frontend Revalidation
+        if: success()
+        run: |
+          echo "🚀 Deployment successful. Triggering revalidation..."
+          curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
+            -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
+            -H "Content-Type: application/json" \
+            -d '{"tags": ["main", "summary", "rates", "branch"]}'
