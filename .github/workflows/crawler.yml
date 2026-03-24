@@ -27,6 +27,7 @@ jobs:
       image: python:3.12-slim
     timeout-minutes: 180
     env:
+      TZ: Asia/Seoul
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
