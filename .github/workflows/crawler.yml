@@ -27,10 +27,7 @@ jobs:
       image: python:3.12-slim
     timeout-minutes: 180
     env:
-      TZ: Asia/Seoul
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      SITE_URL: ${{ secrets.SITE_URL }}
-      REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
 
     steps:
       - name: Install Git
@@ -118,13 +115,6 @@ jobs:
           [ -f "CNAME" ] && git add CNAME
           git commit -m "일일 크롤링: 금리 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push origin api-data
-
-      - name: Trigger Frontend Revalidation
-        if: steps.verify-changed-files.outputs.changed == 'true'
-        run: |
-          echo "⏳ GitHub Pages 배포 완료 대기 중 (60초)..."
-          sleep 60
-          python src/notify.py '["main", "summary", "rates", "branch"]'
 
       - name: Upload data as artifact
         if: always()
