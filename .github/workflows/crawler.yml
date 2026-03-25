@@ -113,6 +113,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/
           git add v2/
+          git add dailyRaw/
           [ -f "CNAME" ] && git add CNAME
           git commit -m "일일 크롤링: 금리 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push origin api-data

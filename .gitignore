@@ -6,3 +6,4 @@ _archive/
 .vscode/
 .env
 *.json.gz
+data

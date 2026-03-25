@@ -28,6 +28,7 @@ class StorageManager:
         self.base_dir = Path(base_dir) if base_dir else Path(DATA_DIR).parent
         self.data_dir = self.base_dir / "data"
         self.v2_dir = self.base_dir / "v2"
+        self.daily_raw_dir = self.base_dir / "dailyRaw"
         
         self.rates_dir = self.data_dir / 'rates'
         self.grades_dir = self.data_dir / 'grades'
@@ -40,7 +41,7 @@ class StorageManager:
     
     def _ensure_directories(self) -> None:
         """필요한 디렉토리 생성"""
-        for directory in [self.data_dir, self.v2_dir, self.rates_dir, self.backup_dir, self.archive_rates_dir]:
+        for directory in [self.data_dir, self.v2_dir, self.daily_raw_dir, self.rates_dir, self.backup_dir, self.archive_rates_dir]:
             directory.mkdir(parents=True, exist_ok=True)
     
     def save_json(self, data: Any, filepath: Union[str, Path], 
@@ -120,8 +121,9 @@ class StorageManager:
             logger.error(f"✗ 파일 로드 실패 ({filepath}): {e}")
             return None
     
-    def save_bank_list(self, banks: List[Dict[str, Any]]) -> bool:
+    def save_bank_list(self, banks: List[Dict[str, Any]], target_dir: Optional[Path] = None) -> bool:
         """은행 목록 저장 (Legacy 및 V2 Meta 병행 저장)"""
+        target_dir_for_meta = target_dir if target_dir else self.v2_dir
         if not banks:
             logger.warning("저장할 은행 목록이 없습니다")
             return False
@@ -157,7 +159,7 @@ class StorageManager:
             'banks': hierarchical_banks
         }
         
-        meta_v2_dir = self.v2_dir / "meta"
+        meta_v2_dir = target_dir_for_meta / "meta"
         meta_v2_dir.mkdir(parents=True, exist_ok=True)
         meta_filepath = meta_v2_dir / "banks.json"
         
@@ -750,13 +752,14 @@ class StorageManager:
 
         return "etc"
 
-    def build_seo_regions_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> None:
+    def build_seo_regions_api(self, v2_data_all: Dict[str, Dict[str, Any]], target_dir: Optional[Path] = None) -> None:
         """
         지역별(시도/시군구) SEO용 정적 JSON 파일 생성
         - v2/rates/{type}/regions/{province_slug}/all.json
         - v2/rates/{type}/regions/{province_slug}/{district_slug}.json
         """
-        v2_rates_dir = self.v2_dir / "rates"
+        target_v2_dir = target_dir if target_dir else self.v2_dir
+        v2_rates_dir = target_v2_dir / "rates"
         
         for p_type, wrapper in v2_data_all.items():
             src_data = wrapper.get("data", [])
@@ -882,8 +885,9 @@ class StorageManager:
             
         return main_api
 
-    def save_v2_summary(self, v2_data_all: Dict[str, Dict[str, Any]]):
+    def save_v2_summary(self, v2_data_all: Dict[str, Dict[str, Any]], target_dir: Optional[Path] = None):
         """v2_data_all을 기반으로 summary.json 생성 및 저장"""
+        target_dir_for_summary = target_dir if target_dir else self.v2_dir
         rates_v2 = []
         
         for p_type_key, wrapper in v2_data_all.items():
@@ -912,7 +916,7 @@ class StorageManager:
                 })
         
         summary_v2 = parse_summary_data_v2(rates_v2)
-        v2_summary_path = self.v2_dir / "rates" / "summary.json"
+        v2_summary_path = target_dir_for_summary / "rates" / "summary.json"
         v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
         
         if self.save_json(summary_v2, v2_summary_path, pretty=False):
@@ -920,15 +924,17 @@ class StorageManager:
         else:
             logger.error(f"❌ V2 Dashboard Summary 저장 실패: {v2_summary_path}")
 
-    def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
+    def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]], target_dir: Optional[Path] = None) -> bool:
         """
         V2 API 데이터를 파일로 저장
+        - target_dir이 지정되면 해당 디렉토리에 저장 (v2/ 또는 dailyRaw/)
         - v2/rates/deposit/all.json, v2/rates/saving/all.json, v2/rates/demand/all.json
         - v2/rates/deposit/mbank.json 등 모바일 전용 데이터 포함
         - v2/main.json (BFF API)
         """
         try:
-            v2_rates_dir = self.v2_dir / "rates"
+            target_v2_dir = target_dir if target_dir else self.v2_dir
+            v2_rates_dir = target_v2_dir / "rates"
             v2_rates_dir.mkdir(parents=True, exist_ok=True)
             
             success = True
@@ -951,7 +957,7 @@ class StorageManager:
             
             # 3. main.json 저장 (BFF API)
             main_api_data = self.build_main_page_api(v2_data_all)
-            main_filepath = self.v2_dir / "main.json"
+            main_filepath = target_v2_dir / "main.json"
             if self.save_json(main_api_data, main_filepath, pretty=False):
                 logger.info(f"🏠 V2 Main Page BFF API 저장 완료: {main_filepath}")
             else:
@@ -966,7 +972,7 @@ class StorageManager:
 
             # 5. 지역별 SEO API 생성
             try:
-                self.build_seo_regions_api(v2_data_all)
+                self.build_seo_regions_api(v2_data_all, target_dir=target_v2_dir)
             except Exception as e:
                 logger.error(f"⚠️ SEO 지역별 API 생성 중 오류 발생: {e}")
                 success = False
@@ -996,7 +1002,7 @@ class StorageManager:
                         success = False
             # 6. 개별 지점 상세 API 생성
             try:
-                self.build_branch_detail_api(v2_data_all)
+                self.build_branch_detail_api(v2_data_all, target_dir=target_v2_dir)
             except Exception as e:
                 logger.error(f"⚠️ 지점 상세 API 생성 중 오류 발생: {e}")
 
@@ -1005,15 +1011,16 @@ class StorageManager:
             logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
             return False
     
-    def build_branch_detail_api(self, v2_data_all: Dict[str, Dict[str, Any]]) -> bool:
+    def build_branch_detail_api(self, v2_data_all: Dict[str, Dict[str, Any]], target_dir: Optional[Path] = None) -> bool:
         """
         개별 지점 상세 페이지용 정적 API 파일 생성
-        v2/branches/{gmgoCd}.json
+        v2/branches/{gmgoCd}.json 또는 dailyRaw/branches/{gmgoCd}.json
         """
         try:
+            target_v2_dir = target_dir if target_dir else self.v2_dir
             # 1. 메타데이터 로드 및 지역별 그룹화
             # V2 메타데이터 폴더 (api-data/v2/meta/banks.json 예상)
-            banks_file = self.v2_dir / "meta" / "banks.json"
+            banks_file = target_v2_dir / "meta" / "banks.json"
             if not banks_file.exists():
                 logger.error(f"❌ 메타데이터 파일을 찾을 수 없습니다: {banks_file}")
                 return False
@@ -1051,7 +1058,7 @@ class StorageManager:
 
             # 3. 경영평가 히스토리 로드 (v2/grades/*.json)
             grades_history_index = {}
-            grades_dir = self.v2_dir / "grades"
+            grades_dir = target_v2_dir / "grades"
             if grades_dir.exists():
                 grade_files = list(grades_dir.glob("grades_*.json"))
                 periods = []
@@ -1082,7 +1089,7 @@ class StorageManager:
                         logger.error(f"⚠️ {gf.name} 로드 실패: {e}")
 
             # 4. 개별 지점 JSON 조립
-            branches_dir = self.v2_dir / "branches"
+            branches_dir = target_v2_dir / "branches"
             branches_dir.mkdir(parents=True, exist_ok=True)
             
             updated_at = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00")
@@ -1233,6 +1240,8 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
         # 1. 은행 목록 저장
         if banks:
             success &= manager.save_bank_list(banks)
+            # dailyRaw에도 메타데이터 저장 (Patch 로드시 필요)
+            success &= manager.save_bank_list(banks, target_dir=manager.daily_raw_dir)
         
         # 2. 금리 데이터 저장
         if rates:
@@ -1244,11 +1253,14 @@ def save_all(banks: List[Dict[str, Any]], rates: List[Dict[str, Any]],
 
             # 4. V2 대시보드 요약 데이터 저장 (BFF 전용)
             try:
-                # v2_data_all을 가져오기 위해 build_v2_api 다시 호출 (또는 이미 생성된 파일 로드)
-                # save_all 내부에서는 build_v2_api 결과인 v2_data_all이 없으므로 새로 생성하거나 save_v2_api 호출
-                # 여기서는 명시적으로 save_v2_summary를 위한 형식 변환 수행
+                # 최근 수집된 등급 데이터 로드
+                grades_data = manager.load_grades()
                 v2_data_all = manager.build_v2_api(rates, grades_data.get('grades', []) if grades_data else [])
+                
+                # 공개용 V2 요약 저장
                 manager.save_v2_summary(v2_data_all)
+                # dailyRaw용 요약 저장
+                manager.save_v2_summary(v2_data_all, target_dir=manager.daily_raw_dir)
             except Exception as e:
                 logger.error(f"⚠️ V2 요약 데이터 생성 중 오류 발생: {e}")
         

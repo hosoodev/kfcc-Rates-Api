@@ -86,7 +86,10 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         grades = grades_data.get('grades', []) if grades_data else []
         
         v2_api_all = storage.build_v2_api(rates, grades)
+        # 1. 공개용 V2 저장
         storage.save_v2_api(v2_api_all)
+        # 2. 패치용 원본 DailyRaw 저장 (똑같은 구조)
+        storage.save_v2_api(v2_api_all, target_dir=storage.daily_raw_dir)
 
         # 오래된 데이터 정리
         if cleanup_days:
@@ -113,10 +116,17 @@ def run_patch(regions=None, base_dir=None):
     
     try:
         storage = StorageManager(base_dir=base_dir)
-        # 1. 기존 V2 데이터 로드
+        # 1. 기존 데이터 로드 (Patch를 위해 누적되지 않은 일일 원본인 dailyRaw에서 로드)
         v2_data_all = {}
+        target_load_dir = storage.daily_raw_dir if storage.daily_raw_dir.exists() else storage.v2_dir
+        
+        if target_load_dir == storage.v2_dir:
+            print("⚠️ dailyRaw 폴더가 없어 v2 폴더에서 데이터를 로드합니다. (최초 실행 또는 예외 상황)")
+        else:
+            print(f"📁 일일 원본 데이터({target_load_dir})에서 베이스 데이터를 로드합니다.")
+
         for key in ["deposit", "saving", "demand"]:
-            data = storage.load_json(storage.v2_dir / "rates" / key / "all.json") # Changed from rates/{key}.json to match new nested folder structure (v2/rates/<product>/all.json)
+            data = storage.load_json(target_load_dir / "rates" / key / "all.json")
             if data:
                 v2_data_all[key] = data
                 
