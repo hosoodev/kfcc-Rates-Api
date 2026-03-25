@@ -70,5 +70,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add v2/
-          git commit -m "정기 패치: 모바일뱅킹 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
+          git commit -m "NG더뱅킹 패치: 모바일뱅킹 데이터 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S KST')" || exit 0
           git push origin api-data
