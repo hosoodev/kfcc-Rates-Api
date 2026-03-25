@@ -75,7 +75,11 @@ def generate_mobile_ua() -> str:
         whale_ver = f"{random.randint(3, 4)}.{random.randint(20, 25)}.{random.randint(200, 250)}.{random.randint(1, 10)}"
         return f"Mozilla/5.0 (Linux; Android {os_ver}; {model}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_ver} Mobile Safari/537.36 Whale/{whale_ver}"
         
-    ua = f"Mozilla/5.0 ({device}; CPU {device} OS {os_ver} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Mobile/15E148 Safari/604.1"
+    else:
+        # safari (iOS)
+        device = random.choice(iphone_models)
+        os_ver = random.choice(ios_versions)
+        ua = f"Mozilla/5.0 ({device}; CPU {device} OS {os_ver} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Mobile/15E148 Safari/604.1"
     
     global _LOGGED_UA
     if not _LOGGED_UA["mobile"]:
