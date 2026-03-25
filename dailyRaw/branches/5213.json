@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5213",
+  "name": "포항",
+  "meta": {
+    "head_office": {
+      "name": "포항(본점)",
+      "address": "경북 포항시 북구 죽도시장4길 3-9",
+      "phone": "054-246-1309",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": [
+      {
+        "name": "포항(제1)",
+        "address": "경북 포항시 북구 죽도시장4길 21-18",
+        "phone": "054-246-1308",
+        "district": "포항시"
+      },
+      {
+        "name": "포항(제2)",
+        "address": "경북 포항시 북구 죽도시장길 29",
+        "phone": "054-246-5353",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

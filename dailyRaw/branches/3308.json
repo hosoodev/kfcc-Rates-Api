@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3308",
+  "name": "탕정",
+  "meta": {
+    "head_office": {
+      "name": "탕정(본점)",
+      "address": "충남 아산시 탕정면 탕정면로22번길 11",
+      "phone": "041-543-9520",
+      "province": "충남",
+      "district": "아산시"
+    },
+    "branches": [
+      {
+        "name": "탕정(배방)",
+        "address": "충남 아산시 배방읍 모산로 127",
+        "phone": "041-543-9530",
+        "district": "아산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3302",
+      "name": "온양",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3303",
+      "name": "정우",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3307",
+      "name": "아산",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3345",
+      "name": "코닝정밀소재",
+      "province": "충남",
+      "district": "아산시"
+    }
+  ]
+}

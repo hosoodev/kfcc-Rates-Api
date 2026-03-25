@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1027",
+  "name": "마천",
+  "meta": {
+    "head_office": {
+      "name": "마천(본점)",
+      "address": "서울 송파구 마천로45길 13",
+      "phone": "02-400-4834",
+      "province": "서울",
+      "district": "송파구"
+    },
+    "branches": [
+      {
+        "name": "마천(거여)",
+        "address": "서울 송파구 오금로 522",
+        "phone": "02-430-6591",
+        "district": "송파구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.1,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.4,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0419",
+      "name": "삼성에스디에스",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1026",
+      "name": "서울중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1029",
+      "name": "송파중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1030",
+      "name": "서울송파",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1031",
+      "name": "가락",
+      "province": "서울",
+      "district": "송파구"
+    }
+  ]
+}

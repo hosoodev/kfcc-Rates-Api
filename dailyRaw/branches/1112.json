@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1112",
+  "name": "대왕",
+  "meta": {
+    "head_office": {
+      "name": "대왕(본점)",
+      "address": "서울 강남구 밤고개로34길 4",
+      "phone": "02-2226-6804",
+      "province": "서울",
+      "district": "강남구"
+    },
+    "branches": [
+      {
+        "name": "대왕(일원)",
+        "address": "서울 강남구 양재대로55길 19",
+        "phone": "02-2226-8284",
+        "district": "강남구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.19,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.19,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1111",
+      "name": "청담동",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1116",
+      "name": "강남영동",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1128",
+      "name": "한국무역협회",
+      "province": "서울",
+      "district": "강남구"
+    }
+  ]
+}

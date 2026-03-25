@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6433",
+  "name": "삼천포",
+  "meta": {
+    "head_office": {
+      "name": "삼천포(본점)",
+      "address": "경남 사천시 서부시장길 61",
+      "phone": "055-835-0131",
+      "province": "경남",
+      "district": "사천시"
+    },
+    "branches": [
+      {
+        "name": "삼천포(선구)",
+        "address": "경남 사천시 건어시장길 27",
+        "phone": "055-835-1602",
+        "district": "사천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6427",
+      "name": "사천",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6432",
+      "name": "사남",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6434",
+      "name": "노산",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6438",
+      "name": "한국항공우주산업㈜",
+      "province": "경남",
+      "district": "사천시"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3146",
+  "name": "진잠",
+  "meta": {
+    "head_office": {
+      "name": "진잠(본점)",
+      "address": "대전 유성구 원내로39번길 10",
+      "phone": "042-544-8006",
+      "province": "대전",
+      "district": "유성구"
+    },
+    "branches": [
+      {
+        "name": "진잠(교촌)",
+        "address": "대전 유성구 진잠로149번길 1",
+        "phone": "042-543-3566",
+        "district": "유성구"
+      },
+      {
+        "name": "진잠(학하)",
+        "address": "대전 유성구 학하남로 1",
+        "phone": "042-824-2123",
+        "district": "유성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3143",
+      "name": "유성",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3145",
+      "name": "탄동",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3147",
+      "name": "유성온천",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3154",
+      "name": "대전온천",
+      "province": "대전",
+      "district": "유성구"
+    }
+  ]
+}

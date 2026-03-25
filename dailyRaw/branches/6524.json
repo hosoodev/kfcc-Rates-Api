@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6524",
+  "name": "거제",
+  "meta": {
+    "head_office": {
+      "name": "거제(본점)",
+      "address": "경남 거제시 거제중앙로 1859-1",
+      "phone": "055-632-0304",
+      "province": "경남",
+      "district": "거제시"
+    },
+    "branches": [
+      {
+        "name": "거제(상동)",
+        "address": "경남 거제시 계룡로 6",
+        "phone": "055-633-4581",
+        "district": "거제시"
+      },
+      {
+        "name": "거제(산달)",
+        "address": "경남 거제시 거제면 산달길 13-6",
+        "phone": "055-633-1619",
+        "district": "거제시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6521",
+      "name": "능포",
+      "province": "경남",
+      "district": "거제시"
+    },
+    {
+      "gmgoCd": "6522",
+      "name": "옥포",
+      "province": "경남",
+      "district": "거제시"
+    },
+    {
+      "gmgoCd": "6526",
+      "name": "한화오션",
+      "province": "경남",
+      "district": "거제시"
+    },
+    {
+      "gmgoCd": "6527",
+      "name": "삼성중공업㈜",
+      "province": "경남",
+      "district": "거제시"
+    }
+  ]
+}

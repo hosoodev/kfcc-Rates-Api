@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4920",
+  "name": "무주",
+  "meta": {
+    "head_office": {
+      "name": "무주(본점)",
+      "address": "전북 무주군 무주읍 주계로 77",
+      "phone": "063-322-4773",
+      "province": "전북",
+      "district": "무주군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4919",
+      "name": "설천",
+      "province": "전북",
+      "district": "무주군"
+    }
+  ]
+}

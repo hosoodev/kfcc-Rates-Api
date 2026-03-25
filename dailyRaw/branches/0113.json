@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0113",
+  "name": "대학로",
+  "meta": {
+    "head_office": {
+      "name": "대학로(본점)",
+      "address": "서울 종로구 동숭길 41",
+      "phone": "02-762-9676",
+      "province": "서울",
+      "district": "종로구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.83,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.83,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0102",
+      "name": "광화문",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0105",
+      "name": "세검정",
+      "province": "서울",
+      "district": "종로구"
+    }
+  ]
+}

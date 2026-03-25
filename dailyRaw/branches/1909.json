@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1909",
+  "name": "효목",
+  "meta": {
+    "head_office": {
+      "name": "효목(본점)",
+      "address": "대구 동구 아양로50길 116",
+      "phone": "053-952-2255",
+      "province": "대구",
+      "district": "동구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.92,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.92,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동",
+      "province": "부산",
+      "district": "동구"
+    }
+  ]
+}

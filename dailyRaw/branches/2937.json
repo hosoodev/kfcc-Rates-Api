@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2937",
+  "name": "영광",
+  "meta": {
+    "head_office": {
+      "name": "영광(본점)",
+      "address": "전남 영광군 영광읍 물무로 84",
+      "phone": "061-351-3900",
+      "province": "전남",
+      "district": "영광군"
+    },
+    "branches": [
+      {
+        "name": "영광(터미널)",
+        "address": "전남 영광군 영광읍 신남로 194-1",
+        "phone": "061-351-0420",
+        "district": "영광군"
+      },
+      {
+        "name": "영광(대신)",
+        "address": "전남 영광군 영광읍 옥당로 165",
+        "phone": "061-352-3600",
+        "district": "영광군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.7,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2939",
+      "name": "법성",
+      "province": "전남",
+      "district": "영광군"
+    },
+    {
+      "gmgoCd": "2941",
+      "name": "염산",
+      "province": "전남",
+      "district": "영광군"
+    },
+    {
+      "gmgoCd": "2942",
+      "name": "백수",
+      "province": "전남",
+      "district": "영광군"
+    }
+  ]
+}

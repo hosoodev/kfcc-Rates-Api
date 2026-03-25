@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5337",
+  "name": "울릉",
+  "meta": {
+    "head_office": {
+      "name": "울릉(본점)",
+      "address": "경북 울릉군 울릉읍 봉래2길 17",
+      "phone": "054-791-2543",
+      "province": "경북",
+      "district": "울릉군"
+    },
+    "branches": [
+      {
+        "name": "울릉(도동)",
+        "address": "경북 울릉군 울릉읍 도동길 93",
+        "phone": "054-791-6767",
+        "district": "울릉군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": []
+}

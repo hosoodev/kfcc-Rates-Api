@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1739",
+  "name": "사상냉정",
+  "meta": {
+    "head_office": {
+      "name": "사상냉정(본점)",
+      "address": "부산 사상구 가야대로366번길 8",
+      "phone": "051-325-0444",
+      "province": "부산",
+      "district": "사상구"
+    },
+    "branches": [
+      {
+        "name": "사상냉정(제1)",
+        "address": "부산 사상구 백양대로 370",
+        "phone": "051-324-1174",
+        "district": "사상구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1733",
+      "name": "늘푸른사상",
+      "province": "부산",
+      "district": "사상구"
+    },
+    {
+      "gmgoCd": "1734",
+      "name": "사상중앙",
+      "province": "부산",
+      "district": "사상구"
+    },
+    {
+      "gmgoCd": "1736",
+      "name": "부산제일",
+      "province": "부산",
+      "district": "사상구"
+    },
+    {
+      "gmgoCd": "1737",
+      "name": "백양",
+      "province": "부산",
+      "district": "사상구"
+    },
+    {
+      "gmgoCd": "1738",
+      "name": "부산주례",
+      "province": "부산",
+      "district": "사상구"
+    }
+  ]
+}

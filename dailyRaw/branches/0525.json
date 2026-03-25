@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0525",
+  "name": "전택",
+  "meta": {
+    "head_office": {
+      "name": "전택(본점)",
+      "address": "서울 동대문구 천호대로 389",
+      "phone": "02-2248-1423",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹자유적금",
+      "month": "12",
+      "r": 2.0,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0504",
+      "name": "동대문중앙",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0507",
+      "name": "전농동",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경",
+      "province": "서울",
+      "district": "동대문구"
+    }
+  ]
+}

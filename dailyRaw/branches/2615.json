@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2615",
+  "name": "새여수",
+  "meta": {
+    "head_office": {
+      "name": "새여수(본점)",
+      "address": "전남 여수시 웅천로 347",
+      "phone": "061-691-6201",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": [
+      {
+        "name": "새여수(대치)",
+        "address": "전남 여수시 여서로 174",
+        "phone": "061-666-6202",
+        "district": "여수시"
+      },
+      {
+        "name": "새여수(여서)",
+        "address": "전남 여수시 여서1로 84-1",
+        "phone": "061-651-6201",
+        "district": "여수시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2601",
+      "name": "동여수",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
+    }
+  ]
+}

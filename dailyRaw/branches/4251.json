@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4251",
+  "name": "늘푸른",
+  "meta": {
+    "head_office": {
+      "name": "늘푸른(본점)",
+      "address": "강원 삼척시 새천년도로 34",
+      "phone": "033-574-1130",
+      "province": "강원",
+      "district": "삼척시"
+    },
+    "branches": [
+      {
+        "name": "늘푸른(교동)",
+        "address": "강원 삼척시 정상로 72",
+        "phone": "033-575-0666",
+        "district": "삼척시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.84,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.4,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.84,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4250",
+      "name": "삼척중앙",
+      "province": "강원",
+      "district": "삼척시"
+    },
+    {
+      "gmgoCd": "4253",
+      "name": "삼척도원",
+      "province": "강원",
+      "district": "삼척시"
+    }
+  ]
+}

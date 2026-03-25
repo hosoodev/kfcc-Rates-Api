@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0927",
+  "name": "관악중앙",
+  "meta": {
+    "head_office": {
+      "name": "관악중앙(본점)",
+      "address": "서울 관악구 청룡1길 2",
+      "phone": "02-877-1091",
+      "province": "서울",
+      "district": "관악구"
+    },
+    "branches": [
+      {
+        "name": "관악중앙(봉천역)",
+        "address": "서울 관악구 쑥고개로11길 38",
+        "phone": "02-886-0068",
+        "district": "관악구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.2,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "6",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
+    }
+  ]
+}

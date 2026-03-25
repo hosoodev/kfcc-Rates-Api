@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6142",
+  "name": "북김해",
+  "meta": {
+    "head_office": {
+      "name": "북김해(본점)",
+      "address": "경남 김해시 해반천로 154",
+      "phone": "055-333-5248",
+      "province": "경남",
+      "district": "김해시"
+    },
+    "branches": [
+      {
+        "name": "북김해(구산)",
+        "address": "경남 김해시 가락로 246",
+        "phone": "055-322-4455",
+        "district": "김해시"
+      },
+      {
+        "name": "북김해(연지)",
+        "address": "경남 김해시 김해대로1902번길 63",
+        "phone": "055-325-2656",
+        "district": "김해시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.2,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.5,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.2,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.5,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6135",
+      "name": "김해중앙",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6136",
+      "name": "남김해",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6137",
+      "name": "김해시민",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6138",
+      "name": "서김해",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6139",
+      "name": "김해서부",
+      "province": "경남",
+      "district": "김해시"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4267",
+  "name": "속초남부",
+  "meta": {
+    "head_office": {
+      "name": "속초남부(본점)",
+      "address": "강원 속초시 동해대로 4256",
+      "phone": "033-632-6423",
+      "province": "강원",
+      "district": "속초시"
+    },
+    "branches": [
+      {
+        "name": "속초남부(청학)",
+        "address": "강원 속초시 중앙로 81",
+        "phone": "033-632-8061",
+        "district": "속초시"
+      },
+      {
+        "name": "속초남부(교동)",
+        "address": "강원 속초시 미시령로 3383",
+        "phone": "033-632-7335",
+        "district": "속초시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4242",
+      "name": "속초북부",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4247",
+      "name": "설악",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4248",
+      "name": "금강",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4249",
+      "name": "동명",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4269",
+      "name": "중앙",
+      "province": "강원",
+      "district": "속초시"
+    }
+  ]
+}

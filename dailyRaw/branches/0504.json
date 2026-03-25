@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0504",
+  "name": "동대문중앙",
+  "meta": {
+    "head_office": {
+      "name": "동대문중앙(본점)",
+      "address": "서울 동대문구 약령시로 108",
+      "phone": "02-967-1206",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    "branches": [
+      {
+        "name": "동대문중앙(청량리1)",
+        "address": "서울 동대문구 홍릉로 69",
+        "phone": "02-962-9513",
+        "district": "동대문구"
+      },
+      {
+        "name": "동대문중앙(청량리2)",
+        "address": "서울 동대문구 왕산로 239",
+        "phone": "02-962-2227",
+        "district": "동대문구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.41,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.41,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0507",
+      "name": "전농동",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0518",
+      "name": "더좋은",
+      "province": "서울",
+      "district": "동대문구"
+    }
+  ]
+}

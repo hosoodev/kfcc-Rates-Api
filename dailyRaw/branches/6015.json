@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6015",
+  "name": "석전",
+  "meta": {
+    "head_office": {
+      "name": "석전(본점)",
+      "address": "경남 창원시 마산회원구 삼호로 231",
+      "phone": "055-251-3341",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6017",
+      "name": "마산남부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6022",
+      "name": "삼성창원병원",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

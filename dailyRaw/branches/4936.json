@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4936",
+  "name": "쌍치",
+  "meta": {
+    "head_office": {
+      "name": "쌍치(본점)",
+      "address": "전북 순창군 쌍치면 쌍계로 29",
+      "phone": "063-652-2188",
+      "province": "전북",
+      "district": "순창군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4931",
+      "name": "순창",
+      "province": "전북",
+      "district": "순창군"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3527",
+  "name": "한국도로공사직장",
+  "meta": {
+    "head_office": {
+      "name": "한국도로공사직장(본점)",
+      "address": "경북 김천시 혁신8로 77",
+      "phone": "054-811-2161",
+      "province": "경북",
+      "district": "김천시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5400",
+      "name": "새김천",
+      "province": "경북",
+      "district": "김천시"
+    },
+    {
+      "gmgoCd": "5405",
+      "name": "김천평화",
+      "province": "경북",
+      "district": "김천시"
+    },
+    {
+      "gmgoCd": "5408",
+      "name": "대신동",
+      "province": "경북",
+      "district": "김천시"
+    }
+  ]
+}

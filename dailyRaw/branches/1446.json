@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1446",
+  "name": "광안",
+  "meta": {
+    "head_office": {
+      "name": "광안(본점)",
+      "address": "부산 수영구 수영로 568",
+      "phone": "051-753-9898",
+      "province": "부산",
+      "district": "수영구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1442",
+      "name": "남천",
+      "province": "부산",
+      "district": "수영구"
+    },
+    {
+      "gmgoCd": "1443",
+      "name": "수영",
+      "province": "부산",
+      "district": "수영구"
+    },
+    {
+      "gmgoCd": "1444",
+      "name": "수영중앙",
+      "province": "부산",
+      "district": "수영구"
+    },
+    {
+      "gmgoCd": "1447",
+      "name": "민락동",
+      "province": "부산",
+      "district": "수영구"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0311",
+  "name": "한강로3가",
+  "meta": {
+    "head_office": {
+      "name": "한강로3가(본점)",
+      "address": "서울 용산구 한강대로14길 16",
+      "phone": "02-794-7617",
+      "province": "서울",
+      "district": "용산구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.99,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0310",
+      "name": "한강2동",
+      "province": "서울",
+      "district": "용산구"
+    }
+  ]
+}

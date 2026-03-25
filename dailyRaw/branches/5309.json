@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5309",
+  "name": "동경주",
+  "meta": {
+    "head_office": {
+      "name": "동경주(본점)",
+      "address": "경북 경주시 문무대왕면 어일중앙길 22",
+      "phone": "054-746-4458",
+      "province": "경북",
+      "district": "경주시"
+    },
+    "branches": [
+      {
+        "name": "동경주(감포)",
+        "address": "경북 경주시 감포읍 감포로 121-1",
+        "phone": "054-746-4459",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5301",
+      "name": "우성",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5302",
+      "name": "성동",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5303",
+      "name": "신경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5305",
+      "name": "경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5306",
+      "name": "남경주",
+      "province": "경북",
+      "district": "경주시"
+    }
+  ]
+}

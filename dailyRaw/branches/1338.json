@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1338",
+  "name": "태종대",
+  "meta": {
+    "head_office": {
+      "name": "태종대(본점)",
+      "address": "부산 영도구 남항로 7",
+      "phone": "051-412-0056",
+      "province": "부산",
+      "district": "영도구"
+    },
+    "branches": [
+      {
+        "name": "태종대(청학)",
+        "address": "부산 영도구 태종로 310-1",
+        "phone": "051-418-3310",
+        "district": "영도구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1329",
+      "name": "영도중앙",
+      "province": "부산",
+      "district": "영도구"
+    },
+    {
+      "gmgoCd": "1332",
+      "name": "한아름",
+      "province": "부산",
+      "district": "영도구"
+    },
+    {
+      "gmgoCd": "1339",
+      "name": "영도",
+      "province": "부산",
+      "district": "영도구"
+    },
+    {
+      "gmgoCd": "1340",
+      "name": "동삼동",
+      "province": "부산",
+      "district": "영도구"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3434",
+  "name": "안흥",
+  "meta": {
+    "head_office": {
+      "name": "안흥(본점)",
+      "address": "충남 태안군 근흥면 신진부두길 76",
+      "phone": "041-675-1224",
+      "province": "충남",
+      "district": "태안군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3431",
+      "name": "태안",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3432",
+      "name": "안면도",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3433",
+      "name": "남면",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3435",
+      "name": "소원",
+      "province": "충남",
+      "district": "태안군"
+    },
+    {
+      "gmgoCd": "3436",
+      "name": "원북",
+      "province": "충남",
+      "district": "태안군"
+    }
+  ]
+}

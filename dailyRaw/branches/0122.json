@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0122",
+  "name": "강북삼성병원",
+  "meta": {
+    "head_office": {
+      "name": "강북삼성병원(본점)",
+      "address": "서울 종로구 새문안로 29",
+      "phone": "02-2001-2829",
+      "province": "서울",
+      "district": "종로구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0102",
+      "name": "광화문",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0105",
+      "name": "세검정",
+      "province": "서울",
+      "district": "종로구"
+    }
+  ]
+}

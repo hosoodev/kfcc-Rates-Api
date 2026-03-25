@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6601",
+  "name": "제주",
+  "meta": {
+    "head_office": {
+      "name": "제주(본점)",
+      "address": "제주 제주시 고마로 49",
+      "phone": "064-757-3425",
+      "province": "제주",
+      "district": "제주시"
+    },
+    "branches": [
+      {
+        "name": "제주(일도)",
+        "address": "제주 제주시 신산로 8",
+        "phone": "064-757-7432",
+        "district": "제주시"
+      },
+      {
+        "name": "제주(이도)",
+        "address": "제주 제주시 신설로 55",
+        "phone": "064-757-8550",
+        "district": "제주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6602",
+      "name": "중앙",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6603",
+      "name": "용담",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6604",
+      "name": "동제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6605",
+      "name": "신제주",
+      "province": "제주",
+      "district": "제주시"
+    },
+    {
+      "gmgoCd": "6606",
+      "name": "노형",
+      "province": "제주",
+      "district": "제주시"
+    }
+  ]
+}

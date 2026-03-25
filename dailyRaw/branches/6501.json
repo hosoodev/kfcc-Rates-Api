@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6501",
+  "name": "도천",
+  "meta": {
+    "head_office": {
+      "name": "도천(본점)",
+      "address": "경남 통영시 중앙로 36",
+      "phone": "055-648-1155",
+      "province": "경남",
+      "district": "통영시"
+    },
+    "branches": [
+      {
+        "name": "도천(서호)",
+        "address": "경남 통영시 새터길 72",
+        "phone": "055-645-2000",
+        "district": "통영시"
+      },
+      {
+        "name": "도천(죽림)",
+        "address": "경남 통영시 광도면 죽림4로 41-39",
+        "phone": "055-648-1151",
+        "district": "통영시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6509",
+      "name": "동통영",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6510",
+      "name": "새통영",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6515",
+      "name": "도봉",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6520",
+      "name": "성심",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6543",
+      "name": "통제영",
+      "province": "경남",
+      "district": "통영시"
+    }
+  ]
+}

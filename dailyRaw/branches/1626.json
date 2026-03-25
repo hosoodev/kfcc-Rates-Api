@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1626",
+  "name": "해운대",
+  "meta": {
+    "head_office": {
+      "name": "해운대(본점)",
+      "address": "부산 해운대구 좌동로 103",
+      "phone": "051-703-4111",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    "branches": [
+      {
+        "name": "해운대(우2동)",
+        "address": "부산 해운대구 해운대로383번길 47",
+        "phone": "051-746-5858",
+        "district": "해운대구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1622",
+      "name": "해운대중앙",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1624",
+      "name": "우리",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1625",
+      "name": "장산",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1627",
+      "name": "부산동부",
+      "province": "부산",
+      "district": "해운대구"
+    },
+    {
+      "gmgoCd": "1628",
+      "name": "반여1.4동",
+      "province": "부산",
+      "district": "해운대구"
+    }
+  ]
+}

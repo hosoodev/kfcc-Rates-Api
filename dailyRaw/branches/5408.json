@@ -1,0 +1,70 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5408",
+  "name": "대신동",
+  "meta": {
+    "head_office": {
+      "name": "대신동(본점)",
+      "address": "경북 김천시 부거리길 9",
+      "phone": "054-433-5462",
+      "province": "경북",
+      "district": "김천시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.4,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.4,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3527",
+      "name": "한국도로공사직장",
+      "province": "경북",
+      "district": "김천시"
+    },
+    {
+      "gmgoCd": "5400",
+      "name": "새김천",
+      "province": "경북",
+      "district": "김천시"
+    },
+    {
+      "gmgoCd": "5405",
+      "name": "김천평화",
+      "province": "경북",
+      "district": "김천시"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2135",
+  "name": "평화그룹",
+  "meta": {
+    "head_office": {
+      "name": "평화그룹(본점)",
+      "address": "대구 달성군 논공읍 논공로 597",
+      "phone": "053-610-7281",
+      "province": "대구",
+      "district": "달성군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2122",
+      "name": "가창",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2124",
+      "name": "화원",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2125",
+      "name": "옥포",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2126",
+      "name": "달성",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2127",
+      "name": "현풍",
+      "province": "대구",
+      "district": "달성군"
+    }
+  ]
+}

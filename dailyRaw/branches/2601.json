@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2601",
+  "name": "동여수",
+  "meta": {
+    "head_office": {
+      "name": "동여수(본점)",
+      "address": "전남 여수시 이순신광장로 215",
+      "phone": "061-662-2753",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": [
+      {
+        "name": "동여수(관문)",
+        "address": "전남 여수시 관문2길 8",
+        "phone": "061-662-1925",
+        "district": "여수시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2607",
+      "name": "진남",
+      "province": "전남",
+      "district": "여수시"
+    }
+  ]
+}

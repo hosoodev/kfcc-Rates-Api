@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2941",
+  "name": "염산",
+  "meta": {
+    "head_office": {
+      "name": "염산(본점)",
+      "address": "전남 영광군 염산면 칠산로 63",
+      "phone": "061-352-8700",
+      "province": "전남",
+      "district": "영광군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2937",
+      "name": "영광",
+      "province": "전남",
+      "district": "영광군"
+    },
+    {
+      "gmgoCd": "2939",
+      "name": "법성",
+      "province": "전남",
+      "district": "영광군"
+    },
+    {
+      "gmgoCd": "2942",
+      "name": "백수",
+      "province": "전남",
+      "district": "영광군"
+    }
+  ]
+}

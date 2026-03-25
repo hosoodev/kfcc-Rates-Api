@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5909",
+  "name": "화전",
+  "meta": {
+    "head_office": {
+      "name": "화전(본점)",
+      "address": "경북 의성군 봉양면 도리원1길 61-1",
+      "phone": "054-832-2811",
+      "province": "경북",
+      "district": "의성군"
+    },
+    "branches": [
+      {
+        "name": "화전(안계)",
+        "address": "경북 의성군 안계면 안계길 181",
+        "phone": "054-861-1401",
+        "district": "의성군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5944",
+      "name": "의성",
+      "province": "경북",
+      "district": "의성군"
+    }
+  ]
+}

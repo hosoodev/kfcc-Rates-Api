@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3001",
+  "name": "원중앙",
+  "meta": {
+    "head_office": {
+      "name": "원중앙(본점)",
+      "address": "대전 동구 대전로 758",
+      "phone": "042-273-0258",
+      "province": "대전",
+      "district": "동구"
+    },
+    "branches": [
+      {
+        "name": "원중앙(중앙시장)",
+        "address": "대전 동구 중앙로200번길 98",
+        "phone": "042-257-5900",
+        "district": "동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.2,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 2.3,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.2,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.3,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1303",
+      "name": "초량3동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1305",
+      "name": "동구중앙",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1306",
+      "name": "수정",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1307",
+      "name": "수정2동",
+      "province": "부산",
+      "district": "동구"
+    },
+    {
+      "gmgoCd": "1315",
+      "name": "범일동",
+      "province": "부산",
+      "district": "동구"
+    }
+  ]
+}

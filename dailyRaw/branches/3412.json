@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3412",
+  "name": "서천군",
+  "meta": {
+    "head_office": {
+      "name": "서천군(본점)",
+      "address": "충남 서천군 장항읍 장서로 51",
+      "phone": "041-957-3636",
+      "province": "충남",
+      "district": "서천군"
+    },
+    "branches": [
+      {
+        "name": "서천군(서천)",
+        "address": "충남 서천군 서천읍 군청로 25",
+        "phone": "041-953-7007",
+        "district": "서천군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": []
+}

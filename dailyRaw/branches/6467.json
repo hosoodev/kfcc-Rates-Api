@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6467",
+  "name": "창선",
+  "meta": {
+    "head_office": {
+      "name": "창선(본점)",
+      "address": "경남 남해군 창선면 창선로 81",
+      "phone": "055-867-3588",
+      "province": "경남",
+      "district": "남해군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6442",
+      "name": "새남해",
+      "province": "경남",
+      "district": "남해군"
+    },
+    {
+      "gmgoCd": "6444",
+      "name": "미송",
+      "province": "경남",
+      "district": "남해군"
+    }
+  ]
+}

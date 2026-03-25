@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6543",
+  "name": "통제영",
+  "meta": {
+    "head_office": {
+      "name": "통제영(본점)",
+      "address": "경남 통영시 광도면 죽림4로 8",
+      "phone": "055-644-2800",
+      "province": "경남",
+      "district": "통영시"
+    },
+    "branches": [
+      {
+        "name": "통제영(인평)",
+        "address": "경남 통영시 평인일주로 56",
+        "phone": "055-641-2232",
+        "district": "통영시"
+      },
+      {
+        "name": "통제영(미수2)",
+        "address": "경남 통영시 미우지해안로 17",
+        "phone": "055-642-2801",
+        "district": "통영시"
+      },
+      {
+        "name": "통제영(봉평)",
+        "address": "경남 통영시 도남로 92",
+        "phone": "055-642-4406",
+        "district": "통영시"
+      },
+      {
+        "name": "통제영(미수1)",
+        "address": "경남 통영시 미수로 102",
+        "phone": "055-649-8929",
+        "district": "통영시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6501",
+      "name": "도천",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6509",
+      "name": "동통영",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6510",
+      "name": "새통영",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6515",
+      "name": "도봉",
+      "province": "경남",
+      "district": "통영시"
+    },
+    {
+      "gmgoCd": "6520",
+      "name": "성심",
+      "province": "경남",
+      "district": "통영시"
+    }
+  ]
+}

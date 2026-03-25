@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3154",
+  "name": "대전온천",
+  "meta": {
+    "head_office": {
+      "name": "대전온천(본점)",
+      "address": "대전 유성구 도안대로 591",
+      "phone": "042-826-8383",
+      "province": "대전",
+      "district": "유성구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.09,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.09,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3143",
+      "name": "유성",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3145",
+      "name": "탄동",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3146",
+      "name": "진잠",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3147",
+      "name": "유성온천",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원",
+      "province": "대전",
+      "district": "유성구"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0803",
+  "name": "영등포제일",
+  "meta": {
+    "head_office": {
+      "name": "영등포제일(본점)",
+      "address": "서울 영등포구 영중로 71",
+      "phone": "02-2679-7811",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    "branches": [
+      {
+        "name": "영등포제일(당산)",
+        "address": "서울 영등포구 당산로 214",
+        "phone": "02-2634-2038",
+        "district": "영등포구"
+      },
+      {
+        "name": "영등포제일(양평)",
+        "address": "서울 영등포구 선유서로26길 29",
+        "phone": "02-2631-1611",
+        "district": "영등포구"
+      },
+      {
+        "name": "영등포제일(양화)",
+        "address": "서울 영등포구 양평로18길 4",
+        "phone": "02-2677-3736",
+        "district": "영등포구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0808",
+      "name": "문래동",
+      "province": "서울",
+      "district": "영등포구"
+    }
+  ]
+}

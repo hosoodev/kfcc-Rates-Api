@@ -1,0 +1,64 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0418",
+  "name": "명지",
+  "meta": {
+    "head_office": {
+      "name": "명지(본점)",
+      "address": "서울 서대문구 거북골로 34",
+      "phone": "02-376-8011",
+      "province": "서울",
+      "district": "서대문구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0402",
+      "name": "독립문",
+      "province": "서울",
+      "district": "서대문구"
+    },
+    {
+      "gmgoCd": "0408",
+      "name": "연희",
+      "province": "서울",
+      "district": "서대문구"
+    },
+    {
+      "gmgoCd": "0411",
+      "name": "홍제",
+      "province": "서울",
+      "district": "서대문구"
+    },
+    {
+      "gmgoCd": "0413",
+      "name": "홍은",
+      "province": "서울",
+      "district": "서대문구"
+    },
+    {
+      "gmgoCd": "0416",
+      "name": "가재울",
+      "province": "서울",
+      "district": "서대문구"
+    }
+  ]
+}

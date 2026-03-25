@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4524",
+  "name": "모충",
+  "meta": {
+    "head_office": {
+      "name": "모충(본점)",
+      "address": "충북 청주시 서원구 무심서로413번길 6-6",
+      "phone": "043-283-1004",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "모충(1)",
+        "address": "충북 청주시 서원구 청남로 2119-2",
+        "phone": "043-262-1666",
+        "district": "청주시"
+      },
+      {
+        "name": "모충(2)",
+        "address": "충북 청주시 서원구 모충로96번길 1",
+        "phone": "043-263-6878",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4509",
+      "name": "청주중앙",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

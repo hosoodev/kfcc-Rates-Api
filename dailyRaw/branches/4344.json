@@ -1,0 +1,59 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4344",
+  "name": "태백",
+  "meta": {
+    "head_office": {
+      "name": "태백(본점)",
+      "address": "강원 태백시 시장북길 26",
+      "phone": "033-553-0300",
+      "province": "강원",
+      "district": "태백시"
+    },
+    "branches": [
+      {
+        "name": "태백(역전)",
+        "address": "강원 태백시 광장로 18",
+        "phone": "033-552-4400",
+        "district": "태백시"
+      },
+      {
+        "name": "태백(상장)",
+        "address": "강원 태백시 대학길 10",
+        "phone": "033-552-2304",
+        "district": "태백시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4331",
+      "name": "화광",
+      "province": "강원",
+      "district": "태백시"
+    }
+  ]
+}

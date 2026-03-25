@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2808",
+  "name": "목포중앙",
+  "meta": {
+    "head_office": {
+      "name": "목포중앙(본점)",
+      "address": "전남 목포시 백년대로 294",
+      "phone": "061-244-1144",
+      "province": "전남",
+      "district": "목포시"
+    },
+    "branches": [
+      {
+        "name": "목포중앙(유달)",
+        "address": "전남 목포시 영산로59번길 13",
+        "phone": "061-285-1144",
+        "district": "목포시"
+      },
+      {
+        "name": "목포중앙(연동)",
+        "address": "전남 목포시 산정로50번길 3",
+        "phone": "061-276-7183",
+        "district": "목포시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2803",
+      "name": "목포동부",
+      "province": "전남",
+      "district": "목포시"
+    },
+    {
+      "gmgoCd": "2804",
+      "name": "산정",
+      "province": "전남",
+      "district": "목포시"
+    },
+    {
+      "gmgoCd": "2807",
+      "name": "국민",
+      "province": "전남",
+      "district": "목포시"
+    },
+    {
+      "gmgoCd": "2810",
+      "name": "삼학",
+      "province": "전남",
+      "district": "목포시"
+    },
+    {
+      "gmgoCd": "2820",
+      "name": "영신학원",
+      "province": "전남",
+      "district": "목포시"
+    }
+  ]
+}

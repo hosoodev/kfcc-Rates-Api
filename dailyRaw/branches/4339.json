@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4339",
+  "name": "영월",
+  "meta": {
+    "head_office": {
+      "name": "영월(본점)",
+      "address": "강원 영월군 영월읍 중앙로 32",
+      "phone": "033-373-1455",
+      "province": "강원",
+      "district": "영월군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": []
+}

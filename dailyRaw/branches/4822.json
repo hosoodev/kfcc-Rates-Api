@@ -1,0 +1,70 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4822",
+  "name": "전북대학교병원",
+  "meta": {
+    "head_office": {
+      "name": "전북대학교병원(본점)",
+      "address": "전북 전주시 덕진구 건지로 20",
+      "phone": "063-250-1951",
+      "province": "전북",
+      "district": "전주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
+    }
+  ]
+}

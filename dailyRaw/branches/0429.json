@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0429",
+  "name": "마포역",
+  "meta": {
+    "head_office": {
+      "name": "마포역(본점)",
+      "address": "서울 마포구 삼개로1길 3",
+      "phone": "02-713-0324",
+      "province": "서울",
+      "district": "마포구"
+    },
+    "branches": [
+      {
+        "name": "마포역(용강)",
+        "address": "서울 마포구 큰우물로 53",
+        "phone": "02-719-3581",
+        "district": "마포구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.5,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.4,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0423",
+      "name": "아현",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0424",
+      "name": "마포중앙",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0427",
+      "name": "신공덕동",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0428",
+      "name": "신마포",
+      "province": "서울",
+      "district": "마포구"
+    },
+    {
+      "gmgoCd": "0434",
+      "name": "망원",
+      "province": "서울",
+      "district": "마포구"
+    }
+  ]
+}

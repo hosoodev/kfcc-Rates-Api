@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3423",
+  "name": "금오",
+  "meta": {
+    "head_office": {
+      "name": "금오(본점)",
+      "address": "충남 예산군 예산읍 아리랑로 9",
+      "phone": "041-333-6627",
+      "province": "충남",
+      "district": "예산군"
+    },
+    "branches": [
+      {
+        "name": "금오(덕산)",
+        "address": "충남 예산군 덕산면 덕산온천로 424",
+        "phone": "041-338-3553",
+        "district": "예산군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3422",
+      "name": "예산",
+      "province": "충남",
+      "district": "예산군"
+    },
+    {
+      "gmgoCd": "3424",
+      "name": "신례원",
+      "province": "충남",
+      "district": "예산군"
+    },
+    {
+      "gmgoCd": "3425",
+      "name": "삽교",
+      "province": "충남",
+      "district": "예산군"
+    }
+  ]
+}

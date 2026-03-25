@@ -1,0 +1,70 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3650",
+  "name": "온세미컨덕터코리아주식회사",
+  "meta": {
+    "head_office": {
+      "name": "온세미컨덕터코리아주식회사(본점)",
+      "address": "경기 부천시 원미구 부천로 324",
+      "phone": "032-680-1871",
+      "province": "경기",
+      "district": "부천시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3636",
+      "name": "부천제일",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3637",
+      "name": "남부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3639",
+      "name": "성지",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3641",
+      "name": "북부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3643",
+      "name": "송내",
+      "province": "경기",
+      "district": "부천시"
+    }
+  ]
+}

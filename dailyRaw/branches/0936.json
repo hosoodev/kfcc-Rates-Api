@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0936",
+  "name": "다원",
+  "meta": {
+    "head_office": {
+      "name": "다원(본점)",
+      "address": "서울 금천구 독산로 192",
+      "phone": "02-804-4622",
+      "province": "서울",
+      "district": "금천구"
+    },
+    "branches": [
+      {
+        "name": "다원(가산디지털)",
+        "address": "서울 금천구 가산로 137",
+        "phone": "02-804-3333",
+        "district": "금천구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.7,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.4,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0935",
+      "name": "금천중앙",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0937",
+      "name": "독산동",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0939",
+      "name": "금천남부",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0940",
+      "name": "시흥",
+      "province": "서울",
+      "district": "금천구"
+    }
+  ]
+}

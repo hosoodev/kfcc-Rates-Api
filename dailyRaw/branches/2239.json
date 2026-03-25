@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2239",
+  "name": "학익",
+  "meta": {
+    "head_office": {
+      "name": "학익(본점)",
+      "address": "인천 미추홀구 소성로 117",
+      "phone": "032-876-8500",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    "branches": [
+      {
+        "name": "학익(SK뷰)",
+        "address": "인천 미추홀구 매소홀로 385",
+        "phone": "032-876-8505",
+        "district": "미추홀구"
+      },
+      {
+        "name": "학익(시티오씨엘점)",
+        "address": "인천 미추홀구 학익로80번길 11",
+        "phone": "032-876-8504",
+        "district": "미추홀구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.65,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.65,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2234",
+      "name": "제물포",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2235",
+      "name": "용일",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2237",
+      "name": "새인천",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2238",
+      "name": "한마음",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2240",
+      "name": "온누리",
+      "province": "인천",
+      "district": "미추홀구"
+    }
+  ]
+}

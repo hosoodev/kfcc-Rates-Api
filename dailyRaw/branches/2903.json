@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2903",
+  "name": "영산포",
+  "meta": {
+    "head_office": {
+      "name": "영산포(본점)",
+      "address": "전남 나주시 이창1길 43",
+      "phone": "061-334-0276",
+      "province": "전남",
+      "district": "나주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1119",
+      "name": "한전",
+      "province": "전남",
+      "district": "나주시"
+    },
+    {
+      "gmgoCd": "2902",
+      "name": "나주",
+      "province": "전남",
+      "district": "나주시"
+    },
+    {
+      "gmgoCd": "2905",
+      "name": "나주동부",
+      "province": "전남",
+      "district": "나주시"
+    }
+  ]
+}

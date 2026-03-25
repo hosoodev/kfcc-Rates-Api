@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2315",
+  "name": "부일",
+  "meta": {
+    "head_office": {
+      "name": "부일(본점)",
+      "address": "인천 부평구 부평대로 109",
+      "phone": "032-511-7101",
+      "province": "인천",
+      "district": "부평구"
+    },
+    "branches": [
+      {
+        "name": "부일(동아)",
+        "address": "인천 부평구 부평문화로 47",
+        "phone": "032-525-9082",
+        "district": "부평구"
+      },
+      {
+        "name": "부일(부개)",
+        "address": "인천 부평구 동수로 169-1",
+        "phone": "032-522-0428",
+        "district": "부평구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2316",
+      "name": "부평남부",
+      "province": "인천",
+      "district": "부평구"
+    },
+    {
+      "gmgoCd": "2317",
+      "name": "부평제일",
+      "province": "인천",
+      "district": "부평구"
+    },
+    {
+      "gmgoCd": "2318",
+      "name": "부평중앙",
+      "province": "인천",
+      "district": "부평구"
+    },
+    {
+      "gmgoCd": "2319",
+      "name": "부평동부",
+      "province": "인천",
+      "district": "부평구"
+    },
+    {
+      "gmgoCd": "2321",
+      "name": "산곡십정",
+      "province": "인천",
+      "district": "부평구"
+    }
+  ]
+}

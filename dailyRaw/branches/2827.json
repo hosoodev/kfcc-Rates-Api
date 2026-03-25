@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2827",
+  "name": "문내",
+  "meta": {
+    "head_office": {
+      "name": "문내(본점)",
+      "address": "전남 해남군 문내면 우수영로 8",
+      "phone": "061-532-2179",
+      "province": "전남",
+      "district": "해남군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.06,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2829",
+      "name": "해남",
+      "province": "전남",
+      "district": "해남군"
+    }
+  ]
+}

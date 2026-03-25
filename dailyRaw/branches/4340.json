@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4340",
+  "name": "평창",
+  "meta": {
+    "head_office": {
+      "name": "평창(본점)",
+      "address": "강원 평창군 대관령면 대관령로 115",
+      "phone": "033-335-5274",
+      "province": "강원",
+      "district": "평창군"
+    },
+    "branches": [
+      {
+        "name": "평창(진부)",
+        "address": "강원 평창군 진부면 진부중앙로 65",
+        "phone": "033-334-4556",
+        "district": "평창군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": []
+}

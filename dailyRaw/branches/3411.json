@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3411",
+  "name": "한화토탈에너지스",
+  "meta": {
+    "head_office": {
+      "name": "한화토탈에너지스(주)(본점)",
+      "address": "충남 서산시 대산읍 독곶2로 103",
+      "phone": "041-660-6932",
+      "province": "충남",
+      "district": "서산시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3404",
+      "name": "서산",
+      "province": "충남",
+      "district": "서산시"
+    },
+    {
+      "gmgoCd": "3405",
+      "name": "서산중앙",
+      "province": "충남",
+      "district": "서산시"
+    },
+    {
+      "gmgoCd": "3407",
+      "name": "대산",
+      "province": "충남",
+      "district": "서산시"
+    }
+  ]
+}

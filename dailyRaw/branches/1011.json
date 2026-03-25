@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "1011",
+  "name": "금호",
+  "meta": {
+    "head_office": {
+      "name": "금호(본점)",
+      "address": "서울 성동구 금호산길 63",
+      "phone": "02-2238-6454",
+      "province": "서울",
+      "district": "성동구"
+    },
+    "branches": [
+      {
+        "name": "금호(금호새마을금고)",
+        "address": "서울 성동구 장터길 49-1",
+        "phone": "02-2234-0552",
+        "district": "성동구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1003",
+      "name": "왕십리중앙",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1007",
+      "name": "무지개",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1013",
+      "name": "서울금남",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1015",
+      "name": "성수1가",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1016",
+      "name": "성수2가1동",
+      "province": "서울",
+      "district": "성동구"
+    }
+  ]
+}

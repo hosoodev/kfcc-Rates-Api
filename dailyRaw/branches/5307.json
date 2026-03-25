@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5307",
+  "name": "북경주",
+  "meta": {
+    "head_office": {
+      "name": "북경주(본점)",
+      "address": "경북 경주시 안강읍 비화원로 64",
+      "phone": "054-761-7077",
+      "province": "경북",
+      "district": "경주시"
+    },
+    "branches": [
+      {
+        "name": "북경주(산대)",
+        "address": "경북 경주시 안강읍 구부랑4길 9",
+        "phone": "054-761-1221",
+        "district": "경주시"
+      },
+      {
+        "name": "북경주(황성)",
+        "address": "경북 경주시 용담로116번길 47",
+        "phone": "054-701-1919",
+        "district": "경주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.5,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.5,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5301",
+      "name": "우성",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5302",
+      "name": "성동",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5303",
+      "name": "신경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5305",
+      "name": "경주",
+      "province": "경북",
+      "district": "경주시"
+    },
+    {
+      "gmgoCd": "5306",
+      "name": "남경주",
+      "province": "경북",
+      "district": "경주시"
+    }
+  ]
+}

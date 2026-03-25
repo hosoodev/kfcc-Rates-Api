@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3568",
+  "name": "LH",
+  "meta": {
+    "head_office": {
+      "name": "LH(본점)",
+      "address": "경남 진주시 충의로 19",
+      "phone": "055-922-4948",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "상봉",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6408",
+      "name": "서부",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

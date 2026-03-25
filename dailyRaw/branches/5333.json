@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5333",
+  "name": "후포",
+  "meta": {
+    "head_office": {
+      "name": "후포(본점)",
+      "address": "경북 울진군 후포면 후포로 5",
+      "phone": "054-787-1013",
+      "province": "경북",
+      "district": "울진군"
+    },
+    "branches": [
+      {
+        "name": "후포(후포)",
+        "address": "경북 울진군 후포면 후포로 166-1",
+        "phone": "054-787-1015",
+        "district": "울진군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.4,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5330",
+      "name": "울진",
+      "province": "경북",
+      "district": "울진군"
+    },
+    {
+      "gmgoCd": "5332",
+      "name": "죽변",
+      "province": "경북",
+      "district": "울진군"
+    }
+  ]
+}

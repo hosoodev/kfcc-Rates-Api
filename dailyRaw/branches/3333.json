@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3333",
+  "name": "황산",
+  "meta": {
+    "head_office": {
+      "name": "황산(본점)",
+      "address": "충남 논산시 강경읍 대흥로 20",
+      "phone": "041-745-5955",
+      "province": "충남",
+      "district": "논산시"
+    },
+    "branches": [
+      {
+        "name": "황산(상월)",
+        "address": "충남 논산시 상월면 백일헌로 1052",
+        "phone": "041-733-9649",
+        "district": "논산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3334",
+      "name": "충청",
+      "province": "충남",
+      "district": "논산시"
+    },
+    {
+      "gmgoCd": "3337",
+      "name": "놀뫼",
+      "province": "충남",
+      "district": "논산시"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "3346",
+  "name": "삼성디스플레이",
+  "meta": {
+    "head_office": {
+      "name": "삼성디스플레이(본점)",
+      "address": "충남 아산시 탕정면 탕정로 380-2",
+      "phone": "041-623-9128",
+      "province": "충남",
+      "district": "아산시"
+    },
+    "branches": [
+      {
+        "name": "삼성디스플레이(기흥)",
+        "address": "경기 용인시 기흥구 삼성로 1",
+        "phone": "031-5181-6454",
+        "district": "용인시"
+      },
+      {
+        "name": "삼성디스플레이(아산1)",
+        "address": "충남 아산시 탕정면 삼성로 181",
+        "phone": "041-535-2352",
+        "district": "아산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3302",
+      "name": "온양",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3303",
+      "name": "정우",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3307",
+      "name": "아산",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3308",
+      "name": "탕정",
+      "province": "충남",
+      "district": "아산시"
+    },
+    {
+      "gmgoCd": "3313",
+      "name": "신우",
+      "province": "충남",
+      "district": "아산시"
+    }
+  ]
+}

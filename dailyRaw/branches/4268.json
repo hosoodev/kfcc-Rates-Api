@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4268",
+  "name": "동해우리",
+  "meta": {
+    "head_office": {
+      "name": "동해우리(본점)",
+      "address": "강원 동해시 발한로 238",
+      "phone": "033-532-8520",
+      "province": "강원",
+      "district": "동해시"
+    },
+    "branches": [
+      {
+        "name": "동해우리(부곡)",
+        "address": "강원 동해시 발한로 57",
+        "phone": "033-535-1313",
+        "district": "동해시"
+      },
+      {
+        "name": "동해우리(천곡)",
+        "address": "강원 동해시 한섬로 73",
+        "phone": "033-531-7771",
+        "district": "동해시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4230",
+      "name": "동해남부",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4232",
+      "name": "동해중앙",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4237",
+      "name": "동해항운노동조합직장",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4239",
+      "name": "동해해오름",
+      "province": "강원",
+      "district": "동해시"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5326",
+  "name": "영덕",
+  "meta": {
+    "head_office": {
+      "name": "영덕(본점)",
+      "address": "경북 영덕군 영덕읍 덕곡길 110",
+      "phone": "054-734-6000",
+      "province": "경북",
+      "district": "영덕군"
+    },
+    "branches": [
+      {
+        "name": "영덕(지품)",
+        "address": "경북 영덕군 지품면 경동로 7143",
+        "phone": "054-734-6010",
+        "district": "영덕군"
+      },
+      {
+        "name": "영덕(강구)",
+        "address": "경북 영덕군 강구면 영덕대게로 57-2",
+        "phone": "054-734-6030",
+        "district": "영덕군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5329",
+      "name": "영해",
+      "province": "경북",
+      "district": "영덕군"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "5622",
+  "name": "경산",
+  "meta": {
+    "head_office": {
+      "name": "경산(본점)",
+      "address": "경북 경산시 중앙로17길 9",
+      "phone": "053-811-7510",
+      "province": "경북",
+      "district": "경산시"
+    },
+    "branches": [
+      {
+        "name": "경산(동부)",
+        "address": "경북 경산시 백자로 117",
+        "phone": "053-801-7517",
+        "district": "경산시"
+      },
+      {
+        "name": "경산(중산)",
+        "address": "경북 경산시 펜타힐즈2로 25",
+        "phone": "053-716-7910",
+        "district": "경산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5623",
+      "name": "새경산",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5624",
+      "name": "화성",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5625",
+      "name": "다문",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5626",
+      "name": "부림",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5627",
+      "name": "진량",
+      "province": "경북",
+      "district": "경산시"
+    }
+  ]
+}

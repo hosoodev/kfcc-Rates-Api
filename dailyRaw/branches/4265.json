@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4265",
+  "name": "중부",
+  "meta": {
+    "head_office": {
+      "name": "중부(본점)",
+      "address": "강원 강릉시 금성로 20",
+      "phone": "033-650-1000",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    "branches": [
+      {
+        "name": "중부(옥천)",
+        "address": "강원 강릉시 동부시장1길 1",
+        "phone": "033-650-1001",
+        "district": "강릉시"
+      },
+      {
+        "name": "중부(임당)",
+        "address": "강원 강릉시 경강로 2091",
+        "phone": "033-650-1003",
+        "district": "강릉시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.16,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.16,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4202",
+      "name": "새강릉",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4206",
+      "name": "강릉솔향",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4207",
+      "name": "포남",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4208",
+      "name": "초당경포",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4222",
+      "name": "송정",
+      "province": "강원",
+      "district": "강릉시"
+    }
+  ]
+}

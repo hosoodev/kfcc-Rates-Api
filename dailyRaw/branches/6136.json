@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6136",
+  "name": "남김해",
+  "meta": {
+    "head_office": {
+      "name": "남김해(본점)",
+      "address": "경남 김해시 분성로 293",
+      "phone": "055-335-5001",
+      "province": "경남",
+      "district": "김해시"
+    },
+    "branches": [
+      {
+        "name": "남김해(봉황)",
+        "address": "경남 김해시 김해대로2325번길 17",
+        "phone": "055-334-7581",
+        "district": "김해시"
+      },
+      {
+        "name": "남김해(장유)",
+        "address": "경남 김해시 계동로 15",
+        "phone": "055-312-6868",
+        "district": "김해시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.8,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.4,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6135",
+      "name": "김해중앙",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6137",
+      "name": "김해시민",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6138",
+      "name": "서김해",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6139",
+      "name": "김해서부",
+      "province": "경남",
+      "district": "김해시"
+    },
+    {
+      "gmgoCd": "6140",
+      "name": "동김해",
+      "province": "경남",
+      "district": "김해시"
+    }
+  ]
+}

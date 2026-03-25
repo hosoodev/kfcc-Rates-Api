@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "2127",
+  "name": "현풍",
+  "meta": {
+    "head_office": {
+      "name": "현풍(본점)",
+      "address": "대구 달성군 현풍면 현풍중앙로 81",
+      "phone": "053-614-3217",
+      "province": "대구",
+      "district": "달성군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2122",
+      "name": "가창",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2124",
+      "name": "화원",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2125",
+      "name": "옥포",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2126",
+      "name": "달성",
+      "province": "대구",
+      "district": "달성군"
+    },
+    {
+      "gmgoCd": "2128",
+      "name": "구지",
+      "province": "대구",
+      "district": "달성군"
+    }
+  ]
+}

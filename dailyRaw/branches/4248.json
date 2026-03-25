@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4248",
+  "name": "금강",
+  "meta": {
+    "head_office": {
+      "name": "금강(본점)",
+      "address": "강원 속초시 중앙로 410",
+      "phone": "033-632-8051",
+      "province": "강원",
+      "district": "속초시"
+    },
+    "branches": [
+      {
+        "name": "금강(청대)",
+        "address": "강원 속초시 조양로 223",
+        "phone": "033-633-8051",
+        "district": "속초시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.9,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.1,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4242",
+      "name": "속초북부",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4247",
+      "name": "설악",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4249",
+      "name": "동명",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4267",
+      "name": "속초남부",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4269",
+      "name": "중앙",
+      "province": "강원",
+      "district": "속초시"
+    }
+  ]
+}

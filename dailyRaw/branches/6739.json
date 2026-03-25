@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "6739",
+  "name": "의귀",
+  "meta": {
+    "head_office": {
+      "name": "의귀(본점)",
+      "address": "제주 서귀포시 남원읍 한신로 217",
+      "phone": "064-764-4454",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.98,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.98,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6702",
+      "name": "서귀포",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6704",
+      "name": "서홍",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6705",
+      "name": "법환",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6706",
+      "name": "서호",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6707",
+      "name": "호근",
+      "province": "제주",
+      "district": "서귀포시"
+    }
+  ]
+}

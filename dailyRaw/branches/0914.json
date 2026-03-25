@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "0914",
+  "name": "사당",
+  "meta": {
+    "head_office": {
+      "name": "사당(본점)",
+      "address": "서울 동작구 사당로 240",
+      "phone": "02-584-8500",
+      "province": "서울",
+      "district": "동작구"
+    },
+    "branches": [
+      {
+        "name": "사당(사당5동)",
+        "address": "서울 동작구 사당로 172",
+        "phone": "02-582-9563",
+        "district": "동작구"
+      },
+      {
+        "name": "사당(사당2동)",
+        "address": "서울 동작구 동작대로29길 115",
+        "phone": "02-533-8501",
+        "district": "동작구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    }
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0901",
+      "name": "노들",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0902",
+      "name": "노량진",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0903",
+      "name": "상도",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0905",
+      "name": "한강",
+      "province": "서울",
+      "district": "동작구"
+    },
+    {
+      "gmgoCd": "0906",
+      "name": "상도중앙",
+      "province": "서울",
+      "district": "동작구"
+    }
+  ]
+}

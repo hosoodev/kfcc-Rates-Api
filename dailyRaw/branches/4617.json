@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-03-25T10:57:40+09:00",
+  "gmgoCd": "4617",
+  "name": "이원",
+  "meta": {
+    "head_office": {
+      "name": "이원(본점)",
+      "address": "충북 옥천군 이원면 묘목로 122",
+      "phone": "043-732-2757",
+      "province": "충북",
+      "district": "옥천군"
+    },
+    "branches": [
+      {
+        "name": "이원(옥천)",
+        "address": "충북 옥천군 옥천읍 금장로 117",
+        "phone": "043-731-2767",
+        "district": "옥천군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "grades_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4614",
+      "name": "옥천",
+      "province": "충북",
+      "district": "옥천군"
+    }
+  ]
+}
