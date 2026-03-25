@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: contains(github.event.head_commit.message, 'MG더뱅킹 패치') || contains(github.event.head_commit.message, '일일 전수 조사')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -48,19 +49,8 @@ jobs:
       - name: Trigger Frontend Revalidation
         if: success()
         run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          if [[ $COMMIT_MSG == *"MG더뱅킹 패치"* ]]; then
-            # 패치 시에는 핵심 데이터만 재검증
-            TAGS='["main", "rates"]'
-            TYPE="MG더뱅킹 패치"
-          else
-            # 그 외(전수동기화 등)에는 전체 재검증
-            TAGS='["main", "summary", "rates", "branch"]'
-            TYPE="전체 동기화"
-          fi
-          
-          echo "🚀 Deployment Successful ($TYPE). Triggering revalidation for $TAGS..."
+          echo "🚀 Deployment successful. Triggering revalidation..."
           curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
             -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
             -H "Content-Type: application/json" \
-            -d "{\"tags\": $TAGS}"
+            -d '{"tags": ["main", "summary", "rates", "branch"]}'
