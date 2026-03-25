@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: contains(github.event.head_commit.message, 'MG더뱅킹 패치') || contains(github.event.head_commit.message, '일일 전수 조사')
+    if: contains(github.event.head_commit.message, 'MG더뱅킹 패치')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
