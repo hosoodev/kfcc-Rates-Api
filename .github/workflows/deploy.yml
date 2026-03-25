@@ -28,11 +28,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Copy CNAME to v2
+        run: |
+          if [ -f "CNAME" ]; then
+            cp CNAME v2/
+            echo "✅ CNAME copied to v2/"
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # api-data 브랜치의 루트 디렉토리 전체를 업로드
-          path: '.'
+          # v2 폴더만 배포 (Static API 루트)
+          path: './v2'
 
       - name: Deploy to GitHub Pages
         id: deployment
@@ -41,8 +48,19 @@ jobs:
       - name: Trigger Frontend Revalidation
         if: success()
         run: |
-          echo "🚀 Deployment successful. Triggering revalidation..."
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if [[ $COMMIT_MSG == *"NG더뱅킹 패치"* ]]; then
+            # 패치 시에는 핵심 데이터만 재검증
+            TAGS='["main", "rates"]'
+            TYPE="NG더뱅킹 패치"
+          else
+            # 그 외(전수동기화 등)에는 전체 재검증
+            TAGS='["main", "summary", "rates", "branch"]'
+            TYPE="전체 동기화"
+          fi
+          
+          echo "🚀 Deployment Successful ($TYPE). Triggering revalidation for $TAGS..."
           curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
             -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
             -H "Content-Type: application/json" \
-            -d '{"tags": ["main", "summary", "rates", "branch"]}'
+            -d "{\"tags\": $TAGS}"
