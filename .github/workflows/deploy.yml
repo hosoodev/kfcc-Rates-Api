@@ -49,10 +49,10 @@ jobs:
         if: success()
         run: |
           COMMIT_MSG=$(git log -1 --pretty=%B)
-          if [[ $COMMIT_MSG == *"NG더뱅킹 패치"* ]]; then
+          if [[ $COMMIT_MSG == *"MG더뱅킹 패치"* ]]; then
             # 패치 시에는 핵심 데이터만 재검증
             TAGS='["main", "rates"]'
-            TYPE="NG더뱅킹 패치"
+            TYPE="MG더뱅킹 패치"
           else
             # 그 외(전수동기화 등)에는 전체 재검증
             TAGS='["main", "summary", "rates", "branch"]'
