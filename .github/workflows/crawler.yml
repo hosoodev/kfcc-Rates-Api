@@ -2,6 +2,7 @@ name: Daily KFCC Crawler
 
 on:
   schedule:
+    # 한국 시간(KST) 매일 02:00 (UTC 17:00) 정각 실행
     - cron: '0 17 * * *'
   workflow_dispatch:
     inputs:
