@@ -29,11 +29,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Copy CNAME to v2
+      - name: Copy Static Files to v2
         run: |
           if [ -f "CNAME" ]; then
             cp CNAME v2/
             echo "✅ CNAME copied to v2/"
+          fi
+          if [ -f "robots.txt" ]; then
+            cp robots.txt v2/
+            echo "✅ robots.txt copied to v2/"
           fi
 
       - name: Upload artifact
