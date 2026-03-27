@@ -1,1 +1,1 @@
-{"updated_at":"2026-03-28T03:11:39.032334","province":"서울","district":"강북구","data":[{"gmgoCd":"0649","name":"강북(본점)","province":"서울","district":"강북구","grade":"3","bis_ratio":11.28,"products":{"온라인자립예탁금":{"0":{"r":0.2,"s":"w"}},"상상모바일통장":{"0":{"r":0.2,"s":"w"}}}}]}
+{"updated_at":"2026-03-28T03:13:08.227391","province":"서울","district":"강북구","data":[{"gmgoCd":"0649","name":"강북(본점)","province":"서울","district":"강북구","grade":"3","bis_ratio":11.28,"products":{"온라인자립예탁금":{"0":{"r":0.2,"s":"w"}},"상상모바일통장":{"0":{"r":0.2,"s":"m"}}}}]}
