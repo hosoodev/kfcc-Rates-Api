@@ -1,1 +1,1 @@
-{"updated_at":"2026-03-29T02:54:34.356897","province":"경북","district":"성주군","data":[{"gmgoCd":"5725","name":"성주(본점)","province":"경북","district":"성주군","grade":"3","bis_ratio":7.63,"products":{"온라인자립예탁금":{"0":{"r":0.1,"s":"w"}},"상상모바일통장":{"0":{"r":0.01,"s":"w"}}}}]}
+{"updated_at":"2026-03-29T02:56:18.297645","province":"경북","district":"성주군","data":[{"gmgoCd":"5725","name":"성주(본점)","province":"경북","district":"성주군","grade":"3","bis_ratio":7.63,"products":{"온라인자립예탁금":{"0":{"r":0.1,"s":"w"}},"상상모바일통장":{"0":{"r":0.01,"s":"m"}}}}]}
