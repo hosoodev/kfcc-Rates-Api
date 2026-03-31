@@ -181,7 +181,7 @@ class GradeCrawler:
             print(f"❌ 경영실태평가 파싱 중 오류 발생 (금고: {bank_name}): {e}")
             return None
     
-    def collect_all_grades(self, banks, evaluation_date=None):
+    def collect_all_grades(self, banks, evaluation_date=None, use_cache=False):
         """모든 금고의 경영실태평가 수집"""
         if not evaluation_date and not self.should_collect_grades():
             print("📅 경영실태평가 수집 시기가 아닙니다. (1월 또는 7월에 수집)")
@@ -200,7 +200,24 @@ class GradeCrawler:
 
         print(f"📊 경영실태평가 데이터 수집 시작... (기준: {eval_year}년 {eval_month:02d}월, 총 {len(banks)}개 금고)")
         
-        # 6월 공시인 경우 전년도 12월 배당율 데이터 로드
+        # 1-1. 캐시 기능 사용 시 기존 데이터 로드
+        cached_grades = []
+        crawled_gmgo_codes = set()
+        if use_cache:
+            stored_data = self.storage.load_grades(eval_year, eval_month)
+            if stored_data and "grades" in stored_data:
+                cached_grades = stored_data["grades"]
+                crawled_gmgo_codes = {g.get("gmgo_cd") for g in cached_grades if g.get("gmgo_cd")}
+                print(f"📦 캐시된 데이터 {len(cached_grades)}개를 로드했습니다. 이들은 건너뜁니다.")
+        
+        # 1-2. 대상 금고 필터링
+        target_banks = [b for b in banks if b.get('gmgoCd') not in crawled_gmgo_codes]
+        
+        if not target_banks:
+            print("✅ 모든 금고가 이미 크롤링되었습니다. 추가 수집 대상이 없습니다.")
+            return cached_grades
+
+        # 2. 6월 공시인 경우 전년도 12월 배당율 데이터 로드
         prev_dividend_map = {}
         if eval_month == 6:
             try:
@@ -231,7 +248,7 @@ class GradeCrawler:
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_bank = {
                 executor.submit(self.fetch_grade_for_bank, bank['gmgoCd'], bank['name'], bank.get('province', ''), bank.get('district', ''), evaluation_date=evaluation_date): bank 
-                for bank in banks
+                for bank in target_banks
             }
             
             for future in as_completed(future_to_bank):
@@ -255,5 +272,7 @@ class GradeCrawler:
                 except Exception as e:
                     print(f"✗ {bank['name']}: 경영실태평가 수집 중 오류 - {e}")
         
-        print(f"📊 경영실태평가 수집 완료: {successful_count}/{len(banks)}개 금고")
-        return all_grades
+        # 3. 새 데이터와 기존 캐시 데이터 합치기
+        result = cached_grades + all_grades
+        print(f"📊 경영실태평가 수집 완료: 이번 차수 {successful_count}개 추가 / 전체 {len(result)}개 금고")
+        return result

@@ -193,9 +193,11 @@ def show_stats(base_dir=None):
         if len(stats['available_dates']) > 10:
             print(f"  ... 외 {len(stats['available_dates']) - 10}개")
 
-def collect_grades(evaluation_date=None, base_dir=None):
+def collect_grades(evaluation_date=None, base_dir=None, use_cache=False):
     """경영실태평가 데이터 수집"""
     print(f"📊 경영실태평가 데이터 수집 시작... {'(기준: ' + evaluation_date + ')' if evaluation_date else ''}")
+    if use_cache:
+        print("💡 캐시 모드 활성화: 이미 수집된 지점은 건너뜁니다.")
     
     # 은행 목록 로드
     storage = StorageManager(base_dir=base_dir)
@@ -210,13 +212,13 @@ def collect_grades(evaluation_date=None, base_dir=None):
     
     # 경영실태평가 크롤러 실행
     grade_crawler = GradeCrawler(base_dir=base_dir)
-    grades_data = grade_crawler.collect_all_grades(banks, evaluation_date=evaluation_date)
+    grades_data = grade_crawler.collect_all_grades(banks, evaluation_date=evaluation_date, use_cache=use_cache)
     
     if grades_data:
         # 데이터 저장
         success = storage.save_grades(grades_data)
         if success:
-            print(f"✅ 경영실태평가 수집 완료: {len(grades_data)}개 금고")
+            print(f"✅ 경영실태평가 수집 완료: 총 {len(grades_data)}개 금고 저장됨")
             return True
         else:
             print("❌ 경영실태평가 데이터 저장 실패")
@@ -264,6 +266,12 @@ def main():
         type=str,
         help='경영실태평가 기준연월 (YYYYMM)'
     )
+    
+    parser.add_argument(
+        '--use-cache',
+        action='store_true',
+        help='경영실태평가 수집 시 기존 데이터를 로드하여 이미 수집된 곳은 건너뜁니다'
+    )
 
     parser.add_argument(
         '--test',
@@ -304,7 +312,11 @@ def main():
     # 경영실태평가 수집
     if args.grades:
         print_banner()
-        success = collect_grades(evaluation_date=args.date, base_dir=args.base_dir)
+        success = collect_grades(
+            evaluation_date=args.date, 
+            base_dir=args.base_dir,
+            use_cache=args.use_cache
+        )
         return 0 if success else 1
     
     # 통계만 출력하는 경우

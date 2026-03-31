@@ -13,6 +13,11 @@ on:
         required: false
         default: ''
         type: string
+      use_cache:
+        description: '캐시 사용 (이미 수집된 지점 건너뛰기)'
+        required: false
+        default: true
+        type: boolean
 
 concurrency:
   group: grade-eval-crawler
@@ -69,11 +74,14 @@ jobs:
           timeout_minutes: 20
           max_attempts: 3
           command: |
+            CMD="python src/main.py --grades --base-dir api-data"
             if [ -n "${{ github.event.inputs.evaluation_date }}" ]; then
-              python src/main.py --grades --date "${{ github.event.inputs.evaluation_date }}" --base-dir api-data
-            else
-              python src/main.py --grades --base-dir api-data
+              CMD="$CMD --date ${{ github.event.inputs.evaluation_date }}"
             fi
+            if [ "${{ github.event.inputs.use_cache }}" = "true" ]; then
+              CMD="$CMD --use-cache"
+            fi
+            $CMD
         env:
           FORCE_RUN: ${{ github.event.inputs.force_run }}
 
