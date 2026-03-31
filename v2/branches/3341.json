@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "3341",
   "name": "금강",
   "meta": {
@@ -35,6 +35,11 @@
     "saving": null
   },
   "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "3",
+      "bis_ratio": "7.57"
+    },
     {
       "period": "2025_06",
       "grade": "3",

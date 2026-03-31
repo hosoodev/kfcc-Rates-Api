@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "1055",
   "name": "서울성동",
   "meta": {
@@ -89,7 +89,13 @@
       "s": "m"
     }
   },
-  "grades_history": [],
+  "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "2",
+      "bis_ratio": "11.11"
+    }
+  ],
   "nearby_branches": [
     {
       "gmgoCd": "1003",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "2018",
   "name": "수성중앙",
   "meta": {
@@ -68,6 +68,11 @@
     "saving": null
   },
   "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "4",
+      "bis_ratio": "4.26"
+    },
     {
       "period": "2025_06",
       "grade": "3",

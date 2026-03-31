@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "3527",
   "name": "한국도로공사직장",
   "meta": {
@@ -22,6 +22,11 @@
     "saving": null
   },
   "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "1",
+      "bis_ratio": "82.66"
+    },
     {
       "period": "2025_06",
       "grade": "1",

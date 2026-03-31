@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "2137",
   "name": "행복",
   "meta": {
@@ -74,6 +74,11 @@
     "saving": null
   },
   "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "4",
+      "bis_ratio": "1.09"
+    },
     {
       "period": "2025_06",
       "grade": "4",

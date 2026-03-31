@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T03:17:46+09:00",
+  "updated_at": "2026-04-01T08:58:23+09:00",
   "gmgoCd": "1426",
   "name": "괴정3동",
   "meta": {
@@ -36,6 +36,11 @@
     "saving": null
   },
   "grades_history": [
+    {
+      "period": "2025_12",
+      "grade": "3",
+      "bis_ratio": "9.8"
+    },
     {
       "period": "2024_12",
       "grade": "3",
