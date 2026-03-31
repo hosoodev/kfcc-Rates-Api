@@ -468,6 +468,8 @@ class StorageManager:
             
             if success:
                 logger.info("경영실태평가 데이터 저장 완료 (V1 & V2)")
+                # 인덱스 파일 갱신
+                self.update_grades_index()
             return success
             
         except Exception as e:
@@ -1222,6 +1224,65 @@ class StorageManager:
         stats['storage_size_mb'] = round(total_size / (1024 * 1024), 2)
         
         return stats
+
+    def update_grades_index(self) -> bool:
+        """v2/grades/index.json 생성 및 갱신"""
+        try:
+            grades_dir = self.v2_dir / "grades"
+            if not grades_dir.exists():
+                logger.warning(f"경영실태평가 디렉토리가 존재하지 않습니다: {grades_dir}")
+                return False
+                
+            # JSON 파일 탐색 (인덱스 제외)
+            grade_files = sorted(
+                [f for f in grades_dir.glob("grades_*_*.json") if "index" not in f.name],
+                reverse=True
+            )
+            
+            versions = []
+            for file in grade_files:
+                data = self.load_json(file)
+                if data and "collection_info" in data:
+                    info = data["collection_info"]
+                    grades = data.get("grades", [])
+                    
+                    # 요약 생성 (등급별 분포)
+                    summary = {}
+                    for g in grades:
+                        code = g.get("grade_code", "unknown")
+                        summary[code] = summary.get(code, 0) + 1
+                    
+                    # 정렬된 요약 (1, 2, 3, 4, 5 순)
+                    sorted_summary = {k: summary[k] for k in sorted(summary.keys()) if k.isdigit()}
+                    
+                    versions.append({
+                        "year": info.get("evaluation_year"),
+                        "month": info.get("evaluation_month"),
+                        "version": f"{info.get('evaluation_year')}-{info.get('evaluation_month'):02d}",
+                        "filename": file.name,
+                        "total_banks": info.get("total_banks"),
+                        "summary": sorted_summary,
+                        "collected_at": info.get("collected_at")
+                    })
+            
+            index_data = {
+                "metadata": {
+                    "updated_at": datetime.now().isoformat(),
+                    "total_versions": len(versions),
+                    "description": "새마을금고 경영실태평가(등급) 수집 데이터 인덱스"
+                },
+                "versions": versions
+            }
+            
+            index_path = grades_dir / "index.json"
+            success = self.save_json(index_data, index_path)
+            if success:
+                logger.info(f"📊 경영실태평가 인덱스 갱신 완료: {len(versions)}개 버전")
+            return success
+            
+        except Exception as e:
+            logger.error(f"경영실태평가 인덱스 갱신 실패: {e}")
+            return False
 
 
 # 모듈 레벨 함수들 (기존 인터페이스 유지)
