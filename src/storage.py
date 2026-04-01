@@ -570,13 +570,22 @@ class StorageManager:
                         bis_val = float(str(bis_val).replace(',', ''))
                     except ValueError:
                         bis_val = None
+                
+                # 경영지표(공시) 정보가 있는 경우 별도 필드로 그룹화
+                disclosure = None
+                if grade_info:
+                    disclosure = {
+                        "evaluation_date": grade_info.get('evaluation_date'), # 공시 기준일
+                        "grade": grade_info.get('grade_code'),
+                        "bis_ratio": bis_val
+                    }
+
                 return {
                     "gmgoCd": gmgo_cd,
                     "name": bank_info.get('name'),
                     "province": bank_info.get('province'),
                     "district": bank_info.get('district'),
-                    "grade": grade_info.get('grade_code'),
-                    "bis_ratio": bis_val,
+                    "disclosure": disclosure, # 등급 및 BIS 비율 통합
                     "products": {}
                 }
 
