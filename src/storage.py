@@ -1046,21 +1046,15 @@ class StorageManager:
 
     def cleanup_old_data(self, days_to_keep: int = 30) -> int:
         """
-        오래된 데이터 파일 정리
-        
-        Args:
-            days_to_keep: 보관할 일수
-            
-        Returns:
-            삭제된 파일 수
+        오래된 아카이브 데이터 파일 정리
         """
-        if not self.rates_dir.exists():
+        if not self.archive_rates_dir.exists():
             return 0
         
         cutoff_date = datetime.now() - timedelta(days=days_to_keep)
         removed_count = 0
         
-        for file in self.rates_dir.glob('*.json*'):
+        for file in self.archive_rates_dir.glob('*.json*'):
             try:
                 date_str = file.stem.replace('.json', '')
                 file_date = datetime.strptime(date_str, '%Y-%m-%d')
@@ -1068,47 +1062,45 @@ class StorageManager:
                 if file_date < cutoff_date:
                     file.unlink()
                     removed_count += 1
-                    logger.info(f"🗑️ 오래된 파일 삭제: {file.name}")
+                    logger.info(f"🗑️ 오래된 아카이브 삭제: {file.name}")
                     
             except (ValueError, OSError) as e:
                 logger.warning(f"파일 처리 오류: {file.name} - {e}")
         
         if removed_count > 0:
-            logger.info(f"🧹 정리 완료: {removed_count}개 파일 삭제")
+            logger.info(f"🧹 정리 완료: {removed_count}개 아카이브 삭제")
         
         return removed_count
     
     def get_storage_stats(self) -> Dict[str, Any]:
-        """저장소 통계 정보 반환"""
+        """저장소 통계 정보 반환 (최신 V2 기준)"""
         stats = {
-            'data_directory': str(self.data_dir),
-            'bank_list_exists': self.bank_list_file.exists(),
-            'rates_directory_exists': self.rates_dir.exists(),
-            'backup_directory_exists': self.backup_dir.exists(),
+            'base_directory': str(self.base_dir),
+            'v2_directory': str(self.v2_dir),
+            'daily_raw_directory': str(self.daily_raw_dir),
             'available_dates': self.list_available_dates(),
-            'total_rate_files': 0,
-            'total_backup_files': 0,
-            'latest_date': None,
+            'total_archive_files': 0,
+            'latest_archive_date': None,
             'storage_size_mb': 0
         }
         
-        # 파일 수 계산
-        if self.rates_dir.exists():
-            rate_files = list(self.rates_dir.glob('*.json*'))
-            stats['total_rate_files'] = len(rate_files)
+        # 아카이브 파일 수 및 최신 날짜 계산
+        if self.archive_rates_dir.exists():
+            rate_files = list(self.archive_rates_dir.glob('*.json*'))
+            stats['total_archive_files'] = len(rate_files)
             if rate_files:
-                stats['latest_date'] = max(
+                stats['latest_archive_date'] = max(
                     f.stem.replace('.json', '') for f in rate_files
                 )
         
-        if self.backup_dir.exists():
-            stats['total_backup_files'] = len(list(self.backup_dir.glob('*')))
-        
         # 전체 저장소 크기 계산
         total_size = 0
-        for file in self.data_dir.rglob('*'):
-            if file.is_file():
-                total_size += file.stat().st_size
+        try:
+            for file in self.base_dir.rglob('*'):
+                if file.is_file():
+                    total_size += file.stat().st_size
+        except Exception:
+            pass
         
         stats['storage_size_mb'] = round(total_size / (1024 * 1024), 2)
         
