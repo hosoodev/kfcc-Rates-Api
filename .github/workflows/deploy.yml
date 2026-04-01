@@ -55,10 +55,11 @@ jobs:
         run: |
           echo "🚀 Deployment successful. Triggering revalidation..."
           curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
-            -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
-            -H "Content-Type: application/json" \
-            -d '{"tags": ["main", "summary", "rates", "branch"]}'
-            --retry 3 \
-           --retry-delay 5 \
-           --max-time 30 \
-           --fail
+               -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
+               -H "Content-Type: application/json" \
+               -H "User-Agent: MyGitHubActionPusher" \
+               -d '{"tags": ["main", "summary", "rates", "branch"]}' \
+               --retry 3 \
+               --retry-delay 5 \
+               --max-time 30 \
+               --fail            
