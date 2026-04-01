@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "0128",
   "name": "서울대학교병원",
   "meta": {
@@ -21,31 +21,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "238.69"
+      "bis_ratio": 238.69,
+      "dividend_rate": 15.0964
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "291.33"
+      "bis_ratio": 291.33,
+      "dividend_rate": 14.04342
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "257.61"
+      "bis_ratio": 257.61,
+      "dividend_rate": 14.04342
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "343.99"
+      "bis_ratio": 343.99,
+      "dividend_rate": 10.1032
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "299.03"
+      "bis_ratio": 299.03,
+      "dividend_rate": 10.1032
     }
   ],
   "nearby_branches": [

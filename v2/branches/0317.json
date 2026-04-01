@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "0317",
   "name": "보광동",
   "meta": {
@@ -57,7 +57,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.05,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -76,31 +76,36 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "17.66"
+      "bis_ratio": 17.66,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "11.82"
+      "bis_ratio": 11.82,
+      "dividend_rate": 2.5071
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "15.38"
+      "bis_ratio": 15.38,
+      "dividend_rate": 2.5071
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "18.48"
+      "bis_ratio": 18.48,
+      "dividend_rate": 5.0005
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "18.44"
+      "bis_ratio": 18.44,
+      "dividend_rate": 5.0005
     }
   ],
   "nearby_branches": [

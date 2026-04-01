@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "5326",
   "name": "영덕",
   "meta": {
@@ -41,31 +41,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "7.76"
+      "bis_ratio": 7.76,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "7.22"
+      "bis_ratio": 7.22,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "4",
-      "bis_ratio": "7.29"
+      "bis_ratio": 7.29,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "7.94"
+      "bis_ratio": 7.94,
+      "dividend_rate": 3.99999
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "9.44"
+      "bis_ratio": 9.44,
+      "dividend_rate": 3.99999
     }
   ],
   "nearby_branches": [

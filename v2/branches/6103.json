@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "6103",
   "name": "남창원",
   "meta": {
@@ -36,7 +36,7 @@
       "MG더뱅킹정기예금": {
         "12": {
           "r": 2.6,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -44,17 +44,17 @@
       "MG더뱅킹정기적금": {
         "6": {
           "r": 2.3,
-          "s": "m"
+          "s": "w"
         },
         "12": {
           "r": 2.8,
-          "s": "m"
+          "s": "w"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
           "r": 2.6,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -68,7 +68,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -78,40 +78,45 @@
       "name": "MG더뱅킹정기예금",
       "month": "12",
       "r": 2.6,
-      "s": "m"
+      "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
       "r": 2.8,
-      "s": "m"
+      "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "16.86"
+      "bis_ratio": 16.86,
+      "dividend_rate": 2.90009
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "15.57"
+      "bis_ratio": 15.57,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "17.98"
+      "bis_ratio": 17.98,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "18.5"
+      "bis_ratio": 18.5,
+      "dividend_rate": 4.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "18.53"
+      "bis_ratio": 18.53,
+      "dividend_rate": 4.5
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "6125",
   "name": "볼보건설기계코리아㈜",
   "meta": {
@@ -28,31 +28,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "48.91"
+      "bis_ratio": 48.91,
+      "dividend_rate": 3.80147
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "49.61"
+      "bis_ratio": 49.61,
+      "dividend_rate": 4.00001
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "1",
-      "bis_ratio": "46.99"
+      "bis_ratio": 46.99,
+      "dividend_rate": 4.00001
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "1",
-      "bis_ratio": "43.24"
+      "bis_ratio": 43.24,
+      "dividend_rate": 3.99999
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "1",
-      "bis_ratio": "40.26"
+      "bis_ratio": 40.26,
+      "dividend_rate": 3.99999
     }
   ],
   "nearby_branches": [

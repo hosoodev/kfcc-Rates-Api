@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "3827",
   "name": "삼성전자",
   "meta": {
@@ -95,31 +95,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "20.72"
+      "bis_ratio": 20.72,
+      "dividend_rate": 5.0
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "17.99"
+      "bis_ratio": 17.99,
+      "dividend_rate": 5.8
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "16.79"
+      "bis_ratio": 16.79,
+      "dividend_rate": 5.8
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "1",
-      "bis_ratio": "17.94"
+      "bis_ratio": 17.94,
+      "dividend_rate": 6.20025
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "15.86"
+      "bis_ratio": 15.86,
+      "dividend_rate": 6.20025
     }
   ],
   "nearby_branches": [

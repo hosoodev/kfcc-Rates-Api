@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "5330",
   "name": "울진",
   "meta": {
@@ -32,17 +32,13 @@
       "MG더뱅킹정기적금": {
         "12": {
           "r": 2.7,
-          "s": "m"
-        },
-        "6": {
-          "r": 0.0,
-          "s": "m"
+          "s": "w"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
           "r": 2.5,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -56,7 +52,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.2,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -72,34 +68,39 @@
       "name": "MG더뱅킹정기적금",
       "month": "12",
       "r": 2.7,
-      "s": "m"
+      "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "15.25"
+      "bis_ratio": 15.25,
+      "dividend_rate": 3.504
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "15.29"
+      "bis_ratio": 15.29,
+      "dividend_rate": 5.5083
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "15.52"
+      "bis_ratio": 15.52,
+      "dividend_rate": 5.5083
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "14.79"
+      "bis_ratio": 14.79,
+      "dividend_rate": 5.0005
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "14.59"
+      "bis_ratio": 14.59,
+      "dividend_rate": 5.0005
     }
   ],
   "nearby_branches": [

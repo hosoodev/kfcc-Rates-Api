@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T11:16:05+09:00",
+  "updated_at": "2026-04-01T23:46:52+09:00",
   "gmgoCd": "4331",
   "name": "화광",
   "meta": {
@@ -41,7 +41,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "4344",

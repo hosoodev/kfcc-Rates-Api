@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "0142",
   "name": "종로광장",
   "meta": {
@@ -32,7 +32,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -46,26 +46,30 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "14.27"
+      "bis_ratio": 14.27,
+      "dividend_rate": 3.49896
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "1",
-      "bis_ratio": "16.08"
+      "bis_ratio": 16.08,
+      "dividend_rate": 3.49896
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "15.46"
+      "bis_ratio": 15.46,
+      "dividend_rate": 4.307
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "14.59"
+      "bis_ratio": 14.59,
+      "dividend_rate": 4.307
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "0718",
   "name": "가양동",
   "meta": {
@@ -24,15 +24,7 @@
       "MG더뱅킹정기예금": {
         "12": {
           "r": 3.2,
-          "s": "m"
-        },
-        "3": {
-          "r": 0.0,
-          "s": "m"
-        },
-        "6": {
-          "r": 0.0,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -40,17 +32,17 @@
       "MG더뱅킹정기적금": {
         "6": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         },
         "12": {
           "r": 2.9,
-          "s": "m"
+          "s": "w"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
           "r": 2.6,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -64,7 +56,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -74,40 +66,45 @@
       "name": "MG더뱅킹정기예금",
       "month": "12",
       "r": 3.2,
-      "s": "m"
+      "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
       "r": 2.9,
-      "s": "m"
+      "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "16.88"
+      "bis_ratio": 16.88,
+      "dividend_rate": 1.5
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "15.94"
+      "bis_ratio": 15.94,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "17.63"
+      "bis_ratio": 17.63,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "17.35"
+      "bis_ratio": 17.35,
+      "dividend_rate": 4.2
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "18.42"
+      "bis_ratio": 18.42,
+      "dividend_rate": 4.2
     }
   ],
   "nearby_branches": [

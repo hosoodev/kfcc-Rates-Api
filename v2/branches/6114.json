@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "6114",
   "name": "현대로템",
   "meta": {
@@ -28,31 +28,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "348.34"
+      "bis_ratio": 348.34,
+      "dividend_rate": 7.3
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "334.79"
+      "bis_ratio": 334.79,
+      "dividend_rate": 7.32
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "1",
-      "bis_ratio": "260.56"
+      "bis_ratio": 260.56,
+      "dividend_rate": 7.32
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "1",
-      "bis_ratio": "238.22"
+      "bis_ratio": 238.22,
+      "dividend_rate": 7.3
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "1",
-      "bis_ratio": "204.9"
+      "bis_ratio": 204.9,
+      "dividend_rate": 7.3
     }
   ],
   "nearby_branches": [

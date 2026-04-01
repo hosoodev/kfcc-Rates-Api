@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "1626",
   "name": "해운대",
   "meta": {
@@ -47,31 +47,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "16.75"
+      "bis_ratio": 16.75,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "13.31"
+      "bis_ratio": 13.31,
+      "dividend_rate": 3.00002
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "15.31"
+      "bis_ratio": 15.31,
+      "dividend_rate": 3.00002
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.17"
+      "bis_ratio": 12.17,
+      "dividend_rate": 4.24411
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "13.6"
+      "bis_ratio": 13.6,
+      "dividend_rate": 4.24411
     }
   ],
   "nearby_branches": [

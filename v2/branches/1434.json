@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "1434",
   "name": "사하중앙",
   "meta": {
@@ -41,31 +41,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "12.89"
+      "bis_ratio": 12.89,
+      "dividend_rate": 1.5
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "16.45"
+      "bis_ratio": 16.45,
+      "dividend_rate": 2.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "16.72"
+      "bis_ratio": 16.72,
+      "dividend_rate": 2.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "15.53"
+      "bis_ratio": 15.53,
+      "dividend_rate": 4.60009
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "3",
-      "bis_ratio": "19.28"
+      "bis_ratio": 19.28,
+      "dividend_rate": 4.60009
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-01T21:46:10+09:00",
+  "updated_at": "2026-04-01T23:46:51+09:00",
   "gmgoCd": "0122",
   "name": "강북삼성병원",
   "meta": {
@@ -28,31 +28,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "236.17"
+      "bis_ratio": 236.17,
+      "dividend_rate": 3.50029
     },
     {
-      "period": "2025_06",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "210.39"
+      "bis_ratio": 210.39,
+      "dividend_rate": 3.75644
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "200.39"
+      "bis_ratio": 200.39,
+      "dividend_rate": 3.75644
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "196.71"
+      "bis_ratio": 196.71,
+      "dividend_rate": 5.11803
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "190.36"
+      "bis_ratio": 190.36,
+      "dividend_rate": 5.11803
     }
   ],
   "nearby_branches": [
