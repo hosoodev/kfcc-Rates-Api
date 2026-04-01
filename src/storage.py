@@ -919,10 +919,14 @@ class StorageManager:
                             "s": m_data.get("s", "w")
                         })
                 
+                # 등급 정보 추출 (disclosure 필드가 있으면 거기서, 없으면 평면 구조에서 - 마이그레이션 대응)
+                disclosure = bank_data.get("disclosure", {})
+                grade = disclosure.get("grade") if disclosure else bank_data.get("grade")
+                
                 rates_v2.append({
                     "gmgoCd": bank_data.get("gmgoCd"),
                     "name": bank_data.get("name"),
-                    "grade": bank_data.get("grade"),
+                    "grade": grade,
                     "products": products_v1
                 })
         
