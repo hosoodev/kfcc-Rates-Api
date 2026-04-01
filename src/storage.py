@@ -574,10 +574,19 @@ class StorageManager:
                 # 경영지표(공시) 정보가 있는 경우 별도 필드로 그룹화
                 disclosure = None
                 if grade_info:
+                    # 배당률(dividend_rate) 처리
+                    div_val = grade_info.get('dividend_rate')
+                    if div_val:
+                        try:
+                            div_val = float(str(div_val).replace('%', '').replace(',', ''))
+                        except ValueError:
+                            div_val = None
+
                     disclosure = {
                         "evaluation_date": grade_info.get('evaluation_date'), # 공시 기준일
                         "grade": grade_info.get('grade_code'),
-                        "bis_ratio": bis_val
+                        "bis_ratio": bis_val,
+                        "dividend_rate": div_val
                     }
 
                 return {
@@ -1072,36 +1081,29 @@ class StorageManager:
                             rates_index[key][g_cd] = bank_rate.get("products", {})
 
             # 3. 경영평가 히스토리 로드 (v2/grades/*.json)
-            grades_history_index = {}
+            from collections import defaultdict
+            disclosure_history_index = defaultdict(list)
+            
             grades_dir = target_v2_dir / "grades"
             if grades_dir.exists():
-                grade_files = list(grades_dir.glob("grades_*.json"))
-                periods = []
-                for gf in grade_files:
+                # 최신 파일순으로 정렬하여 로드
+                for gf in sorted(grades_dir.glob("grades_*.json"), reverse=True):
                     match = re.search(r"grades_(\d{4})_(\d{2})", gf.name)
-                    if match:
-                        period = f"{match.group(1)}_{match.group(2)}"
-                        periods.append((period, gf))
-                
-                # 최신순 정렬
-                periods.sort(key=lambda x: x[0], reverse=True)
-                
-                for period, gf in periods:
-                    try:
-                        with open(gf, "r", encoding="utf-8") as f:
-                            g_data = json.load(f)
-                            for grade in g_data.get("grades", []):
-                                g_cd = grade.get("gmgo_cd")
-                                if g_cd:
-                                    if g_cd not in grades_history_index:
-                                        grades_history_index[g_cd] = []
-                                    grades_history_index[g_cd].append({
-                                        "period": period,
-                                        "grade": grade.get("grade_code"),
-                                        "bis_ratio": grade.get("bis_ratio")
-                                    })
-                    except Exception as e:
-                        logger.error(f"⚠️ {gf.name} 로드 실패: {e}")
+                    if not match: continue
+                    
+                    year, month = match.groups()
+                    fallback_date = f"{year}-{month}-{'31' if month == '12' else '30'}"
+                    
+                    g_data = self.load_json(gf) or {}
+                    for g in g_data.get("grades", []):
+                        g_cd = g.get("gmgo_cd")
+                        if g_cd:
+                            disclosure_history_index[g_cd].append({
+                                "evaluation_date": g.get('evaluation_date') or fallback_date,
+                                "grade": g.get("grade_code"),
+                                "bis_ratio": self._clean_float(g.get('bis_ratio')),
+                                "dividend_rate": self._clean_float(g.get('dividend_rate'))
+                            })
 
             # 4. 개별 지점 JSON 조립
             branches_dir = target_v2_dir / "branches"
@@ -1130,7 +1132,7 @@ class StorageManager:
                             "deposit": self._get_best_rate(rates_index["deposit"].get(gmgo_cd, {})),
                             "saving": self._get_best_rate(rates_index["saving"].get(gmgo_cd, {}))
                         },
-                        "grades_history": grades_history_index.get(gmgo_cd, []),
+                        "disclosure_history": disclosure_history_index.get(gmgo_cd, []),
                         "nearby_branches": []
                     }
                     
@@ -1167,6 +1169,15 @@ class StorageManager:
                         "s": info.get("s", "w")
                     }
         return best
+
+    def _clean_float(self, value: Any) -> Optional[float]:
+        """문자열(%, , 포함)을 float으로 안전하게 변환"""
+        if value is None or value == "":
+            return None
+        try:
+            return float(str(value).replace('%', '').replace(',', ''))
+        except (ValueError, TypeError):
+            return None
 
     def cleanup_old_data(self, days_to_keep: int = 30) -> int:
         """
