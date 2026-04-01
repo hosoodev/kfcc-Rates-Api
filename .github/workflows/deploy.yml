@@ -57,7 +57,7 @@ jobs:
           curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
                -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
                -H "Content-Type: application/json" \
-               -H "User-Agent: MyGitHubActionPusher" \
+               -H "User-Agent: MGija-Sync-Engine/2.1" \
                -d '{"tags": ["main", "summary", "rates", "branch"]}' \
                --retry 3 \
                --retry-delay 5 \
