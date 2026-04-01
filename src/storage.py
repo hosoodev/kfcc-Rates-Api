@@ -26,14 +26,15 @@ class StorageManager:
         """저장소 초기화"""
         # base_dir이 주어지면 (예: 'api-data') 루트로 사용. 없으면 기본 설정된 DATA_DIR의 상위 (프로젝트 루트)
         self.base_dir = Path(base_dir) if base_dir else Path(DATA_DIR).parent
-        self.data_dir = self.base_dir / "data"
         self.v2_dir = self.base_dir / "v2"
         self.daily_raw_dir = self.base_dir / "dailyRaw"
         
-        self.rates_dir = self.data_dir / 'rates'
-        self.grades_dir = self.data_dir / 'grades'
-        self.backup_dir = self.data_dir / 'backups'
-        self.bank_list_file = self.data_dir / "banks.json"
+        # V2 기반 상세 경로
+        self.meta_dir = self.v2_dir / "meta"
+        self.grades_dir = self.v2_dir / "grades"
+        self.branches_dir = self.v2_dir / "branches"
+        self.rates_v2_dir = self.v2_dir / "rates"
+        
         self.archive_rates_dir = self.base_dir / "_archive" / "rates"
         
         # 디렉토리 생성
@@ -41,7 +42,12 @@ class StorageManager:
     
     def _ensure_directories(self) -> None:
         """필요한 디렉토리 생성"""
-        for directory in [self.data_dir, self.v2_dir, self.daily_raw_dir, self.rates_dir, self.backup_dir, self.archive_rates_dir]:
+        dirs = [
+            self.v2_dir, self.daily_raw_dir, self.meta_dir, 
+            self.grades_dir, self.branches_dir, self.rates_v2_dir, 
+            self.archive_rates_dir
+        ]
+        for directory in dirs:
             directory.mkdir(parents=True, exist_ok=True)
     
     def save_json(self, data: Any, filepath: Union[str, Path], 
@@ -122,32 +128,13 @@ class StorageManager:
             return None
     
     def save_bank_list(self, banks: List[Dict[str, Any]], target_dir: Optional[Path] = None) -> bool:
-        """은행 목록 저장 (Legacy 및 V2 Meta 병행 저장)"""
-        target_dir_for_meta = target_dir if target_dir else self.v2_dir
+        """은행 목록 저장 (V2 Meta 저장)"""
+        target_v2_dir = target_dir if target_dir else self.v2_dir
         if not banks:
             logger.warning("저장할 은행 목록이 없습니다")
             return False
-        
-        # 백업 생성
-        self._create_backup(self.bank_list_file)
-        
-        # 1. [Legacy] data/banks.json 저장 (평면 구조 유지)
-        unique_banks = self._remove_duplicate_banks(banks)
-        bank_data_legacy = {
-            'metadata': {
-                'total_count': len(unique_banks),
-                'unique_count': len(set(b['gmgoCd'] for b in unique_banks)),
-                'crawled_at': datetime.now().isoformat(),
-                'version': '1.1'
-            },
-            'banks': unique_banks
-        }
-        
-        success = self.save_json(bank_data_legacy, self.bank_list_file)
-        if success:
-            self.save_json(bank_data_legacy, self.bank_list_file, compress=True)
             
-        # 2. [V2 Meta] v2/meta/banks.json 저장 (계층 구조)
+        # 1. [V2 Meta] v2/meta/banks.json 저장 (계층 구조)
         hierarchical_banks = self._group_banks_hierarchically(banks)
         bank_data_v2 = {
             'metadata': {
@@ -159,16 +146,14 @@ class StorageManager:
             'banks': hierarchical_banks
         }
         
-        meta_v2_dir = target_dir_for_meta / "meta"
+        meta_v2_dir = target_v2_dir / "meta"
         meta_v2_dir.mkdir(parents=True, exist_ok=True)
         meta_filepath = meta_v2_dir / "banks.json"
         
-        meta_success = self.save_json(bank_data_v2, meta_filepath)
-        if meta_success:
-            self.save_json(bank_data_v2, meta_filepath, compress=True)
-            
+        success = self.save_json(bank_data_v2, meta_filepath)
         if success:
-            logger.info(f"🏦 은행 목록 저장 완료: Legacy({len(unique_banks)}) & V2 Meta({len(hierarchical_banks)} groups)")
+            self.save_json(bank_data_v2, meta_filepath, compress=True)
+            logger.info(f"🏦 은행 목록 저장 완료: V2 Meta({len(hierarchical_banks)} groups)")
         
         return success
 
@@ -220,8 +205,6 @@ class StorageManager:
         try:
             # 1. v2 디렉토리 우선 확인
             meta_file = self.v2_dir / "meta" / "banks.json"
-            if not meta_file.exists():
-                meta_file = self.data_dir / "meta" / "banks.json"
             
             if meta_file.exists():
                 data = self.load_json(meta_file)
@@ -242,8 +225,7 @@ class StorageManager:
                     return {"banks": flattened_banks}
                 return data
             
-            if self.bank_list_file.exists():
-                return self.load_json(self.bank_list_file)
+            return None
                 
         except Exception as e:
             logger.error(f"은행 목록 로드 실패: {e}")
@@ -252,149 +234,49 @@ class StorageManager:
     
     def save_daily_rates(self, rates: List[Dict[str, Any]], 
                         date_str: Optional[str] = None) -> bool:
-        """일별 금리 데이터 저장"""
+        """일별 금리 데이터 저장 (Archive 전용)"""
         if not rates:
-            logger.warning("저장할 금리 데이터가 없습니다")
             return False
         
         if date_str is None:
             date_str = datetime.now().strftime('%Y-%m-%d')
-        
-        filepath = self.rates_dir / f"{date_str}.json"
-        
-        # 백업 생성
-        self._create_backup(filepath)
-        
-        # 요약 통계 생성
-        summary = parse_summary_data(rates)
         
         # 데이터 구성
         rates_data = {
             'metadata': {
                 'date': date_str,
                 'total_banks': len(rates),
-                'successful_banks': len([r for r in rates if r.get('total_products', 0) > 0]),
                 'crawled_at': datetime.now().isoformat(),
                 'version': '1.1'
             },
-            'summary': summary,
             'rates': rates
         }
         
-        # 압축 옵션 (큰 파일의 경우)
+        # 압축 옵션
         compress = len(rates) > 100
         
-        # 1. data/rates/ 저장
-        success = self.save_json(rates_data, filepath, compress=compress)
-        
-        # 2. _archive/rates/ (레거시 아카이브) 저장
+        # _archive/rates/ 저장
         archive_filepath = self.archive_rates_dir / f"{date_str}.json"
-        success &= self.save_json(rates_data, archive_filepath, compress=compress)
+        success = self.save_json(rates_data, archive_filepath, compress=compress)
         
         if success:
-            logger.info(f"💰 금리 데이터 저장 및 아카이브 완료: {date_str} ({len(rates)}개 금고)")
+            logger.info(f"📦 금리 데이터 아카이브 완료: {date_str}")
         
         return success
     
     def save_summary(self, summary_data: Dict[str, Any], 
                     date_str: Optional[str] = None) -> bool:
-        """요약 정보 저장"""
-        if date_str is None:
-            date_str = datetime.now().strftime('%Y-%m-%d')
-        
-        summary_file = self.data_dir / 'summary.json'
-        
-        # 기존 요약 데이터 로드
-        existing_summary = self.load_json(summary_file) or {}
-        
-        # 새로운 데이터 추가
-        existing_summary[date_str] = summary_data
-        
-        # 최근 90일치만 유지
-        cutoff_date = datetime.now() - timedelta(days=90)
-        existing_summary = {
-            date: data for date, data in existing_summary.items()
-            if datetime.strptime(date, '%Y-%m-%d') >= cutoff_date
-        }
-        
-        success = self.save_json(existing_summary, summary_file)
-        if success:
-            # 레거시 호환: 압축본도 저장
-            self.save_json(existing_summary, summary_file, compress=True)
-        if success:
-            logger.info(f"📊 요약 데이터 저장 완료: {date_str}")
-        
-        return success
-    
-    def _remove_duplicate_banks(self, banks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """중복 은행 제거"""
-        seen = set()
-        unique = []
-        
-        for bank in banks:
-            key = bank.get('gmgoCd')
-            if key and key not in seen:
-                seen.add(key)
-                unique.append(bank)
-        
-        if len(banks) != len(unique):
-            logger.info(f"중복 제거: {len(banks)} → {len(unique)}개")
-        
-        return unique
-    
-    def _create_backup(self, filepath: Union[str, Path]) -> bool:
-        """파일 백업 생성"""
-        filepath = Path(filepath)
-        
-        if not filepath.exists():
-            return False
-        
-        try:
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            backup_name = f"{filepath.stem}_{timestamp}{filepath.suffix}"
-            backup_path = self.backup_dir / backup_name
-            
-            shutil.copy2(filepath, backup_path)
-            logger.debug(f"백업 생성: {backup_path}")
-            
-            # 레거시 호환: 백업 파일의 압축본도 생성 (.gz)
-            try:
-                gz_backup_path = backup_path.with_name(backup_path.name + '.gz')
-                with open(backup_path, 'rb') as f_in, gzip.open(gz_backup_path, 'wb') as f_out:
-                    shutil.copyfileobj(f_in, f_out)
-                logger.debug(f"백업 압축본 생성: {gz_backup_path}")
-            except Exception as gz_err:
-                logger.warning(f"백업 압축본 생성 실패: {gz_err}")
-            
-            # 오래된 백업 정리 (7일 이상)
-            self._cleanup_old_backups()
-            
-            return True
-            
-        except Exception as e:
-            logger.warning(f"백업 생성 실패: {e}")
-            return False
-    
-    def _cleanup_old_backups(self, days_to_keep: int = 7) -> None:
-        """오래된 백업 파일 정리"""
-        if not self.backup_dir.exists():
-            return
-        
-        cutoff_time = datetime.now() - timedelta(days=days_to_keep)
-        
-        for backup_file in self.backup_dir.glob('*'):
-            if backup_file.stat().st_mtime < cutoff_time.timestamp():
-                backup_file.unlink()
-                logger.debug(f"오래된 백업 삭제: {backup_file}")
+        """요약 정보 저장 (V2에 요약 로직이 있으므로 레거시는 스킵)"""
+        return True
     
     def get_latest_rates(self) -> Optional[Dict[str, Any]]:
-        """최신 금리 데이터 가져오기"""
-        if not self.rates_dir.exists():
+        """최신 금리 데이터 가져오기 (Archive 기준)"""
+        if not self.archive_rates_dir.exists():
             return None
         
         # JSON 및 압축 파일 모두 검색
-        rate_files = list(self.rates_dir.glob('*.json')) + \
-                    list(self.rates_dir.glob('*.json.gz'))
+        rate_files = list(self.archive_rates_dir.glob('*.json')) + \
+                    list(self.archive_rates_dir.glob('*.json.gz'))
         
         if not rate_files:
             return None
@@ -405,18 +287,18 @@ class StorageManager:
         return self.load_json(latest_file)
     
     def get_rates_by_date(self, date_str: str) -> Optional[Dict[str, Any]]:
-        """특정 날짜의 금리 데이터 가져오기"""
-        filepath = self.rates_dir / f"{date_str}.json"
+        """특정 날짜의 금리 데이터 가져오기 (Archive 기준)"""
+        filepath = self.archive_rates_dir / f"{date_str}.json"
         return self.load_json(filepath)
     
     def list_available_dates(self) -> List[str]:
-        """사용 가능한 날짜 목록 반환"""
-        if not self.rates_dir.exists():
+        """사용 가능한 날짜 목록 반환 (Archive 기준)"""
+        if not self.archive_rates_dir.exists():
             return []
         
         # 파일명에서 날짜 추출
         dates = []
-        for file in self.rates_dir.glob('*.json*'):
+        for file in self.archive_rates_dir.glob('*.json*'):
             date_str = file.stem.replace('.json', '')
             try:
                 # 날짜 형식 검증
@@ -426,15 +308,10 @@ class StorageManager:
                 continue
         
         return sorted(dates, reverse=True)
-    
     def save_grades(self, grades_data: List[Dict[str, Any]]) -> bool:
-        """경영실태평가 데이터 저장 (v2/grades/ 및 data/grades/ 병행 저장)"""
+        """경영실태평가 데이터 저장 (V2 전용)"""
         try:
-            # 1. 원본 data/grades 디렉토리 생성 및 저장 (Legacy 호환성)
-            legacy_grades_dir = self.data_dir / "grades"
-            legacy_grades_dir.mkdir(parents=True, exist_ok=True)
-            
-            # 2. V2 v2/grades 디렉토리 생성 및 저장
+            # 1. V2 v2/grades 디렉토리 생성 및 저장
             v2_grades_dir = self.v2_dir / "grades"
             v2_grades_dir.mkdir(parents=True, exist_ok=True)
             
@@ -459,15 +336,13 @@ class StorageManager:
                 "grades": grades_data
             }
             
-            # 두 경로 모두 저장
-            success = True
-            for base_path in [legacy_grades_dir, v2_grades_dir]:
-                filepath = base_path / filename
-                success &= self.save_json(data, filepath)
-                success &= self.save_json(data, filepath, compress=True)
+            # V2 경로 저장
+            filepath = v2_grades_dir / filename
+            success = self.save_json(data, filepath)
+            success &= self.save_json(data, filepath, compress=True)
             
             if success:
-                logger.info("경영실태평가 데이터 저장 완료 (V1 & V2)")
+                logger.info("경영실태평가 데이터 저장 완료 (V2)")
                 # 인덱스 파일 갱신
                 self.update_grades_index()
             return success
@@ -477,12 +352,10 @@ class StorageManager:
             return False
     
     def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
-        """경영실태평가 데이터 로드 (v2/grades/ 우선 확인)"""
+        """경영실태평가 데이터 로드 (v2/grades/ 확인)"""
         try:
-            # 1. v2 디렉토리 우선 확인
+            # 1. v2 디렉토리 확인
             grades_dir = self.v2_dir / "grades"
-            if not grades_dir.exists():
-                grades_dir = self.data_dir / "grades"
             
             if not grades_dir.exists():
                 return None
@@ -491,20 +364,12 @@ class StorageManager:
                 # 저장된 파일 중 가장 최신의 파일을 찾아 로드
                 grade_files = list(grades_dir.glob("grades_*_*.json"))
                 if not grade_files:
-                    # v2에 없으면 legacy도 한 번 더 시도
-                    if grades_dir != (self.data_dir / "grades"):
-                        grades_dir = self.data_dir / "grades"
-                        grade_files = list(grades_dir.glob("grades_*_*.json"))
-                    
-                    if not grade_files:
-                        return None
+                    return None
                         
                 grade_files.sort(reverse=True)
                 filepath = grade_files[0]
             else:
                 filepath = grades_dir / f"grades_{year}_{month:02d}.json"
-                if not filepath.exists() and grades_dir != (self.data_dir / "grades"):
-                    filepath = self.data_dir / "grades" / f"grades_{year}_{month:02d}.json"
                 
                 if not filepath.exists():
                     return None
