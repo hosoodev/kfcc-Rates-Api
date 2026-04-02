@@ -52,21 +52,33 @@ class StorageManager:
             directory.mkdir(parents=True, exist_ok=True)
     
     def save_json(self, data: Any, filepath: Union[str, Path], 
-                  compress: bool = False, pretty: bool = True) -> bool:
+                  compress: bool = False, pretty: bool = True,
+                  skip_if_same: bool = False) -> bool:
         """
-        데이터를 JSON 파일로 저장
-        
-        Args:
-            data: 저장할 데이터
-            filepath: 저장할 파일 경로
-            compress: gzip 압축 여부
-            pretty: 예쁘게 포맷팅할지 여부
-            
-        Returns:
-            저장 성공 여부
+        데이터를 JSON 파일로 저장 (변경 감지 옵션 포함)
         """
         filepath = Path(filepath)
         
+        # 1. 변경 여부 확인 (skip_if_same=True 인 경우)
+        if skip_if_same and filepath.exists():
+            try:
+                old_data = self.load_json(filepath)
+                if old_data:
+                    # 타임스탬프성 필드 제외하고 딥 비교 루틴
+                    def _strip_ts(obj):
+                        if isinstance(obj, dict):
+                            return {k: _strip_ts(v) for k, v in obj.items() 
+                                   if k not in ['updated_at', 'collected_at', 'last_checked_at']}
+                        elif isinstance(obj, list):
+                            return [_strip_ts(i) for i in obj]
+                        return obj
+                    
+                    if _strip_ts(old_data) == _strip_ts(data):
+                        # 내용 상 변화가 없으면 저장 스킵 (성공으로 간주)
+                        return True
+            except Exception as e:
+                logger.debug(f"⚠️ 기존 데이터 비교 실패 (강제 저장): {e}")
+
         try:
             # 디렉토리 확인
             filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -89,7 +101,7 @@ class StorageManager:
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(data, f, **json_kwargs)
             
-            logger.info(f"✓ 파일 저장 완료: {filepath}")
+            # logger.debug(f"✓ 파일 저장 완료: {filepath}")
             return True
             
         except Exception as e:
