@@ -9,6 +9,7 @@ import re
 import gzip
 import shutil
 import logging
+import copy
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Union
