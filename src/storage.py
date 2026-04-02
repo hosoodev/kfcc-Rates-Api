@@ -807,7 +807,6 @@ class StorageManager:
                 products_v1 = []
                 for p_name, months_data in bank_data.get("products", {}).items():
                     for month, m_data in months_data.items():
-                        # p_type_key를 기반으로 product_type 한글 명칭 복원 (parse_summary_data_v2 분류용)
                         p_type_name = "거치식예탁금"
                         if p_type_key == "saving": p_type_name = "적립식예탁금"
                         elif p_type_key == "demand": p_type_name = "요구불예탁금"
@@ -820,7 +819,6 @@ class StorageManager:
                             "s": m_data.get("s", "w")
                         })
                 
-                # 등급 정보 추출 (disclosure 필드가 있으면 거기서, 없으면 평면 구조에서 - 마이그레이션 대응)
                 disclosure = bank_data.get("disclosure", {})
                 grade = disclosure.get("grade") if disclosure else bank_data.get("grade")
                 
@@ -831,98 +829,102 @@ class StorageManager:
                     "products": products_v1
                 })
         
+        from .parser import parse_summary_data_v2
         summary_v2 = parse_summary_data_v2(rates_v2)
         v2_summary_path = target_dir_for_summary / "rates" / "summary.json"
         v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
         
-        if self.save_json(summary_v2, v2_summary_path, pretty=False):
-            logger.info(f"📊 V2 Dashboard Summary 저장 완료: {v2_summary_path}")
-        else:
-            logger.error(f"❌ V2 Dashboard Summary 저장 실패: {v2_summary_path}")
+        self.save_json(summary_v2, v2_summary_path, pretty=False, skip_if_same=True)
+
+    def save_status(self, status: str = "success", target_dir: Optional[Path] = None, modified: bool = False) -> bool:
+        """시스템 상태 정보(status.json) 저장"""
+        target_v2_dir = target_dir if target_dir else self.v2_dir
+        status_path = target_v2_dir / "status.json"
+        
+        now_iso = datetime.now().isoformat()
+        existing = self.load_json(status_path) or {}
+        
+        # 데이터가 실제로 변경되었을 때만 last_modified_at 갱신
+        last_modified = now_iso if modified else existing.get("last_modified_at", now_iso)
+        
+        status_data = {
+            "last_checked_at": now_iso,
+            "last_modified_at": last_modified,
+            "status": status,
+            "version": "2.0"
+        }
+        
+        return self.save_json(status_data, status_path, pretty=True)
 
     def save_v2_api(self, v2_data_all: Dict[str, Dict[str, Any]], target_dir: Optional[Path] = None) -> bool:
         """
-        V2 API 데이터를 파일로 저장
-        - target_dir이 지정되면 해당 디렉토리에 저장 (v2/ 또는 dailyRaw/)
-        - v2/rates/deposit/all.json, v2/rates/saving/all.json, v2/rates/demand/all.json
-        - v2/rates/deposit/mbank.json 등 모바일 전용 데이터 포함
-        - v2/main.json (BFF API)
+        V2 API 데이터를 파일로 저장 (내용 변경 시에만 업데이트)
         """
         try:
             target_v2_dir = target_dir if target_dir else self.v2_dir
             v2_rates_dir = target_v2_dir / "rates"
             v2_rates_dir.mkdir(parents=True, exist_ok=True)
             
-            success = True
+            # 1. 데이터 변경 여부 감지 및 저장
+            total_success = True
+            any_changed = False
+            
+            # 실제 파일이 쓰였는지(변경되었는지) 확인하기 위해 save_json의 반환값 활용
+            # (현재 save_json은 skip 시에도 True를 반환하므로, 내부 로직을 고려하여 any_changed 판단 루틴 필요)
+            # 여기서는 편의상 all.json 저장 시의 실제 변경 여부를 any_changed로 간주하는 로직 추가
+            
             for key, data in v2_data_all.items():
-                # 각각의 라우트별 폴더 생성 (deposit, saving, demand)
                 product_dir = v2_rates_dir / key
                 product_dir.mkdir(parents=True, exist_ok=True)
                 
-                # 1. all.json 저장
-                filepath = product_dir / "all.json"
-                success &= self.save_json(data, filepath, pretty=False)
+                all_path = product_dir / "all.json"
+                
+                # 기존 데이터와 비교하여 변경 여부 수동 감지 (status 갱신용)
+                if all_path.exists():
+                    old_all = self.load_json(all_path)
+                    if old_all:
+                        def _strip(d):
+                            if isinstance(d, dict):
+                                return {k: _strip(v) for k, v in d.items() if k not in ['updated_at', 'collected_at']}
+                            elif isinstance(d, list):
+                                return [_strip(i) for i in d]
+                            return d
+                        if _strip(old_all) != _strip(data):
+                            any_changed = True
 
-                # 2. mbank.json 저장 (모바일 전용)
+                if not self.save_json(data, all_path, pretty=False, skip_if_same=True):
+                    total_success = False
+
                 mbank_data = self._filter_mbank_only(data)
-                mbank_filepath = product_dir / "mbank.json"
-                if self.save_json(mbank_data, mbank_filepath, pretty=False):
-                    logger.info(f"📱 V2 {key} 모바일 전용 데이터 저장 완료: {mbank_filepath}")
-                else:
-                    success = False
-            
-            # 3. main.json 저장 (BFF API)
+                self.save_json(mbank_data, product_dir / "mbank.json", pretty=False, skip_if_same=True)
+
+            # 2. 메인 페이지 BFF API (main.json)
             main_api_data = self.build_main_page_api(v2_data_all)
-            main_filepath = target_v2_dir / "main.json"
-            if self.save_json(main_api_data, main_filepath, pretty=False):
-                logger.info(f"🏠 V2 Main Page BFF API 저장 완료: {main_filepath}")
-            else:
-                success = False
+            self.save_json(main_api_data, target_v2_dir / "main.json", pretty=False, skip_if_same=True)
 
-            # 4. summary.json 저장 (Dashboard 요약)
-            try:
-                self.save_v2_summary(v2_data_all)
-            except Exception as e:
-                logger.error(f"⚠️ V2 요약 데이터 생성 중 오류 발생: {e}")
-                success = False
-
-            # 5. 지역별 SEO API 생성
-            try:
-                self.build_seo_regions_api(v2_data_all, target_dir=target_v2_dir)
-            except Exception as e:
-                logger.error(f"⚠️ SEO 지역별 API 생성 중 오류 발생: {e}")
-                success = False
-
-            if success:
-                logger.info(f"🚀 V2 API 기본 데이터 저장 완료: {v2_rates_dir}")
+            # 3. 기타 API 및 status 저장
+            self.save_v2_summary(v2_data_all, target_dir=target_v2_dir)
+            self.build_seo_regions_api(v2_data_all, target_dir=target_v2_dir)
             
             top_configs = [
                 ("deposit", ["3", "6", "12"], ["MG더뱅킹정기예금"], "m.json"),
                 ("saving", ["3", "6", "12"], ["MG더뱅킹정기적금", "MG더뱅킹자유적금"], "m.json"),
                 ("demand", ["0"], ["상상모바일통장"], "m.json")
             ]
-            
-            for key, m_keys, products, filename in top_configs:
+            for key, m_keys, prods, filename in top_configs:
                 if key in v2_data_all:
                     src_data = v2_data_all[key].get("data", [])
-                    top_mobile_data = self._build_top_mobile_rates(src_data, m_keys, products)
-                    
+                    top_mobile_data = self._build_top_mobile_rates(src_data, m_keys, prods)
                     top_dir = v2_rates_dir / key / "top"
                     top_dir.mkdir(parents=True, exist_ok=True)
-                    
-                    top_filepath = top_dir / filename
-                    
-                    if self.save_json(top_mobile_data, top_filepath, pretty=False):
-                        logger.info(f"✨ V2 {key} Top 금리 API 저장 완료: {top_filepath}")
-                    else:
-                        success = False
-            # 6. 개별 지점 상세 API 생성
-            try:
-                self.build_branch_detail_api(v2_data_all, target_dir=target_v2_dir)
-            except Exception as e:
-                logger.error(f"⚠️ 지점 상세 API 생성 중 오류 발생: {e}")
+                    self.save_json(top_mobile_data, top_dir / filename, pretty=False, skip_if_same=True)
 
-            return success
+            self.build_branch_detail_api(v2_data_all, target_dir=target_v2_dir)
+
+            # 4. status.json 최종 저장 (변경 여부 반영)
+            self.save_status("success", target_dir=target_v2_dir, modified=any_changed)
+
+            return total_success
         except Exception as e:
             logger.error(f"❌ V2 API 데이터 저장 실패: {e}")
             return False
