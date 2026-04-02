@@ -842,7 +842,8 @@ class StorageManager:
                     "products": products_v1
                 })
         
-        from .parser import parse_summary_data_v2
+        # 상대 경로 임포트 오류 수정 (.parser -> parser)
+        from parser import parse_summary_data_v2
         summary_v2 = parse_summary_data_v2(rates_v2)
         v2_summary_path = target_dir_for_summary / "rates" / "summary.json"
         v2_summary_path.parent.mkdir(parents=True, exist_ok=True)
