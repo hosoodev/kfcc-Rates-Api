@@ -544,6 +544,19 @@ class StorageManager:
             
         temp_data = {m: {} for m in month_keys}
         
+        # 정렬 키 헬퍼 함수
+        def get_rank_sort_key(bank_data):
+            r = bank_data.get("_r", 0)
+            disc = bank_data.get("disclosure", {}) or {}
+            
+            # 1. r (DESC), 2. grade (ASC), 3. bis (DESC), 4. div (DESC), 5. name (ASC)
+            grade = float(disc.get("grade") or 99)
+            bis = float(disc.get("bis_ratio") or 0)
+            div = float(disc.get("dividend_rate") or 0)
+            name = bank_data.get("name", "")
+            
+            return (-r, grade, -bis, -div, name)
+        
         for bank in data_list:
             gmgo_cd = bank.get("gmgoCd")
             products = bank.get("products", {})
@@ -555,8 +568,8 @@ class StorageManager:
                 for month in month_keys:
                     if month in months_data:
                         rate_info = months_data[month]
-                        # 모바일 소스(s=="m")인 경우만 포함 (또는 demand의 경우 최고 금리)
-                        if rate_info.get("r", 0) > 0:
+                        # 모바일 소스(s=="m")인 경우만 포함
+                        if rate_info.get("r", 0) > 0 and rate_info.get("s") == "m":
                             # 랭킹 정렬을 위해 임시 필드 포함한 뱅크 객체 복사
                             entry = bank.copy()
                             entry["_r"] = rate_info.get("r")      # 정렬용 임시 필드
@@ -577,7 +590,7 @@ class StorageManager:
             all_list = temp_data[month].get("data", [])
             unique_all = {item['gmgoCd']: item for item in all_list}.values() # 금고당 최고 금리 상품 하나만
             
-            final_all = sorted(list(unique_all), key=lambda x: (-x["_r"], x["name"]))
+            final_all = sorted(list(unique_all), key=get_rank_sort_key)
             result[month]["data"] = final_all[:20]
             
             # 2. 지역별 랭킹 처리
@@ -585,7 +598,7 @@ class StorageManager:
                 if rgn == "data": continue
                 
                 unique_rgn = {item['gmgoCd']: item for item in rgn_list}.values()
-                final_rgn = sorted(list(unique_rgn), key=lambda x: (-x["_r"], x["_r"]))
+                final_rgn = sorted(list(unique_rgn), key=get_rank_sort_key)
                 result[month]["regions"][rgn] = final_rgn[:10]
                 
         return result
@@ -668,7 +681,7 @@ class StorageManager:
             # 2. 그룹별 정렬 및 파일 저장
             regions_base_dir = v2_rates_dir / p_type / "regions"
             
-            # 정렬 키 함수 (main.json 로직 재사용)
+            # 정렬 키 함수 (Rate, Grade, BIS, Dividend, Name 순)
             def get_rate_sort_key(bank_data):
                 products = bank_data.get("products", {})
                 max_rate = 0.0
@@ -683,7 +696,14 @@ class StorageManager:
                     for p_name, months in products.items():
                         for m_data in months.values():
                             max_rate = max(max_rate, float(m_data.get("r", 0)))
-                return max_rate
+                
+                disc = bank_data.get("disclosure", {}) or {}
+                grade = float(disc.get("grade") or 99)
+                bis = float(disc.get("bis_ratio") or 0)
+                div = float(disc.get("dividend_rate") or 0)
+                name = bank_data.get("name", "")
+                
+                return (-max_rate, grade, -bis, -div, name)
 
             updated_at = datetime.now().isoformat()
 
@@ -762,10 +782,17 @@ class StorageManager:
                     for p_name, months in products.items():
                         for m_data in months.values():
                             max_rate = max(max_rate, float(m_data.get("r", 0)))
-                return max_rate
+                
+                disc = bank_data.get("disclosure", {}) or {}
+                grade = float(disc.get("grade") or 99)
+                bis = float(disc.get("bis_ratio") or 0)
+                div = float(disc.get("dividend_rate") or 0)
+                name = bank_data.get("name", "")
+                
+                return (-max_rate, grade, -bis, -div, name)
 
-            # 금리 내림차순 정렬 후 상위 15개 추출
-            sorted_data = sorted(src_data, key=get_sort_key, reverse=True)
+            # 금리 중심 다중 조건 정렬 후 상위 15개 추출
+            sorted_data = sorted(src_data, key=get_sort_key)
             main_api[key] = sorted_data[:15]
             
         return main_api
