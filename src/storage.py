@@ -850,22 +850,40 @@ class StorageManager:
         
         self.save_json(summary_v2, v2_summary_path, pretty=False, skip_if_same=True)
 
-    def save_status(self, status: str = "success", target_dir: Optional[Path] = None, modified: bool = False) -> bool:
-        """시스템 상태 정보(status.json) 저장"""
+    def save_status(self, status: str = "success", target_dir: Optional[Path] = None, 
+                   modified: bool = False, stats_update: Dict[str, Any] = None) -> bool:
+        """시스템 상태 정보(status.json) 고도화 - 상세 통계 포함"""
         target_v2_dir = target_dir if target_dir else self.v2_dir
         status_path = target_v2_dir / "status.json"
         
         now_iso = datetime.now().isoformat()
         existing = self.load_json(status_path) or {}
         
-        # 데이터가 실제로 변경되었을 때만 last_modified_at 갱신
+        # 1. 전역 최종 수정 시점
         last_modified = now_iso if modified else existing.get("last_modified_at", now_iso)
+        
+        # 2. 상세 통계 및 유형별 수정 시점 구성
+        current_stats = existing.get("stats", {})
+        if stats_update:
+            for key, info in stats_update.items():
+                if key not in current_stats:
+                    current_stats[key] = info
+                    current_stats[key]["last_updated_at"] = now_iso
+                else:
+                    # 데이터(banks, items)가 변경되었는지 확인
+                    is_type_modified = (info.get("total_banks") != current_stats[key].get("total_banks") or 
+                                       info.get("total_items") != current_stats[key].get("total_items"))
+                    
+                    current_stats[key].update(info)
+                    if is_type_modified or modified: # 명시적 변경 또는 내용 차이 감지 시
+                        current_stats[key]["last_updated_at"] = now_iso
         
         status_data = {
             "last_checked_at": now_iso,
             "last_modified_at": last_modified,
             "status": status,
-            "version": "2.0"
+            "version": "2.0",
+            "stats": current_stats
         }
         
         return self.save_json(status_data, status_path, pretty=True)
@@ -882,18 +900,25 @@ class StorageManager:
             # 1. 데이터 변경 여부 감지 및 저장
             total_success = True
             any_changed = False
-            
-            # 실제 파일이 쓰였는지(변경되었는지) 확인하기 위해 save_json의 반환값 활용
-            # (현재 save_json은 skip 시에도 True를 반환하므로, 내부 로직을 고려하여 any_changed 판단 루틴 필요)
-            # 여기서는 편의상 all.json 저장 시의 실제 변경 여부를 any_changed로 간주하는 로직 추가
+            type_stats = {}
             
             for key, data in v2_data_all.items():
                 product_dir = v2_rates_dir / key
                 product_dir.mkdir(parents=True, exist_ok=True)
                 
+                # 통계 계산 (금고 수, 상품 총합)
+                banks_list = data.get("data", [])
+                total_banks = len(banks_list)
+                total_items = sum(len(b.get("products", {})) for b in banks_list)
+                type_stats[key] = {
+                    "total_banks": total_banks,
+                    "total_items": total_items
+                }
+
                 all_path = product_dir / "all.json"
                 
-                # 기존 데이터와 비교하여 변경 여부 수동 감지 (status 갱신용)
+                # 기존 데이터와 비교하여 변경 여부 수동 감지
+                is_this_type_changed = False
                 if all_path.exists():
                     old_all = self.load_json(all_path)
                     if old_all:
@@ -904,6 +929,7 @@ class StorageManager:
                                 return [_strip(i) for i in d]
                             return d
                         if _strip(old_all) != _strip(data):
+                            is_this_type_changed = True
                             any_changed = True
 
                 if not self.save_json(data, all_path, pretty=False, skip_if_same=True):
@@ -935,8 +961,8 @@ class StorageManager:
 
             self.build_branch_detail_api(v2_data_all, target_dir=target_v2_dir)
 
-            # 4. status.json 최종 저장 (변경 여부 반영)
-            self.save_status("success", target_dir=target_v2_dir, modified=any_changed)
+            # 4. status.json 최종 저장 (상세 통계 반영)
+            self.save_status("success", target_dir=target_v2_dir, modified=any_changed, stats_update=type_stats)
 
             return total_success
         except Exception as e:
