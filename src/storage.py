@@ -101,11 +101,11 @@ class StorageManager:
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(data, f, **json_kwargs)
             
-            # logger.debug(f"✓ 파일 저장 완료: {filepath}")
+            logger.info(f"  💾 파일 업데이트: {filepath.relative_to(self.base_dir) if self.base_dir in filepath.parents else filepath.name}")
             return True
             
         except Exception as e:
-            logger.error(f"✗ 파일 저장 실패 ({filepath}): {e}")
+            logger.error(f"  ✗ 파일 저장 실패 ({filepath}): {e}")
             return False
     
     def load_json(self, filepath: Union[str, Path]) -> Optional[Any]:
@@ -866,11 +866,20 @@ class StorageManager:
         last_modified = now_iso if modified else existing.get("last_modified_at", now_iso)
         
         total_updated_banks = 0
+        changed_bank_names = []
         if stats_update:
-            total_updated_banks = sum(info.get("updated_banks_count", 0) for info in stats_update.values())
+            for info in stats_update.values():
+                total_updated_banks += info.get("updated_banks_count", 0)
+                changed_bank_names.extend(info.get("changed_bank_names", []))
+        
+        # 중복 제거 및 리스트 제한 (너무 길어지지 않게)
+        unique_changed_names = list(set(changed_bank_names))
+        names_summary = ", ".join(unique_changed_names[:5])
+        if len(unique_changed_names) > 5:
+            names_summary += f" 외 {len(unique_changed_names)-5}곳"
         
         if modified and total_updated_banks > 0:
-            main_desc = f"성공: 총 {total_updated_banks}개 금고의 금리 변동이 감지되어 업데이트되었습니다."
+            main_desc = f"성공: 총 {total_updated_banks}개 금고({names_summary})의 데이터 변동이 감지되었습니다."
         elif modified:
             main_desc = "성공: 시스템 파일 또는 메타데이터가 최신화되었습니다."
         else:
@@ -940,6 +949,7 @@ class StorageManager:
                 
                 # 변동된 금고 수 카운트 (개별 비교)
                 updated_banks_count = 0
+                changed_bank_names = []
                 if all_path.exists():
                     old_all = self.load_json(all_path)
                     if old_all:
@@ -955,12 +965,15 @@ class StorageManager:
                             cd = new_bank["gmgoCd"]
                             if cd not in old_banks or _strip(new_bank) != _strip(old_banks[cd]):
                                 updated_banks_count += 1
+                                changed_bank_names.append(new_bank["name"])
+                                logger.info(f"  [변동 감지] {new_bank['name']} ({cd}): 금리/출처/정보 변경")
                                 any_changed = True
 
                 type_stats[key] = {
                     "total_banks": total_banks,
                     "total_items": total_items,
-                    "updated_banks_count": updated_banks_count
+                    "updated_banks_count": updated_banks_count,
+                    "changed_bank_names": changed_bank_names
                 }
 
                 if not self.save_json(data, all_path, pretty=False, skip_if_same=True):
