@@ -6,11 +6,15 @@
 import requests
 import time
 import re
+import logging
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 from utils import generate_desktop_ua
 from config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
+
+# 로거 설정
+logger = logging.getLogger("grade_crawler")
 
 
 class GradeCrawler:
@@ -101,20 +105,20 @@ class GradeCrawler:
                 
                 grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, province, district, evaluation_month=evaluation_month)
                 if grade_data:
-                    print(f"✓ {bank_name}: 경영실태평가 수집 완료")
+                    logger.debug(f"✓ {bank_name}: 경영실태평가 수집 완료")
                     return grade_data
                 else:
-                    print(f"✗ {bank_name}: 경영실태평가 데이터 없음")
+                    logger.debug(f"✗ {bank_name}: 경영실태평가 데이터 없음")
                     return None
                     
             except requests.exceptions.RequestException as e:
-                print(f"✗ {bank_name} 경영실태평가 수집 실패 (시도 {attempt + 1}/{GRADE_CONFIG['retry_count']}): {e}")
+                logger.warning(f"✗ {bank_name} 경영실태평가 수집 실패 (시도 {attempt + 1}/{GRADE_CONFIG['retry_count']}): {e}")
                 if attempt < GRADE_CONFIG['retry_count'] - 1:
                     time.sleep(GRADE_CONFIG['retry_delay'])
                 else:
                     return None
             except Exception as e:
-                print(f"✗ {bank_name} 경영실태평가 파싱 오류: {e}")
+                logger.error(f"✗ {bank_name} 경영실태평가 파싱 오류: {e}")
                 return None
         
         return None
@@ -178,13 +182,13 @@ class GradeCrawler:
             }
             
         except Exception as e:
-            print(f"❌ 경영실태평가 파싱 중 오류 발생 (금고: {bank_name}): {e}")
+            logger.error(f"❌ 경영실태평가 파싱 중 오류 발생 (금고: {bank_name}): {e}")
             return None
     
     def collect_all_grades(self, banks, evaluation_date=None, use_cache=False):
         """모든 금고의 경영실태평가 수집"""
         if not evaluation_date and not self.should_collect_grades():
-            print("📅 경영실태평가 수집 시기가 아닙니다. (1월 또는 7월에 수집)")
+            logger.info("📅 경영실태평가 수집 시기가 아닙니다. (1월 또는 7월에 수집)")
             return []
         
         # evaluation_date에서 월 추출 (6월인 경우 전년도 배당율 참조 필요)
@@ -208,13 +212,13 @@ class GradeCrawler:
             if stored_data and "grades" in stored_data:
                 cached_grades = stored_data["grades"]
                 crawled_gmgo_codes = {g.get("gmgo_cd") for g in cached_grades if g.get("gmgo_cd")}
-                print(f"📦 캐시된 데이터 {len(cached_grades)}개를 로드했습니다. 이들은 건너뜁니다.")
+                logger.info(f"📦 캐시된 데이터 {len(cached_grades)}개를 로드했습니다. 이들은 건너뜁니다.")
         
         # 1-2. 대상 금고 필터링
         target_banks = [b for b in banks if b.get('gmgoCd') not in crawled_gmgo_codes]
         
         if not target_banks:
-            print("✅ 모든 금고가 이미 크롤링되었습니다. 추가 수집 대상이 없습니다.")
+            logger.info("✅ 모든 금고가 이미 크롤링되었습니다. 추가 수집 대상이 없습니다.")
             return cached_grades
 
         # 2. 6월 공시인 경우 전년도 12월 배당율 데이터 로드
@@ -227,7 +231,7 @@ class GradeCrawler:
                 prev_file = data_dir / f"grades_{eval_year - 1}_12.json"
                 
                 if prev_file.exists():
-                    print(f"📦 전년도 배당율 참조 데이터 로드: {prev_file}")
+                    logger.info(f"📦 전년도 배당율 참조 데이터 로드: {prev_file}")
                     with open(prev_file, "r", encoding="utf-8") as f:
                         prev_data = json.load(f)
                         for g in prev_data.get("grades", []):
@@ -237,9 +241,9 @@ class GradeCrawler:
                                     "year": g.get("evaluation_year", str(eval_year - 1))
                                 }
                 else:
-                    print(f"⚠️ 전년도 배당율 데이터({prev_file.name})를 찾을 수 없습니다. 배당율이 0으로 표시될 수 있습니다.")
+                    logger.warning(f"⚠️ 전년도 배당율 데이터({prev_file.name})를 찾을 수 없습니다.")
             except Exception as e:
-                print(f"⚠️ 전년도 데이터 로드 중 오류: {e}")
+                logger.error(f"⚠️ 전년도 데이터 로드 중 오류: {e}")
 
         all_grades = []
         successful_count = 0
@@ -263,14 +267,14 @@ class GradeCrawler:
                             if gmgo_cd in prev_dividend_map:
                                 grade_data['dividend_rate'] = prev_dividend_map[gmgo_cd]['rate']
                                 grade_data['dividend_rate_year'] = prev_dividend_map[gmgo_cd]['year']
-                                print(f"  - {bank['name']}: 전년도 배당율 적용 ({grade_data['dividend_rate']}% from {grade_data['dividend_rate_year']})")
+                                logger.debug(f"  - {bank['name']}: 전년도 배당율 적용 ({grade_data['dividend_rate']}% from {grade_data['dividend_rate_year']})")
                             else:
-                                print(f"  - {bank['name']}: 전년도 데이터에서 금고코드 {gmgo_cd}를 찾을 수 없습니다.")
+                                logger.debug(f"  - {bank['name']}: 전년도 데이터에서 금고코드 {gmgo_cd}를 찾을 수 없습니다.")
                         
                         all_grades.append(grade_data)
                         successful_count += 1
                 except Exception as e:
-                    print(f"✗ {bank['name']}: 경영실태평가 수집 중 오류 - {e}")
+                    logger.error(f"✗ {bank['name']}: 경영실태평가 수집 중 오류 - {e}")
         
         # 3. 새 데이터와 기존 캐시 데이터 합치기
         result = cached_grades + all_grades

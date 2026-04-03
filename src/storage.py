@@ -355,13 +355,15 @@ class StorageManager:
             success &= self.save_json(data, filepath, compress=True)
             
             if success:
-                logger.info("경영실태평가 데이터 저장 완료 (V2)")
+                logger.info(f"✅ 경영실태평가 데이터 저장 완료: {filename} ({len(grades_data)}개 금고)")
                 # 인덱스 파일 갱신
-                self.update_grades_index()
+                index_data = self.update_grades_index()
+                if index_data:
+                    logger.info(f"📊 경영실태평가 인덱스 갱신 완료 ({len(index_data.get('versions', []))}개 기간)")
             return success
             
         except Exception as e:
-            logger.error(f"경영실태평가 데이터 저장 실패: {e}")
+            logger.error(f"❌ 경영실태평가 데이터 저장 실패: {e}")
             return False
     
     def load_grades(self, year: int = None, month: int = None) -> Optional[Dict[str, Any]]:
@@ -371,6 +373,7 @@ class StorageManager:
             grades_dir = self.v2_dir / "grades"
             
             if not grades_dir.exists():
+                logger.warning(f"⚠️ 경영실태평가 디렉토리가 존재하지 않습니다: {grades_dir}")
                 return None
                 
             if year is None or month is None:

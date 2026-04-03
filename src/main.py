@@ -9,54 +9,57 @@ JSON 형태로 저장하는 전체 워크플로우를 실행합니다.
 import sys
 import os
 import argparse
+import shutil
+import logging
 from datetime import datetime
 from crawler import KFCCCrawler
 from grade_crawler import GradeCrawler
 from mbank_crawler import MBankCrawler
 from storage import save_all, get_storage_stats, cleanup_old_data, StorageManager
 
+# 로그 설정 (main.py에서 전체 제어)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(sys.stdout)]
+)
+logger = logging.getLogger("main")
+
 def print_banner():
     """프로그램 시작 배너 출력"""
-    print("=" * 60)
-    print("🏦 새마을금고 금리 크롤러 v2.0")
-    print("=" * 60)
-    print(f"⏰ 실행 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print()
+    banner = f"""
+{"=" * 60}
+🏦 새마을금고 금리 크롤러 v2.0
+{"=" * 60}
+⏰ 실행 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+"""
+    logger.info(banner)
 
 def print_summary(banks, rates, start_time):
     """실행 결과 요약 출력"""
     end_time = datetime.now()
     elapsed = (end_time - start_time).total_seconds()
     
-    print("\n" + "=" * 60)
-    print("📊 실행 결과 요약")
-    print("=" * 60)
-    print(f"🏦 수집된 금고 수: {len(banks)}")
-    print(f"💰 수집된 금리 정보: {len(rates)}")
-    print(f"⏱️ 소요 시간: {elapsed:.2f}초")
-    
+    summary = f"""
+{"=" * 60}
+📊 실행 결과 요약
+{"=" * 60}
+🏦 수집된 금고 수: {len(banks)}
+💰 수집된 금리 정보: {len(rates)}
+⏱️ 소요 시간: {elapsed:.2f}초
+"""
     if rates:
-        # 성공적으로 수집된 금고 수 계산
         successful_banks = len([r for r in rates if r.get('total_products', 0) > 0])
-        print(f"✅ 성공한 금고: {successful_banks}/{len(rates)} ({successful_banks/len(rates)*100:.1f}%)")
-        
-        # 총 상품 수 계산
         total_products = sum(r.get('total_products', 0) for r in rates)
-        print(f"📈 총 상품 수: {total_products}")
+        summary += f"✅ 성공한 금고: {successful_banks}/{len(rates)} ({successful_banks/len(rates)*100:.1f}%)\n"
+        summary += f"📈 총 상품 수: {total_products}\n"
     
-    print("=" * 60)
+    summary += "=" * 60
+    for line in summary.strip().split('\n'):
+        logger.info(line)
 
 def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_banks=False, base_dir=None):
-    """
-    크롤러 실행
-    
-    Args:
-        cleanup_days (int): 오래된 데이터 정리 일수 (None이면 정리 안함)
-        test_mode (bool): 테스트 모드 여부 (데이터 저장 안함)
-        test_branch (str): 테스트할 특정 지점명 또는 코드
-        refresh_banks (bool): 은행 목록 캐시를 무시하고 새로 수집할지 여부
-        base_dir (str): 데이터 저장 최상위 디렉토리
-    """
+    """크롤러 실행"""
     start_time = datetime.now()
     
     try:
@@ -66,47 +69,41 @@ def run_crawler(cleanup_days=None, test_mode=False, test_branch=None, refresh_ba
         
         if not banks and not rates:
             if not test_mode:
-                print("❌ 크롤링 실패: 데이터를 수집할 수 없습니다")
+                logger.error("❌ 크롤링 실패: 데이터를 수집할 수 없습니다")
             return False
         
         # 테스트 모드인 경우 여기서 종료 (저장 안함)
         if test_mode:
-            print("\n🧪 테스트 모드: 데이터 저장을 스킵합니다.")
+            logger.info("🧪 테스트 모드: 데이터 저장을 스킵합니다.")
             return True
             
         # 데이터 저장
-        print("\n💾 데이터 저장 중...")
+        logger.info("💾 데이터 저장 중...")
         save_all(banks, rates, base_dir=base_dir)
         
-        # V2 API 데이터 생성 및 저장 (Side-by-Side)
-        print("🚀 V2 Static API를 생성 중...")
+        # V2 API 데이터 생성 및 저장
+        logger.info("🚀 V2 Static API를 생성 중...")
         storage = StorageManager(base_dir=base_dir)
-        # 최근 수집된 등급 데이터 로드
         grades_data = storage.load_grades()
         grades = grades_data.get('grades', []) if grades_data else []
         
         v2_api_all = storage.build_v2_api(rates, grades)
-        # 1. 공개용 V2 저장
         storage.save_v2_api(v2_api_all)
-        # 2. 패치용 원본 DailyRaw 저장 (똑같은 구조)
         storage.save_v2_api(v2_api_all, target_dir=storage.daily_raw_dir)
 
         # 오래된 데이터 정리
         if cleanup_days:
-            print(f"\n🧹 {cleanup_days}일 이상 된 데이터 정리 중...")
+            logger.info(f"🧹 {cleanup_days}일 이상 된 데이터 정리 중...")
             cleanup_old_data(cleanup_days, base_dir=base_dir)
         
         # 결과 요약 출력
         print_summary(banks, rates, start_time)
-        
         return True
     except KeyboardInterrupt:
-        print("\n⚠️ 사용자에 의해 중단되었습니다")
+        logger.warning("⚠️ 사용자에 의해 중단되었습니다")
         return False
     except Exception as e:
-        print(f"\n❌ 실행 중 오류 발생: {e}")
-        import traceback
-        traceback.print_exc()
+        logger.error(f"❌ 실행 중 오류 발생: {e}", exc_info=True)
         return False
 
 def run_patch(regions=None, base_dir=None):
@@ -195,36 +192,49 @@ def show_stats(base_dir=None):
 
 def collect_grades(evaluation_date=None, base_dir=None, use_cache=False):
     """경영실태평가 데이터 수집"""
-    print(f"📊 경영실태평가 데이터 수집 시작... {'(기준: ' + evaluation_date + ')' if evaluation_date else ''}")
+    logger.info(f"📊 경영실태평가 수집 작업 시작 (기준: {evaluation_date or '최신'})")
     if use_cache:
-        print("💡 캐시 모드 활성화: 이미 수집된 지점은 건너뜁니다.")
+        logger.info("💡 캐시 모드 활성화: 기존 수집 데이터를 활용합니다.")
     
-    # 은행 목록 로드
     storage = StorageManager(base_dir=base_dir)
     banks_data = storage.load_banks()
     
     if not banks_data or 'banks' not in banks_data:
-        print("❌ 은행 목록을 먼저 수집해주세요.")
+        logger.error("❌ 은행 목록이 필요합니다. --mode base 또는 --refresh를 먼저 실행하세요.")
         return False
     
     banks = banks_data['banks']
-    print(f"📋 {len(banks)}개 금고의 경영실태평가 수집 시작")
+    total_targets = len(banks)
+    logger.info(f"📋 총 {total_targets}개 금고의 경영실태평가 정보 확인 시작")
     
     # 경영실태평가 크롤러 실행
     grade_crawler = GradeCrawler(base_dir=base_dir)
     grades_data = grade_crawler.collect_all_grades(banks, evaluation_date=evaluation_date, use_cache=use_cache)
     
-    if grades_data:
+    if grades_data is not None:
         # 데이터 저장
         success = storage.save_grades(grades_data)
         if success:
-            print(f"✅ 경영실태평가 수집 완료: 총 {len(grades_data)}개 금고 저장됨")
+            # 최종 통계 산출
+            total_saved = len(grades_data)
+            missing = total_targets - total_saved
+            summary_msg = f"""
+{"=" * 60}
+📊 경영실태평가 수집 결과 요약
+{"=" * 60}
+✅ 최종 저장된 금고: {total_saved}개 (성공)
+❌ 데이터 누락 금고: {missing}개 (공시 미등록 등)
+📈 수집 대상 대비 성공률: {(total_saved/total_targets*100):.1f}%
+{"=" * 60}
+"""
+            for line in summary_msg.strip().split('\n'):
+                logger.info(line)
             return True
         else:
-            print("❌ 경영실태평가 데이터 저장 실패")
+            logger.error("❌ 경영실태평가 데이터 저장 실패")
             return False
     else:
-        print("❌ 경영실태평가 데이터 수집 실패")
+        logger.error("❌ 경영실태평가 데이터 수집 실패")
         return False
 
 def main():
