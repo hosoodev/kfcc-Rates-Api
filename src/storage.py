@@ -855,36 +855,58 @@ class StorageManager:
 
     def save_status(self, status: str = "success", target_dir: Optional[Path] = None, 
                    modified: bool = False, stats_update: Dict[str, Any] = None) -> bool:
-        """시스템 상태 정보(status.json) 고도화 - 상세 통계 포함"""
+        """시스템 상태 정보(status.json) 고도화 - 관리자용 휴먼 메시지 포함"""
         target_v2_dir = target_dir if target_dir else self.v2_dir
         status_path = target_v2_dir / "status.json"
         
         now_iso = datetime.now().isoformat()
         existing = self.load_json(status_path) or {}
         
-        # 1. 전역 최종 수정 시점
+        # 1. 전역 최종 수정 시점 및 요약 메시지 생성
         last_modified = now_iso if modified else existing.get("last_modified_at", now_iso)
+        
+        total_updated_banks = 0
+        if stats_update:
+            total_updated_banks = sum(info.get("updated_banks_count", 0) for info in stats_update.values())
+        
+        if modified and total_updated_banks > 0:
+            main_desc = f"성공: 총 {total_updated_banks}개 금고의 금리 변동이 감지되어 업데이트되었습니다."
+        elif modified:
+            main_desc = "성공: 시스템 파일 또는 메타데이터가 최신화되었습니다."
+        else:
+            main_desc = "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다."
         
         # 2. 상세 통계 및 유형별 수정 시점 구성
         current_stats = existing.get("stats", {})
         if stats_update:
             for key, info in stats_update.items():
+                # 한글 유형명 매핑
+                type_name = {"deposit": "예금", "saving": "적격", "demand": "입출금/파킹"}.get(key, key)
+                
+                updated_banks = info.get("updated_banks_count", 0)
                 if key not in current_stats:
                     current_stats[key] = info
                     current_stats[key]["last_updated_at"] = now_iso
                 else:
-                    # 데이터(banks, items)가 변경되었는지 확인
-                    is_type_modified = (info.get("total_banks") != current_stats[key].get("total_banks") or 
+                    is_type_modified = (updated_banks > 0 or 
+                                       info.get("total_banks") != current_stats[key].get("total_banks") or 
                                        info.get("total_items") != current_stats[key].get("total_items"))
                     
                     current_stats[key].update(info)
-                    if is_type_modified or modified: # 명시적 변경 또는 내용 차이 감지 시
+                    if is_type_modified:
                         current_stats[key]["last_updated_at"] = now_iso
+                
+                # 유형별 상세 메시지
+                if updated_banks > 0:
+                    current_stats[key]["description"] = f"{updated_banks}개 금고 금리 변동 발생"
+                else:
+                    current_stats[key]["description"] = "금리 변동 없음"
         
         status_data = {
             "last_checked_at": now_iso,
             "last_modified_at": last_modified,
             "status": status,
+            "description": main_desc,
             "version": "2.0",
             "stats": current_stats
         }
@@ -913,27 +935,33 @@ class StorageManager:
                 banks_list = data.get("data", [])
                 total_banks = len(banks_list)
                 total_items = sum(len(b.get("products", {})) for b in banks_list)
-                type_stats[key] = {
-                    "total_banks": total_banks,
-                    "total_items": total_items
-                }
-
+                
                 all_path = product_dir / "all.json"
                 
-                # 기존 데이터와 비교하여 변경 여부 수동 감지
-                is_this_type_changed = False
+                # 변동된 금고 수 카운트 (개별 비교)
+                updated_banks_count = 0
                 if all_path.exists():
                     old_all = self.load_json(all_path)
                     if old_all:
+                        old_banks = {b["gmgoCd"]: b for b in old_all.get("data", [])}
                         def _strip(d):
                             if isinstance(d, dict):
                                 return {k: _strip(v) for k, v in d.items() if k not in ['updated_at', 'collected_at']}
                             elif isinstance(d, list):
                                 return [_strip(i) for i in d]
                             return d
-                        if _strip(old_all) != _strip(data):
-                            is_this_type_changed = True
-                            any_changed = True
+                        
+                        for new_bank in banks_list:
+                            cd = new_bank["gmgoCd"]
+                            if cd not in old_banks or _strip(new_bank) != _strip(old_banks[cd]):
+                                updated_banks_count += 1
+                                any_changed = True
+
+                type_stats[key] = {
+                    "total_banks": total_banks,
+                    "total_items": total_items,
+                    "updated_banks_count": updated_banks_count
+                }
 
                 if not self.save_json(data, all_path, pretty=False, skip_if_same=True):
                     total_success = False
