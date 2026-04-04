@@ -1,8 +1,8 @@
 {
-  "last_checked_at": "2026-04-04T21:29:51.315759",
-  "last_modified_at": "2026-04-04T16:29:47.074036",
+  "last_checked_at": "2026-04-05T02:29:49.041299",
+  "last_modified_at": "2026-04-05T02:29:49.041299",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 2개 금고(북대구(본점), 미래(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
@@ -16,10 +16,13 @@
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-04T03:02:39.036301",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-05T02:29:49.041299",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "미래(본점)",
+        "북대구(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
