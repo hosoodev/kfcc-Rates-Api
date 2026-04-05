@@ -1,19 +1,17 @@
 {
-  "last_checked_at": "2026-04-05T18:29:47.831303",
+  "last_checked_at": "2026-04-05T21:29:38.030401",
   "last_modified_at": "2026-04-05T18:29:47.831303",
   "status": "success",
-  "description": "성공: 총 1개 금고(왕십리중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
       "last_updated_at": "2026-04-05T18:29:47.831303",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "왕십리중앙(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 893,
