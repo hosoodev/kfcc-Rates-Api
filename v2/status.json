@@ -1,28 +1,37 @@
 {
-  "last_checked_at": "2026-04-06T08:29:40.187346",
-  "last_modified_at": "2026-04-06T08:29:40.187346",
+  "last_checked_at": "2026-04-06T10:29:50.962842",
+  "last_modified_at": "2026-04-06T10:29:50.962842",
   "status": "success",
-  "description": "성공: 총 2개 금고(낙원(본점), 구산동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(서울장위(본점), 길음중앙(본점), 도개(본점), 명륜(본점), 성북(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-06T08:29:40.187346",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-06T10:29:50.962842",
+      "updated_banks_count": 9,
+      "description": "9개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "구산동(본점)",
-        "낙원(본점)"
+        "길음중앙(본점)",
+        "서울장위(본점)",
+        "성북(본점)",
+        "왕십리중앙(본점)",
+        "무지개(본점)",
+        "명륜(본점)",
+        "상모(본점)",
+        "도개(본점)",
+        "서귀포(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-06T03:00:10.030143",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-06T10:29:50.962842",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서달로(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
