@@ -1,29 +1,32 @@
 {
-  "last_checked_at": "2026-04-07T08:29:51.309594",
-  "last_modified_at": "2026-04-07T08:29:51.309594",
+  "last_checked_at": "2026-04-07T10:29:38.041363",
+  "last_modified_at": "2026-04-07T10:29:38.041363",
   "status": "success",
-  "description": "성공: 총 2개 금고(진량(본점), 원신(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 6개 금고(마포중앙(본점), 영해(본점), 남구희망(본점), 광진자양(본점), 제일(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-07T08:29:51.309594",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-07T10:29:38.041363",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "진량(본점)"
+        "마포중앙(본점)",
+        "광진자양(본점)",
+        "서울축산(본점)",
+        "남구희망(본점)",
+        "제일(본점)",
+        "영해(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
       "last_updated_at": "2026-04-07T08:29:51.309594",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "원신(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1234,
