@@ -1,34 +1,31 @@
 {
-  "last_checked_at": "2026-04-07T12:29:52.016335",
-  "last_modified_at": "2026-04-07T12:29:52.016335",
+  "last_checked_at": "2026-04-07T14:29:49.447695",
+  "last_modified_at": "2026-04-07T14:29:49.447695",
   "status": "success",
-  "description": "성공: 총 7개 금고(서울송파(본점), 왕십리중앙(본점), 동부(본점), 지평선(본점), 서초제일(본점) 외 2곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(광진자양(본점), 서울송파(본점), 왕십리중앙(본점), 서울성동(본점), 하원(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-07T12:29:52.016335",
+      "last_updated_at": "2026-04-07T14:29:49.447695",
       "updated_banks_count": 5,
       "description": "5개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서초제일(본점)",
         "서울송파(본점)",
-        "보라매(본점)",
         "광진자양(본점)",
-        "왕십리중앙(본점)"
+        "왕십리중앙(본점)",
+        "서울성동(본점)",
+        "하원(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
       "last_updated_at": "2026-04-07T12:29:52.016335",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "동부(본점)",
-        "지평선(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1234,
