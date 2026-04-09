@@ -1,28 +1,37 @@
 {
-  "last_checked_at": "2026-04-09T08:29:45.450416",
-  "last_modified_at": "2026-04-09T08:29:45.450416",
+  "last_checked_at": "2026-04-09T10:29:43.710929",
+  "last_modified_at": "2026-04-09T10:29:43.710929",
   "status": "success",
-  "description": "성공: 총 2개 금고(서울성동(본점), 용문후암(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(서울축산(본점), 서울숲(본점), 광진제일(본점), 화양동(본점), 영해(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-09T08:29:45.450416",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-09T10:29:43.710929",
+      "updated_banks_count": 9,
+      "description": "9개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울성동(본점)",
-        "용문후암(본점)"
+        "화양동(본점)",
+        "광진제일(본점)",
+        "안암동(본점)",
+        "서울숲(본점)",
+        "서울축산(본점)",
+        "남구희망(본점)",
+        "청구로(본점)",
+        "영해(본점)",
+        "하원(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-09T03:30:39.284015",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-09T10:29:43.710929",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서달로(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
