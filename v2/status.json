@@ -1,35 +1,74 @@
 {
-  "last_checked_at": "2026-04-09T21:30:02.083681",
-  "last_modified_at": "2026-04-09T21:30:02.083681",
+  "last_checked_at": "2026-04-10T02:29:56.346653",
+  "last_modified_at": "2026-04-10T02:29:56.346653",
   "status": "success",
-  "description": "성공: 총 1개 금고(산곡(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 38개 금고(개봉(본점), 동해해오름(본점), 제일(본점), 도량(본점), 도개(본점) 외 31곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-09T21:30:02.083681",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-10T02:29:56.346653",
+      "updated_banks_count": 22,
+      "description": "22개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "산곡(본점)"
+        "한강(본점)",
+        "문래동(본점)",
+        "개봉(본점)",
+        "서울금남(본점)",
+        "동대문동부(본점)",
+        "서울숲(본점)",
+        "용문후암(본점)",
+        "세검정(본점)",
+        "부산진시장(본점)",
+        "전포(본점)",
+        "전포1동(본점)",
+        "송림(본점)",
+        "칠성(본점)",
+        "제일(본점)",
+        "동해해오름(본점)",
+        "원광(본점)",
+        "열린(본점)",
+        "순천만(본점)",
+        "돌산(본점)",
+        "상모(본점)",
+        "도개(본점)",
+        "서귀포동부(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-09T10:29:43.710929",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-10T02:29:56.346653",
+      "updated_banks_count": 15,
+      "description": "15개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "아현(본점)",
+        "한양(본점)",
+        "월곡(본점)",
+        "서빙고동(본점)",
+        "부산진시장(본점)",
+        "연지동(본점)",
+        "당감1동(본점)",
+        "당감2동(본점)",
+        "부암3동(본점)",
+        "송림(본점)",
+        "미래(본점)",
+        "북대구(본점)",
+        "보산(본점)",
+        "도량(본점)",
+        "고아(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
       "total_items": 2342,
-      "last_updated_at": "2026-04-09T03:30:39.284015",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-10T02:29:56.346653",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "북서울(본점)"
+      ]
     }
   }
 }
