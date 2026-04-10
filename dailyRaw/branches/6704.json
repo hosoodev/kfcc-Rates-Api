@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T03:18:56+09:00",
+  "updated_at": "2026-04-11T03:10:25+09:00",
   "gmgoCd": "6704",
   "name": "서홍",
   "meta": {
@@ -10,14 +10,7 @@
       "province": "제주",
       "district": "서귀포시"
     },
-    "branches": [
-      {
-        "name": "서홍(남부)",
-        "address": "제주 서귀포시 일주동로 8700",
-        "phone": "064-733-2493",
-        "district": "서귀포시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {

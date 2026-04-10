@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T03:18:56+09:00",
+  "updated_at": "2026-04-11T03:10:25+09:00",
   "gmgoCd": "0611",
   "name": "한양",
   "meta": {
@@ -10,14 +10,7 @@
       "province": "서울",
       "district": "성북구"
     },
-    "branches": [
-      {
-        "name": "한양(보국문)",
-        "address": "서울 성북구 보국문로18길 1",
-        "phone": "02-913-7001",
-        "district": "성북구"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
