@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-04-12T02:58:46.050219",
-  "last_modified_at": "2026-04-12T02:58:46.050219",
+  "last_checked_at": "2026-04-12T03:00:06.068384",
+  "last_modified_at": "2026-04-12T03:00:06.068384",
   "status": "success",
-  "description": "성공: 총 2617개 금고(예스(본점), 광덕(본점), 정읍(본점), 이인(본점), 정다운(본점) 외 1039곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2617개 금고(안락(본점), 나주(본점), 보성(본점), 청천(본점), 독립문(본점) 외 1039곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-12T02:58:46.050219",
+      "last_updated_at": "2026-04-12T03:00:06.068384",
       "updated_banks_count": 828,
       "description": "828개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -845,7 +845,7 @@
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-12T02:58:46.050219",
+      "last_updated_at": "2026-04-12T03:00:06.068384",
       "updated_banks_count": 716,
       "description": "716개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1570,7 +1570,7 @@
     "demand": {
       "total_banks": 1234,
       "total_items": 2342,
-      "last_updated_at": "2026-04-12T02:58:46.050219",
+      "last_updated_at": "2026-04-12T03:00:06.068384",
       "updated_banks_count": 1073,
       "description": "1073개 금고 금리 변동 발생",
       "changed_bank_names": [
