@@ -1,57 +1,36 @@
 {
-  "last_checked_at": "2026-04-11T03:10:26.534639",
-  "last_modified_at": "2026-04-11T03:10:26.534639",
+  "last_checked_at": "2026-04-12T02:58:47.403000",
+  "last_modified_at": "2026-04-12T02:58:47.403000",
   "status": "success",
-  "description": "성공: 총 22개 금고(새종암(본점), 한강(본점), 묵동화랑(본점), 동문(본점), 한강로3가(본점) 외 16곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(새울산(본점), 서울산(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
       "last_updated_at": "2026-04-11T03:10:26.534639",
-      "updated_banks_count": 21,
-      "changed_bank_names": [
-        "한강(본점)",
-        "문래동(본점)",
-        "구로5동(본점)",
-        "묵동화랑(본점)",
-        "새종암(본점)",
-        "성수1가(본점)",
-        "한강로3가(본점)",
-        "제물포(본점)",
-        "새인천(본점)",
-        "신선(본점)",
-        "송화(본점)",
-        "이천(본점)",
-        "하나동산(본점)",
-        "미래(본점)",
-        "서대구(본점)",
-        "화산(본점)",
-        "영해(본점)",
-        "상모(본점)",
-        "하원(본점)",
-        "예래동(본점)",
-        "동문(본점)"
-      ],
-      "description": "21개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
       "last_updated_at": "2026-04-11T03:10:26.534639",
-      "updated_banks_count": 1,
-      "changed_bank_names": [
-        "묵동화랑(본점)"
-      ],
-      "description": "1개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "demand": {
       "total_banks": 1234,
       "total_items": 2342,
-      "last_updated_at": "2026-04-10T03:18:57.191870",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-04-12T02:58:47.403000",
+      "updated_banks_count": 2,
+      "changed_bank_names": [
+        "새울산(본점)",
+        "서울산(본점)"
+      ],
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
