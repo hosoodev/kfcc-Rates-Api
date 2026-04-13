@@ -1,43 +1,30 @@
 {
-  "last_checked_at": "2026-04-13T10:29:43.001789",
-  "last_modified_at": "2026-04-13T10:29:43.001789",
+  "last_checked_at": "2026-04-13T12:29:44.143205",
+  "last_modified_at": "2026-04-13T12:29:44.143205",
   "status": "success",
-  "description": "성공: 총 16개 금고(용문후암(본점), 낙원(본점), 주문진(본점), 서울축산(본점), 상모(본점) 외 11곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(상도(본점), 서울숲(본점), 중대구(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-13T10:29:43.001789",
-      "updated_banks_count": 15,
-      "description": "15개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-13T12:29:44.143205",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "한강(본점)",
-        "노량진(본점)",
-        "문래동(본점)",
-        "마포중앙(본점)",
+        "상도(본점)",
         "안암동(본점)",
         "서울숲(본점)",
-        "서울축산(본점)",
-        "용문후암(본점)",
-        "산곡(본점)",
-        "북성(본점)",
-        "낙원(본점)",
-        "주문진(본점)",
-        "상모(본점)",
-        "구미강동(본점)",
-        "도개(본점)"
+        "중대구(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
       "last_updated_at": "2026-04-13T10:29:43.001789",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "성동행당(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1234,
