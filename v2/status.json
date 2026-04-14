@@ -1,28 +1,37 @@
 {
-  "last_checked_at": "2026-04-14T08:29:46.582005",
-  "last_modified_at": "2026-04-14T08:29:46.582005",
+  "last_checked_at": "2026-04-14T10:29:52.284839",
+  "last_modified_at": "2026-04-14T10:29:52.284839",
   "status": "success",
-  "description": "성공: 총 2개 금고(드림(본점), 북구(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(남구희망(본점), 봉덕2동(본점), 화도진(본점), 대포(본점), 마포중앙(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-14T08:29:46.582005",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-14T10:29:52.284839",
+      "updated_banks_count": 9,
+      "description": "9개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "북구(본점)",
-        "드림(본점)"
+        "마포중앙(본점)",
+        "서울숲(본점)",
+        "용문후암(본점)",
+        "화도진(본점)",
+        "봉덕2동(본점)",
+        "남구희망(본점)",
+        "사곡(본점)",
+        "상모(본점)",
+        "대포(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-14T03:27:57.471078",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-14T10:29:52.284839",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "순천만(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
