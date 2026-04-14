@@ -1,28 +1,49 @@
 {
-  "last_checked_at": "2026-04-14T21:29:37.997865",
-  "last_modified_at": "2026-04-14T21:29:37.997865",
+  "last_checked_at": "2026-04-15T02:29:47.640966",
+  "last_modified_at": "2026-04-15T02:29:47.640966",
   "status": "success",
-  "description": "성공: 총 2개 금고(서울으뜸(본점), 대방(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 22개 금고(송북(본점), 성북제일(본점), 금호(본점), 도량(본점), 연희(본점) 외 16곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-14T21:29:37.997865",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-15T02:29:47.640966",
+      "updated_banks_count": 15,
+      "description": "15개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "대방(본점)",
-        "서울으뜸(본점)"
+        "금호(본점)",
+        "서울축산(본점)",
+        "대학로(본점)",
+        "온누리(본점)",
+        "부평남부(본점)",
+        "송북(본점)",
+        "중부(본점)",
+        "순천만(본점)",
+        "화성(본점)",
+        "북경주(본점)",
+        "금오(본점)",
+        "도량(본점)",
+        "원남(본점)",
+        "사곡(본점)",
+        "중앙(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-14T18:29:44.251952",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-15T02:29:47.640966",
+      "updated_banks_count": 7,
+      "description": "7개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연희(본점)",
+        "성북제일(본점)",
+        "월곡(본점)",
+        "미래(본점)",
+        "북대구(본점)",
+        "영운.용암(본점)",
+        "순천만(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
