@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-04-16T18:29:48.860262",
-  "last_modified_at": "2026-04-16T18:29:48.860262",
+  "last_checked_at": "2026-04-16T21:29:39.712654",
+  "last_modified_at": "2026-04-16T21:29:39.712654",
   "status": "success",
-  "description": "성공: 총 2개 금고(만평(본점), 대포(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(동대문중앙(본점), 대포(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-16T18:29:48.860262",
+      "last_updated_at": "2026-04-16T21:29:39.712654",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "만평(본점)",
+        "동대문중앙(본점)",
         "대포(본점)"
       ]
     },
