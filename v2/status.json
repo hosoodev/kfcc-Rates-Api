@@ -1,21 +1,20 @@
 {
-  "last_checked_at": "2026-04-16T10:29:44.756825",
-  "last_modified_at": "2026-04-16T10:29:44.756825",
+  "last_checked_at": "2026-04-16T12:29:49.654833",
+  "last_modified_at": "2026-04-16T12:29:49.654833",
   "status": "success",
-  "description": "성공: 총 4개 금고(상동(본점), 가락(본점), 서귀포(본점), 열린(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(아양(본점), 새비산(본점), 도량(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-16T10:29:44.756825",
-      "updated_banks_count": 4,
-      "description": "4개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-16T12:29:49.654833",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "가락(본점)",
-        "상동(본점)",
-        "열린(본점)",
-        "서귀포(본점)"
+        "아양(본점)",
+        "도량(본점)",
+        "새비산(본점)"
       ]
     },
     "saving": {
