@@ -346,9 +346,9 @@ if __name__ == "__main__":
     import sys
     from storage import StorageManager
     
-    # 로깅 설정 (테스트 시에는 메시지만 깔끔하게 출력)
+    # 로깅 설정 (상세 디버깅을 위해 DEBUG로 설정)
     logging.basicConfig(
-        level=logging.INFO,
+        level=logging.DEBUG,
         format='%(message)s'
     )
     
