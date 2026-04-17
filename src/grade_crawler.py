@@ -130,56 +130,84 @@ class GradeCrawler:
         try:
             soup = BeautifulSoup(html, 'html.parser')
             
-            # contentsdata input 태그에서 데이터 추출
+            # 1단계: contentsdata input 태그에서 데이터 추출 시도 (가장 정확한 방법)
             contents_input = soup.find("input", {"id": "contentsdata"})
-            if not contents_input:
+            data_str = contents_input.get("value") if contents_input else ""
+            
+            if data_str:
+                # 정규식으로 경영실태평가 데이터 추출
+                # 패턴: 31000001 + (기관명) + | + (기준일) + | + (등급)
+                pattern = re.compile(r"31000001([^\|]+)\|([0-9]{8})\|([0-9])")
+                matches = pattern.findall(data_str)
+                
+                if matches:
+                    기관명, 기준일, 등급코드 = matches[0]
+                    grade_info = GRADE_MAP.get(등급코드, {"name": "알수없음", "description": "등급 정보 없음"})
+                    
+                    # BIS 비율 추출 (위험가중자산대비자기자본비율 또는 순자본비율)
+                    bis_pattern = re.compile(r"25000001[^\|]+\|(?:위험가중자산대비\s*자기자본비율|순자본비율)\|([^\|]+)")
+                    bis_matches = bis_pattern.findall(data_str)
+                    bis_ratio = bis_matches[0] if bis_matches else "0.00"
+                    
+                    # 출자배당율 추출
+                    dividend_pattern = re.compile(r"14000003출자배당율\|([^\|]+)")
+                    dividend_matches = dividend_pattern.findall(data_str)
+                    dividend_rate = dividend_matches[0] if dividend_matches else "0.00"
+                    
+                    return {
+                        'gmgo_cd': gmgo_cd,
+                        'bank_name': bank_name,
+                        'province': province,
+                        'district': district,
+                        'evaluation_agency': 기관명.strip(),
+                        'evaluation_date': 기준일,
+                        'grade_code': 등급코드,
+                        'grade_name': grade_info['name'],
+                        'grade_description': grade_info['description'],
+                        'bis_ratio': bis_ratio,
+                        'dividend_rate': dividend_rate,
+                        'dividend_rate_year': 기준일[:4],
+                        'collected_at': datetime.now().isoformat(),
+                        'evaluation_year': 기준일[:4],
+                        'evaluation_month': int(기준일[4:6])
+                    }
+
+            # 2단계: Fallback - contentsdata가 없거나 파싱 실패 시 일반 텍스트에서 추출
+            logger.info(f"🔍 {bank_name} ({gmgo_cd}): contentsdata 파싱 실패, 텍스트 기반 Fallback 시도")
+            text_content = soup.get_text(separator=' ', strip=True)
+            
+            # 등급 추출
+            grade_match = re.search(r'종합등급\s*[:：]?\s*(\d)', text_content)
+            if not grade_match:
                 return None
+                
+            grade_code = grade_match.group(1)
+            grade_info = GRADE_MAP.get(grade_code, {"name": "알수없음", "description": "등급 정보 없음"})
             
-            data_str = contents_input.get("value")
-            if not data_str:
-                return None
+            # BIS/순자본비율 추출
+            bis_match = re.search(r'(?:위험가중자산대비\s*자기자본비율|순자본비율)\s*[:：]?\s*([-]?\d+\.?\d*)\s*%', text_content)
+            bis_ratio = bis_match.group(1) if bis_match else "0.00"
             
-            # 정규식으로 경영실태평가 데이터 추출
-            # 패턴: 31000001 + (기관명) + | + (기준일) + | + (등급)
-            pattern = re.compile(r"31000001([^\|]+)\|([0-9]{8})\|([0-9])")
-            matches = pattern.findall(data_str)
+            # 배당률 추출
+            div_match = re.search(r'출자배당률\s*[:：]?\s*(\d+\.?\d*)\s*%', text_content)
+            dividend_rate = div_match.group(1) if div_match else "0.00"
             
-            if not matches:
-                return None
-            
-            # 가장 최근 평가 데이터 사용 (첫 번째 매치)
-            기관명, 기준일, 등급코드 = matches[0]
-            
-            # 등급 정보 가져오기
-            grade_info = GRADE_MAP.get(등급코드, {"name": "알수없음", "description": "등급 정보 없음"})
-            
-            # BIS 비율 (자본적정성) 추출
-            # 패턴: 25000001 + (기관명) + | + 위험가중자산대비자기자본비율 + | + (당기) + | + (전기) + | + (증감)
-            bis_pattern = re.compile(r"25000001[^\|]+\|위험가중자산대비자기자본비율\|([^\|]+)")
-            bis_matches = bis_pattern.findall(data_str)
-            bis_ratio = bis_matches[0] if bis_matches else "0.00"
-            
-            # 출자배당율 추출
-            # 패턴: 14000003출자배당율 + | + (당기) + | + (전기) + | + (증감)
-            dividend_pattern = re.compile(r"14000003출자배당율\|([^\|]+)")
-            dividend_matches = dividend_pattern.findall(data_str)
-            dividend_rate = dividend_matches[0] if dividend_matches else "0.00"
-            
+            # 수집된 텍스트에서 연도 정보가 명확하지 않으면 요청 시 사용한 날짜 기반으로 임시 설정
             return {
                 'gmgo_cd': gmgo_cd,
                 'bank_name': bank_name,
                 'province': province,
                 'district': district,
-                'evaluation_agency': 기관명.strip(),
-                'evaluation_date': 기준일,
-                'grade_code': 등급코드,
+                'evaluation_agency': bank_name,
+                'evaluation_date': 'Unknown',
+                'grade_code': grade_code,
                 'grade_name': grade_info['name'],
                 'grade_description': grade_info['description'],
                 'bis_ratio': bis_ratio,
                 'dividend_rate': dividend_rate,
-                'dividend_rate_year': 기준일[:4] if dividend_matches else None,
+                'dividend_rate_year': None,
                 'collected_at': datetime.now().isoformat(),
-                'evaluation_year': 기준일[:4],
+                'evaluation_year': None,
                 'evaluation_month': evaluation_month
             }
             
