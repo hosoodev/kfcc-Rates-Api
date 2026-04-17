@@ -1,7 +1,7 @@
 {
   "collection_info": {
-    "collected_at": "2026-04-17T12:06:39.694873",
-    "total_banks": 1246,
+    "collected_at": "2026-04-17T12:09:05.253335",
+    "total_banks": 1247,
     "evaluation_year": "2025",
     "evaluation_month": 12
   },
@@ -21185,6 +21185,23 @@
       "dividend_rate": "3.5",
       "dividend_rate_year": "2025",
       "collected_at": "2026-04-17T12:06:39.694209",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "2803",
+      "bank_name": "목포동부(본점)",
+      "province": "전남",
+      "district": "목포시",
+      "evaluation_agency": "목포동부새마을금고",
+      "evaluation_date": "20251231",
+      "grade_code": "2",
+      "grade_name": "양호",
+      "grade_description": "경영상태가 양호한 상태",
+      "bis_ratio": "11.69",
+      "dividend_rate": "3.5",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T12:09:05.252862",
       "evaluation_year": "2025",
       "evaluation_month": 12
     }
