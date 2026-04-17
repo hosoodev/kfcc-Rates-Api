@@ -400,13 +400,11 @@ if __name__ == "__main__":
         district = bank_info.get('district', '테스트')
         print(f"📍 검색된 금고명: {target_nm} ({province} {district})")
     else:
-        print(f"⚠️ [{target_cd}] 코드에 해당하는 금고를 목록에서 찾을 수 없습니다.")
-        target_nm = input("👉 금고의 한글 이름을 정확히 입력하세요 (예: 대포): ").strip()
+        # 목록에 없는 경우 무리하게 묻지 않고 코드만으로 시도
+        target_nm = ""
         province = "테스트"
         district = "테스트"
-        if not target_nm:
-            print("❌ 금고 이름이 입력되지 않았습니다.")
-            sys.exit(1)
+        print(f"⚠️ [{target_cd}] 코드에 해당하는 금고가 목록에 없습니다. 코드만으로 조회를 시도합니다.")
     
     crawler = GradeCrawler()
     
