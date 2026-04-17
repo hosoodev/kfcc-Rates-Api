@@ -280,3 +280,52 @@ class GradeCrawler:
         result = cached_grades + all_grades
         print(f"📊 경영실태평가 수집 완료: 이번 차수 {successful_count}개 추가 / 전체 {len(result)}개 금고")
         return result
+
+
+if __name__ == "__main__":
+    # 로컬 독립 테스트를 위한 코드
+    import json
+    
+    # 로깅 설정
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    )
+    
+    print("🚀 GradeCrawler 로컬 테스트를 시작합니다.")
+    crawler = GradeCrawler()
+    
+    # 1. 실제 저장된 은행 목록이 있는지 확인하여 테스트 데이터로 사용
+    try:
+        from storage import StorageManager
+        storage = StorageManager()
+        banks_data = storage.load_banks()
+        
+        if banks_data and 'banks' in banks_data:
+            # 테스트를 위해 상위 5개만 샘플 추출
+            test_banks = banks_data['banks'][:5]
+            print(f"📂 저장된 은행 목록에서 {len(test_banks)}개 샘플을 추출하여 테스트합니다.")
+        else:
+            raise ValueError("No banks in storage")
+    except Exception as e:
+        print(f"⚠️ 저장된 데이터를 불러올 수 없어 기본 샘플로 대체합니다. ({e})")
+        test_banks = [
+            {"gmgoCd": "0101", "name": "본점", "province": "서울", "district": "종로구"},
+            {"gmgoCd": "0832", "name": "삼성", "province": "서울", "district": "강남구"}
+        ]
+    
+    print(f"🔍 테스트 대상 금고: {[b['name'] for b in test_banks]}")
+    
+    # 2. 수집 실행 (캐시 없이 실시간 수집 테스트)
+    # 기준일을 직접 지정하려면 evaluation_date='202512'와 같이 입력 가능합니다.
+    results = crawler.collect_all_grades(test_banks, evaluation_date=None, use_cache=False)
+    
+    # 3. 결과 출력
+    print("\n" + "="*50)
+    print(f"📊 테스트 완료: {len(results)}개 데이터 수집됨")
+    if results:
+        # 첫 번째 결과만 상세 출력
+        print("\n📝 첫 번째 결과 데이터 샘플:")
+        print(json.dumps(results[0], indent=2, ensure_ascii=False))
+    print("="*50)
+
