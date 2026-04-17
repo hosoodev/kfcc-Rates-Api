@@ -283,49 +283,51 @@ class GradeCrawler:
 
 
 if __name__ == "__main__":
-    # 로컬 독립 테스트를 위한 코드
+    # 로컬 독립 테스트를 위한 코드 (특정 금고 코드 입력 및 확인)
     import json
+    import sys
     
-    # 로깅 설정
+    # 로깅 설정 (테스트 시에는 메시지만 깔끔하게 출력)
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        format='%(message)s'
     )
     
-    print("🚀 GradeCrawler 로컬 테스트를 시작합니다.")
+    print("\n" + "="*50)
+    print("🏦 새마을금고 경영실태평가 개별 테스트")
+    print("="*50)
+    
+    target_cd = input("👉 테스트할 금고 코드(4자리)를 입력하세요: ").strip()
+    
+    if not target_cd:
+        print("❌ 금고 코드가 입력되지 않았습니다.")
+        sys.exit(1)
+    
     crawler = GradeCrawler()
     
-    # 1. 실제 저장된 은행 목록이 있는지 확인하여 테스트 데이터로 사용
-    try:
-        from storage import StorageManager
-        storage = StorageManager()
-        banks_data = storage.load_banks()
-        
-        if banks_data and 'banks' in banks_data:
-            # 테스트를 위해 상위 5개만 샘플 추출
-            test_banks = banks_data['banks'][:5]
-            print(f"📂 저장된 은행 목록에서 {len(test_banks)}개 샘플을 추출하여 테스트합니다.")
-        else:
-            raise ValueError("No banks in storage")
-    except Exception as e:
-        print(f"⚠️ 저장된 데이터를 불러올 수 없어 기본 샘플로 대체합니다. ({e})")
-        test_banks = [
-            {"gmgoCd": "0101", "name": "본점", "province": "서울", "district": "종로구"},
-            {"gmgoCd": "0832", "name": "삼성", "province": "서울", "district": "강남구"}
-        ]
+    # 기준일 지정 (필요 시 수정 가능, None이면 최신 공시 기준)
+    # evaluation_date = '202512' 
+    evaluation_date = None
     
-    print(f"🔍 테스트 대상 금고: {[b['name'] for b in test_banks]}")
+    print(f"\n🚀 금고 코드 [{target_cd}]의 데이터를 조회 중입니다...")
     
-    # 2. 수집 실행 (캐시 없이 실시간 수집 테스트)
-    # 기준일을 직접 지정하려면 evaluation_date='202512'와 같이 입력 가능합니다.
-    results = crawler.collect_all_grades(test_banks, evaluation_date=None, use_cache=False)
+    # 이름과 위치 정보는 '테스트'로 임시 설정하여 수집 시도
+    result = crawler.fetch_grade_for_bank(
+        target_cd, 
+        bank_name="테스트금고", 
+        province="테스트", 
+        district="테스트",
+        evaluation_date=evaluation_date
+    )
     
-    # 3. 결과 출력
     print("\n" + "="*50)
-    print(f"📊 테스트 완료: {len(results)}개 데이터 수집됨")
-    if results:
-        # 첫 번째 결과만 상세 출력
-        print("\n📝 첫 번째 결과 데이터 샘플:")
-        print(json.dumps(results[0], indent=2, ensure_ascii=False))
-    print("="*50)
+    if result:
+        print(f"✅ 수집 성공! ({result.get('evaluation_agency')})")
+        print("-" * 50)
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+    else:
+        print(f"❌ [{target_cd}] 금고의 데이터를 찾을 수 없거나 수집에 실패했습니다.")
+        print("팁: 금고 코드가 정확한지, 그리고 해당 금고가 정상적으로 공시를 등록했는지 확인해주세요.")
+    print("="*50 + "\n")
+
 
