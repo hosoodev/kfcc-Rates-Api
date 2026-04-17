@@ -344,7 +344,7 @@ if __name__ == "__main__":
         
     # 금고 이름 찾기 (서버 검증 통과를 위해 필요)
     storage = StorageManager()
-    banks_data = storage.load_banks()
+    banks_data = storage.load_banks() or {}
     bank_info = next((b for b in banks_data.get('banks', []) if b.get('gmgoCd') == target_cd), None)
     
     if bank_info:
