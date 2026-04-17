@@ -8,7 +8,13 @@ import time
 import re
 import logging
 from datetime import datetime
+import sys
+import io
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Windows에서 이모지 출력을 위해 stdout 인코딩 설정
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 from bs4 import BeautifulSoup
 from utils import generate_desktop_ua
 from config import GRADE_CONFIG, API_ENDPOINTS, GRADE_MAP
