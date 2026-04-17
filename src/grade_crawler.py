@@ -324,6 +324,7 @@ if __name__ == "__main__":
     # 로컬 독립 테스트를 위한 코드 (특정 금고 코드 입력 및 확인)
     import json
     import sys
+    from storage import StorageManager
     
     # 로깅 설정 (테스트 시에는 메시지만 깔끔하게 출력)
     logging.basicConfig(
@@ -340,21 +341,38 @@ if __name__ == "__main__":
     if not target_cd:
         print("❌ 금고 코드가 입력되지 않았습니다.")
         sys.exit(1)
+        
+    # 금고 이름 찾기 (서버 검증 통과를 위해 필요)
+    storage = StorageManager()
+    banks_data = storage.load_banks()
+    bank_info = next((b for b in banks_data.get('banks', []) if b.get('gmgoCd') == target_cd), None)
+    
+    if bank_info:
+        target_nm = bank_info.get('name')
+        province = bank_info.get('province', '테스트')
+        district = bank_info.get('district', '테스트')
+        print(f"📍 검색된 금고명: {target_nm} ({province} {district})")
+    else:
+        print(f"⚠️ [{target_cd}] 코드에 해당하는 금고를 목록에서 찾을 수 없습니다.")
+        target_nm = input("👉 금고의 한글 이름을 정확히 입력하세요 (예: 대포): ").strip()
+        province = "테스트"
+        district = "테스트"
+        if not target_nm:
+            print("❌ 금고 이름이 입력되지 않았습니다.")
+            sys.exit(1)
     
     crawler = GradeCrawler()
     
-    # 기준일 지정 (필요 시 수정 가능, None이면 최신 공시 기준)
-    # evaluation_date = '202512' 
+    # 기준일 지정 (None이면 최신 공시 기준)
     evaluation_date = None
     
-    print(f"\n🚀 금고 코드 [{target_cd}]의 데이터를 조회 중입니다...")
+    print(f"\n🚀 금고 [{target_nm}({target_cd})]의 데이터를 서버에 요청 중입니다...")
     
-    # 이름과 위치 정보는 '테스트'로 임시 설정하여 수집 시도
     result = crawler.fetch_grade_for_bank(
         target_cd, 
-        bank_name="테스트금고", 
-        province="테스트", 
-        district="테스트",
+        bank_name=target_nm, 
+        province=province, 
+        district=district,
         evaluation_date=evaluation_date
     )
     
@@ -362,10 +380,15 @@ if __name__ == "__main__":
     if result:
         print(f"✅ 수집 성공! ({result.get('evaluation_agency')})")
         print("-" * 50)
+        print(f"- 등급: {result.get('grade_name')} ({result.get('grade_code')}등급)")
+        print(f"- BIS/순자본비율: {result.get('bis_ratio')}%")
+        print(f"- 출자배당률: {result.get('dividend_rate')}%")
+        print("-" * 50)
         print(json.dumps(result, indent=2, ensure_ascii=False))
     else:
         print(f"❌ [{target_cd}] 금고의 데이터를 찾을 수 없거나 수집에 실패했습니다.")
-        print("팁: 금고 코드가 정확한지, 그리고 해당 금고가 정상적으로 공시를 등록했는지 확인해주세요.")
+        print("팁: 금고 이름과 코드가 웹사이트(kfcc.co.kr) 정보와 일치해야 합니다.")
     print("="*50 + "\n")
+
 
 
