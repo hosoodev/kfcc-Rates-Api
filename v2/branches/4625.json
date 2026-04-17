@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "4625",
   "name": "진천",
   "meta": {
@@ -26,11 +26,11 @@
           "r": 3.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -89,6 +89,30 @@
       "grade": "2",
       "bis_ratio": 12.11,
       "dividend_rate": 1.971
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.68,
+      "dividend_rate": 2.928
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 10.51,
+      "dividend_rate": 2.928
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 12.12,
+      "dividend_rate": 4.38
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.46,
+      "dividend_rate": 4.38
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "5205",
   "name": "대신",
   "meta": {
@@ -105,6 +105,12 @@
       "grade": "1",
       "bis_ratio": 16.71,
       "dividend_rate": 5.00001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 15.58,
+      "dividend_rate": 4.50001
     },
     {
       "evaluation_date": "20231231",

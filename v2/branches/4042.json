@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "4042",
   "name": "의정부서부",
   "meta": {
@@ -117,6 +117,12 @@
       "grade": "3",
       "bis_ratio": 12.28,
       "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.34,
+      "dividend_rate": 5.0
     }
   ],
   "nearby_branches": [

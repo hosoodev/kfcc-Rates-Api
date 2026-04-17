@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "1711",
   "name": "구서",
   "meta": {
@@ -82,6 +82,30 @@
       "grade": "2",
       "bis_ratio": 10.12,
       "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 7.97,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 7.59,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 7.86,
+      "dividend_rate": 5.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.51,
+      "dividend_rate": 5.5
     }
   ],
   "nearby_branches": [

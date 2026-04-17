@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "5514",
   "name": "임오",
   "meta": {
@@ -101,6 +101,12 @@
       "grade": "2",
       "bis_ratio": 22.81,
       "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 24.53,
+      "dividend_rate": 3.30902
     },
     {
       "evaluation_date": "20240630",

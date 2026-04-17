@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "3844",
   "name": "서수원",
   "meta": {
@@ -117,6 +117,12 @@
       "grade": "1",
       "bis_ratio": 17.37,
       "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 18.43,
+      "dividend_rate": 3.904
     },
     {
       "evaluation_date": "20240630",

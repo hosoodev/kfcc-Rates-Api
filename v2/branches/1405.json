@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "1405",
   "name": "용호",
   "meta": {
@@ -80,6 +80,12 @@
       "evaluation_date": "20251231",
       "grade": "3",
       "bis_ratio": 7.31,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250531",
+      "grade": "3",
+      "bis_ratio": 6.13,
       "dividend_rate": 0.0
     },
     {

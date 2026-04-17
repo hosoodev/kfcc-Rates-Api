@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "1402",
   "name": "대연",
   "meta": {
@@ -94,6 +94,12 @@
       "evaluation_date": "20250630",
       "grade": "3",
       "bis_ratio": 3.8,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 3.9,
       "dividend_rate": 0.0
     },
     {

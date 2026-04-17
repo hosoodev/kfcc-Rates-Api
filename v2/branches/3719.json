@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "3719",
   "name": "산본",
   "meta": {
@@ -93,6 +93,30 @@
       "grade": "2",
       "bis_ratio": 10.31,
       "dividend_rate": 2.5
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 9.35,
+      "dividend_rate": 3.40001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 10.72,
+      "dividend_rate": 3.40001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 9.33,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.07,
+      "dividend_rate": 4.50001
     }
   ],
   "nearby_branches": [

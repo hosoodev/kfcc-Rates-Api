@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T21:29:51+09:00",
+  "updated_at": "2026-04-18T02:32:57+09:00",
   "gmgoCd": "6704",
   "name": "서홍",
   "meta": {
@@ -92,6 +92,12 @@
       "grade": "2",
       "bis_ratio": 8.68,
       "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.23,
+      "dividend_rate": 4.0077
     }
   ],
   "nearby_branches": [
