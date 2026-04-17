@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-04-17T12:29:37.746045",
-  "last_modified_at": "2026-04-17T12:29:37.746045",
+  "last_checked_at": "2026-04-17T14:29:46.988332",
+  "last_modified_at": "2026-04-17T14:29:46.988332",
   "status": "success",
-  "description": "성공: 총 2개 금고(대명(본점), 신길(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(노들(본점), 대명(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-17T12:29:37.746045",
+      "last_updated_at": "2026-04-17T14:29:46.988332",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신길(본점)",
+        "노들(본점)",
         "대명(본점)"
       ]
     },
