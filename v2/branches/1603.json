@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "1603",
   "name": "명륜동",
   "meta": {
@@ -42,6 +42,12 @@
     "saving": null
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 12.03,
+      "dividend_rate": 0.85001
+    },
     {
       "evaluation_date": "20250630",
       "grade": "3",

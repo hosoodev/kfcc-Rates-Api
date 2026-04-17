@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "3904",
   "name": "신반월",
   "meta": {
@@ -120,6 +120,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 19.76,
+      "dividend_rate": 2.0
+    },
     {
       "evaluation_date": "20250630",
       "grade": "3",

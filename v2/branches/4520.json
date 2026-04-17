@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "4520",
   "name": "흥덕",
   "meta": {
@@ -93,7 +93,14 @@
       "s": "m"
     }
   },
-  "disclosure_history": [],
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 10.34,
+      "dividend_rate": 4.745
+    }
+  ],
   "nearby_branches": [
     {
       "gmgoCd": "4504",

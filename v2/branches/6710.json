@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "6710",
   "name": "대포",
   "meta": {
@@ -84,6 +84,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 2.57,
+      "dividend_rate": 0.0
+    },
     {
       "evaluation_date": "20250630",
       "grade": "3",

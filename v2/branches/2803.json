@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "2803",
   "name": "목포동부",
   "meta": {
@@ -68,7 +68,14 @@
       "s": "w"
     }
   },
-  "disclosure_history": [],
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 11.69,
+      "dividend_rate": 3.5
+    }
+  ],
   "nearby_branches": [
     {
       "gmgoCd": "2804",

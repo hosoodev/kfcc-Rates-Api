@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "4738",
   "name": "대동",
   "meta": {
@@ -90,6 +90,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 17.07,
+      "dividend_rate": 4.0
+    },
     {
       "evaluation_date": "20250630",
       "grade": "1",

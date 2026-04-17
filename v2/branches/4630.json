@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "4630",
   "name": "서청주",
   "meta": {
@@ -126,6 +126,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 20.04,
+      "dividend_rate": 4.0004
+    },
     {
       "evaluation_date": "20250630",
       "grade": "2",

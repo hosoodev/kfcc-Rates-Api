@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "5242",
   "name": "현대제철",
   "meta": {
@@ -35,6 +35,12 @@
     "saving": null
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 35.75,
+      "dividend_rate": 3.20002
+    },
     {
       "evaluation_date": "20250630",
       "grade": "1",

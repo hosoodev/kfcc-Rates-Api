@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "2833",
   "name": "남악",
   "meta": {
@@ -53,7 +53,14 @@
     "deposit": null,
     "saving": null
   },
-  "disclosure_history": [],
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 7.29,
+      "dividend_rate": 0.0
+    }
+  ],
   "nearby_branches": [
     {
       "gmgoCd": "2830",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T10:29:57+09:00",
+  "updated_at": "2026-04-17T12:29:37+09:00",
   "gmgoCd": "2227",
   "name": "희망",
   "meta": {
@@ -26,11 +26,11 @@
           "r": 2.5,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         }
@@ -84,6 +84,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "4",
+      "bis_ratio": 3.87,
+      "dividend_rate": 0.0
+    },
     {
       "evaluation_date": "20250630",
       "grade": "4",
