@@ -357,9 +357,7 @@ class StorageManager:
             if success:
                 logger.info(f"✅ 경영실태평가 데이터 저장 완료: {filename} ({len(grades_data)}개 금고)")
                 # 인덱스 파일 갱신
-                index_data = self.update_grades_index()
-                if index_data:
-                    logger.info(f"📊 경영실태평가 인덱스 갱신 완료 ({len(index_data.get('versions', []))}개 기간)")
+                self.update_grades_index()
             return success
             
         except Exception as e:
