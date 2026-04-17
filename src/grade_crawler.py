@@ -63,16 +63,18 @@ class GradeCrawler:
         
         # evaluation_date가 명시되지 않은 경우에만 자동 계산
         if not evaluation_date:
-            # 평가 기준일 생성 (YYYYMM 형식) - 현재 월에 맞는 평가 월 선택
-            current_month = datetime.now().month
-            if current_month in [1, 2, 3, 4, 5, 6, 7]:
-                # 1-7월: 6월 평가 기준
-                evaluation_month = 6
-            else:
-                # 8-12월: 12월 평가 기준
+            now = datetime.now()
+            current_month = now.month
+            # 1-7월: 전년도 12월 평가 공시 수집 (3-4월경 확정)
+            # 8-12월: 당해연도 6월 평가 공시 수집 (8-9월경 확정)
+            if current_month < 8:
+                evaluation_year = now.year - 1
                 evaluation_month = 12
+            else:
+                evaluation_year = now.year
+                evaluation_month = 6
             
-            evaluation_date = f"{GRADE_CONFIG['evaluation_year']}{evaluation_month:02d}"
+            evaluation_date = f"{evaluation_year}{evaluation_month:02d}"
         else:
             # 전달받은 날짜에서 월 정보 추출 (파싱 시 필드를 위해)
             # YYYYMM 형식에서 뒤의 2자리
@@ -198,9 +200,17 @@ class GradeCrawler:
             eval_year = int(evaluation_date[:4])
             eval_month = int(evaluation_date[4:6])
         else:
-            current_month = datetime.now().month
-            eval_month = 6 if current_month in range(1, 8) else 12
-            eval_year = eval_year # GRADE_CONFIG['evaluation_year'] (보통 current_year)
+            now = datetime.now()
+            current_month = now.month
+            # 공시 게시 주기를 고려한 자동 매핑
+            if current_month < 8:
+                eval_year = now.year - 1
+                eval_month = 12
+            else:
+                eval_year = now.year
+                eval_month = 6
+            
+            evaluation_date = f"{eval_year}{eval_month:02d}"
 
         print(f"📊 경영실태평가 데이터 수집 시작... (기준: {eval_year}년 {eval_month:02d}월, 총 {len(banks)}개 금고)")
         
