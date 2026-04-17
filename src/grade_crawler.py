@@ -83,6 +83,7 @@ class GradeCrawler:
             except:
                 evaluation_month = 12
         
+        # POST 요청 데이터 (gmgoNm 필드 누락 시 데이터가 안 나오는 금고가 있음)
         payload = {
             "procGbcd": "1",
             "pageNo": "",
@@ -91,10 +92,13 @@ class GradeCrawler:
             "hpageBrwsUm": "1",
             "gongsiDate": "",
             "strd_yymm": evaluation_date,
-            "gmgoNm": "",
+            "gmgoNm": bank_name, # 실제 금고 이름을 정확히 명시
             "gonsiYear": "",
             "gonsiMonth": "",
         }
+        
+        logger.debug(f"🔍 [{gmgo_cd}] 요청 URL: {url}")
+        logger.debug(f"🔍 [{gmgo_cd}] 요청 Payload: {payload}")
         
         for attempt in range(GRADE_CONFIG['retry_count']):
             try:
@@ -105,12 +109,20 @@ class GradeCrawler:
                 )
                 response.raise_for_status()
                 
-                grade_data = self.parse_grade_data(response.text, gmgo_cd, bank_name, province, district, evaluation_month=evaluation_month)
+                html_content = response.text
+                logger.debug(f"📥 [{gmgo_cd}] 응답 수신 성공 (길이: {len(html_content)}자)")
+                
+                # 응답 내용 디버그 (일부만)
+                if len(html_content) > 500:
+                    logger.debug(f"📄 [{gmgo_cd}] 응답 샘플: {html_content[:300]}...")
+                
+                grade_data = self.parse_grade_data(html_content, gmgo_cd, bank_name, province, district, evaluation_month=evaluation_month)
+                
                 if grade_data:
-                    logger.debug(f"✓ {bank_name}: 경영실태평가 수집 완료")
+                    logger.debug(f"✅ {bank_name} ({gmgo_cd}): 경영실태평가 파싱 성공")
                     return grade_data
                 else:
-                    logger.debug(f"✗ {bank_name}: 경영실태평가 데이터 없음")
+                    logger.warning(f"⚠️ {bank_name} ({gmgo_cd}): 데이터 파싱 실패 (HTML 구조 불일치 가능성)")
                     return None
                     
             except requests.exceptions.RequestException as e:
@@ -134,6 +146,11 @@ class GradeCrawler:
             contents_input = soup.find("input", {"id": "contentsdata"})
             data_str = contents_input.get("value") if contents_input else ""
             
+            if contents_input:
+                logger.debug(f"✅ [{gmgo_cd}] contentsdata 필드 발견 (길이: {len(data_str)})")
+            else:
+                logger.debug(f"ℹ️ [{gmgo_cd}] contentsdata 필드를 찾을 수 없습니다. (HTML 파싱 fallback 예정)")
+
             if data_str:
                 # 정규식으로 경영실태평가 데이터 추출
                 # 패턴: 31000001 + (기관명) + | + (기준일) + | + (등급)
@@ -175,13 +192,16 @@ class GradeCrawler:
             # 2단계: Fallback - contentsdata가 없거나 파싱 실패 시 일반 텍스트에서 추출
             logger.info(f"🔍 {bank_name} ({gmgo_cd}): contentsdata 파싱 실패, 텍스트 기반 Fallback 시도")
             text_content = soup.get_text(separator=' ', strip=True)
+            logger.debug(f"📄 추출된 텍스트 샘플 (전체 {len(text_content)}자): {text_content[:200]}...")
             
             # 등급 추출
             grade_match = re.search(r'종합등급\s*[:：]?\s*(\d)', text_content)
             if not grade_match:
+                logger.warning(f"❌ [{gmgo_cd}] 텍스트에서 '종합등급' 패턴을 찾지 못했습니다.")
                 return None
                 
             grade_code = grade_match.group(1)
+            logger.info(f"✨ [{gmgo_cd}] 텍스트 파싱 성공: {grade_code}등급")
             grade_info = GRADE_MAP.get(grade_code, {"name": "알수없음", "description": "등급 정보 없음"})
             
             # BIS/순자본비율 추출
