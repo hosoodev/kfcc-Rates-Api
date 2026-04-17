@@ -188,6 +188,12 @@ class GradeCrawler:
                         'evaluation_year': 기준일[:4],
                         'evaluation_month': int(기준일[4:6])
                     }
+                else:
+                    # 파싱 실패 시 원본 데이터를 파일로 저장하여 분석 (디버그용)
+                    debug_file = f"debug_contents_{gmgo_cd}.txt"
+                    with open(debug_file, "w", encoding="utf-8") as f:
+                        f.write(data_str)
+                    logger.debug(f"📝 [{gmgo_cd}] 1단계 파싱 실패로 원본 데이터를 {debug_file}에 저장했습니다.")
 
             # 2단계: Fallback - contentsdata가 없거나 파싱 실패 시 일반 텍스트에서 추출
             logger.info(f"🔍 {bank_name} ({gmgo_cd}): contentsdata 파싱 실패, 텍스트 기반 Fallback 시도")
