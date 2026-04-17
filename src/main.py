@@ -217,16 +217,29 @@ def collect_grades(evaluation_date=None, base_dir=None, use_cache=False):
         if success:
             # 최종 통계 산출
             total_saved = len(grades_data)
-            missing = total_targets - total_saved
+            missing_count = total_targets - total_saved
+            
+            # 누락 금고 식별
+            saved_gmgo_codes = {g.get('gmgo_cd') for g in grades_data if g.get('gmgo_cd')}
+            missing_banks = [b for b in banks if b.get('gmgoCd') not in saved_gmgo_codes]
+            
             summary_msg = f"""
 {"=" * 60}
 📊 경영실태평가 수집 결과 요약
 {"=" * 60}
 ✅ 최종 저장된 금고: {total_saved}개 (성공)
-❌ 데이터 누락 금고: {missing}개 (공시 미등록 등)
+❌ 데이터 누락 금고: {missing_count}개 (공시 미등록 등)
 📈 수집 대상 대비 성공률: {(total_saved/total_targets*100):.1f}%
-{"=" * 60}
 """
+            if missing_banks:
+                summary_msg += "📋 누락 금고 목록 (수동 확인 필요):\n"
+                # 지역별로 정렬하여 가독성 높임
+                sorted_missing = sorted(missing_banks, key=lambda x: (x.get('province', ''), x.get('name', '')))
+                for i, b in enumerate(sorted_missing):
+                    summary_msg += f"  - {b.get('province', '기타')} | {b.get('name')} ({b.get('gmgoCd')})\n"
+            
+            summary_msg += "=" * 60
+            
             for line in summary_msg.strip().split('\n'):
                 logger.info(line)
             return True
