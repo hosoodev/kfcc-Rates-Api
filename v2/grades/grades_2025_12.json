@@ -1,7 +1,7 @@
 {
   "collection_info": {
-    "collected_at": "2026-04-17T12:03:01.306453",
-    "total_banks": 1244,
+    "collected_at": "2026-04-17T12:06:39.694873",
+    "total_banks": 1246,
     "evaluation_year": "2025",
     "evaluation_month": 12
   },
@@ -21151,6 +21151,40 @@
       "dividend_rate": "0",
       "dividend_rate_year": "2025",
       "collected_at": "2026-04-17T12:03:01.229609",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "2833",
+      "bank_name": "남악(본점)",
+      "province": "전남",
+      "district": "무안군",
+      "evaluation_agency": "남악새마을금고",
+      "evaluation_date": "20251231",
+      "grade_code": "3",
+      "grade_name": "보통",
+      "grade_description": "경영상태가 보통인 상태",
+      "bis_ratio": "7.29",
+      "dividend_rate": "0",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T12:06:38.600979",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "2111",
+      "bank_name": "신당(본점)",
+      "province": "대구",
+      "district": "달서구",
+      "evaluation_agency": "신당새마을금고",
+      "evaluation_date": "20251231",
+      "grade_code": "2",
+      "grade_name": "양호",
+      "grade_description": "경영상태가 양호한 상태",
+      "bis_ratio": "16.96",
+      "dividend_rate": "3.5",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T12:06:39.694209",
       "evaluation_year": "2025",
       "evaluation_month": 12
     }
