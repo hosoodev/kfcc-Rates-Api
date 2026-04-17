@@ -159,26 +159,37 @@ class GradeCrawler:
 
             if data_str:
                 # 정규식으로 경영실태평가 데이터 추출
-                # 패턴: 31000001 + (기관명) + | + (기준일: 2025-12-31 또는 20251231) + | + (등급)
-                pattern = re.compile(r"31000001([^\|]+)\|([0-9\-]{8,10})\|([0-9])")
+                # 패턴: 31000001 + (기관명) + | + (기준일: 2025-12-31, 2025.12.31 또는 20251231) + | + (등급)
+                pattern = re.compile(r"31000001([^\|]+)\|([0-9\-\.]{8,10})\|([0-9])")
                 matches = pattern.findall(data_str)
                 
                 if matches:
                     기관명, 기준일, 등급코드 = matches[0]
-                    # 날짜에서 하이픈 제거 (2025-12-31 -> 20251231)
-                    기준일 = 기준일.replace("-", "")
+                    # 날짜에서 특수문자 제거 (2025-12-31, 2025.12.31 -> 20251231)
+                    기준일 = 기준일.replace("-", "").replace(".", "")
                     
                     grade_info = GRADE_MAP.get(등급코드, {"name": "알수없음", "description": "등급 정보 없음"})
                     
-                    # BIS 비율 추출 (위험가중자산대비자기자본비율 또는 순자본비율)
-                    # 명칭 앞뒤에 특수문자나 코드가 붙을 수 있으므로 유연하게 매칭
+                    # BIS 비율 추출
                     bis_pattern = re.compile(r"25000001[^\|]+\|[^\|]*(?:위험가중자산대비\s*자기자본비율|순자본비율)[^\|]*\|([^\|]+)")
                     bis_matches = bis_pattern.findall(data_str)
+                    
+                    # 텍스트 매칭 실패 시 25000001 섹션의 첫 번째 값 시도 (강력한 Fallback)
+                    if not bis_matches:
+                        bis_pattern = re.compile(r"25000001[^\|]+\|[^\|]+\|([^\|]+)")
+                        bis_matches = bis_pattern.findall(data_str)
+                        
                     bis_ratio = bis_matches[0] if bis_matches else "0.00"
                     
                     # 출자배당율 추출
                     dividend_pattern = re.compile(r"14000003[^\|]*출자배당율[^\|]*\|([^\|]+)")
                     dividend_matches = dividend_pattern.findall(data_str)
+                    
+                    # 텍스트 매칭 실패 시 14000003 섹션의 첫 번째 값 시도
+                    if not dividend_matches:
+                        dividend_pattern = re.compile(r"14000003[^\|]+\|([^\|]+)")
+                        dividend_matches = dividend_pattern.findall(data_str)
+                        
                     dividend_rate = dividend_matches[0] if dividend_matches else "0.00"
                     
                     return {
