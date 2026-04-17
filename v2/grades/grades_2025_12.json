@@ -1,7 +1,7 @@
 {
   "collection_info": {
-    "collected_at": "2026-04-17T11:09:19.545723",
-    "total_banks": 1228,
+    "collected_at": "2026-04-17T11:54:08.518041",
+    "total_banks": 1231,
     "evaluation_year": "2025",
     "evaluation_month": 12
   },
@@ -20879,6 +20879,57 @@
       "dividend_rate": "0",
       "dividend_rate_year": "2025",
       "collected_at": "2026-04-01T08:28:05.196637",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "0142",
+      "bank_name": "종로광장(본점)",
+      "province": "서울",
+      "district": "종로구",
+      "evaluation_agency": "종로광장새마을금고",
+      "evaluation_date": "20251231",
+      "grade_code": "2",
+      "grade_name": "양호",
+      "grade_description": "경영상태가 양호한 상태",
+      "bis_ratio": "15.54",
+      "dividend_rate": "2.4966",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T11:54:03.000931",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "2227",
+      "bank_name": "희망(본점)",
+      "province": "인천",
+      "district": "동구",
+      "evaluation_agency": "자체평가",
+      "evaluation_date": "20251231",
+      "grade_code": "4",
+      "grade_name": "취약",
+      "grade_description": "경영상태가 취약한 상태",
+      "bis_ratio": "3.87",
+      "dividend_rate": "0",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T11:54:03.427561",
+      "evaluation_year": "2025",
+      "evaluation_month": 12
+    },
+    {
+      "gmgo_cd": "6710",
+      "bank_name": "대포(본점)",
+      "province": "제주",
+      "district": "서귀포시",
+      "evaluation_agency": "대포새마을금고",
+      "evaluation_date": "20251231",
+      "grade_code": "3",
+      "grade_name": "보통",
+      "grade_description": "경영상태가 보통인 상태",
+      "bis_ratio": "2.57",
+      "dividend_rate": "0",
+      "dividend_rate_year": "2025",
+      "collected_at": "2026-04-17T11:54:08.396327",
       "evaluation_year": "2025",
       "evaluation_month": 12
     }
