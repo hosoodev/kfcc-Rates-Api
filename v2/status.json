@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-04-19T03:05:18.376348",
-  "last_modified_at": "2026-04-19T03:05:18.376348",
+  "last_checked_at": "2026-04-19T03:06:43.831250",
+  "last_modified_at": "2026-04-19T03:06:43.831250",
   "status": "success",
-  "description": "성공: 총 2605개 금고(청담동(본점), 서울금남(본점), 남광주(본점), 중랑서부(본점), 오봉(본점) 외 1037곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2605개 금고(신문경(본점), 삼청(본점), 필동(본점), 성당(본점), 보령시(본점) 외 1037곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-19T03:05:18.376348",
+      "last_updated_at": "2026-04-19T03:06:43.831250",
       "updated_banks_count": 816,
       "description": "816개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -833,7 +833,7 @@
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-19T03:05:18.376348",
+      "last_updated_at": "2026-04-19T03:06:43.831250",
       "updated_banks_count": 717,
       "description": "717개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1559,7 +1559,7 @@
     "demand": {
       "total_banks": 1234,
       "total_items": 2341,
-      "last_updated_at": "2026-04-19T03:05:18.376348",
+      "last_updated_at": "2026-04-19T03:06:43.831250",
       "updated_banks_count": 1072,
       "description": "1072개 금고 금리 변동 발생",
       "changed_bank_names": [
