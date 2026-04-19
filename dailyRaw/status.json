@@ -1,33 +1,60 @@
 {
-  "last_checked_at": "2026-04-19T03:05:19.711601",
-  "last_modified_at": "2026-04-18T03:12:26.040872",
+  "last_checked_at": "2026-04-20T03:04:11.453915",
+  "last_modified_at": "2026-04-20T03:04:11.453915",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 24개 금고(푸른(진월지구), 서제주(본점), 울진(본점), 도화2동(본점), 태종대(본점) 외 12곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
-      "total_banks": 1007,
-      "total_items": 1007,
-      "last_updated_at": "2026-04-18T03:12:26.040872",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "total_banks": 1008,
+      "total_items": 1008,
+      "last_updated_at": "2026-04-20T03:04:11.453915",
+      "updated_banks_count": 15,
+      "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "용문후암(본점)",
+        "민락동(본점)",
+        "종로중앙(본점)",
+        "태종대(본점)",
+        "도화2동(본점)",
+        "산곡(본점)",
+        "청구로(본점)",
+        "동명(본점)",
+        "푸른(진월지구)",
+        "무진(본점)",
+        "단양(본점)",
+        "신전주(본점)",
+        "울진(본점)",
+        "서제주(본점)"
+      ],
+      "description": "15개 금고 금리 변동 발생"
     },
     "saving": {
-      "total_banks": 893,
-      "total_items": 1715,
-      "last_updated_at": "2026-04-18T03:12:26.040872",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "total_banks": 894,
+      "total_items": 1716,
+      "last_updated_at": "2026-04-20T03:04:11.453915",
+      "updated_banks_count": 6,
+      "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "부산서부(오션시티)",
+        "도화2동(본점)",
+        "단양(본점)",
+        "울진(본점)",
+        "서제주(본점)"
+      ],
+      "description": "6개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1234,
-      "total_items": 2341,
-      "last_updated_at": "2026-04-18T03:12:26.040872",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "total_items": 2342,
+      "last_updated_at": "2026-04-20T03:04:11.453915",
+      "updated_banks_count": 3,
+      "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "전남대학교병원(본점)",
+        "서제주(본점)"
+      ],
+      "description": "3개 금고 금리 변동 발생"
     }
   }
 }
