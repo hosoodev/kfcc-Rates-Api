@@ -1,39 +1,60 @@
 {
-  "last_checked_at": "2026-04-19T21:29:36.554771",
-  "last_modified_at": "2026-04-19T21:29:36.554771",
+  "last_checked_at": "2026-04-20T02:29:42.756251",
+  "last_modified_at": "2026-04-20T02:29:42.756251",
   "status": "success",
-  "description": "성공: 총 4개 금고(서달로(본점), 세검정(본점), 도량(본점), 도개(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 24개 금고(울진(본점), 신전주(본점), 동명(본점), 산곡(본점), 성북제일(본점) 외 17곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-19T21:29:36.554771",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-20T02:29:42.756251",
+      "updated_banks_count": 10,
+      "description": "10개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "세검정(본점)",
-        "도량(본점)",
-        "도개(본점)"
+        "성북제일(본점)",
+        "용문후암(본점)",
+        "태종대(본점)",
+        "도화2동(본점)",
+        "산곡(본점)",
+        "푸른(진월지구)",
+        "무진(본점)",
+        "동명(본점)",
+        "단양(본점)",
+        "신전주(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-19T21:29:36.554771",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-20T02:29:42.756251",
+      "updated_banks_count": 13,
+      "description": "13개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서달로(본점)"
+        "부산서부(오션시티)",
+        "전포(본점)",
+        "초읍동(본점)",
+        "당감1동(본점)",
+        "부암3동(본점)",
+        "당감동(본점)",
+        "우리부산(본점)",
+        "도화2동(본점)",
+        "미래(본점)",
+        "북대구(본점)",
+        "단양(본점)",
+        "울진(본점)",
+        "호남(본점)"
       ]
     },
     "demand": {
       "total_banks": 1234,
-      "total_items": 2341,
-      "last_updated_at": "2026-04-19T03:06:43.831250",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "total_items": 2342,
+      "last_updated_at": "2026-04-20T02:29:42.756251",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서제주(본점)"
+      ]
     }
   }
 }
