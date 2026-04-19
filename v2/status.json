@@ -1,25 +1,31 @@
 {
-  "last_checked_at": "2026-04-19T18:29:43.044975",
-  "last_modified_at": "2026-04-19T03:06:43.831250",
+  "last_checked_at": "2026-04-19T21:29:36.554771",
+  "last_modified_at": "2026-04-19T21:29:36.554771",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 4개 금고(서달로(본점), 세검정(본점), 도량(본점), 도개(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-04-19T03:06:43.831250",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-19T21:29:36.554771",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "세검정(본점)",
+        "도량(본점)",
+        "도개(본점)"
+      ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1715,
-      "last_updated_at": "2026-04-19T03:06:43.831250",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-19T21:29:36.554771",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서달로(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
