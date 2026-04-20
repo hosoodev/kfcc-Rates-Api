@@ -1,25 +1,48 @@
 {
-  "last_checked_at": "2026-04-20T21:29:53.893986",
-  "last_modified_at": "2026-04-20T18:29:49.122063",
+  "last_checked_at": "2026-04-21T02:29:42.580795",
+  "last_modified_at": "2026-04-21T02:29:42.580795",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 21개 금고(새인천(본점), 예향(본점), 성수2가1동(본점), 새비산(본점), 능동(본점) 외 14곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-20T18:29:49.122063",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-21T02:29:42.580795",
+      "updated_banks_count": 15,
+      "description": "15개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도(본점)",
+        "동작(본점)",
+        "성수2가1동(본점)",
+        "효창(본점)",
+        "영도(본점)",
+        "새인천(본점)",
+        "더조은(본점)",
+        "예향(본점)",
+        "남양주중앙(본점)",
+        "당진서부(본점)",
+        "상모(본점)",
+        "구미강동(본점)",
+        "새비산(본점)",
+        "해평(본점)",
+        "진해(본점)"
+      ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-20T14:29:53.798876",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-21T02:29:42.580795",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연희(본점)",
+        "능동(본점)",
+        "영도(본점)",
+        "호남(본점)",
+        "서제주(본점)",
+        "진해(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
