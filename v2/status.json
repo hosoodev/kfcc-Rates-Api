@@ -1,26 +1,26 @@
 {
-  "last_checked_at": "2026-04-21T10:29:43.141842",
-  "last_modified_at": "2026-04-21T10:29:43.141842",
+  "last_checked_at": "2026-04-21T12:29:48.222136",
+  "last_modified_at": "2026-04-21T12:29:48.222136",
   "status": "success",
-  "description": "성공: 총 9개 금고(공산(본점), 행복(본점), 중앙(본점), 안암동(본점), 효창(본점) 외 4곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(상모(본점), 중앙(본점), 흑석(본점), 상도(본점), 안암동(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-21T10:29:43.141842",
+      "last_updated_at": "2026-04-21T12:29:48.222136",
       "updated_banks_count": 9,
       "description": "9개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울송파(본점)",
-        "가락(본점)",
         "흑석(본점)",
+        "상도(본점)",
         "안암동(본점)",
-        "효창(본점)",
-        "남구희망(본점)",
-        "행복(본점)",
+        "대학로(본점)",
         "공산(본점)",
-        "중앙(본점)"
+        "아양(본점)",
+        "중앙(본점)",
+        "상모(본점)"
       ]
     },
     "saving": {
@@ -33,11 +33,13 @@
     },
     "demand": {
       "total_banks": 1234,
-      "total_items": 2342,
-      "last_updated_at": "2026-04-21T03:21:49.096194",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "total_items": 2343,
+      "last_updated_at": "2026-04-21T12:29:48.222136",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "수성1가(본점)"
+      ]
     }
   }
 }
