@@ -1,28 +1,49 @@
 {
-  "last_checked_at": "2026-04-22T21:30:48.391780",
-  "last_modified_at": "2026-04-22T21:30:48.391780",
+  "last_checked_at": "2026-04-23T02:30:45.070619",
+  "last_modified_at": "2026-04-23T02:30:45.070619",
   "status": "success",
-  "description": "성공: 총 2개 금고(상도(본점), 북구(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 22개 금고(서울성동(본점), 서달로(본점), 아현(본점), 성수1가(본점), 정읍(본점) 외 16곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-22T21:30:48.391780",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-23T02:30:45.070619",
+      "updated_banks_count": 18,
+      "description": "18개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)",
-        "북구(본점)"
+        "서달로(본점)",
+        "신도림(본점)",
+        "아현(본점)",
+        "노원(본점)",
+        "우리들(본점)",
+        "광진자양(본점)",
+        "성수1가(본점)",
+        "서울숲(본점)",
+        "서울성동(본점)",
+        "산곡(본점)",
+        "와룡(본점)",
+        "남한산성(본점)",
+        "천안미래(본점)",
+        "정읍(본점)",
+        "안동(본점)",
+        "도량(본점)",
+        "중앙(본점)",
+        "구미(본점)"
       ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-22T12:30:53.975121",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-23T02:30:45.070619",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연지동(본점)",
+        "당감2동(본점)",
+        "신당(본점)",
+        "남한산성(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
