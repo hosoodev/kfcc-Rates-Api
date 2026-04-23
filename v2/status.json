@@ -1,18 +1,22 @@
 {
-  "last_checked_at": "2026-04-23T12:30:43.304391",
-  "last_modified_at": "2026-04-23T12:30:43.304391",
+  "last_checked_at": "2026-04-23T14:30:34.293354",
+  "last_modified_at": "2026-04-23T14:30:34.293354",
   "status": "success",
-  "description": "성공: 총 1개 금고(마포중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(상도중앙(본점), 가락(본점), 상도(본점), 안암동(본점), 광진자양(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-23T12:30:43.304391",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-23T14:30:34.293354",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "마포중앙(본점)"
+        "가락(본점)",
+        "상도(본점)",
+        "상도중앙(본점)",
+        "광진자양(본점)",
+        "안암동(본점)"
       ]
     },
     "saving": {
