@@ -1,31 +1,32 @@
 {
-  "last_checked_at": "2026-04-24T12:30:54.658267",
-  "last_modified_at": "2026-04-24T12:30:54.658267",
+  "last_checked_at": "2026-04-24T14:30:35.790989",
+  "last_modified_at": "2026-04-24T14:30:35.790989",
   "status": "success",
-  "description": "성공: 총 5개 금고(성수2가1동(본점), 대명(본점), 구미강동(본점), 상도중앙(본점), 중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(동작(본점), 하나동산(본점), 안암동(본점), 흑석(본점), 광진자양(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-24T12:30:54.658267",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-24T14:30:35.790989",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도중앙(본점)",
-        "성수2가1동(본점)",
-        "대명(본점)",
-        "중앙(본점)",
-        "구미강동(본점)"
+        "흑석(본점)",
+        "동작(본점)",
+        "광진자양(본점)",
+        "안암동(본점)"
       ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-24T03:29:51.146913",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-24T14:30:35.790989",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "하나동산(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
