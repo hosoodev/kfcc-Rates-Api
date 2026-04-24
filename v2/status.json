@@ -1,28 +1,45 @@
 {
-  "last_checked_at": "2026-04-24T21:30:39.355103",
-  "last_modified_at": "2026-04-24T21:30:39.355103",
+  "last_checked_at": "2026-04-25T02:30:40.637583",
+  "last_modified_at": "2026-04-25T02:30:40.637583",
   "status": "success",
-  "description": "성공: 총 2개 금고(효창(본점), 서울누리(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 18개 금고(서울누리(본점), 성북(본점), 영등포중앙(본점), 금오(본점), 원남(본점) 외 13곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-24T21:30:39.355103",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-25T02:30:40.637583",
+      "updated_banks_count": 14,
+      "description": "14개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울누리(본점)",
-        "효창(본점)"
+        "영등포중앙(본점)",
+        "대림동(본점)",
+        "염창동(본점)",
+        "성북(본점)",
+        "한남동(본점)",
+        "대흥(본점)",
+        "남양주중앙(본점)",
+        "화령(본점)",
+        "금오(본점)",
+        "사곡(본점)",
+        "원남(본점)",
+        "형곡(본점)",
+        "법환(본점)",
+        "의귀(본점)"
       ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-24T14:30:35.790989",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-25T02:30:40.637583",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "성북제일(본점)",
+        "서울누리(본점)",
+        "미래(본점)",
+        "북대구(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
