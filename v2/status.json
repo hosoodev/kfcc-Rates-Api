@@ -1,28 +1,36 @@
 {
-  "last_checked_at": "2026-04-25T21:30:45.366422",
-  "last_modified_at": "2026-04-25T21:30:45.366422",
+  "last_checked_at": "2026-04-26T02:31:05.079679",
+  "last_modified_at": "2026-04-26T02:31:05.079679",
   "status": "success",
-  "description": "성공: 총 2개 금고(법환(본점), 하원(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(당감1동(본점), 부암3동(본점), 우리부산(본점), 당감2동(본점), 전포(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
       "last_updated_at": "2026-04-25T21:30:45.366422",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "법환(본점)",
-        "하원(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-25T14:30:54.856255",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-26T02:31:05.079679",
+      "updated_banks_count": 10,
+      "description": "10개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "한양(본점)",
+        "월곡(본점)",
+        "연지동(본점)",
+        "초읍동(본점)",
+        "전포(본점)",
+        "당감1동(본점)",
+        "당감2동(본점)",
+        "부암3동(본점)",
+        "당감동(본점)",
+        "우리부산(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
