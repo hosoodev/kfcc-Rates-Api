@@ -1,50 +1,41 @@
 {
-  "last_checked_at": "2026-04-25T03:09:24.762613",
-  "last_modified_at": "2026-04-25T03:09:24.762613",
+  "last_checked_at": "2026-04-26T03:07:12.735623",
+  "last_modified_at": "2026-04-26T03:07:12.735623",
   "status": "success",
-  "description": "성공: 총 14개 금고(대림동(본점), 광진자양(본점), 한국마사회(본점), 화령(본점), 전남대학교병원(빛고을전남대학교병원) 외 7곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(서울산(천상), 새울산(온양), 서울개인택시조합(강동))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-25T03:09:24.762613",
-      "updated_banks_count": 10,
+      "last_updated_at": "2026-04-26T03:07:12.735623",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "영등포중앙(본점)",
-        "대림동(본점)",
-        "광진자양(본점)",
-        "성북(본점)",
-        "한남동(본점)",
-        "푸른(진월지구)",
-        "대흥(본점)",
-        "남양주중앙(본점)",
-        "화령(본점)"
+        "서울개인택시조합(강동)"
       ],
-      "description": "10개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-25T03:09:24.762613",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-04-26T03:07:12.735623",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "한국마사회(본점)"
+        "서울개인택시조합(강동)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1234,
       "total_items": 2343,
-      "last_updated_at": "2026-04-25T03:09:24.762613",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-04-26T03:07:12.735623",
+      "updated_banks_count": 3,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "전남대학교병원(빛고을전남대학교병원)"
+        "서울개인택시조합(강동)",
+        "새울산(온양)",
+        "서울산(천상)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "3개 금고 금리 변동 발생"
     }
   }
 }
