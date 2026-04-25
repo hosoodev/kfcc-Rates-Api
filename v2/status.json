@@ -1,19 +1,17 @@
 {
-  "last_checked_at": "2026-04-25T10:30:42.912455",
+  "last_checked_at": "2026-04-25T12:30:47.078285",
   "last_modified_at": "2026-04-25T10:30:42.912455",
   "status": "success",
-  "description": "성공: 총 1개 금고(정읍(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
       "last_updated_at": "2026-04-25T10:30:42.912455",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "정읍(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 894,
