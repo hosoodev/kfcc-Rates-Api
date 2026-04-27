@@ -1,20 +1,19 @@
 {
-  "last_checked_at": "2026-04-27T18:30:43.794388",
-  "last_modified_at": "2026-04-27T18:30:43.794388",
+  "last_checked_at": "2026-04-27T21:30:49.234692",
+  "last_modified_at": "2026-04-27T21:30:49.234692",
   "status": "success",
-  "description": "성공: 총 3개 금고(구미강동(본점), 성수2가1동(본점), 하나동산(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(남양주중앙(본점), 효창(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-27T18:30:43.794388",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-27T21:30:49.234692",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성수2가1동(본점)",
-        "하나동산(본점)",
-        "구미강동(본점)"
+        "효창(본점)",
+        "남양주중앙(본점)"
       ]
     },
     "saving": {
