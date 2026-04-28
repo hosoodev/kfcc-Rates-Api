@@ -1,33 +1,67 @@
 {
-  "last_checked_at": "2026-04-28T21:30:45.008006",
-  "last_modified_at": "2026-04-28T18:30:48.342452",
+  "last_checked_at": "2026-04-29T02:30:43.492298",
+  "last_modified_at": "2026-04-29T02:30:43.492298",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 31개 금고(서초제일(본점), 서제주(본점), 노량진(본점), 한양(본점), 제일(본점) 외 24곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-28T18:30:48.342452",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-29T02:30:43.492298",
+      "updated_banks_count": 24,
+      "description": "24개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서초제일(본점)",
+        "노량진(본점)",
+        "중랑으뜸(본점)",
+        "안암동(본점)",
+        "한양(본점)",
+        "이태원1동(본점)",
+        "국제시장(본점)",
+        "주안동신기(본점)",
+        "검단(다사)",
+        "신당(본점)",
+        "신천(본점)",
+        "아양(본점)",
+        "더조은(본점)",
+        "제일(본점)",
+        "창신(본점)",
+        "금정(본점)",
+        "부천(본점)",
+        "서호(본점)",
+        "남부안(본점)",
+        "여수한려(본점)",
+        "금오(본점)",
+        "도량(본점)",
+        "고아(본점)",
+        "대포(본점)"
+      ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-04-28T10:30:50.340487",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-29T02:30:43.492298",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "북성(본점)",
+        "북대구(본점)",
+        "서호(본점)",
+        "남부안(본점)",
+        "서제주(본점)",
+        "참조은(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
       "total_items": 2343,
-      "last_updated_at": "2026-04-28T03:31:21.939834",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-04-29T02:30:43.492298",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "부림(본점)"
+      ]
     }
   }
 }
