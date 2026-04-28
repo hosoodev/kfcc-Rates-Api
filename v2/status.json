@@ -1,48 +1,27 @@
 {
-  "last_checked_at": "2026-04-28T10:30:50.340487",
-  "last_modified_at": "2026-04-28T10:30:50.340487",
+  "last_checked_at": "2026-04-28T12:30:42.724456",
+  "last_modified_at": "2026-04-28T12:30:42.724456",
   "status": "success",
-  "description": "성공: 총 21개 금고(하원(본점), 정읍(본점), 하나동산(본점), 효창(본점), 월곡(본점) 외 15곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(제기동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-28T10:30:50.340487",
-      "updated_banks_count": 19,
-      "description": "19개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-28T12:30:42.724456",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "흑석(본점)",
-        "상도(본점)",
-        "서달로(본점)",
-        "영등포당산(본점)",
-        "월곡(본점)",
-        "성동행당(본점)",
-        "서울축산(본점)",
-        "청파(본점)",
-        "효창(본점)",
-        "대흥(본점)",
-        "정읍(본점)",
-        "금오(본점)",
-        "도량(본점)",
-        "도개(본점)",
-        "형곡(본점)",
-        "해평(본점)",
-        "호근(본점)",
-        "법환(본점)",
-        "하원(본점)"
+        "제기동(본점)"
       ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
       "last_updated_at": "2026-04-28T10:30:50.340487",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "상도(본점)",
-        "하나동산(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1234,
