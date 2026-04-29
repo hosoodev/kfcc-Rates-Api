@@ -1,18 +1,20 @@
 {
-  "last_checked_at": "2026-04-29T18:30:49.894486",
-  "last_modified_at": "2026-04-29T18:30:49.894486",
+  "last_checked_at": "2026-04-29T21:30:46.971233",
+  "last_modified_at": "2026-04-29T21:30:46.971233",
   "status": "success",
-  "description": "성공: 총 1개 금고(도림(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(보광동(본점), 서초제일(본점), 이태원1동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-04-29T18:30:49.894486",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-04-29T21:30:46.971233",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "도림(본점)"
+        "서초제일(본점)",
+        "이태원1동(본점)",
+        "보광동(본점)"
       ]
     },
     "saving": {
