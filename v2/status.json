@@ -1,25 +1,34 @@
 {
-  "last_checked_at": "2026-05-01T21:30:55.599734",
-  "last_modified_at": "2026-05-01T14:30:51.023808",
+  "last_checked_at": "2026-05-02T02:30:55.465038",
+  "last_modified_at": "2026-05-02T02:30:55.465038",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 7개 금고(당감2동(본점), 양평(본점), 낙원(본점), 우리부산(본점), 미래(본점) 외 2곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-05-01T12:30:44.604043",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-02T02:30:55.465038",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "지저(본점)",
+        "낙원(본점)"
+      ]
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-05-01T14:30:51.023808",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-02T02:30:55.465038",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "당감2동(본점)",
+        "우리부산(본점)",
+        "북성(본점)",
+        "미래(본점)",
+        "양평(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
