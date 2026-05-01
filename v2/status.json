@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-05-02T03:20:37.111474",
-  "last_modified_at": "2026-05-02T03:20:37.111474",
+  "last_checked_at": "2026-05-02T03:21:48.882283",
+  "last_modified_at": "2026-05-02T03:21:48.882283",
   "status": "success",
-  "description": "성공: 총 2605개 금고(사직1동(본점), 동울산(본점), 상무(본점), 신안(본점), 신포항(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2605개 금고(구산동(본점), 아라(본점), 산미(본점), 형곡(본점), 새남해(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-05-02T03:20:37.111474",
+      "last_updated_at": "2026-05-02T03:21:48.882283",
       "updated_banks_count": 815,
       "description": "815개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -832,7 +832,7 @@
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-05-02T03:20:37.111474",
+      "last_updated_at": "2026-05-02T03:21:48.882283",
       "updated_banks_count": 716,
       "description": "716개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1557,7 +1557,7 @@
     "demand": {
       "total_banks": 1234,
       "total_items": 2343,
-      "last_updated_at": "2026-05-02T03:20:37.111474",
+      "last_updated_at": "2026-05-02T03:21:48.882283",
       "updated_banks_count": 1074,
       "description": "1074개 금고 금리 변동 발생",
       "changed_bank_names": [
