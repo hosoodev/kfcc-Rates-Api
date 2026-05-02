@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-05-03T03:12:34.717811",
-  "last_modified_at": "2026-05-03T03:12:34.717811",
+  "last_checked_at": "2026-05-03T03:13:56.766768",
+  "last_modified_at": "2026-05-03T03:13:56.766768",
   "status": "success",
-  "description": "성공: 총 2606개 금고(비석(본점), 이원(본점), 평창(본점), 동경주(본점), 망경(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2604개 금고(이태원1동(본점), 명장2동(본점), 망원(본점), 주안(본점), 서제주(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-05-03T03:12:34.717811",
-      "updated_banks_count": 815,
-      "description": "815개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-03T03:13:56.766768",
+      "updated_banks_count": 814,
+      "description": "814개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "청담동(본점)",
@@ -250,7 +250,6 @@
         "주안(본점)",
         "주안동신기(본점)",
         "남인천(본점)",
-        "관교문학동(본점)",
         "숭의(본점)",
         "석바위(본점)",
         "송도(본점)",
@@ -832,9 +831,9 @@
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-05-03T03:12:34.717811",
-      "updated_banks_count": 717,
-      "description": "717개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-03T03:13:56.766768",
+      "updated_banks_count": 716,
+      "description": "716개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "신강동(본점)",
@@ -1044,7 +1043,6 @@
         "새인천(본점)",
         "도화2동(본점)",
         "주안동신기(본점)",
-        "관교문학동(본점)",
         "석바위(본점)",
         "송도(본점)",
         "연수(본점)",
@@ -1558,7 +1556,7 @@
     "demand": {
       "total_banks": 1234,
       "total_items": 2343,
-      "last_updated_at": "2026-05-03T03:12:34.717811",
+      "last_updated_at": "2026-05-03T03:13:56.766768",
       "updated_banks_count": 1074,
       "description": "1074개 금고 금리 변동 발생",
       "changed_bank_names": [
