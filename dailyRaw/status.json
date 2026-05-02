@@ -1,35 +1,42 @@
 {
-  "last_checked_at": "2026-05-02T03:20:38.086345",
-  "last_modified_at": "2026-05-02T03:20:38.086345",
+  "last_checked_at": "2026-05-03T03:12:35.990057",
+  "last_modified_at": "2026-05-03T03:12:35.990057",
   "status": "success",
-  "description": "성공: 총 1개 금고(낙원(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 6개 금고(관교문학동(본점), 종로광장(본점), 새울산(본점), 서울산(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1008,
       "total_items": 1008,
-      "last_updated_at": "2026-05-02T03:20:38.086345",
-      "updated_banks_count": 1,
+      "last_updated_at": "2026-05-03T03:12:35.990057",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "낙원(본점)"
+        "종로광장(본점)",
+        "관교문학동(본점)"
       ],
-      "description": "1개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-05-01T03:34:36.182265",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-05-03T03:12:35.990057",
+      "updated_banks_count": 1,
+      "changed_bank_names": [
+        "관교문학동(본점)"
+      ],
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1234,
       "total_items": 2343,
-      "last_updated_at": "2026-04-30T03:35:04.335459",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-05-03T03:12:35.990057",
+      "updated_banks_count": 3,
+      "changed_bank_names": [
+        "관교문학동(본점)",
+        "새울산(본점)",
+        "서울산(본점)"
+      ],
+      "description": "3개 금고 금리 변동 발생"
     }
   }
 }
