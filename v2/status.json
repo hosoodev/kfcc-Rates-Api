@@ -1,8 +1,8 @@
 {
-  "last_checked_at": "2026-05-02T14:30:58.030531",
-  "last_modified_at": "2026-05-02T03:21:48.882283",
+  "last_checked_at": "2026-05-02T16:30:45.924445",
+  "last_modified_at": "2026-05-02T16:30:45.924445",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 1개 금고(연산6동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
@@ -16,10 +16,12 @@
     "saving": {
       "total_banks": 894,
       "total_items": 1716,
-      "last_updated_at": "2026-05-02T03:21:48.882283",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-02T16:30:45.924445",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연산6동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1234,
