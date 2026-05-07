@@ -1,19 +1,21 @@
 {
-  "last_checked_at": "2026-05-07T14:30:48.342313",
-  "last_modified_at": "2026-05-07T14:30:48.342313",
+  "last_checked_at": "2026-05-07T16:30:50.152687",
+  "last_modified_at": "2026-05-07T16:30:50.152687",
   "status": "success",
-  "description": "성공: 총 2개 금고(신길(본점), 과천(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(구미(본점), 나주동부(본점), 회기휘경(본점), 도량(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-07T14:30:48.342313",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-07T16:30:50.152687",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신길(본점)",
-        "과천(본점)"
+        "회기휘경(본점)",
+        "나주동부(본점)",
+        "도량(본점)",
+        "구미(본점)"
       ]
     },
     "saving": {
