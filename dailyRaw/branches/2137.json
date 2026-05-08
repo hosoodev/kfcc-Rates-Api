@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T04:07:00+09:00",
+  "updated_at": "2026-05-09T03:34:24+09:00",
   "gmgoCd": "2137",
   "name": "행복",
   "meta": {
@@ -68,12 +68,6 @@
   "disclosure_history": [],
   "nearby_branches": [
     {
-      "gmgoCd": "2102",
-      "name": "대성",
-      "province": "대구",
-      "district": "달서구"
-    },
-    {
       "gmgoCd": "2103",
       "name": "두류1.2동",
       "province": "대구",
@@ -94,6 +88,12 @@
     {
       "gmgoCd": "2107",
       "name": "우리",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2108",
+      "name": "서부",
       "province": "대구",
       "district": "달서구"
     }

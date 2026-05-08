@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T02:30:55+09:00",
+  "updated_at": "2026-05-09T03:34:22+09:00",
   "gmgoCd": "2109",
   "name": "달서",
   "meta": {
@@ -69,12 +69,6 @@
   ],
   "nearby_branches": [
     {
-      "gmgoCd": "2102",
-      "name": "대성",
-      "province": "대구",
-      "district": "달서구"
-    },
-    {
       "gmgoCd": "2103",
       "name": "두류1.2동",
       "province": "대구",
@@ -95,6 +89,12 @@
     {
       "gmgoCd": "2107",
       "name": "우리",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2108",
+      "name": "서부",
       "province": "대구",
       "district": "달서구"
     }
