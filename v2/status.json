@@ -1,35 +1,29 @@
 {
-  "last_checked_at": "2026-05-11T10:30:51.452729",
-  "last_modified_at": "2026-05-11T10:30:51.452729",
+  "last_checked_at": "2026-05-11T12:30:40.901113",
+  "last_modified_at": "2026-05-11T12:30:40.901113",
   "status": "success",
-  "description": "성공: 총 9개 금고(선영(본점), 상모(본점), 영등포당산(본점), 해평(본점), 중대구(본점) 외 4곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(연희(본점), 나주동부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1006,
       "total_items": 1006,
-      "last_updated_at": "2026-05-11T10:30:51.452729",
-      "updated_banks_count": 9,
-      "description": "9개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-11T12:30:40.901113",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서초(본점)",
-        "한강(본점)",
-        "영등포당산(본점)",
-        "광진제일(본점)",
-        "중대구(본점)",
-        "선영(본점)",
-        "여수한려(본점)",
-        "상모(본점)",
-        "해평(본점)"
+        "나주동부(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-11T03:14:18.887389",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-11T12:30:40.901113",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연희(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1233,
