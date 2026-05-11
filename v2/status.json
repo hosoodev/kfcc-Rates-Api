@@ -1,20 +1,18 @@
 {
-  "last_checked_at": "2026-05-11T18:30:58.719023",
-  "last_modified_at": "2026-05-11T18:30:58.719023",
+  "last_checked_at": "2026-05-11T21:30:56.312438",
+  "last_modified_at": "2026-05-11T21:30:56.312438",
   "status": "success",
-  "description": "성공: 총 3개 금고(명덕(본점), 한강(본점), 노원(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(한강(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1006,
       "total_items": 1006,
-      "last_updated_at": "2026-05-11T18:30:58.719023",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-11T21:30:56.312438",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "한강(본점)",
-        "노원(본점)",
-        "명덕(본점)"
+        "한강(본점)"
       ]
     },
     "saving": {
