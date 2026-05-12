@@ -1,32 +1,27 @@
 {
-  "last_checked_at": "2026-05-12T16:30:50.081280",
-  "last_modified_at": "2026-05-12T16:30:50.081280",
+  "last_checked_at": "2026-05-12T18:30:51.828511",
+  "last_modified_at": "2026-05-12T18:30:51.828511",
   "status": "success",
-  "description": "성공: 총 5개 금고(중대구(본점), 신당(본점), 안양북부(본점), 늘푸른(본점), 화성(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(남구희망(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1006,
       "total_items": 1006,
-      "last_updated_at": "2026-05-12T16:30:50.081280",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-12T18:30:51.828511",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "중대구(본점)",
-        "안양북부(본점)",
-        "화성(본점)"
+        "남구희망(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
       "last_updated_at": "2026-05-12T16:30:50.081280",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "신당(본점)",
-        "늘푸른(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1233,
