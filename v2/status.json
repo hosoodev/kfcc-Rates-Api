@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-05-14T04:16:06.127154",
-  "last_modified_at": "2026-05-14T04:16:06.127154",
+  "last_checked_at": "2026-05-14T04:17:19.870738",
+  "last_modified_at": "2026-05-14T04:17:19.870738",
   "status": "success",
-  "description": "성공: 총 2618개 금고(구로(본점), 모충(본점), 시민(본점), 한양(본점), 남동(본점) 외 1039곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2616개 금고(북부천(본점), 동해남부(본점), 김제하나(본점), 신반월(본점), 서울으뜸(본점) 외 1039곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-14T04:16:06.127154",
-      "updated_banks_count": 840,
-      "description": "840개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-14T04:17:19.870738",
+      "updated_banks_count": 839,
+      "description": "839개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "청담동(본점)",
@@ -695,7 +695,6 @@
         "순천중부(본점)",
         "순천만(본점)",
         "영암우리(본점)",
-        "백수(본점)",
         "영암성실(본점)",
         "법성(본점)",
         "삼호(본점)",
@@ -857,9 +856,9 @@
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-14T04:16:06.127154",
-      "updated_banks_count": 706,
-      "description": "706개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-14T04:17:19.870738",
+      "updated_banks_count": 705,
+      "description": "705개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "서초(본점)",
@@ -1441,7 +1440,6 @@
         "순천북부(본점)",
         "순천중부(본점)",
         "순천만(본점)",
-        "백수(본점)",
         "법성(본점)",
         "여수엑스포(본점)",
         "여수중부(본점)",
@@ -1572,7 +1570,7 @@
     "demand": {
       "total_banks": 1233,
       "total_items": 2340,
-      "last_updated_at": "2026-05-14T04:16:06.127154",
+      "last_updated_at": "2026-05-14T04:17:19.870738",
       "updated_banks_count": 1072,
       "description": "1072개 금고 금리 변동 발생",
       "changed_bank_names": [
