@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T04:17:58+09:00",
+  "updated_at": "2026-05-14T04:16:06+09:00",
   "gmgoCd": "2208",
   "name": "동인천",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "인천",
       "district": "중구"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "동인천(신포)",
+        "address": "인천 중구 제물량로 150-2",
+        "phone": "032-763-1230",
+        "district": "중구"
+      }
+    ]
   },
   "rates": {
     "deposit": {
