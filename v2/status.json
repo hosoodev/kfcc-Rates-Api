@@ -1,27 +1,29 @@
 {
-  "last_checked_at": "2026-05-13T16:30:47.770135",
-  "last_modified_at": "2026-05-13T16:30:47.770135",
+  "last_checked_at": "2026-05-13T18:30:49.861009",
+  "last_modified_at": "2026-05-13T18:30:49.861009",
   "status": "success",
-  "description": "성공: 총 1개 금고(상도(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(서빙고동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-13T16:30:47.770135",
+      "last_updated_at": "2026-05-13T18:30:49.861009",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)"
+        "서빙고동(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-13T12:31:04.373355",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-13T18:30:49.861009",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서빙고동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1233,
