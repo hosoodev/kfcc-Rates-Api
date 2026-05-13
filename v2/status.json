@@ -1,29 +1,31 @@
 {
-  "last_checked_at": "2026-05-13T10:30:48.667479",
-  "last_modified_at": "2026-05-13T10:30:48.667479",
+  "last_checked_at": "2026-05-13T12:31:04.373355",
+  "last_modified_at": "2026-05-13T12:31:04.373355",
   "status": "success",
-  "description": "성공: 총 3개 금고(답십리(본점), 남구희망(본점), 백수(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(서빙고동(본점), 남구희망(본점), 늘푸른(본점), 우주(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-13T10:30:48.667479",
+      "last_updated_at": "2026-05-13T12:31:04.373355",
       "updated_banks_count": 3,
       "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "답십리(본점)",
+        "서빙고동(본점)",
         "남구희망(본점)",
-        "백수(본점)"
+        "우주(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-13T04:19:26.193669",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-13T12:31:04.373355",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "늘푸른(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1233,
