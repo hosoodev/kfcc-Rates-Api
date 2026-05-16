@@ -1,49 +1,39 @@
 {
-  "last_checked_at": "2026-05-16T04:01:34.957166",
-  "last_modified_at": "2026-05-16T04:01:34.957166",
+  "last_checked_at": "2026-05-17T03:16:31.745428",
+  "last_modified_at": "2026-05-17T03:16:31.745428",
   "status": "success",
-  "description": "성공: 총 15개 금고(영등포중앙(본점), 강남중앙(본점), 신암(본점), 바른(본점), 전남대학교병원(빛고을전남대학교병원) 외 8곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(새울산(본점), 서울산(본점), 서울개인택시조합(강남))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-16T04:01:34.957166",
-      "updated_banks_count": 11,
+      "last_updated_at": "2026-05-17T03:16:31.745428",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강동)",
-        "강남중앙(본점)",
-        "영등포중앙(본점)",
-        "광진(본점)",
-        "한강2동(본점)",
-        "신암(본점)",
-        "바른(본점)",
-        "유성온천(본점)",
-        "하남(본점)",
-        "조촌(본점)",
-        "예래동(본점)"
+        "서울개인택시조합(강남)"
       ],
-      "description": "11개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-16T04:01:34.957166",
+      "last_updated_at": "2026-05-17T03:16:31.745428",
       "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강동)"
+        "서울개인택시조합(강남)"
       ],
       "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1233,
       "total_items": 2340,
-      "last_updated_at": "2026-05-16T04:01:34.957166",
+      "last_updated_at": "2026-05-17T03:16:31.745428",
       "updated_banks_count": 3,
       "changed_bank_names": [
-        "서울개인택시조합(강동)",
-        "전남대학교병원(빛고을전남대학교병원)",
-        "파주(본점)"
+        "서울개인택시조합(강남)",
+        "새울산(본점)",
+        "서울산(본점)"
       ],
       "description": "3개 금고 금리 변동 발생"
     }
