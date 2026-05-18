@@ -1,27 +1,53 @@
 {
-  "last_checked_at": "2026-05-18T21:31:01.319903",
-  "last_modified_at": "2026-05-18T21:31:01.319903",
+  "last_checked_at": "2026-05-19T02:30:59.702503",
+  "last_modified_at": "2026-05-19T02:30:59.702503",
   "status": "success",
-  "description": "성공: 총 1개 금고(정릉(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 26개 금고(명덕(본점), 전포(본점), 제물포(본점), 산곡(본점), 무태(본점) 외 20곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-18T21:31:01.319903",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-19T02:30:59.702503",
+      "updated_banks_count": 19,
+      "description": "19개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "정릉(본점)"
+        "전농동(본점)",
+        "이태원1동(본점)",
+        "종로서부(본점)",
+        "대학로(본점)",
+        "명륜(본점)",
+        "종로광장(본점)",
+        "제물포(본점)",
+        "새인천(본점)",
+        "산곡(본점)",
+        "명덕(본점)",
+        "대경(본점)",
+        "무태(본점)",
+        "삼왕(본점)",
+        "금강(본점)",
+        "천안동부(본점)",
+        "남부(본점)",
+        "임오(본점)",
+        "제주남원동부(본점)",
+        "산남(본점)"
       ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-18T10:30:52.806460",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-19T02:30:59.702503",
+      "updated_banks_count": 7,
+      "description": "7개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "연지동(본점)",
+        "전포(본점)",
+        "초읍동(본점)",
+        "부암3동(본점)",
+        "우리부산(본점)",
+        "당감동(본점)",
+        "명덕(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1233,
