@@ -1,25 +1,36 @@
 {
-  "last_checked_at": "2026-05-19T08:30:57.502884",
-  "last_modified_at": "2026-05-19T04:13:47.743835",
+  "last_checked_at": "2026-05-19T10:30:43.787369",
+  "last_modified_at": "2026-05-19T10:30:43.787369",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 9개 금고(더좋은(본점), 중앙(본점), 동부(본점), 우주(본점), 여수한려(본점) 외 4곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-19T04:13:47.743835",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-19T10:30:43.787369",
+      "updated_banks_count": 8,
+      "description": "8개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "사당(본점)",
+        "더좋은(본점)",
+        "효창(본점)",
+        "동부(본점)",
+        "우주(본점)",
+        "여수한려(본점)",
+        "중앙(본점)",
+        "고아(본점)"
+      ]
     },
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-19T04:13:47.743835",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-19T10:30:43.787369",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "신흥(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1233,
