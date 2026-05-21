@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-05-22T04:22:21.000672",
-  "last_modified_at": "2026-05-22T04:22:21.000672",
+  "last_checked_at": "2026-05-22T04:23:49.576095",
+  "last_modified_at": "2026-05-22T04:23:49.576095",
   "status": "success",
-  "description": "성공: 총 2623개 금고(도량(본점), 오창(본점), 금빛(본점), 동해중앙(본점), 연희(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2621개 금고(광진제일(본점), 마포역(본점), 양평(본점), 동해해오름(본점), 문경제일(본점) 외 1038곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-22T04:22:21.000672",
-      "updated_banks_count": 850,
-      "description": "850개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-22T04:23:49.576095",
+      "updated_banks_count": 848,
+      "description": "848개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "청담동(본점)",
@@ -129,7 +129,6 @@
         "용답(본점)",
         "성동행당(본점)",
         "성수1가(본점)",
-        "서울성동(본점)",
         "용산(본점)",
         "효창(본점)",
         "용문후암(본점)",
@@ -398,7 +397,6 @@
         "정다운(본점)",
         "예향(본점)",
         "빛고을(본점)",
-        "동부(본점)",
         "대전서부(본점)",
         "대전대덕(본점)",
         "대청(본점)",
@@ -867,7 +865,7 @@
     "saving": {
       "total_banks": 893,
       "total_items": 1714,
-      "last_updated_at": "2026-05-22T04:22:21.000672",
+      "last_updated_at": "2026-05-22T04:23:49.576095",
       "updated_banks_count": 701,
       "description": "701개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1577,7 +1575,7 @@
     "demand": {
       "total_banks": 1233,
       "total_items": 2340,
-      "last_updated_at": "2026-05-22T04:22:21.000672",
+      "last_updated_at": "2026-05-22T04:23:49.576095",
       "updated_banks_count": 1072,
       "description": "1072개 금고 금리 변동 발생",
       "changed_bank_names": [
