@@ -1,19 +1,22 @@
 {
-  "last_checked_at": "2026-05-21T08:30:55.236029",
-  "last_modified_at": "2026-05-21T08:30:55.236029",
+  "last_checked_at": "2026-05-21T10:30:58.871295",
+  "last_modified_at": "2026-05-21T10:30:58.871295",
   "status": "success",
-  "description": "성공: 총 2개 금고(더좋은(본점), 서울성동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(서울축산(본점), 도림(본점), 중대구(본점), 성북(본점), 낙원(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-05-21T08:30:55.236029",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-21T10:30:58.871295",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "더좋은(본점)",
-        "서울성동(본점)"
+        "도림(본점)",
+        "성북(본점)",
+        "서울축산(본점)",
+        "중대구(본점)",
+        "낙원(본점)"
       ]
     },
     "saving": {
