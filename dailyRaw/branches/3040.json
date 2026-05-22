@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T04:22:21+09:00",
+  "updated_at": "2026-05-23T04:12:34+09:00",
   "gmgoCd": "3040",
   "name": "대전대덕",
   "meta": {
@@ -92,18 +92,6 @@
     {
       "gmgoCd": "0741",
       "name": "한국앤컴퍼니",
-      "province": "대전",
-      "district": "대덕구"
-    },
-    {
-      "gmgoCd": "3027",
-      "name": "오정동",
-      "province": "대전",
-      "district": "대덕구"
-    },
-    {
-      "gmgoCd": "3029",
-      "name": "대청",
       "province": "대전",
       "district": "대덕구"
     },

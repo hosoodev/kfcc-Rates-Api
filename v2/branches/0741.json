@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T02:30:39+09:00",
+  "updated_at": "2026-05-23T04:12:33+09:00",
   "gmgoCd": "0741",
   "name": "한국앤컴퍼니",
   "meta": {
@@ -54,18 +54,6 @@
     }
   ],
   "nearby_branches": [
-    {
-      "gmgoCd": "3027",
-      "name": "오정동",
-      "province": "대전",
-      "district": "대덕구"
-    },
-    {
-      "gmgoCd": "3029",
-      "name": "대청",
-      "province": "대전",
-      "district": "대덕구"
-    },
     {
       "gmgoCd": "3030",
       "name": "대전북부",
