@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-05-24T03:21:35.671950",
-  "last_modified_at": "2026-05-24T03:21:35.671950",
+  "last_checked_at": "2026-05-24T03:22:57.970108",
+  "last_modified_at": "2026-05-24T03:22:57.970108",
   "status": "success",
-  "description": "성공: 총 2605개 금고(노원(본점), 광안(본점), 중부산(본점), 동원주(본점), 사직3동(본점) 외 1035곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2604개 금고(온양(본점), 지평선(본점), 물금(본점), 당감동(본점), 해안(본점) 외 1034곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1002,
       "total_items": 1002,
-      "last_updated_at": "2026-05-24T03:21:35.671950",
+      "last_updated_at": "2026-05-24T03:22:57.970108",
       "updated_banks_count": 841,
       "description": "841개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -858,7 +858,7 @@
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-05-24T03:21:35.671950",
+      "last_updated_at": "2026-05-24T03:22:57.970108",
       "updated_banks_count": 696,
       "description": "696개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1563,9 +1563,9 @@
     "demand": {
       "total_banks": 1227,
       "total_items": 2329,
-      "last_updated_at": "2026-05-24T03:21:35.671950",
-      "updated_banks_count": 1068,
-      "description": "1068개 금고 금리 변동 발생",
+      "last_updated_at": "2026-05-24T03:22:57.970108",
+      "updated_banks_count": 1067,
+      "description": "1067개 금고 금리 변동 발생",
       "changed_bank_names": [
         "청담동(본점)",
         "서초중앙(본점)",
@@ -1960,7 +1960,6 @@
         "아양(본점)",
         "반야월(본점)",
         "팔공(본점)",
-        "경북대학교병원(본점)",
         "남산대신(본점)",
         "동일(본점)",
         "남산4동(본점)",
