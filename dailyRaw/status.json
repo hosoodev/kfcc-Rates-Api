@@ -1,47 +1,57 @@
 {
-  "last_checked_at": "2026-05-27T04:39:33.518269",
-  "last_modified_at": "2026-05-27T04:39:33.518269",
+  "last_checked_at": "2026-05-28T04:45:11.904253",
+  "last_modified_at": "2026-05-28T04:45:11.904253",
   "status": "success",
-  "description": "성공: 총 12개 금고(동안(본점), 금강(본점), 무등(본점), 보은(본점), 용인제일(본점) 외 6곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 21개 금고(초읍동(본점), 원주우리(본점), 도봉(본점), 새울산(온양), 파주(본점) 외 12곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1002,
       "total_items": 1002,
-      "last_updated_at": "2026-05-27T04:39:33.518269",
-      "updated_banks_count": 11,
+      "last_updated_at": "2026-05-28T04:45:11.904253",
+      "updated_banks_count": 15,
       "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "도봉(본점)",
+        "망우동(본점)",
         "안암동(본점)",
-        "동대문중앙(본점)",
-        "반고개(본점)",
+        "연제중앙(본점)",
+        "초읍동(본점)",
         "와룡(본점)",
-        "무등(본점)",
-        "동안(본점)",
-        "용인제일(본점)",
-        "보은(본점)",
-        "금강(본점)",
-        "해평(본점)",
-        "대양(본점)"
+        "파주(본점)",
+        "원주우리(본점)",
+        "서원(본점)",
+        "천안남부(본점)",
+        "열린(본점)",
+        "삼호(본점)",
+        "삼성중공업㈜(본점)",
+        "우정(본점)"
       ],
-      "description": "11개 금고 금리 변동 발생"
+      "description": "15개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-05-27T04:39:33.518269",
-      "updated_banks_count": 1,
+      "last_updated_at": "2026-05-28T04:45:11.904253",
+      "updated_banks_count": 3,
       "changed_bank_names": [
-        "무등(본점)"
+        "서울개인택시조합(강남)",
+        "초읍동(본점)",
+        "삼성중공업㈜(본점)"
       ],
-      "description": "1개 금고 금리 변동 발생"
+      "description": "3개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1227,
       "total_items": 2329,
-      "last_updated_at": "2026-05-26T04:04:22.087443",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-05-28T04:45:11.904253",
+      "updated_banks_count": 3,
+      "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "새울산(온양)",
+        "서울산(천상)"
+      ],
+      "description": "3개 금고 금리 변동 발생"
     }
   }
 }
