@@ -1,17 +1,19 @@
 {
-  "last_checked_at": "2026-05-29T16:31:00.385467",
-  "last_modified_at": "2026-05-29T10:30:52.675792",
+  "last_checked_at": "2026-05-29T18:30:44.881446",
+  "last_modified_at": "2026-05-29T18:30:44.881446",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 1개 금고(상도중앙(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1001,
       "total_items": 1001,
-      "last_updated_at": "2026-05-29T10:30:52.675792",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-05-29T18:30:44.881446",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도중앙(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
