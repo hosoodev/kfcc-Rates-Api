@@ -1,55 +1,36 @@
 {
-  "last_checked_at": "2026-05-30T04:50:54.434158",
-  "last_modified_at": "2026-05-30T04:50:54.434158",
+  "last_checked_at": "2026-05-31T03:26:02.958939",
+  "last_modified_at": "2026-05-31T03:26:02.958939",
   "status": "success",
-  "description": "성공: 총 19개 금고(한결(본점), 구로5동(본점), 관교문학동(선학), 도봉(본점), 춘천중부(본점) 외 7곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(전남대학교병원(본점), 경북대학교병원(칠곡병원))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1002,
       "total_items": 1002,
       "last_updated_at": "2026-05-30T04:50:54.434158",
-      "updated_banks_count": 9,
-      "changed_bank_names": [
-        "구로5동(본점)",
-        "한결(본점)",
-        "도봉(본점)",
-        "관교문학동(선학)",
-        "가창(본점)",
-        "에이스(본점)",
-        "설악(본점)",
-        "춘천중부(본점)",
-        "신경북(본점)"
-      ],
-      "description": "9개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
       "last_updated_at": "2026-05-30T04:50:54.434158",
-      "updated_banks_count": 5,
-      "changed_bank_names": [
-        "구로5동(본점)",
-        "관교문학동(선학)",
-        "가창(본점)",
-        "에이스(본점)",
-        "신경북(본점)"
-      ],
-      "description": "5개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "demand": {
       "total_banks": 1227,
       "total_items": 2329,
-      "last_updated_at": "2026-05-30T04:50:54.434158",
-      "updated_banks_count": 5,
+      "last_updated_at": "2026-05-31T03:26:02.958939",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "관교문학동(선학)",
-        "에이스(본점)",
-        "전남대학교병원(빛고을전남대학교병원)",
-        "새울산(본점)",
-        "서울산(본점)"
+        "경북대학교병원(칠곡병원)",
+        "전남대학교병원(본점)"
       ],
-      "description": "5개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
