@@ -1,27 +1,29 @@
 {
-  "last_checked_at": "2026-06-01T16:30:56.396746",
-  "last_modified_at": "2026-06-01T16:30:56.396746",
+  "last_checked_at": "2026-06-01T18:30:52.402692",
+  "last_modified_at": "2026-06-01T18:30:52.402692",
   "status": "success",
-  "description": "성공: 총 1개 금고(감곡(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(동촌(본점), 참조은(본점), 녹번동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1003,
       "total_items": 1003,
-      "last_updated_at": "2026-06-01T14:30:37.771071",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-01T18:30:52.402692",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "녹번동(본점)",
+        "참조은(본점)",
+        "동촌(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
       "last_updated_at": "2026-06-01T16:30:56.396746",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "감곡(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1227,
