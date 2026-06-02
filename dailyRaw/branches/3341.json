@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T06:16:32+09:00",
+  "updated_at": "2026-06-03T05:27:31+09:00",
   "gmgoCd": "3341",
   "name": "금강",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "충남",
       "district": "부여군"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "금강(사비)",
+        "address": "충남 부여군 부여읍 성왕로 350-1",
+        "phone": "041-408-8282",
+        "district": "부여군"
+      }
+    ]
   },
   "rates": {
     "deposit": {},
