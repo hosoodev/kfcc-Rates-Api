@@ -1,30 +1,32 @@
 {
-  "last_checked_at": "2026-06-04T18:31:01.730106",
-  "last_modified_at": "2026-06-04T18:31:01.730106",
+  "last_checked_at": "2026-06-04T21:30:46.798719",
+  "last_modified_at": "2026-06-04T21:30:46.798719",
   "status": "success",
-  "description": "성공: 총 4개 금고(중림.만리(본점), 은평(본점), 남서울(본점), 상도중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(정읍(본점), 도화1동(본점), 무태(본점), 성동행당(본점), 드림(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1005,
       "total_items": 1005,
-      "last_updated_at": "2026-06-04T18:31:01.730106",
+      "last_updated_at": "2026-06-04T21:30:46.798719",
       "updated_banks_count": 4,
       "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도중앙(본점)",
-        "남서울(본점)",
-        "은평(본점)",
-        "중림.만리(본점)"
+        "도화1동(본점)",
+        "드림(본점)",
+        "무태(본점)",
+        "정읍(본점)"
       ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-06-04T10:30:54.633498",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-04T21:30:46.798719",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "성동행당(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1227,
