@@ -1,17 +1,20 @@
 {
-  "last_checked_at": "2026-06-04T12:30:59.518986",
-  "last_modified_at": "2026-06-04T10:30:54.633498",
+  "last_checked_at": "2026-06-04T14:30:42.698760",
+  "last_modified_at": "2026-06-04T14:30:42.698760",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 2개 금고(서울누리(본점), 왕십리중앙(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1005,
       "total_items": 1005,
-      "last_updated_at": "2026-06-04T10:30:54.633498",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-04T14:30:42.698760",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "왕십리중앙(본점)",
+        "서울누리(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
