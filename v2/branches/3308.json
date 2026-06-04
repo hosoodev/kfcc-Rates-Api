@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T02:30:58+09:00",
+  "updated_at": "2026-06-05T04:43:41+09:00",
   "gmgoCd": "3308",
   "name": "탕정",
   "meta": {
@@ -20,7 +20,14 @@
     ]
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.7,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -32,13 +39,18 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.7,
+      "s": "w"
+    },
     "saving": null
   },
   "disclosure_history": [
