@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T04:43:43+09:00",
+  "updated_at": "2026-06-06T04:18:05+09:00",
   "gmgoCd": "5211",
   "name": "송도",
   "meta": {
@@ -10,14 +10,7 @@
       "province": "경북",
       "district": "포항시"
     },
-    "branches": [
-      {
-        "name": "송도(남)",
-        "address": "경북 포항시 남구 운하로48번길 6-8",
-        "phone": "054-281-1304",
-        "district": "포항시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {},
