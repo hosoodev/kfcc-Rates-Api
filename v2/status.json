@@ -1,29 +1,37 @@
 {
-  "last_checked_at": "2026-06-05T08:30:50.189527",
-  "last_modified_at": "2026-06-05T08:30:50.189527",
+  "last_checked_at": "2026-06-05T10:30:57.436398",
+  "last_modified_at": "2026-06-05T10:30:57.436398",
   "status": "success",
-  "description": "성공: 총 3개 금고(필동(본점), 서초(본점), 청파(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 11개 금고(종로중앙(본점), 열린(본점), 세검정(본점), 천안(본점), 북서울(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1007,
       "total_items": 1007,
-      "last_updated_at": "2026-06-05T08:30:50.189527",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-05T10:30:57.436398",
+      "updated_banks_count": 8,
+      "description": "8개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서초(본점)",
-        "필동(본점)"
+        "은평(본점)",
+        "연신내(본점)",
+        "청파(본점)",
+        "세검정(본점)",
+        "종로중앙(본점)",
+        "고양누리(본점)",
+        "천안(본점)",
+        "열린(본점)"
       ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-06-05T08:30:50.189527",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-05T10:30:57.436398",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "청파(본점)"
+        "북서울(본점)",
+        "서울누리(본점)",
+        "세검정(본점)"
       ]
     },
     "demand": {
