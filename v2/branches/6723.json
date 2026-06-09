@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T02:31:00+09:00",
+  "updated_at": "2026-06-10T04:40:08+09:00",
   "gmgoCd": "6723",
   "name": "우리",
   "meta": {
@@ -13,7 +13,22 @@
     "branches": []
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.8,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.1,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.9,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -25,7 +40,12 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.9,
+      "s": "w"
+    },
     "saving": null
   },
   "disclosure_history": [
