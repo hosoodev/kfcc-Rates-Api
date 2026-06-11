@@ -1,27 +1,32 @@
 {
-  "last_checked_at": "2026-06-11T14:30:58.256085",
-  "last_modified_at": "2026-06-11T14:30:58.256085",
+  "last_checked_at": "2026-06-11T16:30:55.976245",
+  "last_modified_at": "2026-06-11T16:30:55.976245",
   "status": "success",
-  "description": "성공: 총 2개 금고(원남(본점), 새비산(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 6개 금고(청운효자동(본점), 새종암(본점), 신강동(본점), 종로중앙(본점), 디지털(가산역점) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1014,
       "total_items": 1014,
-      "last_updated_at": "2026-06-11T12:30:52.706974",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-11T16:30:55.976245",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "디지털(가산역점)",
+        "안암동(본점)",
+        "새종암(본점)",
+        "청운효자동(본점)",
+        "종로중앙(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-06-11T14:30:58.256085",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-11T16:30:55.976245",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "원남(본점)",
-        "새비산(본점)"
+        "신강동(본점)"
       ]
     },
     "demand": {
