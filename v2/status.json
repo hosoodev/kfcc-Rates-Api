@@ -1,18 +1,19 @@
 {
-  "last_checked_at": "2026-06-11T18:31:00.749850",
-  "last_modified_at": "2026-06-11T18:31:00.749850",
+  "last_checked_at": "2026-06-11T21:30:58.143081",
+  "last_modified_at": "2026-06-11T21:30:58.143081",
   "status": "success",
-  "description": "성공: 총 1개 금고(은평(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(청파(본점), 광진자양(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1014,
       "total_items": 1014,
-      "last_updated_at": "2026-06-11T18:31:00.749850",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-11T21:30:58.143081",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "은평(본점)"
+        "광진자양(본점)",
+        "청파(본점)"
       ]
     },
     "saving": {
