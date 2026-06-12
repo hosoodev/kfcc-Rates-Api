@@ -1,29 +1,35 @@
 {
-  "last_checked_at": "2026-06-12T14:31:07.604937",
-  "last_modified_at": "2026-06-12T14:31:07.604937",
+  "last_checked_at": "2026-06-12T16:30:52.154412",
+  "last_modified_at": "2026-06-12T16:30:52.154412",
   "status": "success",
-  "description": "성공: 총 3개 금고(청운효자동(본점), 갈현동(본점), 청파(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 8개 금고(청운효자동(본점), 으뜸(본점), 성북제일(본점), 조촌(본점), 신강동(본점) 외 3곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1016,
       "total_items": 1016,
-      "last_updated_at": "2026-06-12T14:31:07.604937",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-12T16:30:52.154412",
+      "updated_banks_count": 7,
+      "description": "7개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "갈현동(본점)",
-        "청파(본점)",
-        "청운효자동(본점)"
+        "신강동(본점)",
+        "성북제일(본점)",
+        "새종암(본점)",
+        "광진중곡(본점)",
+        "청운효자동(본점)",
+        "조촌(본점)",
+        "남부(본점)"
       ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1704,
-      "last_updated_at": "2026-06-12T12:30:51.890138",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-12T16:30:52.154412",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "으뜸(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1227,
