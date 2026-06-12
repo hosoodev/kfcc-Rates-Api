@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T02:32:33+09:00",
+  "updated_at": "2026-06-13T04:32:17+09:00",
   "gmgoCd": "3556",
   "name": "SK hynix",
   "meta": {
@@ -114,12 +114,6 @@
     }
   ],
   "nearby_branches": [
-    {
-      "gmgoCd": "3563",
-      "name": "이천우리",
-      "province": "경기",
-      "district": "이천시"
-    },
     {
       "gmgoCd": "3567",
       "name": "이천",
