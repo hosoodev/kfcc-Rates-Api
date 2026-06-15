@@ -1,17 +1,24 @@
 {
-  "last_checked_at": "2026-06-15T12:30:59.972122",
-  "last_modified_at": "2026-06-15T10:30:50.211650",
+  "last_checked_at": "2026-06-15T14:31:07.716655",
+  "last_modified_at": "2026-06-15T14:31:07.716655",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 6개 금고(금암(본점), 남구희망(본점), 능동(본점), 흑석(본점), 조촌(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1016,
       "total_items": 1016,
-      "last_updated_at": "2026-06-15T10:30:50.211650",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-15T14:31:07.716655",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "흑석(본점)",
+        "능동(본점)",
+        "남인천(본점)",
+        "남구희망(본점)",
+        "금암(본점)",
+        "조촌(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
