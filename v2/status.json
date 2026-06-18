@@ -1,18 +1,21 @@
 {
-  "last_checked_at": "2026-06-18T16:30:55.392035",
-  "last_modified_at": "2026-06-18T16:30:55.392035",
+  "last_checked_at": "2026-06-18T18:31:08.006191",
+  "last_modified_at": "2026-06-18T18:31:08.006191",
   "status": "success",
-  "description": "성공: 총 1개 금고(능동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(금오(본점), 남면(본점), 중앙(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1016,
       "total_items": 1016,
-      "last_updated_at": "2026-06-18T16:30:55.392035",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-18T18:31:08.006191",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "능동(본점)"
+        "안암동(본점)",
+        "남면(본점)",
+        "금오(본점)",
+        "중앙(본점)"
       ]
     },
     "saving": {
