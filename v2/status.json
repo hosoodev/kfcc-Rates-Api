@@ -1,18 +1,22 @@
 {
-  "last_checked_at": "2026-06-19T14:30:50.809699",
-  "last_modified_at": "2026-06-19T14:30:50.809699",
+  "last_checked_at": "2026-06-19T16:30:47.774316",
+  "last_modified_at": "2026-06-19T16:30:47.774316",
   "status": "success",
-  "description": "성공: 총 1개 금고(남대문(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(조촌(본점), 안면도(본점), 상도(본점), 신도(본점), 금암(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1016,
       "total_items": 1016,
-      "last_updated_at": "2026-06-19T14:30:50.809699",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-19T16:30:47.774316",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "남대문(본점)"
+        "상도(본점)",
+        "안면도(본점)",
+        "금암(본점)",
+        "신도(본점)",
+        "조촌(본점)"
       ]
     },
     "saving": {
