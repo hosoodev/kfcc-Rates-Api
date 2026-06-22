@@ -1,25 +1,42 @@
 {
-  "last_checked_at": "2026-06-22T08:31:00.835764",
-  "last_modified_at": "2026-06-22T04:00:00.499880",
+  "last_checked_at": "2026-06-22T10:30:47.364478",
+  "last_modified_at": "2026-06-22T10:30:47.364478",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 15개 금고(공산(본점), 대구원광(본점), 과천(본점), 신제주(본점), 한마음(본점) 외 10곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1016,
       "total_items": 1016,
-      "last_updated_at": "2026-06-22T04:00:00.499880",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-22T10:30:47.364478",
+      "updated_banks_count": 14,
+      "description": "14개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "화양동(본점)",
+        "성동행당(본점)",
+        "청파(본점)",
+        "효창(본점)",
+        "청운효자동(본점)",
+        "남대문(본점)",
+        "지저(본점)",
+        "공산(본점)",
+        "수성(본점)",
+        "대구원광(본점)",
+        "과천(본점)",
+        "도량(본점)",
+        "신제주(본점)",
+        "한마음(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1703,
-      "last_updated_at": "2026-06-22T04:00:00.499880",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-22T10:30:47.364478",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "노원(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1226,
