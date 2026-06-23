@@ -1,19 +1,20 @@
 {
-  "last_checked_at": "2026-06-23T14:30:58.161733",
-  "last_modified_at": "2026-06-23T14:30:58.161733",
+  "last_checked_at": "2026-06-23T16:31:03.354831",
+  "last_modified_at": "2026-06-23T16:31:03.354831",
   "status": "success",
-  "description": "성공: 총 2개 금고(한빛(본점), 서초제일(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(더조은(본점), 서울누리(본점), 연산6동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1017,
       "total_items": 1017,
-      "last_updated_at": "2026-06-23T14:30:58.161733",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-23T16:31:03.354831",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서초제일(본점)",
-        "한빛(본점)"
+        "서울누리(본점)",
+        "연산6동(본점)",
+        "더조은(본점)"
       ]
     },
     "saving": {
