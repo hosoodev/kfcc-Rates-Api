@@ -1,20 +1,18 @@
 {
-  "last_checked_at": "2026-06-23T18:30:48.452955",
-  "last_modified_at": "2026-06-23T18:30:48.452955",
+  "last_checked_at": "2026-06-23T21:31:10.280429",
+  "last_modified_at": "2026-06-23T21:31:10.280429",
   "status": "success",
-  "description": "성공: 총 3개 금고(금성동(본점), 청파(본점), 용문후암(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1017,
       "total_items": 1017,
-      "last_updated_at": "2026-06-23T18:30:48.452955",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-23T21:31:10.280429",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "청파(본점)",
-        "용문후암(본점)",
-        "금성동(본점)"
+        "안암동(본점)"
       ]
     },
     "saving": {
