@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-06-26T04:23:54.517710",
-  "last_modified_at": "2026-06-26T04:23:54.517710",
+  "last_checked_at": "2026-06-26T04:25:16.100834",
+  "last_modified_at": "2026-06-26T04:25:16.100834",
   "status": "success",
-  "description": "성공: 총 2617개 금고(용일(본점), 서울상봉(본점), 부령(본점), 광화문(본점), 문내(본점) 외 1034곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2614개 금고(청계(본점), 중대구(본점), 정다운(본점), 대전남부(본점), 연지동(본점) 외 1034곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1018,
       "total_items": 1018,
-      "last_updated_at": "2026-06-26T04:23:54.517710",
-      "updated_banks_count": 874,
-      "description": "874개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-26T04:25:16.100834",
+      "updated_banks_count": 872,
+      "description": "872개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "서초제일(본점)",
@@ -420,7 +420,6 @@
         "소제(본점)",
         "가양2동(본점)",
         "동대전(본점)",
-        "가양1동(본점)",
         "성남동(본점)",
         "대전제일(본점)",
         "삼성동(본점)",
@@ -660,7 +659,6 @@
         "천안남부(본점)",
         "군산중부(본점)",
         "천안미래(본점)",
-        "동군산(본점)",
         "군산제일(본점)",
         "금강(본점)",
         "남원(본점)",
@@ -891,7 +889,7 @@
     "saving": {
       "total_banks": 888,
       "total_items": 1703,
-      "last_updated_at": "2026-06-26T04:23:54.517710",
+      "last_updated_at": "2026-06-26T04:25:16.100834",
       "updated_banks_count": 676,
       "description": "676개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1576,12 +1574,11 @@
     "demand": {
       "total_banks": 1226,
       "total_items": 2327,
-      "last_updated_at": "2026-06-26T04:23:54.517710",
-      "updated_banks_count": 1067,
-      "description": "1067개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-26T04:25:16.100834",
+      "updated_banks_count": 1066,
+      "description": "1066개 금고 금리 변동 발생",
       "changed_bank_names": [
         "대왕(본점)",
-        "서울개인택시조합(강남)",
         "서초제일(본점)",
         "서초(본점)",
         "청담동(본점)",
