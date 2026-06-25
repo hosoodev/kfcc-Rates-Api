@@ -1,30 +1,27 @@
 {
-  "last_checked_at": "2026-06-25T18:30:48.360777",
-  "last_modified_at": "2026-06-25T18:30:48.360777",
+  "last_checked_at": "2026-06-25T21:30:45.671713",
+  "last_modified_at": "2026-06-25T21:30:45.671713",
   "status": "success",
-  "description": "성공: 총 3개 금고(안암동(본점), 호남(본점), 서울장위(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(가양1동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1017,
       "total_items": 1017,
-      "last_updated_at": "2026-06-25T18:30:48.360777",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-25T21:30:45.671713",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "안암동(본점)",
-        "서울장위(본점)"
+        "가양1동(본점)"
       ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1703,
       "last_updated_at": "2026-06-25T18:30:48.360777",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "호남(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1226,
