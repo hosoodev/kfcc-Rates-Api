@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T04:23:55+09:00",
+  "updated_at": "2026-06-27T04:11:17+09:00",
   "gmgoCd": "5105",
   "name": "군산중부",
   "meta": {
@@ -70,12 +70,6 @@
     {
       "gmgoCd": "5111",
       "name": "동군산",
-      "province": "전북",
-      "district": "군산시"
-    },
-    {
-      "gmgoCd": "5112",
-      "name": "군산제일",
       "province": "전북",
       "district": "군산시"
     },
