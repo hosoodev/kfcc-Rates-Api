@@ -1,36 +1,74 @@
 {
-  "last_checked_at": "2026-06-26T21:30:48.011488",
-  "last_modified_at": "2026-06-26T21:30:48.011488",
+  "last_checked_at": "2026-06-27T02:30:49.670475",
+  "last_modified_at": "2026-06-27T02:30:49.670475",
   "status": "success",
-  "description": "성공: 총 2개 금고(해평(본점), 중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 38개 금고(대학로(본점), 구로중앙(본점), 고아(본점), 군산제일(본점), 좌수영(본점) 외 28곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1018,
       "total_items": 1018,
-      "last_updated_at": "2026-06-26T21:30:48.011488",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-27T02:30:49.670475",
+      "updated_banks_count": 29,
+      "description": "29개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "중앙(본점)",
-        "해평(본점)"
+        "서초제일(본점)",
+        "한결(본점)",
+        "구로중앙(본점)",
+        "안암동(본점)",
+        "길음중앙(본점)",
+        "서울종암(본점)",
+        "대학로(본점)",
+        "종로광장(본점)",
+        "부전1동(본점)",
+        "당감2동(본점)",
+        "송림(본점)",
+        "지저(본점)",
+        "해안(본점)",
+        "대구원광(본점)",
+        "광남(본점)",
+        "북광주(본점)",
+        "서방(본점)",
+        "신정(본점)",
+        "세화(본점)",
+        "중앙(고성)",
+        "서청주(본점)",
+        "군산제일(본점)",
+        "동여수(본점)",
+        "좌수영(본점)",
+        "부림(본점)",
+        "법환(본점)",
+        "신례(본점)",
+        "의귀(본점)",
+        "제주남원동부(본점)"
       ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1703,
-      "last_updated_at": "2026-06-26T10:30:41.455329",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-27T02:30:49.670475",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "미래(본점)",
+        "북대구(본점)",
+        "세화(본점)",
+        "군산제일(본점)",
+        "도량(본점)",
+        "고아(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1226,
       "total_items": 2327,
-      "last_updated_at": "2026-06-26T04:25:16.100834",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-27T02:30:49.670475",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "송림(본점)",
+        "세화(본점)",
+        "군산제일(본점)"
+      ]
     }
   }
 }
