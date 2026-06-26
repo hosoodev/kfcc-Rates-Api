@@ -1,25 +1,30 @@
 {
-  "last_checked_at": "2026-06-26T08:31:05.596106",
-  "last_modified_at": "2026-06-26T04:25:16.100834",
+  "last_checked_at": "2026-06-26T10:30:41.455329",
+  "last_modified_at": "2026-06-26T10:30:41.455329",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 3개 금고(한강2동(본점), 안암동(본점), 구포(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1018,
       "total_items": 1018,
-      "last_updated_at": "2026-06-26T04:25:16.100834",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-26T10:30:41.455329",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "안암동(본점)",
+        "구포(본점)"
+      ]
     },
     "saving": {
       "total_banks": 888,
       "total_items": 1703,
-      "last_updated_at": "2026-06-26T04:25:16.100834",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-06-26T10:30:41.455329",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "한강2동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1226,
