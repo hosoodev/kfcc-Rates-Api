@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-06-27T04:11:16.924550",
-  "last_modified_at": "2026-06-27T04:11:16.924550",
+  "last_checked_at": "2026-06-27T04:12:33.900486",
+  "last_modified_at": "2026-06-27T04:12:33.900486",
   "status": "success",
-  "description": "성공: 총 2604개 금고(산외(본점), 구로5동(본점), 신제주(본점), 구산동(본점), 영등포제일(본점) 외 1032곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2603개 금고(새고성(본점), 원북(본점), 상북(본점), 만경(본점), 은천(본점) 외 1031곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1015,
       "total_items": 1015,
-      "last_updated_at": "2026-06-27T04:11:16.924550",
+      "last_updated_at": "2026-06-27T04:12:33.900486",
       "updated_banks_count": 867,
       "description": "867개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -884,7 +884,7 @@
     "saving": {
       "total_banks": 885,
       "total_items": 1698,
-      "last_updated_at": "2026-06-27T04:11:16.924550",
+      "last_updated_at": "2026-06-27T04:12:33.900486",
       "updated_banks_count": 673,
       "description": "673개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1566,9 +1566,9 @@
     "demand": {
       "total_banks": 1223,
       "total_items": 2321,
-      "last_updated_at": "2026-06-27T04:11:16.924550",
-      "updated_banks_count": 1064,
-      "description": "1064개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-27T04:12:33.900486",
+      "updated_banks_count": 1063,
+      "description": "1063개 금고 금리 변동 발생",
       "changed_bank_names": [
         "청담동(본점)",
         "대왕(본점)",
@@ -1999,7 +1999,6 @@
         "수성1가(본점)",
         "상동(본점)",
         "한마음(본점)",
-        "전남대학교병원(본점)",
         "동명(본점)",
         "서광주(본점)",
         "동광(본점)",
