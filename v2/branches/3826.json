@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T02:30:43+09:00",
+  "updated_at": "2026-06-28T03:26:33+09:00",
   "gmgoCd": "3826",
   "name": "삼성전기",
   "meta": {
@@ -75,12 +75,6 @@
   ],
   "nearby_branches": [
     {
-      "gmgoCd": "3807",
-      "name": "세화",
-      "province": "경기",
-      "district": "수원시"
-    },
-    {
       "gmgoCd": "3808",
       "name": "수원서부",
       "province": "경기",
@@ -101,6 +95,12 @@
     {
       "gmgoCd": "3818",
       "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3823",
+      "name": "마이크로웍스",
       "province": "경기",
       "district": "수원시"
     }
