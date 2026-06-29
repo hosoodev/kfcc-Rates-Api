@@ -1,21 +1,17 @@
 {
-  "last_checked_at": "2026-06-29T10:30:56.109676",
+  "last_checked_at": "2026-06-29T12:30:49.306716",
   "last_modified_at": "2026-06-29T10:30:56.109676",
   "status": "success",
-  "description": "성공: 총 3개 금고(노원(본점), 동부(본점), 정읍(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1015,
       "total_items": 1015,
       "last_updated_at": "2026-06-29T10:30:56.109676",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "노원(본점)",
-        "동부(본점)",
-        "정읍(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 885,
