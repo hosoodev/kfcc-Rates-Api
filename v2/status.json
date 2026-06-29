@@ -1,21 +1,20 @@
 {
-  "last_checked_at": "2026-06-29T08:30:55.317085",
-  "last_modified_at": "2026-06-29T08:30:55.317085",
+  "last_checked_at": "2026-06-29T10:30:56.109676",
+  "last_modified_at": "2026-06-29T10:30:56.109676",
   "status": "success",
-  "description": "성공: 총 4개 금고(안암동(본점), 성북(본점), 보광동(본점), 신당(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(노원(본점), 동부(본점), 정읍(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 1015,
       "total_items": 1015,
-      "last_updated_at": "2026-06-29T08:30:55.317085",
-      "updated_banks_count": 4,
-      "description": "4개 금고 금리 변동 발생",
+      "last_updated_at": "2026-06-29T10:30:56.109676",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "안암동(본점)",
-        "성북(본점)",
-        "보광동(본점)",
-        "신당(본점)"
+        "노원(본점)",
+        "동부(본점)",
+        "정읍(본점)"
       ]
     },
     "saving": {
