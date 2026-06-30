@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T04:22:11+09:00",
+  "updated_at": "2026-07-01T04:16:06+09:00",
   "gmgoCd": "2638",
   "name": "여천",
   "meta": {
@@ -10,26 +10,7 @@
       "province": "전남",
       "district": "여수시"
     },
-    "branches": [
-      {
-        "name": "여천(선원)",
-        "address": "전남 여수시 무선5길 34",
-        "phone": "061-685-0903",
-        "district": "여수시"
-      },
-      {
-        "name": "여천(시전)",
-        "address": "전남 여수시 흥국로 99-1",
-        "phone": "061-684-0810",
-        "district": "여수시"
-      },
-      {
-        "name": "여천(안산)",
-        "address": "전남 여수시 도원로 190",
-        "phone": "061-685-0905",
-        "district": "여수시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
@@ -88,36 +69,5 @@
     }
   },
   "disclosure_history": [],
-  "nearby_branches": [
-    {
-      "gmgoCd": "2601",
-      "name": "동여수",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2602",
-      "name": "여수엑스포",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2604",
-      "name": "중앙",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2605",
-      "name": "여수중부",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2606",
-      "name": "충무",
-      "province": "전남",
-      "district": "여수시"
-    }
-  ]
+  "nearby_branches": []
 }

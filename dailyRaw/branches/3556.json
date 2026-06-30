@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T04:22:11+09:00",
+  "updated_at": "2026-07-01T04:16:06+09:00",
   "gmgoCd": "3556",
   "name": "SK hynix",
   "meta": {
@@ -11,12 +11,6 @@
       "district": "이천시"
     },
     "branches": [
-      {
-        "name": "SK hynix(영종도)",
-        "address": "인천 중구 자유무역로 191",
-        "phone": "032-746-9116",
-        "district": "중구"
-      },
       {
         "name": "SK hynix(청주)",
         "address": "충북 청주시 흥덕구 대신로 215",

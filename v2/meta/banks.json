@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_groups": 1236,
-    "total_branches": 3123,
-    "crawled_at": "2026-06-30T04:22:08.596550",
+    "total_groups": 1176,
+    "total_branches": 2965,
+    "crawled_at": "2026-07-01T04:16:03.785098",
     "version": "2.0"
   },
   "banks": [
@@ -900,8 +900,8 @@
       },
       "branches": [
         {
-          "name": "은평뉴타운(상림마을)",
-          "address": "서울 은평구 진관4로 17",
+          "name": "은평뉴타운(마고정)",
+          "address": "서울 은평구 진관2로 60",
           "phone": "02-386-6201",
           "district": "은평구"
         }
@@ -3407,6 +3407,12 @@
       },
       "branches": [
         {
+          "name": "서울개인택시조합(강남)",
+          "address": "서울 강남구 개포로 636",
+          "phone": "02-2057-0540",
+          "district": "강남구"
+        },
+        {
           "name": "서울개인택시조합(강동)",
           "address": "서울 강동구 명일로 230",
           "phone": "02-426-2933",
@@ -3419,16 +3425,16 @@
           "district": "송파구"
         },
         {
-          "name": "서울개인택시조합(강남)",
-          "address": "서울 강남구 개포로 636",
-          "phone": "02-2057-0540",
-          "district": "강남구"
-        },
-        {
           "name": "서울개인택시조합(관악)",
           "address": "서울 관악구 신림로 202",
           "phone": "02-887-7717",
           "district": "관악구"
+        },
+        {
+          "name": "서울개인택시조합(남서)",
+          "address": "서울 구로구 공원로 81",
+          "phone": "02-839-5200",
+          "district": "구로구"
         },
         {
           "name": "서울개인택시조합(영동)",
@@ -3441,12 +3447,6 @@
           "address": "서울 양천구 남부순환로 595",
           "phone": "02-2698-2929",
           "district": "양천구"
-        },
-        {
-          "name": "서울개인택시조합(남서)",
-          "address": "서울 구로구 공원로 81",
-          "phone": "02-839-5200",
-          "district": "구로구"
         },
         {
           "name": "서울개인택시조합(강서)",
@@ -3473,12 +3473,6 @@
           "district": "노원구"
         },
         {
-          "name": "서울개인택시조합(은평)",
-          "address": "서울 은평구 증산로17길 4",
-          "phone": "02-356-5800",
-          "district": "은평구"
-        },
-        {
           "name": "서울개인택시조합(도봉)",
           "address": "서울 도봉구 해등로32길 76",
           "phone": "02-955-0746",
@@ -3489,6 +3483,12 @@
           "address": "서울 강북구 한천로109가길 14",
           "phone": "02-999-9892",
           "district": "강북구"
+        },
+        {
+          "name": "서울개인택시조합(은평)",
+          "address": "서울 은평구 증산로17길 4",
+          "phone": "02-356-5800",
+          "district": "은평구"
         },
         {
           "name": "서울개인택시조합(중랑)",
@@ -3816,18 +3816,6 @@
       "branches": []
     },
     {
-      "gmgoCd": "1119",
-      "group_name": "한전",
-      "head_office": {
-        "name": "한전(본점)",
-        "address": "전남 나주시 전력로 55",
-        "phone": "061-345-8749",
-        "province": "전남",
-        "district": "나주시"
-      },
-      "branches": []
-    },
-    {
       "gmgoCd": "1122",
       "group_name": "유한킴벌리",
       "head_office": {
@@ -4060,12 +4048,6 @@
         "district": "강남구"
       },
       "branches": [
-        {
-          "name": "포스코(광양)",
-          "address": "전남 광양시 희망1길 69",
-          "phone": "061-790-2186",
-          "district": "광양시"
-        },
         {
           "name": "포스코(포항)",
           "address": "경북 포항시 남구 동해안로 6262",
@@ -8532,125 +8514,6 @@
       ]
     },
     {
-      "gmgoCd": "2204",
-      "group_name": "신선",
-      "head_office": {
-        "name": "신선(본점)",
-        "address": "인천 중구 서해대로454번길 6",
-        "phone": "032-882-6522",
-        "province": "인천",
-        "district": "중구"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2208",
-      "group_name": "동인천",
-      "head_office": {
-        "name": "동인천(본점)",
-        "address": "인천 중구 우현로67번길 71",
-        "phone": "032-763-5111",
-        "province": "인천",
-        "district": "중구"
-      },
-      "branches": [
-        {
-          "name": "동인천(신포)",
-          "address": "인천 중구 제물량로 150-2",
-          "phone": "032-763-1230",
-          "district": "중구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2211",
-      "group_name": "영종",
-      "head_office": {
-        "name": "영종(본점)",
-        "address": "인천 중구 하늘별빛로65번길 11",
-        "phone": "032-751-3181",
-        "province": "인천",
-        "district": "중구"
-      },
-      "branches": [
-        {
-          "name": "영종(운서)",
-          "address": "인천 중구 영종대로 90",
-          "phone": "032-751-6116",
-          "district": "중구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2221",
-      "group_name": "송화",
-      "head_office": {
-        "name": "송화(본점)",
-        "address": "인천 동구 화수로69번길 12",
-        "phone": "032-763-6781",
-        "province": "인천",
-        "district": "동구"
-      },
-      "branches": [
-        {
-          "name": "송화(송현)",
-          "address": "인천 동구 화수로 18",
-          "phone": "032-761-0323",
-          "district": "동구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2222",
-      "group_name": "평화",
-      "head_office": {
-        "name": "평화(본점)",
-        "address": "인천 동구 화도진로 70",
-        "phone": "032-773-6833",
-        "province": "인천",
-        "district": "동구"
-      },
-      "branches": [
-        {
-          "name": "평화(화수)",
-          "address": "인천 동구 화도진로 102-1",
-          "phone": "032-766-7109",
-          "district": "동구"
-        },
-        {
-          "name": "평화(송림)",
-          "address": "인천 동구 송림로162번길 10",
-          "phone": "032-764-7081",
-          "district": "동구"
-        },
-        {
-          "name": "평화(로타리)",
-          "address": "인천 동구 솔빛로91번길 7",
-          "phone": "032-765-6688",
-          "district": "동구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2227",
-      "group_name": "희망",
-      "head_office": {
-        "name": "희망(본점)",
-        "address": "인천 동구 송림로 99-2",
-        "phone": "032-766-7176",
-        "province": "인천",
-        "district": "동구"
-      },
-      "branches": [
-        {
-          "name": "희망(서흥)",
-          "address": "인천 동구 인중로680번길 8",
-          "phone": "032-761-1191",
-          "district": "동구"
-        }
-      ]
-    },
-    {
       "gmgoCd": "2234",
       "group_name": "제물포",
       "head_office": {
@@ -8922,30 +8785,6 @@
         "phone": "032-882-0760",
         "province": "인천",
         "district": "미추홀구"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2261",
-      "group_name": "화도진",
-      "head_office": {
-        "name": "화도진(본점)",
-        "address": "인천 동구 송현로 30",
-        "phone": "032-764-2225",
-        "province": "인천",
-        "district": "동구"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2262",
-      "group_name": "송북",
-      "head_office": {
-        "name": "송북(본점)",
-        "address": "인천 중구 차이나타운로44번길 31-5",
-        "phone": "032-761-6054",
-        "province": "인천",
-        "district": "중구"
       },
       "branches": []
     },
@@ -9527,129 +9366,6 @@
       ]
     },
     {
-      "gmgoCd": "2345",
-      "group_name": "경인아라",
-      "head_office": {
-        "name": "경인아라(본점)",
-        "address": "인천 서구 서곶로 317",
-        "phone": "032-561-9102",
-        "province": "인천",
-        "district": "서구"
-      },
-      "branches": [
-        {
-          "name": "경인아라(완정)",
-          "address": "인천 서구 원당대로 631",
-          "phone": "032-567-3300",
-          "district": "서구"
-        },
-        {
-          "name": "경인아라(검암)",
-          "address": "인천 서구 승학로 487",
-          "phone": "032-567-9102",
-          "district": "서구"
-        },
-        {
-          "name": "경인아라(청라)",
-          "address": "인천 서구 청라라임로 86",
-          "phone": "032-568-3200",
-          "district": "서구"
-        },
-        {
-          "name": "경인아라(검단)",
-          "address": "인천 서구 검단로 505",
-          "phone": "032-715-4994",
-          "district": "서구"
-        },
-        {
-          "name": "경인아라(아라)",
-          "address": "인천 서구 원당대로 1045",
-          "phone": "032-713-9102",
-          "district": "서구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2346",
-      "group_name": "정서진",
-      "head_office": {
-        "name": "정서진(본점)",
-        "address": "인천 서구 율도로 84",
-        "phone": "032-572-5505",
-        "province": "인천",
-        "district": "서구"
-      },
-      "branches": [
-        {
-          "name": "정서진(신현)",
-          "address": "인천 서구 신현로 45",
-          "phone": "032-572-0023",
-          "district": "서구"
-        },
-        {
-          "name": "정서진(석남)",
-          "address": "인천 서구 옻우물로 3",
-          "phone": "032-577-5503",
-          "district": "서구"
-        },
-        {
-          "name": "정서진(청라)",
-          "address": "인천 서구 보석로 42",
-          "phone": "032-715-7456",
-          "district": "서구"
-        },
-        {
-          "name": "정서진(가정)",
-          "address": "인천 서구 청중로 486",
-          "phone": "032-715-7452",
-          "district": "서구"
-        },
-        {
-          "name": "정서진(루원시티제1)",
-          "address": "인천 서구 가정로 406",
-          "phone": "032-715-9452",
-          "district": "서구"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2347",
-      "group_name": "서해",
-      "head_office": {
-        "name": "서해(본점)",
-        "address": "인천 서구 원적로 99",
-        "phone": "032-583-0070",
-        "province": "인천",
-        "district": "서구"
-      },
-      "branches": [
-        {
-          "name": "서해(제1)",
-          "address": "인천 서구 여우재로 119",
-          "phone": "032-583-4174",
-          "district": "서구"
-        },
-        {
-          "name": "서해(서일)",
-          "address": "인천 서구 가정로 115",
-          "phone": "032-575-8513",
-          "district": "서구"
-        },
-        {
-          "name": "서해(청라)",
-          "address": "인천 서구 청라한울로 96",
-          "phone": "032-715-6029",
-          "district": "서구"
-        },
-        {
-          "name": "서해(검단1)",
-          "address": "인천 서구 이음5로 36",
-          "phone": "032-562-9405",
-          "district": "서구"
-        }
-      ]
-    },
-    {
       "gmgoCd": "2357",
       "group_name": "강화",
       "head_office": {
@@ -9806,12 +9522,6 @@
           "address": "광주 남구 덕남길 80",
           "phone": "062-670-9890",
           "district": "남구"
-        },
-        {
-          "name": "전남대학교병원(화순전남대학교병원)",
-          "address": "전남 화순군 화순읍 서양로 322",
-          "phone": "061-379-7921",
-          "district": "화순군"
         }
       ]
     },
@@ -9912,14 +9622,7 @@
         "province": "광주",
         "district": "광산구"
       },
-      "branches": [
-        {
-          "name": "금호타이어(곡성공장)",
-          "address": "전남 곡성군 입면 금호길 85-63",
-          "phone": "061-360-3089",
-          "district": "곡성군"
-        }
-      ]
+      "branches": []
     },
     {
       "gmgoCd": "2440",
@@ -10583,211 +10286,6 @@
       ]
     },
     {
-      "gmgoCd": "2601",
-      "group_name": "동여수",
-      "head_office": {
-        "name": "동여수(본점)",
-        "address": "전남 여수시 이순신광장로 215",
-        "phone": "061-662-2753",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "동여수(관문)",
-          "address": "전남 여수시 관문2길 8",
-          "phone": "061-662-1925",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2602",
-      "group_name": "여수엑스포",
-      "head_office": {
-        "name": "여수엑스포(본점)",
-        "address": "전남 여수시 동문로 116",
-        "phone": "061-662-1326",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "여수엑스포(만덕)",
-          "address": "전남 여수시 박람회길 61",
-          "phone": "061-665-1326",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2604",
-      "group_name": "중앙",
-      "head_office": {
-        "name": "중앙(본점)",
-        "address": "전남 여수시 교동남2길 12",
-        "phone": "061-662-0088",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2605",
-      "group_name": "여수중부",
-      "head_office": {
-        "name": "여수중부(본점)",
-        "address": "전남 여수시 웅천로 124",
-        "phone": "061-922-2832",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "여수중부(교동)",
-          "address": "전남 여수시 충무로 27-2",
-          "phone": "061-662-2832",
-          "district": "여수시"
-        },
-        {
-          "name": "여수중부(여도)",
-          "address": "전남 여수시 좌수영로 678",
-          "phone": "061-692-2832",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2606",
-      "group_name": "충무",
-      "head_office": {
-        "name": "충무(본점)",
-        "address": "전남 여수시 충무로 63",
-        "phone": "061-663-1348",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2607",
-      "group_name": "진남",
-      "head_office": {
-        "name": "진남(본점)",
-        "address": "전남 여수시 좌수영로 31-1",
-        "phone": "061-643-4080",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "진남(오림)",
-          "address": "전남 여수시 오림4길 48",
-          "phone": "061-654-4081",
-          "district": "여수시"
-        },
-        {
-          "name": "진남(여천)",
-          "address": "전남 여수시 도원로 283",
-          "phone": "061-682-4080",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2610",
-      "group_name": "좌수영",
-      "head_office": {
-        "name": "좌수영(본점)",
-        "address": "전남 여수시 버드나무길 5-1",
-        "phone": "061-642-1609",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "좌수영(봉산)",
-          "address": "전남 여수시 대교로 16-2",
-          "phone": "061-642-7700",
-          "district": "여수시"
-        },
-        {
-          "name": "좌수영(서교)",
-          "address": "전남 여수시 좌수영로 20-1",
-          "phone": "061-641-8036",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2611",
-      "group_name": "구봉",
-      "head_office": {
-        "name": "구봉(본점)",
-        "address": "전남 여수시 신월로 668",
-        "phone": "061-643-1139",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2615",
-      "group_name": "새여수",
-      "head_office": {
-        "name": "새여수(본점)",
-        "address": "전남 여수시 웅천로 347",
-        "phone": "061-691-6201",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "새여수(대치)",
-          "address": "전남 여수시 여서로 174",
-          "phone": "061-666-6202",
-          "district": "여수시"
-        },
-        {
-          "name": "새여수(여서)",
-          "address": "전남 여수시 여서1로 84-1",
-          "phone": "061-651-6201",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2627",
-      "group_name": "순천만",
-      "head_office": {
-        "name": "순천만(본점)",
-        "address": "전남 순천시 중앙2길 22",
-        "phone": "061-741-0001",
-        "province": "전남",
-        "district": "순천시"
-      },
-      "branches": [
-        {
-          "name": "순천만(매곡)",
-          "address": "전남 순천시 북문길 99",
-          "phone": "061-751-9967",
-          "district": "순천시"
-        },
-        {
-          "name": "순천만(금당)",
-          "address": "전남 순천시 해룡면 장선배기길 284",
-          "phone": "061-725-4071",
-          "district": "순천시"
-        },
-        {
-          "name": "순천만(법원)",
-          "address": "전남 순천시 왕지로 5",
-          "phone": "061-742-9227",
-          "district": "순천시"
-        }
-      ]
-    },
-    {
       "gmgoCd": "2638",
       "group_name": "여천",
       "head_office": {
@@ -10797,341 +10295,29 @@
         "province": "전남",
         "district": "여수시"
       },
-      "branches": [
-        {
-          "name": "여천(선원)",
-          "address": "전남 여수시 무선5길 34",
-          "phone": "061-685-0903",
-          "district": "여수시"
-        },
-        {
-          "name": "여천(시전)",
-          "address": "전남 여수시 흥국로 99-1",
-          "phone": "061-684-0810",
-          "district": "여수시"
-        },
-        {
-          "name": "여천(안산)",
-          "address": "전남 여수시 도원로 190",
-          "phone": "061-685-0905",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2646",
-      "group_name": "여수서부",
-      "head_office": {
-        "name": "여수서부(본점)",
-        "address": "전남 여수시 문수로 157-1",
-        "phone": "061-652-4351",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "여수서부(미덕)",
-          "address": "전남 여수시 미평로 37",
-          "phone": "061-653-3228",
-          "district": "여수시"
-        },
-        {
-          "name": "여수서부(웅천)",
-          "address": "전남 여수시 예울마루로 37-16",
-          "phone": "061-686-9400",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2647",
-      "group_name": "순천북부",
-      "head_office": {
-        "name": "순천북부(본점)",
-        "address": "전남 순천시 삼산로 107",
-        "phone": "061-752-4987",
-        "province": "전남",
-        "district": "순천시"
-      },
-      "branches": [
-        {
-          "name": "순천북부(신대)",
-          "address": "전남 순천시 해룡면 좌야로 135",
-          "phone": "061-721-4960",
-          "district": "순천시"
-        },
-        {
-          "name": "순천북부(금당)",
-          "address": "전남 순천시 해룡면 기적의도서관길 90",
-          "phone": "061-722-9172",
-          "district": "순천시"
-        }
-      ]
+      "branches": []
     },
     {
       "gmgoCd": "2648",
       "group_name": "순천중부",
       "head_office": {
-        "name": "순천중부(본점)",
-        "address": "전남 순천시 풍덕주택길 52",
-        "phone": "061-743-0973",
+        "name": "순천중부(정원)",
+        "address": "전남 순천시 장평로 23-1",
+        "phone": "061-745-2215",
         "province": "전남",
         "district": "순천시"
       },
-      "branches": [
-        {
-          "name": "순천중부(정원)",
-          "address": "전남 순천시 장평로 23-1",
-          "phone": "061-745-2215",
-          "district": "순천시"
-        }
-      ]
+      "branches": []
     },
     {
       "gmgoCd": "2703",
       "group_name": "광양시",
       "head_office": {
-        "name": "광양시(본점)",
-        "address": "전남 광양시 광장로 127",
-        "phone": "061-797-1400",
+        "name": "광양시(마동)",
+        "address": "전남 광양시 진등길 55-5",
+        "phone": "061-797-1490",
         "province": "전남",
         "district": "광양시"
-      },
-      "branches": [
-        {
-          "name": "광양시(광영)",
-          "address": "전남 광양시 광영로 78",
-          "phone": "061-797-1460",
-          "district": "광양시"
-        },
-        {
-          "name": "광양시(제철)",
-          "address": "전남 광양시 희망길 12-7",
-          "phone": "061-797-1480",
-          "district": "광양시"
-        },
-        {
-          "name": "광양시(마동)",
-          "address": "전남 광양시 진등길 55-5",
-          "phone": "061-797-1490",
-          "district": "광양시"
-        },
-        {
-          "name": "광양시(광양읍)",
-          "address": "전남 광양시 광양읍 인덕로 977",
-          "phone": "061-797-1422",
-          "district": "광양시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2706",
-      "group_name": "광양",
-      "head_office": {
-        "name": "광양(본점)",
-        "address": "전남 광양시 광양읍 읍성3길 5-1",
-        "phone": "061-763-6900",
-        "province": "전남",
-        "district": "광양시"
-      },
-      "branches": [
-        {
-          "name": "광양(옥곡)",
-          "address": "전남 광양시 옥곡면 옥진로 665-1",
-          "phone": "061-772-8000",
-          "district": "광양시"
-        },
-        {
-          "name": "광양(용강)",
-          "address": "전남 광양시 광양읍 와룡길 28",
-          "phone": "061-761-6040",
-          "district": "광양시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2709",
-      "group_name": "봉성",
-      "head_office": {
-        "name": "봉성(본점)",
-        "address": "전남 구례군 구례읍 상설시장길 20",
-        "phone": "061-782-3180",
-        "province": "전남",
-        "district": "구례군"
-      },
-      "branches": [
-        {
-          "name": "봉성(마산・냉천)",
-          "address": "전남 구례군 마산면 화엄사로 151",
-          "phone": "061-782-4087",
-          "district": "구례군"
-        },
-        {
-          "name": "봉성(토지)",
-          "address": "전남 구례군 토지면 섬진강대로 5049",
-          "phone": "061-781-6774",
-          "district": "구례군"
-        },
-        {
-          "name": "봉성(광의)",
-          "address": "전남 구례군 광의면 구만제로 328",
-          "phone": "061-781-3811",
-          "district": "구례군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2716",
-      "group_name": "구례",
-      "head_office": {
-        "name": "구례(본점)",
-        "address": "전남 구례군 구례읍 구례1길 36",
-        "phone": "061-782-4700",
-        "province": "전남",
-        "district": "구례군"
-      },
-      "branches": [
-        {
-          "name": "구례(산동)",
-          "address": "전남 구례군 산동면 지리산온천로 262",
-          "phone": "061-783-9223",
-          "district": "구례군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2720",
-      "group_name": "여수한려",
-      "head_office": {
-        "name": "여수한려(본점)",
-        "address": "전남 여수시 소라면 죽림중앙로 30-55",
-        "phone": "061-684-2511",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": [
-        {
-          "name": "여수한려(율촌)",
-          "address": "전남 여수시 율촌면 동산개길 15",
-          "phone": "061-683-6717",
-          "district": "여수시"
-        },
-        {
-          "name": "여수한려(덕양)",
-          "address": "전남 여수시 소라면 덕양로 440",
-          "phone": "061-683-9005",
-          "district": "여수시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2721",
-      "group_name": "돌산",
-      "head_office": {
-        "name": "돌산(본점)",
-        "address": "전남 여수시 돌산읍 강남9길 10",
-        "phone": "061-644-7111",
-        "province": "전남",
-        "district": "여수시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2722",
-      "group_name": "고흥",
-      "head_office": {
-        "name": "고흥(본점)",
-        "address": "전남 고흥군 고흥읍 시장길 41",
-        "phone": "061-832-2072",
-        "province": "전남",
-        "district": "고흥군"
-      },
-      "branches": [
-        {
-          "name": "고흥(대서)",
-          "address": "전남 고흥군 대서면 동서로 460",
-          "phone": "061-833-3606",
-          "district": "고흥군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2723",
-      "group_name": "녹동",
-      "head_office": {
-        "name": "녹동(본점)",
-        "address": "전남 고흥군 도양읍 비봉로 142",
-        "phone": "061-842-3395",
-        "province": "전남",
-        "district": "고흥군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2724",
-      "group_name": "우주",
-      "head_office": {
-        "name": "우주(본점)",
-        "address": "전남 고흥군 과역면 고흥로 2985",
-        "phone": "061-832-9534",
-        "province": "전남",
-        "district": "고흥군"
-      },
-      "branches": [
-        {
-          "name": "우주(동강)",
-          "address": "전남 고흥군 동강면 고흥로 4268",
-          "phone": "061-833-2456",
-          "district": "고흥군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2736",
-      "group_name": "벌교",
-      "head_office": {
-        "name": "벌교(본점)",
-        "address": "전남 보성군 벌교읍 채동선로 240",
-        "phone": "061-857-1646",
-        "province": "전남",
-        "district": "보성군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2737",
-      "group_name": "보성",
-      "head_office": {
-        "name": "보성(본점)",
-        "address": "전남 보성군 보성읍 신흥길 8",
-        "phone": "061-853-1133",
-        "province": "전남",
-        "district": "보성군"
-      },
-      "branches": [
-        {
-          "name": "보성(득량)",
-          "address": "전남 보성군 득량면 역전길 9",
-          "phone": "061-853-2188",
-          "district": "보성군"
-        },
-        {
-          "name": "보성(예당)",
-          "address": "전남 보성군 득량면 예당중앙길 3",
-          "phone": "061-853-5550",
-          "district": "보성군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2803",
-      "group_name": "목포동부",
-      "head_office": {
-        "name": "목포동부(본점)",
-        "address": "전남 목포시 영산로245번길 9-1",
-        "phone": "-1644-6686",
-        "province": "전남",
-        "district": "목포시"
       },
       "branches": []
     },
@@ -11148,423 +10334,6 @@
       "branches": []
     },
     {
-      "gmgoCd": "2807",
-      "group_name": "국민",
-      "head_office": {
-        "name": "국민(본점)",
-        "address": "전남 목포시 마인계터로38번길 1",
-        "phone": "061-244-5162",
-        "province": "전남",
-        "district": "목포시"
-      },
-      "branches": [
-        {
-          "name": "국민(연산)",
-          "address": "전남 목포시 원산중앙로 62",
-          "phone": "061-279-5260",
-          "district": "목포시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2808",
-      "group_name": "목포중앙",
-      "head_office": {
-        "name": "목포중앙(본점)",
-        "address": "전남 목포시 백년대로 294",
-        "phone": "061-244-1144",
-        "province": "전남",
-        "district": "목포시"
-      },
-      "branches": [
-        {
-          "name": "목포중앙(유달)",
-          "address": "전남 목포시 영산로59번길 13",
-          "phone": "061-285-1144",
-          "district": "목포시"
-        },
-        {
-          "name": "목포중앙(연동)",
-          "address": "전남 목포시 산정로50번길 3",
-          "phone": "061-276-7183",
-          "district": "목포시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2810",
-      "group_name": "삼학",
-      "head_office": {
-        "name": "삼학(본점)",
-        "address": "전남 목포시 하당로 251-1",
-        "phone": "061-244-5419",
-        "province": "전남",
-        "district": "목포시"
-      },
-      "branches": [
-        {
-          "name": "삼학(동명)",
-          "address": "전남 목포시 산정로6번길 31",
-          "phone": "061-244-4711",
-          "district": "목포시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2820",
-      "group_name": "영신학원",
-      "head_office": {
-        "name": "영신학원(본점)",
-        "address": "전남 목포시 영산로 415",
-        "phone": "061-278-7665",
-        "province": "전남",
-        "district": "목포시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2823",
-      "group_name": "강진완도",
-      "head_office": {
-        "name": "강진완도(본점)",
-        "address": "전남 강진군 강진읍 중앙로 137",
-        "phone": "061-433-1988",
-        "province": "전남",
-        "district": "강진군"
-      },
-      "branches": [
-        {
-          "name": "강진완도(완도)",
-          "address": "전남 완도군 완도읍 장보고대로 189",
-          "phone": "061-554-4811",
-          "district": "완도군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2827",
-      "group_name": "문내",
-      "head_office": {
-        "name": "문내(본점)",
-        "address": "전남 해남군 문내면 우수영로 8",
-        "phone": "061-532-2179",
-        "province": "전남",
-        "district": "해남군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2829",
-      "group_name": "해남",
-      "head_office": {
-        "name": "해남(본점)",
-        "address": "전남 해남군 해남읍 읍내길 21-4",
-        "phone": "061-534-4868",
-        "province": "전남",
-        "district": "해남군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2830",
-      "group_name": "무안",
-      "head_office": {
-        "name": "무안(본점)",
-        "address": "전남 무안군 무안읍 무안중앙로 37",
-        "phone": "061-453-3148",
-        "province": "전남",
-        "district": "무안군"
-      },
-      "branches": [
-        {
-          "name": "무안(현경)",
-          "address": "전남 무안군 현경면 현해로 80",
-          "phone": "061-454-3148",
-          "district": "무안군"
-        },
-        {
-          "name": "무안(신남악)",
-          "address": "전남 무안군 삼향읍 남악3로82번길 41",
-          "phone": "061-284-3148",
-          "district": "무안군"
-        },
-        {
-          "name": "무안(함평)",
-          "address": "전남 함평군 함평읍 서부길 116",
-          "phone": "061-322-3343",
-          "district": "함평군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2831",
-      "group_name": "해제",
-      "head_office": {
-        "name": "해제(본점)",
-        "address": "전남 무안군 해제면 봉대로 32",
-        "phone": "061-452-6249",
-        "province": "전남",
-        "district": "무안군"
-      },
-      "branches": [
-        {
-          "name": "해제(지도)",
-          "address": "전남 신안군 지도읍 해제지도로 1252",
-          "phone": "061-275-6292",
-          "district": "신안군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2833",
-      "group_name": "남악",
-      "head_office": {
-        "name": "남악(본점)",
-        "address": "전남 무안군 일로읍 일로로 51-2",
-        "phone": "061-281-2771",
-        "province": "전남",
-        "district": "무안군"
-      },
-      "branches": [
-        {
-          "name": "남악(남악)",
-          "address": "전남 무안군 삼향읍 남악2로74번길 31",
-          "phone": "061-284-2771",
-          "district": "무안군"
-        },
-        {
-          "name": "남악(남악골든)",
-          "address": "전남 무안군 삼향읍 남악4로 50",
-          "phone": "061-287-2771",
-          "district": "무안군"
-        },
-        {
-          "name": "남악(오룡)",
-          "address": "전남 무안군 일로읍 오룡교육로5길 17",
-          "phone": "061-285-2771",
-          "district": "무안군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2841",
-      "group_name": "진도군",
-      "head_office": {
-        "name": "진도군(본점)",
-        "address": "전남 진도군 진도읍 남문길 42-10",
-        "phone": "061-542-9200",
-        "province": "전남",
-        "district": "진도군"
-      },
-      "branches": [
-        {
-          "name": "진도군(임회)",
-          "address": "전남 진도군 임회면 석교길 6-1",
-          "phone": "061-543-3098",
-          "district": "진도군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2843",
-      "group_name": "신안",
-      "head_office": {
-        "name": "신안(본점)",
-        "address": "전남 신안군 압해읍 압해로 866",
-        "phone": "061-271-1521",
-        "province": "전남",
-        "district": "신안군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2902",
-      "group_name": "나주",
-      "head_office": {
-        "name": "나주(본점)",
-        "address": "전남 나주시 나주로 140",
-        "phone": "061-334-7771",
-        "province": "전남",
-        "district": "나주시"
-      },
-      "branches": [
-        {
-          "name": "나주(다시)",
-          "address": "전남 나주시 다시면 무숙로 792",
-          "phone": "061-335-4207",
-          "district": "나주시"
-        },
-        {
-          "name": "나주(빛가람)",
-          "address": "전남 나주시 그린로 361",
-          "phone": "061-337-7772",
-          "district": "나주시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2903",
-      "group_name": "영산포",
-      "head_office": {
-        "name": "영산포(본점)",
-        "address": "전남 나주시 이창1길 43",
-        "phone": "061-334-0276",
-        "province": "전남",
-        "district": "나주시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2905",
-      "group_name": "나주동부",
-      "head_office": {
-        "name": "나주동부(본점)",
-        "address": "전남 나주시 남평읍 강변1길 73-12",
-        "phone": "061-336-1557",
-        "province": "전남",
-        "district": "나주시"
-      },
-      "branches": [
-        {
-          "name": "나주동부(봉황)",
-          "address": "전남 나주시 봉황면 봉황로 727",
-          "phone": "061-331-4409",
-          "district": "나주시"
-        },
-        {
-          "name": "나주동부(빛가람혁신)",
-          "address": "전남 나주시 우정로 72",
-          "phone": "061-335-1557",
-          "district": "나주시"
-        },
-        {
-          "name": "나주동부(남평)",
-          "address": "전남 나주시 남평읍 남평2로 41-5",
-          "phone": "061-331-1557",
-          "district": "나주시"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2907",
-      "group_name": "담양",
-      "head_office": {
-        "name": "담양(본점)",
-        "address": "전남 담양군 담양읍 지침3길 13",
-        "phone": "061-383-3888",
-        "province": "전남",
-        "district": "담양군"
-      },
-      "branches": [
-        {
-          "name": "담양(북부)",
-          "address": "전남 담양군 담양읍 객사2길 7-1",
-          "phone": "061-383-4888",
-          "district": "담양군"
-        },
-        {
-          "name": "담양(장성)",
-          "address": "전남 장성군 장성읍 충무길 5",
-          "phone": "061-395-9595",
-          "district": "장성군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2911",
-      "group_name": "화순",
-      "head_office": {
-        "name": "화순(본점)",
-        "address": "전남 화순군 화순읍 자치샘로 35",
-        "phone": "061-374-6233",
-        "province": "전남",
-        "district": "화순군"
-      },
-      "branches": [
-        {
-          "name": "화순(광덕)",
-          "address": "전남 화순군 화순읍 만연로 64",
-          "phone": "061-374-6237",
-          "district": "화순군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2926",
-      "group_name": "영암성실",
-      "head_office": {
-        "name": "영암성실(본점)",
-        "address": "전남 영암군 영암읍 중앙로 37",
-        "phone": "061-473-2593",
-        "province": "전남",
-        "district": "영암군"
-      },
-      "branches": [
-        {
-          "name": "영암성실(시종)",
-          "address": "전남 영암군 시종면 마한로 1272-1",
-          "phone": "061-472-8474",
-          "district": "영암군"
-        },
-        {
-          "name": "영암성실(군서)",
-          "address": "전남 영암군 군서면 왕인로 490-1",
-          "phone": "061-472-6010",
-          "district": "영암군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2927",
-      "group_name": "영암우리",
-      "head_office": {
-        "name": "영암우리(본점)",
-        "address": "전남 영암군 금정면 용두로 9",
-        "phone": "061-472-2200",
-        "province": "전남",
-        "district": "영암군"
-      },
-      "branches": [
-        {
-          "name": "영암우리(신북)",
-          "address": "전남 영암군 신북면 황금동1길 8",
-          "phone": "061-472-1919",
-          "district": "영암군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2932",
-      "group_name": "삼호",
-      "head_office": {
-        "name": "삼호(본점)",
-        "address": "전남 영암군 삼호읍 삼호중앙로 161",
-        "phone": "061-462-5200",
-        "province": "전남",
-        "district": "영암군"
-      },
-      "branches": [
-        {
-          "name": "삼호(학산)",
-          "address": "전남 영암군 학산면 독천로 165-1",
-          "phone": "061-472-4026",
-          "district": "영암군"
-        },
-        {
-          "name": "삼호(삼호서부)",
-          "address": "전남 영암군 삼호읍 신항로 110",
-          "phone": "061-463-5200",
-          "district": "영암군"
-        },
-        {
-          "name": "삼호(대불)",
-          "address": "전남 영암군 삼호읍 대불주거로 167-1",
-          "phone": "061-464-5200",
-          "district": "영암군"
-        }
-      ]
-    },
-    {
       "gmgoCd": "2933",
       "group_name": "HD현대삼호",
       "head_office": {
@@ -11575,123 +10344,6 @@
         "district": "영암군"
       },
       "branches": []
-    },
-    {
-      "gmgoCd": "2937",
-      "group_name": "영광",
-      "head_office": {
-        "name": "영광(본점)",
-        "address": "전남 영광군 영광읍 물무로 84",
-        "phone": "061-351-3900",
-        "province": "전남",
-        "district": "영광군"
-      },
-      "branches": [
-        {
-          "name": "영광(터미널)",
-          "address": "전남 영광군 영광읍 신남로 194-1",
-          "phone": "061-351-0420",
-          "district": "영광군"
-        },
-        {
-          "name": "영광(대신)",
-          "address": "전남 영광군 영광읍 옥당로 165",
-          "phone": "061-352-3600",
-          "district": "영광군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2939",
-      "group_name": "법성",
-      "head_office": {
-        "name": "법성(본점)",
-        "address": "전남 영광군 법성면 진굴비길 76",
-        "phone": "061-356-3117",
-        "province": "전남",
-        "district": "영광군"
-      },
-      "branches": [
-        {
-          "name": "법성(홍농)",
-          "address": "전남 영광군 홍농읍 홍농로 459-1",
-          "phone": "061-356-3833",
-          "district": "영광군"
-        }
-      ]
-    },
-    {
-      "gmgoCd": "2941",
-      "group_name": "염산",
-      "head_office": {
-        "name": "염산(본점)",
-        "address": "전남 영광군 염산면 칠산로 63",
-        "phone": "061-352-8700",
-        "province": "전남",
-        "district": "영광군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2942",
-      "group_name": "백수",
-      "head_office": {
-        "name": "백수(본점)",
-        "address": "전남 영광군 백수읍 백수로 798",
-        "phone": "061-351-2550",
-        "province": "전남",
-        "district": "영광군"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2948",
-      "group_name": "정남진",
-      "head_office": {
-        "name": "정남진(본점)",
-        "address": "전남 장흥군 장흥읍 중앙로 56",
-        "phone": "061-863-9404",
-        "province": "전남",
-        "district": "장흥군"
-      },
-      "branches": [
-        {
-          "name": "정남진(관산)",
-          "address": "전남 장흥군 관산읍 칠관로 1568",
-          "phone": "061-867-2419",
-          "district": "장흥군"
-        },
-        {
-          "name": "정남진(대덕)",
-          "address": "전남 장흥군 대덕읍 대대로 915-1",
-          "phone": "061-867-1035",
-          "district": "장흥군"
-        },
-        {
-          "name": "정남진(용산)",
-          "address": "전남 장흥군 용산면 용안로 6",
-          "phone": "061-862-5179",
-          "district": "장흥군"
-        },
-        {
-          "name": "정남진(회진)",
-          "address": "전남 장흥군 회진면 가학회진로 1614-1",
-          "phone": "061-867-5600",
-          "district": "장흥군"
-        },
-        {
-          "name": "정남진(서부)",
-          "address": "전남 장흥군 장흥읍 칠거리예양로 79",
-          "phone": "061-863-4121",
-          "district": "장흥군"
-        },
-        {
-          "name": "정남진(안양)",
-          "address": "전남 장흥군 안양면 안양로 119",
-          "phone": "061-862-6270",
-          "district": "장흥군"
-        }
-      ]
     },
     {
       "gmgoCd": "3001",
@@ -14146,12 +12798,6 @@
         "district": "이천시"
       },
       "branches": [
-        {
-          "name": "SK hynix(영종도)",
-          "address": "인천 중구 자유무역로 191",
-          "phone": "032-746-9116",
-          "district": "중구"
-        },
         {
           "name": "SK hynix(청주)",
           "address": "충북 청주시 흥덕구 대신로 215",
@@ -24661,18 +23307,6 @@
       },
       "branches": [
         {
-          "name": "새울산(선암)",
-          "address": "울산 남구 산업로339번길 24-4",
-          "phone": "052-271-2206",
-          "district": "남구"
-        },
-        {
-          "name": "새울산(수암)",
-          "address": "울산 남구 중앙로 46-1",
-          "phone": "052-273-2204",
-          "district": "남구"
-        },
-        {
           "name": "새울산(온양)",
           "address": "울산 울주군 온양읍 대안3길 58",
           "phone": "052-239-8000",
@@ -24689,6 +23323,18 @@
           "address": "울산 울주군 청량읍 삼정로 824",
           "phone": "052-272-9700",
           "district": "울주군"
+        },
+        {
+          "name": "새울산(선암)",
+          "address": "울산 남구 산업로339번길 24-4",
+          "phone": "052-271-2206",
+          "district": "남구"
+        },
+        {
+          "name": "새울산(수암)",
+          "address": "울산 남구 중앙로 46-1",
+          "phone": "052-273-2204",
+          "district": "남구"
         }
       ]
     },
@@ -24896,6 +23542,12 @@
       },
       "branches": [
         {
+          "name": "서울산(천상)",
+          "address": "울산 울주군 범서읍 천상중앙길 99",
+          "phone": "052-220-0005",
+          "district": "울주군"
+        },
+        {
           "name": "서울산(삼호)",
           "address": "울산 남구 어은로 9-1",
           "phone": "052-220-0001",
@@ -24918,12 +23570,6 @@
           "address": "울산 남구 옥현로58번길 3",
           "phone": "052-220-0004",
           "district": "남구"
-        },
-        {
-          "name": "서울산(천상)",
-          "address": "울산 울주군 범서읍 천상중앙길 99",
-          "phone": "052-220-0005",
-          "district": "울주군"
         }
       ]
     },
