@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-07-03T03:56:56.958794",
-  "last_modified_at": "2026-07-03T03:56:56.958794",
+  "last_checked_at": "2026-07-03T03:58:29.082095",
+  "last_modified_at": "2026-07-03T03:58:29.082095",
   "status": "success",
-  "description": "성공: 총 2467개 금고(놀뫼(엄사), 구미(본점), 중랑우리(본점), 한강로3가(본점), 무등(본점) 외 979곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2465개 금고(신익산(본점), 선산(본점), 영포(본점), 연제중앙(본점), 부산서부(오션시티) 외 979곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 965,
       "total_items": 965,
-      "last_updated_at": "2026-07-03T03:56:56.958794",
-      "updated_banks_count": 810,
-      "description": "810개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-03T03:58:29.082095",
+      "updated_banks_count": 809,
+      "description": "809개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "청담동(본점)",
@@ -169,7 +169,6 @@
         "사직동(본점)",
         "종로중앙(본점)",
         "종로동부(본점)",
-        "종로광장(본점)",
         "종로숭인(본점)",
         "정관(본점)",
         "기장(본점)",
@@ -827,7 +826,7 @@
     "saving": {
       "total_banks": 851,
       "total_items": 1632,
-      "last_updated_at": "2026-07-03T03:56:56.958794",
+      "last_updated_at": "2026-07-03T03:58:29.082095",
       "updated_banks_count": 646,
       "description": "646개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1482,11 +1481,10 @@
     "demand": {
       "total_banks": 1163,
       "total_items": 2208,
-      "last_updated_at": "2026-07-03T03:56:56.958794",
-      "updated_banks_count": 1011,
-      "description": "1011개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-03T03:58:29.082095",
+      "updated_banks_count": 1010,
+      "description": "1010개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
         "대왕(본점)",
         "청담동(본점)",
         "강남영동(본점)",
