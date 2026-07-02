@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-07-02T18:31:04.191334",
-  "last_modified_at": "2026-07-02T18:31:04.191334",
+  "last_checked_at": "2026-07-02T21:31:04.161255",
+  "last_modified_at": "2026-07-02T21:31:04.161255",
   "status": "success",
-  "description": "성공: 총 1개 금고(대구원광(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 965,
       "total_items": 965,
-      "last_updated_at": "2026-07-02T18:31:04.191334",
+      "last_updated_at": "2026-07-02T21:31:04.161255",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "대구원광(본점)"
+        "안암동(본점)"
       ]
     },
     "saving": {
