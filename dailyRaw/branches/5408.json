@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T04:17:20+09:00",
+  "updated_at": "2026-07-03T03:56:57+09:00",
   "gmgoCd": "5408",
   "name": "대신동",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "경북",
       "district": "김천시"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "대신동(평화)",
+        "address": "경북 김천시 김천로 106",
+        "phone": "054-434-1114",
+        "district": "김천시"
+      }
+    ]
   },
   "rates": {
     "deposit": {
