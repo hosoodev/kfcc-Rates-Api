@@ -1,46 +1,48 @@
 {
-  "last_checked_at": "2026-07-03T03:56:58.192573",
-  "last_modified_at": "2026-07-03T03:56:58.192573",
+  "last_checked_at": "2026-07-04T03:33:07.280891",
+  "last_modified_at": "2026-07-04T03:33:07.280891",
   "status": "success",
-  "description": "성공: 총 10개 금고(천호(본점), 북제주(본점), 북구(본점), 산곡십정(본점), 서울개인택시조합(강남) 외 3곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 12개 금고(꿈드림(본점), 용산(본점), 음성(본점), 화성(본점), 숭의(본점) 외 7곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 965,
       "total_items": 965,
-      "last_updated_at": "2026-07-03T03:56:58.192573",
-      "updated_banks_count": 7,
+      "last_updated_at": "2026-07-04T03:33:07.280891",
+      "updated_banks_count": 9,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "천호(본점)",
-        "으뜸(본점)",
-        "종로광장(본점)",
-        "산곡십정(본점)",
-        "교동(본점)",
-        "북제주(본점)"
+        "영등포본동(본점)",
+        "길음중앙(본점)",
+        "용산(본점)",
+        "이태원1동(본점)",
+        "필동(본점)",
+        "숭의(본점)",
+        "꿈드림(본점)",
+        "음성(본점)",
+        "화성(본점)"
       ],
-      "description": "7개 금고 금리 변동 발생"
+      "description": "9개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 851,
       "total_items": 1632,
-      "last_updated_at": "2026-07-03T03:56:58.192573",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-07-04T03:33:07.280891",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "북구(본점)"
+        "광남(본점)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1163,
       "total_items": 2208,
-      "last_updated_at": "2026-07-03T03:56:58.192573",
-      "updated_banks_count": 1,
+      "last_updated_at": "2026-07-04T03:33:07.280891",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "서울개인택시조합(강남)"
+        "새울산(본점)",
+        "서울산(본점)"
       ],
-      "description": "1개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
