@@ -1,19 +1,19 @@
 {
-  "last_checked_at": "2026-07-03T08:30:47.002759",
-  "last_modified_at": "2026-07-03T08:30:47.002759",
+  "last_checked_at": "2026-07-03T10:31:09.080755",
+  "last_modified_at": "2026-07-03T10:31:09.080755",
   "status": "success",
-  "description": "성공: 총 2개 금고(사당(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(평리(본점), 제일(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 965,
       "total_items": 965,
-      "last_updated_at": "2026-07-03T08:30:47.002759",
+      "last_updated_at": "2026-07-03T10:31:09.080755",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "사당(본점)",
-        "안암동(본점)"
+        "평리(본점)",
+        "제일(본점)"
       ]
     },
     "saving": {
