@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6221",
   "name": "서울산",
   "meta": {
@@ -11,12 +11,6 @@
       "district": "남구"
     },
     "branches": [
-      {
-        "name": "서울산(천상)",
-        "address": "울산 울주군 범서읍 천상중앙길 99",
-        "phone": "052-220-0005",
-        "district": "울주군"
-      },
       {
         "name": "서울산(삼호)",
         "address": "울산 남구 어은로 9-1",
@@ -40,6 +34,12 @@
         "address": "울산 남구 옥현로58번길 3",
         "phone": "052-220-0004",
         "district": "남구"
+      },
+      {
+        "name": "서울산(천상)",
+        "address": "울산 울주군 범서읍 천상중앙길 99",
+        "phone": "052-220-0005",
+        "district": "울주군"
       }
     ]
   },
@@ -65,26 +65,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "15.76"
+      "bis_ratio": 16.01,
+      "dividend_rate": 2.8
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "15.49"
+      "bis_ratio": 15.76,
+      "dividend_rate": 3.8
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "13.76"
+      "bis_ratio": 15.49,
+      "dividend_rate": 3.8
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.76,
+      "dividend_rate": 4.72
+    },
+    {
+      "evaluation_date": "20231231",
       "grade": "1",
-      "bis_ratio": "13.69"
+      "bis_ratio": 13.69,
+      "dividend_rate": 4.72
     }
   ],
   "nearby_branches": [

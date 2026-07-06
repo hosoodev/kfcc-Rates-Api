@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "3146",
   "name": "진잠",
   "meta": {
@@ -12,12 +12,6 @@
     },
     "branches": [
       {
-        "name": "진잠(교촌)",
-        "address": "대전 유성구 진잠로149번길 1",
-        "phone": "042-543-3566",
-        "district": "유성구"
-      },
-      {
         "name": "진잠(학하)",
         "address": "대전 유성구 학하남로 1",
         "phone": "042-824-2123",
@@ -29,7 +23,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 3.0,
+          "r": 3.45,
           "s": "w"
         }
       }
@@ -54,12 +48,12 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.0,
+      "r": 3.45,
       "s": "w"
     },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "3143",

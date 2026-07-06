@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1316",
   "name": "부산동구",
   "meta": {
     "head_office": {
       "name": "부산동구(본점)",
-      "address": "부산 동구 범일로89번길 33",
+      "address": "부산 동구 범일로 101-8",
       "phone": "051-633-5743",
       "province": "부산",
       "district": "동구"
@@ -26,11 +26,11 @@
           "r": 3.0,
           "s": "m"
         },
-        "6": {
+        "3": {
           "r": 0.0,
           "s": "m"
         },
-        "3": {
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -77,16 +77,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2024_12",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "11.57"
+      "bis_ratio": 13.7,
+      "dividend_rate": 2.8
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": 10.59,
+      "dividend_rate": 3.0012
+    },
+    {
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "10.39"
+      "bis_ratio": 11.57,
+      "dividend_rate": 3.0012
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.28,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.39,
+      "dividend_rate": 4.00001
     }
   ],
   "nearby_branches": [

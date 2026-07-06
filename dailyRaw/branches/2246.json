@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "2246",
   "name": "주안동신기",
   "meta": {
@@ -16,7 +16,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.5,
+          "r": 2.7,
           "s": "w"
         }
       }
@@ -54,7 +54,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.5,
+      "r": 2.7,
       "s": "w"
     },
     "saving": {
@@ -64,7 +64,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "2234",

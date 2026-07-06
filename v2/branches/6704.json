@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6704",
   "name": "서홍",
   "meta": {
@@ -10,21 +10,22 @@
       "province": "제주",
       "district": "서귀포시"
     },
-    "branches": [
-      {
-        "name": "서홍(남부)",
-        "address": "제주 서귀포시 일주동로 8700",
-        "phone": "064-733-2493",
-        "district": "서귀포시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 3.6,
-          "s": "w"
+          "r": 3.91,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
         }
       }
     },
@@ -65,8 +66,8 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.6,
-      "s": "w"
+      "r": 3.91,
+      "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
@@ -75,21 +76,36 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "3.93"
+      "bis_ratio": 2.48,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "8.61"
+      "bis_ratio": 3.93,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 8.61,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "8.68"
+      "bis_ratio": 8.68,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.23,
+      "dividend_rate": 4.0077
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "1444",
   "name": "수영중앙",
   "meta": {
@@ -12,21 +12,9 @@
     },
     "branches": [
       {
-        "name": "수영중앙(망미)",
-        "address": "부산 수영구 과정로 55",
-        "phone": "051-758-3675",
-        "district": "수영구"
-      },
-      {
         "name": "수영중앙(광안)",
         "address": "부산 수영구 무학로 10",
         "phone": "051-753-6534",
-        "district": "수영구"
-      },
-      {
-        "name": "수영중앙(광삼)",
-        "address": "부산 수영구 망미번영로38번길 110",
-        "phone": "051-759-3222",
         "district": "수영구"
       }
     ]
@@ -47,7 +35,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1442",

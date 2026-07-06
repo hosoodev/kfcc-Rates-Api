@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-01T02:30:57+09:00",
   "gmgoCd": "2602",
   "name": "여수엑스포",
   "meta": {
@@ -22,16 +22,16 @@
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
-        "12": {
-          "r": 3.2,
-          "s": "m"
-        },
         "3": {
-          "r": 0.0,
+          "r": 3.0,
           "s": "m"
         },
         "6": {
-          "r": 0.0,
+          "r": 3.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
           "s": "m"
         }
       }
@@ -73,7 +73,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.2,
+      "r": 3.5,
       "s": "m"
     },
     "saving": {
@@ -83,26 +83,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "14.87"
+      "bis_ratio": 14.83,
+      "dividend_rate": 2.96547
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "13.57"
+      "bis_ratio": 14.87,
+      "dividend_rate": 4.0077
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "12.56"
+      "bis_ratio": 13.57,
+      "dividend_rate": 4.0077
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.11"
+      "bis_ratio": 12.56,
+      "dividend_rate": 4.49999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.11,
+      "dividend_rate": 4.49999
     }
   ],
   "nearby_branches": [

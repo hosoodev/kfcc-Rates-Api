@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3415",
   "name": "청양",
   "meta": {
@@ -75,26 +75,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "9.12"
+      "bis_ratio": 9.11,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
-      "grade": "2",
-      "bis_ratio": "10.54"
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.12,
+      "dividend_rate": 3.4038
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "11.11"
+      "bis_ratio": 10.54,
+      "dividend_rate": 3.4038
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.93"
+      "bis_ratio": 11.11,
+      "dividend_rate": 3.30064
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.93,
+      "dividend_rate": 3.30064
     }
   ],
   "nearby_branches": []

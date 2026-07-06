@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "4263",
   "name": "주문진",
   "meta": {
@@ -24,15 +24,15 @@
       "MG더뱅킹정기예금": {
         "3": {
           "r": 0.75,
-          "s": "m"
+          "s": "w"
         },
         "6": {
-          "r": 3.4,
-          "s": "m"
+          "r": 1.0,
+          "s": "w"
         },
         "12": {
-          "r": 2.9,
-          "s": "m"
+          "r": 3.1,
+          "s": "w"
         }
       }
     },
@@ -49,7 +49,7 @@
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.9,
+          "r": 3.1,
           "s": "w"
         }
       }
@@ -72,9 +72,9 @@
   "top_picks": {
     "deposit": {
       "name": "MG더뱅킹정기예금",
-      "month": "6",
-      "r": 3.4,
-      "s": "m"
+      "month": "12",
+      "r": 3.1,
+      "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
@@ -83,26 +83,36 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "9.78"
+      "bis_ratio": 10.55,
+      "dividend_rate": 4.00001
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "12.05"
+      "bis_ratio": 9.78,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "10.91"
+      "bis_ratio": 12.05,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.49"
+      "bis_ratio": 10.91,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.49,
+      "dividend_rate": 4.50001
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6455",
   "name": "산청",
   "meta": {
@@ -62,26 +62,36 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "1",
-      "bis_ratio": "22.79"
-    },
-    {
-      "period": "2024_12",
-      "grade": "1",
-      "bis_ratio": "21.71"
-    },
-    {
-      "period": "2024_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "20.84"
+      "bis_ratio": 24.35,
+      "dividend_rate": 4.9
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "19.29"
+      "bis_ratio": 22.79,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 21.71,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 20.84,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 19.29,
+      "dividend_rate": 4.5
     }
   ],
   "nearby_branches": []

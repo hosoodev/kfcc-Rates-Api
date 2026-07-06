@@ -1,23 +1,16 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "2648",
   "name": "순천중부",
   "meta": {
     "head_office": {
-      "name": "순천중부(본점)",
-      "address": "전남 순천시 풍덕주택길 52",
-      "phone": "061-743-0973",
+      "name": "순천중부(정원)",
+      "address": "전남 순천시 장평로 23-1",
+      "phone": "061-745-2215",
       "province": "전남",
       "district": "순천시"
     },
-    "branches": [
-      {
-        "name": "순천중부(정원)",
-        "address": "전남 순천시 장평로 23-1",
-        "phone": "061-745-2215",
-        "district": "순천시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
@@ -31,7 +24,7 @@
           "s": "w"
         },
         "12": {
-          "r": 3.0,
+          "r": 3.3,
           "s": "w"
         }
       }
@@ -73,7 +66,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.0,
+      "r": 3.3,
       "s": "w"
     },
     "saving": {
@@ -83,19 +76,6 @@
       "s": "w"
     }
   },
-  "grades_history": [],
-  "nearby_branches": [
-    {
-      "gmgoCd": "2627",
-      "name": "순천만",
-      "province": "전남",
-      "district": "순천시"
-    },
-    {
-      "gmgoCd": "2647",
-      "name": "순천북부",
-      "province": "전남",
-      "district": "순천시"
-    }
-  ]
+  "disclosure_history": [],
+  "nearby_branches": []
 }

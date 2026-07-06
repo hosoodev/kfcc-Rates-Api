@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-01T02:30:57+09:00",
   "gmgoCd": "2347",
   "name": "서해",
   "meta": {
@@ -16,6 +16,24 @@
         "address": "인천 서구 여우재로 119",
         "phone": "032-583-4174",
         "district": "서구"
+      },
+      {
+        "name": "서해(서일)",
+        "address": "인천 서구 가정로 115",
+        "phone": "032-575-8513",
+        "district": "서구"
+      },
+      {
+        "name": "서해(청라)",
+        "address": "인천 서구 청라한울로 96",
+        "phone": "032-715-6029",
+        "district": "서구"
+      },
+      {
+        "name": "서해(검단1)",
+        "address": "인천 서구 이음5로 36",
+        "phone": "032-562-9405",
+        "district": "서구"
       }
     ]
   },
@@ -23,7 +41,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.5,
+          "r": 2.8,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
           "s": "m"
         }
       }
@@ -41,7 +67,7 @@
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.1,
+          "r": 2.3,
           "s": "m"
         }
       }
@@ -65,7 +91,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.5,
+      "r": 2.8,
       "s": "m"
     },
     "saving": {
@@ -75,26 +101,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 7.35,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "7.33"
+      "bis_ratio": 7.33,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "9.13"
+      "bis_ratio": 9.13,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "9.09"
+      "bis_ratio": 9.09,
+      "dividend_rate": 4.307
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "3",
-      "bis_ratio": "11.7"
+      "bis_ratio": 11.7,
+      "dividend_rate": 4.307
     }
   ],
   "nearby_branches": [

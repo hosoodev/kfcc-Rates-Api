@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-01T02:30:57+09:00",
   "gmgoCd": "2939",
   "name": "법성",
   "meta": {
@@ -22,8 +22,16 @@
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
         "12": {
-          "r": 2.7,
+          "r": 3.0,
           "s": "m"
         }
       }
@@ -31,17 +39,17 @@
     "saving": {
       "MG더뱅킹정기적금": {
         "6": {
-          "r": 3.2,
+          "r": 3.4,
           "s": "m"
         },
         "12": {
-          "r": 3.2,
+          "r": 3.4,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.7,
+          "r": 3.0,
           "s": "m"
         }
       }
@@ -65,36 +73,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.7,
+      "r": 3.0,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "6",
-      "r": 3.2,
+      "r": 3.4,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "6.12"
+      "bis_ratio": 6.57,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "6.1"
+      "bis_ratio": 6.12,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "5.58"
+      "bis_ratio": 6.1,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 5.58,
+      "dividend_rate": 3.50035
+    },
+    {
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "5.86"
+      "bis_ratio": 5.86,
+      "dividend_rate": 3.50035
     }
   ],
   "nearby_branches": [

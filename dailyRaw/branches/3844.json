@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "3844",
   "name": "서수원",
   "meta": {
@@ -53,7 +53,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.8,
+          "r": 2.9,
           "s": "w"
         }
       }
@@ -61,7 +61,7 @@
     "saving": {
       "MG더뱅킹정기적금": {
         "12": {
-          "r": 3.2,
+          "r": 3.3,
           "s": "w"
         }
       },
@@ -91,24 +91,18 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.8,
+      "r": 2.9,
       "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 3.2,
+      "r": 3.3,
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
-    {
-      "gmgoCd": "3807",
-      "name": "세화",
-      "province": "경기",
-      "district": "수원시"
-    },
     {
       "gmgoCd": "3808",
       "name": "수원서부",
@@ -130,6 +124,12 @@
     {
       "gmgoCd": "3818",
       "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3823",
+      "name": "마이크로웍스",
       "province": "경기",
       "district": "수원시"
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3818",
   "name": "남수원",
   "meta": {
@@ -47,7 +47,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.9,
+          "r": 3.1,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
           "s": "m"
         }
       }
@@ -89,7 +97,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.9,
+      "r": 3.1,
       "s": "m"
     },
     "saving": {
@@ -99,35 +107,39 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "2",
-      "bis_ratio": "9.16"
-    },
-    {
-      "period": "2024_12",
-      "grade": "2",
-      "bis_ratio": "9.08"
-    },
-    {
-      "period": "2024_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "9.06"
+      "bis_ratio": 7.62,
+      "dividend_rate": 1.99999
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 9.16,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 9.08,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "8.19"
+      "bis_ratio": 9.06,
+      "dividend_rate": 4.49999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 8.19,
+      "dividend_rate": 4.49999
     }
   ],
   "nearby_branches": [
-    {
-      "gmgoCd": "3807",
-      "name": "세화",
-      "province": "경기",
-      "district": "수원시"
-    },
     {
       "gmgoCd": "3808",
       "name": "수원서부",
@@ -149,6 +161,12 @@
     {
       "gmgoCd": "3823",
       "name": "마이크로웍스",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3826",
+      "name": "삼성전기",
       "province": "경기",
       "district": "수원시"
     }

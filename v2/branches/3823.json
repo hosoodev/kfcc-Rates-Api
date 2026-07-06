@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3823",
   "name": "마이크로웍스",
   "meta": {
@@ -34,35 +34,39 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "62.01"
+      "bis_ratio": 66.52,
+      "dividend_rate": 4.38
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "66.59"
+      "bis_ratio": 62.01,
+      "dividend_rate": 4.941
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "1",
-      "bis_ratio": "77.85"
+      "bis_ratio": 66.59,
+      "dividend_rate": 4.941
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "1",
-      "bis_ratio": "93.75"
+      "bis_ratio": 77.85,
+      "dividend_rate": 4.83625
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 93.75,
+      "dividend_rate": 4.83625
     }
   ],
   "nearby_branches": [
-    {
-      "gmgoCd": "3807",
-      "name": "세화",
-      "province": "경기",
-      "district": "수원시"
-    },
     {
       "gmgoCd": "3808",
       "name": "수원서부",
@@ -84,6 +88,12 @@
     {
       "gmgoCd": "3818",
       "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3826",
+      "name": "삼성전기",
       "province": "경기",
       "district": "수원시"
     }

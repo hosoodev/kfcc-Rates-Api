@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "2301",
   "name": "연수",
   "meta": {
@@ -28,6 +28,18 @@
         "address": "인천 연수구 먼우금로 126",
         "phone": "032-816-0188",
         "district": "연수구"
+      },
+      {
+        "name": "연수(선학)",
+        "address": "인천 연수구 학나래로118번길 9",
+        "phone": "032-814-6414",
+        "district": "연수구"
+      },
+      {
+        "name": "연수(문학)",
+        "address": "인천 미추홀구 매소홀로 540",
+        "phone": "032-429-5501",
+        "district": "미추홀구"
       }
     ]
   },
@@ -87,7 +99,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1022",

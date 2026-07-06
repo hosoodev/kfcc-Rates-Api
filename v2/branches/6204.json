@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6204",
   "name": "울산제일",
   "meta": {
@@ -28,12 +28,6 @@
         "address": "울산 남구 문수로 385",
         "phone": "052-274-3648",
         "district": "남구"
-      },
-      {
-        "name": "울산제일(테크노)",
-        "address": "울산 남구 테크노산업로44번길 39",
-        "phone": "052-265-2200",
-        "district": "남구"
       }
     ]
   },
@@ -59,21 +53,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "2",
-      "bis_ratio": "17.47"
-    },
-    {
-      "period": "2024_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "15.97"
+      "bis_ratio": 16.95,
+      "dividend_rate": 2.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "16.65"
+      "bis_ratio": 17.47,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 18.52,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 15.97,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 16.65,
+      "dividend_rate": 0.0
     }
   ],
   "nearby_branches": [

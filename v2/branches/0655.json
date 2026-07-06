@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "0655",
   "name": "서울누리",
   "meta": {
@@ -30,15 +30,15 @@
       "MG더뱅킹정기예금": {
         "3": {
           "r": 2.3,
-          "s": "w"
+          "s": "m"
         },
         "6": {
           "r": 2.7,
-          "s": "w"
+          "s": "m"
         },
         "12": {
-          "r": 3.69,
-          "s": "w"
+          "r": 3.91,
+          "s": "m"
         }
       }
     },
@@ -79,8 +79,8 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.69,
-      "s": "w"
+      "r": 3.91,
+      "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
@@ -89,16 +89,24 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "6.66"
+      "bis_ratio": 7.14,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "6.8"
+      "bis_ratio": 6.66,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 6.8,
+      "dividend_rate": 0.0
     }
   ],
   "nearby_branches": [

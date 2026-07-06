@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "0429",
   "name": "마포역",
   "meta": {
     "head_office": {
       "name": "마포역(본점)",
-      "address": "서울 마포구 삼개로1길 3",
+      "address": "서울 마포구 도화길 14",
       "phone": "02-713-0324",
       "province": "서울",
       "district": "마포구"
@@ -65,7 +65,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "0423",

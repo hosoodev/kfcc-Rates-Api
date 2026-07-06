@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "4420",
   "name": "북춘천",
   "meta": {
@@ -38,17 +38,17 @@
       "MG더뱅킹정기적금": {
         "6": {
           "r": 2.1,
-          "s": "m"
+          "s": "w"
         },
         "12": {
           "r": 3.1,
-          "s": "m"
+          "s": "w"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
           "r": 2.4,
-          "s": "m"
+          "s": "w"
         }
       }
     },
@@ -78,29 +78,39 @@
       "name": "MG더뱅킹정기적금",
       "month": "12",
       "r": 3.1,
-      "s": "m"
+      "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "11.55"
+      "bis_ratio": 11.88,
+      "dividend_rate": 4.00283
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "11.99"
+      "bis_ratio": 11.55,
+      "dividend_rate": 4.5018
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "11.48"
+      "bis_ratio": 11.99,
+      "dividend_rate": 4.5018
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.33"
+      "bis_ratio": 11.48,
+      "dividend_rate": 5.30345
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.33,
+      "dividend_rate": 5.30345
     }
   ],
   "nearby_branches": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "0436",
   "name": "성암",
   "meta": {
@@ -28,16 +28,16 @@
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
-        "12": {
-          "r": 2.7,
-          "s": "m"
-        },
         "3": {
-          "r": 0.0,
+          "r": 2.2,
           "s": "m"
         },
         "6": {
-          "r": 0.0,
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
           "s": "m"
         }
       }
@@ -49,13 +49,13 @@
           "s": "m"
         },
         "12": {
-          "r": 2.8,
+          "r": 3.0,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.5,
+          "r": 2.7,
           "s": "m"
         }
       }
@@ -79,36 +79,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.7,
+      "r": 2.9,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 2.8,
+      "r": 3.0,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "17.75"
+      "bis_ratio": 19.69,
+      "dividend_rate": 3.3
     },
     {
-      "period": "2024_12",
-      "grade": "2",
-      "bis_ratio": "16.31"
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 17.75,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "15.06"
+      "bis_ratio": 16.31,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "14.93"
+      "bis_ratio": 15.06,
+      "dividend_rate": 4.49999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 14.93,
+      "dividend_rate": 4.49999
     }
   ],
   "nearby_branches": [

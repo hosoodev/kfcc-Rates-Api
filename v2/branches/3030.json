@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3030",
   "name": "대전북부",
   "meta": {
@@ -28,6 +28,18 @@
         "address": "대전 대덕구 덕암북로 84",
         "phone": "042-932-5727",
         "district": "대덕구"
+      },
+      {
+        "name": "대전북부(석봉)",
+        "address": "대전 대덕구 석봉로37번길 41",
+        "phone": "042-932-1264",
+        "district": "대덕구"
+      },
+      {
+        "name": "대전북부(덤바위)",
+        "address": "대전 대덕구 덕암로 193",
+        "phone": "042-931-2981",
+        "district": "대덕구"
       }
     ]
   },
@@ -35,15 +47,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "3": {
-          "r": 2.39,
+          "r": 2.6,
           "s": "m"
         },
         "6": {
-          "r": 2.88,
+          "r": 3.0,
           "s": "m"
         },
         "12": {
-          "r": 3.4,
+          "r": 3.5,
           "s": "m"
         }
       }
@@ -85,7 +97,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.4,
+      "r": 3.5,
       "s": "m"
     },
     "saving": {
@@ -95,44 +107,42 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "9.6"
+      "bis_ratio": 8.3,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "9.51"
+      "bis_ratio": 9.6,
+      "dividend_rate": 2.5
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "9.3"
+      "bis_ratio": 9.51,
+      "dividend_rate": 2.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "10.83"
+      "bis_ratio": 9.3,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.83,
+      "dividend_rate": 4.0
     }
   ],
   "nearby_branches": [
     {
       "gmgoCd": "0741",
       "name": "한국앤컴퍼니",
-      "province": "대전",
-      "district": "대덕구"
-    },
-    {
-      "gmgoCd": "3027",
-      "name": "오정동",
-      "province": "대전",
-      "district": "대덕구"
-    },
-    {
-      "gmgoCd": "3029",
-      "name": "대청",
       "province": "대전",
       "district": "대덕구"
     },

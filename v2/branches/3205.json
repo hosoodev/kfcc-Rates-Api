@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3205",
   "name": "천안동부",
   "meta": {
@@ -23,7 +23,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.71,
+          "r": 3.01,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
           "s": "m"
         }
       }
@@ -35,13 +43,13 @@
           "s": "m"
         },
         "12": {
-          "r": 2.91,
+          "r": 3.21,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.41,
+          "r": 2.71,
           "s": "m"
         }
       }
@@ -65,36 +73,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.71,
+      "r": 3.01,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 2.91,
+      "r": 3.21,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "7.28"
+      "bis_ratio": 7.29,
+      "dividend_rate": 3.01125
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "7.98"
+      "bis_ratio": 7.28,
+      "dividend_rate": 4.0077
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "7.14"
+      "bis_ratio": 7.98,
+      "dividend_rate": 4.0077
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "7.51"
+      "bis_ratio": 7.14,
+      "dividend_rate": 5.0005
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 7.51,
+      "dividend_rate": 5.0005
     }
   ],
   "nearby_branches": [

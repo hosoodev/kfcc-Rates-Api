@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "1231",
   "name": "부산대학교병원",
   "meta": {
@@ -30,7 +30,7 @@
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.92,
+          "r": 3.3,
           "s": "w"
         }
       }
@@ -53,13 +53,13 @@
   "top_picks": {
     "deposit": null,
     "saving": {
-      "name": "MG더뱅킹정기적금",
+      "name": "MG더뱅킹자유적금",
       "month": "12",
-      "r": 3.1,
+      "r": 3.3,
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1213",

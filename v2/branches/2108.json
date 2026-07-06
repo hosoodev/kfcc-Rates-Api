@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "2108",
   "name": "서부",
   "meta": {
@@ -29,7 +29,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.9,
+          "r": 3.3,
           "s": "m"
         },
         "3": {
@@ -79,7 +79,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.9,
+      "r": 3.3,
       "s": "m"
     },
     "saving": {
@@ -89,35 +89,39 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "11.4"
+      "bis_ratio": 12.76,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2024_12",
-      "grade": "3",
-      "bis_ratio": "11.46"
-    },
-    {
-      "period": "2024_06",
-      "grade": "3",
-      "bis_ratio": "11.45"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "12.49"
+      "bis_ratio": 11.4,
+      "dividend_rate": 2.50001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 11.46,
+      "dividend_rate": 2.50001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 11.45,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.49,
+      "dividend_rate": 4.50001
     }
   ],
   "nearby_branches": [
-    {
-      "gmgoCd": "2102",
-      "name": "대성",
-      "province": "대구",
-      "district": "달서구"
-    },
     {
       "gmgoCd": "2103",
       "name": "두류1.2동",
@@ -139,6 +143,12 @@
     {
       "gmgoCd": "2107",
       "name": "우리",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2109",
+      "name": "달서",
       "province": "대구",
       "district": "달서구"
     }

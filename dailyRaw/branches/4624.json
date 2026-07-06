@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "4624",
   "name": "영동",
   "meta": {
@@ -21,12 +21,6 @@
         "name": "영동(양산)",
         "address": "충북 영동군 양산면 송호로 6",
         "phone": "043-744-1911",
-        "district": "영동군"
-      },
-      {
-        "name": "영동(학산)",
-        "address": "충북 영동군 학산면 서산로 46",
-        "phone": "043-745-1911",
         "district": "영동군"
       }
     ]
@@ -53,7 +47,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "4622",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-01T02:30:57+09:00",
   "gmgoCd": "2841",
   "name": "진도군",
   "meta": {
@@ -53,26 +53,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "12.67"
+      "bis_ratio": 13.76,
+      "dividend_rate": 3.00395
     },
     {
-      "period": "2024_12",
-      "grade": "3",
-      "bis_ratio": "12.41"
-    },
-    {
-      "period": "2024_06",
-      "grade": "3",
-      "bis_ratio": "11.65"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "11.96"
+      "bis_ratio": 12.67,
+      "dividend_rate": 2.49978
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.41,
+      "dividend_rate": 2.49978
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 11.65,
+      "dividend_rate": 4.0077
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.96,
+      "dividend_rate": 4.0077
     }
   ],
   "nearby_branches": []

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "5515",
   "name": "형곡",
   "meta": {
@@ -29,26 +29,26 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 3.1,
-          "s": "m"
+          "r": 3.31,
+          "s": "w"
         }
       }
     },
     "saving": {
       "MG더뱅킹정기적금": {
         "6": {
-          "r": 2.1,
-          "s": "m"
+          "r": 2.3,
+          "s": "w"
         },
         "12": {
-          "r": 2.3,
-          "s": "m"
+          "r": 2.5,
+          "s": "w"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.2,
-          "s": "m"
+          "r": 2.5,
+          "s": "w"
         }
       }
     },
@@ -71,36 +71,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.1,
-      "s": "m"
+      "r": 3.31,
+      "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 2.3,
-      "s": "m"
+      "r": 2.5,
+      "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "1",
-      "bis_ratio": "21.44"
-    },
-    {
-      "period": "2024_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "19.92"
+      "bis_ratio": 21.5,
+      "dividend_rate": 2.8
     },
     {
-      "period": "2024_06",
-      "grade": "2",
-      "bis_ratio": "19.28"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "21.57"
+      "bis_ratio": 21.44,
+      "dividend_rate": 3.30903
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 19.92,
+      "dividend_rate": 3.30903
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 19.28,
+      "dividend_rate": 3.99999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 21.57,
+      "dividend_rate": 3.99999
     }
   ],
   "nearby_branches": [

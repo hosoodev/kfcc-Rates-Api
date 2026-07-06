@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "0330",
   "name": "서울은평",
   "meta": {
     "head_office": {
       "name": "서울은평(본점)",
-      "address": "서울 은평구 불광로 55",
+      "address": "서울 은평구 진흥로15길 29",
       "phone": "02-385-6300",
       "province": "서울",
       "district": "은평구"
@@ -22,34 +22,34 @@
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.5,
+          "s": "m"
+        },
         "6": {
-          "r": 2.7,
+          "r": 3.0,
           "s": "m"
         },
         "12": {
-          "r": 3.1,
-          "s": "m"
-        },
-        "3": {
-          "r": 0.0,
+          "r": 3.4,
           "s": "m"
         }
       }
     },
     "saving": {
       "MG더뱅킹정기적금": {
-        "12": {
-          "r": 3.3,
+        "6": {
+          "r": 2.9,
           "s": "m"
         },
-        "6": {
-          "r": 0.0,
+        "12": {
+          "r": 3.4,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.9,
+          "r": 3.1,
           "s": "m"
         }
       }
@@ -67,36 +67,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.1,
+      "r": 3.4,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 3.3,
+      "r": 3.4,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "12.68"
+      "bis_ratio": 11.94,
+      "dividend_rate": 1.5
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "13.6"
+      "bis_ratio": 12.68,
+      "dividend_rate": 2.50014
     },
     {
-      "period": "2024_06",
-      "grade": "2",
-      "bis_ratio": "12.42"
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 13.6,
+      "dividend_rate": 2.50014
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "14.97"
+      "bis_ratio": 12.42,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 14.97,
+      "dividend_rate": 4.00001
     }
   ],
   "nearby_branches": [

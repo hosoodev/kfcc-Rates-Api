@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "2244",
   "name": "주안",
   "meta": {
@@ -15,6 +15,18 @@
         "name": "주안(5동)",
         "address": "인천 미추홀구 길파로 21-1",
         "phone": "032-867-1224",
+        "district": "미추홀구"
+      },
+      {
+        "name": "주안(석바위)",
+        "address": "인천 미추홀구 경원대로 830",
+        "phone": "032-421-6511",
+        "district": "미추홀구"
+      },
+      {
+        "name": "주안(4동)",
+        "address": "인천 미추홀구 미추홀대로646번길 51",
+        "phone": "032-421-6311",
         "district": "미추홀구"
       }
     ]
@@ -53,7 +65,7 @@
     },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "2234",

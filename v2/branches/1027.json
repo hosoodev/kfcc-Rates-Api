@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1027",
-  "name": "마천",
+  "name": "서울제일",
   "meta": {
     "head_office": {
-      "name": "마천(본점)",
+      "name": "서울제일(본점)",
       "address": "서울 송파구 마천로45길 13",
       "phone": "02-400-4834",
       "province": "서울",
@@ -12,7 +12,7 @@
     },
     "branches": [
       {
-        "name": "마천(거여)",
+        "name": "서울제일(거여)",
         "address": "서울 송파구 오금로 522",
         "phone": "02-430-6591",
         "district": "송파구"
@@ -23,14 +23,14 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 3.2,
-          "s": "m"
-        },
-        "6": {
-          "r": 0.0,
+          "r": 3.9,
           "s": "m"
         },
         "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
           "r": 0.0,
           "s": "m"
         }
@@ -50,7 +50,7 @@
       "MG더뱅킹자유적금": {
         "12": {
           "r": 2.4,
-          "s": "w"
+          "s": "m"
         }
       }
     },
@@ -73,7 +73,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.2,
+      "r": 3.9,
       "s": "m"
     },
     "saving": {
@@ -83,26 +83,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "9.84"
+      "bis_ratio": 9.89,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "12.57"
+      "bis_ratio": 9.84,
+      "dividend_rate": 3.2208
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "11.72"
+      "bis_ratio": 12.57,
+      "dividend_rate": 3.2208
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "13.12"
+      "bis_ratio": 11.72,
+      "dividend_rate": 4.307
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 13.12,
+      "dividend_rate": 4.307
     }
   ],
   "nearby_branches": [

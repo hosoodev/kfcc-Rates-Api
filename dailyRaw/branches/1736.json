@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "1736",
   "name": "부산제일",
   "meta": {
@@ -19,7 +19,7 @@
       },
       {
         "name": "부산제일(강서신호)",
-        "address": "부산 강서구 신호산단2로49번길 23",
+        "address": "부산 강서구 신호이로49번길 23",
         "phone": "051-715-6277",
         "district": "강서구"
       },
@@ -41,7 +41,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.7,
+          "r": 3.3,
           "s": "w"
         }
       }
@@ -66,12 +66,12 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.7,
+      "r": 3.3,
       "s": "w"
     },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1733",

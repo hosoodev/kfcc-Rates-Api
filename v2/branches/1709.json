@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1709",
   "name": "청룡동",
   "meta": {
@@ -54,26 +54,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "12.32"
+      "bis_ratio": 12.51,
+      "dividend_rate": 2.5
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "10.81"
+      "bis_ratio": 12.32,
+      "dividend_rate": 3.80381
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "9.9"
+      "bis_ratio": 10.81,
+      "dividend_rate": 3.80381
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "10.73"
+      "bis_ratio": 9.9,
+      "dividend_rate": 4.20421
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.73,
+      "dividend_rate": 4.20421
     }
   ],
   "nearby_branches": [

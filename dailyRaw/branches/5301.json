@@ -1,22 +1,16 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "5301",
   "name": "우성",
   "meta": {
     "head_office": {
       "name": "우성(본점)",
       "address": "경북 경주시 유림로 107",
-      "phone": "054-777-5551",
+      "phone": "054-744-5551",
       "province": "경북",
       "district": "경주시"
     },
     "branches": [
-      {
-        "name": "우성(황리단길)",
-        "address": "경북 경주시 포석로 1056",
-        "phone": "054-743-5561",
-        "district": "경주시"
-      },
       {
         "name": "우성(중앙)",
         "address": "경북 경주시 양정로 327",
@@ -26,7 +20,7 @@
       {
         "name": "우성(황오동)",
         "address": "경북 경주시 원효로 146",
-        "phone": "054-744-5551",
+        "phone": "054-777-5551",
         "district": "경주시"
       }
     ]
@@ -53,7 +47,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "5302",

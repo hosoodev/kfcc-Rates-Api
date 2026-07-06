@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3567",
   "name": "이천",
   "meta": {
@@ -30,9 +30,21 @@
         "district": "이천시"
       },
       {
-        "name": "이천(대월)",
-        "address": "경기 이천시 대월면 사동로 73",
-        "phone": "031-637-1089",
+        "name": "이천(장호원)",
+        "address": "경기 이천시 장호원읍 장감로 81",
+        "phone": "031-641-3140",
+        "district": "이천시"
+      },
+      {
+        "name": "이천(신하)",
+        "address": "경기 이천시 부발읍 경충대로 2236",
+        "phone": "031-634-3774",
+        "district": "이천시"
+      },
+      {
+        "name": "이천(마장)",
+        "address": "경기 이천시 마장면 오천로 51",
+        "phone": "031-633-3140",
         "district": "이천시"
       }
     ]
@@ -49,7 +61,7 @@
           "s": "m"
         },
         "12": {
-          "r": 2.9,
+          "r": 3.91,
           "s": "m"
         }
       }
@@ -91,7 +103,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.9,
+      "r": 3.91,
       "s": "m"
     },
     "saving": {
@@ -101,33 +113,42 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "7.76"
+      "bis_ratio": 8.44,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 7.76,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
       "grade": "4",
-      "bis_ratio": "9.3"
+      "bis_ratio": 9.3,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "9.2"
+      "bis_ratio": 9.2,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.71,
+      "dividend_rate": 4.672
     }
   ],
   "nearby_branches": [
     {
       "gmgoCd": "3556",
       "name": "SK hynix",
-      "province": "경기",
-      "district": "이천시"
-    },
-    {
-      "gmgoCd": "3563",
-      "name": "이천우리",
       "province": "경기",
       "district": "이천시"
     }

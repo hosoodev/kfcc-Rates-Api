@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "5400",
   "name": "새김천",
   "meta": {
@@ -11,18 +11,6 @@
       "district": "김천시"
     },
     "branches": [
-      {
-        "name": "새김천(감호)",
-        "address": "경북 김천시 용암로 22",
-        "phone": "054-434-6868",
-        "district": "김천시"
-      },
-      {
-        "name": "새김천(미곡)",
-        "address": "경북 김천시 영남대로 1296",
-        "phone": "054-432-6166",
-        "district": "김천시"
-      },
       {
         "name": "새김천(혁신)",
         "address": "경북 김천시 용전1로 13",
@@ -39,12 +27,6 @@
         "name": "새김천(대곡)",
         "address": "경북 김천시 문지왈1길 9-3",
         "phone": "054-433-8881",
-        "district": "김천시"
-      },
-      {
-        "name": "새김천(지좌)",
-        "address": "경북 김천시 황산로 109",
-        "phone": "054-436-0335",
         "district": "김천시"
       },
       {
@@ -65,7 +47,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.3,
+          "r": 2.8,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
           "s": "m"
         }
       }
@@ -77,13 +67,13 @@
           "s": "m"
         },
         "12": {
-          "r": 2.3,
+          "r": 2.8,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.2,
+          "r": 2.6,
           "s": "m"
         }
       }
@@ -107,36 +97,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.3,
+      "r": 2.8,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 2.3,
+      "r": 2.8,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "6.94"
+      "bis_ratio": 7.75,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
-      "grade": "2",
-      "bis_ratio": "10.93"
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.94,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "10.96"
+      "bis_ratio": 10.93,
+      "dividend_rate": 3.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "10.05"
+      "bis_ratio": 10.96,
+      "dividend_rate": 4.00401
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.05,
+      "dividend_rate": 4.00401
     }
   ],
   "nearby_branches": [

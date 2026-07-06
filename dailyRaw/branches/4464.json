@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "4464",
   "name": "소양강",
   "meta": {
@@ -25,7 +25,7 @@
       },
       {
         "name": "소양강(약사)",
-        "address": "강원 춘천시 공지로 400",
+        "address": "강원 춘천시 공지로 400-1",
         "phone": "033-252-7559",
         "district": "춘천시"
       }
@@ -87,7 +87,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "4420",

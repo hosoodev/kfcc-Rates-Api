@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "4109",
   "name": "진접",
   "meta": {
@@ -75,26 +75,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "2",
-      "bis_ratio": "16.31"
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 17.37,
+      "dividend_rate": 4.50001
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "16.41"
+      "bis_ratio": 16.31,
+      "dividend_rate": 5.00002
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "15.36"
+      "bis_ratio": 16.41,
+      "dividend_rate": 5.00002
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "13.76"
+      "bis_ratio": 15.36,
+      "dividend_rate": 6.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 13.76,
+      "dividend_rate": 6.0
     }
   ],
   "nearby_branches": [

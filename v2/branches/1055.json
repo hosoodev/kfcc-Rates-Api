@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1055",
   "name": "서울성동",
   "meta": {
@@ -37,7 +37,7 @@
           "s": "m"
         },
         "12": {
-          "r": 3.5,
+          "r": 3.91,
           "s": "m"
         }
       }
@@ -49,7 +49,7 @@
           "s": "m"
         },
         "12": {
-          "r": 3.2,
+          "r": 3.4,
           "s": "m"
         }
       },
@@ -79,17 +79,24 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.5,
+      "r": 3.91,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 3.2,
+      "r": 3.4,
       "s": "m"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 11.11,
+      "dividend_rate": 3.2
+    }
+  ],
   "nearby_branches": [
     {
       "gmgoCd": "1003",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1026",
   "name": "서울중앙",
   "meta": {
@@ -89,26 +89,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "3",
-      "bis_ratio": "8.69"
-    },
-    {
-      "period": "2024_12",
-      "grade": "3",
-      "bis_ratio": "10.92"
-    },
-    {
-      "period": "2024_06",
-      "grade": "3",
-      "bis_ratio": "11.27"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "11.65"
+      "bis_ratio": 8.81,
+      "dividend_rate": 2.7
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 8.69,
+      "dividend_rate": 2.5
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 10.92,
+      "dividend_rate": 2.5
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 11.27,
+      "dividend_rate": 4.3
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.65,
+      "dividend_rate": 4.3
     }
   ],
   "nearby_branches": [
@@ -120,7 +130,7 @@
     },
     {
       "gmgoCd": "1027",
-      "name": "마천",
+      "name": "서울제일",
       "province": "서울",
       "district": "송파구"
     },

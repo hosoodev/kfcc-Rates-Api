@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "6216",
   "name": "새중앙",
   "meta": {
@@ -11,12 +11,6 @@
       "district": "북구"
     },
     "branches": [
-      {
-        "name": "새중앙(중리)",
-        "address": "울산 북구 염포로 747",
-        "phone": "052-287-3399",
-        "district": "북구"
-      },
       {
         "name": "새중앙(화봉)",
         "address": "울산 북구 화봉로 59",
@@ -33,12 +27,6 @@
         "name": "새중앙(송정)",
         "address": "울산 북구 화산중앙로 84",
         "phone": "052-222-7800",
-        "district": "북구"
-      },
-      {
-        "name": "새중앙(강동)",
-        "address": "울산 북구 산하중앙2로 281",
-        "phone": "052-294-9200",
         "district": "북구"
       },
       {
@@ -105,7 +93,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1614",

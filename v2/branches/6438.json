@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6438",
   "name": "한국항공우주산업㈜",
   "meta": {
@@ -34,26 +34,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "19.31"
+      "bis_ratio": 19.19,
+      "dividend_rate": 3.1289
     },
     {
-      "period": "2024_12",
-      "grade": "1",
-      "bis_ratio": "18.96"
-    },
-    {
-      "period": "2024_06",
-      "grade": "1",
-      "bis_ratio": "18.36"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "17.1"
+      "bis_ratio": 19.31,
+      "dividend_rate": 4.04827
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 18.96,
+      "dividend_rate": 4.04827
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 18.36,
+      "dividend_rate": 4.15443
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 17.1,
+      "dividend_rate": 4.15443
     }
   ],
   "nearby_branches": [

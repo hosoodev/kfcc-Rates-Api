@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "2638",
   "name": "여천",
   "meta": {
@@ -10,26 +10,7 @@
       "province": "전남",
       "district": "여수시"
     },
-    "branches": [
-      {
-        "name": "여천(선원)",
-        "address": "전남 여수시 무선5길 34",
-        "phone": "061-685-0903",
-        "district": "여수시"
-      },
-      {
-        "name": "여천(시전)",
-        "address": "전남 여수시 흥국로 99-1",
-        "phone": "061-684-0810",
-        "district": "여수시"
-      },
-      {
-        "name": "여천(안산)",
-        "address": "전남 여수시 도원로 190",
-        "phone": "061-685-0905",
-        "district": "여수시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
@@ -52,17 +33,17 @@
       "MG더뱅킹정기적금": {
         "6": {
           "r": 3.0,
-          "s": "w"
+          "s": "m"
         },
         "12": {
           "r": 3.0,
-          "s": "w"
+          "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.7,
-          "s": "w"
+          "r": 3.0,
+          "s": "m"
         }
       }
     },
@@ -92,61 +73,40 @@
       "name": "MG더뱅킹정기적금",
       "month": "6",
       "r": 3.0,
-      "s": "w"
+      "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "12.58"
+      "bis_ratio": 13.01,
+      "dividend_rate": 3.504
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "12.7"
+      "bis_ratio": 12.58,
+      "dividend_rate": 3.8064
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "12.09"
+      "bis_ratio": 12.7,
+      "dividend_rate": 3.8064
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "11.84"
+      "bis_ratio": 12.09,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.84,
+      "dividend_rate": 4.50001
     }
   ],
-  "nearby_branches": [
-    {
-      "gmgoCd": "2601",
-      "name": "동여수",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2602",
-      "name": "여수엑스포",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2604",
-      "name": "중앙",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2605",
-      "name": "여수중부",
-      "province": "전남",
-      "district": "여수시"
-    },
-    {
-      "gmgoCd": "2606",
-      "name": "충무",
-      "province": "전남",
-      "district": "여수시"
-    }
-  ]
+  "nearby_branches": []
 }

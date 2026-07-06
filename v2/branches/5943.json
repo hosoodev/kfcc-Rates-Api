@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "5943",
   "name": "예천군",
   "meta": {
@@ -35,7 +35,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.8,
+          "r": 3.0,
           "s": "m"
         },
         "3": {
@@ -68,31 +68,41 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.8,
+      "r": 3.0,
       "s": "m"
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "-0.01"
+      "bis_ratio": 1.24,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "0.41"
+      "bis_ratio": -0.01,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "0"
+      "bis_ratio": 0.41,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "-0.01"
+      "bis_ratio": 0.0,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": -0.01,
+      "dividend_rate": 0.0
     }
   ],
   "nearby_branches": [

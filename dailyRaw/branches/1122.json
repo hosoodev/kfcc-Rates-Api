@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "1122",
   "name": "유한킴벌리",
   "meta": {
@@ -34,7 +34,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "0419",
@@ -50,7 +50,7 @@
     },
     {
       "gmgoCd": "1027",
-      "name": "마천",
+      "name": "서울제일",
       "province": "서울",
       "district": "송파구"
     },

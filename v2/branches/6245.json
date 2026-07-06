@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6245",
   "name": "현대자동차",
   "meta": {
@@ -13,7 +13,7 @@
     "branches": [
       {
         "name": "현대자동차(남양)",
-        "address": "경기 화성시 남양읍 현대연구소로 150",
+        "address": "경기 화성시 만세구 남양읍 현대연구소로 150",
         "phone": "031-368-6195",
         "district": "화성시"
       },
@@ -53,26 +53,36 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "1",
-      "bis_ratio": "40.67"
+      "bis_ratio": 40.59,
+      "dividend_rate": 10.00001
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "1",
-      "bis_ratio": "41.43"
+      "bis_ratio": 40.67,
+      "dividend_rate": 10.00001
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "1",
-      "bis_ratio": "41.58"
+      "bis_ratio": 41.43,
+      "dividend_rate": 10.00001
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "1",
-      "bis_ratio": "40.05"
+      "bis_ratio": 41.58,
+      "dividend_rate": 10.00027
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 40.05,
+      "dividend_rate": 10.00027
     }
   ],
   "nearby_branches": [

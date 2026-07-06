@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "0649",
   "name": "강북",
   "meta": {
@@ -107,26 +107,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "3",
-      "bis_ratio": "11.28"
-    },
-    {
-      "period": "2024_12",
-      "grade": "3",
-      "bis_ratio": "11.27"
-    },
-    {
-      "period": "2024_06",
-      "grade": "3",
-      "bis_ratio": "8.44"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "9.54"
+      "bis_ratio": 13.36,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 11.28,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 11.27,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 8.44,
+      "dividend_rate": 5.10001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.54,
+      "dividend_rate": 5.10001
     }
   ],
   "nearby_branches": []

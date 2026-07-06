@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "6414",
   "name": "동진주",
   "meta": {
@@ -87,26 +87,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "4",
-      "bis_ratio": "5.9"
+      "bis_ratio": 3.29,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": 5.9,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "7.18"
+      "bis_ratio": 7.18,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "7"
+      "bis_ratio": 7.0,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "8.49"
+      "bis_ratio": 8.49,
+      "dividend_rate": 3.5
     }
   ],
   "nearby_branches": [

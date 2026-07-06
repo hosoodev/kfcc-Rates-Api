@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1151",
   "name": "포스코",
   "meta": {
@@ -12,12 +12,6 @@
     },
     "branches": [
       {
-        "name": "포스코(광양)",
-        "address": "전남 광양시 희망1길 69",
-        "phone": "061-790-2186",
-        "district": "광양시"
-      },
-      {
         "name": "포스코(포항)",
         "address": "경북 포항시 남구 동해안로 6262",
         "phone": "054-220-8745",
@@ -29,15 +23,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "3": {
-          "r": 1.9,
+          "r": 2.2,
           "s": "w"
         },
         "6": {
-          "r": 2.0,
+          "r": 2.3,
           "s": "w"
         },
         "12": {
-          "r": 2.7,
+          "r": 3.0,
           "s": "w"
         }
       }
@@ -73,7 +67,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.7,
+      "r": 3.0,
       "s": "w"
     },
     "saving": {
@@ -83,26 +77,36 @@
       "s": "w"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "8.5"
+      "bis_ratio": 8.84,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "8.14"
+      "bis_ratio": 8.5,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "8.69"
+      "bis_ratio": 8.14,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "8.27"
+      "bis_ratio": 8.69,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.27,
+      "dividend_rate": 0.0
     }
   ],
   "nearby_branches": [

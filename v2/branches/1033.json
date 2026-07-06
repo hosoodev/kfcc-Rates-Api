@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1033",
   "name": "잠실",
   "meta": {
@@ -31,7 +31,7 @@
           "s": "m"
         },
         "12": {
-          "r": 2.9,
+          "r": 3.1,
           "s": "m"
         }
       }
@@ -43,14 +43,14 @@
           "s": "m"
         },
         "12": {
-          "r": 3.2,
+          "r": 3.3,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.9,
-          "s": "m"
+          "r": 3.1,
+          "s": "w"
         }
       }
     },
@@ -72,37 +72,47 @@
   "top_picks": {
     "deposit": {
       "name": "MG더뱅킹정기예금",
-      "month": "6",
-      "r": 2.9,
+      "month": "12",
+      "r": 3.1,
       "s": "m"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 3.2,
+      "r": 3.3,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "4",
-      "bis_ratio": "2.62"
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 7.66,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "4.85"
+      "bis_ratio": 2.62,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "4",
-      "bis_ratio": "4.4"
+      "bis_ratio": 4.85,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
+      "grade": "4",
+      "bis_ratio": 4.4,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
       "grade": "3",
-      "bis_ratio": "5.04"
+      "bis_ratio": 5.04,
+      "dividend_rate": 0.0
     }
   ],
   "nearby_branches": [
@@ -120,7 +130,7 @@
     },
     {
       "gmgoCd": "1027",
-      "name": "마천",
+      "name": "서울제일",
       "province": "서울",
       "district": "송파구"
     },

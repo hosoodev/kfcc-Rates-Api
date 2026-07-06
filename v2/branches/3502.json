@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3502",
   "name": "성남수정",
   "meta": {
@@ -12,12 +12,6 @@
     },
     "branches": [
       {
-        "name": "성남수정(제1)",
-        "address": "경기 성남시 수정구 수정로 230",
-        "phone": "031-735-8993",
-        "district": "성남시"
-      },
-      {
         "name": "성남수정(위례중앙역)",
         "address": "경기 성남시 수정구 위례광장로 320",
         "phone": "031-735-8994",
@@ -27,12 +21,6 @@
         "name": "성남수정(서현역)",
         "address": "경기 성남시 분당구 중앙공원로39번길 49",
         "phone": "031-703-8991",
-        "district": "성남시"
-      },
-      {
-        "name": "성남수정(위례)",
-        "address": "경기 성남시 수정구 위례동로 141",
-        "phone": "031-721-8991",
         "district": "성남시"
       },
       {
@@ -77,14 +65,14 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.98,
-          "s": "m"
-        },
-        "3": {
-          "r": 0.0,
+          "r": 3.2,
           "s": "m"
         },
         "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
           "r": 0.0,
           "s": "m"
         }
@@ -127,7 +115,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.98,
+      "r": 3.2,
       "s": "m"
     },
     "saving": {
@@ -137,26 +125,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "4",
-      "bis_ratio": "7.34"
+      "bis_ratio": 6.57,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "9.09"
+      "bis_ratio": 7.34,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
-      "grade": "2",
-      "bis_ratio": "10.52"
+      "evaluation_date": "20241231",
+      "grade": "4",
+      "bis_ratio": 9.09,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "10.64"
+      "bis_ratio": 10.52,
+      "dividend_rate": 5.49999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.64,
+      "dividend_rate": 5.49999
     }
   ],
   "nearby_branches": [

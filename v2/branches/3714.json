@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3714",
   "name": "시흥중앙",
   "meta": {
     "head_office": {
       "name": "시흥중앙(본점)",
-      "address": "경기 시흥시 호현로21번길 4",
+      "address": "경기 시흥시 은행로65번길 4-1",
       "phone": "031-313-5200",
       "province": "경기",
       "district": "시흥시"
@@ -30,12 +30,6 @@
         "district": "시흥시"
       },
       {
-        "name": "시흥중앙(은행)",
-        "address": "경기 시흥시 은행로65번길 4",
-        "phone": "031-312-5201",
-        "district": "시흥시"
-      },
-      {
         "name": "시흥중앙(시화중앙)",
         "address": "경기 시흥시 정왕대로 184",
         "phone": "031-498-4201",
@@ -57,11 +51,11 @@
           "s": "m"
         },
         "6": {
-          "r": 2.75,
+          "r": 2.95,
           "s": "m"
         },
         "12": {
-          "r": 2.75,
+          "r": 2.95,
           "s": "m"
         }
       }
@@ -86,31 +80,41 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "6",
-      "r": 2.75,
+      "r": 2.95,
       "s": "m"
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "4",
-      "bis_ratio": "4.44"
+      "bis_ratio": 1.37,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "7.36"
+      "bis_ratio": 4.44,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
-      "grade": "3",
-      "bis_ratio": "9.35"
+      "evaluation_date": "20241231",
+      "grade": "4",
+      "bis_ratio": 7.36,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "12.22"
+      "bis_ratio": 9.35,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 12.22,
+      "dividend_rate": 4.0
     }
   ],
   "nearby_branches": []

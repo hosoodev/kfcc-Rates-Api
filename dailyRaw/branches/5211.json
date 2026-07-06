@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "5211",
   "name": "송도",
   "meta": {
@@ -10,17 +10,25 @@
       "province": "경북",
       "district": "포항시"
     },
-    "branches": [
-      {
-        "name": "송도(남)",
-        "address": "경북 포항시 남구 운하로48번길 6-8",
-        "phone": "054-281-1304",
-        "district": "포항시"
-      }
-    ]
+    "branches": []
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.8,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.2,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -38,10 +46,15 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "5201",

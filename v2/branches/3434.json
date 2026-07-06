@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3434",
   "name": "안흥",
   "meta": {
@@ -13,7 +13,14 @@
     "branches": []
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.5,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -31,29 +38,44 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "w"
+    },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "12.84"
+      "bis_ratio": 13.21,
+      "dividend_rate": 3.99999
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "12.65"
+      "bis_ratio": 12.84,
+      "dividend_rate": 3.99999
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "13.07"
+      "bis_ratio": 12.65,
+      "dividend_rate": 3.99999
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "14.97"
+      "bis_ratio": 13.07,
+      "dividend_rate": 3.99985
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 14.97,
+      "dividend_rate": 3.99985
     }
   ],
   "nearby_branches": [

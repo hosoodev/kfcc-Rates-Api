@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "updated_at": "2026-04-18T00:26:51.976889",
+    "total_versions": 5,
+    "description": "새마을금고 경영실태평가(등급) 수집 데이터 인덱스"
+  },
+  "versions": [
+    {
+      "year": "2025",
+      "month": 12,
+      "version": "2025-12",
+      "filename": "grades_2025_12.json",
+      "total_banks": 1247,
+      "summary": {
+        "1": 93,
+        "2": 604,
+        "3": 438,
+        "4": 106,
+        "5": 6
+      },
+      "collected_at": "2026-04-17T12:09:05.253335"
+    },
+    {
+      "year": "2025",
+      "month": 6,
+      "version": "2025-06",
+      "filename": "grades_2025_06.json",
+      "total_banks": 1243,
+      "summary": {
+        "1": 78,
+        "2": 482,
+        "3": 535,
+        "4": 144,
+        "5": 4
+      },
+      "collected_at": "2026-04-18T00:26:51.879630"
+    },
+    {
+      "year": "2024",
+      "month": 12,
+      "version": "2024-12",
+      "filename": "grades_2024_12.json",
+      "total_banks": 1240,
+      "summary": {
+        "1": 96,
+        "2": 601,
+        "3": 474,
+        "4": 67,
+        "5": 2
+      },
+      "collected_at": "2026-04-18T00:22:40.853908"
+    },
+    {
+      "year": "2024",
+      "month": 6,
+      "version": "2024-06",
+      "filename": "grades_2024_06.json",
+      "total_banks": 1233,
+      "summary": {
+        "1": 89,
+        "2": 659,
+        "3": 445,
+        "4": 40
+      },
+      "collected_at": "2026-04-18T00:19:19.328358"
+    },
+    {
+      "year": "2023",
+      "month": 12,
+      "version": "2023-12",
+      "filename": "grades_2023_12.json",
+      "total_banks": 1231,
+      "summary": {
+        "1": 135,
+        "2": 832,
+        "3": 252,
+        "4": 12
+      },
+      "collected_at": "2026-04-18T00:16:46.241074"
+    }
+  ]
+}

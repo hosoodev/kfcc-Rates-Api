@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-06-12T04:55:07+09:00",
   "gmgoCd": "3563",
   "name": "이천우리",
   "meta": {
@@ -11,12 +11,6 @@
       "district": "이천시"
     },
     "branches": [
-      {
-        "name": "이천우리(설성)",
-        "address": "경기 이천시 설성면 진상미로 173",
-        "phone": "031-641-8612",
-        "district": "이천시"
-      },
       {
         "name": "이천우리(신하)",
         "address": "경기 이천시 부발읍 경충대로 2236",
@@ -87,7 +81,7 @@
       "s": "w"
     }
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "3556",

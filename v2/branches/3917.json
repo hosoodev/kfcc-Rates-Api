@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3917",
   "name": "화성",
   "meta": {
@@ -13,55 +13,55 @@
     "branches": [
       {
         "name": "화성(와우)",
-        "address": "경기 화성시 봉담읍 와우안길 42",
+        "address": "경기 화성시 효행구 봉담읍 와우안길 42",
         "phone": "031-222-0710",
         "district": "화성시"
       },
       {
         "name": "화성(발안)",
-        "address": "경기 화성시 향남읍 3.1만세로 1113",
+        "address": "경기 화성시 만세구 향남읍 3.1만세로 1113",
         "phone": "031-366-4500",
         "district": "화성시"
       },
       {
         "name": "화성(중앙)",
-        "address": "경기 화성시 효행로 1016",
+        "address": "경기 화성시 병점구 효행로 1016",
         "phone": "031-221-6907",
         "district": "화성시"
       },
       {
         "name": "화성(동탄)",
-        "address": "경기 화성시 동탄솔빛로 47",
+        "address": "경기 화성시 동탄구 동탄솔빛로 47",
         "phone": "031-8015-4713",
         "district": "화성시"
       },
       {
         "name": "화성(반월동)",
-        "address": "경기 화성시 영통로61번길 6",
+        "address": "경기 화성시 병점구 영통로61번길 6",
         "phone": "031-202-1341",
         "district": "화성시"
       },
       {
         "name": "화성(향남중앙)",
-        "address": "경기 화성시 향남읍 행정죽전로4길 1",
+        "address": "경기 화성시 만세구 향남읍 행정죽전로4길 1",
         "phone": "031-353-1800",
         "district": "화성시"
       },
       {
         "name": "화성(신동탄)",
-        "address": "경기 화성시 동탄순환대로 617",
+        "address": "경기 화성시 동탄구 동탄순환대로 617",
         "phone": "031-374-9644",
         "district": "화성시"
       },
       {
         "name": "화성(반석)",
-        "address": "경기 화성시 동탄반석로 208",
+        "address": "경기 화성시 동탄구 동탄반석로 208",
         "phone": "031-8015-1117",
         "district": "화성시"
       },
       {
         "name": "화성(동탄호수)",
-        "address": "경기 화성시 동탄대로 182",
+        "address": "경기 화성시 동탄구 동탄대로 182",
         "phone": "031-378-1641",
         "district": "화성시"
       }
@@ -71,15 +71,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "3": {
-          "r": 2.7,
+          "r": 2.5,
           "s": "m"
         },
         "6": {
-          "r": 3.2,
+          "r": 2.6,
           "s": "m"
         },
         "12": {
-          "r": 3.3,
+          "r": 3.2,
           "s": "m"
         }
       }
@@ -97,7 +97,7 @@
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 3.3,
+          "r": 3.0,
           "s": "m"
         }
       }
@@ -121,7 +121,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.3,
+      "r": 3.2,
       "s": "m"
     },
     "saving": {
@@ -131,26 +131,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "7.45"
+      "bis_ratio": 9.17,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "9.79"
+      "bis_ratio": 7.45,
+      "dividend_rate": 2.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "8.68"
+      "bis_ratio": 9.79,
+      "dividend_rate": 2.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "10.41"
+      "bis_ratio": 8.68,
+      "dividend_rate": 4.3
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.41,
+      "dividend_rate": 4.3
     }
   ],
   "nearby_branches": [

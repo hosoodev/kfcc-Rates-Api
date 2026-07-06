@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "4717",
   "name": "동제천",
   "meta": {
@@ -15,12 +15,6 @@
         "name": "동제천(교동)",
         "address": "충북 제천시 명륜로 126",
         "phone": "043-646-3519",
-        "district": "제천시"
-      },
-      {
-        "name": "동제천(입석)",
-        "address": "충북 제천시 송학면 입석중앙로4길 20",
-        "phone": "043-647-7508",
         "district": "제천시"
       },
       {
@@ -43,7 +37,7 @@
           "s": "m"
         },
         "12": {
-          "r": 2.7,
+          "r": 3.0,
           "s": "m"
         }
       }
@@ -61,7 +55,7 @@
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 3.4,
+          "r": 3.0,
           "s": "w"
         }
       }
@@ -85,7 +79,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.7,
+      "r": 3.0,
       "s": "m"
     },
     "saving": {
@@ -95,26 +89,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "0.00"
+      "bis_ratio": 10.16,
+      "dividend_rate": 3.3
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "9.87"
+      "bis_ratio": 0.0,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "8.67"
+      "bis_ratio": 9.87,
+      "dividend_rate": 3.5
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "9.25"
+      "bis_ratio": 8.67,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.25,
+      "dividend_rate": 4.50001
     }
   ],
   "nearby_branches": [

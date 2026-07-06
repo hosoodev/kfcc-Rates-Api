@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "2417",
   "name": "전남대학교병원",
   "meta": {
@@ -16,12 +16,6 @@
         "address": "광주 남구 덕남길 80",
         "phone": "062-670-9890",
         "district": "남구"
-      },
-      {
-        "name": "전남대학교병원(화순전남대학교병원)",
-        "address": "전남 화순군 화순읍 서양로 322",
-        "phone": "061-379-7921",
-        "district": "화순군"
       }
     ]
   },
@@ -41,7 +35,7 @@
     "deposit": null,
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "1303",

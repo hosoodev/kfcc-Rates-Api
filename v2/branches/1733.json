@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1733",
   "name": "늘푸른사상",
   "meta": {
@@ -28,12 +28,6 @@
         "address": "부산 사상구 사상로 230",
         "phone": "051-324-9795",
         "district": "사상구"
-      },
-      {
-        "name": "늘푸른사상(산업금융)",
-        "address": "부산 사상구 광장로56번길 58",
-        "phone": "051-316-2015",
-        "district": "사상구"
       }
     ]
   },
@@ -41,7 +35,7 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 3.39,
+          "r": 3.29,
           "s": "m"
         },
         "3": {
@@ -91,7 +85,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.39,
+      "r": 3.29,
       "s": "m"
     },
     "saving": {
@@ -101,26 +95,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "4",
-      "bis_ratio": "4.24"
+      "bis_ratio": 3.99,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "4",
-      "bis_ratio": "5.85"
+      "bis_ratio": 4.24,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "4",
-      "bis_ratio": "6.14"
+      "bis_ratio": 5.85,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
+      "grade": "4",
+      "bis_ratio": 6.14,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20231231",
       "grade": "3",
-      "bis_ratio": "7.79"
+      "bis_ratio": 7.79,
+      "dividend_rate": 3.5
     }
   ],
   "nearby_branches": [

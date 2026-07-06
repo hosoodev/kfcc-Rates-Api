@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "2244",
   "name": "주안",
   "meta": {
@@ -15,6 +15,18 @@
         "name": "주안(5동)",
         "address": "인천 미추홀구 길파로 21-1",
         "phone": "032-867-1224",
+        "district": "미추홀구"
+      },
+      {
+        "name": "주안(석바위)",
+        "address": "인천 미추홀구 경원대로 830",
+        "phone": "032-421-6511",
+        "district": "미추홀구"
+      },
+      {
+        "name": "주안(4동)",
+        "address": "인천 미추홀구 미추홀대로646번길 51",
+        "phone": "032-421-6311",
         "district": "미추홀구"
       }
     ]
@@ -61,26 +73,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "10.95"
+      "bis_ratio": 7.98,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
-      "grade": "2",
-      "bis_ratio": "13.16"
-    },
-    {
-      "period": "2024_06",
-      "grade": "2",
-      "bis_ratio": "12.86"
-    },
-    {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "13.3"
+      "bis_ratio": 10.95,
+      "dividend_rate": 2.50684
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 13.16,
+      "dividend_rate": 2.50684
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 12.86,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 13.3,
+      "dividend_rate": 3.2
     }
   ],
   "nearby_branches": [

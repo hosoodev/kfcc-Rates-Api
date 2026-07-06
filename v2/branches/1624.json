@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1624",
   "name": "우리",
   "meta": {
@@ -12,8 +12,8 @@
     },
     "branches": [
       {
-        "name": "우리(오산)",
-        "address": "부산 해운대구 좌동순환로446번길 19-1",
+        "name": "우리(해운대중동점)",
+        "address": "부산 해운대구 좌동순환로 502",
         "phone": "051-746-5007",
         "district": "해운대구"
       }
@@ -61,26 +61,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "-0.02"
+      "bis_ratio": -0.09,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "4.19"
+      "bis_ratio": -0.02,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
-      "grade": "2",
-      "bis_ratio": "9.65"
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 4.19,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "2",
-      "bis_ratio": "12.63"
+      "bis_ratio": 9.65,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.63,
+      "dividend_rate": 4.00001
     }
   ],
   "nearby_branches": [

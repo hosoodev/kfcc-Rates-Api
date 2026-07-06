@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "5408",
   "name": "대신동",
   "meta": {
@@ -10,13 +10,20 @@
       "province": "경북",
       "district": "김천시"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "대신동(평화)",
+        "address": "경북 김천시 김천로 106",
+        "phone": "054-434-1114",
+        "district": "김천시"
+      }
+    ]
   },
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
         "12": {
-          "r": 2.4,
+          "r": 2.5,
           "s": "w"
         }
       }
@@ -41,12 +48,12 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.4,
+      "r": 2.5,
       "s": "w"
     },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "3527",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "1618",
   "name": "신만덕",
   "meta": {
@@ -31,7 +31,7 @@
           "s": "m"
         },
         "12": {
-          "r": 2.8,
+          "r": 3.3,
           "s": "m"
         }
       }
@@ -73,7 +73,7 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.8,
+      "r": 3.3,
       "s": "m"
     },
     "saving": {
@@ -83,26 +83,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "6.44"
+      "bis_ratio": 6.52,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "8.96"
+      "bis_ratio": 6.44,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "7.7"
+      "bis_ratio": 8.96,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "10.43"
+      "bis_ratio": 7.7,
+      "dividend_rate": 3.3
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.43,
+      "dividend_rate": 3.3
     }
   ],
   "nearby_branches": [

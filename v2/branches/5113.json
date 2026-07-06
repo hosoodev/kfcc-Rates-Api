@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "5113",
   "name": "금강",
   "meta": {
@@ -43,7 +43,7 @@
           "s": "m"
         },
         "12": {
-          "r": 3.09,
+          "r": 3.2,
           "s": "m"
         }
       }
@@ -68,31 +68,41 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 3.09,
+      "r": 3.2,
       "s": "m"
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "4",
-      "bis_ratio": "6.85"
-    },
-    {
-      "period": "2024_12",
-      "grade": "4",
-      "bis_ratio": "6.6"
-    },
-    {
-      "period": "2024_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "9.1"
+      "bis_ratio": 6.93,
+      "dividend_rate": 2.2
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": 6.85,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "4",
+      "bis_ratio": 6.6,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
       "grade": "3",
-      "bis_ratio": "9.57"
+      "bis_ratio": 9.1,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 9.57,
+      "dividend_rate": 5.0
     }
   ],
   "nearby_branches": [
@@ -105,12 +115,6 @@
     {
       "gmgoCd": "5111",
       "name": "동군산",
-      "province": "전북",
-      "district": "군산시"
-    },
-    {
-      "gmgoCd": "5112",
-      "name": "군산제일",
       "province": "전북",
       "district": "군산시"
     },

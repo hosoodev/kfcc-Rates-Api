@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3117",
   "name": "대전중부",
   "meta": {
@@ -29,15 +29,15 @@
     "deposit": {
       "MG더뱅킹정기예금": {
         "3": {
-          "r": 2.5,
-          "s": "m"
-        },
-        "6": {
           "r": 3.0,
           "s": "m"
         },
+        "6": {
+          "r": 3.3,
+          "s": "m"
+        },
         "12": {
-          "r": 3.2,
+          "r": 3.3,
           "s": "m"
         }
       }
@@ -78,8 +78,8 @@
   "top_picks": {
     "deposit": {
       "name": "MG더뱅킹정기예금",
-      "month": "12",
-      "r": 3.2,
+      "month": "6",
+      "r": 3.3,
       "s": "m"
     },
     "saving": {
@@ -89,26 +89,36 @@
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
-      "grade": "3",
-      "bis_ratio": "8.58"
-    },
-    {
-      "period": "2024_12",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "11.2"
+      "bis_ratio": 10.21,
+      "dividend_rate": 3.7
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "11.21"
+      "bis_ratio": 8.58,
+      "dividend_rate": 3.6
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "12.1"
+      "bis_ratio": 11.2,
+      "dividend_rate": 3.6
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 11.21,
+      "dividend_rate": 6.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.1,
+      "dividend_rate": 6.00001
     }
   ],
   "nearby_branches": [

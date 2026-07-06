@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-01T02:30:57+09:00",
   "gmgoCd": "2610",
   "name": "좌수영",
   "meta": {
@@ -31,14 +31,6 @@
         "12": {
           "r": 3.0,
           "s": "m"
-        },
-        "3": {
-          "r": 0.0,
-          "s": "m"
-        },
-        "6": {
-          "r": 0.0,
-          "s": "m"
         }
       }
     },
@@ -67,21 +59,36 @@
     },
     "saving": null
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "2",
-      "bis_ratio": "15.98"
+      "bis_ratio": 16.08,
+      "dividend_rate": 3.504
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "2",
-      "bis_ratio": "15.74"
+      "bis_ratio": 15.98,
+      "dividend_rate": 4.00159
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "2",
-      "bis_ratio": "14.55"
+      "bis_ratio": 15.74,
+      "dividend_rate": 4.00159
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 14.55,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 15.04,
+      "dividend_rate": 5.00001
     }
   ],
   "nearby_branches": [

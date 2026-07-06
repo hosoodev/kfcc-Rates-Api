@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T22:19:56+09:00",
+  "updated_at": "2026-07-06T12:30:48+09:00",
   "gmgoCd": "3727",
   "name": "의왕",
   "meta": {
@@ -18,21 +18,9 @@
         "district": "의왕시"
       },
       {
-        "name": "의왕(오전)",
-        "address": "경기 의왕시 효행로 34",
-        "phone": "031-452-5309",
-        "district": "의왕시"
-      },
-      {
         "name": "의왕(부곡)",
         "address": "경기 의왕시 부곡시장길 15",
         "phone": "031-459-8808",
-        "district": "의왕시"
-      },
-      {
-        "name": "의왕(청계포일)",
-        "address": "경기 의왕시 안양판교로 146",
-        "phone": "031-426-1441",
         "district": "의왕시"
       },
       {
@@ -46,26 +34,30 @@
   "rates": {
     "deposit": {
       "MG더뱅킹정기예금": {
+        "6": {
+          "r": 3.0,
+          "s": "w"
+        },
         "12": {
-          "r": 2.92,
-          "s": "m"
+          "r": 3.8,
+          "s": "w"
         }
       }
     },
     "saving": {
       "MG더뱅킹정기적금": {
         "6": {
-          "r": 2.0,
+          "r": 2.5,
           "s": "m"
         },
         "12": {
-          "r": 2.8,
+          "r": 3.5,
           "s": "m"
         }
       },
       "MG더뱅킹자유적금": {
         "12": {
-          "r": 2.5,
+          "r": 3.0,
           "s": "m"
         }
       }
@@ -89,36 +81,46 @@
     "deposit": {
       "name": "MG더뱅킹정기예금",
       "month": "12",
-      "r": 2.92,
-      "s": "m"
+      "r": 3.8,
+      "s": "w"
     },
     "saving": {
       "name": "MG더뱅킹정기적금",
       "month": "12",
-      "r": 2.8,
+      "r": 3.5,
       "s": "m"
     }
   },
-  "grades_history": [
+  "disclosure_history": [
     {
-      "period": "2025_06",
+      "evaluation_date": "20251231",
       "grade": "3",
-      "bis_ratio": "11.34"
+      "bis_ratio": 9.32,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_12",
+      "evaluation_date": "20250630",
       "grade": "3",
-      "bis_ratio": "11.03"
+      "bis_ratio": 11.34,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2024_06",
+      "evaluation_date": "20241231",
       "grade": "3",
-      "bis_ratio": "9.51"
+      "bis_ratio": 11.03,
+      "dividend_rate": 0.0
     },
     {
-      "period": "2023_12",
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 9.51,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
       "grade": "2",
-      "bis_ratio": "12.59"
+      "bis_ratio": 12.59,
+      "dividend_rate": 4.00001
     }
   ],
   "nearby_branches": []

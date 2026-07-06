@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:05:57+09:00",
+  "updated_at": "2026-07-06T03:23:51+09:00",
   "gmgoCd": "5111",
   "name": "동군산",
   "meta": {
@@ -10,10 +10,38 @@
       "province": "전북",
       "district": "군산시"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "동군산(양안)",
+        "address": "전북 군산시 부골1길 47",
+        "phone": "063-471-2442",
+        "district": "군산시"
+      },
+      {
+        "name": "동군산(발산)",
+        "address": "전북 군산시 개정면 바르메길 39",
+        "phone": "063-451-4334",
+        "district": "군산시"
+      }
+    ]
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.6,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -31,20 +59,19 @@
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.6,
+      "s": "w"
+    },
     "saving": null
   },
-  "grades_history": [],
+  "disclosure_history": [],
   "nearby_branches": [
     {
       "gmgoCd": "5105",
       "name": "군산중부",
-      "province": "전북",
-      "district": "군산시"
-    },
-    {
-      "gmgoCd": "5112",
-      "name": "군산제일",
       "province": "전북",
       "district": "군산시"
     },
