@@ -131,3 +131,60 @@ jobs:
           echo "❌ 크롤링이 실패했습니다. 로그를 확인해주세요."
           echo "실행 시간: $(date)"
           echo "워크플로우 URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+  deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Checkout api-data branch
+        uses: actions/checkout@v4
+        with:
+          ref: api-data
+          path: api-data
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Copy Static Files to v2
+        run: |
+          if [ -f "CNAME" ]; then
+            cp CNAME api-data/v2/
+            echo "✅ CNAME copied to v2/"
+          fi
+          if [ -f "robots.txt" ]; then
+            cp robots.txt api-data/v2/
+            echo "✅ robots.txt copied to v2/"
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: './api-data/v2'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Trigger Frontend Revalidation
+        if: success()
+        run: |
+          echo "🚀 Deployment successful. Triggering revalidation..."
+          curl -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
+               -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
+               -H "Content-Type: application/json" \
+               -H "User-Agent: MGija-Sync-Engine/2.1" \
+               -d '{"tags": ["main", "summary", "rates", "branch", "status"]}' \
+               --retry 3 \
+               --retry-delay 5 \
+               --max-time 30 \
+               --fail
