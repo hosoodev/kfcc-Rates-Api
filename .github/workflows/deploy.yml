@@ -13,7 +13,7 @@ permissions:
 # 환경 변수 동시성 설정 (배포 중복 방지)
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -41,7 +41,7 @@ jobs:
           fi
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # v2 폴더만 배포 (Static API 루트)
           path: './v2'
