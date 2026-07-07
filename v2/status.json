@@ -1,27 +1,35 @@
 {
-  "last_checked_at": "2026-07-07T08:30:58.338467",
-  "last_modified_at": "2026-07-07T08:30:58.338467",
+  "last_checked_at": "2026-07-07T10:30:53.255162",
+  "last_modified_at": "2026-07-07T10:30:53.255162",
   "status": "success",
-  "description": "성공: 총 1개 금고(성북(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 8개 금고(북성(본점), 해평(본점), 성북(본점), 안암동(본점), 순창(본점) 외 3곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 965,
       "total_items": 965,
-      "last_updated_at": "2026-07-07T08:30:58.338467",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-07T10:30:53.255162",
+      "updated_banks_count": 7,
+      "description": "7개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성북(본점)"
+        "노원(본점)",
+        "안암동(본점)",
+        "성북(본점)",
+        "북성(본점)",
+        "상동(본점)",
+        "원남(본점)",
+        "해평(본점)"
       ]
     },
     "saving": {
       "total_banks": 851,
       "total_items": 1632,
-      "last_updated_at": "2026-07-07T04:15:44.781496",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-07T10:30:53.255162",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "순창(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1163,
