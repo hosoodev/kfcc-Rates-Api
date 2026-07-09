@@ -1,33 +1,27 @@
 {
-  "last_checked_at": "2026-07-09T10:30:41.850366",
-  "last_modified_at": "2026-07-09T10:30:41.850366",
+  "last_checked_at": "2026-07-09T12:31:01.070670",
+  "last_modified_at": "2026-07-09T12:31:01.070670",
   "status": "success",
-  "description": "성공: 총 6개 금고(성북(본점), 남양주중앙(본점), 안암동(본점), 상도중앙(본점), 답십리(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(대흥(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 964,
       "total_items": 964,
-      "last_updated_at": "2026-07-09T10:30:41.850366",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-09T12:31:01.070670",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도중앙(본점)",
-        "노원(본점)",
-        "안암동(본점)",
-        "성북(본점)",
-        "답십리(본점)"
+        "대흥(본점)"
       ]
     },
     "saving": {
       "total_banks": 850,
       "total_items": 1630,
       "last_updated_at": "2026-07-09T10:30:41.850366",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "남양주중앙(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1162,
