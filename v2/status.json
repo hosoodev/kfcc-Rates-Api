@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-07-09T16:30:55.325713",
-  "last_modified_at": "2026-07-09T16:30:55.325713",
+  "last_checked_at": "2026-07-09T18:31:03.295949",
+  "last_modified_at": "2026-07-09T18:31:03.295949",
   "status": "success",
-  "description": "성공: 총 1개 금고(상도중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(부평(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 964,
       "total_items": 964,
-      "last_updated_at": "2026-07-09T16:30:55.325713",
+      "last_updated_at": "2026-07-09T18:31:03.295949",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도중앙(본점)"
+        "부평(본점)"
       ]
     },
     "saving": {
