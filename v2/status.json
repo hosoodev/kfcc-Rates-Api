@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-07-10T14:30:54.627770",
-  "last_modified_at": "2026-07-10T14:30:54.627770",
+  "last_checked_at": "2026-07-10T16:31:08.621741",
+  "last_modified_at": "2026-07-10T16:31:08.621741",
   "status": "success",
-  "description": "성공: 총 2개 금고(가락(본점), 성북(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(성북(본점), 서울장위(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 964,
       "total_items": 964,
-      "last_updated_at": "2026-07-10T14:30:54.627770",
+      "last_updated_at": "2026-07-10T16:31:08.621741",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "가락(본점)",
+        "서울장위(본점)",
         "성북(본점)"
       ]
     },
