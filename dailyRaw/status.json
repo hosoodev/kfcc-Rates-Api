@@ -1,58 +1,49 @@
 {
-  "last_checked_at": "2026-07-10T04:09:59.541148",
-  "last_modified_at": "2026-07-10T04:09:59.541148",
+  "last_checked_at": "2026-07-11T03:53:01.746290",
+  "last_modified_at": "2026-07-11T03:53:01.746290",
   "status": "success",
-  "description": "성공: 총 22개 금고(강남(본점), 제일(본점), 마포중앙(본점), 서울산(본점), 과천(본점) 외 11곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 14개 금고(남양주중앙(본점), 월산(본점), 경기화성(본점), 임오(본점), 하남(본점) 외 7곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
-      "total_banks": 964,
-      "total_items": 964,
-      "last_updated_at": "2026-07-10T04:09:59.541148",
-      "updated_banks_count": 14,
+      "total_banks": 961,
+      "total_items": 961,
+      "last_updated_at": "2026-07-11T03:53:01.746290",
+      "updated_banks_count": 11,
       "changed_bank_names": [
-        "강남중앙(본점)",
-        "서울강동(본점)",
-        "마포중앙(본점)",
-        "우암동(본점)",
-        "남부중앙(본점)",
-        "도화2동(본점)",
-        "대흥(본점)",
-        "강남(본점)",
-        "과천(본점)",
-        "성남수정(본점)",
-        "단양(본점)",
-        "예산(본점)",
-        "제일(본점)",
-        "부림(본점)"
+        "필동(본점)",
+        "가창(본점)",
+        "칠성시장(본점)",
+        "월산(본점)",
+        "남양주중앙(본점)",
+        "하남(본점)",
+        "경기화성(본점)",
+        "진량(본점)",
+        "공단(본점)",
+        "임오(본점)",
+        "해평(본점)"
       ],
-      "description": "14개 금고 금리 변동 발생"
+      "description": "11개 금고 금리 변동 발생"
     },
     "saving": {
-      "total_banks": 850,
-      "total_items": 1630,
-      "last_updated_at": "2026-07-10T04:09:59.541148",
-      "updated_banks_count": 6,
+      "total_banks": 847,
+      "total_items": 1625,
+      "last_updated_at": "2026-07-11T03:53:01.746290",
+      "updated_banks_count": 3,
       "changed_bank_names": [
-        "서울강동(본점)",
-        "마포중앙(본점)",
-        "우암동(본점)",
-        "도화2동(본점)",
-        "단양(본점)",
-        "제일(본점)"
+        "성동행당(본점)",
+        "가창(본점)",
+        "경기화성(본점)"
       ],
-      "description": "6개 금고 금리 변동 발생"
+      "description": "3개 금고 금리 변동 발생"
     },
     "demand": {
-      "total_banks": 1162,
-      "total_items": 2206,
-      "last_updated_at": "2026-07-10T04:09:59.541148",
-      "updated_banks_count": 2,
-      "changed_bank_names": [
-        "새울산(본점)",
-        "서울산(본점)"
-      ],
-      "description": "2개 금고 금리 변동 발생"
+      "total_banks": 1159,
+      "total_items": 2200,
+      "last_updated_at": "2026-07-11T03:53:01.746290",
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     }
   }
 }
