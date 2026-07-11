@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-07-12T03:15:09.249402",
-  "last_modified_at": "2026-07-12T03:15:09.249402",
+  "last_checked_at": "2026-07-12T03:16:34.016256",
+  "last_modified_at": "2026-07-12T03:16:34.016256",
   "status": "success",
-  "description": "성공: 총 2450개 금고(서제주(본점), 보광동(본점), 새강릉(본점), 호근(본점), 양양(본점) 외 976곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2449개 금고(왕십리중앙(본점), 서동(본점), 명장1동(본점), 동구(본점), 초당경포(본점) 외 976곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-12T03:15:09.249402",
+      "last_updated_at": "2026-07-12T03:16:34.016256",
       "updated_banks_count": 796,
       "description": "796개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -813,7 +813,7 @@
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-12T03:15:09.249402",
+      "last_updated_at": "2026-07-12T03:16:34.016256",
       "updated_banks_count": 647,
       "description": "647개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1469,9 +1469,9 @@
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-12T03:15:09.249402",
-      "updated_banks_count": 1007,
-      "description": "1007개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-12T03:16:34.016256",
+      "updated_banks_count": 1006,
+      "description": "1006개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서초(본점)",
         "서초제일(본점)",
@@ -1480,7 +1480,6 @@
         "은천(본점)",
         "봉천(본점)",
         "난곡(본점)",
-        "서울개인택시조합(관악)",
         "난향(본점)",
         "청담동(본점)",
         "대왕(본점)",
