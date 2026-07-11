@@ -1,49 +1,39 @@
 {
-  "last_checked_at": "2026-07-11T03:53:01.746290",
-  "last_modified_at": "2026-07-11T03:53:01.746290",
+  "last_checked_at": "2026-07-12T03:15:10.516287",
+  "last_modified_at": "2026-07-12T03:15:10.516287",
   "status": "success",
-  "description": "성공: 총 14개 금고(남양주중앙(본점), 월산(본점), 경기화성(본점), 임오(본점), 하남(본점) 외 7곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(서울개인택시조합(관악))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-11T03:53:01.746290",
-      "updated_banks_count": 11,
+      "last_updated_at": "2026-07-12T03:15:10.516287",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "필동(본점)",
-        "가창(본점)",
-        "칠성시장(본점)",
-        "월산(본점)",
-        "남양주중앙(본점)",
-        "하남(본점)",
-        "경기화성(본점)",
-        "진량(본점)",
-        "공단(본점)",
-        "임오(본점)",
-        "해평(본점)"
+        "서울개인택시조합(관악)"
       ],
-      "description": "11개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-11T03:53:01.746290",
-      "updated_banks_count": 3,
+      "last_updated_at": "2026-07-12T03:15:10.516287",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "성동행당(본점)",
-        "가창(본점)",
-        "경기화성(본점)"
+        "서울개인택시조합(관악)"
       ],
-      "description": "3개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-11T03:53:01.746290",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-07-12T03:15:10.516287",
+      "updated_banks_count": 1,
+      "changed_bank_names": [
+        "서울개인택시조합(관악)"
+      ],
+      "description": "1개 금고 금리 변동 발생"
     }
   }
 }
