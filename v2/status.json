@@ -1,22 +1,19 @@
 {
-  "last_checked_at": "2026-07-13T18:30:53.906981",
-  "last_modified_at": "2026-07-13T18:30:53.906981",
+  "last_checked_at": "2026-07-13T21:30:43.788142",
+  "last_modified_at": "2026-07-13T21:30:43.788142",
   "status": "success",
-  "description": "성공: 총 5개 금고(동부(본점), 종로중앙(본점), 상도(본점), 세검정(본점), 서전주(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(노원(본점), 중대구(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-13T18:30:53.906981",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-13T21:30:43.788142",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)",
-        "세검정(본점)",
-        "종로중앙(본점)",
-        "동부(본점)",
-        "서전주(본점)"
+        "노원(본점)",
+        "중대구(본점)"
       ]
     },
     "saving": {
