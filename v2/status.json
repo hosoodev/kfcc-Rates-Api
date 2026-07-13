@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-07-14T04:00:34.731303",
-  "last_modified_at": "2026-07-14T04:00:34.731303",
+  "last_checked_at": "2026-07-14T04:01:44.108535",
+  "last_modified_at": "2026-07-14T04:01:44.108535",
   "status": "success",
-  "description": "성공: 총 2459개 금고(장량동(본점), 전포2동(본점), 서부산(본점), 의성(본점), 용문후암(본점) 외 977곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2457개 금고(도봉(본점), 영도중앙(본점), 밀양(본점), 새청주(본점), 서울누리(본점) 외 977곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-14T04:00:34.731303",
-      "updated_banks_count": 804,
-      "description": "804개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-14T04:01:44.108535",
+      "updated_banks_count": 803,
+      "description": "803개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "청담동(본점)",
@@ -240,7 +240,6 @@
         "당감동(본점)",
         "부산평화(본점)",
         "부암3동(본점)",
-        "우리부산(본점)",
         "전포1동(본점)",
         "대청(본점)",
         "부산중앙(본점)",
@@ -821,7 +820,7 @@
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-14T04:00:34.731303",
+      "last_updated_at": "2026-07-14T04:01:44.108535",
       "updated_banks_count": 648,
       "description": "648개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1478,11 +1477,10 @@
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-14T04:00:34.731303",
-      "updated_banks_count": 1007,
-      "description": "1007개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-14T04:01:44.108535",
+      "updated_banks_count": 1006,
+      "description": "1006개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
         "대왕(본점)",
         "청담동(본점)",
         "강남영동(본점)",
