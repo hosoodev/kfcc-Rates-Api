@@ -1,27 +1,43 @@
 {
-  "last_checked_at": "2026-07-16T21:30:57.136011",
-  "last_modified_at": "2026-07-16T21:30:57.136011",
+  "last_checked_at": "2026-07-17T02:30:48.376953",
+  "last_modified_at": "2026-07-17T02:30:48.376953",
   "status": "success",
-  "description": "성공: 총 1개 금고(노원(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 16개 금고(무태(본점), 길음중앙(본점), 금호(본점), 부천중앙(본점), 용산(본점) 외 11곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-16T21:30:57.136011",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-17T02:30:48.376953",
+      "updated_banks_count": 14,
+      "description": "14개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "노원(본점)"
+        "길음중앙(본점)",
+        "금호(본점)",
+        "용산(본점)",
+        "한강로3가(본점)",
+        "청운효자동(본점)",
+        "종로서부(본점)",
+        "대학로(본점)",
+        "세검정(본점)",
+        "드림(본점)",
+        "무태(본점)",
+        "부천중앙(본점)",
+        "여천(본점)",
+        "납읍(본점)",
+        "하나(본점)"
       ]
     },
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-16T18:30:48.236441",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-17T02:30:48.376953",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "도량(본점)",
+        "공단(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1159,
