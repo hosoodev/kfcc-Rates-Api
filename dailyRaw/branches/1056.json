@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-07-17T03:27:10+09:00",
+  "gmgoCd": "1056",
+  "name": "성수포레",
+  "meta": {
+    "head_office": {
+      "name": "성수포레(본점)",
+      "address": "서울 성동구 성덕정길 57-1",
+      "phone": "02-463-4849",
+      "province": "서울",
+      "district": "성동구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1003",
+      "name": "왕십리중앙",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1007",
+      "name": "무지개",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1011",
+      "name": "금호",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1013",
+      "name": "서울금남",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1015",
+      "name": "성수1가",
+      "province": "서울",
+      "district": "성동구"
+    }
+  ]
+}
