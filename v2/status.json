@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-07-19T03:16:13.986518",
-  "last_modified_at": "2026-07-19T03:16:13.986518",
+  "last_checked_at": "2026-07-19T03:17:32.058708",
+  "last_modified_at": "2026-07-19T03:17:32.058708",
   "status": "success",
-  "description": "성공: 총 2451개 금고(안양협심(본점), 의령정암(본점), 신평(본점), 남구희망(본점), 부산서부(오션시티) 외 977곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2451개 금고(서대전(본점), 서양(본점), 용궁(본점), 금빛(본점), 금천(본점) 외 977곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-07-19T03:16:13.986518",
+      "last_updated_at": "2026-07-19T03:17:32.058708",
       "updated_banks_count": 798,
       "description": "798개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -815,7 +815,7 @@
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-19T03:16:13.986518",
+      "last_updated_at": "2026-07-19T03:17:32.058708",
       "updated_banks_count": 647,
       "description": "647개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1471,7 +1471,7 @@
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-19T03:16:13.986518",
+      "last_updated_at": "2026-07-19T03:17:32.058708",
       "updated_banks_count": 1006,
       "description": "1006개 금고 금리 변동 발생",
       "changed_bank_names": [
