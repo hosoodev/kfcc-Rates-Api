@@ -1,33 +1,81 @@
 {
-  "last_checked_at": "2026-07-19T03:16:15.233405",
-  "last_modified_at": "2026-07-18T03:27:17.247398",
+  "last_checked_at": "2026-07-20T03:17:56.265644",
+  "last_modified_at": "2026-07-20T03:17:56.265644",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 45개 금고(SK hynix(본점), 청남(본점), 안양북부(본점), 하양(본점), 필동(본점) 외 25곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
-      "total_banks": 961,
-      "total_items": 961,
-      "last_updated_at": "2026-07-18T03:27:17.247398",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "total_banks": 962,
+      "total_items": 962,
+      "last_updated_at": "2026-07-20T03:17:56.265644",
+      "updated_banks_count": 24,
+      "changed_bank_names": [
+        "가락(본점)",
+        "금빛(본점)",
+        "동부산(본점)",
+        "필동(본점)",
+        "대연6동(본점)",
+        "금사동(본점)",
+        "청룡동(본점)",
+        "당감1동(본점)",
+        "지범(본점)",
+        "대구제일(본점)",
+        "서대전(본점)",
+        "안양북부(본점)",
+        "SK hynix(본점)",
+        "문막(본점)",
+        "대동(본점)",
+        "삼왕(본점)",
+        "원광(본점)",
+        "하양(본점)",
+        "우성(본점)",
+        "청도(본점)",
+        "청화(본점)",
+        "칠곡(본점)",
+        "마산남부(본점)",
+        "양곡(본점)"
+      ],
+      "description": "24개 금고 금리 변동 발생"
     },
     "saving": {
-      "total_banks": 847,
-      "total_items": 1625,
-      "last_updated_at": "2026-07-18T03:27:17.247398",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "total_banks": 848,
+      "total_items": 1627,
+      "last_updated_at": "2026-07-20T03:17:56.265644",
+      "updated_banks_count": 18,
+      "changed_bank_names": [
+        "동구로(본점)",
+        "동부산(본점)",
+        "대연6동(본점)",
+        "금사동(본점)",
+        "지범(본점)",
+        "대구제일(본점)",
+        "SK hynix(본점)",
+        "문막(본점)",
+        "대동(본점)",
+        "삼왕(본점)",
+        "청남(본점)",
+        "하양(본점)",
+        "우성(본점)",
+        "청도(본점)",
+        "청화(본점)",
+        "동진주(본점)",
+        "마산남부(본점)",
+        "양곡(본점)"
+      ],
+      "description": "18개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-18T03:27:17.247398",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-07-20T03:17:56.265644",
+      "updated_banks_count": 3,
+      "changed_bank_names": [
+        "전남대학교병원(본점)",
+        "새울산(온양)",
+        "서울산(천상)"
+      ],
+      "description": "3개 금고 금리 변동 발생"
     }
   }
 }
