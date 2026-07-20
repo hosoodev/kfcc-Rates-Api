@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T02:32:31+09:00",
+  "updated_at": "2026-07-21T04:14:55+09:00",
   "gmgoCd": "1056",
   "name": "성수포레",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "서울",
       "district": "성동구"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "성수포레(서울금남)",
+        "address": "서울특별시 성동구 독서당로 306-1",
+        "phone": "02-2298-1094",
+        "district": "성동구"
+      }
+    ]
   },
   "rates": {
     "deposit": {},
