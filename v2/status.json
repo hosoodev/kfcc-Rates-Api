@@ -1,34 +1,27 @@
 {
-  "last_checked_at": "2026-07-20T10:30:59.093220",
-  "last_modified_at": "2026-07-20T10:30:59.093220",
+  "last_checked_at": "2026-07-20T12:30:56.479017",
+  "last_modified_at": "2026-07-20T12:30:56.479017",
   "status": "success",
-  "description": "성공: 총 7개 금고(성수1가(본점), 노원(본점), 상도중앙(본점), 대양(본점), 대구제일(본점) 외 2곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(더좋은(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-07-20T10:30:59.093220",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-20T12:30:56.479017",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)",
-        "상도중앙(본점)",
-        "노원(본점)",
-        "성수1가(본점)",
-        "대양(본점)"
+        "더좋은(본점)"
       ]
     },
     "saving": {
       "total_banks": 848,
       "total_items": 1627,
       "last_updated_at": "2026-07-20T10:30:59.093220",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "대구제일(본점)",
-        "북대구(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1159,
