@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-07-21T04:14:56.405671",
-  "last_modified_at": "2026-07-21T04:14:56.405671",
+  "last_checked_at": "2026-07-21T04:16:13.848278",
+  "last_modified_at": "2026-07-21T04:16:13.848278",
   "status": "success",
-  "description": "성공: 총 2455개 금고(청파(본점), 독립문(본점), 포천(본점), 계산(본점), 전포2동(본점) 외 977곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2453개 금고(한아름(본점), 참조은(본점), 신정(본점), 함안(본점), 삼척중앙(본점) 외 976곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-07-21T04:14:56.405671",
-      "updated_banks_count": 799,
-      "description": "799개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-21T04:16:13.848278",
+      "updated_banks_count": 798,
+      "description": "798개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "신강동(본점)",
@@ -737,7 +737,6 @@
         "새김해(본점)",
         "산청(본점)",
         "늘푸른(본점)",
-        "대양(본점)",
         "대신(본점)",
         "송도(본점)",
         "영포(본점)",
@@ -816,7 +815,7 @@
     "saving": {
       "total_banks": 848,
       "total_items": 1627,
-      "last_updated_at": "2026-07-21T04:14:56.405671",
+      "last_updated_at": "2026-07-21T04:16:13.848278",
       "updated_banks_count": 649,
       "description": "649개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1474,9 +1473,9 @@
     "demand": {
       "total_banks": 1159,
       "total_items": 2200,
-      "last_updated_at": "2026-07-21T04:14:56.405671",
-      "updated_banks_count": 1007,
-      "description": "1007개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-21T04:16:13.848278",
+      "updated_banks_count": 1006,
+      "description": "1006개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서초제일(본점)",
         "서초중앙(본점)",
@@ -1890,7 +1889,6 @@
         "서대구(본점)",
         "남산대신(본점)",
         "동일(본점)",
-        "전남대학교병원(빛고을전남대학교병원)",
         "남산4동(본점)",
         "중대구(본점)",
         "대구원광(본점)",
