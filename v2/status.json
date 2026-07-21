@@ -1,31 +1,30 @@
 {
-  "last_checked_at": "2026-07-21T14:30:52.512111",
-  "last_modified_at": "2026-07-21T14:30:52.512111",
+  "last_checked_at": "2026-07-21T16:30:36.114646",
+  "last_modified_at": "2026-07-21T16:30:36.114646",
   "status": "success",
-  "description": "성공: 총 4개 금고(강남중앙(본점), 노원(본점), 상도중앙(본점), 능동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(서울송파(본점), 능동(본점), 제일(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-07-21T14:30:52.512111",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-21T16:30:36.114646",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도중앙(본점)",
-        "능동(본점)"
+        "서울송파(본점)",
+        "안암동(본점)",
+        "능동(본점)",
+        "제일(본점)"
       ]
     },
     "saving": {
       "total_banks": 848,
       "total_items": 1627,
       "last_updated_at": "2026-07-21T14:30:52.512111",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "노원(본점)",
-        "강남중앙(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1159,
