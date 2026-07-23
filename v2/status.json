@@ -1,18 +1,19 @@
 {
-  "last_checked_at": "2026-07-23T16:31:04.737686",
-  "last_modified_at": "2026-07-23T16:31:04.737686",
+  "last_checked_at": "2026-07-23T18:30:58.188227",
+  "last_modified_at": "2026-07-23T18:30:58.188227",
   "status": "success",
-  "description": "성공: 총 1개 금고(서울으뜸(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(상도(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-07-23T16:31:04.737686",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-23T18:30:58.188227",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울으뜸(본점)"
+        "상도(본점)",
+        "안암동(본점)"
       ]
     },
     "saving": {
