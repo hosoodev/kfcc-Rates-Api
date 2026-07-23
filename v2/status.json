@@ -1,19 +1,19 @@
 {
-  "last_checked_at": "2026-07-23T18:30:58.188227",
-  "last_modified_at": "2026-07-23T18:30:58.188227",
+  "last_checked_at": "2026-07-23T21:30:47.791613",
+  "last_modified_at": "2026-07-23T21:30:47.791613",
   "status": "success",
-  "description": "성공: 총 2개 금고(상도(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(온누리(본점), 서청주(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-07-23T18:30:58.188227",
+      "last_updated_at": "2026-07-23T21:30:47.791613",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)",
-        "안암동(본점)"
+        "온누리(본점)",
+        "서청주(본점)"
       ]
     },
     "saving": {
