@@ -1,20 +1,20 @@
 {
-  "last_checked_at": "2026-07-24T12:30:51.571380",
-  "last_modified_at": "2026-07-24T12:30:51.571380",
+  "last_checked_at": "2026-07-24T14:30:42.805334",
+  "last_modified_at": "2026-07-24T14:30:42.805334",
   "status": "success",
-  "description": "성공: 총 3개 금고(제일(본점), 서울누리(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(상도(본점), 서울누리(본점), 인제(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 963,
       "total_items": 963,
-      "last_updated_at": "2026-07-24T12:30:51.571380",
+      "last_updated_at": "2026-07-24T14:30:42.805334",
       "updated_banks_count": 3,
       "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "안암동(본점)",
+        "상도(본점)",
         "서울누리(본점)",
-        "제일(본점)"
+        "인제(본점)"
       ]
     },
     "saving": {
