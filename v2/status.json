@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-07-25T03:53:26.007008",
-  "last_modified_at": "2026-07-25T03:53:26.007008",
+  "last_checked_at": "2026-07-25T03:54:55.153564",
+  "last_modified_at": "2026-07-25T03:54:55.153564",
   "status": "success",
-  "description": "성공: 총 2439개 금고(신전주(본점), 무태(본점), 동대문동부(본점), 부산동구(본점), 조은(본점) 외 976곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2438개 금고(용호(본점), 범곡(본점), 구로(본점), 종로숭인(본점), 순천중부(정원) 외 975곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-25T03:53:26.007008",
+      "last_updated_at": "2026-07-25T03:54:55.153564",
       "updated_banks_count": 785,
       "description": "785개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -802,7 +802,7 @@
     "saving": {
       "total_banks": 846,
       "total_items": 1624,
-      "last_updated_at": "2026-07-25T03:53:26.007008",
+      "last_updated_at": "2026-07-25T03:54:55.153564",
       "updated_banks_count": 649,
       "description": "649개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1460,9 +1460,9 @@
     "demand": {
       "total_banks": 1157,
       "total_items": 2196,
-      "last_updated_at": "2026-07-25T03:53:26.007008",
-      "updated_banks_count": 1005,
-      "description": "1005개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-25T03:54:55.153564",
+      "updated_banks_count": 1004,
+      "description": "1004개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서초중앙(본점)",
         "서초(본점)",
@@ -1881,7 +1881,6 @@
         "바른(본점)",
         "동명(본점)",
         "서광주(본점)",
-        "전남대학교병원(본점)",
         "계림(본점)",
         "동광(본점)",
         "동광주(본점)",
