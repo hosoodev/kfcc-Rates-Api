@@ -1,28 +1,30 @@
 {
-  "last_checked_at": "2026-07-24T18:30:52.596447",
-  "last_modified_at": "2026-07-24T18:30:52.596447",
+  "last_checked_at": "2026-07-24T21:30:53.950377",
+  "last_modified_at": "2026-07-24T21:30:53.950377",
   "status": "success",
-  "description": "성공: 총 2개 금고(제일(본점), 서울으뜸(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(우리누리(본점), 서울으뜸(본점), 서달로(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 963,
       "total_items": 963,
-      "last_updated_at": "2026-07-24T18:30:52.596447",
+      "last_updated_at": "2026-07-24T21:30:53.950377",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울으뜸(본점)",
-        "제일(본점)"
+        "우리누리(본점)"
       ]
     },
     "saving": {
       "total_banks": 849,
       "total_items": 1629,
-      "last_updated_at": "2026-07-24T03:33:05.484666",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-24T21:30:53.950377",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서달로(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1160,
