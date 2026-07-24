@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T03:31:43+09:00",
+  "updated_at": "2026-07-25T03:53:26+09:00",
   "gmgoCd": "1053",
   "name": "서울숲",
   "meta": {
@@ -116,14 +116,14 @@
       "district": "성동구"
     },
     {
-      "gmgoCd": "1013",
-      "name": "서울금남",
+      "gmgoCd": "1016",
+      "name": "성수2가1동",
       "province": "서울",
       "district": "성동구"
     },
     {
-      "gmgoCd": "1015",
-      "name": "성수1가",
+      "gmgoCd": "1017",
+      "name": "용답",
       "province": "서울",
       "district": "성동구"
     }

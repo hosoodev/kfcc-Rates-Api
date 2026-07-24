@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T02:31:04+09:00",
+  "updated_at": "2026-07-25T03:53:25+09:00",
   "gmgoCd": "6738",
   "name": "남제주",
   "meta": {
@@ -32,7 +32,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -75,12 +75,6 @@
   ],
   "nearby_branches": [
     {
-      "gmgoCd": "6702",
-      "name": "서귀포",
-      "province": "제주",
-      "district": "서귀포시"
-    },
-    {
       "gmgoCd": "6704",
       "name": "서홍",
       "province": "제주",
@@ -101,6 +95,12 @@
     {
       "gmgoCd": "6707",
       "name": "호근",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6708",
+      "name": "강정",
       "province": "제주",
       "district": "서귀포시"
     }

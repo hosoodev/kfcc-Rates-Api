@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T03:31:43+09:00",
+  "updated_at": "2026-07-25T03:53:26+09:00",
   "gmgoCd": "6711",
   "name": "하원",
   "meta": {
@@ -79,12 +79,6 @@
   "disclosure_history": [],
   "nearby_branches": [
     {
-      "gmgoCd": "6702",
-      "name": "서귀포",
-      "province": "제주",
-      "district": "서귀포시"
-    },
-    {
       "gmgoCd": "6704",
       "name": "서홍",
       "province": "제주",
@@ -105,6 +99,12 @@
     {
       "gmgoCd": "6707",
       "name": "호근",
+      "province": "제주",
+      "district": "서귀포시"
+    },
+    {
+      "gmgoCd": "6708",
+      "name": "강정",
       "province": "제주",
       "district": "서귀포시"
     }

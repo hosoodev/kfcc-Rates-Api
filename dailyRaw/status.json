@@ -1,56 +1,45 @@
 {
-  "last_checked_at": "2026-07-24T03:31:44.064030",
-  "last_modified_at": "2026-07-24T03:31:44.064030",
+  "last_checked_at": "2026-07-25T03:53:27.265235",
+  "last_modified_at": "2026-07-25T03:53:27.265235",
   "status": "success",
-  "description": "성공: 총 20개 금고(남원(본점), 흥덕(본점), 동명(본점), 울산중앙(본점), 은평뉴타운(본점) 외 10곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 9개 금고(보산(본점), 검단(다사), 인주(본점), 전남대학교병원(본점), 연수(문학) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
-      "total_banks": 963,
-      "total_items": 963,
-      "last_updated_at": "2026-07-24T03:31:44.064030",
-      "updated_banks_count": 12,
+      "total_banks": 960,
+      "total_items": 960,
+      "last_updated_at": "2026-07-25T03:53:27.265235",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "신강동(본점)",
-        "디지털(가산역점)",
-        "서울북부(본점)",
-        "성수포레(본점)",
-        "금정중앙(본점)",
-        "대흥(본점)",
-        "우리(본점)",
-        "울산중앙(본점)",
-        "흥덕(본점)",
-        "남원(본점)",
-        "익산서부(본점)",
-        "북영주(본점)"
+        "인주(본점)",
+        "연수(문학)"
       ],
-      "description": "12개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     },
     "saving": {
-      "total_banks": 849,
-      "total_items": 1629,
-      "last_updated_at": "2026-07-24T03:31:44.064030",
+      "total_banks": 846,
+      "total_items": 1624,
+      "last_updated_at": "2026-07-25T03:53:27.265235",
       "updated_banks_count": 5,
       "changed_bank_names": [
-        "신강동(본점)",
-        "은평뉴타운(본점)",
-        "성수포레(본점)",
-        "울산중앙(본점)",
-        "동명(본점)"
+        "상도(본점)",
+        "인주(본점)",
+        "연수(문학)",
+        "검단(다사)",
+        "보산(본점)"
       ],
       "description": "5개 금고 금리 변동 발생"
     },
     "demand": {
-      "total_banks": 1160,
-      "total_items": 2202,
-      "last_updated_at": "2026-07-24T03:31:44.064030",
-      "updated_banks_count": 3,
+      "total_banks": 1157,
+      "total_items": 2196,
+      "last_updated_at": "2026-07-25T03:53:27.265235",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "디지털(가산역점)",
-        "성수포레(본점)",
-        "경북대학교병원(칠곡병원)"
+        "연수(문학)",
+        "전남대학교병원(본점)"
       ],
-      "description": "3개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }

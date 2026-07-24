@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T02:31:04+09:00",
+  "updated_at": "2026-07-25T03:53:25+09:00",
   "gmgoCd": "1007",
   "name": "무지개",
   "meta": {
@@ -45,7 +45,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.5,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -110,20 +110,20 @@
       "district": "성동구"
     },
     {
-      "gmgoCd": "1013",
-      "name": "서울금남",
-      "province": "서울",
-      "district": "성동구"
-    },
-    {
-      "gmgoCd": "1015",
-      "name": "성수1가",
-      "province": "서울",
-      "district": "성동구"
-    },
-    {
       "gmgoCd": "1016",
       "name": "성수2가1동",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1017",
+      "name": "용답",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1025",
+      "name": "서울축산",
       "province": "서울",
       "district": "성동구"
     }

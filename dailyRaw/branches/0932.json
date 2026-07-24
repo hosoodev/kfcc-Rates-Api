@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T03:31:43+09:00",
+  "updated_at": "2026-07-25T03:53:26+09:00",
   "gmgoCd": "0932",
   "name": "난향",
   "meta": {
@@ -10,14 +10,7 @@
       "province": "서울",
       "district": "관악구"
     },
-    "branches": [
-      {
-        "name": "난향(난향)",
-        "address": "서울 관악구 난곡로 53",
-        "phone": "02-859-1800",
-        "district": "관악구"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
