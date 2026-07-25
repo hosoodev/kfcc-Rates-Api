@@ -1,43 +1,38 @@
 {
-  "last_checked_at": "2026-07-25T03:53:27.265235",
-  "last_modified_at": "2026-07-25T03:53:27.265235",
+  "last_checked_at": "2026-07-26T03:16:56.864055",
+  "last_modified_at": "2026-07-26T03:16:56.864055",
   "status": "success",
-  "description": "성공: 총 9개 금고(보산(본점), 검단(다사), 인주(본점), 전남대학교병원(본점), 연수(문학) 외 1곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(서울개인택시조합(강남), 경북대학교병원(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-25T03:53:27.265235",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-07-26T03:16:56.864055",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "인주(본점)",
-        "연수(문학)"
+        "서울개인택시조합(강남)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 846,
       "total_items": 1624,
-      "last_updated_at": "2026-07-25T03:53:27.265235",
-      "updated_banks_count": 5,
+      "last_updated_at": "2026-07-26T03:16:56.864055",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "상도(본점)",
-        "인주(본점)",
-        "연수(문학)",
-        "검단(다사)",
-        "보산(본점)"
+        "서울개인택시조합(강남)"
       ],
-      "description": "5개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1157,
       "total_items": 2196,
-      "last_updated_at": "2026-07-25T03:53:27.265235",
+      "last_updated_at": "2026-07-26T03:16:56.864055",
       "updated_banks_count": 2,
       "changed_bank_names": [
-        "연수(문학)",
-        "전남대학교병원(본점)"
+        "서울개인택시조합(강남)",
+        "경북대학교병원(본점)"
       ],
       "description": "2개 금고 금리 변동 발생"
     }
