@@ -1,20 +1,19 @@
 {
-  "last_checked_at": "2026-07-27T08:30:55.338931",
-  "last_modified_at": "2026-07-27T08:30:55.338931",
+  "last_checked_at": "2026-07-27T10:30:47.276044",
+  "last_modified_at": "2026-07-27T10:30:47.276044",
   "status": "success",
-  "description": "성공: 총 3개 금고(북서울(본점), 안암동(본점), 중대구(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(제일(본점), 북서울(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-27T08:30:55.338931",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-27T10:30:47.276044",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "안암동(본점)",
         "북서울(본점)",
-        "중대구(본점)"
+        "제일(본점)"
       ]
     },
     "saving": {
