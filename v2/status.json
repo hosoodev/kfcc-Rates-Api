@@ -1,17 +1,23 @@
 {
-  "last_checked_at": "2026-07-28T08:30:53.797804",
-  "last_modified_at": "2026-07-28T03:58:04.861817",
+  "last_checked_at": "2026-07-28T10:30:48.157440",
+  "last_modified_at": "2026-07-28T10:30:48.157440",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 5개 금고(동부(본점), 제일(본점), 서울누리(본점), 서울송파(본점), 북서울(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-28T03:58:04.861817",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-28T10:30:48.157440",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서울송파(본점)",
+        "북서울(본점)",
+        "서울누리(본점)",
+        "제일(본점)",
+        "동부(본점)"
+      ]
     },
     "saving": {
       "total_banks": 847,
