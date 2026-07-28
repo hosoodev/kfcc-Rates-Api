@@ -1,20 +1,20 @@
 {
-  "last_checked_at": "2026-07-28T16:30:57.665699",
-  "last_modified_at": "2026-07-28T16:30:57.665699",
+  "last_checked_at": "2026-07-28T18:30:38.707337",
+  "last_modified_at": "2026-07-28T18:30:38.707337",
   "status": "success",
-  "description": "성공: 총 3개 금고(강남영동(본점), 종로광장(본점), 종로중앙(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(강남영동(본점), 서울송파(본점), 산곡(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-28T16:30:57.665699",
+      "last_updated_at": "2026-07-28T18:30:38.707337",
       "updated_banks_count": 3,
       "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
         "강남영동(본점)",
-        "종로중앙(본점)",
-        "종로광장(본점)"
+        "서울송파(본점)",
+        "산곡(본점)"
       ]
     },
     "saving": {
