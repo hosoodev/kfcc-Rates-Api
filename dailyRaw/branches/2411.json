@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T03:36:08+09:00",
+  "updated_at": "2026-07-30T03:24:58+09:00",
   "gmgoCd": "2411",
   "name": "서석",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "광주",
       "district": "동구"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "서석(동명)",
+        "address": "전남광주통합특별시 동구 필문대로 277",
+        "phone": "062-227-7796",
+        "district": "동구"
+      }
+    ]
   },
   "rates": {
     "deposit": {
