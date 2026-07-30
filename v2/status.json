@@ -1,23 +1,20 @@
 {
-  "last_checked_at": "2026-07-30T10:30:45.694497",
-  "last_modified_at": "2026-07-30T10:30:45.694497",
+  "last_checked_at": "2026-07-30T12:31:04.849356",
+  "last_modified_at": "2026-07-30T12:31:04.849356",
   "status": "success",
-  "description": "성공: 총 6개 금고(열린(본점), 안암동(본점), 성북(본점), 사당(본점), 서울누리(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(성북(본점), 제일(본점), 안암동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-30T10:30:45.694497",
-      "updated_banks_count": 6,
-      "description": "6개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-30T12:31:04.849356",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "사당(본점)",
         "안암동(본점)",
-        "서울누리(본점)",
         "성북(본점)",
-        "열린(본점)",
-        "한마음(본점)"
+        "제일(본점)"
       ]
     },
     "saving": {
