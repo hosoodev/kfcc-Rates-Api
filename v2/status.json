@@ -1,27 +1,27 @@
 {
-  "last_checked_at": "2026-07-30T14:30:57.272088",
-  "last_modified_at": "2026-07-30T14:30:57.272088",
+  "last_checked_at": "2026-07-30T16:31:06.321569",
+  "last_modified_at": "2026-07-30T16:31:06.321569",
   "status": "success",
-  "description": "성공: 총 1개 금고(부평제일(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(북서울(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
       "last_updated_at": "2026-07-30T14:30:57.272088",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "부평제일(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-30T03:26:09.145432",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-30T16:31:06.321569",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "북서울(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1157,
