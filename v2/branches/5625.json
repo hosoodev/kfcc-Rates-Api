@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T02:31:21+09:00",
+  "updated_at": "2026-08-01T03:54:23+09:00",
   "gmgoCd": "5625",
   "name": "다문",
   "meta": {
@@ -13,7 +13,14 @@
     "branches": []
   },
   "rates": {
-    "deposit": {},
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.63,
+          "s": "w"
+        }
+      }
+    },
     "saving": {},
     "demand": {
       "온라인자립예탁금": {
@@ -25,13 +32,18 @@
       "상상모바일통장": {
         "0": {
           "r": 0.1,
-          "s": "m"
+          "s": "w"
         }
       }
     }
   },
   "top_picks": {
-    "deposit": null,
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.63,
+      "s": "w"
+    },
     "saving": null
   },
   "disclosure_history": [
