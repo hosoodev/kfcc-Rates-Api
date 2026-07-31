@@ -1,27 +1,31 @@
 {
-  "last_checked_at": "2026-07-31T16:30:42.194007",
-  "last_modified_at": "2026-07-31T16:30:42.194007",
+  "last_checked_at": "2026-07-31T18:30:56.204279",
+  "last_modified_at": "2026-07-31T18:30:56.204279",
   "status": "success",
-  "description": "성공: 총 1개 금고(e-푸른(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(제일(본점), 서울누리(본점), 동부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-07-31T16:30:42.194007",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-07-31T18:30:56.204279",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "e-푸른(본점)"
+        "서울누리(본점)",
+        "제일(본점)",
+        "동부(본점)"
       ]
     },
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-07-31T10:30:50.466763",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-07-31T18:30:56.204279",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서울누리(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1157,
