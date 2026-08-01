@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-08-02T03:21:34.386107",
-  "last_modified_at": "2026-08-02T03:21:34.386107",
+  "last_checked_at": "2026-08-02T03:23:05.490246",
+  "last_modified_at": "2026-08-02T03:23:05.490246",
   "status": "success",
-  "description": "성공: 총 2433개 금고(상대(본점), 시흥제일(정왕), 동대문상가(본점), 울산제일(본점), 신강동(본점) 외 975곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2431개 금고(신길(본점), 난곡(본점), 청파(본점), 신제주(본점), 새상주(본점) 외 973곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-08-02T03:21:34.386107",
+      "last_updated_at": "2026-08-02T03:23:05.490246",
       "updated_banks_count": 780,
       "description": "780개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -797,7 +797,7 @@
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-08-02T03:21:34.386107",
+      "last_updated_at": "2026-08-02T03:23:05.490246",
       "updated_banks_count": 648,
       "description": "648개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1454,9 +1454,9 @@
     "demand": {
       "total_banks": 1157,
       "total_items": 2195,
-      "last_updated_at": "2026-08-02T03:21:34.386107",
-      "updated_banks_count": 1005,
-      "description": "1005개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-02T03:23:05.490246",
+      "updated_banks_count": 1003,
+      "description": "1003개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서초중앙(본점)",
         "서초(본점)",
@@ -1830,7 +1830,6 @@
         "지저(본점)",
         "해안(본점)",
         "신평(본점)",
-        "경북대학교병원(칠곡병원)",
         "공산(본점)",
         "아양(본점)",
         "칠성(본점)",
@@ -1875,7 +1874,6 @@
         "서광주(본점)",
         "서대구(본점)",
         "동명(본점)",
-        "전남대학교병원(본점)",
         "동광주(본점)",
         "서석(본점)",
         "계림(본점)",
