@@ -1,27 +1,27 @@
 {
-  "last_checked_at": "2026-08-03T18:32:32.611925",
-  "last_modified_at": "2026-08-03T18:32:32.611925",
+  "last_checked_at": "2026-08-03T21:30:48.877284",
+  "last_modified_at": "2026-08-03T21:30:48.877284",
   "status": "success",
-  "description": "성공: 총 1개 금고(원주우리(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(하나동산(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
       "last_updated_at": "2026-08-03T18:32:32.611925",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "원주우리(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 847,
       "total_items": 1625,
-      "last_updated_at": "2026-08-03T03:20:59.423363",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-03T21:30:48.877284",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "하나동산(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1157,
