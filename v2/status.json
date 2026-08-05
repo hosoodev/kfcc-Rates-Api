@@ -1,31 +1,28 @@
 {
-  "last_checked_at": "2026-08-05T14:30:56.338039",
-  "last_modified_at": "2026-08-05T14:30:56.338039",
+  "last_checked_at": "2026-08-05T16:30:58.035492",
+  "last_modified_at": "2026-08-05T16:30:58.035492",
   "status": "success",
-  "description": "성공: 총 4개 금고(왕십리중앙(본점), 서울송파(본점), 두류1.2동(본점), 제일(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(제일(본점), 하원(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 961,
       "total_items": 961,
-      "last_updated_at": "2026-08-05T14:30:56.338039",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-05T16:30:58.035492",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "왕십리중앙(본점)",
-        "두류1.2동(본점)",
-        "제일(본점)"
+        "제일(본점)",
+        "하원(본점)"
       ]
     },
     "saving": {
       "total_banks": 846,
       "total_items": 1623,
       "last_updated_at": "2026-08-05T14:30:56.338039",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "서울송파(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1156,
