@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T03:55:18+09:00",
+  "updated_at": "2026-08-08T03:09:14+09:00",
   "gmgoCd": "3225",
   "name": "이인",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "충남",
       "district": "공주시"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "이인(옥룡)",
+        "address": "충청남도 공주시 무령로 285",
+        "phone": "041-852-5890",
+        "district": "공주시"
+      }
+    ]
   },
   "rates": {
     "deposit": {
