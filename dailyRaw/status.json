@@ -1,65 +1,36 @@
 {
-  "last_checked_at": "2026-08-08T03:09:15.031296",
-  "last_modified_at": "2026-08-08T03:09:15.031296",
+  "last_checked_at": "2026-08-09T02:52:13.959935",
+  "last_modified_at": "2026-08-09T02:52:13.959935",
   "status": "success",
-  "description": "성공: 총 29개 금고(서청주(본점), 용답(본점), 충청(계룡), 북서울(본점), 서김해(본점) 외 16곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(서울산(천상), 새울산(온양))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
       "last_updated_at": "2026-08-08T03:09:15.031296",
-      "updated_banks_count": 16,
-      "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "디지털(가산역점)",
-        "우리들(본점)",
-        "북서울(본점)",
-        "대연(본점)",
-        "북부산(본점)",
-        "새인천(본점)",
-        "구월남촌(본점)",
-        "동신(본점)",
-        "성내(본점)",
-        "서청주(본점)",
-        "정읍(본점)",
-        "남전주(본점)",
-        "서김해(본점)",
-        "영포(본점)",
-        "신경북(본점)"
-      ],
-      "description": "16개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
       "last_updated_at": "2026-08-08T03:09:15.031296",
-      "updated_banks_count": 9,
-      "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "용답(본점)",
-        "북부산(본점)",
-        "구월남촌(본점)",
-        "동신(본점)",
-        "설악(본점)",
-        "충청(계룡)",
-        "흥덕(본점)",
-        "영포(본점)"
-      ],
-      "description": "9개 금고 금리 변동 발생"
+      "updated_banks_count": 0,
+      "changed_bank_names": [],
+      "description": "금리 변동 없음"
     },
     "demand": {
       "total_banks": 1152,
       "total_items": 2186,
-      "last_updated_at": "2026-08-08T03:09:15.031296",
-      "updated_banks_count": 4,
+      "last_updated_at": "2026-08-09T02:52:13.959935",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "북부산(본점)",
-        "동신(본점)",
-        "파주(본점)"
+        "새울산(온양)",
+        "서울산(천상)"
       ],
-      "description": "4개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
