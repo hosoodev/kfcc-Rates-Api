@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-08-09T02:52:12.719693",
-  "last_modified_at": "2026-08-09T02:52:12.719693",
+  "last_checked_at": "2026-08-09T02:53:21.832936",
+  "last_modified_at": "2026-08-09T02:53:21.832936",
   "status": "success",
-  "description": "성공: 총 2421개 금고(신목동(본점), 칠곡(본점), 서홍(본점), 옥포(본점), 행복(본점) 외 969곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2421개 금고(여주(본점), 용일(본점), 대양(본점), 당감2동(본점), 용인중앙(본점) 외 969곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-09T02:52:12.719693",
+      "last_updated_at": "2026-08-09T02:53:21.832936",
       "updated_banks_count": 775,
       "description": "775개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -792,7 +792,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-09T02:52:12.719693",
+      "last_updated_at": "2026-08-09T02:53:21.832936",
       "updated_banks_count": 647,
       "description": "647개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1448,7 +1448,7 @@
     "demand": {
       "total_banks": 1152,
       "total_items": 2186,
-      "last_updated_at": "2026-08-09T02:52:12.719693",
+      "last_updated_at": "2026-08-09T02:53:21.832936",
       "updated_banks_count": 999,
       "description": "999개 금고 금리 변동 발생",
       "changed_bank_names": [
