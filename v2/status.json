@@ -1,30 +1,27 @@
 {
-  "last_checked_at": "2026-08-10T18:30:51.900508",
-  "last_modified_at": "2026-08-10T18:30:51.900508",
+  "last_checked_at": "2026-08-10T21:30:40.981776",
+  "last_modified_at": "2026-08-10T21:30:40.981776",
   "status": "success",
-  "description": "성공: 총 3개 금고(상도(본점), 참조은(본점), 신암(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(서전주(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-10T18:30:51.900508",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-10T21:30:40.981776",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신암(본점)",
-        "참조은(본점)"
+        "서전주(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
       "last_updated_at": "2026-08-10T18:30:51.900508",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "상도(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1152,
