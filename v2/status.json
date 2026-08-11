@@ -1,27 +1,32 @@
 {
-  "last_checked_at": "2026-08-11T08:30:39.241875",
-  "last_modified_at": "2026-08-11T08:30:39.241875",
+  "last_checked_at": "2026-08-11T10:30:48.906446",
+  "last_modified_at": "2026-08-11T10:30:48.906446",
   "status": "success",
-  "description": "성공: 총 1개 금고(갈현동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 5개 금고(한라(본점), 상도(본점), 하늘내린(본점), 신성(본점), 열린(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-11T08:30:39.241875",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-11T10:30:48.906446",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "갈현동(본점)"
+        "신성(본점)",
+        "하늘내린(본점)",
+        "열린(본점)",
+        "한라(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-11T03:13:09.341183",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-11T10:30:48.906446",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1152,
