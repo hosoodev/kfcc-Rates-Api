@@ -1,25 +1,55 @@
 {
-  "last_checked_at": "2026-08-11T21:30:50.466560",
-  "last_modified_at": "2026-08-11T18:31:05.967757",
+  "last_checked_at": "2026-08-12T02:30:46.474294",
+  "last_modified_at": "2026-08-12T02:30:46.474294",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 28개 금고(대연6동(본점), 서전주(본점), 우리용인(본점), 성북제일(본점), 서울종암(본점) 외 18곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-11T18:31:05.967757",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-12T02:30:46.474294",
+      "updated_banks_count": 18,
+      "description": "18개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "으뜸(본점)",
+        "광화문(본점)",
+        "종로3.4가(본점)",
+        "종로서부(본점)",
+        "종로광장(본점)",
+        "대연6동(본점)",
+        "남부중앙(본점)",
+        "부평(본점)",
+        "북성(본점)",
+        "대구제일(본점)",
+        "무태(본점)",
+        "북광주(본점)",
+        "한마음(본점)",
+        "예스(본점)",
+        "우리용인(본점)",
+        "늘푸른(본점)",
+        "서전주(본점)",
+        "영동(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-11T10:30:48.906446",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-12T02:30:46.474294",
+      "updated_banks_count": 10,
+      "description": "10개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "성북제일(본점)",
+        "서울종암(본점)",
+        "연지동(본점)",
+        "당감동(본점)",
+        "북성(본점)",
+        "무태(본점)",
+        "북대구(본점)",
+        "북광주(본점)",
+        "우리용인(본점)",
+        "영동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1152,
