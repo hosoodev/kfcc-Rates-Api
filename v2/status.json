@@ -1,19 +1,21 @@
 {
-  "last_checked_at": "2026-08-11T14:30:47.752070",
-  "last_modified_at": "2026-08-11T14:30:47.752070",
+  "last_checked_at": "2026-08-11T16:30:47.757159",
+  "last_modified_at": "2026-08-11T16:30:47.757159",
   "status": "success",
-  "description": "성공: 총 2개 금고(용답(본점), 순창(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(세검정(본점), 청운효자동(본점), 북광주(본점), 동부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-11T14:30:47.752070",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-11T16:30:47.757159",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "용답(본점)",
-        "순창(본점)"
+        "청운효자동(본점)",
+        "세검정(본점)",
+        "북광주(본점)",
+        "동부(본점)"
       ]
     },
     "saving": {
