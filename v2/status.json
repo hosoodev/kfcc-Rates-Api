@@ -1,19 +1,20 @@
 {
-  "last_checked_at": "2026-08-12T16:30:59.362015",
-  "last_modified_at": "2026-08-12T16:30:59.362015",
+  "last_checked_at": "2026-08-12T18:30:43.283117",
+  "last_modified_at": "2026-08-12T18:30:43.283117",
   "status": "success",
-  "description": "성공: 총 2개 금고(광진자양(본점), 더좋은(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(한마음(본점), 광진자양(본점), 대전동부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-12T16:30:59.362015",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-12T18:30:43.283117",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
         "광진자양(본점)",
-        "더좋은(본점)"
+        "한마음(본점)",
+        "대전동부(본점)"
       ]
     },
     "saving": {
