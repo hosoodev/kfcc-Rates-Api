@@ -1,57 +1,50 @@
 {
-  "last_checked_at": "2026-08-12T03:16:13.051766",
-  "last_modified_at": "2026-08-12T03:16:13.051766",
+  "last_checked_at": "2026-08-13T03:15:13.697112",
+  "last_modified_at": "2026-08-13T03:15:13.697112",
   "status": "success",
-  "description": "성공: 총 21개 금고(광화문(본점), 영동(본점), 부평(본점), 서울개인택시조합(강남), 용답(본점) 외 9곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 14개 금고(반송(본점), 새종암(본점), 동작(본점), 디지털(가산역점), 구로5동(본점) 외 7곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-12T03:16:13.051766",
-      "updated_banks_count": 14,
+      "last_updated_at": "2026-08-13T03:15:13.697112",
+      "updated_banks_count": 11,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "디지털(본점)",
-        "으뜸(본점)",
-        "서울으뜸(본점)",
-        "능동(본점)",
-        "용답(본점)",
-        "광화문(본점)",
-        "부평(본점)",
-        "무태(본점)",
-        "우리용인(본점)",
-        "SK hynix(본점)",
-        "순창(본점)",
-        "늘푸른(본점)",
-        "영동(본점)"
+        "동작(본점)",
+        "디지털(가산역점)",
+        "구로5동(본점)",
+        "새종암(본점)",
+        "남인천(본점)",
+        "북대구(본점)",
+        "대전동부(본점)",
+        "오산(본점)",
+        "동원주(본점)",
+        "북경주(본점)",
+        "반송(본점)"
       ],
-      "description": "14개 금고 금리 변동 발생"
+      "description": "11개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-12T03:16:13.051766",
-      "updated_banks_count": 5,
+      "last_updated_at": "2026-08-13T03:15:13.697112",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "무태(본점)",
-        "우리용인(본점)",
-        "SK hynix(본점)",
-        "영동(본점)"
+        "한강2동(본점)",
+        "반송(본점)"
       ],
-      "description": "5개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1152,
       "total_items": 2186,
-      "last_updated_at": "2026-08-12T03:16:13.051766",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-08-13T03:15:13.697112",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "디지털(본점)"
+        "디지털(가산역점)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     }
   }
 }
