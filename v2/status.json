@@ -1,25 +1,50 @@
 {
-  "last_checked_at": "2026-08-13T21:31:06.244449",
-  "last_modified_at": "2026-08-13T18:30:46.648487",
+  "last_checked_at": "2026-08-14T02:30:44.048304",
+  "last_modified_at": "2026-08-14T02:30:44.048304",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 23개 금고(동문(본점), 한남동(본점), 배봉(본점), 남부산(본점), 원중앙(본점) 외 18곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-13T18:30:46.648487",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-14T02:30:44.048304",
+      "updated_banks_count": 17,
+      "description": "17개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서울숲(본점)",
+        "한남동(본점)",
+        "세검정(본점)",
+        "종로광장(본점)",
+        "남부산(본점)",
+        "문현3동(본점)",
+        "시민공원(본점)",
+        "전포1동(본점)",
+        "부평중앙(본점)",
+        "원중앙(본점)",
+        "예스(본점)",
+        "조촌(본점)",
+        "사곡(본점)",
+        "중앙(본점)",
+        "교동(본점)",
+        "제주서부(본점)",
+        "동문(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-13T12:30:55.958713",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-14T02:30:44.048304",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "구로5동(본점)",
+        "배봉(본점)",
+        "당감2동(본점)",
+        "당감동(본점)",
+        "대구제일(본점)",
+        "북대구(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1152,
