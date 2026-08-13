@@ -1,18 +1,19 @@
 {
-  "last_checked_at": "2026-08-13T14:30:57.236098",
-  "last_modified_at": "2026-08-13T14:30:57.236098",
+  "last_checked_at": "2026-08-13T16:30:52.799172",
+  "last_modified_at": "2026-08-13T16:30:52.799172",
   "status": "success",
-  "description": "성공: 총 1개 금고(금암(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(사곡(본점), 임오(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-13T14:30:57.236098",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-13T16:30:52.799172",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "금암(본점)"
+        "사곡(본점)",
+        "임오(본점)"
       ]
     },
     "saving": {
