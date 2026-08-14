@@ -1,28 +1,43 @@
 {
-  "last_checked_at": "2026-08-14T21:30:48.207246",
-  "last_modified_at": "2026-08-14T21:30:48.207246",
+  "last_checked_at": "2026-08-15T02:30:50.242615",
+  "last_modified_at": "2026-08-15T02:30:50.242615",
   "status": "success",
-  "description": "성공: 총 2개 금고(원대전(본점), 신도(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 16개 금고(오봉(본점), 전포(본점), 하원(본점), 대구제일(본점), 우리부산(본점) 외 8곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-14T21:30:48.207246",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-15T02:30:50.242615",
+      "updated_banks_count": 11,
+      "description": "11개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "원대전(본점)",
-        "신도(본점)"
+        "청담동(본점)",
+        "우장산(본점)",
+        "한남동(본점)",
+        "전포(본점)",
+        "초읍동(본점)",
+        "새인천(본점)",
+        "오봉(본점)",
+        "대구제일(본점)",
+        "신도(본점)",
+        "하원(본점)",
+        "동문(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-14T16:30:54.184974",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-15T02:30:50.242615",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "우장산(본점)",
+        "전포(본점)",
+        "우리부산(본점)",
+        "북성(본점)",
+        "대구제일(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1152,
