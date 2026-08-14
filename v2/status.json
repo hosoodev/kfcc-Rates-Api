@@ -1,29 +1,29 @@
 {
-  "last_checked_at": "2026-08-14T14:30:46.312242",
-  "last_modified_at": "2026-08-14T14:30:46.312242",
+  "last_checked_at": "2026-08-14T16:30:54.184974",
+  "last_modified_at": "2026-08-14T16:30:54.184974",
   "status": "success",
-  "description": "성공: 총 3개 금고(조촌(본점), 광주(본점), 신강동(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(영등포당산(본점), 하나동산(본점), 상동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-14T14:30:46.312242",
+      "last_updated_at": "2026-08-14T16:30:54.184974",
       "updated_banks_count": 2,
       "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "광주(본점)",
-        "조촌(본점)"
+        "영등포당산(본점)",
+        "상동(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-14T14:30:46.312242",
+      "last_updated_at": "2026-08-14T16:30:54.184974",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신강동(본점)"
+        "하나동산(본점)"
       ]
     },
     "demand": {
