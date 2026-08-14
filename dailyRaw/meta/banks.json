@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_groups": 1165,
-    "total_branches": 2937,
-    "crawled_at": "2026-08-14T03:15:14.514870",
+    "total_groups": 1163,
+    "total_branches": 2935,
+    "crawled_at": "2026-08-15T03:12:07.775350",
     "version": "2.0"
   },
   "banks": [
@@ -3364,16 +3364,16 @@
       },
       "branches": [
         {
-          "name": "서울개인택시조합(강동)",
-          "address": "서울 강동구 명일로 230",
-          "phone": "02-426-2933",
-          "district": "강동구"
-        },
-        {
           "name": "서울개인택시조합(강남)",
           "address": "서울 강남구 개포로 636",
           "phone": "02-2057-0540",
           "district": "강남구"
+        },
+        {
+          "name": "서울개인택시조합(강동)",
+          "address": "서울 강동구 명일로 230",
+          "phone": "02-426-2933",
+          "district": "강동구"
         },
         {
           "name": "서울개인택시조합(위례)",
@@ -3388,18 +3388,6 @@
           "district": "관악구"
         },
         {
-          "name": "서울개인택시조합(남서)",
-          "address": "서울 구로구 공원로 81",
-          "phone": "02-839-5200",
-          "district": "구로구"
-        },
-        {
-          "name": "서울개인택시조합(양천)",
-          "address": "서울 양천구 남부순환로 595",
-          "phone": "02-2698-2929",
-          "district": "양천구"
-        },
-        {
           "name": "서울개인택시조합(영동)",
           "address": "서울 영등포구 가마산로 364",
           "phone": "02-844-0343",
@@ -3410,6 +3398,18 @@
           "address": "서울 강서구 개화동로 416",
           "phone": "02-3661-3003",
           "district": "강서구"
+        },
+        {
+          "name": "서울개인택시조합(양천)",
+          "address": "서울 양천구 남부순환로 595",
+          "phone": "02-2698-2929",
+          "district": "양천구"
+        },
+        {
+          "name": "서울개인택시조합(남서)",
+          "address": "서울 구로구 공원로 81",
+          "phone": "02-839-5200",
+          "district": "구로구"
         },
         {
           "name": "서울개인택시조합(용마)",
@@ -3436,16 +3436,16 @@
           "district": "서대문구"
         },
         {
-          "name": "서울개인택시조합(강북)",
-          "address": "서울 강북구 한천로109가길 14",
-          "phone": "02-999-9892",
-          "district": "강북구"
-        },
-        {
           "name": "서울개인택시조합(은평)",
           "address": "서울 은평구 증산로17길 4",
           "phone": "02-356-5800",
           "district": "은평구"
+        },
+        {
+          "name": "서울개인택시조합(강북)",
+          "address": "서울 강북구 한천로109가길 14",
+          "phone": "02-999-9892",
+          "district": "강북구"
         },
         {
           "name": "서울개인택시조합(중랑)",
@@ -7594,12 +7594,6 @@
       },
       "branches": [
         {
-          "name": "에이스(군위)",
-          "address": "대구 군위군 군위읍 동서길 34",
-          "phone": "054-382-7771",
-          "district": "군위군"
-        },
-        {
           "name": "에이스(시장)",
           "address": "대구 북구 팔달로35길 11",
           "phone": "053-320-5001",
@@ -7628,6 +7622,12 @@
           "address": "대구 북구 한강로 60",
           "phone": "053-320-5008",
           "district": "북구"
+        },
+        {
+          "name": "에이스(군위)",
+          "address": "대구 군위군 군위읍 동서길 34",
+          "phone": "054-382-7771",
+          "district": "군위군"
         }
       ]
     },
@@ -9308,7 +9308,7 @@
       "group_name": "계림",
       "head_office": {
         "name": "계림(본점)",
-        "address": "광주 동구 구성로 260",
+        "address": "전남광주통합특별시 동구 구성로 260",
         "phone": "062-223-7540",
         "province": "광주",
         "district": "동구"
@@ -9320,7 +9320,7 @@
       "group_name": "동광주",
       "head_office": {
         "name": "동광주(본점)",
-        "address": "광주 동구 필문대로 179",
+        "address": "전남광주통합특별시 동구 필문대로 179",
         "phone": "062-223-0611",
         "province": "광주",
         "district": "동구"
@@ -9351,7 +9351,7 @@
       "group_name": "대광",
       "head_office": {
         "name": "대광(본점)",
-        "address": "광주 동구 중앙로 254",
+        "address": "전남광주통합특별시 동구 중앙로 254",
         "phone": "062-222-5851",
         "province": "광주",
         "district": "동구"
@@ -9376,7 +9376,7 @@
       "group_name": "서석",
       "head_office": {
         "name": "서석(본점)",
-        "address": "광주 동구 백서로 188",
+        "address": "전남광주통합특별시 동구 백서로 188",
         "phone": "062-222-4649",
         "province": "광주",
         "district": "동구"
@@ -9395,7 +9395,7 @@
       "group_name": "광주광역시청",
       "head_office": {
         "name": "광주광역시청(본점)",
-        "address": "광주 서구 내방로 111",
+        "address": "전남광주통합특별시 서구 내방로 111",
         "phone": "062-613-5649",
         "province": "광주",
         "district": "서구"
@@ -9407,7 +9407,7 @@
       "group_name": "전남대학교병원",
       "head_office": {
         "name": "전남대학교병원(본점)",
-        "address": "광주 동구 제봉로 42",
+        "address": "전남광주통합특별시 동구 제봉로 42",
         "phone": "062-220-5067",
         "province": "광주",
         "district": "동구"
@@ -9426,7 +9426,7 @@
       "group_name": "금남",
       "head_office": {
         "name": "금남(본점)",
-        "address": "광주 동구 중앙로 207-7",
+        "address": "전남광주통합특별시 동구 중앙로 207-7",
         "phone": "062-232-7251",
         "province": "광주",
         "district": "동구"
@@ -9438,7 +9438,7 @@
       "group_name": "동광",
       "head_office": {
         "name": "동광(본점)",
-        "address": "광주 동구 구성로 219",
+        "address": "전남광주통합특별시 동구 구성로 219",
         "phone": "062-224-9759",
         "province": "광주",
         "district": "동구"
@@ -9457,7 +9457,7 @@
       "group_name": "푸른",
       "head_office": {
         "name": "푸른(본점)",
-        "address": "광주 서구 풍금로 26-1",
+        "address": "전남광주통합특별시 서구 풍금로 26-1",
         "phone": "062-681-0642",
         "province": "광주",
         "district": "서구"
@@ -9482,7 +9482,7 @@
       "group_name": "한마음",
       "head_office": {
         "name": "한마음(본점)",
-        "address": "광주 광산구 하남대로 69",
+        "address": "전남광주통합특별시 광산구 하남대로 69",
         "phone": "062-954-2104",
         "province": "광주",
         "district": "광산구"
@@ -9513,7 +9513,7 @@
       "group_name": "금호타이어",
       "head_office": {
         "name": "금호타이어(본점)",
-        "address": "광주 광산구 어등대로 658",
+        "address": "전남광주통합특별시 광산구 어등대로 658",
         "phone": "062-940-2065",
         "province": "광주",
         "district": "광산구"
@@ -9525,7 +9525,7 @@
       "group_name": "무진",
       "head_office": {
         "name": "무진(본점)",
-        "address": "광주 남구 용대로 136",
+        "address": "전남광주통합특별시 남구 용대로 136",
         "phone": "062-671-6303",
         "province": "광주",
         "district": "남구"
@@ -9556,7 +9556,7 @@
       "group_name": "서양",
       "head_office": {
         "name": "서양(본점)",
-        "address": "광주 남구 중앙로 98",
+        "address": "전남광주통합특별시 남구 중앙로 98",
         "phone": "062-671-5000",
         "province": "광주",
         "district": "남구"
@@ -9587,7 +9587,7 @@
       "group_name": "광남",
       "head_office": {
         "name": "광남(본점)",
-        "address": "광주 남구 독립로 149",
+        "address": "전남광주통합특별시 남구 독립로 149",
         "phone": "062-366-8111",
         "province": "광주",
         "district": "남구"
@@ -9606,7 +9606,7 @@
       "group_name": "월산",
       "head_office": {
         "name": "월산(본점)",
-        "address": "광주 남구 금화로440번길 10",
+        "address": "전남광주통합특별시 남구 금화로440번길 10",
         "phone": "062-363-1231",
         "province": "광주",
         "district": "남구"
@@ -9625,7 +9625,7 @@
       "group_name": "주월",
       "head_office": {
         "name": "주월(본점)",
-        "address": "광주 남구 회재로 1237",
+        "address": "전남광주통합특별시 남구 회재로 1237",
         "phone": "062-652-4192",
         "province": "광주",
         "district": "남구"
@@ -9650,7 +9650,7 @@
       "group_name": "유은학원",
       "head_office": {
         "name": "유은학원(본점)",
-        "address": "광주 남구 서문대로627번길 20",
+        "address": "전남광주통합특별시 남구 서문대로627번길 20",
         "phone": "062-675-2254",
         "province": "광주",
         "district": "남구"
@@ -9687,7 +9687,7 @@
       "group_name": "남광주",
       "head_office": {
         "name": "남광주(본점)",
-        "address": "광주 동구 양림로 116-1",
+        "address": "전남광주통합특별시 동구 양림로 116-1",
         "phone": "062-224-3066",
         "province": "광주",
         "district": "동구"
@@ -9712,7 +9712,7 @@
       "group_name": "온누리",
       "head_office": {
         "name": "온누리(본점)",
-        "address": "광주 서구 독립로204번길 6",
+        "address": "전남광주통합특별시 서구 독립로204번길 6",
         "phone": "062-363-5040",
         "province": "광주",
         "district": "서구"
@@ -9731,7 +9731,7 @@
       "group_name": "상무",
       "head_office": {
         "name": "상무(본점)",
-        "address": "광주 서구 상무대로 874",
+        "address": "전남광주통합특별시 서구 상무대로 874",
         "phone": "062-371-0858",
         "province": "광주",
         "district": "서구"
@@ -9756,7 +9756,7 @@
       "group_name": "화정",
       "head_office": {
         "name": "화정(본점)",
-        "address": "광주 서구 상무대로 1089",
+        "address": "전남광주통합특별시 서구 상무대로 1089",
         "phone": "062-363-3352",
         "province": "광주",
         "district": "서구"
@@ -9775,7 +9775,7 @@
       "group_name": "염주",
       "head_office": {
         "name": "염주(본점)",
-        "address": "광주 서구 월드컵4강로28번길 3-1",
+        "address": "전남광주통합특별시 서구 월드컵4강로28번길 3-1",
         "phone": "062-375-2208",
         "province": "광주",
         "district": "서구"
@@ -9787,7 +9787,7 @@
       "group_name": "송원",
       "head_office": {
         "name": "송원(본점)",
-        "address": "광주 남구 송암로 73",
+        "address": "전남광주통합특별시 남구 송암로 73",
         "phone": "062-360-5749",
         "province": "광주",
         "district": "남구"
@@ -9799,7 +9799,7 @@
       "group_name": "기아광주",
       "head_office": {
         "name": "기아광주(본점)",
-        "address": "광주 서구 화운로 277",
+        "address": "전남광주통합특별시 서구 화운로 277",
         "phone": "062-370-1865",
         "province": "광주",
         "district": "서구"
@@ -9811,7 +9811,7 @@
       "group_name": "광주",
       "head_office": {
         "name": "광주(본점)",
-        "address": "광주 서구 경열로146번길 3-2",
+        "address": "전남광주통합특별시 서구 경열로146번길 3-2",
         "phone": "062-361-3515",
         "province": "광주",
         "district": "서구"
@@ -9842,7 +9842,7 @@
       "group_name": "중흥",
       "head_office": {
         "name": "중흥(본점)",
-        "address": "광주 북구 제봉로 292",
+        "address": "전남광주통합특별시 북구 제봉로 292",
         "phone": "062-527-4244",
         "province": "광주",
         "district": "북구"
@@ -9867,7 +9867,7 @@
       "group_name": "북광주",
       "head_office": {
         "name": "북광주(본점)",
-        "address": "광주 북구 서양로 115",
+        "address": "전남광주통합특별시 북구 서양로 115",
         "phone": "062-526-3753",
         "province": "광주",
         "district": "북구"
@@ -9886,7 +9886,7 @@
       "group_name": "광주북부",
       "head_office": {
         "name": "광주북부(본점)",
-        "address": "광주 북구 서림로 109-1",
+        "address": "전남광주통합특별시 북구 서림로 109-1",
         "phone": "062-522-7527",
         "province": "광주",
         "district": "북구"
@@ -9905,7 +9905,7 @@
       "group_name": "태봉",
       "head_office": {
         "name": "태봉(본점)",
-        "address": "광주 북구 무등로 104",
+        "address": "전남광주통합특별시 북구 무등로 104",
         "phone": "062-528-8344",
         "province": "광주",
         "district": "북구"
@@ -9949,7 +9949,7 @@
       "group_name": "서방",
       "head_office": {
         "name": "서방(본점)",
-        "address": "광주 북구 동문대로 19-1",
+        "address": "전남광주통합특별시 북구 동문대로 19-1",
         "phone": "062-526-1722",
         "province": "광주",
         "district": "북구"
@@ -9974,7 +9974,7 @@
       "group_name": "제일",
       "head_office": {
         "name": "제일(본점)",
-        "address": "광주 동구 참판로 30",
+        "address": "전남광주통합특별시 동구 참판로 30",
         "phone": "062-526-4773",
         "province": "광주",
         "district": "동구"
@@ -9993,7 +9993,7 @@
       "group_name": "정다운",
       "head_office": {
         "name": "정다운(본점)",
-        "address": "광주 북구 군왕로 81",
+        "address": "전남광주통합특별시 북구 군왕로 81",
         "phone": "062-529-8133",
         "province": "광주",
         "district": "북구"
@@ -10018,7 +10018,7 @@
       "group_name": "예향",
       "head_office": {
         "name": "예향(본점)",
-        "address": "광주 북구 우치로 233-1",
+        "address": "전남광주통합특별시 북구 우치로 233-1",
         "phone": "062-264-4200",
         "province": "광주",
         "district": "북구"
@@ -10049,7 +10049,7 @@
       "group_name": "빛고을",
       "head_office": {
         "name": "빛고을(본점)",
-        "address": "광주 북구 설죽로 224",
+        "address": "전남광주통합특별시 북구 설죽로 224",
         "phone": "062-525-2770",
         "province": "광주",
         "district": "북구"
@@ -10080,7 +10080,7 @@
       "group_name": "동신",
       "head_office": {
         "name": "동신(본점)",
-        "address": "광주 북구 동문대로 50",
+        "address": "전남광주통합특별시 북구 동문대로 50",
         "phone": "062-520-2105",
         "province": "광주",
         "district": "북구"
@@ -10092,7 +10092,7 @@
       "group_name": "동부",
       "head_office": {
         "name": "동부(본점)",
-        "address": "광주 북구 서방로 9",
+        "address": "전남광주통합특별시 북구 서방로 9",
         "phone": "062-264-2134",
         "province": "광주",
         "district": "북구"
@@ -10104,7 +10104,7 @@
       "group_name": "광주중앙",
       "head_office": {
         "name": "광주중앙(본점)",
-        "address": "광주 북구 금재로 25",
+        "address": "전남광주통합특별시 북구 금재로 25",
         "phone": "062-526-1761",
         "province": "광주",
         "district": "북구"
@@ -10123,7 +10123,7 @@
       "group_name": "양동",
       "head_office": {
         "name": "양동(본점)",
-        "address": "광주 서구 양동시장2길 24",
+        "address": "전남광주통합특별시 서구 양동시장2길 24",
         "phone": "062-361-1171",
         "province": "광주",
         "district": "서구"
@@ -10148,7 +10148,7 @@
       "group_name": "신흥",
       "head_office": {
         "name": "신흥(본점)",
-        "address": "광주 서구 죽봉대로 109",
+        "address": "전남광주통합특별시 서구 죽봉대로 109",
         "phone": "062-368-5500",
         "province": "광주",
         "district": "서구"
@@ -10167,7 +10167,7 @@
       "group_name": "무등",
       "head_office": {
         "name": "무등(본점)",
-        "address": "광주 서구 상무중앙로 43",
+        "address": "전남광주통합특별시 서구 상무중앙로 43",
         "phone": "062-365-5400",
         "province": "광주",
         "district": "서구"
@@ -10190,30 +10190,6 @@
         "phone": "061-745-2215",
         "province": "전남",
         "district": "순천시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2804",
-      "group_name": "산정",
-      "head_office": {
-        "name": "산정(본점)",
-        "address": "전남 목포시 청호로 106",
-        "phone": "061-273-3384",
-        "province": "전남",
-        "district": "목포시"
-      },
-      "branches": []
-    },
-    {
-      "gmgoCd": "2933",
-      "group_name": "HD현대삼호",
-      "head_office": {
-        "name": "HD현대삼호(주)(본점)",
-        "address": "전남 영암군 삼호읍 대불로 93",
-        "phone": "061-460-4620",
-        "province": "전남",
-        "district": "영암군"
       },
       "branches": []
     },
@@ -23084,18 +23060,6 @@
       },
       "branches": [
         {
-          "name": "새울산(선암)",
-          "address": "울산 남구 산업로339번길 24-4",
-          "phone": "052-271-2206",
-          "district": "남구"
-        },
-        {
-          "name": "새울산(수암)",
-          "address": "울산 남구 중앙로 46-1",
-          "phone": "052-273-2204",
-          "district": "남구"
-        },
-        {
           "name": "새울산(온양)",
           "address": "울산 울주군 온양읍 대안3길 58",
           "phone": "052-239-8000",
@@ -23112,6 +23076,18 @@
           "address": "울산 울주군 청량읍 삼정로 824",
           "phone": "052-272-9700",
           "district": "울주군"
+        },
+        {
+          "name": "새울산(선암)",
+          "address": "울산 남구 산업로339번길 24-4",
+          "phone": "052-271-2206",
+          "district": "남구"
+        },
+        {
+          "name": "새울산(수암)",
+          "address": "울산 남구 중앙로 46-1",
+          "phone": "052-273-2204",
+          "district": "남구"
         }
       ]
     },
@@ -23319,6 +23295,12 @@
       },
       "branches": [
         {
+          "name": "서울산(천상)",
+          "address": "울산 울주군 범서읍 천상중앙길 99",
+          "phone": "052-220-0005",
+          "district": "울주군"
+        },
+        {
           "name": "서울산(삼호)",
           "address": "울산 남구 어은로 9-1",
           "phone": "052-220-0001",
@@ -23341,12 +23323,6 @@
           "address": "울산 남구 옥현로58번길 3",
           "phone": "052-220-0004",
           "district": "남구"
-        },
-        {
-          "name": "서울산(천상)",
-          "address": "울산 울주군 범서읍 천상중앙길 99",
-          "phone": "052-220-0005",
-          "district": "울주군"
         }
       ]
     },
