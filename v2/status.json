@@ -1,23 +1,19 @@
 {
-  "last_checked_at": "2026-08-18T10:30:44.344834",
-  "last_modified_at": "2026-08-18T10:30:44.344834",
+  "last_checked_at": "2026-08-18T12:31:25.984650",
+  "last_modified_at": "2026-08-18T12:31:25.984650",
   "status": "success",
-  "description": "성공: 총 6개 금고(상동(본점), 용문후암(본점), 서울으뜸(본점), 청파(본점), 영등포당산(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(임오(본점), 원남(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-18T10:30:44.344834",
-      "updated_banks_count": 6,
-      "description": "6개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-18T12:31:25.984650",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "영등포당산(본점)",
-        "서울으뜸(본점)",
-        "청파(본점)",
-        "용문후암(본점)",
-        "동촌(본점)",
-        "상동(본점)"
+        "원남(본점)",
+        "임오(본점)"
       ]
     },
     "saving": {
