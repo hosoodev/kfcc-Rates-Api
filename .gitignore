@@ -7,3 +7,5 @@ _archive/
 .env
 *.json.gz
 data
+temp/
+temp
