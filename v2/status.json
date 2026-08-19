@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-08-20T02:49:04.700976",
-  "last_modified_at": "2026-08-20T02:49:04.700976",
+  "last_checked_at": "2026-08-20T02:50:27.435408",
+  "last_modified_at": "2026-08-20T02:50:27.435408",
   "status": "success",
-  "description": "성공: 총 2417개 금고(개봉(본점), 오봉(본점), 평택(본점), 서귀포동부(본점), 서서울(본점) 외 968곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2414개 금고(해평(본점), 남양주중앙(본점), 남면(본점), 성지(본점), 속초남부(본점) 외 968곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-20T02:49:04.700976",
-      "updated_banks_count": 774,
-      "description": "774개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-20T02:50:27.435408",
+      "updated_banks_count": 772,
+      "description": "772개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "청담동(본점)",
@@ -113,7 +113,6 @@
         "전택(본점)",
         "우리누리(본점)",
         "왕십리중앙(본점)",
-        "제기동(본점)",
         "동대문동부(본점)",
         "금호(본점)",
         "서울숲(본점)",
@@ -623,7 +622,6 @@
         "익산중앙(본점)",
         "북부(본점)",
         "원광(본점)",
-        "감곡(본점)",
         "연지(본점)",
         "동부(본점)",
         "상명(본점)",
@@ -791,7 +789,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-20T02:49:04.700976",
+      "last_updated_at": "2026-08-20T02:50:27.435408",
       "updated_banks_count": 644,
       "description": "644개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1444,11 +1442,10 @@
     "demand": {
       "total_banks": 1150,
       "total_items": 2183,
-      "last_updated_at": "2026-08-20T02:49:04.700976",
-      "updated_banks_count": 999,
-      "description": "999개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-20T02:50:27.435408",
+      "updated_banks_count": 998,
+      "description": "998개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
         "대왕(본점)",
         "청담동(본점)",
         "서초중앙(본점)",
