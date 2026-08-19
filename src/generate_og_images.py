@@ -8,11 +8,13 @@ worktree/branch.  Only files listed in its manifest are ever removed.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from functools import lru_cache
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -63,10 +65,28 @@ def load_manifest(path: Path) -> dict[str, Any]:
     return manifest
 
 
+@lru_cache(maxsize=None)
 def font(path: Path, size: int) -> ImageFont.FreeTypeFont:
     if not path.exists():
         raise FileNotFoundError(f"Required font was not found: {path}")
     return ImageFont.truetype(str(path), size=size)
+
+
+@lru_cache(maxsize=None)
+def background_template(path: Path) -> Image.Image:
+    """Load and scale the shared background once, before worker threads start."""
+    if not path.exists():
+        raise FileNotFoundError(f"Required background was not found: {path}")
+    with Image.open(path) as source:
+        return fit_background(source.convert("RGB")).convert("RGBA")
+
+
+def warm_assets(assets: Path) -> None:
+    """Preload immutable render assets so every worker can reuse them."""
+    background_template(assets / "og-bg.png")
+    font(assets / "PAPERLOGY-9BLACK.TTF", 108)
+    font(assets / "PAPERLOGY-7BOLD.TTF", 39)
+    font(assets / "PAPERLOGY-8EXTRABOLD.TTF", 28)
 
 
 def fit_background(background: Image.Image) -> Image.Image:
@@ -131,12 +151,7 @@ def draw_justified_characters(
 
 def render_image(payload: dict[str, str], destination: Path, assets: Path) -> None:
     background_path = assets / "og-bg.png"
-    if not background_path.exists():
-        raise FileNotFoundError(f"Required background was not found: {background_path}")
-
-    with Image.open(background_path) as source:
-        image = fit_background(source.convert("RGB"))
-    image = image.convert("RGBA")
+    image = background_template(background_path).copy()
     draw = ImageDraw.Draw(image)
 
     # Sized for Naver's small square thumbnail crop: the three key title lines
@@ -178,7 +193,10 @@ def render_image(payload: dict[str, str], destination: Path, assets: Path) -> No
     )
 
     destination.parent.mkdir(parents=True, exist_ok=True)
-    image.convert("RGB").save(destination, format="PNG", optimize=True)
+    # Pillow's optimize=True performs an expensive exhaustive PNG pass.  This
+    # branch contains thousands of generated files, so prefer fast standard
+    # compression; it does not change the rendered pixels.
+    image.convert("RGB").save(destination, format="PNG", compress_level=6)
 
 
 def safely_remove(root: Path, relative_path: str) -> None:
@@ -199,11 +217,14 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument("--force", action="store_true", help="Regenerate every selected image")
     parser.add_argument("--gmgo-cd", action="append", default=[], help="Generate only this code (repeatable)")
     parser.add_argument("--limit", type=int, help="Generate at most this many pending images")
+    parser.add_argument("--workers", type=int, default=8, help="Parallel image render workers (default: 8)")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_arguments()
+    if args.workers < 1:
+        raise ValueError("--workers must be at least 1")
     data = load_json(args.banks_file)
     output_dir = args.output_dir.resolve()
     manifest_path = output_dir / MANIFEST_NAME
@@ -232,19 +253,29 @@ def main() -> int:
 
     deleted = [] if selected_codes else sorted(set(previous_images) - set(groups))
     print(f"create/update: {len(pending)}, delete: {len(deleted)}, unchanged: {len(groups) - len(pending)}")
-    for code in pending:
-        print(f"  render {code}")
     for code in deleted:
         print(f"  delete {code}")
     if args.dry_run:
         return 0
 
     next_images = dict(previous_images)
-    for code in pending:
-        payload = groups[code]
-        relative_path = f"{IMAGE_DIRECTORY}/{code}.png"
-        render_image(payload, output_dir / relative_path, args.assets_dir)
-        next_images[code] = {"hash": payload_hash(payload), "path": relative_path}
+    if pending:
+        warm_assets(args.assets_dir)
+        (output_dir / IMAGE_DIRECTORY).mkdir(parents=True, exist_ok=True)
+        print(f"rendering {len(pending)} images with {args.workers} workers")
+        with ThreadPoolExecutor(max_workers=args.workers, thread_name_prefix="og-render") as executor:
+            futures = {
+                executor.submit(
+                    render_image, groups[code], output_dir / IMAGE_DIRECTORY / f"{code}.png", args.assets_dir
+                ): code
+                for code in pending
+            }
+            for completed_count, future in enumerate(as_completed(futures), start=1):
+                code = futures[future]
+                future.result()
+                relative_path = f"{IMAGE_DIRECTORY}/{code}.png"
+                next_images[code] = {"hash": payload_hash(groups[code]), "path": relative_path}
+                print(f"  rendered {completed_count}/{len(pending)}: {code}")
     for code in deleted:
         safely_remove(output_dir, str(previous_images[code].get("path", "")))
         next_images.pop(code, None)
