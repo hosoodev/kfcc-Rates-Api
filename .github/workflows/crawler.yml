@@ -136,6 +136,9 @@ jobs:
             git worktree add --detach --no-checkout og-images HEAD
             git -C og-images checkout --orphan og-images
           fi
+          # An orphan checkout inherits the source index. Clear it so this
+          # branch can contain only generated images and its manifest.
+          git -C og-images rm -r --cached --ignore-unmatch .
 
       - name: Generate incremental OG images
         run: |
@@ -211,6 +214,9 @@ jobs:
             git worktree add --detach --no-checkout og-images HEAD
             git -C og-images checkout --orphan og-images
           fi
+          # An orphan checkout inherits the source index. Clear it so this
+          # branch can contain only generated images and its manifest.
+          git -C og-images rm -r --cached --ignore-unmatch .
 
       - name: Generate incremental OG images
         run: |
