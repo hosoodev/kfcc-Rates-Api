@@ -1,0 +1,11 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+v2/
+_archive/
+.vscode/
+.env
+*.json.gz
+data
+temp/
+temp
