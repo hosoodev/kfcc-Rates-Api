@@ -1,30 +1,25 @@
 {
-  "last_checked_at": "2026-08-20T10:31:01.400950",
+  "last_checked_at": "2026-08-20T12:30:52.116012",
   "last_modified_at": "2026-08-20T10:31:01.400950",
   "status": "success",
-  "description": "성공: 총 3개 금고(안양북부(본점), 제기동(본점), 옥포(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
       "last_updated_at": "2026-08-20T10:31:01.400950",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "제기동(본점)",
-        "옥포(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
       "last_updated_at": "2026-08-20T10:31:01.400950",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "안양북부(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1150,
