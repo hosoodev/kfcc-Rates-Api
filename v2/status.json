@@ -1,26 +1,41 @@
 {
-  "last_checked_at": "2026-08-21T21:30:47.963166",
-  "last_modified_at": "2026-08-21T21:30:47.963166",
+  "last_checked_at": "2026-08-22T02:30:58.402702",
+  "last_modified_at": "2026-08-22T02:30:58.402702",
   "status": "success",
-  "description": "성공: 총 1개 금고(인제(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 15개 금고(대구제일(본점), 북성(본점), 예스(본점), 청운효자동(본점), 종로광장(본점) 외 9곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-21T18:31:01.036347",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-22T02:30:58.402702",
+      "updated_banks_count": 13,
+      "description": "13개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "노들(본점)",
+        "신도림(본점)",
+        "효창(본점)",
+        "청운효자동(본점)",
+        "종로광장(본점)",
+        "북성(본점)",
+        "대구제일(본점)",
+        "한마음(본점)",
+        "예스(본점)",
+        "화성제일(본점)",
+        "새청주(본점)",
+        "서제주(본점)",
+        "북제주(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-21T21:30:47.963166",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-22T02:30:58.402702",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "인제(본점)"
+        "북성(본점)",
+        "미래(본점)"
       ]
     },
     "demand": {
