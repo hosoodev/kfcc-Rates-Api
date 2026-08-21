@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T02:51:26+09:00",
+  "updated_at": "2026-08-22T02:52:26+09:00",
   "gmgoCd": "0915",
   "name": "신대방",
   "meta": {
@@ -10,14 +10,7 @@
       "province": "서울",
       "district": "동작구"
     },
-    "branches": [
-      {
-        "name": "신대방(신대방2동)",
-        "address": "서울 동작구 보라매로 93",
-        "phone": "02-821-0012",
-        "district": "동작구"
-      }
-    ]
+    "branches": []
   },
   "rates": {
     "deposit": {
