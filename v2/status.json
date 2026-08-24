@@ -1,17 +1,20 @@
 {
-  "last_checked_at": "2026-08-24T08:30:53.042608",
-  "last_modified_at": "2026-08-24T08:30:53.042608",
+  "last_checked_at": "2026-08-24T10:30:46.479485",
+  "last_modified_at": "2026-08-24T10:30:46.479485",
   "status": "success",
-  "description": "성공: 총 1개 금고(화곡(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(상도(본점), 도량(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-24T02:30:50.924328",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-24T10:30:46.479485",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도(본점)",
+        "도량(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
@@ -25,11 +28,9 @@
       "total_banks": 1150,
       "total_items": 2184,
       "last_updated_at": "2026-08-24T08:30:53.042608",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "화곡(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     }
   }
 }
