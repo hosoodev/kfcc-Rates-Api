@@ -1,27 +1,47 @@
 {
-  "last_checked_at": "2026-08-24T21:31:00.913536",
-  "last_modified_at": "2026-08-24T21:31:00.913536",
+  "last_checked_at": "2026-08-25T02:31:18.688152",
+  "last_modified_at": "2026-08-25T02:31:18.688152",
   "status": "success",
-  "description": "성공: 총 1개 금고(연지(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 20개 금고(구의동(본점), 당감동(본점), 보산(본점), 문현3동(본점), 원남(본점) 외 12곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-24T21:31:00.913536",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-25T02:31:18.688152",
+      "updated_banks_count": 10,
+      "description": "10개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "연지(본점)"
+        "화곡(본점)",
+        "구의동(본점)",
+        "종로중부(본점)",
+        "용당동(본점)",
+        "문현3동(본점)",
+        "오봉(본점)",
+        "대구제일(본점)",
+        "보산(본점)",
+        "원남(본점)",
+        "중앙(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-24T14:30:50.907635",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-25T02:31:18.688152",
+      "updated_banks_count": 10,
+      "description": "10개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "화곡(본점)",
+        "신내동(본점)",
+        "서울누리(본점)",
+        "월곡(본점)",
+        "연지동(본점)",
+        "당감동(본점)",
+        "북성(본점)",
+        "대구제일(본점)",
+        "송정(본점)",
+        "원남(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1150,
