@@ -1,25 +1,31 @@
 {
-  "last_checked_at": "2026-08-24T12:30:46.103787",
-  "last_modified_at": "2026-08-24T10:30:46.479485",
+  "last_checked_at": "2026-08-24T14:30:50.907635",
+  "last_modified_at": "2026-08-24T14:30:50.907635",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 4개 금고(상도(본점), 사당(본점), 파주(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-24T10:30:46.479485",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-24T14:30:50.907635",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도(본점)",
+        "사당(본점)",
+        "파주(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-24T02:30:50.924328",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-08-24T14:30:50.907635",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "상도(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1150,
