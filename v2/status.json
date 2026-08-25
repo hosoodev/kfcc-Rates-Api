@@ -1,20 +1,18 @@
 {
-  "last_checked_at": "2026-08-25T10:31:01.037411",
-  "last_modified_at": "2026-08-25T10:31:01.037411",
+  "last_checked_at": "2026-08-25T12:31:05.677453",
+  "last_modified_at": "2026-08-25T12:31:05.677453",
   "status": "success",
-  "description": "성공: 총 3개 금고(옥포(본점), 천호(본점), 상도(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(상도(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-25T10:31:01.037411",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-25T12:31:05.677453",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "천호(본점)",
-        "상도(본점)",
-        "옥포(본점)"
+        "상도(본점)"
       ]
     },
     "saving": {
