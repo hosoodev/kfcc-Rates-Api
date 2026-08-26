@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-08-27T04:27:23.886464",
-  "last_modified_at": "2026-08-27T04:27:23.886464",
+  "last_checked_at": "2026-08-27T04:28:45.176261",
+  "last_modified_at": "2026-08-27T04:28:45.176261",
   "status": "success",
-  "description": "성공: 총 2416개 금고(서부산(본점), 정다운(본점), 용문후암(본점), 광화문(본점), 사직3동(본점) 외 969곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2415개 금고(회현동(본점), 효목(본점), 신례원(본점), 가평군(본점), 신길2동(본점) 외 969곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-27T04:27:23.886464",
-      "updated_banks_count": 775,
-      "description": "775개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-27T04:28:45.176261",
+      "updated_banks_count": 774,
+      "description": "774개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "서울송파(본점)",
@@ -337,7 +337,6 @@
         "북대구(본점)",
         "칠성시장(본점)",
         "한마음(본점)",
-        "주월(본점)",
         "무진(본점)",
         "서양(본점)",
         "광남(본점)",
@@ -792,7 +791,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1621,
-      "last_updated_at": "2026-08-27T04:27:23.886464",
+      "last_updated_at": "2026-08-27T04:28:45.176261",
       "updated_banks_count": 642,
       "description": "642개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1443,7 +1442,7 @@
     "demand": {
       "total_banks": 1150,
       "total_items": 2184,
-      "last_updated_at": "2026-08-27T04:27:23.886464",
+      "last_updated_at": "2026-08-27T04:28:45.176261",
       "updated_banks_count": 999,
       "description": "999개 금고 금리 변동 발생",
       "changed_bank_names": [
