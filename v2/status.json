@@ -1,18 +1,21 @@
 {
-  "last_checked_at": "2026-08-27T08:30:58.568201",
-  "last_modified_at": "2026-08-27T08:30:58.568201",
+  "last_checked_at": "2026-08-27T10:31:02.122144",
+  "last_modified_at": "2026-08-27T10:31:02.122144",
   "status": "success",
-  "description": "성공: 총 1개 금고(성북(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 4개 금고(성북(본점), 우리들(본점), 난향(본점), 성수2가1동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 956,
       "total_items": 956,
-      "last_updated_at": "2026-08-27T08:30:58.568201",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-27T10:31:02.122144",
+      "updated_banks_count": 4,
+      "description": "4개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성북(본점)"
+        "난향(본점)",
+        "우리들(본점)",
+        "성북(본점)",
+        "성수2가1동(본점)"
       ]
     },
     "saving": {
