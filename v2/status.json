@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-08-31T04:59:22.471122",
-  "last_modified_at": "2026-08-31T04:59:22.471122",
+  "last_checked_at": "2026-08-31T05:00:49.065853",
+  "last_modified_at": "2026-08-31T05:00:49.065853",
   "status": "success",
-  "description": "성공: 총 2418개 금고(오송(본점), 팔달(본점), 의령정암(본점), 서울개인택시조합(강남), 신마포(본점) 외 970곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2416개 금고(백화(본점), 경주(본점), 전포2동(본점), 무지개(본점), 안양동부(본점) 외 970곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-08-31T04:59:22.471122",
-      "updated_banks_count": 776,
-      "description": "776개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-31T05:00:49.065853",
+      "updated_banks_count": 775,
+      "description": "775개 금고 금리 변동 발생",
       "changed_bank_names": [
         "청담동(본점)",
         "서울개인택시조합(강남)",
@@ -671,7 +671,6 @@
         "동남(본점)",
         "중앙(본점)",
         "영해(본점)",
-        "명신(본점)",
         "안동(본점)",
         "백암(본점)",
         "도량(본점)",
@@ -793,9 +792,9 @@
     "saving": {
       "total_banks": 846,
       "total_items": 1622,
-      "last_updated_at": "2026-08-31T04:59:22.471122",
-      "updated_banks_count": 643,
-      "description": "643개 금고 금리 변동 발생",
+      "last_updated_at": "2026-08-31T05:00:49.065853",
+      "updated_banks_count": 642,
+      "description": "642개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "강남중앙(본점)",
@@ -1351,7 +1350,6 @@
         "동남(본점)",
         "중앙(본점)",
         "송정(본점)",
-        "명신(본점)",
         "안동(본점)",
         "백암(본점)",
         "도량(본점)",
@@ -1445,7 +1443,7 @@
     "demand": {
       "total_banks": 1150,
       "total_items": 2184,
-      "last_updated_at": "2026-08-31T04:59:22.471122",
+      "last_updated_at": "2026-08-31T05:00:49.065853",
       "updated_banks_count": 999,
       "description": "999개 금고 금리 변동 발생",
       "changed_bank_names": [
