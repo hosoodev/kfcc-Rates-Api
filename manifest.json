@@ -1,7 +1,7 @@
 {
   "version": 1,
   "renderer_version": "2",
-  "generated_at": "2026-08-31T22:07:13.721081+00:00",
+  "generated_at": "2026-09-01T20:07:18.253783+00:00",
   "source": {
     "banks_file": "api-data/v2/meta/banks.json"
   },
@@ -4339,7 +4339,7 @@
       "path": "images/6404.png"
     },
     "6407": {
-      "hash": "ecb14c809eefc3440b3b0779f7a9e7c5e38a41f163f7a414638d971ac508b141",
+      "hash": "c69088bab3cbcec4684db4436b51fce73d99de0969eab48940e50b8c0c41fe68",
       "path": "images/6407.png"
     },
     "6408": {
