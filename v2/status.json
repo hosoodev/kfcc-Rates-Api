@@ -1,18 +1,20 @@
 {
-  "last_checked_at": "2026-09-02T08:30:51.471663",
-  "last_modified_at": "2026-09-02T08:30:51.471663",
+  "last_checked_at": "2026-09-02T10:30:52.725608",
+  "last_modified_at": "2026-09-02T10:30:52.725608",
   "status": "success",
-  "description": "성공: 총 1개 금고(서울은평(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(상도(본점), 임오(본점), 구미강동(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-02T08:30:51.471663",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-02T10:30:52.725608",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울은평(본점)"
+        "상도(본점)",
+        "구미강동(본점)",
+        "임오(본점)"
       ]
     },
     "saving": {
