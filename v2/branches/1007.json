@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T02:30:43+09:00",
+  "updated_at": "2026-09-05T04:40:48+09:00",
   "gmgoCd": "1007",
   "name": "무지개",
   "meta": {
@@ -45,7 +45,7 @@
       "상상모바일통장": {
         "0": {
           "r": 0.5,
-          "s": "m"
+          "s": "w"
         }
       }
     }
@@ -98,12 +98,6 @@
   ],
   "nearby_branches": [
     {
-      "gmgoCd": "1003",
-      "name": "왕십리중앙",
-      "province": "서울",
-      "district": "성동구"
-    },
-    {
       "gmgoCd": "1011",
       "name": "금호",
       "province": "서울",
@@ -124,6 +118,12 @@
     {
       "gmgoCd": "1025",
       "name": "서울축산",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1053",
+      "name": "서울숲",
       "province": "서울",
       "district": "성동구"
     }

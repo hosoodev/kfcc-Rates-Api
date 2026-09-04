@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T04:57:05+09:00",
+  "updated_at": "2026-09-05T04:40:49+09:00",
   "gmgoCd": "1056",
   "name": "성수포레",
   "meta": {
@@ -86,12 +86,6 @@
   "disclosure_history": [],
   "nearby_branches": [
     {
-      "gmgoCd": "1003",
-      "name": "왕십리중앙",
-      "province": "서울",
-      "district": "성동구"
-    },
-    {
       "gmgoCd": "1007",
       "name": "무지개",
       "province": "서울",
@@ -112,6 +106,12 @@
     {
       "gmgoCd": "1017",
       "name": "용답",
+      "province": "서울",
+      "district": "성동구"
+    },
+    {
+      "gmgoCd": "1025",
+      "name": "서울축산",
       "province": "서울",
       "district": "성동구"
     }
