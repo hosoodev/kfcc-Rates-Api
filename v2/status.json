@@ -1,6 +1,6 @@
 {
-  "last_checked_at": "2026-09-07T08:30:45.233142",
-  "last_modified_at": "2026-09-07T08:30:45.233142",
+  "last_checked_at": "2026-09-07T10:30:57.562411",
+  "last_modified_at": "2026-09-07T10:30:57.562411",
   "status": "success",
   "description": "성공: 총 1개 금고(성북(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
@@ -8,7 +8,7 @@
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-07T08:30:45.233142",
+      "last_updated_at": "2026-09-07T10:30:57.562411",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
