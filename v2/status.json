@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-09-09T05:03:52.648229",
-  "last_modified_at": "2026-09-09T05:03:52.648229",
+  "last_checked_at": "2026-09-09T05:05:14.484503",
+  "last_modified_at": "2026-09-09T05:05:14.484503",
   "status": "success",
-  "description": "성공: 총 2434개 금고(연산6동(본점), 아시아드(본점), 부평(본점), 종로숭인(본점), 울산제일(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2431개 금고(백암(본점), 동홍(본점), 수정(본점), 고양누리(본점), 익산서부(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-09T05:03:52.648229",
-      "updated_banks_count": 786,
-      "description": "786개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-09T05:05:14.484503",
+      "updated_banks_count": 784,
+      "description": "784개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강동)",
         "서초(본점)",
@@ -336,7 +336,6 @@
         "대구개인택시조합(본점)",
         "남부(본점)",
         "대원(본점)",
-        "성내(본점)",
         "지범(본점)",
         "중동(본점)",
         "두레(본점)",
@@ -757,7 +756,6 @@
         "도봉(본점)",
         "진주남부(본점)",
         "함안(본점)",
-        "참진주(본점)",
         "신평(본점)",
         "강양(본점)",
         "진주동부(본점)",
@@ -803,7 +801,7 @@
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-09T05:03:52.648229",
+      "last_updated_at": "2026-09-09T05:05:14.484503",
       "updated_banks_count": 652,
       "description": "652개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1464,11 +1462,10 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-09T05:03:52.648229",
-      "updated_banks_count": 996,
-      "description": "996개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-09T05:05:14.484503",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강동)",
         "서초중앙(본점)",
         "서초(본점)",
         "서초제일(본점)",
