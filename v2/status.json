@@ -1,31 +1,29 @@
 {
-  "last_checked_at": "2026-09-09T10:31:03.808409",
-  "last_modified_at": "2026-09-09T10:31:03.808409",
+  "last_checked_at": "2026-09-09T12:30:54.503827",
+  "last_modified_at": "2026-09-09T12:30:54.503827",
   "status": "success",
-  "description": "성공: 총 5개 금고(성북(본점), 더좋은(본점), 공산(본점), 서울축산(본점), 상도(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(신당1.2.3동(본점), 대구원광(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-09T10:31:03.808409",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-09T12:30:54.503827",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "상도(본점)",
-        "성북(본점)",
-        "더좋은(본점)",
-        "서울축산(본점)",
-        "공산(본점)"
+        "대구원광(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-09T05:05:14.484503",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-09T12:30:54.503827",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "신당1.2.3동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
