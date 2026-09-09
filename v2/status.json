@@ -1,29 +1,29 @@
 {
-  "last_checked_at": "2026-09-09T14:31:02.613409",
-  "last_modified_at": "2026-09-09T14:31:02.613409",
+  "last_checked_at": "2026-09-09T16:31:03.576706",
+  "last_modified_at": "2026-09-09T16:31:03.576706",
   "status": "success",
-  "description": "성공: 총 3개 금고(서울축산(본점), 신도림(본점), 더좋은(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(서달로(본점), 종로3.4가(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-09T14:31:02.613409",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-09T16:31:03.576706",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신도림(본점)",
-        "더좋은(본점)",
-        "서울축산(본점)"
+        "서달로(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-09T12:30:54.503827",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-09T16:31:03.576706",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "종로3.4가(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
