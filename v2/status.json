@@ -1,27 +1,27 @@
 {
-  "last_checked_at": "2026-09-10T10:30:50.286247",
-  "last_modified_at": "2026-09-10T10:30:50.286247",
+  "last_checked_at": "2026-09-10T12:30:55.603775",
+  "last_modified_at": "2026-09-10T12:30:55.603775",
   "status": "success",
-  "description": "성공: 총 1개 금고(대구원광(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(꿈드림(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
       "last_updated_at": "2026-09-10T10:30:50.286247",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "대구원광(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-10T04:55:43.962704",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-10T12:30:55.603775",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "꿈드림(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
