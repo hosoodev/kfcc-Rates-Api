@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-09-10T08:30:46.341600",
-  "last_modified_at": "2026-09-10T08:30:46.341600",
+  "last_checked_at": "2026-09-10T10:30:50.286247",
+  "last_modified_at": "2026-09-10T10:30:50.286247",
   "status": "success",
-  "description": "성공: 총 1개 금고(서달로(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(대구원광(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-10T08:30:46.341600",
+      "last_updated_at": "2026-09-10T10:30:50.286247",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서달로(본점)"
+        "대구원광(본점)"
       ]
     },
     "saving": {
