@@ -1,17 +1,19 @@
 {
-  "last_checked_at": "2026-09-10T14:30:53.592742",
-  "last_modified_at": "2026-09-10T12:30:55.603775",
+  "last_checked_at": "2026-09-10T16:30:56.593860",
+  "last_modified_at": "2026-09-10T16:30:56.593860",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 1개 금고(서달로(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-10T10:30:50.286247",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-10T16:30:56.593860",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서달로(본점)"
+      ]
     },
     "saving": {
       "total_banks": 844,
