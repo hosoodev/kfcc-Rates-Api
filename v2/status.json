@@ -1,18 +1,19 @@
 {
-  "last_checked_at": "2026-09-11T10:30:49.995549",
-  "last_modified_at": "2026-09-11T10:30:49.995549",
+  "last_checked_at": "2026-09-11T12:30:54.233516",
+  "last_modified_at": "2026-09-11T12:30:54.233516",
   "status": "success",
-  "description": "성공: 총 2개 금고(동부(본점), 성내(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(대경(본점), 동부(본점), 무태(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-11T10:30:49.995549",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-11T12:30:54.233516",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성내(본점)",
+        "대경(본점)",
+        "무태(본점)",
         "동부(본점)"
       ]
     },
