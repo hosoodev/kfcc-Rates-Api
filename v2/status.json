@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-09-12T04:48:18.439798",
-  "last_modified_at": "2026-09-12T04:48:18.439798",
+  "last_checked_at": "2026-09-12T04:49:41.084803",
+  "last_modified_at": "2026-09-12T04:49:41.084803",
   "status": "success",
-  "description": "성공: 총 2435개 금고(구산동(본점), 산남(본점), 탄동(본점), 일산(본점), 청양(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2434개 금고(충청(계룡), 벧엘(본점), 동작(본점), 수원서부(본점), 용문(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-12T04:48:18.439798",
+      "last_updated_at": "2026-09-12T04:49:41.084803",
       "updated_banks_count": 786,
       "description": "786개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -803,7 +803,7 @@
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-12T04:48:18.439798",
+      "last_updated_at": "2026-09-12T04:49:41.084803",
       "updated_banks_count": 653,
       "description": "653개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1465,11 +1465,10 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-12T04:48:18.439798",
-      "updated_banks_count": 996,
-      "description": "996개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-12T04:49:41.084803",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강동)",
         "서초중앙(본점)",
         "신강동(본점)",
         "서울강동(본점)",
