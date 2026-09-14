@@ -1,35 +1,62 @@
 {
-  "last_checked_at": "2026-09-14T21:30:53.126796",
-  "last_modified_at": "2026-09-14T21:30:53.126796",
+  "last_checked_at": "2026-09-15T02:30:54.290275",
+  "last_modified_at": "2026-09-15T02:30:54.290275",
   "status": "success",
-  "description": "성공: 총 1개 금고(중랑우리(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 26개 금고(대구제일(본점), 제물포(본점), 연산6동(본점), 관악(본점), 상모(본점) 외 17곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 955,
       "total_items": 955,
-      "last_updated_at": "2026-09-14T21:30:53.126796",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-15T02:30:54.290275",
+      "updated_banks_count": 19,
+      "description": "19개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "중랑우리(본점)"
+        "관악(본점)",
+        "성북제일(본점)",
+        "종로중부(본점)",
+        "종로광장(본점)",
+        "연산6동(본점)",
+        "정관(본점)",
+        "대연6동(본점)",
+        "남부중앙(본점)",
+        "서면(본점)",
+        "제물포(본점)",
+        "북성(본점)",
+        "대구제일(본점)",
+        "만평(본점)",
+        "과천(본점)",
+        "화도(본점)",
+        "송정(본점)",
+        "신경주(본점)",
+        "사곡(본점)",
+        "상모(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1619,
-      "last_updated_at": "2026-09-14T04:36:50.564153",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-15T02:30:54.290275",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서면(본점)",
+        "우리부산(본점)",
+        "만평(본점)",
+        "화도(본점)",
+        "송정(본점)",
+        "남포항(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-14T04:36:50.564153",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-15T02:30:54.290275",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "안암동(본점)"
+      ]
     }
   }
 }
