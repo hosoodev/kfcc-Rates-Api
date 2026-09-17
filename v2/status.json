@@ -1,17 +1,23 @@
 {
-  "last_checked_at": "2026-09-17T08:30:43.619892",
-  "last_modified_at": "2026-09-17T05:15:00.039361",
+  "last_checked_at": "2026-09-17T10:30:55.709889",
+  "last_modified_at": "2026-09-17T10:30:55.709889",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 5개 금고(종로서부(본점), 금오(본점), 은평(본점), 인사동길(본점), 종로광장(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-17T05:15:00.039361",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-17T10:30:55.709889",
+      "updated_banks_count": 5,
+      "description": "5개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "은평(본점)",
+        "인사동길(본점)",
+        "종로서부(본점)",
+        "종로광장(본점)",
+        "금오(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
