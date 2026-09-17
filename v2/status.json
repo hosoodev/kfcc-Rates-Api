@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-09-18T05:26:02.361206",
-  "last_modified_at": "2026-09-18T05:26:02.361206",
+  "last_checked_at": "2026-09-18T05:27:29.022320",
+  "last_modified_at": "2026-09-18T05:27:29.022320",
   "status": "success",
-  "description": "성공: 총 2440개 금고(부평제일(본점), 부림(본점), 구서(본점), 사직2동(본점), 북창원(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2439개 금고(청파(본점), 추부(본점), 동신(본점), 용일(본점), 평택(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-18T05:26:02.361206",
+      "last_updated_at": "2026-09-18T05:27:29.022320",
       "updated_banks_count": 791,
       "description": "791개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -808,7 +808,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-18T05:26:02.361206",
+      "last_updated_at": "2026-09-18T05:27:29.022320",
       "updated_banks_count": 653,
       "description": "653개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1470,9 +1470,9 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-18T05:26:02.361206",
-      "updated_banks_count": 996,
-      "description": "996개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-18T05:27:29.022320",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
         "관악(본점)",
         "은천(본점)",
@@ -1481,7 +1481,6 @@
         "서초중앙(본점)",
         "봉천(본점)",
         "난곡(본점)",
-        "서울개인택시조합(관악)",
         "난향(본점)",
         "서울강동(본점)",
         "청담동(본점)",
