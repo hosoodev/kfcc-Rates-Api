@@ -1,50 +1,46 @@
 {
-  "last_checked_at": "2026-09-18T05:26:03.260040",
-  "last_modified_at": "2026-09-18T05:26:03.260040",
+  "last_checked_at": "2026-09-19T04:45:51.917259",
+  "last_modified_at": "2026-09-19T04:45:51.917259",
   "status": "success",
-  "description": "성공: 총 14개 금고(고아(본점), 서울개인택시조합(관악), 도화1동(본점), 중대구(본점), 백제(본점) 외 5곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 10개 금고(인사동길(본점), 북서울(본점), 동촌(본점), 전남대학교병원(빛고을전남대학교병원), 상도중앙(본점) 외 2곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-18T05:26:03.260040",
-      "updated_banks_count": 10,
+      "last_updated_at": "2026-09-19T04:45:51.917259",
+      "updated_banks_count": 6,
       "changed_bank_names": [
-        "서울개인택시조합(관악)",
+        "서울개인택시조합(강남)",
+        "상도중앙(본점)",
+        "마포역(본점)",
+        "북서울(본점)",
         "인사동길(본점)",
-        "도화1동(본점)",
-        "북구(본점)",
-        "중대구(본점)",
-        "다산(본점)",
-        "백제(본점)",
-        "원광(본점)",
-        "고아(본점)",
-        "남창원(본점)"
+        "동촌(본점)"
       ],
-      "description": "10개 금고 금리 변동 발생"
+      "description": "6개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-18T05:26:03.260040",
-      "updated_banks_count": 3,
+      "last_updated_at": "2026-09-19T04:45:51.917259",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "서울개인택시조합(관악)",
-        "다산(본점)",
-        "백제(본점)"
+        "서울개인택시조합(강남)",
+        "동촌(본점)"
       ],
-      "description": "3개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-18T05:26:03.260040",
-      "updated_banks_count": 1,
+      "last_updated_at": "2026-09-19T04:45:51.917259",
+      "updated_banks_count": 2,
       "changed_bank_names": [
-        "서울개인택시조합(관악)"
+        "서울개인택시조합(강남)",
+        "전남대학교병원(빛고을전남대학교병원)"
       ],
-      "description": "1개 금고 금리 변동 발생"
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
