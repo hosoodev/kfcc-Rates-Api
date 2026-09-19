@@ -1,25 +1,45 @@
 {
-  "last_checked_at": "2026-09-19T21:30:54.961778",
-  "last_modified_at": "2026-09-19T04:47:19.128544",
+  "last_checked_at": "2026-09-20T02:31:21.347703",
+  "last_modified_at": "2026-09-20T02:31:21.347703",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 18개 금고(시민공원(본점), 부암3동(본점), 용당동(본점), 대전동부(본점), 문현3동(본점) 외 12곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-19T04:47:19.128544",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-20T02:31:21.347703",
+      "updated_banks_count": 16,
+      "description": "16개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "대연중앙(본점)",
+        "용당동(본점)",
+        "남부산(본점)",
+        "문현3동(본점)",
+        "시민공원(본점)",
+        "부전1동(본점)",
+        "전포(본점)",
+        "부암3동(본점)",
+        "북성(본점)",
+        "대구제일(본점)",
+        "대전동부(본점)",
+        "성남동(본점)",
+        "도량(본점)",
+        "형곡(본점)",
+        "납읍(본점)",
+        "서제주(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-19T04:47:19.128544",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-20T02:31:21.347703",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "전포(본점)",
+        "당감2동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
