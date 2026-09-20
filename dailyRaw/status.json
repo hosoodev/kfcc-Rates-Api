@@ -1,33 +1,44 @@
 {
-  "last_checked_at": "2026-09-20T04:29:27.024533",
-  "last_modified_at": "2026-09-19T04:45:51.917259",
+  "last_checked_at": "2026-09-21T04:35:17.008336",
+  "last_modified_at": "2026-09-21T04:35:17.008336",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 8개 금고(서울산(천상), 서울제일(본점), 구미(본점), 흑석(본점), 새울산(온양) 외 2곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-19T04:45:51.917259",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-09-21T04:35:17.008336",
+      "updated_banks_count": 4,
+      "changed_bank_names": [
+        "서울제일(본점)",
+        "흑석(본점)",
+        "청계(본점)",
+        "학익(본점)"
+      ],
+      "description": "4개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-19T04:45:51.917259",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-09-21T04:35:17.008336",
+      "updated_banks_count": 2,
+      "changed_bank_names": [
+        "학익(본점)",
+        "구미(본점)"
+      ],
+      "description": "2개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-19T04:45:51.917259",
-      "updated_banks_count": 0,
-      "changed_bank_names": [],
-      "description": "금리 변동 없음"
+      "last_updated_at": "2026-09-21T04:35:17.008336",
+      "updated_banks_count": 2,
+      "changed_bank_names": [
+        "새울산(온양)",
+        "서울산(천상)"
+      ],
+      "description": "2개 금고 금리 변동 발생"
     }
   }
 }
