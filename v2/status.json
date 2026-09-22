@@ -1,31 +1,29 @@
 {
-  "last_checked_at": "2026-09-22T10:30:53.381328",
-  "last_modified_at": "2026-09-22T10:30:53.381328",
+  "last_checked_at": "2026-09-22T12:30:57.714257",
+  "last_modified_at": "2026-09-22T12:30:57.714257",
   "status": "success",
-  "description": "성공: 총 5개 금고(용문후암(본점), 파주(본점), 신도(본점), 더좋은(본점), 청파(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(신공덕동(본점), 파주(본점), 함안(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-22T10:30:53.381328",
-      "updated_banks_count": 4,
-      "description": "4개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-22T12:30:57.714257",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "청파(본점)",
-        "용문후암(본점)",
-        "더좋은(본점)",
-        "파주(본점)"
+        "파주(본점)",
+        "함안(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-22T10:30:53.381328",
+      "last_updated_at": "2026-09-22T12:30:57.714257",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신도(본점)"
+        "신공덕동(본점)"
       ]
     },
     "demand": {
