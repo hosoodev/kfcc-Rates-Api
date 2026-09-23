@@ -1,35 +1,27 @@
 {
-  "last_checked_at": "2026-09-23T18:30:47.615159",
-  "last_modified_at": "2026-09-23T18:30:47.615159",
+  "last_checked_at": "2026-09-23T21:31:10.361867",
+  "last_modified_at": "2026-09-23T21:31:10.361867",
   "status": "success",
-  "description": "성공: 총 8개 금고(하나동산(본점), 아현(본점), 영등포당산(본점), 세검정(본점), 서초제일(본점) 외 3곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(서초제일(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-23T18:30:47.615159",
-      "updated_banks_count": 6,
-      "description": "6개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-23T21:31:10.361867",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서초제일(본점)",
-        "상도중앙(본점)",
-        "영등포당산(본점)",
-        "은평(본점)",
-        "세검정(본점)",
-        "하나동산(본점)"
+        "서초제일(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
       "last_updated_at": "2026-09-23T18:30:47.615159",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "아현(본점)",
-        "함안(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1147,
