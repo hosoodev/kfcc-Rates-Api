@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-09-25T05:36:11.085343",
-  "last_modified_at": "2026-09-25T05:36:11.085343",
+  "last_checked_at": "2026-09-25T05:37:22.026083",
+  "last_modified_at": "2026-09-25T05:37:22.026083",
   "status": "success",
-  "description": "성공: 총 2435개 금고(광주북부(본점), 남면(본점), 서울산(천상), 성일(본점), 늘푸른사상(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2434개 금고(월곡(본점), 당진(본점), 법환(본점), 모충(본점), 서평택(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-25T05:36:11.085343",
+      "last_updated_at": "2026-09-25T05:37:22.026083",
       "updated_banks_count": 786,
       "description": "786개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -803,7 +803,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-25T05:36:11.085343",
+      "last_updated_at": "2026-09-25T05:37:22.026083",
       "updated_banks_count": 653,
       "description": "653개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1465,11 +1465,10 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-25T05:36:11.085343",
-      "updated_banks_count": 996,
-      "description": "996개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-25T05:37:22.026083",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
         "청담동(본점)",
         "대왕(본점)",
         "강남영동(본점)",
