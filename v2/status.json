@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-09-27T04:56:41.335004",
-  "last_modified_at": "2026-09-27T04:56:41.335004",
+  "last_checked_at": "2026-09-27T04:58:02.262366",
+  "last_modified_at": "2026-09-27T04:58:02.262366",
   "status": "success",
-  "description": "성공: 총 2436개 금고(안암동(본점), 지현(본점), 평창(본점), 복현(본점), 서포항(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2434개 금고(천마(본점), 평상(본점), 보은(본점), 반고개(본점), 중평(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-27T04:56:41.335004",
+      "last_updated_at": "2026-09-27T04:58:02.262366",
       "updated_banks_count": 786,
       "description": "786개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -803,7 +803,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-27T04:56:41.335004",
+      "last_updated_at": "2026-09-27T04:58:02.262366",
       "updated_banks_count": 653,
       "description": "653개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1465,12 +1465,11 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-09-27T04:56:41.335004",
-      "updated_banks_count": 997,
-      "description": "997개 금고 금리 변동 발생",
+      "last_updated_at": "2026-09-27T04:58:02.262366",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
         "대왕(본점)",
-        "서울개인택시조합(강남)",
         "청담동(본점)",
         "강남영동(본점)",
         "서울강동(본점)",
@@ -1839,7 +1838,6 @@
         "동촌(본점)",
         "신평(본점)",
         "지저(본점)",
-        "경북대학교병원(칠곡병원)",
         "반야월(본점)",
         "공산(본점)",
         "동신(본점)",
