@@ -1,25 +1,54 @@
 {
-  "last_checked_at": "2026-09-29T21:31:10.029857",
-  "last_modified_at": "2026-09-29T16:30:58.461926",
+  "last_checked_at": "2026-09-30T02:30:49.874247",
+  "last_modified_at": "2026-09-30T02:30:49.874247",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 27개 금고(당감동(본점), 중부(본점), 종로중부(본점), 성북제일(본점), 북성(본점) 외 19곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-09-29T16:30:58.461926",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-30T02:30:49.874247",
+      "updated_banks_count": 21,
+      "description": "21개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "노들(본점)",
+        "교남동(본점)",
+        "종로중부(본점)",
+        "청룡동(본점)",
+        "금정(본점)",
+        "시민공원(본점)",
+        "당감2동(본점)",
+        "부암3동(본점)",
+        "전포1동(본점)",
+        "계양(본점)",
+        "계산(본점)",
+        "북성(본점)",
+        "오봉(본점)",
+        "대전동부(본점)",
+        "동대전(본점)",
+        "성남동(본점)",
+        "대전제일(본점)",
+        "중부(본점)",
+        "새강릉(본점)",
+        "늘푸른(본점)",
+        "북포항(본점)"
+      ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-09-29T14:30:41.979236",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-09-30T02:30:49.874247",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "한양(본점)",
+        "성북제일(본점)",
+        "부암3동(본점)",
+        "당감동(본점)",
+        "계산(본점)",
+        "동대전(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1147,
