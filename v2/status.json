@@ -1,21 +1,18 @@
 {
-  "last_checked_at": "2026-10-01T10:30:43.367259",
-  "last_modified_at": "2026-10-01T10:30:43.367259",
+  "last_checked_at": "2026-10-01T12:31:01.543774",
+  "last_modified_at": "2026-10-01T12:31:01.543774",
   "status": "success",
-  "description": "성공: 총 4개 금고(도림(본점), 은평(본점), 문래동(본점), 신도림(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(도림(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-10-01T10:30:43.367259",
-      "updated_banks_count": 4,
-      "description": "4개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-01T12:31:01.543774",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "신도림(본점)",
-        "문래동(본점)",
-        "도림(본점)",
-        "은평(본점)"
+        "도림(본점)"
       ]
     },
     "saving": {
