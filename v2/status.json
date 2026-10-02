@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-10-03T06:31:26.797259",
-  "last_modified_at": "2026-10-03T06:31:26.797259",
+  "last_checked_at": "2026-10-03T06:32:49.010676",
+  "last_modified_at": "2026-10-03T06:32:49.010676",
   "status": "success",
-  "description": "성공: 총 2427개 금고(법환(본점), 천안동부(본점), 묵동화랑(본점), 의정부동부(본점), 원대전(본점) 외 967곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2425개 금고(서천군(본점), 서울종암(본점), 서초(본점), 동울산(본점), 연신내(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-03T06:31:26.797259",
+      "last_updated_at": "2026-10-03T06:32:49.010676",
       "updated_banks_count": 779,
       "description": "779개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -796,7 +796,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-10-03T06:31:26.797259",
+      "last_updated_at": "2026-10-03T06:32:49.010676",
       "updated_banks_count": 651,
       "description": "651개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1456,11 +1456,10 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-10-03T06:31:26.797259",
-      "updated_banks_count": 997,
-      "description": "997개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-03T06:32:49.010676",
+      "updated_banks_count": 995,
+      "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
         "대왕(본점)",
         "청담동(본점)",
         "서초중앙(본점)",
@@ -1868,7 +1867,6 @@
         "칠성시장(본점)",
         "성내(본점)",
         "남산대신(본점)",
-        "전남대학교병원(빛고을전남대학교병원)",
         "동일(본점)",
         "남산4동(본점)",
         "대구원광(본점)",
