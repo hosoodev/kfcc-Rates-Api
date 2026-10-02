@@ -1,20 +1,18 @@
 {
-  "last_checked_at": "2026-10-02T08:30:49.919900",
-  "last_modified_at": "2026-10-02T08:30:49.919900",
+  "last_checked_at": "2026-10-02T10:30:42.238988",
+  "last_modified_at": "2026-10-02T10:30:42.238988",
   "status": "success",
-  "description": "성공: 총 3개 금고(한남동(본점), 서울송파(본점), 청파(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(중부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-10-02T08:30:49.919900",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-02T10:30:42.238988",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울송파(본점)",
-        "청파(본점)",
-        "한남동(본점)"
+        "중부(본점)"
       ]
     },
     "saving": {
