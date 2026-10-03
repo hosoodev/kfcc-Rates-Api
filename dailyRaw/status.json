@@ -1,53 +1,43 @@
 {
-  "last_checked_at": "2026-10-03T06:31:27.906758",
-  "last_modified_at": "2026-10-03T06:31:27.906758",
+  "last_checked_at": "2026-10-04T05:00:48.190175",
+  "last_modified_at": "2026-10-04T05:00:48.190175",
   "status": "success",
-  "description": "성공: 총 17개 금고(사당(본점), 전남대학교병원(빛고을전남대학교병원), 북부산(본점), 남원중앙(본점), 학성(본점) 외 9곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 7개 금고(경북대학교병원(본점), 서울개인택시조합(강동), 서울산(본점), 전남대학교병원(본점), 새울산(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-03T06:31:27.906758",
-      "updated_banks_count": 11,
+      "last_updated_at": "2026-10-04T05:00:48.190175",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "강남영동(본점)",
-        "사당(본점)",
-        "신도림(본점)",
-        "광진자양(본점)",
-        "대전북부(본점)",
-        "남울산(본점)",
-        "학성(본점)",
-        "남원중앙(본점)",
-        "남부안(본점)",
-        "의창(본점)"
+        "서울개인택시조합(강동)"
       ],
-      "description": "11개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-10-03T06:31:27.906758",
-      "updated_banks_count": 4,
+      "last_updated_at": "2026-10-04T05:00:48.190175",
+      "updated_banks_count": 1,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "북부산(본점)",
-        "유성온천(본점)",
-        "남부안(본점)"
+        "서울개인택시조합(강동)"
       ],
-      "description": "4개 금고 금리 변동 발생"
+      "description": "1개 금고 금리 변동 발생"
     },
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-10-03T06:31:27.906758",
-      "updated_banks_count": 2,
+      "last_updated_at": "2026-10-04T05:00:48.190175",
+      "updated_banks_count": 5,
       "changed_bank_names": [
-        "서울개인택시조합(강남)",
-        "전남대학교병원(빛고을전남대학교병원)"
+        "서울개인택시조합(강동)",
+        "경북대학교병원(본점)",
+        "전남대학교병원(본점)",
+        "새울산(본점)",
+        "서울산(본점)"
       ],
-      "description": "2개 금고 금리 변동 발생"
+      "description": "5개 금고 금리 변동 발생"
     }
   }
 }
