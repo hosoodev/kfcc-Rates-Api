@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-10-05T05:19:09.253838",
-  "last_modified_at": "2026-10-05T05:19:09.253838",
+  "last_checked_at": "2026-10-05T05:20:32.642292",
+  "last_modified_at": "2026-10-05T05:20:32.642292",
   "status": "success",
-  "description": "성공: 총 2422개 금고(서원(본점), 금성동(본점), 천호(본점), 삼척도원(본점), 염주(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2422개 금고(한결(본점), 삼성동(본점), 무진(본점), 더조은(본점), 광화문(본점) 외 966곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-05T05:19:09.253838",
+      "last_updated_at": "2026-10-05T05:20:32.642292",
       "updated_banks_count": 776,
       "description": "776개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -793,7 +793,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-10-05T05:19:09.253838",
+      "last_updated_at": "2026-10-05T05:20:32.642292",
       "updated_banks_count": 651,
       "description": "651개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1453,7 +1453,7 @@
     "demand": {
       "total_banks": 1147,
       "total_items": 2177,
-      "last_updated_at": "2026-10-05T05:19:09.253838",
+      "last_updated_at": "2026-10-05T05:20:32.642292",
       "updated_banks_count": 995,
       "description": "995개 금고 금리 변동 발생",
       "changed_bank_names": [
