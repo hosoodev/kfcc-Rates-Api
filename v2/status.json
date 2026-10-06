@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-10-06T16:30:42.108915",
-  "last_modified_at": "2026-10-06T16:30:42.108915",
+  "last_checked_at": "2026-10-06T18:31:01.105044",
+  "last_modified_at": "2026-10-06T18:31:01.105044",
   "status": "success",
-  "description": "성공: 총 1개 금고(남서울(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(은평(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-06T16:30:42.108915",
+      "last_updated_at": "2026-10-06T18:31:01.105044",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "남서울(본점)"
+        "은평(본점)"
       ]
     },
     "saving": {
