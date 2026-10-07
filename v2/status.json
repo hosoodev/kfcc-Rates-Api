@@ -1,18 +1,20 @@
 {
-  "last_checked_at": "2026-10-07T18:30:56.344536",
-  "last_modified_at": "2026-10-07T18:30:56.344536",
+  "last_checked_at": "2026-10-07T21:30:54.526334",
+  "last_modified_at": "2026-10-07T21:30:54.526334",
   "status": "success",
-  "description": "성공: 총 1개 금고(은평(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(동구(본점), 종로서부(본점), 세검정(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-07T18:30:56.344536",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-07T21:30:54.526334",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "은평(본점)"
+        "종로서부(본점)",
+        "세검정(본점)",
+        "동구(본점)"
       ]
     },
     "saving": {
