@@ -1,0 +1,112 @@
+{
+  "updated_at": "2026-08-05T02:30:45+09:00",
+  "gmgoCd": "2638",
+  "name": "여천",
+  "meta": {
+    "head_office": {
+      "name": "여천(본점)",
+      "address": "전남 여수시 쌍봉로 23-2",
+      "phone": "061-685-0901",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "6",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.01,
+      "dividend_rate": 3.504
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 12.58,
+      "dividend_rate": 3.8064
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.7,
+      "dividend_rate": 3.8064
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 12.09,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.84,
+      "dividend_rate": 4.50001
+    }
+  ],
+  "nearby_branches": []
+}

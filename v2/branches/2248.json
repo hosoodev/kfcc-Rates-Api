@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-07-12T02:30:46+09:00",
+  "gmgoCd": "2248",
+  "name": "관교문학동",
+  "meta": {
+    "head_office": {
+      "name": "관교문학동(본점)",
+      "address": "인천 미추홀구 매소홀로 540",
+      "phone": "032-429-5501",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    "branches": [
+      {
+        "name": "관교문학동(선학)",
+        "address": "인천 연수구 학나래로118번길 9",
+        "phone": "032-814-6414",
+        "district": "연수구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "4",
+      "bis_ratio": -2.47,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": -0.01,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "4",
+      "bis_ratio": 0.6,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "4",
+      "bis_ratio": 2.99,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "4",
+      "bis_ratio": 5.72,
+      "dividend_rate": 0.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2234",
+      "name": "제물포",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2235",
+      "name": "용일",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2237",
+      "name": "새인천",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2238",
+      "name": "한마음",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2239",
+      "name": "학익",
+      "province": "인천",
+      "district": "미추홀구"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "2359",
+  "name": "송도",
+  "meta": {
+    "head_office": {
+      "name": "송도(본점)",
+      "address": "인천 연수구 컨벤시아대로 81",
+      "phone": "032-859-5300",
+      "province": "인천",
+      "district": "연수구"
+    },
+    "branches": [
+      {
+        "name": "송도(센트럴파크)",
+        "address": "인천 연수구 컨벤시아대로230번길 42",
+        "phone": "032-710-0123",
+        "district": "연수구"
+      },
+      {
+        "name": "송도(테크노파크역)",
+        "address": "인천 연수구 송도과학로28번길 50",
+        "phone": "032-710-9393",
+        "district": "연수구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹자유적금",
+      "month": "12",
+      "r": 1.8,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 9.02,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 9.82,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 8.91,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 8.76,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 8.15,
+      "dividend_rate": 5.29
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 7.83,
+      "dividend_rate": 5.29
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1022",
+      "name": "앰코테크놀로지코리아",
+      "province": "인천",
+      "district": "연수구"
+    },
+    {
+      "gmgoCd": "2301",
+      "name": "연수",
+      "province": "인천",
+      "district": "연수구"
+    }
+  ]
+}

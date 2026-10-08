@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1034",
+  "name": "강동수산",
+  "meta": {
+    "head_office": {
+      "name": "강동수산(본점)",
+      "address": "서울 송파구 양재대로 932",
+      "phone": "02-448-3738",
+      "province": "서울",
+      "district": "송파구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.1,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.1,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 12.92,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 11.94,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 12.97,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 14.82,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 15.62,
+      "dividend_rate": 5.0005
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 15.77,
+      "dividend_rate": 5.0005
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0419",
+      "name": "삼성에스디에스",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1026",
+      "name": "서울중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1027",
+      "name": "서울제일",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1029",
+      "name": "송파중앙",
+      "province": "서울",
+      "district": "송파구"
+    },
+    {
+      "gmgoCd": "1030",
+      "name": "서울송파",
+      "province": "서울",
+      "district": "송파구"
+    }
+  ]
+}

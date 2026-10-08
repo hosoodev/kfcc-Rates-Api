@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5918",
+  "name": "영양청송",
+  "meta": {
+    "head_office": {
+      "name": "영양청송(본점)",
+      "address": "경북 영양군 영양읍 중앙로 132-26",
+      "phone": "054-683-3337",
+      "province": "경북",
+      "district": "영양군"
+    },
+    "branches": [
+      {
+        "name": "영양청송(청송)",
+        "address": "경북 청송군 청송읍 중앙로 250",
+        "phone": "054-873-2264",
+        "district": "청송군"
+      },
+      {
+        "name": "영양청송(진보)",
+        "address": "경북 청송군 진보면 진보로 128",
+        "phone": "054-874-3410",
+        "district": "청송군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 8.6,
+      "dividend_rate": 4.7
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 8.5,
+      "dividend_rate": 4.7
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 8.99,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 9.97,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 10.32,
+      "dividend_rate": 3.8
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.62,
+      "dividend_rate": 3.8
+    }
+  ],
+  "nearby_branches": []
+}

@@ -1,0 +1,96 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3441",
+  "name": "당진동부",
+  "meta": {
+    "head_office": {
+      "name": "당진동부(본점)",
+      "address": "충남 당진시 신평면 거산3거리길 18",
+      "phone": "041-363-1555",
+      "province": "충남",
+      "district": "당진시"
+    },
+    "branches": [
+      {
+        "name": "당진동부(합덕)",
+        "address": "충남 당진시 합덕읍 중동1길 42",
+        "phone": "041-363-0015",
+        "district": "당진시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 10.91,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 10.26,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 10.69,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 11.2,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.19,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.87,
+      "dividend_rate": 4.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3437",
+      "name": "당진",
+      "province": "충남",
+      "district": "당진시"
+    },
+    {
+      "gmgoCd": "3440",
+      "name": "당진서부",
+      "province": "충남",
+      "district": "당진시"
+    }
+  ]
+}

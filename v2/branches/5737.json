@@ -1,0 +1,114 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5737",
+  "name": "칠곡",
+  "meta": {
+    "head_office": {
+      "name": "칠곡(본점)",
+      "address": "경북 칠곡군 지천면 신동로 156",
+      "phone": "054-972-2134",
+      "province": "경북",
+      "district": "칠곡군"
+    },
+    "branches": [
+      {
+        "name": "칠곡(동명)",
+        "address": "경북 칠곡군 동명면 금암중앙길 35-1",
+        "phone": "054-976-6009",
+        "district": "칠곡군"
+      },
+      {
+        "name": "칠곡(가산)",
+        "address": "경북 칠곡군 가산면 천평2길 58",
+        "phone": "054-971-3660",
+        "district": "칠곡군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.6,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 10.46,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 9.9,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 7.46,
+      "dividend_rate": 1.44204
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 7.71,
+      "dividend_rate": 1.44204
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 7.85,
+      "dividend_rate": 3.0295
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 7.63,
+      "dividend_rate": 3.0295
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5734",
+      "name": "왜관",
+      "province": "경북",
+      "district": "칠곡군"
+    },
+    {
+      "gmgoCd": "5738",
+      "name": "북삼",
+      "province": "경북",
+      "district": "칠곡군"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0702",
+  "name": "목동",
+  "meta": {
+    "head_office": {
+      "name": "목동(본점)",
+      "address": "서울 양천구 목동중앙본로 114",
+      "phone": "02-2644-4592",
+      "province": "서울",
+      "district": "양천구"
+    },
+    "branches": [
+      {
+        "name": "목동(목3동)",
+        "address": "서울 양천구 목동중앙북로7길 5",
+        "phone": "02-2642-1367",
+        "district": "양천구"
+      },
+      {
+        "name": "목동(목4동)",
+        "address": "서울 양천구 목동중앙남로 57-6",
+        "phone": "02-2642-3102",
+        "district": "양천구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.9,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 24.13,
+      "dividend_rate": 3.00516
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 25.87,
+      "dividend_rate": 3.00516
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 22.77,
+      "dividend_rate": 3.355
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 26.3,
+      "dividend_rate": 3.355
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 25.67,
+      "dividend_rate": 4.50166
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 28.57,
+      "dividend_rate": 4.50166
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0706",
+      "name": "금빛",
+      "province": "서울",
+      "district": "양천구"
+    },
+    {
+      "gmgoCd": "0707",
+      "name": "신목동",
+      "province": "서울",
+      "district": "양천구"
+    },
+    {
+      "gmgoCd": "0709",
+      "name": "으뜸",
+      "province": "서울",
+      "district": "양천구"
+    }
+  ]
+}

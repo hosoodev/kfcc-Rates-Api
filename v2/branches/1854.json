@@ -1,0 +1,174 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1854",
+  "name": "중대구",
+  "meta": {
+    "head_office": {
+      "name": "중대구(본점)",
+      "address": "대구 중구 달구벌대로 2210-19",
+      "phone": "053-431-1155",
+      "province": "대구",
+      "district": "중구"
+    },
+    "branches": [
+      {
+        "name": "중대구(삼덕동)",
+        "address": "대구 중구 달구벌대로447길 77",
+        "phone": "053-431-6644",
+        "district": "중구"
+      },
+      {
+        "name": "중대구(대구광역시청원)",
+        "address": "대구 중구 태평로 47",
+        "phone": "053-423-1820",
+        "district": "중구"
+      },
+      {
+        "name": "중대구(봉산)",
+        "address": "대구 중구 봉산문화길 28",
+        "phone": "053-424-1628",
+        "district": "중구"
+      },
+      {
+        "name": "중대구(중앙)",
+        "address": "대구 중구 교동2길 42-1",
+        "phone": "053-422-1425",
+        "district": "중구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "6": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.67,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.67,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 5.23,
+      "dividend_rate": 4.0004
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.22,
+      "dividend_rate": 4.0004
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.21,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 6.96,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 6.45,
+      "dividend_rate": 4.00003
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 7.5,
+      "dividend_rate": 4.00003
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
+    }
+  ]
+}

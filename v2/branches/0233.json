@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0233",
+  "name": "호텔신라",
+  "meta": {
+    "head_office": {
+      "name": "호텔신라(본점)",
+      "address": "서울 중구 동호로 249",
+      "phone": "02-2230-3236",
+      "province": "서울",
+      "district": "중구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 544.58,
+      "dividend_rate": 2.37961
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 554.18,
+      "dividend_rate": 2.37961
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 524.6,
+      "dividend_rate": 2.59128
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 511.79,
+      "dividend_rate": 2.59128
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 539.6,
+      "dividend_rate": 2.90175
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 488.46,
+      "dividend_rate": 2.90175
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0203",
+      "name": "회현동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0204",
+      "name": "명동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0206",
+      "name": "필동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0208",
+      "name": "신당1.2.3동",
+      "province": "서울",
+      "district": "중구"
+    },
+    {
+      "gmgoCd": "0212",
+      "name": "동화동",
+      "province": "서울",
+      "district": "중구"
+    }
+  ]
+}

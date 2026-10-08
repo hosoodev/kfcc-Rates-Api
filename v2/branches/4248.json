@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4248",
+  "name": "금강",
+  "meta": {
+    "head_office": {
+      "name": "금강(본점)",
+      "address": "강원 속초시 중앙로 410",
+      "phone": "033-632-8051",
+      "province": "강원",
+      "district": "속초시"
+    },
+    "branches": [
+      {
+        "name": "금강(청대)",
+        "address": "강원 속초시 조양로 223",
+        "phone": "033-633-8051",
+        "district": "속초시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.75,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.75,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 9.62,
+      "dividend_rate": 2.87001
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 10.68,
+      "dividend_rate": 2.87001
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 11.25,
+      "dividend_rate": 3.60985
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.5,
+      "dividend_rate": 3.60985
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.55,
+      "dividend_rate": 4.30002
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.64,
+      "dividend_rate": 4.30002
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4242",
+      "name": "속초북부",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4247",
+      "name": "설악",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4249",
+      "name": "동명",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4267",
+      "name": "속초남부",
+      "province": "강원",
+      "district": "속초시"
+    },
+    {
+      "gmgoCd": "4269",
+      "name": "중앙",
+      "province": "강원",
+      "district": "속초시"
+    }
+  ]
+}

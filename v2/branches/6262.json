@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6262",
+  "name": "울산항운노동조합",
+  "meta": {
+    "head_office": {
+      "name": "울산항운노동조합(본점)",
+      "address": "울산 남구 신화로 91",
+      "phone": "052-272-1151",
+      "province": "울산",
+      "district": "남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 263.99,
+      "dividend_rate": 4.015
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 267.11,
+      "dividend_rate": 4.015
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 235.17,
+      "dividend_rate": 5.2155
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 224.18,
+      "dividend_rate": 5.2155
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 201.37,
+      "dividend_rate": 5.475
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 0.0,
+      "dividend_rate": 5.475
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

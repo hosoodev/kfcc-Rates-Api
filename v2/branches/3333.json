@@ -1,0 +1,90 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3333",
+  "name": "황산",
+  "meta": {
+    "head_office": {
+      "name": "황산(본점)",
+      "address": "충남 논산시 강경읍 대흥로 20",
+      "phone": "041-745-5955",
+      "province": "충남",
+      "district": "논산시"
+    },
+    "branches": [
+      {
+        "name": "황산(상월)",
+        "address": "충남 논산시 상월면 백일헌로 1052",
+        "phone": "041-733-9649",
+        "district": "논산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 11.96,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.6,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 12.41,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 13.56,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 12.64,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 13.16,
+      "dividend_rate": 4.00001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3334",
+      "name": "충청",
+      "province": "충남",
+      "district": "논산시"
+    },
+    {
+      "gmgoCd": "3337",
+      "name": "놀뫼",
+      "province": "충남",
+      "district": "논산시"
+    }
+  ]
+}

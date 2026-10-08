@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0310",
+  "name": "한강2동",
+  "meta": {
+    "head_office": {
+      "name": "한강2동(본점)",
+      "address": "서울 용산구 한강대로44길 5",
+      "phone": "02-795-1883",
+      "province": "서울",
+      "district": "용산구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.48,
+          "s": "m"
+        },
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 5.92,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 5.09,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 4.63,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 6.06,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 4.83,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 6.55,
+      "dividend_rate": 0.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0312",
+      "name": "이촌",
+      "province": "서울",
+      "district": "용산구"
+    }
+  ]
+}

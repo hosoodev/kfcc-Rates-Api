@@ -1,96 +1,21 @@
-# 🏦 새마을금고 금리 API v2 (KFCC Rates API)
+# 새마을금고 정적 금리 API
 
-새마을금고(KFCC) 웹사이트 및 모바일 앱에서 전국 금리 정보와 경영실태평가 데이터를 수집하여 고성능 정적 JSON API로 제공하는 Python 크롤러 시스템입니다.
+`kfcc-Rates-Api`는 새마을금고 금리·금고·경영실태평가의 **생성된 정적 JSON 데이터만 공개하는 저장소**입니다. `main`의 `v2/`를 GitHub Pages에 배포하며, 데이터 수집과 가공은 별도 비공개 저장소 `hosoodev/kfcc-Rates-Crawler`에서 수행합니다.
 
-> [!NOTE]
-> **v2 업데이트**: 데이터 저장 구조를 브랜치 별로 분리하고, 모바일 앱 기반의 실시간 금리 패치(`--mode patch`) 기능이 추가되었습니다.
+API 기본 주소는 **https://api.mgija.com**입니다. 저장소의 `v2/`가 사이트 루트로 배포되므로 요청 URL에는 `/v2`를 붙이지 않습니다.
 
----
+| 데이터 | URL |
+| --- | --- |
+| 메인 데이터 | [main.json](https://api.mgija.com/main.json) |
+| 갱신 상태 | [status.json](https://api.mgija.com/status.json) |
+| 금고 목록 | [meta/banks.json](https://api.mgija.com/meta/banks.json) |
+| 금리 요약 | [rates/summary.json](https://api.mgija.com/rates/summary.json) |
+| 예금 금리 | [rates/deposit/all.json](https://api.mgija.com/rates/deposit/all.json) |
+| 적금 금리 | [rates/saving/all.json](https://api.mgija.com/rates/saving/all.json) |
+| 입출금 금리 | [rates/demand/all.json](https://api.mgija.com/rates/demand/all.json) |
+| 금고 상세 | `https://api.mgija.com/branches/{gmgoCd}.json` |
+| 경영실태평가 목록 | [grades/index.json](https://api.mgija.com/grades/index.json) |
 
-## ✨ 주요 기능
+비공개 크롤러가 생성한 `v2/`를 이 저장소의 `main`에 반영하면, 공개 워크플로우가 필수 엔드포인트와 JSON·gzip 파일을 검증한 뒤 Pages를 배포합니다. PR에서는 검증만 실행됩니다. 배포 성공 후 `SITE_URL`과 `REVALIDATE_SECRET`이 설정되어 있으면 프론트엔드 캐시 갱신을 요청합니다.
 
-- **📊 전국 금리 수집**: 17개 시/도 전역의 요구불/거치식/적립식 예탁금 금리 일별 수집.
-- **📱 실시간 패치 (v2)**: 모바일 앱 연동을 통해 특정 지역의 최신 실시간 금리를 즉시 업데이트.
-- **🏆 경영실태평가 통합**: 전국 금고의 경영 등급 및 BIS 비율 데이터를 금리 정보와 결합.
-- **🤖 완전 자동화**: GitHub Actions를 통한 정기 크롤링 및 자동 배포 시스템 구축.
-- **🚀 Static API**: 수집된 데이터를 가공하여 별도의 백엔드 서버 없이도 즉시 사용 가능한 정적 JSON API 제공.
-
----
-
-## 🏗️ 시스템 아키텍처
-
-이 프로젝트는 코드와 데이터를 분리하여 관리하는 이중 브랜치 구조를 사용합니다.
-
-- **`main` 브랜치**: Python 크롤러 엔진 및 자동화 워크플로우 소스 코드 관리.
-- **`api-data` 브랜치**: 크롤링된 모든 JSON 파일이 저장되며, GitHub Pages를 통해 [api.mgija.com](https://api.mgija.com)으로 호스팅됩니다.
-
----
-
-## 🚀 시작하기 (로컬 실행)
-
-### 1. 환경 설정
-```bash
-git clone https://github.com/hosoodev/kfcc-Rates-Api.git
-cd kfcc-Rates-Api/backend
-pip install -r requirements.txt
-```
-
-### 2. 실행 모드
-```bash
-# [Base 모드] 전체 금고 전수 조사 및 V2 API 빌드
-python src/main.py --mode base
-
-# [Patch 모드] 특정 지역(서울, 경기 등)의 실시간 금리 패치
-python src/main.py --mode patch --regions 서울,경기
-
-# [Grades 모드] 경영실태평가 수집 (정기 업데이트용)
-python src/main.py --grades
-```
-
----
-
-## 📁 프로젝트 구조
-
-```
-backend/
-├── src/
-│   ├── main.py              # 메인 실행 엔트리포인트
-│   ├── crawler.py           # 웹 기반 금리 크롤러
-│   ├── mbank_crawler.py      # 모바일 앱 기반 패치 크롤러 (v2)
-│   ├── grade_crawler.py     # 경영실태평가 수집기
-│   ├── storage.py           # 데이터 저장 및 v2 API 빌더
-│   └── parser.py            # 데이터 추출 및 가공
-├── data/                    # [Legacy/Raw] 원본 데이터 저장소
-├── v2/                      # [V2 Static API] 정적 API 결과물
-│   ├── meta/                # 은행 목록 등 메타 데이터
-│   └── rates/               # 금리 데이터 (분류별/지역별)
-└── .github/workflows/       # GitHub Actions 자동화 스크립트
-```
-
----
-
-## 🌐 API 엔드포인트 (v2)
-
-모든 데이터는 `api.mgija.com/v2/` 경로를 통해 서비스됩니다.
-
-- **금고 목록**: `/v2/meta/banks.json`
-- **전체 예금 금리**: `/v2/rates/deposit/all.json`
-- **전체 적금 금리**: `/v2/rates/saving/all.json`
-- **전체 입출금 금리**: `/v2/rates/demand/all.json`
-- **지역별 상세**: `/v2/rates/{type}/regions/{province_slug}/{district_slug}.json`
-
----
-
-## 📅 자동화 스케줄
-
-- **금리 업데이트**: 매일 오전 2시 (KST) 전체 전수 조사.
-- **실시간 패치**: 평일 주간(08~17시) 2시간 간격 정기 패치 실행.
-- **배포 프로세스**: 데이터 업데이트 즉시 `api-data` 브랜치 배포 및 프론트엔드 캐시 재생성(Revalidation) 트리거.
-
----
-
-## 📝 라이선스
-MIT License
-
----
-**⭐ 도움이 되셨다면 Star를 눌러 응원해 주세요!**
+기존 `api-data` 및 `og-images` 브랜치는 호환성을 위해 유지합니다. API 배포 원본은 이제 `main`입니다. 기존 공개 커밋 이력에는 이전 크롤러 소스가 남아 있으며, 이번 분리는 현재 `main`의 파일 구성을 변경합니다. 기존 이력은 다시 쓰지 않습니다.

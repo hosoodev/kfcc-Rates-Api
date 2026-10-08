@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6017",
+  "name": "마산남부",
+  "meta": {
+    "head_office": {
+      "name": "마산남부(본점)",
+      "address": "경남 창원시 마산합포구 진동면 삼진의거대로 640",
+      "phone": "055-271-3390",
+      "province": "경남",
+      "district": "창원시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 11.24,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 10.95,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 12.61,
+      "dividend_rate": 3.50959
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.55,
+      "dividend_rate": 3.50959
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.98,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.65,
+      "dividend_rate": 0.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6002",
+      "name": "반월중앙",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6009",
+      "name": "동부",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6010",
+      "name": "마산",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6015",
+      "name": "석전",
+      "province": "경남",
+      "district": "창원시"
+    },
+    {
+      "gmgoCd": "6022",
+      "name": "삼성창원병원",
+      "province": "경남",
+      "district": "창원시"
+    }
+  ]
+}

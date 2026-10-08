@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4814",
+  "name": "신도",
+  "meta": {
+    "head_office": {
+      "name": "신도(본점)",
+      "address": "전북 전주시 덕진구 기린대로 683",
+      "phone": "063-213-0383",
+      "province": "전북",
+      "district": "전주시"
+    },
+    "branches": [
+      {
+        "name": "신도(서곡)",
+        "address": "전북 전주시 완산구 세내로 560",
+        "phone": "063-253-0361",
+        "district": "전주시"
+      },
+      {
+        "name": "신도(아중)",
+        "address": "전북 전주시 덕진구 석소로 88",
+        "phone": "063-246-1900",
+        "district": "전주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "6": {
+          "r": 3.34,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.67,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.96,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.39,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.67,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.96,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 13.59,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 14.11,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 10.92,
+      "dividend_rate": 1.99958
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.11,
+      "dividend_rate": 1.99958
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.72,
+      "dividend_rate": 4.49999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.38,
+      "dividend_rate": 4.49999
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
+    }
+  ]
+}

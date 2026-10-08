@@ -1,0 +1,126 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4513",
+  "name": "조은",
+  "meta": {
+    "head_office": {
+      "name": "조은(본점)",
+      "address": "충북 청주시 서원구 모충로 28",
+      "phone": "043-271-8300",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "조은(사직)",
+        "address": "충북 청주시 서원구 창직로 97",
+        "phone": "043-263-8346",
+        "district": "청주시"
+      },
+      {
+        "name": "조은(복대)",
+        "address": "충북 청주시 흥덕구 내수동로 2",
+        "phone": "043-272-8346",
+        "district": "청주시"
+      },
+      {
+        "name": "조은(사창)",
+        "address": "충북 청주시 서원구 예체로 83-1",
+        "phone": "043-267-8346",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 6.93,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 7.25,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.95,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 7.83,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 7.24,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.28,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4511",
+      "name": "미래",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5240",
+  "name": "경북항운노동조합",
+  "meta": {
+    "head_office": {
+      "name": "경북항운노동조합(본점)",
+      "address": "경북 포항시 남구 상공로 24",
+      "phone": "054-273-6736",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 148.23,
+      "dividend_rate": 3.01125
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 103.71,
+      "dividend_rate": 3.01125
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 44.36,
+      "dividend_rate": 3.40014
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 0.0,
+      "dividend_rate": 3.40014
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 52.28,
+      "dividend_rate": 4.8
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 40.16,
+      "dividend_rate": 4.8
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

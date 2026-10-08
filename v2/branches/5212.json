@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5212",
+  "name": "신포항",
+  "meta": {
+    "head_office": {
+      "name": "신포항(본점)",
+      "address": "경북 포항시 북구 양학로 41",
+      "phone": "054-272-0035",
+      "province": "경북",
+      "district": "포항시"
+    },
+    "branches": [
+      {
+        "name": "신포항(제1)",
+        "address": "경북 포항시 북구 이동로 47",
+        "phone": "054-281-3766",
+        "district": "포항시"
+      },
+      {
+        "name": "신포항(제2)",
+        "address": "경북 포항시 북구 양덕로50번길 12",
+        "phone": "054-255-0035",
+        "district": "포항시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 0.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 18.36,
+      "dividend_rate": 3.0003
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 17.7,
+      "dividend_rate": 3.0003
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 15.7,
+      "dividend_rate": 3.0001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 15.45,
+      "dividend_rate": 3.0001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 15.77,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 16.55,
+      "dividend_rate": 4.00001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5201",
+      "name": "늘푸른",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5205",
+      "name": "대신",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5207",
+      "name": "학산",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5209",
+      "name": "대양",
+      "province": "경북",
+      "district": "포항시"
+    },
+    {
+      "gmgoCd": "5210",
+      "name": "영포",
+      "province": "경북",
+      "district": "포항시"
+    }
+  ]
+}

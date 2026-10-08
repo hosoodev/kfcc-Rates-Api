@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5632",
+  "name": "와촌",
+  "meta": {
+    "head_office": {
+      "name": "와촌(본점)",
+      "address": "경북 경산시 와촌면 금송로 409",
+      "phone": "053-851-0012",
+      "province": "경북",
+      "district": "경산시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.6,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 7.27,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 9.64,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 10.38,
+      "dividend_rate": 3.50957
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 11.18,
+      "dividend_rate": 3.50957
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 10.35,
+      "dividend_rate": 3.99999
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.96,
+      "dividend_rate": 3.99999
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5622",
+      "name": "경산",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5623",
+      "name": "새경산",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5624",
+      "name": "화성",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5625",
+      "name": "다문",
+      "province": "경북",
+      "district": "경산시"
+    },
+    {
+      "gmgoCd": "5626",
+      "name": "부림",
+      "province": "경북",
+      "district": "경산시"
+    }
+  ]
+}

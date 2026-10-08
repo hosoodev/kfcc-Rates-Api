@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0522",
+  "name": "경희의료원",
+  "meta": {
+    "head_office": {
+      "name": "경희의료원(본점)",
+      "address": "서울 동대문구 경희대로 23",
+      "phone": "02-958-9853",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 45.44,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 43.35,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 40.11,
+      "dividend_rate": 3.7
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 40.75,
+      "dividend_rate": 3.7
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 40.02,
+      "dividend_rate": 4.20001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 41.13,
+      "dividend_rate": 4.20001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0504",
+      "name": "동대문중앙",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0507",
+      "name": "전농동",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0509",
+      "name": "배봉",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경",
+      "province": "서울",
+      "district": "동대문구"
+    }
+  ]
+}

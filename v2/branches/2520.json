@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "2520",
+  "name": "광주북부",
+  "meta": {
+    "head_office": {
+      "name": "광주북부(본점)",
+      "address": "전남광주통합특별시 북구 서림로 109-1",
+      "phone": "062-522-7527",
+      "province": "광주",
+      "district": "북구"
+    },
+    "branches": [
+      {
+        "name": "광주북부(용두)",
+        "address": "광주 북구 하서로 434-1",
+        "phone": "062-522-7529",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 5.53,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.62,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 7.35,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 8.19,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 8.55,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.28,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1617",
+      "name": "구포",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
+    }
+  ]
+}

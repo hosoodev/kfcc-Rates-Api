@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0741",
+  "name": "한국앤컴퍼니",
+  "meta": {
+    "head_office": {
+      "name": "한국앤컴퍼니(본점)",
+      "address": "대전 대덕구 대덕대로1447번길 40",
+      "phone": "042-930-1651",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 229.57,
+      "dividend_rate": 2.50025
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 238.97,
+      "dividend_rate": 2.50025
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 212.59,
+      "dividend_rate": 2.30069
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 221.25,
+      "dividend_rate": 2.30069
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 211.72,
+      "dividend_rate": 2.50755
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 253.79,
+      "dividend_rate": 2.50755
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3030",
+      "name": "대전북부",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3040",
+      "name": "대전대덕",
+      "province": "대전",
+      "district": "대덕구"
+    },
+    {
+      "gmgoCd": "3042",
+      "name": "으뜸",
+      "province": "대전",
+      "district": "대덕구"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0107",
+  "name": "교남동",
+  "meta": {
+    "head_office": {
+      "name": "교남동(본점)",
+      "address": "서울 종로구 송월길 147",
+      "phone": "02-737-1896",
+      "province": "서울",
+      "district": "종로구"
+    },
+    "branches": [
+      {
+        "name": "교남동(경희궁)",
+        "address": "서울 종로구 새문안로9길 29",
+        "phone": "02-737-1898",
+        "district": "종로구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.72,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.57,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.72,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 12.32,
+      "dividend_rate": 3.02001
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.03,
+      "dividend_rate": 3.02001
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 11.13,
+      "dividend_rate": 3.6
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 14.24,
+      "dividend_rate": 3.6
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.44,
+      "dividend_rate": 5.10003
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 16.46,
+      "dividend_rate": 5.10003
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0102",
+      "name": "광화문",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0105",
+      "name": "세검정",
+      "province": "서울",
+      "district": "종로구"
+    }
+  ]
+}

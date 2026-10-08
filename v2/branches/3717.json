@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3717",
+  "name": "금정",
+  "meta": {
+    "head_office": {
+      "name": "금정(본점)",
+      "address": "경기 군포시 당산로 134",
+      "phone": "031-452-9472",
+      "province": "경기",
+      "district": "군포시"
+    },
+    "branches": [
+      {
+        "name": "금정(중앙)",
+        "address": "경기 군포시 산본로 378",
+        "phone": "031-393-9472",
+        "district": "군포시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.6,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "4",
+      "bis_ratio": 3.9,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.18,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.62,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 8.2,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 10.64,
+      "dividend_rate": 4.00003
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 11.77,
+      "dividend_rate": 4.00003
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3718",
+      "name": "군포",
+      "province": "경기",
+      "district": "군포시"
+    },
+    {
+      "gmgoCd": "3719",
+      "name": "산본",
+      "province": "경기",
+      "district": "군포시"
+    }
+  ]
+}

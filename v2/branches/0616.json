@@ -1,0 +1,141 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0616",
+  "name": "서울종암",
+  "meta": {
+    "head_office": {
+      "name": "서울종암(본점)",
+      "address": "서울 성북구 종암로21길 25",
+      "phone": "02-928-4851",
+      "province": "서울",
+      "district": "성북구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.91,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.06,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.91,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 8.6,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 8.51,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 8.8,
+      "dividend_rate": 0.98575
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 9.66,
+      "dividend_rate": 0.98575
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 9.3,
+      "dividend_rate": 5.04916
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.9,
+      "dividend_rate": 5.04916
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0604",
+      "name": "서울미래",
+      "province": "서울",
+      "district": "성북구"
+    },
+    {
+      "gmgoCd": "0608",
+      "name": "안암동",
+      "province": "서울",
+      "district": "성북구"
+    },
+    {
+      "gmgoCd": "0610",
+      "name": "정릉",
+      "province": "서울",
+      "district": "성북구"
+    },
+    {
+      "gmgoCd": "0611",
+      "name": "한양",
+      "province": "서울",
+      "district": "성북구"
+    },
+    {
+      "gmgoCd": "0613",
+      "name": "성북제일",
+      "province": "서울",
+      "district": "성북구"
+    }
+  ]
+}

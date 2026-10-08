@@ -1,0 +1,168 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4504",
+  "name": "서원",
+  "meta": {
+    "head_office": {
+      "name": "서원(본점)",
+      "address": "충북 청주시 상당구 대성로 58",
+      "phone": "043-256-8170",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "서원(산남)",
+        "address": "충북 청주시 서원구 산남로 64",
+        "phone": "043-292-0360",
+        "district": "청주시"
+      },
+      {
+        "name": "서원(개신)",
+        "address": "충북 청주시 서원구 경신로 47",
+        "phone": "043-236-2250",
+        "district": "청주시"
+      },
+      {
+        "name": "서원(율량)",
+        "address": "충북 청주시 청원구 율량로 134",
+        "phone": "043-212-0678",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.4,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 6.01,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.14,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 5.93,
+      "dividend_rate": 3.00002
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 6.19,
+      "dividend_rate": 3.00002
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 6.17,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 5.86,
+      "dividend_rate": 5.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4511",
+      "name": "미래",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4512",
+      "name": "제일",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

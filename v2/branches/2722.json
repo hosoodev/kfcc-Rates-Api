@@ -1,0 +1,84 @@
+{
+  "updated_at": "2026-07-01T02:30:57+09:00",
+  "gmgoCd": "2722",
+  "name": "고흥",
+  "meta": {
+    "head_office": {
+      "name": "고흥(본점)",
+      "address": "전남 고흥군 고흥읍 시장길 41",
+      "phone": "061-832-2072",
+      "province": "전남",
+      "district": "고흥군"
+    },
+    "branches": [
+      {
+        "name": "고흥(대서)",
+        "address": "전남 고흥군 대서면 동서로 460",
+        "phone": "061-833-3606",
+        "district": "고흥군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 11.51,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.81,
+      "dividend_rate": 3.00821
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 11.13,
+      "dividend_rate": 3.00821
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 10.74,
+      "dividend_rate": 4.2
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.45,
+      "dividend_rate": 4.2
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2723",
+      "name": "녹동",
+      "province": "전남",
+      "district": "고흥군"
+    },
+    {
+      "gmgoCd": "2724",
+      "name": "우주",
+      "province": "전남",
+      "district": "고흥군"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3568",
+  "name": "LH",
+  "meta": {
+    "head_office": {
+      "name": "LH(본점)",
+      "address": "경남 진주시 충의로 19",
+      "phone": "055-922-4948",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 280.89,
+      "dividend_rate": 1.97538
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 264.93,
+      "dividend_rate": 1.97538
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 215.37,
+      "dividend_rate": 2.1012
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 218.53,
+      "dividend_rate": 2.1012
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 213.62,
+      "dividend_rate": 2.18124
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 212.75,
+      "dividend_rate": 2.18124
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6407",
+      "name": "참진주",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6408",
+      "name": "서부",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

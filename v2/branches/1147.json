@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1147",
+  "name": "에이치제이중공업",
+  "meta": {
+    "head_office": {
+      "name": "에이치제이중공업(본점)",
+      "address": "서울 용산구 한강대로71길 4",
+      "phone": "02-450-8871",
+      "province": "서울",
+      "district": "용산구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 241.81,
+      "dividend_rate": 1.55581
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 232.22,
+      "dividend_rate": 1.55581
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 222.76,
+      "dividend_rate": 1.5555
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 210.09,
+      "dividend_rate": 1.5555
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 206.72,
+      "dividend_rate": 1.971
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 208.34,
+      "dividend_rate": 1.971
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0310",
+      "name": "한강2동",
+      "province": "서울",
+      "district": "용산구"
+    }
+  ]
+}

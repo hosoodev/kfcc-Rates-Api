@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-08-09T02:31:07+09:00",
+  "gmgoCd": "3239",
+  "name": "웅진",
+  "meta": {
+    "head_office": {
+      "name": "웅진(옥룡)",
+      "address": "충남 공주시 무령로 285",
+      "phone": "041-852-5890",
+      "province": "충남",
+      "district": "공주시"
+    },
+    "branches": [
+      {
+        "name": "웅진(신관)",
+        "address": "충남 공주시 번영1로 73",
+        "phone": "041-855-8551",
+        "district": "공주시"
+      },
+      {
+        "name": "웅진(산성)",
+        "address": "충남 공주시 웅진로 219",
+        "phone": "041-855-2308",
+        "district": "공주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "4",
+      "bis_ratio": -1.31,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": 2.67,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "4",
+      "bis_ratio": 6.08,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 7.21,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 7.7,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3223",
+      "name": "합동",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3225",
+      "name": "이인",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3228",
+      "name": "대성",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3231",
+      "name": "유구",
+      "province": "충남",
+      "district": "공주시"
+    },
+    {
+      "gmgoCd": "3234",
+      "name": "백제",
+      "province": "충남",
+      "district": "공주시"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5329",
+  "name": "영해",
+  "meta": {
+    "head_office": {
+      "name": "영해(본점)",
+      "address": "경북 영덕군 영해면 예주시장길 40",
+      "phone": "054-732-1109",
+      "province": "경북",
+      "district": "영덕군"
+    },
+    "branches": [
+      {
+        "name": "영해(축산)",
+        "address": "경북 영덕군 축산면 축산항길 38",
+        "phone": "054-734-5601",
+        "district": "영덕군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.3,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.9,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.7,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 9.47,
+      "dividend_rate": 3.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 10.7,
+      "dividend_rate": 3.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.87,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 10.26,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 9.46,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.48,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5326",
+      "name": "영덕",
+      "province": "경북",
+      "district": "영덕군"
+    }
+  ]
+}

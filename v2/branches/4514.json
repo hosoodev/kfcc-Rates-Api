@@ -1,0 +1,180 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4514",
+  "name": "영운.용암",
+  "meta": {
+    "head_office": {
+      "name": "영운.용암(본점)",
+      "address": "충북 청주시 상당구 단재로 128",
+      "phone": "043-259-3160",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "영운.용암(영운)",
+        "address": "충북 청주시 상당구 쇠내로 148",
+        "phone": "043-255-3160",
+        "district": "청주시"
+      },
+      {
+        "name": "영운.용암(용암)",
+        "address": "충북 청주시 상당구 중흥로 36",
+        "phone": "043-294-0347",
+        "district": "청주시"
+      },
+      {
+        "name": "영운.용암(동부)",
+        "address": "충북 청주시 상당구 용암북로120번길 31-1",
+        "phone": "043-292-0347",
+        "district": "청주시"
+      },
+      {
+        "name": "영운.용암(상당)",
+        "address": "충북 청주시 상당구 월평로 266",
+        "phone": "043-714-3060",
+        "district": "청주시"
+      },
+      {
+        "name": "영운.용암(동남)",
+        "address": "충북 청주시 상당구 중고개로 145",
+        "phone": "043-288-0347",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 12.56,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.11,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 13.45,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 13.77,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.05,
+      "dividend_rate": 5.2049
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.52,
+      "dividend_rate": 5.2049
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4508",
+      "name": "우리",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4511",
+      "name": "미래",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4237",
+  "name": "동해항운노동조합직장",
+  "meta": {
+    "head_office": {
+      "name": "동해항운노동조합직장(본점)",
+      "address": "강원 동해시 발한로 162",
+      "phone": "033-532-3873",
+      "province": "강원",
+      "district": "동해시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 530.01,
+      "dividend_rate": 3.3945
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 636.87,
+      "dividend_rate": 3.3945
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 484.58,
+      "dividend_rate": 4.16508
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 454.34,
+      "dividend_rate": 4.16508
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 481.53,
+      "dividend_rate": 4.38
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 487.72,
+      "dividend_rate": 4.38
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4230",
+      "name": "동해남부",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4232",
+      "name": "동해중앙",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4239",
+      "name": "동해해오름",
+      "province": "강원",
+      "district": "동해시"
+    },
+    {
+      "gmgoCd": "4268",
+      "name": "동해우리",
+      "province": "강원",
+      "district": "동해시"
+    }
+  ]
+}

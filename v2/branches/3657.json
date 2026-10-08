@@ -1,0 +1,174 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3657",
+  "name": "안양북부",
+  "meta": {
+    "head_office": {
+      "name": "안양북부(본점)",
+      "address": "경기 안양시 만안구 안양로 487",
+      "phone": "031-472-0466",
+      "province": "경기",
+      "district": "안양시"
+    },
+    "branches": [
+      {
+        "name": "안양북부(만안)",
+        "address": "경기 안양시 만안구 안양로 368",
+        "phone": "031-466-3812",
+        "district": "안양시"
+      },
+      {
+        "name": "안양북부(석수)",
+        "address": "경기 안양시 만안구 경수대로 1179",
+        "phone": "031-474-4577",
+        "district": "안양시"
+      },
+      {
+        "name": "안양북부(삼막)",
+        "address": "경기 안양시 만안구 경수대로 1269",
+        "phone": "031-442-3102",
+        "district": "안양시"
+      },
+      {
+        "name": "안양북부(연현)",
+        "address": "경기 안양시 만안구 연현로 71",
+        "phone": "031-471-7848",
+        "district": "안양시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.7,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 10.56,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 11.51,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 10.87,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 10.53,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 9.87,
+      "dividend_rate": 4.1
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.37,
+      "dividend_rate": 4.1
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3603",
+      "name": "안양협심",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3606",
+      "name": "안양",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3607",
+      "name": "안양제일",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3609",
+      "name": "안양동부",
+      "province": "경기",
+      "district": "안양시"
+    },
+    {
+      "gmgoCd": "3611",
+      "name": "동안",
+      "province": "경기",
+      "district": "안양시"
+    }
+  ]
+}

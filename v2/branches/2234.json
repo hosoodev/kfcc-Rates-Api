@@ -1,0 +1,168 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "2234",
+  "name": "제물포",
+  "meta": {
+    "head_office": {
+      "name": "제물포(본점)",
+      "address": "인천 미추홀구 수봉로 22-1",
+      "phone": "032-887-2045",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    "branches": [
+      {
+        "name": "제물포(숭의3동)",
+        "address": "인천 미추홀구 석정로126번길 6",
+        "phone": "032-888-8500",
+        "district": "미추홀구"
+      },
+      {
+        "name": "제물포(도원)",
+        "address": "인천 미추홀구 참외전로 268",
+        "phone": "032-888-9945",
+        "district": "미추홀구"
+      },
+      {
+        "name": "제물포(미추홀)",
+        "address": "인천 미추홀구 아암대로29번길 68",
+        "phone": "032-888-2244",
+        "district": "미추홀구"
+      },
+      {
+        "name": "제물포(용오)",
+        "address": "인천 미추홀구 토금남로 53",
+        "phone": "032-888-2246",
+        "district": "미추홀구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.67,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.67,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 11.48,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 11.42,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 11.05,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.35,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 14.03,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 14.88,
+      "dividend_rate": 4.00001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2235",
+      "name": "용일",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2237",
+      "name": "새인천",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2238",
+      "name": "한마음",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2239",
+      "name": "학익",
+      "province": "인천",
+      "district": "미추홀구"
+    },
+    {
+      "gmgoCd": "2240",
+      "name": "온누리",
+      "province": "인천",
+      "district": "미추홀구"
+    }
+  ]
+}
