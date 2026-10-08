@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:56+09:00",
+  "updated_at": "2026-10-08T14:30:52+09:00",
   "gmgoCd": "1727",
   "name": "연산로터리",
   "meta": {
@@ -74,6 +74,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 8.22,
+      "dividend_rate": 0.0
+    },
     {
       "evaluation_date": "20251231",
       "grade": "3",

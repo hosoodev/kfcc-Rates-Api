@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:56+09:00",
+  "updated_at": "2026-10-08T14:30:52+09:00",
   "gmgoCd": "1216",
   "name": "서구중앙",
   "meta": {
@@ -82,6 +82,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 15.31,
+      "dividend_rate": 3.50005
+    },
     {
       "evaluation_date": "20251231",
       "grade": "2",

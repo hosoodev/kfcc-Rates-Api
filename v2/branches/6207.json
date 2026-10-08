@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:56+09:00",
+  "updated_at": "2026-10-08T14:30:52+09:00",
   "gmgoCd": "6207",
   "name": "강남",
   "meta": {
@@ -90,6 +90,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "4",
+      "bis_ratio": 2.64,
+      "dividend_rate": 0.0
+    },
     {
       "evaluation_date": "20251231",
       "grade": "3",

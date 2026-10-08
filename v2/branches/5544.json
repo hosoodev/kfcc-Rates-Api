@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:56+09:00",
+  "updated_at": "2026-10-08T14:30:52+09:00",
   "gmgoCd": "5544",
   "name": "엘지전자구미",
   "meta": {
@@ -29,6 +29,12 @@
     "saving": null
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 92.2,
+      "dividend_rate": 1.98925
+    },
     {
       "evaluation_date": "20251231",
       "grade": "2",

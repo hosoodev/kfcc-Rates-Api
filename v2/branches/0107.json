@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:30:56+09:00",
+  "updated_at": "2026-10-08T14:30:52+09:00",
   "gmgoCd": "0107",
   "name": "교남동",
   "meta": {
@@ -72,6 +72,12 @@
     }
   },
   "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 12.32,
+      "dividend_rate": 3.02001
+    },
     {
       "evaluation_date": "20251231",
       "grade": "2",
