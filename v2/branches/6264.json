@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6264",
+  "name": "양산",
+  "meta": {
+    "head_office": {
+      "name": "양산(본점)",
+      "address": "경남 양산시 북안남4길 7-35",
+      "phone": "055-384-2901",
+      "province": "경남",
+      "district": "양산시"
+    },
+    "branches": [
+      {
+        "name": "양산(교동)",
+        "address": "경남 양산시 회현1길 5",
+        "phone": "055-384-2904",
+        "district": "양산시"
+      },
+      {
+        "name": "양산(삼성동)",
+        "address": "경남 양산시 신기서길 18",
+        "phone": "055-389-0220",
+        "district": "양산시"
+      },
+      {
+        "name": "양산(청운)",
+        "address": "경남 양산시 물금읍 청운로 350",
+        "phone": "055-384-2905",
+        "district": "양산시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "6": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 17.09,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 16.06,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 14.29,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.97,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.91,
+      "dividend_rate": 5.00013
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.87,
+      "dividend_rate": 5.00013
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6266",
+      "name": "물금",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6267",
+      "name": "남양산",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6268",
+      "name": "상북",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6269",
+      "name": "양산중앙",
+      "province": "경남",
+      "district": "양산시"
+    },
+    {
+      "gmgoCd": "6270",
+      "name": "웅상",
+      "province": "경남",
+      "district": "양산시"
+    }
+  ]
+}

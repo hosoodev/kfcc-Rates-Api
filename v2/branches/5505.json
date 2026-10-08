@@ -1,0 +1,114 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5505",
+  "name": "지산",
+  "meta": {
+    "head_office": {
+      "name": "지산(본점)",
+      "address": "경북 구미시 선산대로 163-1",
+      "phone": "054-452-9884",
+      "province": "경북",
+      "district": "구미시"
+    },
+    "branches": [
+      {
+        "name": "지산(제1)",
+        "address": "경북 구미시 선산대로 77",
+        "phone": "054-453-3413",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 18.89,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 18.6,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 17.75,
+      "dividend_rate": 3.10851
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 21.0,
+      "dividend_rate": 3.10851
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 19.37,
+      "dividend_rate": 3.80001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 20.97,
+      "dividend_rate": 3.80001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5501",
+      "name": "송정",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5502",
+      "name": "금오",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5507",
+      "name": "중앙",
+      "province": "경북",
+      "district": "구미시"
+    }
+  ]
+}

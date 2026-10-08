@@ -1,0 +1,166 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5507",
+  "name": "중앙",
+  "meta": {
+    "head_office": {
+      "name": "중앙(본점)",
+      "address": "경북 구미시 야은로 745",
+      "phone": "054-463-8017",
+      "province": "경북",
+      "district": "구미시"
+    },
+    "branches": [
+      {
+        "name": "중앙(신평)",
+        "address": "경북 구미시 신비로 13",
+        "phone": "054-462-2621",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(비산)",
+        "address": "경북 구미시 비산로5안길 3",
+        "phone": "054-463-5881",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(광평)",
+        "address": "경북 구미시 구미대로 216",
+        "phone": "054-463-3217",
+        "district": "구미시"
+      },
+      {
+        "name": "중앙(비산2)",
+        "address": "경북 구미시 신비로 112",
+        "phone": "054-463-3881",
+        "district": "구미시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.72,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.9,
+          "s": "w"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.8,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.05,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.72,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 16.39,
+      "dividend_rate": 2.7
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 17.09,
+      "dividend_rate": 2.7
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 17.31,
+      "dividend_rate": 3.20001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 16.82,
+      "dividend_rate": 3.20001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 16.85,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 17.12,
+      "dividend_rate": 3.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5501",
+      "name": "송정",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5502",
+      "name": "금오",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5504",
+      "name": "도량",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5505",
+      "name": "지산",
+      "province": "경북",
+      "district": "구미시"
+    },
+    {
+      "gmgoCd": "5506",
+      "name": "원남",
+      "province": "경북",
+      "district": "구미시"
+    }
+  ]
+}

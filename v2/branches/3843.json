@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3843",
+  "name": "송탄",
+  "meta": {
+    "head_office": {
+      "name": "송탄(본점)",
+      "address": "경기 평택시 송탄로 382",
+      "phone": "031-664-9746",
+      "province": "경기",
+      "district": "평택시"
+    },
+    "branches": [
+      {
+        "name": "송탄(신장)",
+        "address": "경기 평택시 밀월로35번길 3",
+        "phone": "031-666-5175",
+        "district": "평택시"
+      },
+      {
+        "name": "송탄(서정)",
+        "address": "경기 평택시 점촌로 36",
+        "phone": "031-665-5366",
+        "district": "평택시"
+      },
+      {
+        "name": "송탄(서정시장)",
+        "address": "경기 평택시 서정역로55번길 29",
+        "phone": "031-665-8801",
+        "district": "평택시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.3,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 4.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 4.0,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 5.85,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.16,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.49,
+      "dividend_rate": 3.00001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 8.6,
+      "dividend_rate": 3.00001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 9.08,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.36,
+      "dividend_rate": 4.00001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3833",
+      "name": "평택",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3834",
+      "name": "서평택",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3838",
+      "name": "엘지전자평택",
+      "province": "경기",
+      "district": "평택시"
+    },
+    {
+      "gmgoCd": "3841",
+      "name": "케이지모빌리티",
+      "province": "경기",
+      "district": "평택시"
+    }
+  ]
+}

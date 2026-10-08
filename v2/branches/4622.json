@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4622",
+  "name": "묵정",
+  "meta": {
+    "head_office": {
+      "name": "묵정(본점)",
+      "address": "충북 영동군 양강면 학산영동로 338",
+      "phone": "043-743-7822",
+      "province": "충북",
+      "district": "영동군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 31.94,
+      "dividend_rate": 4.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 27.82,
+      "dividend_rate": 4.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 27.16,
+      "dividend_rate": 5.00001
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 22.95,
+      "dividend_rate": 5.00001
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 22.05,
+      "dividend_rate": 5.00002
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 21.67,
+      "dividend_rate": 5.00002
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4624",
+      "name": "영동",
+      "province": "충북",
+      "district": "영동군"
+    }
+  ]
+}

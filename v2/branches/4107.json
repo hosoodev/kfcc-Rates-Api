@@ -1,0 +1,180 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4107",
+  "name": "화도",
+  "meta": {
+    "head_office": {
+      "name": "화도(본점)",
+      "address": "경기 남양주시 화도읍 마석중앙로 68",
+      "phone": "031-594-0071",
+      "province": "경기",
+      "district": "남양주시"
+    },
+    "branches": [
+      {
+        "name": "화도(묵현)",
+        "address": "경기 남양주시 화도읍 먹갓로 37",
+        "phone": "031-594-8277",
+        "district": "남양주시"
+      },
+      {
+        "name": "화도(가곡)",
+        "address": "경기 남양주시 화도읍 가곡로 1",
+        "phone": "031-559-0071",
+        "district": "남양주시"
+      },
+      {
+        "name": "화도(송라)",
+        "address": "경기 남양주시 화도읍 맷돌로 112",
+        "phone": "031-559-0081",
+        "district": "남양주시"
+      },
+      {
+        "name": "화도(평내)",
+        "address": "경기 남양주시 경춘로1306번길 7",
+        "phone": "031-592-1500",
+        "district": "남양주시"
+      },
+      {
+        "name": "화도(호평)",
+        "address": "경기 남양주시 호평로46번길 5",
+        "phone": "031-592-1700",
+        "district": "남양주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "6": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.12,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.12,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 11.82,
+      "dividend_rate": 2.88
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 12.19,
+      "dividend_rate": 2.88
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 10.44,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.11,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.0,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.33,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4104",
+      "name": "다산",
+      "province": "경기",
+      "district": "남양주시"
+    },
+    {
+      "gmgoCd": "4106",
+      "name": "별내",
+      "province": "경기",
+      "district": "남양주시"
+    },
+    {
+      "gmgoCd": "4108",
+      "name": "중부",
+      "province": "경기",
+      "district": "남양주시"
+    },
+    {
+      "gmgoCd": "4109",
+      "name": "진접",
+      "province": "경기",
+      "district": "남양주시"
+    },
+    {
+      "gmgoCd": "4110",
+      "name": "남양주중앙",
+      "province": "경기",
+      "district": "남양주시"
+    }
+  ]
+}

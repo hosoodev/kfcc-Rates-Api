@@ -1,0 +1,168 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1617",
+  "name": "구포",
+  "meta": {
+    "head_office": {
+      "name": "구포(본점)",
+      "address": "부산 북구 시랑로 75",
+      "phone": "051-337-1661",
+      "province": "부산",
+      "district": "북구"
+    },
+    "branches": [
+      {
+        "name": "구포(축산)",
+        "address": "부산 북구 사상로583번길 25",
+        "phone": "051-301-7839",
+        "district": "북구"
+      },
+      {
+        "name": "구포(구포시장)",
+        "address": "부산 북구 백양대로 1195",
+        "phone": "051-343-6001",
+        "district": "북구"
+      },
+      {
+        "name": "구포(구포3동)",
+        "address": "부산 북구 시랑로 159",
+        "phone": "051-343-6004",
+        "district": "북구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.4,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 12.05,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 12.67,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 12.14,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.31,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.93,
+      "dividend_rate": 5.49996
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.59,
+      "dividend_rate": 5.49996
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1614",
+      "name": "부산화명",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1615",
+      "name": "북부산",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1618",
+      "name": "신만덕",
+      "province": "부산",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1934",
+      "name": "북구",
+      "province": "대구",
+      "district": "북구"
+    },
+    {
+      "gmgoCd": "1935",
+      "name": "북성",
+      "province": "대구",
+      "district": "북구"
+    }
+  ]
+}

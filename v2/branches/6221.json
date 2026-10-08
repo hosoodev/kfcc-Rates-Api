@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6221",
+  "name": "서울산",
+  "meta": {
+    "head_office": {
+      "name": "서울산(본점)",
+      "address": "울산 남구 신복로 45",
+      "phone": "052-220-0000",
+      "province": "울산",
+      "district": "남구"
+    },
+    "branches": [
+      {
+        "name": "서울산(삼호)",
+        "address": "울산 남구 어은로 9-1",
+        "phone": "052-220-0001",
+        "district": "남구"
+      },
+      {
+        "name": "서울산(문수)",
+        "address": "울산 남구 대학로 31",
+        "phone": "052-220-0002",
+        "district": "남구"
+      },
+      {
+        "name": "서울산(굴화)",
+        "address": "울산 남구 울밀로 2882",
+        "phone": "052-220-0003",
+        "district": "남구"
+      },
+      {
+        "name": "서울산(옥현)",
+        "address": "울산 남구 옥현로58번길 3",
+        "phone": "052-220-0004",
+        "district": "남구"
+      },
+      {
+        "name": "서울산(천상)",
+        "address": "울산 울주군 범서읍 천상중앙길 99",
+        "phone": "052-220-0005",
+        "district": "울주군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 15.62,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 16.01,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 15.76,
+      "dividend_rate": 3.8
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 15.49,
+      "dividend_rate": 3.8
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.76,
+      "dividend_rate": 4.72
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 13.69,
+      "dividend_rate": 4.72
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "1402",
+      "name": "대연",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1403",
+      "name": "대연중앙",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1404",
+      "name": "대연6동",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1405",
+      "name": "용호",
+      "province": "부산",
+      "district": "남구"
+    },
+    {
+      "gmgoCd": "1406",
+      "name": "남부",
+      "province": "부산",
+      "district": "남구"
+    }
+  ]
+}

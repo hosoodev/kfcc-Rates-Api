@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5400",
+  "name": "새김천",
+  "meta": {
+    "head_office": {
+      "name": "새김천(본점)",
+      "address": "경북 김천시 자산로 36",
+      "phone": "054-433-7741",
+      "province": "경북",
+      "district": "김천시"
+    },
+    "branches": [
+      {
+        "name": "새김천(혁신)",
+        "address": "경북 김천시 용전1로 13",
+        "phone": "054-437-7741",
+        "district": "김천시"
+      },
+      {
+        "name": "새김천(부곡)",
+        "address": "경북 김천시 구농고길 16",
+        "phone": "054-433-3018",
+        "district": "김천시"
+      },
+      {
+        "name": "새김천(대곡)",
+        "address": "경북 김천시 문지왈1길 9-3",
+        "phone": "054-433-8881",
+        "district": "김천시"
+      },
+      {
+        "name": "새김천(자산)",
+        "address": "경북 김천시 자산로 118",
+        "phone": "054-433-6031",
+        "district": "김천시"
+      },
+      {
+        "name": "새김천(금산)",
+        "address": "경북 김천시 대학로 76",
+        "phone": "054-432-2773",
+        "district": "김천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.8,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.8,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 8.37,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 7.75,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.94,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 10.93,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 10.96,
+      "dividend_rate": 4.00401
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.05,
+      "dividend_rate": 4.00401
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3527",
+      "name": "한국도로공사직장",
+      "province": "경북",
+      "district": "김천시"
+    },
+    {
+      "gmgoCd": "5408",
+      "name": "김천대신",
+      "province": "경북",
+      "district": "김천시"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "updated_at": "2026-07-01T02:30:57+09:00",
+  "gmgoCd": "2833",
+  "name": "남악",
+  "meta": {
+    "head_office": {
+      "name": "남악(본점)",
+      "address": "전남 무안군 일로읍 일로로 51-2",
+      "phone": "061-281-2771",
+      "province": "전남",
+      "district": "무안군"
+    },
+    "branches": [
+      {
+        "name": "남악(남악)",
+        "address": "전남 무안군 삼향읍 남악2로74번길 31",
+        "phone": "061-284-2771",
+        "district": "무안군"
+      },
+      {
+        "name": "남악(남악골든)",
+        "address": "전남 무안군 삼향읍 남악4로 50",
+        "phone": "061-287-2771",
+        "district": "무안군"
+      },
+      {
+        "name": "남악(오룡)",
+        "address": "전남 무안군 일로읍 오룡교육로5길 17",
+        "phone": "061-285-2771",
+        "district": "무안군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 7.29,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 7.08,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 8.57,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 9.23,
+      "dividend_rate": 4.5
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.99,
+      "dividend_rate": 4.5
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2830",
+      "name": "무안",
+      "province": "전남",
+      "district": "무안군"
+    },
+    {
+      "gmgoCd": "2831",
+      "name": "해제",
+      "province": "전남",
+      "district": "무안군"
+    }
+  ]
+}

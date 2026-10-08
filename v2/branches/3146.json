@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3146",
+  "name": "진잠",
+  "meta": {
+    "head_office": {
+      "name": "진잠(본점)",
+      "address": "대전 유성구 원내로39번길 10",
+      "phone": "042-544-8006",
+      "province": "대전",
+      "district": "유성구"
+    },
+    "branches": [
+      {
+        "name": "진잠(학하)",
+        "address": "대전 유성구 학하남로 1",
+        "phone": "042-824-2123",
+        "district": "유성구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.15,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.15,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 5.73,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.33,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 5.29,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 7.09,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 7.67,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.46,
+      "dividend_rate": 2.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3143",
+      "name": "유성",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3145",
+      "name": "탄동",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3147",
+      "name": "유성온천",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3150",
+      "name": "한국과학기술원",
+      "province": "대전",
+      "district": "유성구"
+    },
+    {
+      "gmgoCd": "3154",
+      "name": "대전온천",
+      "province": "대전",
+      "district": "유성구"
+    }
+  ]
+}

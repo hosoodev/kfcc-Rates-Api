@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4905",
+  "name": "운봉",
+  "meta": {
+    "head_office": {
+      "name": "운봉(본점)",
+      "address": "전북 남원시 운봉읍 운봉로 688-1",
+      "phone": "063-634-0419",
+      "province": "전북",
+      "district": "남원시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.3,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 28.47,
+      "dividend_rate": 3.0003
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 31.36,
+      "dividend_rate": 3.0003
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 33.78,
+      "dividend_rate": 4.00038
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 34.11,
+      "dividend_rate": 4.00038
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 29.09,
+      "dividend_rate": 4.0004
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 27.87,
+      "dividend_rate": 4.0004
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4901",
+      "name": "남원",
+      "province": "전북",
+      "district": "남원시"
+    },
+    {
+      "gmgoCd": "4903",
+      "name": "남원중앙",
+      "province": "전북",
+      "district": "남원시"
+    },
+    {
+      "gmgoCd": "4906",
+      "name": "지리산",
+      "province": "전북",
+      "district": "남원시"
+    },
+    {
+      "gmgoCd": "4907",
+      "name": "동남원",
+      "province": "전북",
+      "district": "남원시"
+    }
+  ]
+}

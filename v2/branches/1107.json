@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1107",
+  "name": "서울교통공사",
+  "meta": {
+    "head_office": {
+      "name": "서울교통공사(본점)",
+      "address": "서울 구로구 도림천로 352",
+      "phone": "02-6110-8593",
+      "province": "서울",
+      "district": "구로구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 99.51,
+      "dividend_rate": 2.43263
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 103.88,
+      "dividend_rate": 2.43263
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 97.4,
+      "dividend_rate": 3.12646
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 105.69,
+      "dividend_rate": 3.12646
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 98.04,
+      "dividend_rate": 3.49753
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 96.63,
+      "dividend_rate": 3.49753
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0724",
+      "name": "신도림",
+      "province": "서울",
+      "district": "구로구"
+    },
+    {
+      "gmgoCd": "0725",
+      "name": "구로",
+      "province": "서울",
+      "district": "구로구"
+    },
+    {
+      "gmgoCd": "0728",
+      "name": "구로5동",
+      "province": "서울",
+      "district": "구로구"
+    },
+    {
+      "gmgoCd": "0731",
+      "name": "디지털",
+      "province": "서울",
+      "district": "구로구"
+    },
+    {
+      "gmgoCd": "0732",
+      "name": "구로중앙",
+      "province": "서울",
+      "district": "구로구"
+    }
+  ]
+}

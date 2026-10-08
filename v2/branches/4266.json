@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4266",
+  "name": "강릉남부",
+  "meta": {
+    "head_office": {
+      "name": "강릉남부(본점)",
+      "address": "강원 강릉시 단오장길 26",
+      "phone": "033-645-0959",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    "branches": [
+      {
+        "name": "강릉남부(노암)",
+        "address": "강원 강릉시 노가니길 9-1",
+        "phone": "033-648-0959",
+        "district": "강릉시"
+      },
+      {
+        "name": "강릉남부(성덕)",
+        "address": "강원 강릉시 성덕포남로 45-8",
+        "phone": "033-652-3524",
+        "district": "강릉시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.55,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.95,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.55,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.95,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 13.05,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.6,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 13.37,
+      "dividend_rate": 3.60985
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 13.98,
+      "dividend_rate": 3.60985
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 14.6,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 15.35,
+      "dividend_rate": 4.50001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4202",
+      "name": "새강릉",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4206",
+      "name": "강릉솔향",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4207",
+      "name": "포남",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4208",
+      "name": "초당경포",
+      "province": "강원",
+      "district": "강릉시"
+    },
+    {
+      "gmgoCd": "4222",
+      "name": "송정",
+      "province": "강원",
+      "district": "강릉시"
+    }
+  ]
+}

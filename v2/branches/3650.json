@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3650",
+  "name": "온세미컨덕터코리아주식회사",
+  "meta": {
+    "head_office": {
+      "name": "온세미컨덕터코리아주식회사(본점)",
+      "address": "경기 부천시 원미구 부천로 324",
+      "phone": "032-680-1871",
+      "province": "경기",
+      "district": "부천시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 125.4,
+      "dividend_rate": 2.50006
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 122.77,
+      "dividend_rate": 2.50006
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 118.39,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 85.22,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 70.92,
+      "dividend_rate": 4.50008
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 58.94,
+      "dividend_rate": 4.50008
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3636",
+      "name": "부천제일",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3637",
+      "name": "남부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3639",
+      "name": "성지",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3641",
+      "name": "북부천",
+      "province": "경기",
+      "district": "부천시"
+    },
+    {
+      "gmgoCd": "3643",
+      "name": "송내",
+      "province": "경기",
+      "district": "부천시"
+    }
+  ]
+}

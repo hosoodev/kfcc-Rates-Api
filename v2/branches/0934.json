@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0934",
+  "name": "신신",
+  "meta": {
+    "head_office": {
+      "name": "신신(본점)",
+      "address": "서울 관악구 신원로 15",
+      "phone": "02-869-2173",
+      "province": "서울",
+      "district": "관악구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 8.97,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 10.92,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 10.74,
+      "dividend_rate": 3.00821
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.54,
+      "dividend_rate": 3.00821
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 12.43,
+      "dividend_rate": 4.6
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 12.42,
+      "dividend_rate": 4.6
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0921",
+      "name": "은천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0922",
+      "name": "보라매",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0923",
+      "name": "관악",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0925",
+      "name": "봉천",
+      "province": "서울",
+      "district": "관악구"
+    },
+    {
+      "gmgoCd": "0926",
+      "name": "낙성대",
+      "province": "서울",
+      "district": "관악구"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-07-01T02:30:57+09:00",
+  "gmgoCd": "2601",
+  "name": "동여수",
+  "meta": {
+    "head_office": {
+      "name": "동여수(본점)",
+      "address": "전남 여수시 이순신광장로 215",
+      "phone": "061-662-2753",
+      "province": "전남",
+      "district": "여수시"
+    },
+    "branches": [
+      {
+        "name": "동여수(관문)",
+        "address": "전남 여수시 관문2길 8",
+        "phone": "061-662-1925",
+        "district": "여수시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.05,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 11.91,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 11.39,
+      "dividend_rate": 3.0012
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 12.17,
+      "dividend_rate": 3.0012
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.28,
+      "dividend_rate": 4.50166
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.78,
+      "dividend_rate": 4.50166
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2602",
+      "name": "여수엑스포",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2604",
+      "name": "중앙",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2605",
+      "name": "여수중부",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2606",
+      "name": "충무",
+      "province": "전남",
+      "district": "여수시"
+    },
+    {
+      "gmgoCd": "2607",
+      "name": "진남",
+      "province": "전남",
+      "district": "여수시"
+    }
+  ]
+}

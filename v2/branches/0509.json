@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0509",
+  "name": "배봉",
+  "meta": {
+    "head_office": {
+      "name": "배봉(본점)",
+      "address": "서울 동대문구 전농로16길 17",
+      "phone": "02-2245-3169",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    "branches": [
+      {
+        "name": "배봉(제일)",
+        "address": "서울 동대문구 전농로 86-1",
+        "phone": "02-2213-2252",
+        "district": "동대문구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.91,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.91,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 10.33,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 10.44,
+      "dividend_rate": 2.1
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.26,
+      "dividend_rate": 3.50002
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 10.8,
+      "dividend_rate": 3.50002
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.01,
+      "dividend_rate": 4.0004
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 10.38,
+      "dividend_rate": 4.0004
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0504",
+      "name": "동대문중앙",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0507",
+      "name": "전농동",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0511",
+      "name": "답십리",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0517",
+      "name": "회기휘경",
+      "province": "서울",
+      "district": "동대문구"
+    },
+    {
+      "gmgoCd": "0518",
+      "name": "더좋은",
+      "province": "서울",
+      "district": "동대문구"
+    }
+  ]
+}

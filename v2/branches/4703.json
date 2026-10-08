@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4703",
+  "name": "교현",
+  "meta": {
+    "head_office": {
+      "name": "교현(본점)",
+      "address": "충북 충주시 갱고개로 27",
+      "phone": "043-847-5021",
+      "province": "충북",
+      "district": "충주시"
+    },
+    "branches": [
+      {
+        "name": "교현(예성)",
+        "address": "충북 충주시 국원대로 114",
+        "phone": "043-846-5021",
+        "district": "충주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.67,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.2,
+          "s": "w"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.67,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "w"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 9.28,
+      "dividend_rate": 1.47898
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 9.84,
+      "dividend_rate": 1.47898
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 10.77,
+      "dividend_rate": 3.52531
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 11.46,
+      "dividend_rate": 3.52531
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.33,
+      "dividend_rate": 3.50035
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 11.03,
+      "dividend_rate": 3.50035
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4701",
+      "name": "충주SM",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4702",
+      "name": "예성",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4704",
+      "name": "문화",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4705",
+      "name": "남충주",
+      "province": "충북",
+      "district": "충주시"
+    },
+    {
+      "gmgoCd": "4707",
+      "name": "새충주",
+      "province": "충북",
+      "district": "충주시"
+    }
+  ]
+}

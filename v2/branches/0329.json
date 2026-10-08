@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0329",
+  "name": "녹번동",
+  "meta": {
+    "head_office": {
+      "name": "녹번동(본점)",
+      "address": "서울 은평구 은평로 201",
+      "phone": "02-383-5965",
+      "province": "서울",
+      "district": "은평구"
+    },
+    "branches": [
+      {
+        "name": "녹번동(제1분사무소)",
+        "address": "서울 은평구 진흥로12길 9",
+        "phone": "02-383-5968",
+        "district": "은평구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.91,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.6,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.7,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.91,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "4",
+      "bis_ratio": 3.7,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.68,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.29,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 8.5,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 6.63,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 9.17,
+      "dividend_rate": 4.00001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0330",
+      "name": "서울은평",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0331",
+      "name": "갈현동",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0332",
+      "name": "구산동",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0334",
+      "name": "e-푸른",
+      "province": "서울",
+      "district": "은평구"
+    },
+    {
+      "gmgoCd": "0337",
+      "name": "은평",
+      "province": "서울",
+      "district": "은평구"
+    }
+  ]
+}

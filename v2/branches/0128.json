@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0128",
+  "name": "서울대학교병원",
+  "meta": {
+    "head_office": {
+      "name": "서울대학교병원(본점)",
+      "address": "서울 종로구 창경궁로22길 11-4",
+      "phone": "02-2072-2163",
+      "province": "서울",
+      "district": "종로구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 293.4,
+      "dividend_rate": 15.0964
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 238.69,
+      "dividend_rate": 15.0964
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 291.33,
+      "dividend_rate": 14.04342
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 257.61,
+      "dividend_rate": 14.04342
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 343.99,
+      "dividend_rate": 10.1032
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 299.03,
+      "dividend_rate": 10.1032
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0101",
+      "name": "청운효자동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0102",
+      "name": "광화문",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0103",
+      "name": "사직동",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0104",
+      "name": "삼청",
+      "province": "서울",
+      "district": "종로구"
+    },
+    {
+      "gmgoCd": "0105",
+      "name": "세검정",
+      "province": "서울",
+      "district": "종로구"
+    }
+  ]
+}

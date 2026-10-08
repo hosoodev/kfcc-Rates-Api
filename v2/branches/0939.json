@@ -1,0 +1,150 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0939",
+  "name": "금천남부",
+  "meta": {
+    "head_office": {
+      "name": "금천남부(본점)",
+      "address": "서울 금천구 금하로 724-1",
+      "phone": "02-896-0411",
+      "province": "서울",
+      "district": "금천구"
+    },
+    "branches": [
+      {
+        "name": "금천남부(시흥3동)",
+        "address": "서울 금천구 시흥대로 78",
+        "phone": "02-896-8214",
+        "district": "금천구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.3,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.7,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.45,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.9,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.45,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.3,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 12.67,
+      "dividend_rate": 2.79999
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 15.27,
+      "dividend_rate": 2.79999
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 13.3,
+      "dividend_rate": 2.50684
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 13.82,
+      "dividend_rate": 2.50684
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 14.84,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 16.65,
+      "dividend_rate": 4.50001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0935",
+      "name": "금천중앙",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0936",
+      "name": "다원",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0937",
+      "name": "독산동",
+      "province": "서울",
+      "district": "금천구"
+    },
+    {
+      "gmgoCd": "0940",
+      "name": "시흥",
+      "province": "서울",
+      "district": "금천구"
+    }
+  ]
+}

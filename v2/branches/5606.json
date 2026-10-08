@@ -1,0 +1,162 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5606",
+  "name": "별빛",
+  "meta": {
+    "head_office": {
+      "name": "별빛(본점)",
+      "address": "경북 영천시 금호읍 금호로 138",
+      "phone": "054-334-0313",
+      "province": "경북",
+      "district": "영천시"
+    },
+    "branches": [
+      {
+        "name": "별빛(청통)",
+        "address": "경북 영천시 청통면 금송로 947",
+        "phone": "054-335-3844",
+        "district": "영천시"
+      },
+      {
+        "name": "별빛(신녕)",
+        "address": "경북 영천시 신녕면 장수로 1680",
+        "phone": "054-332-0786",
+        "district": "영천시"
+      },
+      {
+        "name": "별빛(화산)",
+        "address": "경북 영천시 화산면 장수로 913-2",
+        "phone": "054-335-6642",
+        "district": "영천시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.2,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.2,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.2,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 8.46,
+      "dividend_rate": 2.4966
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 8.94,
+      "dividend_rate": 2.4966
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 9.89,
+      "dividend_rate": 4.01081
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 9.23,
+      "dividend_rate": 4.01081
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 8.71,
+      "dividend_rate": 4.50008
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.05,
+      "dividend_rate": 4.50008
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5601",
+      "name": "영동",
+      "province": "경북",
+      "district": "영천시"
+    },
+    {
+      "gmgoCd": "5602",
+      "name": "교동",
+      "province": "경북",
+      "district": "영천시"
+    },
+    {
+      "gmgoCd": "5603",
+      "name": "영천",
+      "province": "경북",
+      "district": "영천시"
+    },
+    {
+      "gmgoCd": "5605",
+      "name": "금호",
+      "province": "경북",
+      "district": "영천시"
+    }
+  ]
+}

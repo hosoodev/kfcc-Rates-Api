@@ -1,0 +1,168 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3847",
+  "name": "수원중앙",
+  "meta": {
+    "head_office": {
+      "name": "수원중앙(본점)",
+      "address": "경기 수원시 팔달구 정조로 818",
+      "phone": "031-251-8240",
+      "province": "경기",
+      "district": "수원시"
+    },
+    "branches": [
+      {
+        "name": "수원중앙(신안동)",
+        "address": "경기 수원시 팔달구 화서문로 52",
+        "phone": "031-253-0045",
+        "district": "수원시"
+      },
+      {
+        "name": "수원중앙(광교)",
+        "address": "경기 수원시 영통구 광교로 146",
+        "phone": "031-240-3664",
+        "district": "수원시"
+      },
+      {
+        "name": "수원중앙(능실)",
+        "address": "경기 수원시 권선구 호매실로104번길 24-43",
+        "phone": "031-248-2350",
+        "district": "수원시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.2,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.1,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.6,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.1,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 13.03,
+      "dividend_rate": 2.7
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 13.62,
+      "dividend_rate": 2.7
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 11.66,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 13.98,
+      "dividend_rate": 2.49999
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.27,
+      "dividend_rate": 4.2
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 13.93,
+      "dividend_rate": 4.2
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3808",
+      "name": "수원서부",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3809",
+      "name": "서호",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3815",
+      "name": "팔달",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3818",
+      "name": "남수원",
+      "province": "경기",
+      "district": "수원시"
+    },
+    {
+      "gmgoCd": "3823",
+      "name": "마이크로웍스",
+      "province": "경기",
+      "district": "수원시"
+    }
+  ]
+}

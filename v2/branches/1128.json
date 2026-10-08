@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1128",
+  "name": "한국무역협회",
+  "meta": {
+    "head_office": {
+      "name": "한국무역협회(본점)",
+      "address": "서울 강남구 영동대로 511",
+      "phone": "02-6000-5088",
+      "province": "서울",
+      "district": "강남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 486.93,
+      "dividend_rate": 4.97626
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 531.87,
+      "dividend_rate": 4.97626
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 508.72,
+      "dividend_rate": 5.15236
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 508.96,
+      "dividend_rate": 5.15236
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 387.23,
+      "dividend_rate": 5.14394
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 351.91,
+      "dividend_rate": 5.14394
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1111",
+      "name": "청담동",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1112",
+      "name": "대왕",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1116",
+      "name": "강남영동",
+      "province": "서울",
+      "district": "강남구"
+    }
+  ]
+}

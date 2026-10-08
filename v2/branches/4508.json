@@ -1,0 +1,186 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4508",
+  "name": "우리",
+  "meta": {
+    "head_office": {
+      "name": "우리(본점)",
+      "address": "충북 청주시 상당구 영운로 165",
+      "phone": "043-256-6051",
+      "province": "충북",
+      "district": "청주시"
+    },
+    "branches": [
+      {
+        "name": "우리(석교)",
+        "address": "충북 청주시 상당구 상당로1번길 28",
+        "phone": "043-256-6021",
+        "district": "청주시"
+      },
+      {
+        "name": "우리(율량)",
+        "address": "충북 청주시 청원구 1순환로 152",
+        "phone": "043-263-6051",
+        "district": "청주시"
+      },
+      {
+        "name": "우리(오송)",
+        "address": "충북 청주시 흥덕구 오송읍 오송생명8로 223",
+        "phone": "043-235-6051",
+        "district": "청주시"
+      },
+      {
+        "name": "우리(북문로)",
+        "address": "충청북도 청주시 상당구 상당로131번길 4",
+        "phone": "043-259-8361",
+        "district": "청주시"
+      },
+      {
+        "name": "우리(비하)",
+        "address": "충청북도 청주시 흥덕구 2순환로 1106",
+        "phone": "043-232-4924",
+        "district": "청주시"
+      },
+      {
+        "name": "우리(수곡)",
+        "address": "충청북도 청주시 서원구 구룡산로 311",
+        "phone": "043-287-8361",
+        "district": "청주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.6,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.4,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.2,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.6,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.4,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 5.84,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 6.1,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.12,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 6.48,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 6.76,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 7.69,
+      "dividend_rate": 4.50001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4504",
+      "name": "서원",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4507",
+      "name": "내율사",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4510",
+      "name": "우암",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4511",
+      "name": "미래",
+      "province": "충북",
+      "district": "청주시"
+    },
+    {
+      "gmgoCd": "4512",
+      "name": "제일",
+      "province": "충북",
+      "district": "청주시"
+    }
+  ]
+}

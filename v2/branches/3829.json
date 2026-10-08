@@ -1,0 +1,108 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3829",
+  "name": "삼성에스디아이",
+  "meta": {
+    "head_office": {
+      "name": "삼성에스디아이(본점)",
+      "address": "경기 용인시 기흥구 공세로 150-20",
+      "phone": "031-288-4181",
+      "province": "경기",
+      "district": "용인시"
+    },
+    "branches": [
+      {
+        "name": "삼성에스디아이(울산)",
+        "address": "울산 울주군 삼남읍 반구대로 163",
+        "phone": "055-380-1233",
+        "district": "울주군"
+      },
+      {
+        "name": "삼성에스디아이(천안)",
+        "address": "충남 천안시 서북구 번영로 467",
+        "phone": "041-560-3173",
+        "district": "천안시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 17.52,
+      "dividend_rate": 2.91492
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 15.69,
+      "dividend_rate": 2.91492
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 14.25,
+      "dividend_rate": 3.48066
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 14.49,
+      "dividend_rate": 3.48066
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 14.77,
+      "dividend_rate": 4.9348
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 14.53,
+      "dividend_rate": 4.9348
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3848",
+      "name": "서용인",
+      "province": "경기",
+      "district": "용인시"
+    },
+    {
+      "gmgoCd": "3849",
+      "name": "우리용인",
+      "province": "경기",
+      "district": "용인시"
+    },
+    {
+      "gmgoCd": "3850",
+      "name": "용인제일",
+      "province": "경기",
+      "district": "용인시"
+    },
+    {
+      "gmgoCd": "3951",
+      "name": "용인중앙",
+      "province": "경기",
+      "district": "용인시"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4145",
+  "name": "파주",
+  "meta": {
+    "head_office": {
+      "name": "파주(본점)",
+      "address": "경기 파주시 경의로 1090",
+      "phone": "031-947-0626",
+      "province": "경기",
+      "district": "파주시"
+    },
+    "branches": [
+      {
+        "name": "파주(파주제1)",
+        "address": "경기 파주시 파주읍 혜음로 1696-1",
+        "phone": "031-952-6383",
+        "district": "파주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 3.08,
+          "s": "w"
+        },
+        "6": {
+          "r": 3.58,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.91,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 3.01,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.01,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.01,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.5,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.91,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "6",
+      "r": 3.01,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 2.18,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 5.44,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "4",
+      "bis_ratio": 4.38,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 6.49,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 7.01,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 7.17,
+      "dividend_rate": 0.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4124",
+      "name": "우리",
+      "province": "경기",
+      "district": "파주시"
+    },
+    {
+      "gmgoCd": "4141",
+      "name": "파주중앙",
+      "province": "경기",
+      "district": "파주시"
+    }
+  ]
+}

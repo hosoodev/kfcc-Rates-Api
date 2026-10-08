@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "1111",
+  "name": "청담동",
+  "meta": {
+    "head_office": {
+      "name": "청담동(본점)",
+      "address": "서울 강남구 삼성로 753",
+      "phone": "02-542-3127",
+      "province": "서울",
+      "district": "강남구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.5,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.53,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.53,
+      "s": "m"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 5.28,
+      "dividend_rate": 1.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 6.14,
+      "dividend_rate": 1.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 5.05,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 6.56,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 6.34,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 5.65,
+      "dividend_rate": 4.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0722",
+      "name": "세종",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1112",
+      "name": "대왕",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1114",
+      "name": "강남중앙",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1116",
+      "name": "강남영동",
+      "province": "서울",
+      "district": "강남구"
+    },
+    {
+      "gmgoCd": "1128",
+      "name": "한국무역협회",
+      "province": "서울",
+      "district": "강남구"
+    }
+  ]
+}

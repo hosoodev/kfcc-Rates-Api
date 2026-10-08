@@ -1,0 +1,174 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6407",
+  "name": "참진주",
+  "meta": {
+    "head_office": {
+      "name": "참진주(본점)",
+      "address": "경상남도 진주시 솔밭로 91",
+      "phone": "055-755-1926",
+      "province": "경남",
+      "district": "진주시"
+    },
+    "branches": [
+      {
+        "name": "참진주(상봉)",
+        "address": "경상남도 진주시 비봉로81번길 12",
+        "phone": "055-742-8929",
+        "district": "진주시"
+      },
+      {
+        "name": "참진주(금산)",
+        "address": "경상남도 진주시 금산면 금산로 99",
+        "phone": "055-761-7750",
+        "district": "진주시"
+      },
+      {
+        "name": "참진주(대곡)",
+        "address": "경상남도 진주시 대곡면 남강로2438번길 55",
+        "phone": "055-744-2690",
+        "district": "진주시"
+      },
+      {
+        "name": "참진주(문산)",
+        "address": "경상남도 진주시 문산읍 월아산로 1090",
+        "phone": "055-761-5379",
+        "district": "진주시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "w"
+        },
+        "6": {
+          "r": 2.5,
+          "s": "w"
+        },
+        "12": {
+          "r": 3.3,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.3,
+      "s": "w"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "3",
+      "bis_ratio": 12.19,
+      "dividend_rate": 1.5
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 13.9,
+      "dividend_rate": 1.5
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 14.28,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.99,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 13.34,
+      "dividend_rate": 4.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.92,
+      "dividend_rate": 4.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3568",
+      "name": "LH",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6401",
+      "name": "망경",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6402",
+      "name": "진주남부",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6404",
+      "name": "제일",
+      "province": "경남",
+      "district": "진주시"
+    },
+    {
+      "gmgoCd": "6408",
+      "name": "서부",
+      "province": "경남",
+      "district": "진주시"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "5028",
+  "name": "남부안",
+  "meta": {
+    "head_office": {
+      "name": "남부안(본점)",
+      "address": "전북 부안군 진서면 청자로 953",
+      "phone": "063-582-7240",
+      "province": "전북",
+      "district": "부안군"
+    },
+    "branches": [
+      {
+        "name": "남부안(줄포)",
+        "address": "전북 부안군 줄포면 줄포중앙로 31",
+        "phone": "063-583-2907",
+        "district": "부안군"
+      },
+      {
+        "name": "남부안(보안)",
+        "address": "전북 부안군 보안면 영전길 11",
+        "phone": "063-582-3343",
+        "district": "부안군"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        },
+        "3": {
+          "r": 0.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 0.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 2.9,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 5.78,
+      "dividend_rate": 1.5
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 6.33,
+      "dividend_rate": 1.5
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 6.67,
+      "dividend_rate": 1.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 7.39,
+      "dividend_rate": 1.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 8.33,
+      "dividend_rate": 5.0
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 8.48,
+      "dividend_rate": 5.0
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "5021",
+      "name": "부령",
+      "province": "전북",
+      "district": "부안군"
+    }
+  ]
+}

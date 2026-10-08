@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "4827",
+  "name": "휴비스",
+  "meta": {
+    "head_office": {
+      "name": "휴비스(본점)",
+      "address": "전북 전주시 덕진구 기린대로 787",
+      "phone": "063-210-2252",
+      "province": "전북",
+      "district": "전주시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 131.55,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 129.02,
+      "dividend_rate": 4.00001
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 140.73,
+      "dividend_rate": 4.50015
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 161.46,
+      "dividend_rate": 4.50015
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 153.04,
+      "dividend_rate": 5.40017
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 161.16,
+      "dividend_rate": 5.40017
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "4803",
+      "name": "남전주",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4805",
+      "name": "열린",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4808",
+      "name": "늘푸른",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4809",
+      "name": "중부",
+      "province": "전북",
+      "district": "전주시"
+    },
+    {
+      "gmgoCd": "4810",
+      "name": "동부",
+      "province": "전북",
+      "district": "전주시"
+    }
+  ]
+}

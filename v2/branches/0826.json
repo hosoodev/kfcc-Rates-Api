@@ -1,0 +1,94 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "0826",
+  "name": "한국방송공사",
+  "meta": {
+    "head_office": {
+      "name": "한국방송공사(본점)",
+      "address": "서울 영등포구 여의공원로 13",
+      "phone": "02-781-2922",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {}
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "1",
+      "bis_ratio": 198.37,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "1",
+      "bis_ratio": 196.39,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "1",
+      "bis_ratio": 188.79,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "1",
+      "bis_ratio": 191.87,
+      "dividend_rate": 3.5
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "1",
+      "bis_ratio": 179.91,
+      "dividend_rate": 3.50035
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "1",
+      "bis_ratio": 185.35,
+      "dividend_rate": 3.50035
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0801",
+      "name": "영등포본동",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0802",
+      "name": "영등포중앙",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0803",
+      "name": "영등포제일",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0804",
+      "name": "영등포당산",
+      "province": "서울",
+      "district": "영등포구"
+    },
+    {
+      "gmgoCd": "0807",
+      "name": "도림",
+      "province": "서울",
+      "district": "영등포구"
+    }
+  ]
+}

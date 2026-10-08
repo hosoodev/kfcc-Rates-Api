@@ -1,0 +1,83 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6528",
+  "name": "고성",
+  "meta": {
+    "head_office": {
+      "name": "고성(본점)",
+      "address": "경남 고성군 고성읍 중앙로43번길 8-1",
+      "phone": "055-674-6801",
+      "province": "경남",
+      "district": "고성군"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 19.7,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 18.46,
+      "dividend_rate": 3.2
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "2",
+      "bis_ratio": 20.09,
+      "dividend_rate": 4.00129
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 20.03,
+      "dividend_rate": 4.00129
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 19.84,
+      "dividend_rate": 4.0004
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 19.94,
+      "dividend_rate": 4.0004
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6537",
+      "name": "새고성",
+      "province": "경남",
+      "district": "고성군"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+name: Deploy static API to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v2/**'
+      - 'CNAME'
+      - 'robots.txt'
+      - '.nojekyll'
+      - '.github/workflows/deploy-pages.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout static data
+        uses: actions/checkout@v4
+
+      - name: Validate public files and static API
+        shell: bash
+        run: |
+          python - <<'PY'
+          import gzip
+          import json
+          import subprocess
+          from pathlib import Path
+
+          root = Path('v2')
+          required = [
+              'main.json', 'status.json', 'meta/banks.json',
+              'rates/summary.json', 'rates/deposit/all.json',
+              'rates/saving/all.json', 'rates/demand/all.json',
+              'grades/index.json',
+          ]
+          allowed = {
+              'README.md', 'CNAME', 'robots.txt', '.nojekyll',
+              '.gitignore', 'LICENSE', 'LICENSE.md',
+              '.github/workflows/deploy-pages.yml',
+          }
+          tracked = subprocess.check_output(
+              ['git', 'ls-files', '-z'], text=True
+          ).split('\0')
+          unexpected = [
+              name for name in tracked
+              if name and name not in allowed and not name.startswith('v2/')
+          ]
+          if unexpected:
+              raise SystemExit(f'Unexpected public repository files: {unexpected}')
+          if not root.is_dir() or root.is_symlink():
+              raise SystemExit('v2 must be a regular directory')
+          for name in required:
+              if not (root / name).is_file():
+                  raise SystemExit(f'Missing API endpoint: {name}')
+          if not any((root / 'branches').glob('*.json')):
+              raise SystemExit('Missing branch API data')
+
+          def reject_constant(value):
+              raise ValueError(f'Invalid JSON constant: {value}')
+
+          count = 0
+          for path in sorted(root.rglob('*')):
+              if path.is_symlink():
+                  raise SystemExit(f'Symlinks are not allowed: {path}')
+              if path.is_dir():
+                  continue
+              if path.name.endswith('.json.gz'):
+                  with gzip.open(path, 'rt', encoding='utf-8') as stream:
+                      json.load(stream, parse_constant=reject_constant)
+              elif path.suffix == '.json':
+                  with path.open(encoding='utf-8') as stream:
+                      json.load(stream, parse_constant=reject_constant)
+              else:
+                  raise SystemExit(f'Unexpected file in v2: {path}')
+              count += 1
+          if Path('CNAME').read_text(encoding='utf-8').strip() != 'api.mgija.com':
+              raise SystemExit('CNAME must remain api.mgija.com')
+          if not Path('.nojekyll').is_file():
+              raise SystemExit('Missing .nojekyll')
+          if Path('robots.txt').read_text(encoding='utf-8').strip() != 'User-agent: *\nDisallow: /':
+              raise SystemExit('robots.txt must exclude this API from search indexing')
+          print(f'Validated {count} static JSON/gzip files and required API endpoints')
+          PY
+
+  deploy:
+    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout static data
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare static artifact
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/pages-static"
+          cp -a v2 "$RUNNER_TEMP/pages-static/v2"
+          cp CNAME robots.txt .nojekyll "$RUNNER_TEMP/pages-static/v2/"
+
+      - name: Upload static artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/pages-static/v2
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Revalidate frontend after deployment
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+        shell: bash
+        run: |
+          if [ -z "$SITE_URL" ] || [ -z "$REVALIDATE_SECRET" ]; then
+            echo 'Frontend revalidation secrets are absent; skipping revalidation.'
+            exit 0
+          fi
+          curl --request POST "${SITE_URL%/}/api/revalidate" \
+            --header "x-revalidate-secret: $REVALIDATE_SECRET" \
+            --header 'Content-Type: application/json' \
+            --header 'User-Agent: MGija-Sync-Engine/2.1' \
+            --data '{"tags": ["main", "summary", "rates", "branch", "status"]}' \
+            --retry 3 \
+            --retry-delay 5 \
+            --max-time 30 \
+            --fail --silent --show-error

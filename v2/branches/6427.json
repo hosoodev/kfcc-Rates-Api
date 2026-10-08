@@ -1,0 +1,101 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "6427",
+  "name": "사천",
+  "meta": {
+    "head_office": {
+      "name": "사천(본점)",
+      "address": "경남 사천시 사천읍 평화2길 47",
+      "phone": "055-852-2904",
+      "province": "경남",
+      "district": "사천시"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {},
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": null,
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 16.47,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 19.36,
+      "dividend_rate": 2.8
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 19.55,
+      "dividend_rate": 4.01087
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 21.64,
+      "dividend_rate": 4.01087
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 21.32,
+      "dividend_rate": 4.50001
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 20.86,
+      "dividend_rate": 4.50001
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "6432",
+      "name": "사남",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6433",
+      "name": "삼천포",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6434",
+      "name": "노산",
+      "province": "경남",
+      "district": "사천시"
+    },
+    {
+      "gmgoCd": "6438",
+      "name": "한국항공우주산업㈜",
+      "province": "경남",
+      "district": "사천시"
+    }
+  ]
+}

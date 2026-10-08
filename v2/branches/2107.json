@@ -1,0 +1,156 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "2107",
+  "name": "우리",
+  "meta": {
+    "head_office": {
+      "name": "우리(본점)",
+      "address": "대구 달서구 달구벌대로305길 10",
+      "phone": "053-556-9121",
+      "province": "대구",
+      "district": "달서구"
+    },
+    "branches": [
+      {
+        "name": "우리(용산)",
+        "address": "대구 달서구 용산로 206-1",
+        "phone": "053-526-9121",
+        "district": "달서구"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 2.7,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.5,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 3.3,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.15,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 3.5,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 8.88,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 8.86,
+      "dividend_rate": 3.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 8.4,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "2",
+      "bis_ratio": 8.99,
+      "dividend_rate": 2.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 9.32,
+      "dividend_rate": 4.00003
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 10.25,
+      "dividend_rate": 4.00003
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "2103",
+      "name": "두류1.2동",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2105",
+      "name": "두류",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2106",
+      "name": "성일",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2108",
+      "name": "서부",
+      "province": "대구",
+      "district": "달서구"
+    },
+    {
+      "gmgoCd": "2109",
+      "name": "달서",
+      "province": "대구",
+      "district": "달서구"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-08-08T02:31:00+09:00",
+  "gmgoCd": "0311",
+  "name": "한강로3가",
+  "meta": {
+    "head_office": {
+      "name": "한강로3가(본점)",
+      "address": "서울 용산구 한강대로14길 16",
+      "phone": "02-794-7617",
+      "province": "서울",
+      "district": "용산구"
+    },
+    "branches": []
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "12": {
+          "r": 3.63,
+          "s": "w"
+        }
+      }
+    },
+    "saving": {},
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.63,
+      "s": "w"
+    },
+    "saving": null
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20251231",
+      "grade": "3",
+      "bis_ratio": 10.8,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 12.03,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 10.23,
+      "dividend_rate": 0.0
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "3",
+      "bis_ratio": 10.6,
+      "dividend_rate": 3.50002
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "3",
+      "bis_ratio": 12.04,
+      "dividend_rate": 3.50002
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "0303",
+      "name": "용산",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0304",
+      "name": "청파",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0307",
+      "name": "효창",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0308",
+      "name": "용문후암",
+      "province": "서울",
+      "district": "용산구"
+    },
+    {
+      "gmgoCd": "0310",
+      "name": "한강2동",
+      "province": "서울",
+      "district": "용산구"
+    }
+  ]
+}

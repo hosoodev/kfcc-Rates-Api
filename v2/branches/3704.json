@@ -1,0 +1,168 @@
+{
+  "updated_at": "2026-10-08T21:30:48+09:00",
+  "gmgoCd": "3704",
+  "name": "제일",
+  "meta": {
+    "head_office": {
+      "name": "제일(본점)",
+      "address": "경기 광명시 광명로 773",
+      "phone": "02-2612-8313",
+      "province": "경기",
+      "district": "광명시"
+    },
+    "branches": [
+      {
+        "name": "제일(새터로)",
+        "address": "경기 광명시 오리로 935-1",
+        "phone": "02-2616-5074",
+        "district": "광명시"
+      },
+      {
+        "name": "제일(소하)",
+        "address": "경기 광명시 금하로 535",
+        "phone": "02-899-0092",
+        "district": "광명시"
+      },
+      {
+        "name": "제일(도덕로)",
+        "address": "경기 광명시 도덕로 49",
+        "phone": "02-2612-5912",
+        "district": "광명시"
+      },
+      {
+        "name": "제일(신촌)",
+        "address": "경기 광명시 하안로 108",
+        "phone": "02-6112-8310",
+        "district": "광명시"
+      }
+    ]
+  },
+  "rates": {
+    "deposit": {
+      "MG더뱅킹정기예금": {
+        "3": {
+          "r": 2.0,
+          "s": "m"
+        },
+        "6": {
+          "r": 2.1,
+          "s": "m"
+        },
+        "12": {
+          "r": 3.0,
+          "s": "m"
+        }
+      }
+    },
+    "saving": {
+      "MG더뱅킹정기적금": {
+        "6": {
+          "r": 1.8,
+          "s": "m"
+        },
+        "12": {
+          "r": 2.3,
+          "s": "m"
+        }
+      },
+      "MG더뱅킹자유적금": {
+        "12": {
+          "r": 1.8,
+          "s": "m"
+        }
+      }
+    },
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.1,
+          "s": "w"
+        }
+      },
+      "상상모바일통장": {
+        "0": {
+          "r": 0.1,
+          "s": "m"
+        }
+      }
+    }
+  },
+  "top_picks": {
+    "deposit": {
+      "name": "MG더뱅킹정기예금",
+      "month": "12",
+      "r": 3.0,
+      "s": "m"
+    },
+    "saving": {
+      "name": "MG더뱅킹정기적금",
+      "month": "12",
+      "r": 2.3,
+      "s": "m"
+    }
+  },
+  "disclosure_history": [
+    {
+      "evaluation_date": "20260630",
+      "grade": "2",
+      "bis_ratio": 11.71,
+      "dividend_rate": 3.30033
+    },
+    {
+      "evaluation_date": "20251231",
+      "grade": "2",
+      "bis_ratio": 12.72,
+      "dividend_rate": 3.30033
+    },
+    {
+      "evaluation_date": "20250630",
+      "grade": "3",
+      "bis_ratio": 11.48,
+      "dividend_rate": 3.00006
+    },
+    {
+      "evaluation_date": "20241231",
+      "grade": "3",
+      "bis_ratio": 12.05,
+      "dividend_rate": 3.00006
+    },
+    {
+      "evaluation_date": "20240630",
+      "grade": "2",
+      "bis_ratio": 11.63,
+      "dividend_rate": 4.818
+    },
+    {
+      "evaluation_date": "20231231",
+      "grade": "2",
+      "bis_ratio": 12.14,
+      "dividend_rate": 4.818
+    }
+  ],
+  "nearby_branches": [
+    {
+      "gmgoCd": "3703",
+      "name": "광남",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3708",
+      "name": "기아",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3735",
+      "name": "광명동부",
+      "province": "경기",
+      "district": "광명시"
+    },
+    {
+      "gmgoCd": "3737",
+      "name": "광명",
+      "province": "경기",
+      "district": "광명시"
+    }
+  ]
+}
