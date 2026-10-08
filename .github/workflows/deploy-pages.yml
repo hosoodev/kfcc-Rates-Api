@@ -2,7 +2,6 @@ name: Deploy static API to GitHub Pages
 
 on:
   push:
-    branches: [main]
     paths:
       - 'v2/**'
       - 'CNAME'
