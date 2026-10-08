@@ -1,9 +1,9 @@
 {
   "version": 1,
   "renderer_version": "2",
-  "generated_at": "2026-10-07T22:14:32.230399+00:00",
+  "generated_at": "2026-10-08T22:13:04.644413+00:00",
   "source": {
-    "banks_file": "api-data/v2/meta/banks.json"
+    "banks_file": "state/v2/meta/banks.json"
   },
   "images": {
     "0101": {
@@ -4078,10 +4078,6 @@
       "hash": "2e503bf1a76b259a71a53eff47fb06170861303ce49b099093f08fa58cb85615",
       "path": "images/6103.png"
     },
-    "6105": {
-      "hash": "daeb39fd87708e05daad4a24d46294310a2d809e7a8c84b82175126e5d8226a8",
-      "path": "images/6105.png"
-    },
     "6106": {
       "hash": "81f2a2ec9807f6244959b2fe640f77248e889891f4d45242c94641c33e990e58",
       "path": "images/6106.png"
@@ -4289,10 +4285,6 @@
     "6264": {
       "hash": "a5712ba315d85b1dac6cb5cb528ee2cac93f90164d6f73ac4477d65398c8505b",
       "path": "images/6264.png"
-    },
-    "6266": {
-      "hash": "cb56eb3bcc9d5e0f40e26ddb8b9e8c30dcdc2684c2b9f92a4e4821fd6035c97f",
-      "path": "images/6266.png"
     },
     "6267": {
       "hash": "3e8725049d6f9d412f8d26fbf9c582691270ae9d1638b16440a00f989cacc0c6",
