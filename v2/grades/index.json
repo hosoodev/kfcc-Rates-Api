@@ -1,10 +1,25 @@
 {
   "metadata": {
-    "updated_at": "2026-04-18T00:26:51.976889",
-    "total_versions": 5,
+    "updated_at": "2026-10-08T13:24:53.547152",
+    "total_versions": 6,
     "description": "새마을금고 경영실태평가(등급) 수집 데이터 인덱스"
   },
   "versions": [
+    {
+      "year": "2026",
+      "month": 6,
+      "version": "2026-06",
+      "filename": "grades_2026_06.json",
+      "total_banks": 1158,
+      "summary": {
+        "1": 119,
+        "2": 554,
+        "3": 359,
+        "4": 118,
+        "5": 8
+      },
+      "collected_at": "2026-10-08T13:24:53.450007"
+    },
     {
       "year": "2025",
       "month": 12,
