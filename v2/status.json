@@ -1,28 +1,34 @@
 {
-  "last_checked_at": "2026-10-14T14:30:49.135227",
-  "last_modified_at": "2026-10-14T14:30:49.135227",
+  "last_checked_at": "2026-10-14T16:30:52.998850",
+  "last_modified_at": "2026-10-14T16:30:52.998850",
   "status": "success",
-  "description": "성공: 총 2개 금고(금성동(본점), 새경산(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 8개 금고(능동(본점), 새종암(본점), 은평(본점), 한양(본점), 파주(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-14T14:30:49.135227",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-14T16:30:52.998850",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "금성동(본점)"
+        "우장산(본점)",
+        "은평(본점)",
+        "능동(본점)",
+        "한양(본점)",
+        "새종암(본점)",
+        "파주(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1618,
-      "last_updated_at": "2026-10-14T14:30:49.135227",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-14T16:30:52.998850",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "새경산(본점)"
+        "우장산(본점)",
+        "파주(본점)"
       ]
     },
     "demand": {
