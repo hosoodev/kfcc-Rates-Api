@@ -1,32 +1,28 @@
 {
-  "last_checked_at": "2026-10-14T10:13:03.374349",
-  "last_modified_at": "2026-10-14T10:13:03.374349",
+  "last_checked_at": "2026-10-14T10:30:47.892970",
+  "last_modified_at": "2026-10-14T10:30:47.892970",
   "status": "success",
-  "description": "성공: 총 6개 금고(능동(본점), 범곡(본점), 은평(본점), 서달로(본점), 금오(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(동두천중앙(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-14T10:13:03.374349",
-      "updated_banks_count": 5,
-      "description": "5개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-14T10:30:47.892970",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서달로(본점)",
-        "은평(본점)",
-        "능동(본점)",
-        "범곡(본점)",
-        "금오(본점)"
+        "동두천중앙(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1618,
-      "last_updated_at": "2026-10-14T10:13:03.374349",
+      "last_updated_at": "2026-10-14T10:30:47.892970",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "범곡(본점)"
+        "동두천중앙(본점)"
       ]
     },
     "demand": {
