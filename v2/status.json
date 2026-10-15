@@ -1,29 +1,28 @@
 {
-  "last_checked_at": "2026-10-15T12:30:32.564105",
-  "last_modified_at": "2026-10-15T12:30:32.564105",
+  "last_checked_at": "2026-10-15T14:30:40.877028",
+  "last_modified_at": "2026-10-15T14:30:40.877028",
   "status": "success",
-  "description": "성공: 총 3개 금고(신전주(본점), 북부산(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(구일(본점), 남구희망(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-15T12:30:32.564105",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-15T14:30:40.877028",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "북부산(본점)",
-        "신전주(본점)"
+        "구일(본점)"
       ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1618,
-      "last_updated_at": "2026-10-15T12:30:32.564105",
+      "last_updated_at": "2026-10-15T14:30:40.877028",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "북부산(본점)"
+        "남구희망(본점)"
       ]
     },
     "demand": {
