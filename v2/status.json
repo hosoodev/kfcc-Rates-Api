@@ -1,25 +1,37 @@
 {
-  "last_checked_at": "2026-10-16T08:30:30.441697",
-  "last_modified_at": "2026-10-16T05:30:38.369029",
+  "last_checked_at": "2026-10-16T10:30:34.409166",
+  "last_modified_at": "2026-10-16T10:30:34.409166",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 10개 금고(중부(본점), 해평(본점), 종로서부(본점), 새중앙(본점), 사직동(본점) 외 3곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 958,
       "total_items": 958,
-      "last_updated_at": "2026-10-16T05:30:38.369029",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-10-16T10:30:34.409166",
+      "updated_banks_count": 7,
+      "description": "7개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서초제일(본점)",
+        "청운효자동(본점)",
+        "종로서부(본점)",
+        "사직동(본점)",
+        "새중앙(본점)",
+        "형곡(본점)",
+        "해평(본점)"
+      ]
     },
     "saving": {
       "total_banks": 844,
       "total_items": 1618,
-      "last_updated_at": "2026-10-16T05:30:38.369029",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-10-16T10:30:34.409166",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "사직동(본점)",
+        "새중앙(본점)",
+        "중부(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1145,
