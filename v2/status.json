@@ -1,29 +1,30 @@
 {
-  "last_checked_at": "2026-10-19T16:30:44.992862",
-  "last_modified_at": "2026-10-19T16:30:44.992862",
+  "last_checked_at": "2026-10-19T18:30:47.003486",
+  "last_modified_at": "2026-10-19T18:30:47.003486",
   "status": "success",
-  "description": "성공: 총 3개 금고(만평(본점), 서울송파(본점), 서울장위(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(북제주(본점), 하나(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 959,
       "total_items": 959,
-      "last_updated_at": "2026-10-19T16:30:44.992862",
-      "updated_banks_count": 3,
-      "description": "3개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-19T18:30:47.003486",
+      "updated_banks_count": 2,
+      "description": "2개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "서울송파(본점)",
-        "서울장위(본점)",
-        "만평(본점)"
+        "북제주(본점)",
+        "하나(본점)"
       ]
     },
     "saving": {
       "total_banks": 845,
       "total_items": 1620,
-      "last_updated_at": "2026-10-19T12:30:47.092259",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-10-19T18:30:47.003486",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "북제주(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1145,
