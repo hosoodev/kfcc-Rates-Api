@@ -1,20 +1,20 @@
 {
-  "last_checked_at": "2026-10-19T14:30:50.674295",
-  "last_modified_at": "2026-10-19T14:30:50.674295",
+  "last_checked_at": "2026-10-19T16:30:44.992862",
+  "last_modified_at": "2026-10-19T16:30:44.992862",
   "status": "success",
-  "description": "성공: 총 3개 금고(서울송파(본점), 성북제일(본점), 서울장위(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(만평(본점), 서울송파(본점), 서울장위(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 959,
       "total_items": 959,
-      "last_updated_at": "2026-10-19T14:30:50.674295",
+      "last_updated_at": "2026-10-19T16:30:44.992862",
       "updated_banks_count": 3,
       "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울송파(본점)",
-        "성북제일(본점)",
-        "서울장위(본점)"
+        "서울장위(본점)",
+        "만평(본점)"
       ]
     },
     "saving": {
