@@ -1,24 +1,18 @@
 {
-  "last_checked_at": "2026-10-22T10:30:54.086719",
-  "last_modified_at": "2026-10-22T10:30:54.086719",
+  "last_checked_at": "2026-10-22T12:30:42.058610",
+  "last_modified_at": "2026-10-22T12:30:42.058610",
   "status": "success",
-  "description": "성공: 총 7개 금고(은평(본점), 청운효자동(본점), 성내(본점), 종로서부(본점), 성동행당(본점) 외 2곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(상도(본점), 마산남부(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 959,
       "total_items": 959,
-      "last_updated_at": "2026-10-22T10:30:54.086719",
-      "updated_banks_count": 7,
-      "description": "7개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-22T12:30:42.058610",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "은평(본점)",
-        "능동(본점)",
-        "성북(본점)",
-        "성동행당(본점)",
-        "청운효자동(본점)",
-        "종로서부(본점)",
-        "성내(본점)"
+        "상도(본점)"
       ]
     },
     "saving": {
@@ -32,10 +26,12 @@
     "demand": {
       "total_banks": 1145,
       "total_items": 2174,
-      "last_updated_at": "2026-10-21T10:30:44.601366",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-10-22T12:30:42.058610",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "마산남부(본점)"
+      ]
     }
   }
 }
