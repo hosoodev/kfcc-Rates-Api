@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-10-23T16:30:43.116611",
-  "last_modified_at": "2026-10-23T16:30:43.116611",
+  "last_checked_at": "2026-10-23T18:30:58.985612",
+  "last_modified_at": "2026-10-23T18:30:58.985612",
   "status": "success",
-  "description": "성공: 총 1개 금고(성내(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(서초제일(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-10-23T16:30:43.116611",
+      "last_updated_at": "2026-10-23T18:30:58.985612",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성내(본점)"
+        "서초제일(본점)"
       ]
     },
     "saving": {
@@ -34,8 +34,8 @@
   },
   "last_base_success_at": "2026-10-23T09:12:34.819709+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-10-23T16:30:43.118956+09:00",
+  "last_patch_success_at": "2026-10-23T18:30:58.987678+09:00",
   "last_patch_error": null,
-  "base_age_hours": 7.3,
+  "base_age_hours": 9.31,
   "base_status": "success"
 }
