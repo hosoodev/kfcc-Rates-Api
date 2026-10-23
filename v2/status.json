@@ -50,9 +50,10 @@
     }
   },
   "last_base_success_at": "2026-10-23T09:12:34.819709+09:00",
-  "last_base_error": null,
+  "last_base_error": "Upstream RequestBlocked; collection stopped. GET https://www.kfcc.co.kr/map/list.do?r1=%EC%84%9C%EC%9A%B8&r2=%EA%B0%95%EB%82%A8%EA%B5%AC: HTTP 400; content-type='text/html'; body='<!DOCTYPE HTML PUBLIC \"-//IETF/DTD HTML 2.0//EN\"> <HTML><HEAD> <TITLE>400 Bad Request</TITLE> </HEAD><BODY> <H1>Request Blocked</H1> </BODY></HTML> <br><br><br>'",
   "last_patch_success_at": "2026-10-24T02:31:17.506327+09:00",
   "last_patch_error": null,
-  "base_age_hours": 17.31,
-  "base_status": "success"
+  "base_age_hours": 20.1,
+  "base_status": "failed",
+  "last_base_failure_at": "2026-10-24T05:18:22.958921+09:00"
 }
