@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:30:33+09:00",
+  "updated_at": "2026-10-23T09:16:08+09:00",
   "gmgoCd": "4603",
   "name": "금강",
   "meta": {
@@ -10,7 +10,14 @@
       "province": "충북",
       "district": "청주시"
     },
-    "branches": []
+    "branches": [
+      {
+        "name": "금강(세종부강)",
+        "address": "세종 부강면 부촌길 32",
+        "phone": "044-275-4725",
+        "district": "세종"
+      }
+    ]
   },
   "rates": {
     "deposit": {},
