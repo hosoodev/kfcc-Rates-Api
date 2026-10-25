@@ -1,53 +1,25 @@
 {
-  "last_checked_at": "2026-10-26T02:30:42.210126",
+  "last_checked_at": "2026-10-26T08:30:42.691808",
   "last_modified_at": "2026-10-26T02:30:42.210126",
   "status": "success",
-  "description": "성공: 총 26개 금고(창원한마음(본점), 인삼시장(본점), 난곡(본점), 안산서부(시화1), 광주(본점) 외 15곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
       "last_updated_at": "2026-10-26T02:30:42.210126",
-      "updated_banks_count": 16,
-      "description": "16개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "난곡(본점)",
-        "대연6동(본점)",
-        "문현3동(본점)",
-        "동삼동(본점)",
-        "초량(본점)",
-        "서면(본점)",
-        "시민공원(본점)",
-        "학익(본점)",
-        "행복(본점)",
-        "안산서부(시화1)",
-        "군자(본점)",
-        "안산동부(본점)",
-        "신반월(본점)",
-        "천안(본점)",
-        "남포항(본점)",
-        "창원한마음(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 843,
       "total_items": 1614,
       "last_updated_at": "2026-10-26T02:30:42.210126",
-      "updated_banks_count": 10,
-      "description": "10개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "난곡(본점)",
-        "서울은평(본점)",
-        "동삼동(본점)",
-        "시민공원(본점)",
-        "광주(본점)",
-        "안산서부(시화1)",
-        "군자(본점)",
-        "신반월(본점)",
-        "인삼시장(본점)",
-        "벧엘(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1143,
@@ -61,8 +33,8 @@
   "last_base_success_at": "2026-10-23T09:12:34.819709+09:00",
   "last_base_failure_at": "2026-10-26T04:31:00.758144+09:00",
   "last_base_error": "Upstream RequestBlocked; collection stopped. GET https://www.kfcc.co.kr/map/list.do?r1=%EC%84%9C%EC%9A%B8&r2=%EA%B0%95%EB%82%A8%EA%B5%AC: HTTP 400; content-type='text/html'; body='<!DOCTYPE HTML PUBLIC \"-//IETF/DTD HTML 2.0//EN\"> <HTML><HEAD> <TITLE>400 Bad Request</TITLE> </HEAD><BODY> <H1>Request Blocked</H1> </BODY></HTML> <br><br><br>'",
-  "last_patch_success_at": "2026-10-26T02:30:42.212601+09:00",
+  "last_patch_success_at": "2026-10-26T08:30:42.694468+09:00",
   "last_patch_error": null,
-  "base_age_hours": 67.31,
+  "base_age_hours": 71.3,
   "base_status": "failed"
 }
