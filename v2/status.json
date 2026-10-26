@@ -1,27 +1,61 @@
 {
-  "last_checked_at": "2026-10-26T21:30:52.197964",
-  "last_modified_at": "2026-10-26T21:30:52.197964",
+  "last_checked_at": "2026-10-27T02:30:57.246682",
+  "last_modified_at": "2026-10-27T02:30:57.246682",
   "status": "success",
-  "description": "성공: 총 1개 금고(종로서부(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 34개 금고(한아름(본점), 화도(본점), 수정(본점), 연산6동(본점), 반야월(본점) 외 20곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-10-26T21:30:52.197964",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-10-27T02:30:57.246682",
+      "updated_banks_count": 22,
+      "description": "22개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "종로서부(본점)"
+        "서울개인택시조합(강남)",
+        "영등포중앙(본점)",
+        "대학로(본점)",
+        "문현3동(본점)",
+        "서동(본점)",
+        "금성동(본점)",
+        "영도중앙(본점)",
+        "태종대(본점)",
+        "한아름(본점)",
+        "영도(본점)",
+        "수정(본점)",
+        "반야월(본점)",
+        "무태(본점)",
+        "동운(본점)",
+        "화도(본점)",
+        "파주(본점)",
+        "동해해오름(본점)",
+        "추부(본점)",
+        "신례원(본점)",
+        "금천(본점)",
+        "포항(본점)",
+        "하나(본점)"
       ]
     },
     "saving": {
       "total_banks": 843,
       "total_items": 1614,
-      "last_updated_at": "2026-10-26T18:30:40.986938",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-10-27T02:30:57.246682",
+      "updated_banks_count": 12,
+      "description": "12개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "서울개인택시조합(강남)",
+        "연산6동(본점)",
+        "문현3동(본점)",
+        "서동(본점)",
+        "한아름(본점)",
+        "영도(본점)",
+        "수정(본점)",
+        "반야월(본점)",
+        "화도(본점)",
+        "파주(본점)",
+        "의정부서부(본점)",
+        "송정(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1143,
@@ -35,8 +69,8 @@
   "last_base_success_at": "2026-10-23T09:12:34.819709+09:00",
   "last_base_failure_at": "2026-10-26T04:31:00.758144+09:00",
   "last_base_error": "Upstream RequestBlocked; collection stopped. GET https://www.kfcc.co.kr/map/list.do?r1=%EC%84%9C%EC%9A%B8&r2=%EA%B0%95%EB%82%A8%EA%B5%AC: HTTP 400; content-type='text/html'; body='<!DOCTYPE HTML PUBLIC \"-//IETF/DTD HTML 2.0//EN\"> <HTML><HEAD> <TITLE>400 Bad Request</TITLE> </HEAD><BODY> <H1>Request Blocked</H1> </BODY></HTML> <br><br><br>'",
-  "last_patch_success_at": "2026-10-26T21:30:52.199786+09:00",
+  "last_patch_success_at": "2026-10-27T02:30:57.249476+09:00",
   "last_patch_error": null,
-  "base_age_hours": 84.3,
+  "base_age_hours": 89.31,
   "base_status": "failed"
 }
