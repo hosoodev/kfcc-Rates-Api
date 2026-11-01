@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T21:30:38+09:00",
+  "updated_at": "2026-11-02T00:15:43+09:00",
   "gmgoCd": "1442",
   "name": "남천",
   "meta": {
@@ -22,7 +22,14 @@
   "rates": {
     "deposit": {},
     "saving": {},
-    "demand": {}
+    "demand": {
+      "온라인자립예탁금": {
+        "0": {
+          "r": 0.01,
+          "s": "w"
+        }
+      }
+    }
   },
   "top_picks": {
     "deposit": null,
