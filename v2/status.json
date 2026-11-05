@@ -1,65 +1,27 @@
 {
-  "last_checked_at": "2026-11-06T02:30:52.434787",
-  "last_modified_at": "2026-11-06T02:30:52.434787",
+  "last_checked_at": "2026-11-06T08:30:37.586111",
+  "last_modified_at": "2026-11-06T08:30:37.586111",
   "status": "success",
-  "description": "성공: 총 38개 금고(상도(본점), 상모(본점), 망원(본점), 반고개(본점), 더조은(본점) 외 25곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(북구(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-11-06T02:30:52.434787",
-      "updated_banks_count": 29,
-      "description": "29개 금고 금리 변동 발생",
+      "last_updated_at": "2026-11-06T08:30:37.586111",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "청담동(본점)",
-        "상도(본점)",
-        "문래동(본점)",
-        "신길(본점)",
-        "갈현동(본점)",
-        "e-푸른(본점)",
-        "광진중앙(본점)",
-        "서울미래(본점)",
-        "북서울(본점)",
-        "성북(본점)",
-        "명륜(본점)",
-        "필동(본점)",
-        "늘푸른사상(본점)",
-        "부산동구(본점)",
-        "효성(본점)",
-        "연수(본점)",
-        "부평제일(본점)",
-        "동촌(본점)",
-        "반고개(본점)",
-        "더조은(본점)",
-        "빛고을(본점)",
-        "일산(본점)",
-        "서평택(본점)",
-        "영동(본점)",
-        "한누리(본점)",
-        "화성(본점)",
-        "상모(본점)",
-        "도개(본점)",
-        "서호(본점)"
+        "북구(본점)"
       ]
     },
     "saving": {
       "total_banks": 851,
       "total_items": 1629,
       "last_updated_at": "2026-11-06T02:30:52.434787",
-      "updated_banks_count": 9,
-      "description": "9개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "망원(본점)",
-        "명륜(본점)",
-        "효성(본점)",
-        "연수(본점)",
-        "부평제일(본점)",
-        "반고개(본점)",
-        "서평택(본점)",
-        "영동(본점)",
-        "한누리(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1146,
@@ -73,8 +35,8 @@
   "last_base_success_at": "2026-11-02T00:15:45.299088+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-06T02:30:52.437918+09:00",
+  "last_patch_success_at": "2026-11-06T08:30:37.588228+09:00",
   "last_patch_error": null,
-  "base_age_hours": 98.25,
+  "base_age_hours": 104.25,
   "base_status": "stale"
 }
