@@ -1,18 +1,18 @@
 {
-  "last_checked_at": "2026-11-06T08:30:37.586111",
-  "last_modified_at": "2026-11-06T08:30:37.586111",
+  "last_checked_at": "2026-11-06T10:30:45.924545",
+  "last_modified_at": "2026-11-06T10:30:45.924545",
   "status": "success",
-  "description": "성공: 총 1개 금고(북구(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(신당(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
-      "last_updated_at": "2026-11-06T08:30:37.586111",
+      "last_updated_at": "2026-11-06T10:30:45.924545",
       "updated_banks_count": 1,
       "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "북구(본점)"
+        "신당(본점)"
       ]
     },
     "saving": {
@@ -35,8 +35,8 @@
   "last_base_success_at": "2026-11-02T00:15:45.299088+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-06T08:30:37.588228+09:00",
+  "last_patch_success_at": "2026-11-06T10:30:45.926874+09:00",
   "last_patch_error": null,
-  "base_age_hours": 104.25,
+  "base_age_hours": 106.25,
   "base_status": "stale"
 }
