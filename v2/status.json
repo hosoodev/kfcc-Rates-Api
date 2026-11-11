@@ -1,80 +1,40 @@
 {
-  "last_checked_at": "2026-11-12T02:30:33.418910",
+  "last_checked_at": "2026-11-12T08:30:47.960802",
   "last_modified_at": "2026-11-12T02:30:33.418910",
   "status": "success",
-  "description": "성공: 총 37개 금고(서울송파(본점), 거창(본점), 신도(본점), 새상주(본점), 평상(본점) 외 21곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 962,
       "total_items": 962,
       "last_updated_at": "2026-11-12T02:30:33.418910",
-      "updated_banks_count": 25,
-      "description": "25개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "서울송파(본점)",
-        "동작(본점)",
-        "연산6동(본점)",
-        "회현동(본점)",
-        "청룡동(본점)",
-        "부평중앙(본점)",
-        "이천(본점)",
-        "봉덕3동(본점)",
-        "북구(본점)",
-        "중평(본점)",
-        "정다운(본점)",
-        "울산중부(본점)",
-        "충청(계룡)",
-        "합동(본점)",
-        "당진서부(본점)",
-        "온양(본점)",
-        "지평선(본점)",
-        "신도(본점)",
-        "새상주(본점)",
-        "함창(본점)",
-        "원남(본점)",
-        "거창(본점)",
-        "영포(본점)",
-        "서홍(본점)",
-        "호남(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 851,
       "total_items": 1629,
       "last_updated_at": "2026-11-12T02:30:33.418910",
-      "updated_banks_count": 11,
-      "description": "11개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "연산6동(본점)",
-        "회현동(본점)",
-        "평상(본점)",
-        "중평(본점)",
-        "정다운(본점)",
-        "충청(계룡)",
-        "당진서부(본점)",
-        "지평선(본점)",
-        "새상주(본점)",
-        "함창(본점)",
-        "영포(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "demand": {
       "total_banks": 1146,
       "total_items": 2175,
       "last_updated_at": "2026-11-12T02:30:33.418910",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "합동(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     }
   },
   "last_base_success_at": "2026-11-02T00:15:45.299088+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-12T02:30:33.421276+09:00",
+  "last_patch_success_at": "2026-11-12T08:30:47.963693+09:00",
   "last_patch_error": null,
-  "base_age_hours": 242.25,
+  "base_age_hours": 248.25,
   "base_status": "stale"
 }
