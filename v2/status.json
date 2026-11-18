@@ -1,19 +1,23 @@
 {
-  "last_checked_at": "2026-11-18T08:30:47.062070",
-  "last_modified_at": "2026-11-18T08:30:47.062070",
+  "last_checked_at": "2026-11-18T10:30:41.209054",
+  "last_modified_at": "2026-11-18T10:30:41.209054",
   "status": "success",
-  "description": "성공: 총 2개 금고(고아(본점), 드림(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 6개 금고(종로3.4가(본점), 북구(본점), 서초제일(본점), 아현(본점), 종로중부(본점) 외 1곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 959,
       "total_items": 959,
-      "last_updated_at": "2026-11-18T08:30:47.062070",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-11-18T10:30:41.209054",
+      "updated_banks_count": 6,
+      "description": "6개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "드림(본점)",
-        "고아(본점)"
+        "서초제일(본점)",
+        "아현(본점)",
+        "종로3.4가(본점)",
+        "종로중부(본점)",
+        "북구(본점)",
+        "파주(본점)"
       ]
     },
     "saving": {
@@ -36,8 +40,8 @@
   "last_base_success_at": "2026-11-18T03:16:22.047914+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-18T08:30:47.065667+09:00",
+  "last_patch_success_at": "2026-11-18T10:30:41.211421+09:00",
   "last_patch_error": null,
-  "base_age_hours": 5.24,
+  "base_age_hours": 7.24,
   "base_status": "success"
 }
