@@ -1,8 +1,8 @@
 {
-  "last_checked_at": "2026-11-24T16:30:43.608064",
+  "last_checked_at": "2026-11-24T18:30:47.295380",
   "last_modified_at": "2026-11-24T16:30:43.608064",
   "status": "success",
-  "description": "성공: 총 1개 금고(부산중구(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
@@ -25,18 +25,16 @@
       "total_banks": 1139,
       "total_items": 2162,
       "last_updated_at": "2026-11-24T16:30:43.608064",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "부산중구(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     }
   },
   "last_base_success_at": "2026-11-24T03:16:27.917568+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-24T16:30:43.610395+09:00",
+  "last_patch_success_at": "2026-11-24T18:30:47.297827+09:00",
   "last_patch_error": null,
-  "base_age_hours": 13.24,
+  "base_age_hours": 15.24,
   "base_status": "success"
 }
