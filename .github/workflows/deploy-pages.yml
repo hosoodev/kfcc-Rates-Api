@@ -91,6 +91,21 @@ jobs:
           print(f'Validated {count} static JSON/gzip files and required API endpoints')
           PY
 
+      # Finish the upload in this job before the deploy job looks it up.
+      - name: Prepare static artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/pages-static"
+          cp -a v2 "$RUNNER_TEMP/pages-static/v2"
+          cp CNAME robots.txt .nojekyll "$RUNNER_TEMP/pages-static/v2/"
+
+      - name: Upload static artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/pages-static/v2
+
   deploy:
     needs: validate
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
@@ -103,23 +118,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout static data
-        uses: actions/checkout@v4
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
-
-      - name: Prepare static artifact
-        shell: bash
-        run: |
-          mkdir -p "$RUNNER_TEMP/pages-static"
-          cp -a v2 "$RUNNER_TEMP/pages-static/v2"
-          cp CNAME robots.txt .nojekyll "$RUNNER_TEMP/pages-static/v2/"
-
-      - name: Upload static artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ${{ runner.temp }}/pages-static/v2
 
       - name: Deploy Pages
         id: deployment
