@@ -1,28 +1,29 @@
 {
-  "last_checked_at": "2026-11-26T14:30:34.188733",
-  "last_modified_at": "2026-11-26T14:30:34.188733",
+  "last_checked_at": "2026-11-26T16:30:34.437869",
+  "last_modified_at": "2026-11-26T16:30:34.437869",
   "status": "success",
-  "description": "성공: 총 2개 금고(성수2가1동(본점), 세검정(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2개 금고(우암동(본점), 남부산(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-11-26T14:30:34.188733",
-      "updated_banks_count": 2,
-      "description": "2개 금고 금리 변동 발생",
+      "last_updated_at": "2026-11-26T16:30:34.437869",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성수2가1동(본점)",
-        "세검정(본점)"
+        "남부산(본점)"
       ]
     },
     "saving": {
       "total_banks": 848,
       "total_items": 1621,
-      "last_updated_at": "2026-11-26T12:30:44.658474",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-11-26T16:30:34.437869",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "우암동(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1139,
@@ -36,8 +37,8 @@
   "last_base_success_at": "2026-11-26T03:16:31.986035+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-26T14:30:34.190989+09:00",
+  "last_patch_success_at": "2026-11-26T16:30:34.440185+09:00",
   "last_patch_error": null,
-  "base_age_hours": 11.23,
+  "base_age_hours": 13.23,
   "base_status": "success"
 }
