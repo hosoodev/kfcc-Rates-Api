@@ -1,30 +1,27 @@
 {
-  "last_checked_at": "2026-11-26T10:31:03.815807",
-  "last_modified_at": "2026-11-26T10:31:03.815807",
+  "last_checked_at": "2026-11-26T12:30:44.658474",
+  "last_modified_at": "2026-11-26T12:30:44.658474",
   "status": "success",
-  "description": "성공: 총 4개 금고(길음중앙(본점), 서울축산(본점), 도량(본점), 서울송파(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 1개 금고(중림.만리(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
       "last_updated_at": "2026-11-26T10:31:03.815807",
-      "updated_banks_count": 4,
-      "description": "4개 금고 금리 변동 발생",
-      "changed_bank_names": [
-        "서울송파(본점)",
-        "길음중앙(본점)",
-        "서울축산(본점)",
-        "도량(본점)"
-      ]
+      "updated_banks_count": 0,
+      "description": "금리 변동 없음",
+      "changed_bank_names": []
     },
     "saving": {
       "total_banks": 848,
       "total_items": 1621,
-      "last_updated_at": "2026-11-26T03:18:30.357043",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-11-26T12:30:44.658474",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "중림.만리(본점)"
+      ]
     },
     "demand": {
       "total_banks": 1139,
@@ -38,8 +35,8 @@
   "last_base_success_at": "2026-11-26T03:16:31.986035+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-26T10:31:03.817545+09:00",
+  "last_patch_success_at": "2026-11-26T12:30:44.660879+09:00",
   "last_patch_error": null,
-  "base_age_hours": 7.24,
+  "base_age_hours": 9.24,
   "base_status": "success"
 }
