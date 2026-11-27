@@ -1,18 +1,20 @@
 {
-  "last_checked_at": "2026-11-27T08:30:48.847557",
-  "last_modified_at": "2026-11-27T08:30:48.847557",
+  "last_checked_at": "2026-11-27T10:30:50.194119",
+  "last_modified_at": "2026-11-27T10:30:50.194119",
   "status": "success",
-  "description": "성공: 총 1개 금고(성북(본점))의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 3개 금고(정읍(본점), 고아(본점), 원광(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-11-27T08:30:48.847557",
-      "updated_banks_count": 1,
-      "description": "1개 금고 금리 변동 발생",
+      "last_updated_at": "2026-11-27T10:30:50.194119",
+      "updated_banks_count": 3,
+      "description": "3개 금고 금리 변동 발생",
       "changed_bank_names": [
-        "성북(본점)"
+        "원광(본점)",
+        "정읍(본점)",
+        "고아(본점)"
       ]
     },
     "saving": {
@@ -35,8 +37,8 @@
   "last_base_success_at": "2026-11-27T03:16:22.891499+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-27T08:30:48.850147+09:00",
+  "last_patch_success_at": "2026-11-27T10:30:50.196508+09:00",
   "last_patch_error": null,
-  "base_age_hours": 5.24,
+  "base_age_hours": 7.24,
   "base_status": "success"
 }
