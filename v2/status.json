@@ -34,7 +34,8 @@
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
   "last_patch_success_at": "2026-11-27T12:30:47.363057+09:00",
-  "last_patch_error": null,
-  "base_age_hours": 9.24,
-  "base_status": "success"
+  "last_patch_error": "Collection failed; see private Actions log",
+  "base_age_hours": 12.73,
+  "base_status": "success",
+  "last_patch_failure_at": "2026-11-27T16:00:04.626342+09:00"
 }
