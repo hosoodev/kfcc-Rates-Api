@@ -1,17 +1,19 @@
 {
-  "last_checked_at": "2026-11-27T12:30:47.361863",
-  "last_modified_at": "2026-11-27T10:30:50.194119",
+  "last_checked_at": "2026-11-27T16:30:59.038459",
+  "last_modified_at": "2026-11-27T16:30:59.038459",
   "status": "success",
-  "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
+  "description": "성공: 총 1개 금고(조촌(본점))의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 960,
       "total_items": 960,
-      "last_updated_at": "2026-11-27T10:30:50.194119",
-      "updated_banks_count": 0,
-      "description": "금리 변동 없음",
-      "changed_bank_names": []
+      "last_updated_at": "2026-11-27T16:30:59.038459",
+      "updated_banks_count": 1,
+      "description": "1개 금고 금리 변동 발생",
+      "changed_bank_names": [
+        "조촌(본점)"
+      ]
     },
     "saving": {
       "total_banks": 848,
@@ -33,9 +35,9 @@
   "last_base_success_at": "2026-11-27T03:16:22.891499+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-27T12:30:47.363057+09:00",
-  "last_patch_error": "Collection failed; see private Actions log",
-  "base_age_hours": 12.73,
-  "base_status": "success",
-  "last_patch_failure_at": "2026-11-27T16:00:04.626342+09:00"
+  "last_patch_success_at": "2026-11-27T16:30:59.040230+09:00",
+  "last_patch_failure_at": "2026-11-27T16:00:04.626342+09:00",
+  "last_patch_error": null,
+  "base_age_hours": 13.24,
+  "base_status": "success"
 }
