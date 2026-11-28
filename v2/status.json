@@ -1,16 +1,16 @@
 {
-  "last_checked_at": "2026-11-29T03:16:12.912721",
-  "last_modified_at": "2026-11-29T03:16:12.912721",
+  "last_checked_at": "2026-11-29T03:18:14.290089",
+  "last_modified_at": "2026-11-29T03:18:14.290089",
   "status": "success",
-  "description": "성공: 총 2247개 금고(동대문상가(본점), 대신동(본점), 서초(본점), 원남(본점), 동두천중앙(본점) 외 947곳)의 데이터 변동이 감지되었습니다.",
+  "description": "성공: 총 2245개 금고(회현동(본점), 수성1가(본점), 온천3동(본점), 익산중앙(본점), 평상(본점) 외 947곳)의 데이터 변동이 감지되었습니다.",
   "version": "2.0",
   "stats": {
     "deposit": {
       "total_banks": 957,
       "total_items": 957,
-      "last_updated_at": "2026-11-29T03:16:12.912721",
-      "updated_banks_count": 657,
-      "description": "657개 금고 금리 변동 발생",
+      "last_updated_at": "2026-11-29T03:18:14.290089",
+      "updated_banks_count": 655,
+      "description": "655개 금고 금리 변동 발생",
       "changed_bank_names": [
         "서울개인택시조합(강남)",
         "청담동(본점)",
@@ -36,7 +36,6 @@
         "여의도(본점)",
         "한강(본점)",
         "상도(본점)",
-        "상도중앙(본점)",
         "동작(본점)",
         "사당(본점)",
         "목동(본점)",
@@ -87,7 +86,6 @@
         "동대문동부(본점)",
         "능동(본점)",
         "구의동(본점)",
-        "광진중앙(본점)",
         "광진제일(본점)",
         "광진(본점)",
         "서울은평(본점)",
@@ -674,7 +672,7 @@
     "saving": {
       "total_banks": 845,
       "total_items": 1615,
-      "last_updated_at": "2026-11-29T03:16:12.912721",
+      "last_updated_at": "2026-11-29T03:18:14.290089",
       "updated_banks_count": 608,
       "description": "608개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -1291,7 +1289,7 @@
     "demand": {
       "total_banks": 1134,
       "total_items": 2153,
-      "last_updated_at": "2026-11-29T03:16:12.912721",
+      "last_updated_at": "2026-11-29T03:18:14.290089",
       "updated_banks_count": 982,
       "description": "982개 금고 금리 변동 발생",
       "changed_bank_names": [
@@ -2283,9 +2281,9 @@
   "last_base_success_at": "2026-11-29T03:16:14.855208+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-29T02:31:01.479463+09:00",
+  "last_patch_success_at": "2026-11-29T03:18:14.293906+09:00",
   "last_patch_failure_at": "2026-11-28T10:00:04.508225+09:00",
   "last_patch_error": null,
-  "base_age_hours": 0.0,
+  "base_age_hours": 0.03,
   "base_status": "success"
 }
