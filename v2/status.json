@@ -1,5 +1,5 @@
 {
-  "last_checked_at": "2026-11-28T16:30:30.540078",
+  "last_checked_at": "2026-11-28T18:30:49.109613",
   "last_modified_at": "2026-11-28T03:17:35.318484",
   "status": "success",
   "description": "성공: 금리 변동 사항이 데이터베이스와 일치하여 업데이트가 스킵되었습니다.",
@@ -33,9 +33,9 @@
   "last_base_success_at": "2026-11-28T03:15:42.069280+09:00",
   "last_base_failure_at": "2026-11-02T00:04:04.189385+09:00",
   "last_base_error": null,
-  "last_patch_success_at": "2026-11-28T16:30:30.542341+09:00",
+  "last_patch_success_at": "2026-11-28T18:30:49.111956+09:00",
   "last_patch_failure_at": "2026-11-28T10:00:04.508225+09:00",
   "last_patch_error": null,
-  "base_age_hours": 13.25,
+  "base_age_hours": 15.25,
   "base_status": "success"
 }
